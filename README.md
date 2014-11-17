@@ -74,7 +74,7 @@ Some notes on the `state_abbreviations` and `case_name_abbreviations` files:
 
  1. Mississippi supports neutral citations, but does so in their own format, as 
     specified in [this rule][missingthepoint]. Research is needed for the 
-    format in `constants.json` to see if it is used accidentally as a variant 
+    format in `reporters.json` to see if it is used accidentally as a variant 
     of their rule or whether it is an error in this database.
  1. New Mexico dates confirmed via the [table here][nmdates].
  1. Both Puerto Rico and "Pennsylvania State Reports, Penrose and 
@@ -96,21 +96,23 @@ You can see all of the variables that can be imported by looking in
 `__init__.py`. Other variables currently include: `STATE_ABBREVIATIONS`, 
 `CASE_NAME_ABBREVIATIONS`, `VARIATIONS_ONLY`, and `EDITIONS`. These latter two
 are convenience variables that you can use to get different views of the 
-`reporters` data.
+`REPORTERS` data.
+
+Of course, if you're not using Python, the data is in the `json` format, so 
+you should be able to import it using your language of choice.
 
 
 ## Tests
 
-
-[![Build Status](https://travis-ci.org/freelawproject/reporter_db.svg?branch=master)][travis]
+[![Build Status](https://travis-ci.org/freelawproject/reporters-db.svg?branch=master)][travis]
 
 We have a few tests that make sure things haven't completely broken. They are
 automatically run by Travis CI each time a push is completed and should be run
-by developers as well. They can be run with:
+by developers as well before pushing. They can be run with:
 
     python tests.py
     
-It's pretty simple.
+It's pretty simple, right?
 
 
 ## Version History
@@ -124,15 +126,13 @@ It's pretty simple.
     2. Updates cite_type for better granularity and to eliminate a few errors.
     3. Adds WL, LEXIS and U.S. App. LEXIS as specialty_lexis and specialty_west cite_types.
     4. `fed` cite_type has been converted to `federal`
-    
+
+### Current Version
+
  - 1.0.2
     
     1. Adds tests to verify the data (see ./tests.py)
     2. Fixes a few data issues after applying tests
-
-### Current Version
-
- - 1.0.3: Adds timezone clarity to the dates. No more naïveté.
 
 ### Future Versions
 
@@ -160,4 +160,4 @@ Pull and feature requests welcome. Online editing in Github is possible (and eas
 [cardiff]: http://www.legalabbrevs.cardiff.ac.uk/
 [missingthepoint]: http://www.aallnet.org/main-menu/Advocacy/access/citation/neutralrules/rules-ms.html
 [nmdates]: http://www.nmcompcomm.us/nmcases/pdf/NM%20Reports%20to%20Official%20-%20Vols.%201-75.pdf
-[travis]: https://travis-ci.org/freelawproject/reporter_db
+[travis]: https://travis-ci.org/freelawproject/reporters-db
