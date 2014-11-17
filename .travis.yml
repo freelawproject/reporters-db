@@ -3,5 +3,6 @@ python:
  - "2.7"
 install:
  - ln -s `pwd` $(dirname `which python`)/../lib/python2.7/site-packages/reporter_db
+ - echo "Installation complete."
 script:
  - python tests.py
