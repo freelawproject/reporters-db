@@ -10,7 +10,7 @@ def datetime_parser(dct):
     for k, v in dct.items():
         if isinstance(v, basestring):
             try:
-                dct[k] = datetime.datetime.strptime(v, '%Y-%m-%d')
+                dct[k] = datetime.datetime.strptime(v, "%Y-%m-%dT%H:%M:%S")
             except:
                 pass
     return dct

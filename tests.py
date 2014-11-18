@@ -1,5 +1,6 @@
 from reporters_db import REPORTERS, VARIATIONS_ONLY, EDITIONS
 from unittest import TestCase
+import datetime
 
 
 class ConstantsTest(TestCase):
@@ -25,3 +26,13 @@ class ConstantsTest(TestCase):
                     msg="Could not map variation to a valid reporter: %s" %
                         variation
                 )
+
+    def test_that_dates_are_converted_to_dates_not_strings(self):
+        """Do we properly make the ISO-8601 date strings into Python dates?"""
+        # Just test one.
+        self.assertTrue(
+            isinstance(REPORTERS['A.'][0]['editions']['A.']['start'],
+                    datetime.datetime),
+            msg="Dates in the reporters appear to be coming through as " \
+                "strings."
+        )
