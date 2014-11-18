@@ -1,3 +1,7 @@
+import json
+import datetime
+
+
 def suck_out_variations_only(reporters):
     """Builds a dictionary of variations to canonical reporters.
 
@@ -54,3 +58,13 @@ def suck_out_editions(reporters):
                     # The item wasn't there; add it.
                     editions_out[edition_key] = reporter_key
     return editions_out
+
+
+def print_json_with_dates(obj):
+    date_handler = lambda obj: (
+        obj.isoformat()
+        if isinstance(obj, datetime.datetime)
+        or isinstance(obj, datetime.date)
+        else None)
+
+    print json.dumps(obj, default=date_handler, sort_keys=True)

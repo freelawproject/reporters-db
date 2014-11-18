@@ -127,12 +127,14 @@ It's pretty simple, right?
     3. Adds WL, LEXIS and U.S. App. LEXIS as specialty_lexis and specialty_west cite_types.
     4. `fed` cite_type has been converted to `federal`
 
-### Current Version
-
  - 1.0.2
     
     1. Adds tests to verify the data (see ./tests.py)
     2. Fixes a few data issues after applying tests
+
+### Current Version
+
+ - 1.0.9: Updates the mlz_jurisdiction field to be state-specific, per issue #1.
 
 ### Future Versions
 
