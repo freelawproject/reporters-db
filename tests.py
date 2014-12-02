@@ -27,12 +27,30 @@ class ConstantsTest(TestCase):
                         variation
                 )
 
-    def test_that_dates_are_converted_to_dates_not_strings(self):
+    def test_that_all_dates_are_converted_to_dates_not_strings(self):
         """Do we properly make the ISO-8601 date strings into Python dates?"""
-        # Just test one.
-        self.assertTrue(
-            isinstance(REPORTERS['A.'][0]['editions']['A.']['start'],
-                    datetime.datetime),
-            msg="Dates in the reporters appear to be coming through as " \
-                "strings."
-        )
+        for reporter_name, reporter_list in REPORTERS.iteritems():
+            # reporter_name == "A."
+            # reporter_list == [
+            # {'name': 'Atlantic Reporter', 'editions': ...},
+            # {'name': 'Aldo's Reporter', 'editions': ...}
+            # ]
+            for reporter_dict in reporter_list:
+                # reporter_dict == {'name': 'Atlantic Reporter'}
+                for e_name, e_dates in reporter_dict['editions'].iteritems():
+                    # e_name == "A. 2d"
+                    # e_dates == {
+                    #     "end": "1938-12-31T00:00:00",
+                    #     "start": "1885-01-01T00:00:00"
+                    # }
+                    for key in ['start', 'end']:
+                        is_date_or_none = (
+                            isinstance(e_dates[key], datetime.datetime) or
+                            e_dates[key] is None
+                        )
+                        self.assertTrue(
+                            is_date_or_none,
+                            msg=("%s dates in the reporter '%s' appear to be "
+                                 "coming through as '%s'" %
+                                 (key, e_name, type(e_dates[key])))
+                        )
