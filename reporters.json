@@ -2306,8 +2306,12 @@
                     "start": "1932-01-01T00:00:00"
                 }, 
                 "F. Supp. 2d": {
-                    "end": null, 
+                    "end": "2014-08-21T00:00:00", 
                     "start": "1988-01-01T00:00:00"
+                },
+                "F. Supp. 3d": {
+                    "end": null,
+                    "start": "2014-03-04T00:00:00"
                 }
             }, 
             "mlz_jurisdiction": [
@@ -2423,7 +2427,9 @@
                 "F. Supp.2d": "F. Supp. 2d", 
                 "F.Supp.": "F. Supp.", 
                 "F.Supp. 2d": "F. Supp. 2d", 
-                "F.Supp.2d": "F. Supp. 2d"
+                "F.Supp.2d": "F. Supp. 2d",
+                "F.Supp. 3d": "F. Supp. 3d", 
+                "F.Supp.3d": "F. Supp. 3d"
             }
         }
     ], 
