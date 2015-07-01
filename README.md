@@ -86,7 +86,7 @@ Some notes on the `state_abbreviations` and `case_name_abbreviations` files:
 You can install the Free Law Reporters Database with a few simple commands:
 
     sudo git clone https://github.com/freelawproject/reporters-db /usr/local/reporters_db
-    sudo ln -s /usr/local/reporters_db /usr/lib/python2.7/dist-packages/reporters_db
+    sudo ln -s /usr/local/reporters_db `python -c "from distutils.sysconfig import get_python_lib; print get_python_lib()"`/reporters_db
 
 Once installed you can use it in your code with something like:
 
