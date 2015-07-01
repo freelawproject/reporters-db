@@ -58,7 +58,9 @@ Database:
     actual start date is unknown. Likewise, if an edition has `null` as its 
     end date, that indicates the actual end date is either unknown, or it's
     known that the series has not completed. These areas need research before 
-    we can release version 1.1 of this database.
+    we can release version 1.1 of this database. Finally, dates are inclusive, 
+    so the first and last opinions in a reporter series have the same dates as 
+    the database.
     
 Some notes on the `state_abbreviations` and `case_name_abbreviations` files:
 
