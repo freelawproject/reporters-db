@@ -1,3 +1,5 @@
+[![Slack Status](https://join-flp-talk.herokuapp.com/badge.svg)](https://join-flp-talk.herokuapp.com/)
+
 ## Background of the Free Law Reporters Database
 
 A long, long time ago near a courthouse not too far away, people started 
