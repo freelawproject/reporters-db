@@ -77,6 +77,29 @@
             }
         }
     ],
+    "A.F.T.R. (RIA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "A.F.T.R. (RIA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                },
+                "A.F.T.R.2d (RIA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American Federal Tax Reports",
+            "variations": {
+                "A.F.T.R.": "A.F.T.R. (RIA)",
+                "A.F.T.R. 2d (RIA)": "A.F.T.R.2d (RIA)",
+                "A.F.T.R. 2d": "A.F.T.R.2d (RIA)",
+                "A.F.T.R.2d": "A.F.T.R.2d (RIA)"
+            }
+        }
+    ],
     "A.K. Marsh.": [
         {
             "cite_type": "state",
@@ -96,6 +119,22 @@
                 "Marsh.": "A.K. Marsh.",
                 "Marsh.(Ky.)": "A.K. Marsh.",
                 "Marsh.A.K.": "A.K. Marsh."
+            }
+        }
+    ],
+    "A.M.C.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "A.M.C.": {
+                    "end": null,
+                    "start": "1923-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdictions": [],
+            "name": "American Maritime Cases",
+            "variations": {
+                "AMC": "A.M.C."
             }
         }
     ],
@@ -1701,7 +1740,10 @@
                 "us:c;court.customs.appeals"
             ],
             "name": "Court of Customs Appeals Reports",
-            "variations": {}
+            "variations": {
+                "Cust.Ct.": "Ct. Cust.",
+                "Cust. Ct.": "Ct. Cust."
+            }
         }
     ],
     "Ct. Int'l Trade": [
@@ -2197,6 +2239,40 @@
             }
         }
     ],
+    "ERC": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "ERC": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Environmental Reporter Cases",
+            "variations": {},
+            "href": "http://www.bna.com/environment-reporter-p4885/",
+            "notes": "Neither Blue Book nor Baby Blue provides guidance on this reporter."
+        }
+    ],
+    "Envtl. L. Rep. (Envtl. Law Inst.)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Envtl. L. Rep. (Envtl. Law Inst.)": {
+                    "end": null,
+                    "start": "1971-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Environmental Law Reporter",
+            "variations": {
+                "Envtl. L.Rep.": "Envtl. L. Rep. (Envtl. Law Inst.)",
+                "Envtl. L. Rep.": "Envtl. L. Rep. (Envtl. Law Inst.)"
+            },
+            "href": "http://elr.info/"
+        }
+    ],
     "F.": [
         {
             "cite_type": "federal",
@@ -2570,6 +2646,23 @@
             "variations": {}
         }
     ],
+    "Fair Empl. Prac. Cas. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fair Empl. Prac. Cas. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Fair Employment Practice Cases",
+            "variations": {
+                "Fair Empl.Prac.Cas.": "Fair Empl. Prac. Cas. (BNA)",
+                "Fair Empl.Prac.Cas. (BNA)": "Fair Empl. Prac. Cas. (BNA)"
+            }
+        }
+    ],
     "Fed. Cl.": [
         {
             "cite_type": "specialty",
@@ -2728,9 +2821,15 @@
             ],
             "name": "Federal Rules Service",
             "variations": {
+                "Fed.R.Serv.": "Fed. R. Serv.",
+                "Fed.R.Serv.2d": "Fed. R. Serv. 2d",
+                "Fed.R.Serv.3d": "Fed. R. Serv. 3d",
                 "Fed. R. Serv. (Callaghan)": "Fed. R. Serv.",
                 "Fed. R. Serv. 2d (Callaghan)": "Fed. R. Serv. 2d",
-                "Fed. R. Serv. 3d (West)": "Fed. R. Serv. 3d"
+                "Fed. R. Serv. 3d (West)": "Fed. R. Serv. 3d",
+                "Fed.R.Serv. (Callaghan)": "Fed. R. Serv.",
+                "Fed.R.Serv.2d (Callaghan)": "Fed. R. Serv. 2d",
+                "Fed.R.Serv.3d (West)": "Fed. R. Serv. 3d"
             }
         }
     ],
@@ -4110,6 +4209,22 @@
                 "U.S.L.Ed.": "L. Ed.",
                 "U.S.L.Ed.2d": "L. Ed. 2d",
                 "U.S.Law.Ed.": "L. Ed."
+            }
+        }
+    ],
+    "L.R.R.M. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "L.R.R.M. (BNA)": {
+                    "end": null,
+                    "start": "1937-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdictions": [],
+            "name": "Labor Relations Reference Manual",
+            "variations": {
+                "L.R.R.M.": "L.R.R.M. (BNA)"
             }
         }
     ],
@@ -5802,6 +5917,25 @@
                 "Nott & McC.": "Nott & McC.",
                 "S.C.L.(Nott & McC.)": "Nott & McC."
             }
+        }
+    ],
+    "O.S.H. Cas. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "O.S.H. Cas. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Occupational Safety & Health Cases",
+            "variations": {
+                "O.S.H. Cas.": "O.S.H. Cas. (BNA)",
+                "O.S.H. Cases": "O.S.H. Cas. (BNA)",
+                "O.S.H. Cases (BNA)": "O.S.H. Cas. (BNA)"
+            },
+            "href": "http://www.bna.com/occupational-safety--p4900/"
         }
     ],
     "OH": [
@@ -7852,6 +7986,25 @@
             "variations": {}
         }
     ],
+    "Trade Cas. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Trade Cas. (CCH)": {
+                    "end": null,
+                    "start": "1914-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Trade Cases",
+            "variations": {
+                "Trade Cas.": "Trade Cas. (CCH)",
+                "Trade Cas. (CCH)": "Trade Cas. (CCH)",
+                "Trade Cases": "Trade Cas. (CCH)"
+            },
+            "href": "http://w3.nexis.com/sources/scripts/info.pl?168025"
+        }
+    ],
     "Tread.": [
         {
             "cite_type": "state",
@@ -8076,6 +8229,56 @@
             ],
             "name": "United States Law Week",
             "variations": {}
+        }
+    ],
+    "U.S.P.Q. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "U.S.P.Q. (BNA)": {
+                    "end": "1987-12-31T00:00:00",
+                    "start": "1913-01-01T00:00:00"
+                },
+                "U.S.P.Q. 2d (BNA)": {
+                    "end": null,
+                    "start": "1987-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "The United States Patents Quarterly",
+            "variations": {
+                "USPQ": "U.S.P.Q. (BNA)",
+                "USPQ 2d": "U.S.P.Q. 2d (BNA)",
+                "USPQ (BNA)": "U.S.P.Q. (BNA)",
+                "USPQ 2d (BNA)": "U.S.P.Q. 2d (BNA)"
+            },
+            "href": "http://www.bna.com/iprc_uspq/"
+        }
+    ],
+    "UCC Rep. Serv. (West)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "UCC Rep. Serv. (West)": {
+                    "end": "1986-12-31T00:00:00",
+                    "start": "1750-01-01T00:00:00"
+                },
+                "UCC Rep. Serv. 2d (West)": {
+                    "end": null,
+                    "start": "1986-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Uniform Commercial Code Reporting Service",
+            "variations": {
+                "UCC Rep.Serv.": "UCC Rep. Serv. (West)",
+                "UCC Rep.Serv.2d": "UCC Rep. Serv. 2d (West)",
+                "UCC Rep. Serv.": "UCC Rep. Serv. (West)",
+                "UCC Rep. Serv. 2d": "UCC Rep. Serv. 2d (West)",
+                "UCC Rep.Serv. (West)": "UCC Rep. Serv. (West)",
+                "UCC Rep.Serv.2d (West)": "UCC Rep. Serv. 2d (West)"
+            },
+            "href": "http://legalsolutions.thomsonreuters.com/law-products/Reporters/Uniform-Commercial-Code-Reporting-Service-2d/p/100027471"
         }
     ],
     "UT": [
@@ -8391,6 +8594,22 @@
             ],
             "name": "Wyoming Neutral Citation",
             "variations": {}
+        }
+    ],
+    "Wage & Hour Cas. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Wage & Hour Cas. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Wage and Hour Cases",
+            "variations": {
+                "Wage & Hour Cas.": "Wage & Hour Cas. (BNA)"
+            }
         }
     ],
     "Walk.": [

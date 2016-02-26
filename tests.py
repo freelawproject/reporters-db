@@ -1,6 +1,17 @@
+import datetime
 from reporters_db import REPORTERS, VARIATIONS_ONLY, EDITIONS
 from unittest import TestCase
-import datetime
+
+VALID_CITE_TYPES = (
+    'federal',
+    'neutral',
+    'scotus_early',
+    'specialty',
+    'specialty_west',
+    'specialty_lexis',
+    'state',
+    'state_regional',
+)
 
 
 class ConstantsTest(TestCase):
@@ -54,3 +65,13 @@ class ConstantsTest(TestCase):
                                  "coming through as '%s'" %
                                  (key, e_name, type(e_dates[key])))
                         )
+
+    def test_all_reporters_have_valid_cite_type(self):
+        """Do all reporters have valid cite_type values?"""
+        for reporter_abbv, reporter_list in REPORTERS.items():
+            for reporter_data in reporter_list:
+                self.assertIn(
+                    reporter_data['cite_type'],
+                    VALID_CITE_TYPES,
+                    "%s did not have a valid cite_type value" % reporter_abbv,
+                )
