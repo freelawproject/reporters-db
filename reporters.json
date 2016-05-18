@@ -6051,7 +6051,9 @@
                 "O.App.3d": "Ohio App. 3d",
                 "Oh.A.": "Ohio App.",
                 "Oh.A.2d": "Ohio App. 2d",
-                "Oh.App.3d": "Ohio App. 3d"
+                "Oh.App.3d": "Ohio App. 3d",
+                "Ohio App.3d": "Ohio App. 3d",
+                "Ohio App.3d": "Ohio App. 3d"
             }
         }
     ],
@@ -6361,7 +6363,9 @@
                 "O.Cr.": "Okla. Crim.",
                 "Okl.Cr.": "Okla. Crim.",
                 "Okla.": "Okla. Crim.",
-                "Okla.Cr.": "Okla. Crim."
+                "Okla.Cr.": "Okla. Crim.",
+                "Okla. Cr.": "Okla. Crim.",
+                "Okla. Cr.": "Okla. Crim."
             }
         }
     ],
