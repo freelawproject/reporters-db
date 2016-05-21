@@ -73,7 +73,8 @@
                 "App.Div.(N.Y.)": "A.D.",
                 "App.Div.2d.": "A.D.",
                 "N.Y.App.Dec.": "A.D.",
-                "N.Y.App.Div.": "A.D."
+                "N.Y.App.Div.": "A.D.",
+                "App. Div.": "A.D."
             }
         }
     ],
@@ -377,6 +378,22 @@
                 "us:az;supreme.court"
             ],
             "name": "Arizona Reporter",
+            "variations": {}
+        }
+    ],
+    "Ariz. Adv. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ariz. Adv. Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:az;supreme.court"
+            ],
+            "name": "Arizona Advanced Reports",
             "variations": {}
         }
     ],
@@ -1517,6 +1534,22 @@
             }
         }
     ],
+    "Colo. App.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Colo. App.": {
+                    "end": "1980-12-31T00:00:00",
+                    "start": "1970-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:co;supreme.court"
+            ],
+            "name": "Colorado Court of Appeals Reports",
+            "variations": {}
+        }
+    ],
     "Colo. Law.": [
         {
             "cite_type": "state",
@@ -1762,6 +1795,22 @@
             "variations": {
                 "Ct.Int'l Trade": "Ct. Int'l Trade"
             }
+        }
+    ],
+    "Ct. Sup.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ct. Sup.": {
+                    "end": null,
+                    "start": "1986-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ct;supreme.court"
+            ],
+            "name": "Connecticut Superior Reports",
+            "variations": {}
         }
     ],
     "Cush.": [
@@ -4679,6 +4728,22 @@
             "variations": {}
         }
     ],
+    "Ma.Super.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ma.Super.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;supreme.court"
+            ],
+            "name": "Massachusetts Superior Reports",
+            "variations": {}
+        }
+    ],
     "Mass.": [
         {
             "cite_type": "state",
@@ -5076,6 +5141,22 @@
             }
         }
     ],
+    "Minn.App.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Minn.App.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mn;supreme.court"
+            ],
+            "name": "Minnesota Appellate Reports",
+            "variations": {}
+        }
+    ],
     "Minor": [
         {
             "cite_type": "state",
@@ -5140,6 +5221,22 @@
             "variations": {
                 "Mis.": "Miss."
             }
+        }
+    ],
+    "Miss.App.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Miss.App.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ms;supreme.court"
+            ],
+            "name": "Mississippi Appellate Reports",
+            "variations": {}
         }
     ],
     "Mo.": [
@@ -6954,6 +7051,22 @@
                 "us:ri;supreme.court"
             ],
             "name": "Rhode Island Reports",
+            "variations": {}
+        }
+    ],
+    "R.I.Super.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "R.I.Super.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ri;supreme.court"
+            ],
+            "name": "Rhode Island Superior Court Reports",
             "variations": {}
         }
     ],
