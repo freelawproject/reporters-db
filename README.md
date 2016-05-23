@@ -46,13 +46,14 @@ Database:
     In some cases (especially in early reporters), the key is ambiguous,
     referring to more than one possible reporter.
  1. Formats follow the Blue Book standard, with variations listed for local
-    rules.
+    rules and other ways lawyers abbreviate it over the years or accidentally.
  1. The `variations` key consists of data from local rules, found through
     organic usage in our corpus and from the [Cardiff Index to Legal
     Abbreviations][cardiff]. We have used a dict for these values due to the
     fact that there can be variations for each series.
  1. `mlz_jurisdiction` corresponds to the work that is being done for
-    Multi-Lingual Zotero.
+    Multi-Lingual Zotero. This field is maintained by Frank Bennett and may
+    sometimes be missing values.
  1. Some reporters have `href` or `notes` fields to provide a link to the
     best available reference (often Wikipedia) or to provide notes about the
     reporter itself.
@@ -66,6 +67,30 @@ Database:
     we can release version 1.1 of this database. Finally, dates are inclusive,
     so the first and last opinions in a reporter series have the same dates as
     the database.
+
+A complete data point has fields like so:
+
+    "$citation": [
+        {
+            "cite_type": "state|federal|",
+            "editions": {
+                "$citation": {
+                    "end": null,
+                    "start": null
+                }
+                "$citation 2d": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdictions": [],
+            "name": "",
+            "variations": {},
+            "notes": "",
+            "href": "",
+            "publisher": ""
+        }
+    ],
 
 Some notes on the `state_abbreviations` and `case_name_abbreviations` files:
 
