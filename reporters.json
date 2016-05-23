@@ -70,8 +70,12 @@
                 "Ap.": "A.D.",
                 "Ap.2d.": "A.D.",
                 "App.Div.": "A.D.",
-                "App.Div.(N.Y.)": "A.D.",
+                "App. Div.": "A.D.",
                 "App.Div.2d.": "A.D.",
+                "App. Div. 2d.": "A.D.",
+                "App.Div.3d.": "A.D.",
+                "App. Div. 3d.": "A.D.",
+                "App.Div.(N.Y.)": "A.D.",
                 "N.Y.App.Dec.": "A.D.",
                 "N.Y.App.Div.": "A.D."
             }
@@ -377,7 +381,25 @@
                 "us:az;supreme.court"
             ],
             "name": "Arizona Reporter",
-            "variations": {}
+            "variations": {},
+            "href": "http://legalsolutions.thomsonreuters.com/law-products/Case-Law/Arizona-Reports/p/100005739"
+        }
+    ],
+    "Ariz. Adv. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ariz. Adv. Rep.": {
+                    "end": null,
+                    "start": "1987-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdictions": [],
+            "name": "Arizona Advance Reports",
+            "variations": {},
+            "notes": "Appears to be a very small publisher. Only publishes this and Utah Advance Reports. Date confirmed via phone call.",
+            "publisher": "Code Co.",
+            "href": "http://www.code-co.com/"
         }
     ],
     "Ariz. App.": [
@@ -1517,6 +1539,23 @@
             }
         }
     ],
+    "Colo. App.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Colo. App.": {
+                    "end": "1980-01-01T00:00:00",
+                    "start": "1891-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Colorado Court of Appeals Reports",
+            "variations": {
+                "Colo.App.": "Colo. App."
+            },
+            "notes": "There were three distinct times this reporter was published, 1891-1905, 1912-1915, and 1970-1980. So, during a span of 110 years, ito was published for only 27 years. This is confirmed by a Colorado Law Librarian and the Indigo Book. Since there just weren't that many volumes in each series, the volume numbering is consecutive and there are no series numbers."
+        }
+    ],
     "Colo. Law.": [
         {
             "cite_type": "state",
@@ -1612,7 +1651,11 @@
                 "us:ct;supreme.court"
             ],
             "name": "Connecticut Superior Court Reports",
-            "variations": {}
+            "variations": {
+                "Ct.Sup.": "Conn. Super. Ct.",
+                "Ct. Sup.": "Conn. Super. Ct.",
+                "Conn.Super.Ct.": "Conn. Super. Ct."
+            }
         }
     ],
     "Conn. Supp.": [
@@ -1683,7 +1726,6 @@
             ],
             "name": "Cranch's Supreme Court Reports",
             "variations": {
-                "Cr.": "Cranch",
                 "Cra.": "Cranch",
                 "Cranch (US)": "Cranch",
                 "U.S.(Cranch)": "Cranch"
@@ -3703,7 +3745,6 @@
             ],
             "name": "Idaho Reports",
             "variations": {
-                "Id.": "Idaho",
                 "Ida.": "Idaho"
             }
         }
@@ -8255,15 +8296,15 @@
             "href": "http://www.bna.com/iprc_uspq/"
         }
     ],
-    "UCC Rep. Serv. (West)": [
+    "U.C.C. Rep. Serv. (West)": [
         {
             "cite_type": "specialty",
             "editions": {
-                "UCC Rep. Serv. (West)": {
+                "U.C.C. Rep. Serv. (West)": {
                     "end": "1986-12-31T00:00:00",
                     "start": "1750-01-01T00:00:00"
                 },
-                "UCC Rep. Serv. 2d (West)": {
+                "U.C.C. Rep. Serv. 2d (West)": {
                     "end": null,
                     "start": "1986-01-01T00:00:00"
                 }
@@ -8271,14 +8312,31 @@
             "mlz_jurisdiction": [],
             "name": "Uniform Commercial Code Reporting Service",
             "variations": {
-                "UCC Rep.Serv.": "UCC Rep. Serv. (West)",
-                "UCC Rep.Serv.2d": "UCC Rep. Serv. 2d (West)",
-                "UCC Rep. Serv.": "UCC Rep. Serv. (West)",
-                "UCC Rep. Serv. 2d": "UCC Rep. Serv. 2d (West)",
-                "UCC Rep.Serv. (West)": "UCC Rep. Serv. (West)",
-                "UCC Rep.Serv.2d (West)": "UCC Rep. Serv. 2d (West)"
+                "UCC Rep.Serv.": "U.C.C. Rep. Serv. (West)",
+                "UCC Rep.Serv.2d": "U.C.C. Rep. Serv. 2d (West)",
+                "UCC Rep. Serv.": "U.C.C. Rep. Serv. (West)",
+                "UCC Rep. Serv.2d": "U.C.C. Rep. Serv. 2d (West)",
+                "UCC Rep. Serv. 2d": "U.C.C. Rep. Serv. 2d (West)",
+                "UCC Rep.Serv. (West)": "U.C.C. Rep. Serv. (West)",
+                "UCC Rep.Serv.2d (West)": "U.C.C. Rep. Serv. 2d (West)",
+                "UCC Rep. Serv.2d (West)": "U.C.C. Rep. Serv. 2d (West)",
+                "UCC Rep.Serv. (Callaghan)": "U.C.C. Rep. Serv. (West)",
+                "UCC Rep.Serv.2d (Callaghan)": "U.C.C. Rep. Serv. 2d (West)",
+                "UCC Rep. Serv.2d (Callaghan)": "U.C.C. Rep. Serv. 2d (West)",
+                "U.C.C. Rep.Serv.": "U.C.C. Rep. Serv. (West)",
+                "U.C.C. Rep.Serv.2d": "U.C.C. Rep. Serv. 2d (West)",
+                "U.C.C. Rep. Serv.": "U.C.C. Rep. Serv. (West)",
+                "U.C.C. Rep. Serv.2d": "U.C.C. Rep. Serv. 2d (West)",
+                "U.C.C. Rep. Serv. 2d": "U.C.C. Rep. Serv. 2d (West)",
+                "U.C.C. Rep.Serv. (West)": "U.C.C. Rep. Serv. (West)",
+                "U.C.C. Rep.Serv.2d (West)": "U.C.C. Rep. Serv. 2d (West)",
+                "U.C.C. Rep. Serv.2d (West)": "U.C.C. Rep. Serv. 2d (West)",
+                "U.C.C. Rep.Serv. (Callaghan)": "U.C.C. Rep. Serv. (West)",
+                "U.C.C. Rep.Serv.2d (Callaghan)": "U.C.C. Rep. Serv. 2d (West)",
+                "U.C.C. Rep. Serv.2d (Callaghan)": "U.C.C. Rep. Serv. 2d (West)"
             },
-            "href": "http://legalsolutions.thomsonreuters.com/law-products/Reporters/Uniform-Commercial-Code-Reporting-Service-2d/p/100027471"
+            "href": "http://legalsolutions.thomsonreuters.com/law-products/Reporters/Uniform-Commercial-Code-Reporting-Service-2d/p/100027471",
+            "notes": "The Blue Book itself gets this one wrong, stating in Table T15 that the second series does not use 2d. We have the correct citation style here."
         }
     ],
     "UT": [
@@ -8331,6 +8389,22 @@
             ],
             "name": "Utah Reports",
             "variations": {}
+        }
+    ],
+    "Utah Adv. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Utah Adv. Rep.": {
+                    "end": null,
+                    "start": "1987-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Utah Advance Reports",
+            "variations": {},
+            "href": "http://www.code-co.com/",
+            "publisher": "Code Co."
         }
     ],
     "V.I.": [
@@ -8715,6 +8789,7 @@
                 "Wa.2d": "Wash. 2d",
                 "Wash.St.": "Wash.",
                 "Wn": "Wash.",
+                "Wn.": "Wash.",
                 "Wn. 2d": "Wash. 2d",
                 "Wn.2d": "Wash. 2d"
             }
