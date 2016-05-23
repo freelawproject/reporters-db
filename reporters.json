@@ -333,6 +333,28 @@
             "variations": {}
         }
     ],
+    "Am. St. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Am. St. Rep.": {
+                    "end": null,
+                    "start": "1888-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdictions": [],
+            "name": "American State Reports",
+            "variations": {
+                "Am.S.R.": "Am. St. Rep.",
+                "Am. S. R.": "Am. St. Rep.",
+                "Am.St.R.": "Am. St. Rep.",
+                "Am. St. R.": "Am. St. Rep.",
+                "Am.St.Rep.": "Am. St. Rep."
+            },
+            "notes": "Abbreviations from Cardiff Index to Legal Abbreviations. Start date from v1 of scanned volume",
+            "href": "https://catalog.hathitrust.org/Record/006692328"
+        }
+    ],
     "Ant. N.P. Cas.": [
         {
             "cite_type": "state",
@@ -5694,6 +5716,24 @@
             }
         }
     ],
+    "N.Y. St. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. St. Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction":[],
+            "name": "New York State Reporter",
+            "variations": {
+                "St. Rep.": "N.Y. St. Rep.",
+                "St.Rep.": "N.Y. St. Rep.",
+                "N.Y.St.Rep.": "N.Y. St. Rep."
+            }
+        }
+    ],
     "N.Y. Sup. Ct.": [
         {
             "cite_type": "state",
@@ -7655,7 +7695,8 @@
                 "us:mt;supreme.court"
             ],
             "name": "State Reporter",
-            "variations": {}
+            "variations": {},
+            "notes": "Dates and abbreviation from Indigo Book."
         }
     ],
     "Stew.": [
