@@ -6,7 +6,7 @@ These people were busy for the next few centuries and created *thousands* of the
 
 In this repository we've taken a look at all these reporters and tried to sort out what we know about them and convert that to data. This data is available as a JSON file, and can be browsed in an unofficial CSV.
 
-Naturally, converting several century's history into clean data results in a mess, but we've done our best and this mess is in use in a number of projects as listed below.
+Naturally, converting several centuries' history into clean data results in a mess, but we've done our best and this mess is in use in a number of projects as listed below.
 
 We hope you'll find this useful to your endeavors and that you'll share your work with the community if you improve or use this work.
 
