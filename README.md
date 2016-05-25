@@ -1,24 +1,23 @@
 ## Background of the Free Law Reporters Database
 
-A long, long time ago near a courthouse not too far away, people started
-keeping books of every important opinion that was ever written. These books
-became known as *reporters* and were generally created by librarian-types of
-yore such as [Mr. William Cranch][crancherton] and [Alex Dallas][dalorama].
+A long, long time ago near a courthouse not too far away, people started keeping books of every important opinion that was ever written. These books became known as *reporters* and were generally created by librarian-types of yore such as [Mr. William Cranch][crancherton] and [Alex Dallas][dalorama].
 
-These men were busy for the next few centuries and created *thousands* of
-these books, culminating in what we know today as West's reporters or as
-regional reporters like the "Dakota Reports" or the thoroughly-named,
-"Synopses of the Decisions of the Supreme Court of Texas Arising from
-Restraints by Conscript and Other Military Authorities (Robards)."
+These people were busy for the next few centuries and created *thousands* of these books, culminating in what we know today as West's reporters or as regional reporters like the "Dakota Reports" or the thoroughly-named, "Synopses of the Decisions of the Supreme Court of Texas Arising from Restraints by Conscript and Other Military Authorities (Robards)."
 
-In this repository we've taken a look at all these reporters and tried to
-sort out what we know about them and convert that to data. Naturally,
-converting several century's history into clean data results in a mess, but
-we've done our best and this mess is in use in a number of projects as listed
-below.
+In this repository we've taken a look at all these reporters and tried to sort out what we know about them and convert that to data. This data is available as a JSON file, and can be browsed in an unofficial CSV.
 
-We hope you'll find this useful to your endeavors and that you'll share your
-work with the community.
+Naturally, converting several century's history into clean data results in a mess, but we've done our best and this mess is in use in a number of projects as listed below.
+
+We hope you'll find this useful to your endeavors and that you'll share your work with the community if you improve or use this work.
+
+
+## CSV
+
+You can make a CSV of this data by running:
+
+    make_csv.py
+
+We keep a copy of this CSV in this repository (`reporters.csv`), but it is not kept up to date. It should, however, provide a good idea of what's here.
 
 
 ## Known Implementations
@@ -81,7 +80,7 @@ A complete data point has fields like so:
                     "start": null
                 }
             },
-            "mlz_jurisdictions": [],
+            "mlz_jurisdiction": [],
             "name": "",
             "variations": {},
             "notes": "",
