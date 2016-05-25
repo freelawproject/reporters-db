@@ -75,7 +75,7 @@ A complete data point has fields like so:
                 "$citation": {
                     "end": null,
                     "start": null
-                }
+                },
                 "$citation 2d": {
                     "end": null,
                     "start": null
