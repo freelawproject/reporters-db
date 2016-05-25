@@ -135,7 +135,7 @@
                     "start": "1923-01-01T00:00:00"
                 }
             },
-            "mlz_jurisdictions": [],
+            "mlz_jurisdiction": [],
             "name": "American Maritime Cases",
             "variations": {
                 "AMC": "A.M.C."
@@ -151,7 +151,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdictions": [],
+            "mlz_jurisdiction": [],
             "name": "Arkansas Neutral Citation (Workers Compensation Commission",
             "variations": {},
             "notes": "The commission has no rule to use these citations, but the Arksansas reporter generates the citations anyway, and they wind up in Lexis that way.",
@@ -358,7 +358,7 @@
                     "start": "1888-01-01T00:00:00"
                 }
             },
-            "mlz_jurisdictions": [],
+            "mlz_jurisdiction": [],
             "name": "American State Reports",
             "variations": {
                 "Am.S.R.": "Am. St. Rep.",
@@ -432,7 +432,7 @@
                     "start": "1987-01-01T00:00:00"
                 }
             },
-            "mlz_jurisdictions": [],
+            "mlz_jurisdiction": [],
             "name": "Arizona Advance Reports",
             "variations": {},
             "notes": "Appears to be a very small publisher. Only publishes this and Utah Advance Reports. Date confirmed via phone call.",
@@ -4304,7 +4304,7 @@
                     "start": "1937-01-01T00:00:00"
                 }
             },
-            "mlz_jurisdictions": [],
+            "mlz_jurisdiction": [],
             "name": "Labor Relations Reference Manual",
             "variations": {
                 "L.R.R.M.": "L.R.R.M. (BNA)"
@@ -6492,7 +6492,7 @@
                     "start": "1791-01-01T00:00:00"
                 }
             },
-            "mlz_jurisdictions": [],
+            "mlz_jurisdiction": [],
             "name": "Official Opinions of the Attorneys General of the United States",
             "variations": {},
             "href": "http://law.wisc.libguides.com/c.php?g=125247&p=820190"
@@ -6507,7 +6507,7 @@
                     "start": "1977-01-01T00:00:00"
                 }
             },
-            "mlz_jurisdictions": [],
+            "mlz_jurisdiction": [],
             "name": "Opinions of the Office of Legal Counsel of the Department of Justice",
             "variations": {
                 "Op. OLC.": "Op. O.L.C."

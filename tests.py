@@ -75,3 +75,33 @@ class ConstantsTest(TestCase):
                     VALID_CITE_TYPES,
                     "%s did not have a valid cite_type value" % reporter_abbv,
                 )
+
+    def test_all_required_keys_no_extra_keys(self):
+        """Are all required keys present? Are there any keys present that
+        shouldn't be?
+        """
+        required_fields = ['cite_type', 'editions', 'mlz_jurisdiction', 'name',
+                           'variations']
+        optional_fields = ['publisher', 'notes', 'href']
+        all_fields = required_fields + optional_fields
+        for reporter_abbv, reporter_list in REPORTERS.items():
+            for reporter_data in reporter_list:
+
+                # All required fields present?
+                for required_field in required_fields:
+                    try:
+                        reporter_data[required_field]
+                    except KeyError:
+                        self.fail("Reporter '%s' lacks required field '%s'" % (
+                            reporter_abbv, required_field
+                        ))
+
+                # No extra fields?
+                for k in reporter_data.keys():
+                    self.assertIn(
+                        k,
+                        all_fields,
+                        "Reporter '%s' has an unknown field '%s'" % (
+                            reporter_abbv, k
+                        )
+                    )
