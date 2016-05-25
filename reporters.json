@@ -142,6 +142,22 @@
             }
         }
     ],
+    "AWCC": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "AWCC": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdictions": [],
+            "name": "Arkansas Neutral Citation (Workers Compensation Commission",
+            "variations": {},
+            "notes": "The commission has no rule to use these citations, but the Arksansas reporter generates the citations anyway, and they wind up in Lexis that way.",
+            "href": "http://www.awcc.state.ar.us/index.html"
+        }
+    ],
     "AZ": [
         {
             "cite_type": "neutral",
@@ -1657,7 +1673,9 @@
                 "us:ct;supreme.court"
             ],
             "name": "Connecticut Law Reporter",
-            "variations": {}
+            "variations": {
+                "CLR": "Conn. L. Rptr."
+            }
         }
     ],
     "Conn. Super. Ct.": [
@@ -1676,6 +1694,8 @@
             "variations": {
                 "Ct.Sup.": "Conn. Super. Ct.",
                 "Ct. Sup.": "Conn. Super. Ct.",
+                "Conn.Sup.": "Conn. Super. Ct.",
+                "Conn. Sup.": "Conn. Super. Ct.",
                 "Conn.Super.Ct.": "Conn. Super. Ct."
             }
         }
@@ -6126,13 +6146,28 @@
                 "App.": "Ohio App.",
                 "O.A.R.": "Ohio App.",
                 "O.A.R.2d": "Ohio App. 2d",
+                "O.A.R. 2d": "Ohio App. 2d",
                 "O.A.R.3d": "Ohio App. 3d",
+                "O.A.R. 3d": "Ohio App. 3d",
                 "O.App.": "Ohio App.",
+                "O. App.": "Ohio App.",
                 "O.App.2d": "Ohio App. 2d",
+                "O. App. 2d": "Ohio App. 2d",
                 "O.App.3d": "Ohio App. 3d",
+                "O. App. 3d": "Ohio App. 3d",
                 "Oh.A.": "Ohio App.",
+                "Oh. A.": "Ohio App.",
                 "Oh.A.2d": "Ohio App. 2d",
+                "Oh. A. 2d": "Ohio App. 2d",
+                "Oh.A.3d": "Ohio App. 3d",
+                "Oh. A. 3d": "Ohio App. 3d",
+                "Oh.App.": "Ohio App.",
+                "Oh. App.": "Ohio App.",
+                "Oh.App.2d": "Ohio App. 2d",
+                "Oh. App. 2d": "Ohio App. 2d",
                 "Oh.App.3d": "Ohio App. 3d",
+                "Oh. App. 3d": "Ohio App. 3d",
+                "Ohio App. 2d": "Ohio App. 2d",
                 "Ohio App.3d": "Ohio App. 3d"
             }
         }
@@ -6448,6 +6483,38 @@
             }
         }
     ],
+    "Op. Att'y Gen.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Op. Att'y Gen.": {
+                    "end": "1982-12-31T00:00:00",
+                    "start": "1791-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdictions": [],
+            "name": "Official Opinions of the Attorneys General of the United States",
+            "variations": {},
+            "href": "http://law.wisc.libguides.com/c.php?g=125247&p=820190"
+        }
+    ],
+    "Op. O.L.C.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Op. O.L.C.": {
+                    "end": "1995-12-31T00:00:00",
+                    "start": "1977-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdictions": [],
+            "name": "Opinions of the Office of Legal Counsel of the Department of Justice",
+            "variations": {
+                "Op. OLC.": "Op. O.L.C."
+            },
+            "href": "http://law.wisc.libguides.com/c.php?g=125247&p=820190"
+        }
+    ],
     "Or.": [
         {
             "cite_type": "state",
@@ -6497,7 +6564,9 @@
                 "us:or;supreme.court"
             ],
             "name": "Oregon Tax Reports",
-            "variations": {}
+            "variations": {
+                "OTR": "Or. Tax"
+            }
         }
     ],
     "Overt.": [
@@ -7695,7 +7764,10 @@
                 "us:mt;supreme.court"
             ],
             "name": "State Reporter",
-            "variations": {},
+            "variations": {
+                "St.Rep.": "State Rptr.",
+                "St. Rep.": "State Rptr."
+            },
             "notes": "Dates and abbreviation from Indigo Book."
         }
     ],
