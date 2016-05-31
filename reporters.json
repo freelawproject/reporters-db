@@ -219,6 +219,27 @@
             }
         }
     ],
+    "Adv. S.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Adv. S.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ms;supreme.court"
+            ],
+            "name": "Mississippi Reporter Advance Sheets",
+            "variations": {
+                "Adv.S.": "Adv. S."
+            },
+            "notes": "After making several calls to libraries in Mississippi, it seems nobody knows what this reporter is or was. It seems to have been popular in the 50's, and appears to be the advance sheets for the Mississippi Reports. After speaking with one diligent librarian, we discovered that the physical volumes of the Mississippi Reporter listed these citations as alternate citations, but that the Southern Reporter did not. This aligns with results that we find in CourtListener, which seem to skew strongly towards cases only in Mississippi. The fact that no library in Mississippi seems to have this reporter also indicates that it only contained Advance Sheets, but what's strange is, why bother making a real reporter if your advance sheets are organized enough to have citations and everything, as opposed to the norm of having monthly or weekly editions. Strange stuff, this.",
+            "href": "",
+            "publisher": "Mississippi Reporter Company"
+        }
+    ],
     "Aik.": [
         {
             "cite_type": "state",
