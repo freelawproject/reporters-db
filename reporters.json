@@ -325,7 +325,6 @@
             "name": "Alaska Federal Reports",
             "variations": {
                 "A.F.Rep.": "Alaska Fed.",
-                "Alaska Fed.": "Alaska Fed.",
                 "Alaska Fed.R.": "Alaska Fed.",
                 "Alaska Fed.Rep.": "Alaska Fed."
             }
@@ -2102,7 +2101,9 @@
                 "us:de;supreme.court"
             ],
             "name": "Delaware Chancery Reports",
-            "variations": {}
+            "variations": {
+                "Del.Ch.": "Del. Ch."
+            }
         }
     ],
     "Denio": [
@@ -5102,7 +5103,7 @@
             ],
             "name": "Michigan Reports",
             "variations": {
-                "Mich.": "Mich."
+                "Mich": "Mich."
             }
         }
     ],
@@ -5315,7 +5316,7 @@
             ],
             "name": "Montana Reports",
             "variations": {
-                "Mont.": "Mont."
+                "Mont": "Mont."
             }
         }
     ],
@@ -6036,7 +6037,6 @@
             "variations": {
                 "N.& Mc.": "Nott & McC.",
                 "Nott & M'C.(S.C.)": "Nott & McC.",
-                "Nott & McC.": "Nott & McC.",
                 "S.C.L.(Nott & McC.)": "Nott & McC."
             }
         }
@@ -6188,7 +6188,6 @@
                 "Oh. App. 2d": "Ohio App. 2d",
                 "Oh.App.3d": "Ohio App. 3d",
                 "Oh. App. 3d": "Ohio App. 3d",
-                "Ohio App. 2d": "Ohio App. 2d",
                 "Ohio App.3d": "Ohio App. 3d"
             }
         }
@@ -6352,7 +6351,9 @@
                 "O.L.Abs.": "Ohio Law. Abs.",
                 "Ohio Abs.": "Ohio Law. Abs.",
                 "Ohio L.Abs.": "Ohio Law. Abs.",
-                "Ohio Law Abst.": "Ohio Law. Abs."
+                "Ohio Law Abst.": "Ohio Law. Abs.",
+                "Ohio Law Abs.": "Ohio Law. Abs.",
+                "Ohio Laws Abs.": "Ohio Law. Abs."
             }
         }
     ],
@@ -6479,7 +6480,9 @@
                 "us:ok;supreme.court"
             ],
             "name": "Oklahoma Reports",
-            "variations": {}
+            "variations": {
+                "OKla.": "Okla."
+            }
         }
     ],
     "Okla. Crim.": [
@@ -6874,6 +6877,7 @@
             ],
             "name": "Pennsylvania Superior Court Reports",
             "variations": {
+                "PA Super": "Pa. Super.",
                 "Pa. Superior Ct.": "Pa. Super.",
                 "Pa.S.": "Pa. Super.",
                 "Pa.Super.Ct.": "Pa. Super."
@@ -7721,7 +7725,10 @@
                 "So.3d": "So. 3d",
                 "South.": "So.",
                 "South.2d": "So. 2d",
-                "South.3d": "So. 3d"
+                "South.3d": "So. 3d",
+                "So. Rep.": "So.",
+                "So. Rep. 2d": "So. 2d",
+                "So. Rep. 3d": "So. 3d"
             }
         }
     ],
@@ -8107,7 +8114,8 @@
             "variations": {
                 "Tex.Cr.App.": "Tex. Crim.",
                 "Tex.Cr.R.": "Tex. Crim.",
-                "Tex.Crim.Rep.": "Tex. Crim."
+                "Tex.Crim.Rep.": "Tex. Crim.",
+                "Tex.Crim.": "Tex. Crim."
             }
         }
     ],
@@ -8176,7 +8184,6 @@
             "name": "Trade Cases",
             "variations": {
                 "Trade Cas.": "Trade Cas. (CCH)",
-                "Trade Cas. (CCH)": "Trade Cas. (CCH)",
                 "Trade Cases": "Trade Cas. (CCH)"
             },
             "href": "http://w3.nexis.com/sources/scripts/info.pl?168025"
@@ -8876,7 +8883,6 @@
             "name": "Wallace's Supreme Court Reports",
             "variations": {
                 "U.S.(Wall.)": "Wall.",
-                "Wall.": "Wall.",
                 "Wall.Rep.": "Wall.",
                 "Wall.S.C.": "Wall."
             }
