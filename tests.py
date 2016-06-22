@@ -105,3 +105,16 @@ class ConstantsTest(TestCase):
                             reporter_abbv, k
                         )
                     )
+
+    def test_no_variation_is_same_as_key(self):
+        """Are any variations identical to the keys they're supposed to be
+        variations of?
+        """
+        for variation, keys in VARIATIONS_ONLY.items():
+            for key in keys:
+                self.assertNotEqual(
+                    variation,
+                    key,
+                    "The variation '%s' is identical to the key it's supposed "
+                    "to be a variation of." % variation
+                )
