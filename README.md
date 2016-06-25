@@ -168,7 +168,7 @@ It's pretty simple, right?
 ### Future Versions
 
  - 1.1: All dates are dialed in to the nearest year for every edition of every reporter (some still require
-         research beyond what Blue Book provides).
+         research beyond what Blue Book provides). See [issue #7][7]
  - 1.2: All dates are dialed into the correct day for every edition of every reporter.
  - 1.x: International Reporters added?
  - 2.0: Other features (suggestions welcome)?
@@ -192,3 +192,4 @@ Pull and feature requests welcome. Online editing in Github is possible (and eas
 [missingthepoint]: http://www.aallnet.org/main-menu/Advocacy/access/citation/neutralrules/rules-ms.html
 [nmdates]: http://www.nmcompcomm.us/nmcases/pdf/NM%20Reports%20to%20Official%20-%20Vols.%201-75.pdf
 [travis]: https://travis-ci.org/freelawproject/reporters-db
+[7]: https://github.com/freelawproject/reporters-db/issues/7
