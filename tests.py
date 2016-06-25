@@ -33,7 +33,8 @@ class ConstantsTest(TestCase):
         for variations in VARIATIONS_ONLY.values():
             for variation in variations:
                 self.assertIn(
-                    EDITIONS[variation], REPORTERS.keys(),
+                    EDITIONS[variation],
+                    REPORTERS.keys(),
                     msg="Could not map variation to a valid reporter: %s" %
                         variation
                 )
@@ -118,3 +119,18 @@ class ConstantsTest(TestCase):
                     "The variation '%s' is identical to the key it's supposed "
                     "to be a variation of." % variation
                 )
+
+    def test_nothing_ends_before_it_starts(self):
+        """Do any editions have end dates before their start dates?"""
+        for reporter_dicts in REPORTERS.values():
+            # Each value is a list of reporter dictionaries
+            for reporter in reporter_dicts:
+                # Each edition is a dict of keys that go to more dicts!
+                for k, edition in reporter['editions'].items():
+                    if edition['start'] and edition['end']:
+                        self.assertLessEqual(
+                            edition['start'],
+                            edition['end'],
+                            msg="It appears that edition %s ends before it "
+                                "starts." % k
+                        )
