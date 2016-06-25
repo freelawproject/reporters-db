@@ -236,7 +236,6 @@
                 "Adv.S.": "Adv. S."
             },
             "notes": "After making several calls to libraries in Mississippi, it seems nobody knows what this reporter is or was. It seems to have been popular in the 50's, and appears to be the advance sheets for the Mississippi Reports. After speaking with one diligent librarian, we discovered that the physical volumes of the Mississippi Reporter listed these citations as alternate citations, but that the Southern Reporter did not. This aligns with results that we find in CourtListener, which seem to skew strongly towards cases only in Mississippi. The fact that no library in Mississippi seems to have this reporter also indicates that it only contained Advance Sheets, but what's strange is, why bother making a real reporter if your advance sheets are organized enough to have citations and everything, as opposed to the norm of having monthly or weekly editions. Strange stuff, this.",
-            "href": "",
             "publisher": "Mississippi Reporter Company"
         }
     ],
@@ -783,6 +782,23 @@
             "variations": {
                 "S.C.L.(Bay)": "Bay"
             }
+        }
+    ],
+    "Bayard's Notebook": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Bayard's Notebook": {
+                    "end": "1830-12-31T00:00:00",
+                    "start": "1792-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;"
+            ],
+            "name": "Bayard's Notebook",
+            "variations": {},
+            "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722"
         }
     ],
     "Bibb": [
@@ -1513,6 +1529,23 @@
             "variations": {}
         }
     ],
+    "Clayton's Notebook": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Clayton's Notebook": {
+                    "end": "1830-12-31T00:00:00",
+                    "start": "1792-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;"
+            ],
+            "name": "Clayton's Notebook",
+            "variations": {},
+            "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722"
+        }
+    ],
     "Cold.": [
         {
             "cite_type": "state",
@@ -1716,7 +1749,8 @@
                 "Ct. Sup.": "Conn. Super. Ct.",
                 "Conn.Sup.": "Conn. Super. Ct.",
                 "Conn. Sup.": "Conn. Super. Ct.",
-                "Conn.Super.Ct.": "Conn. Super. Ct."
+                "Conn.Super.Ct.": "Conn. Super. Ct.",
+                "CSCR": "Conn. Super. Ct."
             }
         }
     ],
@@ -3628,6 +3662,23 @@
             }
         }
     ],
+    "Hilles' Notebook": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Hilles' Notebook": {
+                    "end": "1830-12-31T00:00:00",
+                    "start": "1792-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;"
+            ],
+            "name": "Hilles Notebook",
+            "variations": {},
+            "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722"
+        }
+    ],
     "Hoff. Ch.": [
         {
             "cite_type": "state",
@@ -3679,7 +3730,10 @@
                 "us:de;supreme.court"
             ],
             "name": "Delaware Reports, Houston",
-            "variations": {}
+            "variations": {
+                "Houston Criminal": "Houston"
+            },
+            "href": "http://www.worldcat.org/oclc/60796628"
         }
     ],
     "How.": [
@@ -6122,7 +6176,23 @@
             "mlz_jurisdiction": [
                 "us:ok;court.criminal.appeals"
             ],
-            "name": "Oklahoma Neutral Citation",
+            "name": "Oklahoma Neutral Citation (Criminal)",
+            "variations": {}
+        }
+    ],
+    "OK JUD ETH": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "OK JUD ETH": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ok;court.ethics"
+            ],
+            "name": "Oklahoma Neutral Citation (Judicial Ethics Advisory Panel)",
             "variations": {}
         }
     ],
@@ -6590,8 +6660,10 @@
             ],
             "name": "Oregon Tax Reports",
             "variations": {
-                "OTR": "Or. Tax"
-            }
+                "OTR": "Or. Tax",
+                "OTR-MD": "Or. Tax"
+            },
+            "notes": "Assigning OTR-MD as a variation may be controversial, because it implies that it's not the correct version. I believe this is correct because both the OTR and OTR-MD cases are in the Or. Tax. reporter."
         }
     ],
     "Overt.": [
@@ -7171,6 +7243,23 @@
             }
         }
     ],
+    "Read's Notebook": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Read's Notebook": {
+                    "end": "1830-12-31T00:00:00",
+                    "start": "1792-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;"
+            ],
+            "name": "Read's Notebook",
+            "variations": {},
+            "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722"
+        }
+    ],
     "Rice": [
         {
             "cite_type": "state",
@@ -7264,6 +7353,42 @@
                 "Rich.Eq.Ch.": "Rich. Eq.",
                 "S.C.Eq.(Rich.Eq.)": "Rich. Eq."
             }
+        }
+    ],
+    "Ridgely's Notebook": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Ridgely's Notebook": {
+                    "end": "1830-12-31T00:00:00",
+                    "start": "1792-01-01T00:00:00"
+                },
+                "Ridgely's Notebook II": {
+                    "end": "1830-12-31T00:00:00",
+                    "start": "1792-01-01T00:00:00"
+                },
+                "Ridgely's Notebook III": {
+                    "end": "1830-12-31T00:00:00",
+                    "start": "1792-01-01T00:00:00"
+                },
+                "Ridgely's Notebook IV": {
+                    "end": "1830-12-31T00:00:00",
+                    "start": "1792-01-01T00:00:00"
+                },
+                "Ridgely's Notebook V": {
+                    "end": "1830-12-31T00:00:00",
+                    "start": "1792-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;"
+            ],
+            "name": "Ridgely's Notebook",
+            "variations": {
+                "Ridgely's Notebook I": "Ridgely's Notebook"
+            },
+            "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
+            "publisher": ""
         }
     ],
     "Ril.": [
@@ -7365,6 +7490,23 @@
                 "Rob.Consc.Cas.": "Robards",
                 "Robard": "Robards"
             }
+        }
+    ],
+    "Rodney's Notes": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Rodney's Notes": {
+                    "end": "1830-12-31T00:00:00",
+                    "start": "1792-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;"
+            ],
+            "name": "Rodney's Notes",
+            "variations": {},
+            "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722"
         }
     ],
     "Root": [
@@ -9023,6 +9165,23 @@
             }
         }
     ],
+    "Wells' Notebook": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Wells' Notebook": {
+                    "end": "1830-12-31T00:00:00",
+                    "start": "1792-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;"
+            ],
+            "name": "Wells' Notebook",
+            "variations": {},
+            "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722"
+        }
+    ],
     "Wend.": [
         {
             "cite_type": "state",
@@ -9144,6 +9303,23 @@
             ],
             "name": "Condensed Reports of Decisions in Civil Causes in the Court of Appeals of Texas (Wilson)",
             "variations": {}
+        }
+    ],
+    "Wilson's Red Book": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Wilson's Red Book": {
+                    "end": "1830-12-31T00:00:00",
+                    "start": "1792-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;"
+            ],
+            "name": "Wilson's Red Book",
+            "variations": {},
+            "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722"
         }
     ],
     "Win.": [
