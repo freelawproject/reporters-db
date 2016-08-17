@@ -126,6 +126,54 @@
             }
         }
     ],
+    "A.L.R.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "A.L.R.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                },
+                "A.L.R. 2d": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                },
+                "A.L.R. 3d": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                },
+                "A.L.R. 4th": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                },
+                "A.L.R. 5th": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                },
+                "A.L.R. 6th": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American Law Reports",
+            "variations": {
+                "ALR": "A.L.R.",
+                "ALR 2d": "A.L.R. 2d",
+                "ALR 3d": "A.L.R. 3d",
+                "ALR 4th": "A.L.R. 4th",
+                "ALR 5th": "A.L.R. 5th",
+                "ALR 6th": "A.L.R. 6th",
+                "A.L.R.2d": "A.L.R. 2d",
+                "A.L.R.3d": "A.L.R. 3d",
+                "A.L.R.4th": "A.L.R. 4th",
+                "A.L.R.5th": "A.L.R. 5th",
+                "A.L.R.6th": "A.L.R. 6th"
+            },
+            "href": "http://legalsolutions.thomsonreuters.com/law-products/westlaw-legal-research/litigator/alr",
+            "publisher": "Thompson Reuters"
+        }
+    ],
     "A.M.C.": [
         {
             "cite_type": "specialty",
@@ -190,7 +238,8 @@
             "variations": {
                 "A.N.": "Abb. N. Cas.",
                 "A.N.C.": "Abb. N. Cas.",
-                "Abb.N.C.": "Abb. N. Cas."
+                "Abb.N.C.": "Abb. N. Cas.",
+                "Abb.N. Cas.": "Abb. N. Cas."
             }
         }
     ],
@@ -5711,6 +5760,22 @@
             }
         }
     ],
+    "N.L.R.B.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "N.L.R.B.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Decisions and Orders of the National Labor Relations Board",
+            "variations": {
+                "NLRB": "N.L.R.B."
+            }
+        }
+    ],
     "N.M.": [
         {
             "cite_type": "state",
@@ -6128,7 +6193,7 @@
             ],
             "name": "Ohio Neutral Citation",
             "variations": {
-                "-Ohio-": "OH"
+                "Ohio": "OH"
             }
         }
     ],
@@ -6858,6 +6923,7 @@
                 "P.C.R.": "Pa. C.",
                 "Pa.C.C.": "Pa. C.",
                 "Pa.Co.Ct.": "Pa. C.",
+                "Pa. Co. Ct.": "Pa. C.",
                 "Pa.Co.Ct.R.": "Pa. C.",
                 "Pa.County Ct.": "Pa. C.",
                 "Penn.Co.Ct.Rep.": "Pa. C."
