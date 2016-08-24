@@ -560,6 +560,24 @@
             }
         }
     ],
+    "Ark. App'x": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ark. App'x": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ar;supreme.court"
+            ],
+            "name": "Arkansas Appendix",
+            "variations": {
+                "Ark. Appx.": "Ark. App'x"
+            }
+        }
+    ],
     "B. Mon.": [
         {
             "cite_type": "state",
@@ -1746,11 +1764,11 @@
             "variations": {}
         }
     ],
-    "Conn. Cir. Ct": [
+    "Conn. Cir. Ct.": [
         {
             "cite_type": "state",
             "editions": {
-                "Conn. Cir. Ct": {
+                "Conn. Cir. Ct.": {
                     "end": "1974-12-31T00:00:00",
                     "start": "1961-01-01T00:00:00"
                 }
@@ -1759,7 +1777,9 @@
                 "us:ct;supreme.court"
             ],
             "name": "Connecticut Circuit Court Reports",
-            "variations": {}
+            "variations": {
+                "Conn. Cir. Ct": "Conn. Cir. Ct."
+            }
         }
     ],
     "Conn. L. Rptr.": [
