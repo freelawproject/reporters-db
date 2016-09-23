@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-from pip.req import parse_requirements
 
 VERSION = '1.0.10'
 
@@ -26,4 +25,5 @@ setup(
         "Programming Language :: Python :: Implementation :: PyPy",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
+    test_suite="tests",
 )

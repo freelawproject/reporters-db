@@ -16,15 +16,15 @@ def datetime_parser(dct):
     return dct
 
 db_root = os.path.dirname(os.path.realpath(__file__))
-with open(os.path.join(db_root, 'reporters.json')) as f:
+with open(os.path.join(db_root, 'data', 'reporters.json')) as f:
     REPORTERS = json.load(f, object_hook=datetime_parser)
 
 
-with open(os.path.join(db_root, 'state_abbreviations.json')) as f:
+with open(os.path.join(db_root, 'data', 'state_abbreviations.json')) as f:
     STATE_ABBREVIATIONS = json.load(f)
 
 
-with open(os.path.join(db_root, 'case_name_abbreviations.json')) as f:
+with open(os.path.join(db_root, 'data', 'case_name_abbreviations.json')) as f:
     CASE_NAME_ABBREVIATIONS = json.load(f)
 
 
