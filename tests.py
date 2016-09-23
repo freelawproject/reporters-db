@@ -134,3 +134,7 @@ class ConstantsTest(TestCase):
                             msg="It appears that edition %s ends before it "
                                 "starts." % k
                         )
+
+if __name__ == '__main__':
+    import unittest
+    unittest.main()

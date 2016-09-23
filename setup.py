@@ -11,6 +11,12 @@ setup(
     maintainer="Mike Lisser",
     maintainer_email="info@free.law",
     packages=find_packages(exclude=('tests',)),
+    include_package_data=True,
+    package_data={
+        'reporters_db': [
+            'data/*',
+        ]
+    },
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
