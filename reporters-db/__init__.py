@@ -1,8 +1,8 @@
 import datetime
 import json
 import os
-from reporters_db.utils import suck_out_variations_only
-from reporters_db.utils import suck_out_editions
+from .utils import suck_out_variations_only
+from .utils import suck_out_editions
 
 
 # noinspection PyBroadException
