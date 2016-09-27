@@ -151,8 +151,7 @@ commands:
 
 ::
 
-    sudo git clone https://github.com/freelawproject/reporters-db
-    python setup.py install
+    pip install reporters-db
 
 Once installed you can use it in your code with something like:
 
@@ -237,4 +236,4 @@ Pull and feature requests welcome. Online editing in Github is possible
 (and easy!)
 
 .. |Build Status| image:: https://travis-ci.org/freelawproject/reporters-db.svg?branch=master
-:target: https://travis-ci.org/freelawproject/reporters-db
+   :target: https://travis-ci.org/freelawproject/reporters-db
