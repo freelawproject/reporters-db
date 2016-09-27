@@ -1,15 +1,34 @@
+import codecs
+import os
 from setuptools import setup, find_packages
 
-VERSION = '1.0.10'
+VERSION = '1.0.11'
+AUTHOR = 'Mike Lissner'
+EMAIL = 'mike@free.law'
+HERE = os.path.abspath(os.path.dirname(__file__))
+
+
+def read(*parts):
+    """
+    Build an absolute path from *parts* and and return the contents of the
+    resulting file.  Assume UTF-8 encoding.
+    """
+    with codecs.open(os.path.join(HERE, *parts), "rb", "utf-8") as f:
+        return f.read()
+
 
 setup(
     name="reporters-db",
     description="Database of Court Reporters",
+    license="BSD",
+    url="https://github.com/freelawproject/reporters-db",
     version=VERSION,
-    author="Mike Lissner",
-    author_email="info@free.law",
-    maintainer="Mike Lisser",
-    maintainer_email="info@free.law",
+    author=AUTHOR,
+    author_email=EMAIL,
+    maintainer=AUTHOR,
+    maintainer_email=EMAIL,
+    keywords=['legal', 'reporters'],
+    long_description=read("README.rst"),
     packages=find_packages(exclude=('tests',)),
     include_package_data=True,
     package_data={
