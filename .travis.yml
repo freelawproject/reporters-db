@@ -1,12 +1,15 @@
+sudo: false
 language: python
 python:
 - '2.7'
 install:
 - python setup.py install
 - echo "Installation complete."
+cache: pip
 script:
 - python tests.py
 deploy:
+  skip_cleanup: true
   provider: pypi
   distributions: bdist_wheel
   user: freelawproject
