@@ -1,16 +1,16 @@
 language: python
 python:
- - "2.7"
+- '2.7'
 install:
- - python setup.py install
- - echo "Installation complete."
+- python setup.py install
+- echo "Installation complete."
 script:
- - python tests.py
+- python tests.py
 deploy:
   provider: pypi
   distributions: bdist_wheel
   user: freelawproject
   password:
-    secure: gI70+niTaZicDALei/ewdSgL13oSYyiQ9tS2eMH7OpjDQ5FSJdPzghNKm2v+GwC2l4T74I0+hZEWx15fNAXxDLYCCEbIikgZ7ELro3gwKKtTYXfo3QD0Z/COJ6hbit3NiLgJRiag7IGo/AUBCABat88PmbIJB4qgUrv0/FEvbeM=
+    secure: BA57h240LQiycp1G+3VIGbscOkXHCRBGG78iujigMerVrulPGt7KaCC7c9GKoxjpMzITk4yRm/+E6aRCscSLOfD7p6+dO8k+CI8XR4n0pRiIMNZVV+7DJCA9tV6cAsNV/32JN2WVmEdrKhmijYS47HipndsYMW8dgz13wf92xW4=
   on:
     tags: true
