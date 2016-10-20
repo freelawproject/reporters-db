@@ -6,3 +6,11 @@ install:
  - echo "Installation complete."
 script:
  - python tests.py
+deploy:
+  provider: pypi
+  distributions: bdist_wheel
+  user: freelawproject
+  password:
+    secure: gI70+niTaZicDALei/ewdSgL13oSYyiQ9tS2eMH7OpjDQ5FSJdPzghNKm2v+GwC2l4T74I0+hZEWx15fNAXxDLYCCEbIikgZ7ELro3gwKKtTYXfo3QD0Z/COJ6hbit3NiLgJRiag7IGo/AUBCABat88PmbIJB4qgUrv0/FEvbeM=
+  on:
+    tags: true
