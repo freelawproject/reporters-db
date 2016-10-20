@@ -66,6 +66,13 @@ class ConstantsTest(TestCase):
                                  "coming through as '%s'" %
                                  (key, e_name, type(e_dates[key])))
                         )
+                        if key == 'start':
+                            start_is_not_none = e_dates[key] is not None
+                            self.assertTrue(
+                                start_is_not_none,
+                                msg=("Start date in reporter '%s' appears to "
+                                     "be None, not 1750" % e_name)
+                            )
 
     def test_all_reporters_have_valid_cite_type(self):
         """Do all reporters have valid cite_type values?"""
@@ -106,6 +113,15 @@ class ConstantsTest(TestCase):
                             reporter_abbv, k
                         )
                     )
+
+                # No empty string values?
+                for k, v in reporter_data.items():
+                    if isinstance(v, basestring):
+                        self.assertTrue(
+                            v != "",
+                            msg="Field '%s' is empty in reporter '%s'" %
+                                (k, reporter_abbv)
+                        )
 
     def test_no_variation_is_same_as_key(self):
         """Are any variations identical to the keys they're supposed to be

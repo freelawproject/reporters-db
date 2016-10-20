@@ -5,9 +5,10 @@ from reporters_db import REPORTERS
 
 FIELDNAMES = [
     'citation', 'name', 'publisher', 'cite_type', 'edition1', 'edition2',
-    'edition3', 'edition4', 'start_e1', 'end_e1', 'start_e2', 'end_e2',
-    'start_e3',  'end_e3', 'start_e4', 'end_e4', 'mlz_jurisdictions',
-    'variations', 'href', 'notes'
+    'edition3', 'edition4', 'edition5', 'edition6', 'start_e1', 'start_e2',
+    'start_e3', 'start_e4', 'start_e5', 'start_e6', 'end_e1', 'end_e2',
+    'end_e3', 'end_e4', 'end_e5', 'end_e6', 'mlz_jurisdictions', 'variations',
+    'href', 'notes',
 ]
 
 
@@ -16,7 +17,7 @@ def make_editions_dict(editions):
     use in the DictWriter.
     """
     d = {}
-    nums = ['1', '2', '3', '4']
+    nums = ['1', '2', '3', '4', '5', '6']
     num_counter = 0
     for k, date_dict in editions.items():
         d['edition%s' % nums[num_counter]] = k
@@ -49,6 +50,7 @@ def make_csv():
                 d['notes'] = reporter.get('notes', '')
 
                 out.writerow(d)
+
 
 if __name__ == '__main__':
     make_csv()

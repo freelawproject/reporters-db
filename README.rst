@@ -102,11 +102,11 @@ A complete data point has fields like so:
             "editions": {
                 "$citation": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 },
                 "$citation 2d": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],

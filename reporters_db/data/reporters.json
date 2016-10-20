@@ -196,7 +196,7 @@
             "editions": {
                 "AWCC": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -274,7 +274,7 @@
             "editions": {
                 "Adv. S.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -5903,7 +5903,7 @@
             "editions": {
                 "N.Y. St. Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction":[],
@@ -7475,8 +7475,7 @@
             "variations": {
                 "Ridgely's Notebook I": "Ridgely's Notebook"
             },
-            "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "publisher": ""
+            "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722"
         }
     ],
     "Ril.": [
