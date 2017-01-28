@@ -67,4 +67,4 @@ def print_json_with_dates(obj):
         or isinstance(obj, datetime.date)
         else None)
 
-    print json.dumps(obj, default=date_handler, sort_keys=True)
+    print(json.dumps(obj, default=date_handler, sort_keys=True))
