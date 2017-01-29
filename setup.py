@@ -1,6 +1,7 @@
 import codecs
 import os
 from setuptools import setup, find_packages
+from pip.req import parse_requirements
 
 VERSION = '1.0.11.5'
 AUTHOR = 'Mike Lissner'
@@ -50,6 +51,10 @@ setup(
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
         "Topic :: Software Development :: Libraries :: Python Modules",
+    ],
+    install_requires=[
+        str(r.req) for r in
+        parse_requirements('requirements.txt', session=False)
     ],
     test_suite="tests",
 )
