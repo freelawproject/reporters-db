@@ -8499,7 +8499,7 @@
             "editions": {
                 "U.S.": {
                     "end": null,
-                    "start": "1790-01-01T00:00:00"
+                    "start": "1875-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8507,11 +8507,13 @@
             ],
             "name": "United States Supreme Court Reports",
             "variations": {
+                "Otto": "U.S.",
                 "U. S.": "U.S.",
                 "U.S.S.C.Rep.": "U.S.",
                 "US": "U.S.",
                 "USSCR": "U.S."
-            }
+            },
+            "notes": "Otto was the first 'anonymous' SCOTUS reporter. In theory, he shouldn't ever have citations under his name. Nevertheless, he does, so we simply consider these citations to be variations of U.S."
         }
     ],
     "U.S. App. D.C.": [

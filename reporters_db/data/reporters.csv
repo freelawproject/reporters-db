@@ -277,7 +277,7 @@ Peck,"Tennessee Reports, Peck",,state,Peck,,,,,,1821-01-01T00:00:00,,,,,,1824-12
 Met.,"Kentucky Reports, Metcalf",,state,Met.,,,,,,1858-01-01T00:00:00,,,,,,1863-12-31T00:00:00,,,,,,us:ky;supreme.court,"Ky.(Met.), Metc., Metc.Ky.",,
 Met.,"Massachusetts Reports, Metcalf",,state,Met.,,,,,,1840-01-01T00:00:00,,,,,,1847-12-31T00:00:00,,,,,,us:ma;appeals.court,"Mass.(Met.), Metc.Mass., Metc.",,
 L.R.R.M. (BNA),Labor Relations Reference Manual,,specialty,L.R.R.M. (BNA),,,,,,1937-01-01T00:00:00,,,,,,,,,,,,,L.R.R.M.,,
-U.S.,United States Supreme Court Reports,,federal,U.S.,,,,,,1790-01-01T00:00:00,,,,,,,,,,,,us;supreme.court,"U.S.S.C.Rep., U. S., US, USSCR",,
+U.S.,United States Supreme Court Reports,,federal,U.S.,,,,,,1875-01-01T00:00:00,,,,,,,,,,,,us;supreme.court,"US, U.S.S.C.Rep., U. S., Otto, USSCR",,"Otto was the first 'anonymous' SCOTUS reporter. In theory, he shouldn't ever have citations under his name. Nevertheless, he does, so we simply consider these citations to be variations of U.S."
 Cai. R.,Caines' Reports,,state,Cai. R.,,,,,,1803-01-01T00:00:00,,,,,,1805-12-31T00:00:00,,,,,,us:ny;court.appeals,Cai.R.,,
 Ohio C.C.,Ohio Circuit Court Reports,,state,Ohio C.C. (n.s.),Ohio C.C.,,,,,1901-01-01T00:00:00,1885-01-01T00:00:00,,,,,1922-12-31T00:00:00,1901-12-31T00:00:00,,,,,us:oh;supreme.court,"Ohio Cir.Ct., Oh.Cir.Ct., Ohio C.C.N.S., Ohio Cir.Ct.(N.S.), Ohio Cr.Ct.R., Ohio Cir.Ct.R.N.S., Ohio C.C.R.N.S., Ohio C.C.R., O.C.C.N.S., Oh.Cir.Ct.N.S.",,
 Serg. & Rawle,"Pennsylvania State Reports, Sergeant and Rawle",,state,Serg. & Rawle,,,,,,1814-01-01T00:00:00,,,,,,1828-12-31T00:00:00,,,,,,us:pa;supreme.court,"Serg.& R., Serg.& Raw., Serg.& Rawl.",,
