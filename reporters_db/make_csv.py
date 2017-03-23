@@ -37,7 +37,7 @@ def make_csv():
         out.writeheader()
 
         for cite, reporter_list in REPORTERS.items():
-            print "Adding: %s" % cite
+            print("Adding: %s" % cite)
             for reporter in reporter_list:
                 d = make_editions_dict(reporter['editions'])
                 d['citation'] = cite

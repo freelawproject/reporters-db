@@ -1,6 +1,7 @@
 import datetime
 import json
 import os
+import six
 from .utils import suck_out_variations_only
 from .utils import suck_out_editions
 
@@ -8,7 +9,7 @@ from .utils import suck_out_editions
 # noinspection PyBroadException
 def datetime_parser(dct):
     for k, v in dct.items():
-        if isinstance(v, basestring):
+        if isinstance(v, six.string_types):
             try:
                 dct[k] = datetime.datetime.strptime(v, "%Y-%m-%dT%H:%M:%S")
             except:

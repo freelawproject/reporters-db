@@ -1,4 +1,5 @@
 import datetime
+import six
 from reporters_db import REPORTERS, VARIATIONS_ONLY, EDITIONS
 from unittest import TestCase
 
@@ -41,7 +42,7 @@ class ConstantsTest(TestCase):
 
     def test_that_all_dates_are_converted_to_dates_not_strings(self):
         """Do we properly make the ISO-8601 date strings into Python dates?"""
-        for reporter_name, reporter_list in REPORTERS.iteritems():
+        for reporter_name, reporter_list in six.iteritems(REPORTERS):
             # reporter_name == "A."
             # reporter_list == [
             # {'name': 'Atlantic Reporter', 'editions': ...},
@@ -49,7 +50,7 @@ class ConstantsTest(TestCase):
             # ]
             for reporter_dict in reporter_list:
                 # reporter_dict == {'name': 'Atlantic Reporter'}
-                for e_name, e_dates in reporter_dict['editions'].iteritems():
+                for e_name, e_dates in six.iteritems(reporter_dict['editions']):
                     # e_name == "A. 2d"
                     # e_dates == {
                     #     "end": "1938-12-31T00:00:00",
@@ -116,7 +117,7 @@ class ConstantsTest(TestCase):
 
                 # No empty string values?
                 for k, v in reporter_data.items():
-                    if isinstance(v, basestring):
+                    if isinstance(v, str):
                         self.assertTrue(
                             v != "",
                             msg="Field '%s' is empty in reporter '%s'" %
