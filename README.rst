@@ -208,11 +208,14 @@ Past Versions
    1. Adds tests to verify the data (see ./tests.py)
    2. Fixes a few data issues after applying tests
 
+-  1.0.9: Updates the mlz\_jurisdiction field to be state-specific, per
+   issue #1.
+
+
 Current Version
 ---------------
 
--  1.0.9: Updates the mlz\_jurisdiction field to be state-specific, per
-   issue #1.
+- 1.0.13: Updates the case name abbreviations
 
 Future Versions
 ---------------
