@@ -1,9 +1,13 @@
 import codecs
 import os
 from setuptools import setup, find_packages
-from pip.req import parse_requirements
 
-VERSION = '1.0.13'
+try:  # for pip >= 10
+    from pip._internal.req import parse_requirements
+except ImportError:  # for pip <= 9.0.3
+    from pip.req import parse_requirements
+
+VERSION = '1.0.13.1'
 AUTHOR = 'Mike Lissner'
 EMAIL = 'mike@free.law'
 HERE = os.path.abspath(os.path.dirname(__file__))
