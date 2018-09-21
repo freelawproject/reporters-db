@@ -8631,6 +8631,25 @@
             "variations": {}
         }
     ],
+    "U.S. LEXIS": [
+        {
+            "cite_type": "specialty_lexis",
+            "editions": {
+                "U.S. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us;supreme.court"
+            ],
+            "name": "Lexis SCOTUS Citation",
+            "variations": {},
+            "notes": "",
+            "href": "",
+            "publisher": "RELX Group"
+        }
+    ],
     "U.S.L.W.": [
         {
             "cite_type": "specialty",
