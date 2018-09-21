@@ -4474,7 +4474,7 @@
     ],
     "LEXIS": [
         {
-            "cite_type": "specialty",
+            "cite_type": "specialty_lexis",
             "editions": {
                 "LEXIS": {
                     "end": null,
