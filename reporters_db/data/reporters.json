@@ -1391,6 +1391,27 @@
             }
         }
     ],
+    "Cal. Daily Op. Serv.": [
+        {
+            "cite_type": "specialty_lexis",
+            "editions": {
+                "Cal. Daily Op. Serv.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;supreme.court"
+            ],
+            "name": "California Daily Opinions Service",
+            "variations": {
+                "Cal. Daily Op. Service": "Cal. Daily Op. Serv."
+            },
+            "notes": "Lexis has a page that says this should be Shephardized as Cal. Daily Op. Service, but that violates Blue Book standard. Preferring the latter.",
+            "href": "",
+            "publisher": "RELX Group"
+        }
+    ],
     "Cal. Rptr.": [
         {
             "cite_type": "state",
@@ -2043,6 +2064,27 @@
                 "D.Chip.(Vt.)": "D. Chip.",
                 "D.Chipm.": "D. Chip."
             }
+        }
+    ],
+    "D.A.R.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "D.A.R.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;supreme.court"
+            ],
+            "name": "Daily Appellate Reports",
+            "variations": {
+                "Daily Journal D.A.R.": "D.A.R."
+            },
+            "notes": "Appears to be a small independent publisher",
+            "href": "https://www.dailyjournal.com/",
+            "publisher": "Daily Journal Corp."
         }
     ],
     "Dakota": [
