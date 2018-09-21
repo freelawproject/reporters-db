@@ -7,7 +7,7 @@ try:  # for pip >= 10
 except ImportError:  # for pip <= 9.0.3
     from pip.req import parse_requirements
 
-VERSION = '1.0.13.1'
+VERSION = '1.0.14'
 AUTHOR = 'Mike Lissner'
 EMAIL = 'mike@free.law'
 HERE = os.path.abspath(os.path.dirname(__file__))
