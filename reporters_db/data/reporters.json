@@ -6058,6 +6058,23 @@
             "variations": {}
         }
     ],
+    "NV": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "NV": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "",
+            "variations": {},
+            "notes": "",
+            "href": "",
+            "publisher": ""
+        }
+    ],
     "N.W.": [
         {
             "cite_type": "state_regional",
