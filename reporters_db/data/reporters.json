@@ -538,7 +538,9 @@
             ],
             "name": "Arkansas Reports",
             "variations": {
-                "Ak.": "Ark."
+                "Ak.": "Ark.",
+                "Ark": "Ark.",
+                "ARK.": "Ark."
             }
         }
     ],
@@ -2559,6 +2561,7 @@
                 "F. 2d": "F.2d",
                 "F. 3d": "F.3d",
                 "F.2d.": "F.2d",
+                "F.3d.": "F.3d",
                 "Fed.R.": "F.",
                 "Fed.R.2d": "F.2d",
                 "Fed.R.3d": "F.3d",
@@ -3080,8 +3083,14 @@
                 "Fed. R. Serv. 3d (West)": "Fed. R. Serv. 3d",
                 "Fed.R.Serv. (Callaghan)": "Fed. R. Serv.",
                 "Fed.R.Serv.2d (Callaghan)": "Fed. R. Serv. 2d",
-                "Fed.R.Serv.3d (West)": "Fed. R. Serv. 3d"
-            }
+                "Fed.R.Serv.3d (West)": "Fed. R. Serv. 3d",
+                "Fed. R. Evid. Serv.": "Fed. R. Serv.",
+                "Fed. R. Evid. Serv. 2d": "Fed. R. Serv. 2d",
+                "Fed. R. Evid. Serv. 3d": "Fed. R. Serv. 3d"
+
+            },
+            "href": "https://store.legal.thomsonreuters.com/law-products/Court-Rules/Federal-Rules-of-Evidence-Service/p/100027137",
+            "publisher": "Thomson Reuters"
         }
     ],
     "Fla.": [
@@ -4764,7 +4773,8 @@
             ],
             "name": "Military Justice Reporter",
             "variations": {
-                "M. J.": "M.J."
+                "M. J.": "M.J.",
+                "MJ": "M.J."
             }
         }
     ],
@@ -4813,7 +4823,10 @@
                 "us:mt;supreme.court"
             ],
             "name": "Montana Neutral Citation",
-            "variations": {}
+            "variations": {
+                "mt": "MT",
+                "Mt": "MT"
+            }
         }
     ],
     "MacArth.": [
@@ -6165,6 +6178,8 @@
             ],
             "name": "Nebraska Court of Appeals Reports",
             "variations": {
+                "Neb App": "Neb. Ct. App.",
+                "Neb App.": "Neb. Ct. App.",
                 "Neb. App.": "Neb. Ct. App.",
                 "Neb.App.R.": "Neb. Ct. App."
             }
@@ -6853,6 +6868,8 @@
                 "P 3d": "P.3d",
                 "P. 2d": "P.2d",
                 "P. 3d": "P.3d",
+                "P.2": "P.2d",
+                "P.3": "P.3d",
                 "P.R.": "P.",
                 "Pac.": "P.",
                 "Pac.2d": "P.2d",
