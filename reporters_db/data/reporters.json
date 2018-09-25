@@ -4025,6 +4025,142 @@
             }
         }
     ],
+    "IL": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "IL": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:il;supreme.court"
+            ],
+            "name": "Illlinois Neutral Citation",
+            "variations": {},
+            "notes": "",
+            "href": "",
+            "publisher": ""
+        }
+    ],
+    "IL App (1st)": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "IL App (1st)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:il;court.appeals"
+            ],
+            "name": "Illlinois Neutral Citation",
+            "variations": {
+                "IL App. (1st)": "IL App (1st)",
+                "Il App. (1st)": "IL App (1st)",
+                "Il App (1st)": "IL App (1st)"
+            },
+            "notes": "",
+            "href": "",
+            "publisher": ""
+        }
+    ],
+    "IL App (2d)": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "IL App (2d)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:il;court.appeals"
+            ],
+            "name": "Illlinois Neutral Citation",
+            "variations": {
+                "IL App. (2d)": "IL App (2d)",
+                "Il App. (2d)": "IL App (2d)",
+                "Il App (2d)": "IL App (2d)",
+                "IL App (2nd)": "IL App (2d)"
+            },
+            "notes": "",
+            "href": "",
+            "publisher": ""
+        }
+    ],
+    "IL App (3d)": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "IL App (3d)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:il;court.appeals"
+            ],
+            "name": "Illlinois Neutral Citation",
+            "variations": {
+                "IL App. (3d)": "IL App (3d)",
+                "Il App. (3d)": "IL App (3d)",
+                "Il App (3d)": "IL App (3d)",
+                "IL App (3rd)": "IL App (3d)"
+            },
+            "notes": "",
+            "href": "",
+            "publisher": ""
+        }
+    ],
+    "IL App (4th)": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "IL App (4th)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:il;court.appeals"
+            ],
+            "name": "Illlinois Neutral Citation",
+            "variations": {
+                "IL App. (4th)": "IL App (4th)",
+                "Il App. (4th)": "IL App (4th)",
+                "Il App (4th)": "IL App (4th)"
+            },
+            "notes": "",
+            "href": "",
+            "publisher": ""
+        }
+    ],
+    "IL App (5th)": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "IL App (5th)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:il;court.appeals"
+            ],
+            "name": "Illlinois Neutral Citation",
+            "variations": {
+                "IL App. (5th)": "IL App (5th)",
+                "Il App. (5th)": "IL App (5th)",
+                "Il App (5th)": "IL App (5th)"
+            },
+            "notes": "",
+            "href": "",
+            "publisher": ""
+        }
+    ],
     "Ill.": [
         {
             "cite_type": "state",
