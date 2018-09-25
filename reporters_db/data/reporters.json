@@ -2508,6 +2508,27 @@
             "notes": "Neither Blue Book nor Baby Blue provides guidance on this reporter."
         }
     ],
+    "Empl. Prac. Dec. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Empl. Prac. Dec. (CCH)": {
+                    "end": null,
+                    "start": "1971-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Employment Practices Decisions",
+            "variations": {
+                "Empl. Prac. Dec.": "Empl. Prac. Dec. (CCH)",
+                "Empl. Prac.Dec.": "Empl. Prac. Dec. (CCH)"
+
+            },
+            "notes": "",
+            "href": "",
+            "publisher": "Commerce Clearing House"
+        }
+    ],
     "Envtl. L. Rep. (Envtl. Law Inst.)": [
         {
             "cite_type": "specialty",
