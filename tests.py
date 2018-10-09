@@ -1,6 +1,7 @@
 import datetime
 import six
-from reporters_db import REPORTERS, VARIATIONS_ONLY, EDITIONS
+from reporters_db import REPORTERS, VARIATIONS_ONLY, EDITIONS, \
+    NAMES_TO_EDITIONS
 from unittest import TestCase
 
 VALID_CITE_TYPES = (
@@ -39,6 +40,13 @@ class ConstantsTest(TestCase):
                     msg="Could not map variation to a valid reporter: %s" %
                         variation
                 )
+
+    def test_basic_names_to_editions(self):
+        """Do we get something like we expected in the NAME_TO_EDITION var?"""
+        self.assertEqual(
+            NAMES_TO_EDITIONS['Atlantic Reporter'],
+            ['A.', 'A.2d', 'A.3d'],
+        )
 
     def test_that_all_dates_are_converted_to_dates_not_strings(self):
         """Do we properly make the ISO-8601 date strings into Python dates?"""
