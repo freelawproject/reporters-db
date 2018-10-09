@@ -2,8 +2,7 @@ import datetime
 import json
 import os
 import six
-from .utils import suck_out_variations_only
-from .utils import suck_out_editions
+from .utils import suck_out_editions, suck_out_names, suck_out_variations_only
 
 
 # noinspection PyBroadException
@@ -15,6 +14,7 @@ def datetime_parser(dct):
             except:
                 pass
     return dct
+
 
 db_root = os.path.dirname(os.path.realpath(__file__))
 with open(os.path.join(db_root, 'data', 'reporters.json')) as f:
@@ -31,3 +31,4 @@ with open(os.path.join(db_root, 'data', 'case_name_abbreviations.json')) as f:
 
 VARIATIONS_ONLY = suck_out_variations_only(REPORTERS)
 EDITIONS = suck_out_editions(REPORTERS)
+NAMES_TO_EDITIONS = suck_out_names(REPORTERS)
