@@ -1,6 +1,8 @@
 import datetime
 import json
 
+from collections import OrderedDict
+
 
 def suck_out_variations_only(reporters):
     """Builds a dictionary of variations to canonical reporters.
@@ -79,7 +81,8 @@ def suck_out_names(reporters):
             sort_func = lambda x: data['editions'][x]['start']
             abbrevs = sorted(abbrevs, key=sort_func)
             names[data['name']] = abbrevs
-    return names
+    sorted_names = OrderedDict(sorted(names.items(), key=lambda t: t[0]))
+    return sorted_names
 
 
 def print_json_with_dates(obj):
