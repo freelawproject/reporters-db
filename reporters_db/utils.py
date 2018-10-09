@@ -1,5 +1,5 @@
-import json
 import datetime
+import json
 
 
 def suck_out_variations_only(reporters):
@@ -58,6 +58,28 @@ def suck_out_editions(reporters):
                     # The item wasn't there; add it.
                     editions_out[edition_key] = reporter_key
     return editions_out
+
+
+def suck_out_names(reporters):
+    """Build a dict mapping names to their variations
+
+    Something like:
+
+        {
+            "Atlantic Reporter": ['A.', 'A.2d'],
+        }
+
+    Note that the abbreviations are sorted by start date.
+    """
+    names = {}
+    for reporter_key, data_list in reporters.items():
+        for data in data_list:
+            abbrevs = data['editions'].keys()
+            # Sort abbreviations by start date of the edition
+            sort_func = lambda x: data['editions'][x]['start']
+            abbrevs = sorted(abbrevs, key=sort_func)
+            names[data['name']] = abbrevs
+    return names
 
 
 def print_json_with_dates(obj):
