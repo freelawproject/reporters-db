@@ -2,7 +2,8 @@ import datetime
 import json
 import os
 import six
-from .utils import suck_out_editions, suck_out_names, suck_out_variations_only
+from .utils import suck_out_editions, names_to_abbreviations, \
+    suck_out_variations_only
 
 
 # noinspection PyBroadException
@@ -31,4 +32,4 @@ with open(os.path.join(db_root, 'data', 'case_name_abbreviations.json')) as f:
 
 VARIATIONS_ONLY = suck_out_variations_only(REPORTERS)
 EDITIONS = suck_out_editions(REPORTERS)
-NAMES_TO_EDITIONS = suck_out_names(REPORTERS)
+NAMES_TO_EDITIONS = names_to_abbreviations(REPORTERS)

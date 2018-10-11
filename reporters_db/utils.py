@@ -62,7 +62,7 @@ def suck_out_editions(reporters):
     return editions_out
 
 
-def suck_out_names(reporters):
+def names_to_abbreviations(reporters):
     """Build a dict mapping names to their variations
 
     Something like:
