@@ -78,7 +78,7 @@ def names_to_abbreviations(reporters):
         for data in data_list:
             abbrevs = data['editions'].keys()
             # Sort abbreviations by start date of the edition
-            sort_func = lambda x: data['editions'][x]['start']
+            sort_func = lambda x: str(data['editions'][x]['start']) + x
             abbrevs = sorted(abbrevs, key=sort_func)
             names[data['name']] = abbrevs
     sorted_names = OrderedDict(sorted(names.items(), key=lambda t: t[0]))

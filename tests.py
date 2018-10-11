@@ -44,8 +44,15 @@ class ConstantsTest(TestCase):
     def test_basic_names_to_editions(self):
         """Do we get something like we expected in the NAME_TO_EDITION var?"""
         self.assertEqual(
-            NAMES_TO_EDITIONS['Atlantic Reporter'],
             ['A.', 'A.2d', 'A.3d'],
+            NAMES_TO_EDITIONS['Atlantic Reporter'],
+        )
+
+    def test_editions_ordering(self):
+        """Test Ill. App., where we don't have good start dates."""
+        self.assertEqual(
+            ['Ill. App.', 'Ill. App. 2d', 'Ill. App. 3d'],
+            NAMES_TO_EDITIONS['Illinois Appellate Court Reports'],
         )
 
     def test_that_all_dates_are_converted_to_dates_not_strings(self):
@@ -159,6 +166,7 @@ class ConstantsTest(TestCase):
                             msg="It appears that edition %s ends before it "
                                 "starts." % k
                         )
+
 
 if __name__ == '__main__':
     import unittest
