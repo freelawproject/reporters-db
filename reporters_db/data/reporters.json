@@ -8442,7 +8442,9 @@
             "variations": {
                 "T. C.": "T.C.",
                 "T.Ct": "T.C.",
-                "T.Ct.": "T.C."
+                "T.Ct.": "T.C.",
+                "UNITED STATES TAX REPORT": "T.C.",
+                "UNITED STATES TAX REPORTS": "T.C."
             }
         }
     ],
@@ -8463,6 +8465,63 @@
                 "T.C.M. (CCH)": "T.C.M.",
                 "T.C.M. (P-H)": "T.C.M.",
                 "T.C.M. (RIA)": "T.C.M."
+            }
+        }
+    ],
+    "T.C. Summary Opinion": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "T.C. Summary Opinion": {
+                    "end": null,
+                    "start": "1942-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
+            "name": "Tax Court Summary Opinions",
+            "notes": "Neutral Citation for summary opinions of the Tax Court. These opinions are atypical format -> T.C. Summary Opinion YYYY-XX",
+            "variations": {
+                "T. C. Summary Opinion": "T.C. Summary Opinion"
+            }
+        }
+    ],
+    "T.C. Memo.": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "T.C. Memo.": {
+                    "end": null,
+                    "start": "1942-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
+            "notes": "These documents are non precedential, but known to be persuasive. Atypical format atypical format -> T.C. Memo YYYY-XX",
+            "name": "Tax Court Memorandum Opinions",
+            "variations": {
+                "T. C. Memo.": "T.C. Memo.",
+                "T.C. Memo": "T.C. Memo."
+            }
+        }
+    ],
+    "T.C. No.": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "T.C. No.": {
+                    "end": null,
+                    "start": "1942-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
+            "notes": "T.C. No. is the neutral citation for the T.C. Reporter",
+            "name": "Tax Court Opinions -- that are precedential",
+            "variations": {
             }
         }
     ],
