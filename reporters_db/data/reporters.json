@@ -86,21 +86,25 @@
             "cite_type": "specialty",
             "editions": {
                 "A.F.T.R. (RIA)": {
-                    "end": null,
+                    "end": "1957-12-31T00:00:00",
                     "start": "1750-01-01T00:00:00"
                 },
                 "A.F.T.R.2d (RIA)": {
                     "end": null,
-                    "start": "1750-01-01T00:00:00"
+                    "start": "1958-01-01T00:00:00"
                 }
             },
-            "mlz_jurisdiction": [],
+            "notes": "See: https://www.irs.gov/pub/irs-tege/eotopich87.pdf",
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
             "name": "American Federal Tax Reports",
             "variations": {
                 "A.F.T.R.": "A.F.T.R. (RIA)",
                 "A.F.T.R. 2d (RIA)": "A.F.T.R.2d (RIA)",
                 "A.F.T.R. 2d": "A.F.T.R.2d (RIA)",
-                "A.F.T.R.2d": "A.F.T.R.2d (RIA)"
+                "A.F.T.R.2d": "A.F.T.R.2d (RIA)",
+                "P-H T.C. Memo.": "P-H T.C. Memo."
             }
         }
     ],
