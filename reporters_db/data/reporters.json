@@ -8445,7 +8445,8 @@
                 "T.Ct": "T.C.",
                 "T.Ct.": "T.C.",
                 "UNITED STATES TAX REPORT": "T.C.",
-                "UNITED STATES TAX REPORTS": "T.C."
+                "UNITED STATES TAX REPORTS": "T.C.",
+                "T.C. at": "T.C."
             }
         }
     ],
