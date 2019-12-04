@@ -4558,7 +4558,8 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:ky;supreme.court"
+                "us:ky;supreme.court",
+                "us:ky;appeals.court"
             ],
             "name": "Kentucky Reports",
             "variations": {}
@@ -4574,7 +4575,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:ky;supreme.court"
+                "us:ky;appeals.court"
             ],
             "name": "Kentucky Appellate Reporter",
             "variations": {}
@@ -5150,7 +5151,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:ma;appeals.court"
+                "us:ma;supreme.court"
             ],
             "name": "Massachusetts Reports",
             "variations": {
