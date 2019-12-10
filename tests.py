@@ -167,15 +167,6 @@ class ConstantsTest(TestCase):
                                 "starts." % k
                         )
 
-    def test_reporter_exists(self):
-        for reporter_dicts in REPORTERS.values():
-            # Each value is a list of reporter dictionaries
-            for reporter in reporter_dicts:
-                if "T.C. Memo" in reporter['editions'].keys()[0]:
-                    self.assertGreaterEqual(len(reporter['editions'].keys()), 1)
-                if "T.C. No." in reporter['editions'].keys()[0]:
-                    self.assertGreaterEqual(len(reporter['editions'].keys()), 1)
-
 if __name__ == '__main__':
     import unittest
     unittest.main()
