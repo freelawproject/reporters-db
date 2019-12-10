@@ -86,21 +86,25 @@
             "cite_type": "specialty",
             "editions": {
                 "A.F.T.R. (RIA)": {
-                    "end": null,
+                    "end": "1957-12-31T00:00:00",
                     "start": "1750-01-01T00:00:00"
                 },
                 "A.F.T.R.2d (RIA)": {
                     "end": null,
-                    "start": "1750-01-01T00:00:00"
+                    "start": "1958-01-01T00:00:00"
                 }
             },
-            "mlz_jurisdiction": [],
+            "notes": "See: https://www.irs.gov/pub/irs-tege/eotopich87.pdf",
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
             "name": "American Federal Tax Reports",
             "variations": {
                 "A.F.T.R.": "A.F.T.R. (RIA)",
                 "A.F.T.R. 2d (RIA)": "A.F.T.R.2d (RIA)",
                 "A.F.T.R. 2d": "A.F.T.R.2d (RIA)",
-                "A.F.T.R.2d": "A.F.T.R.2d (RIA)"
+                "A.F.T.R.2d": "A.F.T.R.2d (RIA)",
+                "P-H T.C. Memo.": "A.F.T.R. (RIA)"
             }
         }
     ],
@@ -1410,7 +1414,6 @@
                 "Cal. Daily Op. Service": "Cal. Daily Op. Serv."
             },
             "notes": "Lexis has a page that says this should be Shephardized as Cal. Daily Op. Service, but that violates Blue Book standard. Preferring the latter.",
-            "href": "",
             "publisher": "RELX Group"
         }
     ],
@@ -1593,10 +1596,7 @@
             },
             "mlz_jurisdiction": [],
             "name": "Neutral citation for Court of International Trade",
-            "variations": {},
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            "variations": {}
         }
     ],
     "Cl. Ch.": [
@@ -2541,8 +2541,6 @@
                 "Empl. Prac.Dec.": "Empl. Prac. Dec. (CCH)"
 
             },
-            "notes": "",
-            "href": "",
             "publisher": "Commerce Clearing House"
         }
     ],
@@ -4038,10 +4036,7 @@
                 "us:il;supreme.court"
             ],
             "name": "Illlinois Neutral Citation",
-            "variations": {},
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            "variations": {}
         }
     ],
     "IL App (1st)": [
@@ -4061,10 +4056,7 @@
                 "IL App. (1st)": "IL App (1st)",
                 "Il App. (1st)": "IL App (1st)",
                 "Il App (1st)": "IL App (1st)"
-            },
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            }
         }
     ],
     "IL App (2d)": [
@@ -4085,10 +4077,7 @@
                 "Il App. (2d)": "IL App (2d)",
                 "Il App (2d)": "IL App (2d)",
                 "IL App (2nd)": "IL App (2d)"
-            },
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            }
         }
     ],
     "IL App (3d)": [
@@ -4109,10 +4098,7 @@
                 "Il App. (3d)": "IL App (3d)",
                 "Il App (3d)": "IL App (3d)",
                 "IL App (3rd)": "IL App (3d)"
-            },
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            }
         }
     ],
     "IL App (4th)": [
@@ -4132,10 +4118,7 @@
                 "IL App. (4th)": "IL App (4th)",
                 "Il App. (4th)": "IL App (4th)",
                 "Il App (4th)": "IL App (4th)"
-            },
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            }
         }
     ],
     "IL App (5th)": [
@@ -4155,10 +4138,7 @@
                 "IL App. (5th)": "IL App (5th)",
                 "Il App. (5th)": "IL App (5th)",
                 "Il App (5th)": "IL App (5th)"
-            },
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            }
         }
     ],
     "Ill.": [
@@ -4554,7 +4534,8 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:ky;supreme.court"
+                "us:ky;supreme.court",
+                "us:ky;appeals.court"
             ],
             "name": "Kentucky Reports",
             "variations": {}
@@ -4570,7 +4551,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:ky;supreme.court"
+                "us:ky;appeals.court"
             ],
             "name": "Kentucky Appellate Reporter",
             "variations": {}
@@ -5146,7 +5127,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:ma;appeals.court"
+                "us:ma;supreme.court"
             ],
             "name": "Massachusetts Reports",
             "variations": {
@@ -5702,10 +5683,7 @@
             },
             "mlz_jurisdiction": [],
             "name": "Merit Systems Protection Board",
-            "variations": {},
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            "variations": {}
         }
     ],
     "Munf.": [
@@ -6068,11 +6046,8 @@
                 }
             },
             "mlz_jurisdiction": [],
-            "name": "",
-            "variations": {},
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            "name": "Nevada",
+            "variations": {}
         }
     ],
     "N.W.": [
@@ -6511,10 +6486,7 @@
                 "us:ok;attorney.general"
             ],
             "name": "Oklahoma Attorney General Neutral Citation",
-            "variations": {},
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            "variations": {}
         }
     ],
     "OK CIV APP": [
@@ -8442,7 +8414,10 @@
             "variations": {
                 "T. C.": "T.C.",
                 "T.Ct": "T.C.",
-                "T.Ct.": "T.C."
+                "T.Ct.": "T.C.",
+                "UNITED STATES TAX COURT REPORT": "T.C.",
+                "UNITED STATES TAX COURT REPORTS": "T.C.",
+                "T.C. at": "T.C."
             }
         }
     ],
@@ -8466,6 +8441,65 @@
             }
         }
     ],
+    "T.C. Summary Opinion": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "T.C. Summary Opinion": {
+                    "end": null,
+                    "start": "1942-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
+            "name": "Tax Court Summary Opinions",
+            "notes": "Neutral Citation for summary opinions of the Tax Court. These opinions are atypical format -> T.C. Summary Opinion YYYY-XX",
+            "variations": {
+                "T. C. Summary Opinion": "T.C. Summary Opinion"
+            }
+        }
+    ],
+    "T.C. Memo.": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "T.C. Memo.": {
+                    "end": null,
+                    "start": "1942-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
+            "notes": "These documents are non precedential, but known to be persuasive. Atypical format atypical format -> T.C. Memo YYYY-XX",
+            "name": "Tax Court Memorandum Opinions",
+            "variations": {
+                "T. C. Memo.": "T.C. Memo.",
+                "T.C. Memo": "T.C. Memo."
+            }
+        }
+    ],
+        "T.C. No.": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "T.C. No.": {
+                    "end": null,
+                    "start": "1942-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
+            "notes": "T.C. No. is the neutral citation for the T.C. Reporter",
+            "name": "Tax Court Opinions",
+            "variations": {
+              "T. C. No.": "T.C. No."
+            }
+        }
+    ],
+
     "Tay.": [
         {
             "cite_type": "state",
@@ -8931,8 +8965,6 @@
             ],
             "name": "Lexis SCOTUS Citation",
             "variations": {},
-            "notes": "",
-            "href": "",
             "publisher": "RELX Group"
         }
     ],
