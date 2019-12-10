@@ -1414,7 +1414,6 @@
                 "Cal. Daily Op. Service": "Cal. Daily Op. Serv."
             },
             "notes": "Lexis has a page that says this should be Shephardized as Cal. Daily Op. Service, but that violates Blue Book standard. Preferring the latter.",
-            "href": "",
             "publisher": "RELX Group"
         }
     ],
@@ -1597,10 +1596,7 @@
             },
             "mlz_jurisdiction": [],
             "name": "Neutral citation for Court of International Trade",
-            "variations": {},
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            "variations": {}
         }
     ],
     "Cl. Ch.": [
@@ -2545,8 +2541,6 @@
                 "Empl. Prac.Dec.": "Empl. Prac. Dec. (CCH)"
 
             },
-            "notes": "",
-            "href": "",
             "publisher": "Commerce Clearing House"
         }
     ],
@@ -4042,10 +4036,7 @@
                 "us:il;supreme.court"
             ],
             "name": "Illlinois Neutral Citation",
-            "variations": {},
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            "variations": {}
         }
     ],
     "IL App (1st)": [
@@ -4065,10 +4056,7 @@
                 "IL App. (1st)": "IL App (1st)",
                 "Il App. (1st)": "IL App (1st)",
                 "Il App (1st)": "IL App (1st)"
-            },
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            }
         }
     ],
     "IL App (2d)": [
@@ -4089,10 +4077,7 @@
                 "Il App. (2d)": "IL App (2d)",
                 "Il App (2d)": "IL App (2d)",
                 "IL App (2nd)": "IL App (2d)"
-            },
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            }
         }
     ],
     "IL App (3d)": [
@@ -4113,10 +4098,7 @@
                 "Il App. (3d)": "IL App (3d)",
                 "Il App (3d)": "IL App (3d)",
                 "IL App (3rd)": "IL App (3d)"
-            },
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            }
         }
     ],
     "IL App (4th)": [
@@ -4136,10 +4118,7 @@
                 "IL App. (4th)": "IL App (4th)",
                 "Il App. (4th)": "IL App (4th)",
                 "Il App (4th)": "IL App (4th)"
-            },
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            }
         }
     ],
     "IL App (5th)": [
@@ -4159,10 +4138,7 @@
                 "IL App. (5th)": "IL App (5th)",
                 "Il App. (5th)": "IL App (5th)",
                 "Il App (5th)": "IL App (5th)"
-            },
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            }
         }
     ],
     "Ill.": [
@@ -5707,10 +5683,7 @@
             },
             "mlz_jurisdiction": [],
             "name": "Merit Systems Protection Board",
-            "variations": {},
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            "variations": {}
         }
     ],
     "Munf.": [
@@ -6073,11 +6046,8 @@
                 }
             },
             "mlz_jurisdiction": [],
-            "name": "",
-            "variations": {},
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            "name": "Nevada",
+            "variations": {}
         }
     ],
     "N.W.": [
@@ -6516,10 +6486,7 @@
                 "us:ok;attorney.general"
             ],
             "name": "Oklahoma Attorney General Neutral Citation",
-            "variations": {},
-            "notes": "",
-            "href": "",
-            "publisher": ""
+            "variations": {}
         }
     ],
     "OK CIV APP": [
@@ -8444,7 +8411,6 @@
                 "us:c;tax.court"
             ],
             "name": "Reports of the United States Tax Court",
-            "notes": "",
             "variations": {
                 "T. C.": "T.C.",
                 "T.Ct": "T.C.",
@@ -8998,8 +8964,6 @@
             ],
             "name": "Lexis SCOTUS Citation",
             "variations": {},
-            "notes": "",
-            "href": "",
             "publisher": "RELX Group"
         }
     ],
