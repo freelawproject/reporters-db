@@ -6160,6 +6160,26 @@
             }
         }
     ],
+    "N.Y. Ann. Cas.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Ann. Cas": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "New York Annotated Cases",
+            "variations": {
+                "N.Y.Ann.Cas.": "N.Y. Ann. Cas.",
+                "N.Y. Ann. Ca.": "N.Y. Ann. Cas.",
+                "N.Y. Anno. Cas.": "N.Y. Ann. Cas"
+            }
+        }
+    ],
     "N.Y. Ch. Ann.": [
         {
             "cite_type": "state",
