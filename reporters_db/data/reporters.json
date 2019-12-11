@@ -6500,24 +6500,6 @@
             }
         }
     ],
-      "Ohio Law Rep.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "OH": {
-                    "end": null,
-                    "start": null
-                }
-            },
-            "mlz_jurisdiction": [
-                "us:oh;supreme.court"
-            ],
-            "name": "Ohio Law Reporter",
-            "variations": {
-                "Ohio Law R": "Ohio Law Rep."
-            }
-        }
-    ],
     "OK": [
         {
             "cite_type": "neutral",
@@ -6827,6 +6809,24 @@
                 "Ohio Law Abst.": "Ohio Law. Abs.",
                 "Ohio Law Abs.": "Ohio Law. Abs.",
                 "Ohio Laws Abs.": "Ohio Law. Abs."
+            }
+        }
+    ],
+    "Ohio Law Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ohio Law Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;supreme.court"
+            ],
+            "name": "Ohio Law Reporter",
+            "variations": {
+                "Ohio Law R": "Ohio Law Rep."
             }
         }
     ],
