@@ -443,6 +443,31 @@
             "href": "https://catalog.hathitrust.org/Record/006692328"
         }
     ],
+    "Am. Neg. Ca.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Am. Neg. Ca.": {
+                    "end": "1897-12-31T00:00:00",
+                    "start": "1789-01-01T00:00:00"
+                },
+                "Am. Neg. Cas.": {
+                    "end": "1907-12-31T00:00:00",
+                    "start": "1789-01-01T00:00:00"
+                },
+                "Am. Neg. Cases": {
+                    "end": "1987-12-31T00:00:00",
+                    "start": "1789-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American Negligence Cases",
+            "variations": {
+                "Am. Negl. Cas.": "Am. Neg. Ca."
+            },
+            "notes": "Date estimates"
+        }
+    ],
     "Ant. N.P. Cas.": [
         {
             "cite_type": "state",
@@ -2524,6 +2549,26 @@
                 "Ed.Ch.": "Edw. Ch.",
                 "Edw.": "Edw. Ch.",
                 "Edw.Ch.(N.Y.)": "Edw. Ch."
+            }
+        }
+    ],
+    "E.H. Smith": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "E.H. Smith": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "E.H. Smiths Reports",
+            "variations": {
+                "Smiths E.H.": "E.H. Smith",
+                "E.H.Smith's": "E.H. Smith",
+                "Smith's (E.H.) Reports": "E.H. Smith"
             }
         }
     ],
@@ -4679,7 +4724,6 @@
                     "end": null,
                     "start": null
                 }
-
             },
             "mlz_jurisdiction": [],
             "name": "Lawyers' Reports Annotated",
@@ -8266,6 +8310,22 @@
                 "Serg.& R.": "Serg. & Rawle",
                 "Serg.& Raw.": "Serg. & Rawle",
                 "Serg.& Rawl.": "Serg. & Rawle"
+            }
+        }
+    ],
+    "Sickels": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Sickels": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Sickels' Reports",
+            "variations": {
+                "Sick.": "Sickels"
             }
         }
     ],
