@@ -9318,6 +9318,28 @@
             }
         }
     ],
+    "W.L.B.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "W.L.B.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;supreme.court"
+            ],
+            "name": "Weekly Law Bulletin (Ohio)",
+            "notes": "Variations found in Prince's Bieber Dictionary of Legal Abbreviations",
+            "variations": {
+                "Weekly LawBulletin": "W.L.B.",
+                "W.L. Bull.": "W.L.B.",
+                "Ohio W.L. Bull.": "W.L.B.",
+                "Weekly Law Bulletin (Ohio)": "W.L.B."
+            }
+        }
+    ],
     "WI": [
         {
             "cite_type": "neutral",
