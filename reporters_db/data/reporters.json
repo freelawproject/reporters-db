@@ -460,10 +460,13 @@
                     "start": "1789-01-01T00:00:00"
                 }
             },
-            "mlz_jurisdiction": [],
+            "mlz_jurisdiction": [
+              "us:ny;court.appeals"
+            ],
             "name": "American Negligence Cases",
             "variations": {
-                "Am. Negl. Cas.": "Am. Neg. Ca."
+                "Am. Negl. Cas.": "Am. Neg. Ca.",
+                "Am.Negl.Cas.": "Am. Neg. Cases"
             },
             "notes": "Date estimates"
         }
@@ -6584,6 +6587,27 @@
                 "O.S.H. Cases (BNA)": "O.S.H. Cas. (BNA)"
             },
             "href": "http://www.bna.com/occupational-safety--p4900/"
+        }
+    ],
+      "O.S.U.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "O.S.U.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;supreme.court"
+            ],
+            "name": "Ohio Supreme Court Decisions, Unreported",
+            "variations": {
+              "Ohio S.U.": "O.S.U.",
+              "Oh. S.C.D.": "O.S.U.",
+              "O.S.C.D.": "O.S.U.",
+              "Ohio. Unrept.Cas.": "O.S.U."
+            }
         }
     ],
     "OH": [
