@@ -6180,6 +6180,25 @@
             }
         }
     ],
+    "N.Y. Civ. Proc. R.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Ann. Cas": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "New York Civil Procedure Reports",
+            "variations": {
+                "N.Y. Civ. Proc. Rep.": "N.Y. Civ. Proc. R.",
+                "N.Y.Civ.Proc.R.": "N.Y. Civ. Proc. R."
+            }
+        }
+    ],
     "N.Y. Ch. Ann.": [
         {
             "cite_type": "state",
@@ -6195,6 +6214,27 @@
             "name": "New York Chancery Reports Annotated",
             "variations": {
                 "N.Y.Ch.R.Ann.": "N.Y. Ch. Ann."
+            }
+        }
+    ],
+    "N.Y. Crim. R.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Ann. Cas": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "New York Criminal Reports",
+            "variations": {
+                "N.Y.Crim.R.": "N.Y. Crim. R.",
+                "N.Y. Crim. Rep.": "N.Y. Crim. R.",
+                "N.Y. Cr. Rep.": "N.Y. Crim. R.",
+                "N.Y. Cr. R.": "N.Y. Crim. R."
             }
         }
     ],
