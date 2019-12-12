@@ -1514,6 +1514,22 @@
             }
         }
     ],
+    "Cal. Comp. Cases": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Cal. Comp. Cases": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;__.__"
+            ],
+            "name": "California Compensation Cases",
+            "variations": {}
+        }
+    ],
     "Cal. Daily Op. Serv.": [
         {
             "cite_type": "specialty_lexis",
