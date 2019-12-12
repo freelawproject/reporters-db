@@ -6246,6 +6246,22 @@
             }
         }
     ],
+    "N.J.L.J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.J.L.J.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;supreme.court"
+            ],
+            "name": "New Jersey Law Journal",
+            "variations": {}
+        }
+    ],
     "N.L.R.B.": [
         {
             "cite_type": "federal",
