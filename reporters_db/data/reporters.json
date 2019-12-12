@@ -1178,6 +1178,27 @@
             "variations": {}
         }
     ],
+    "Buchanan": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Buchanan": {
+                    "end": "1916-12-31T00:00:00",
+                    "start": "1907-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;supreme.court"
+            ],
+            "name": "Buchanan's Reports",
+            "notes": "Estimated date range.",
+            "variations": {
+                "Buch.": "Buchanan",
+                "Buchan.": "Buchanan",
+                "Buchanan.": "Buchanan"
+            }
+        }
+    ],
     "Bur.": [
         {
             "cite_type": "state",
