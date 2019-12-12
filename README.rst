@@ -132,15 +132,21 @@ Some notes on the ``state_abbreviations`` and
 Notes on Specific Data Point and References
 -------------------------------------------
 
-1. Mississippi supports neutral citations, but does so in their own
+1. A good way to look up abbreviations is in `Prince's Bieber Dictionary 
+   of Legal Abbreviations <https://books.google.com/books?id=4aJsAwAAQBAJ&dq=%22Ohio+Law+Rep.%22&source=gbs_navlinks_s>`__. You can find a lot of this book on Google Books, 
+   but we have it as a PDF too. Just ask.
+   
+2. Mississippi supports neutral citations, but does so in their own
    format, as specified in `this
    rule <http://www.aallnet.org/main-menu/Advocacy/access/citation/neutralrules/rules-ms.html>`__.
    Research is needed for the format in ``reporters.json`` to see if it
    is used accidentally as a variant of their rule or whether it is an
    error in this database.
-2. New Mexico dates confirmed via the `table
+
+3. New Mexico dates confirmed via the `table
    here <http://www.nmcompcomm.us/nmcases/pdf/NM%20Reports%20to%20Official%20-%20Vols.%201-75.pdf>`__.
-3. Both Puerto Rico and "Pennsylvania State Reports, Penrose and Watts"
+
+4. Both Puerto Rico and "Pennsylvania State Reports, Penrose and Watts"
    use the citation "P.R."
 
 Installation (Python)
