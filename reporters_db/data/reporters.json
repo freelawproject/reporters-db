@@ -8737,6 +8737,25 @@
             "variations": {}
         }
     ],
+    "Stock.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Stock.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;supreme.court"
+            ],
+            "name": "Stockton's New Jersey Equity Reports",
+            "variations": {
+                "B. Stockton": "Stock.",
+                "B.Stockton": "Stock."
+            }
+        }
+    ],
     "Strob.": [
         {
             "cite_type": "state",
