@@ -5424,7 +5424,8 @@
             ],
             "name": "Massachusetts Appeals Court Reports",
             "variations": {
-                "Ma.A.": "Mass. App. Ct."
+                "Ma.A.": "Mass. App. Ct.",
+                "Mass.App.Ct.": "Mass. App. Ct."
             }
         }
     ],
