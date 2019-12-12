@@ -5055,6 +5055,32 @@
             }
         }
     ],
+    "Leg. Int.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Leg. Int.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Philadelphia Legal Intelligencer, Pa.",
+            "variations": {
+                "Intelligencer": "Leg. Int.",
+                "Leg. Intel. or Intell.": "Leg. Int.",
+                "Leg.Int.": "Leg. Int.",
+                "Legal Int.": "Leg. Int.",
+                "Legal Intel.": "Leg. Int.",
+                "Legal Intell.": "Leg. Int.",
+                "Legal Intelligencer": "Leg. Int.",
+                "Phila. Leg. Int.": "Leg. Int.",
+                "Philadelphia Leg. Int.": "Leg. Int."
+            }
+        }
+    ],
     "Leigh": [
         {
             "cite_type": "state",
