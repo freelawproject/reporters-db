@@ -7736,6 +7736,27 @@
             }
         }
     ],
+    "Penne.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Penne.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;supreme.court"
+            ],
+            "name": "Pennewill's Delaware Reports",
+            "variations": {
+                "Penn.": "Penne.",
+                "Penn. Del.": "Penne.",
+                "Pennew.": "Penne.",
+                "Pennewill.": "Penne."
+            }
+        }
+    ],
     "Pennewill": [
         {
             "cite_type": "state",
