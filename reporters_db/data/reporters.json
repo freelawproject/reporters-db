@@ -401,6 +401,27 @@
             }
         }
     ],
+    "Am. Ann. Cas.": [
+        {
+            "cite_type": null,
+            "editions": {
+                "Am. Ann. Cas.": {
+                    "end": "1912-12-31T00:00:00",
+                    "start": "1904-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;supreme.court",
+                "us:in;supreme.court",
+                "us:ny;court.appeals"
+            ],
+            "name": "American Annotated Cases",
+            "notes": "More jurisdictions are likely to be found.",
+            "variations": {
+                "Am.Ann.Cas.": "Am. Ann. Cas."
+            }
+        }
+    ],
     "Am. Neg. Ca.": [
         {
             "cite_type": "state",
