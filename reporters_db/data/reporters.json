@@ -9498,8 +9498,8 @@
             "mlz_jurisdiction": [],
             "name": "The United States Patents Quarterly",
             "variations": {
-                "USPQ": "U.S.P.Q. (BNA)",
                 "U.S.P.Q.": "U.S.P.Q. (BNA)",
+                "USPQ": "U.S.P.Q. (BNA)",
                 "USPQ (BNA)": "U.S.P.Q. (BNA)",
                 "USPQ 2d": "U.S.P.Q. 2d (BNA)",
                 "USPQ 2d (BNA)": "U.S.P.Q. 2d (BNA)"
