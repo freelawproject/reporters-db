@@ -1,4 +1,20 @@
 {
+    "Backes": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Backes": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;supreme.court"
+            ],
+            "name": "Backes' Reporter",
+            "variations": {}
+        }
+    ],
     "A.": [
         {
             "cite_type": "state_regional",
