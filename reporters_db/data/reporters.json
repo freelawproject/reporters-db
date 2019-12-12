@@ -9743,6 +9743,45 @@
             }
         }
     ],
+    "W.N.C.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "W.N.C.": {
+                    "end": "1899-12-31T00:00:00",
+                    "start": "1874-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Weekly Notes of Cases",
+            "notes": "Estimated date range",
+            "variations": {
+                "W.N.C. (Pa.)": "W.N.C."
+            }
+        }
+    ],
+    "W.W. Harr.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "W.W. Harr.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;supreme.court"
+            ],
+            "name": "W.W. Harrington's Reports",
+            "variations": {
+                "W.W. Harr. Del": "W.W. Harr.",
+                "W.W.H": "W.W. Harr.",
+                "W.W.Harr.": "W.W. Harr."
+            }
+        }
+    ],
     "WI": [
         {
             "cite_type": "neutral",
