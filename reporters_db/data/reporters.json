@@ -9655,6 +9655,34 @@
             }
         }
     ],
+    "Vroom": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Vroom": {
+                    "end": null,
+                    "start": null
+                },
+                "Vroom (G.D.W)": {
+                    "end": null,
+                    "start": null
+                },
+                "Vroom (P.D.)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;supreme.court"
+            ],
+            "name": "Vroom's Reports",
+            "variations": {
+                "Vr.": "Vroom",
+                "Vroom (N.J.)": "Vroom",
+                "Vroom.": "Vroom"
+            }
+        }
+    ],
     "Vt.": [
         {
             "cite_type": "state",
