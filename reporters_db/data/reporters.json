@@ -2507,6 +2507,24 @@
             }
         }
     ],
+    "Dickinson": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Dickinson": {
+                    "end": "1905-12-31T00:00:00",
+                    "start": "1890-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;supreme.court"
+            ],
+            "name": "Dickinson's New Jersey Equity",
+            "variations": {
+                "Dick. (NJ)": "Dickinson"
+            }
+        }
+    ],
     "Doug.": [
         {
             "cite_type": "state",
