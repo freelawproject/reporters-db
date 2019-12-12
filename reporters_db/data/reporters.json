@@ -1254,6 +1254,24 @@
             }
         }
     ],
+    "C.C.L.J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "C.C.L.J.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Centre County Legal Journal (Pa.)",
+            "variations": {
+                "Centre Co.L.J.": "C.C.L.J."
+            }
+        }
+    ],
     "C.C.P.A.": [
         {
             "cite_type": "specialty",
