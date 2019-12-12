@@ -450,6 +450,25 @@
             }
         }
     ],
+    "Am. Rep.": [
+        {
+            "cite_type": null,
+            "editions": {
+                "Am. Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;supreme.court"
+            ],
+            "name": "American Reports",
+            "variations": {
+                "Am. Reports": "Am.Rep.",
+                "Am.Rep.": "Am.Rep."
+            }
+        }
+    ],
     "Am. Samoa": [
         {
             "cite_type": "state",
