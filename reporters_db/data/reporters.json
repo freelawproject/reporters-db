@@ -8216,6 +8216,27 @@
             }
         }
     ],
+    "Robb.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Robb.": {
+                    "end": "1907-12-31T00:00:00",
+                    "start": "1905-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;supreme.court"
+            ],
+            "name": "Robbins' Reports",
+            "notes": "Estimated date range.",
+            "variations": {
+                "Robb. (N.J.)": "Robb.",
+                "Robbins": "Robb.",
+                "Robbins.": "Robb."
+            }
+        }
+    ],
     "Rodney's Notes": [
         {
             "cite_type": "specialty",
