@@ -3598,6 +3598,22 @@
             "variations": {}
         }
     ],
+    "Gummere": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Gummere": {
+                    "end": "1922-12-31T00:00:00",
+                    "start": "1915-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;supreme.court"
+            ],
+            "notes": "Estimated date range.  https://www.njstatelib.org/research_library/legal_resources/historical_laws/reporters/",
+            "variations": {}
+        }
+    ],
     "Gunby": [
         {
             "cite_type": "state",
