@@ -11110,5 +11110,26 @@
                 "Yerg.(Tenn.)": "Yer."
             }
         }
+    ],
+    "York": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "York": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "York Legal Records (Pa.)",
+            "variations": {
+                "York Leg. Rec.": "York",
+                "York Leg. Rec. (Pa.)": "York",
+                "York Leg. Record": "York",
+                "York Legal Record": "York"
+            }
+        }
     ]
 }
