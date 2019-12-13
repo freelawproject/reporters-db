@@ -2643,6 +2643,24 @@
             }
         }
     ],
+    "Dem. Surr.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Dem. Surr.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;supreme.court"
+            ],
+            "name": "Demarest's Surrogate (New York)",
+            "variations": {
+                "Dem. Surr.": "Dem. Surr."
+            }
+        }
+    ],
     "Denio": [
         {
             "cite_type": "state",
@@ -6155,8 +6173,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Media Law Reporter",
             "variations": {
                 "Media L. Rep.": "Media L. Rep. (BNA)"
