@@ -962,6 +962,20 @@
             }
         }
     ],
+    "Bankr. L. Rep.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Bankr. L. Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Bankruptcy Law Reporter",
+            "variations": {}
+        }
+    ],
     "Barb.": [
         {
             "cite_type": "state",
