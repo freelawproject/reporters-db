@@ -10896,7 +10896,9 @@
                 "us:va;supreme.court"
             ],
             "name": "Virginia Court of Appeals Reports",
-            "variations": {}
+            "variations": {
+                "Va.App.": "Va. App."
+            }
         }
     ],
     "Va. Cas.": [
