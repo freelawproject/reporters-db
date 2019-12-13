@@ -8449,6 +8449,34 @@
             }
         }
     ],
+    "Pitts L.J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pitts L.J.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Pittsburgh Legal Journal",
+            "variations": {
+                "Pitt.L.J": "Pitts L.J.",
+                "Pitts. Leg. J.": "Pitts L.J.",
+                "Pitts. Leg. Joor.": "Pitts L.J.",
+                "Pittsb. L. Rev.": "Pitts L.J.",
+                "Pittsb. L.J.": "Pitts L.J.",
+                "Pittsb. Leg. J.": "Pitts L.J.",
+                "Pittsb. Leg. J. (Pa.)": "Pitts L.J.",
+                "Pittsb. R. (Pa.)": "Pitts L.J.",
+                "Pittsburgh Leg. J.": "Pitts L.J.",
+                "Pittsburgh Leg. Journal": "Pitts L.J.",
+                "Pittsburgh Legal Journal": "Pitts L.J."
+            }
+        }
+    ],
     "Port.": [
         {
             "cite_type": "state",
