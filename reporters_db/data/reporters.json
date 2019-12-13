@@ -444,6 +444,22 @@
             }
         }
     ],
+    "Am. Law Reg.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Am. Law Reg.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "American Law Register",
+            "variations": {}
+        }
+    ],
     "Am. Neg. Ca.": [
         {
             "cite_type": "state",
