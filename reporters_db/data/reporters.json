@@ -1687,6 +1687,7 @@
             ],
             "name": "California Unreported Cases",
             "variations": {
+                "Cal.Unrep.": "Cal. Unrep.",
                 "Cal.Unrep.Cas.": "Cal. Unrep."
             }
         }
