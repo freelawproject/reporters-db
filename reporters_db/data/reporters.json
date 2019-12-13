@@ -2155,7 +2155,8 @@
             ],
             "name": "Connecticut Circuit Court Reports",
             "variations": {
-                "Conn. Cir. Ct": "Conn. Cir. Ct."
+                "Conn. Cir. Ct": "Conn. Cir. Ct.",
+                "Conn.Cir.Ct.": "Conn. Cir. Ct."
             }
         }
     ],
