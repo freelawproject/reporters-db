@@ -3299,6 +3299,22 @@
             }
         }
     ],
+    "Fed. Carr. Cas. (CCH)": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Fed. Carr. Cas. (CCH)": {
+                    "end": null,
+                    "start": "1936-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Federal Carrier Cases (CCH) (1936-)",
+            "variations": {
+                "Fed. Carr. Cas.": "Fed. Carr. Cas. (CCH)"
+            }
+        }
+    ],
     "Fed. Cl.": [
         {
             "cite_type": "specialty",
