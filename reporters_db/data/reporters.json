@@ -377,7 +377,9 @@
                 "us:al;supreme.court"
             ],
             "name": "Alabama Appellate Courts Reports",
-            "variations": {}
+            "variations": {
+                "Ala.App.": "Ala. App."
+            }
         }
     ],
     "Alaska": [
