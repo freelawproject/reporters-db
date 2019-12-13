@@ -7419,7 +7419,9 @@
                 "us:oh;supreme.court"
             ],
             "name": "Ohio Bar Reports",
-            "variations": {}
+            "variations": {
+                "O.B.R.": "Ohio Bar Reports"
+            }
         }
     ],
     "Ohio C.C.": [
