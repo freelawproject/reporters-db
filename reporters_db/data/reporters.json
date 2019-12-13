@@ -6298,7 +6298,8 @@
             ],
             "name": "Michigan Appeals Reports",
             "variations": {
-                "Mich App": "Mich. App."
+                "Mich App": "Mich. App.",
+                "Mich.App.": "Mich. App."
             }
         }
     ],
