@@ -8641,6 +8641,26 @@
             "variations": {}
         }
     ],
+    "Rad. Reg.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Rad. Reg.": {
+                    "end": null,
+                    "start": null
+                },
+                "Rad. Reg. 2d (P & F)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Radio Regulation (P & F)",
+            "variations": {
+                "Rad. Reg. (P & F) ": "Rad. Reg."
+            }
+        }
+    ],
     "Rand.": [
         {
             "cite_type": "state",
