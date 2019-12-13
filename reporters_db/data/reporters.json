@@ -6840,7 +6840,9 @@
                 "us:nj;supreme.court"
             ],
             "name": "New Jersey Tax Court",
-            "variations": {}
+            "variations": {
+                "N.J.Tax": "N.J. Tax"
+            }
         }
     ],
     "N.J.L.": [
