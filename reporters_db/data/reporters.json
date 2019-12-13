@@ -7893,7 +7893,8 @@
             ],
             "name": "Oregon Reports, Court of Appeals",
             "variations": {
-                "Or.A.": "Or. App."
+                "Or.A.": "Or. App.",
+                "Or.App.": "Or. App."
             }
         }
     ],
