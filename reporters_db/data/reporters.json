@@ -5711,6 +5711,24 @@
             }
         }
     ],
+    "Lea.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Lea.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tn;supreme.court"
+            ],
+            "name": "Lea's Tennessee Reports",
+            "variations": {
+                "Lea": "Lea."
+            }
+        }
+    ],
     "Leg. Int.": [
         {
             "cite_type": "state",
