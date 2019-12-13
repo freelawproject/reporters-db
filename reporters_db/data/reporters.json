@@ -4469,6 +4469,20 @@
             }
         }
     ],
+    "Hunt Mer. Mag.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Hunt Mer. Mag.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Hunt's Merchant's Magazine, New York",
+            "variations": {}
+        }
+    ],
     "I.T.R.D. (BNA)": [
         {
             "cite_type": "specialty",
