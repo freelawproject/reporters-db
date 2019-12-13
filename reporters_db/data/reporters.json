@@ -1,23 +1,4 @@
 {
-    "Luz. L.R.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Luz. L.R.": {
-                    "end": null,
-                    "start": null
-                }
-            },
-            "mlz_jurisdiction": [
-                "us:pa;supreme.court"
-            ],
-            "name": "Luzerne Legal Register (Pa.)",
-            "variations": {
-              "Luz.L.R.": "Luz. L.R.",
-              "Luz. Leg. Reg.": "Luz. L.R."
-            }
-        }
-    ],
     "A.": [
         {
             "cite_type": "state_regional",
