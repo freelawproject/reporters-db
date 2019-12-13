@@ -2561,6 +2561,24 @@
             }
         }
     ],
+    "Del. Co.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Del. Co.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Delaware County (Pa.)",
+            "variations": {
+                "Del.Co.": "Del. Co."
+            }
+        }
+    ],
     "Denio": [
         {
             "cite_type": "state",
