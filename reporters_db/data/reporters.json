@@ -4050,6 +4050,24 @@
             }
         }
     ],
+    "Hawaii": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Hawaii": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:hi;supreme.court"
+            ],
+            "name": "Hawai'i Reports",
+            "variations": {
+                "Haw.": "Hawaii"
+            }
+        }
+    ],
     "Hawks": [
         {
             "cite_type": "state",
