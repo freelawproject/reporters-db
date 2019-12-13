@@ -6555,6 +6555,24 @@
             }
         }
     ],
+    "Mills.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mills.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;supreme.court"
+            ],
+            "name": "Mills' Reports, New York Surrogate Court",
+            "variations": {
+                "mills": "Mills."
+            }
+        }
+    ],
     "Minn.": [
         {
             "cite_type": "state",
