@@ -4507,7 +4507,8 @@
             "mlz_jurisdiction": [],
             "name": "Howell, Nisi Prius",
             "variations": {
-                "How. N.P. (Mich.)": "How. N.P."
+                "How. N.P. (Mich.)": "How. N.P.",
+                "How.N.P.": "How. N.P."
             }
         }
     ],
