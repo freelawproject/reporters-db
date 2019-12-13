@@ -11382,6 +11382,22 @@
             }
         }
     ],
+    "Woods": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Woods": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Woods' United States Circuit Court Reports",
+            "variations": {
+                "Woods C.C.": "Woods"
+            }
+        }
+    ],
     "Wyo.": [
         {
             "cite_type": "state",
