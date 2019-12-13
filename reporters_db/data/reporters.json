@@ -7754,6 +7754,24 @@
             }
         }
     ],
+    "Oil & Gas Rep.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Oil & Gas Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Oil and Gas Reporter",
+            "variations": {
+                "Oil & Gas": "Oil & Gas Rep.",
+                "Oil & Gas Reptr.": "Oil & Gas Rep.",
+                "Oil & Gas Rptr.": "Oil & Gas Rep."
+            }
+        }
+    ],
     "Okl Jud.": [
         {
             "cite_type": "state",
