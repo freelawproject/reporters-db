@@ -2023,6 +2023,24 @@
             }
         }
     ],
+    "Colo. J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Colo. J.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:co;court.appeals"
+            ],
+            "name": "Colorado Journal",
+            "variations": {
+                "Colorado Journal": "Colo. J."
+            }
+        }
+    ],
     "Colo. Law.": [
         {
             "cite_type": "state",
