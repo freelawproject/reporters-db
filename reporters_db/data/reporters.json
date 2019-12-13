@@ -2181,7 +2181,9 @@
                 "us:ct;supreme.court"
             ],
             "name": "Connecticut Supplement",
-            "variations": {}
+            "variations": {
+                "Conn.Supp.": "Conn. Supp."
+            }
         }
     ],
     "Cooke": [
