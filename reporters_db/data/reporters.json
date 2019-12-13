@@ -1770,6 +1770,22 @@
             }
         }
     ],
+    "Chest.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Chest.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Chester County Reports (Pa.)",
+            "variations": {}
+        }
+    ],
     "Chev.": [
         {
             "cite_type": "state",
