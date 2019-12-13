@@ -5381,10 +5381,10 @@
             ],
             "name": "Lackawanna Legal News (Pa.)",
             "variations": {
-                "Lacka. Leg. News": "Lack. L.N.",
-                "Lack.L.N.": "Lack. L.N.",
                 "Lack. Leg.": "Lack. L.N.",
-                "Lack. Leg. News (P.A.)": "Lack. L.N."
+                "Lack. Leg. News (P.A.)": "Lack. L.N.",
+                "Lack.L.N.": "Lack. L.N.",
+                "Lacka. Leg. News": "Lack. L.N."
             }
         }
     ],
