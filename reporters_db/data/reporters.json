@@ -7533,6 +7533,28 @@
             }
         }
     ],
+    "Ohio F. Dec.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Ohio F. Dec.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c6:oh.d;district.court",
+                "us:c6:oh.nd;district.court",
+                "us:c6:oh.sd;district.court"
+            ],
+            "name": "Ohio Federal Decisions",
+            "variations": {
+                "Ohio F.D.": "Ohio F. Dec.",
+                "Ohio F.Dec": "Ohio F. Dec.",
+                "Ohio Fed. Dec.": "Ohio F. Dec."
+            }
+        }
+    ],
     "Ohio Law Rep.": [
         {
             "cite_type": "state",
