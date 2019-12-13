@@ -3641,7 +3641,9 @@
                 "us:ga;supreme.court"
             ],
             "name": "Georgia Appeals Reports",
-            "variations": {}
+            "variations": {
+                "Ga.App.": "Ga. App."
+            }
         }
     ],
     "Gild.": [
