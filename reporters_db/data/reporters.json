@@ -10259,7 +10259,9 @@
                 "us:tn;supreme.court"
             ],
             "name": "Tennessee Criminal Appeals Reports",
-            "variations": {}
+            "variations": {
+                "Tenn.Crim.App.": "Tenn. Crim. App."
+            }
         }
     ],
     "Terry": [
