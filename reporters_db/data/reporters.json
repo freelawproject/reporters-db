@@ -2104,7 +2104,9 @@
                 "us:ct;supreme.court"
             ],
             "name": "Connecticut Appellate Reports",
-            "variations": {}
+            "variations": {
+                "Conn.App.": "Conn. App."
+            }
         }
     ],
     "Conn. Cir. Ct.": [
