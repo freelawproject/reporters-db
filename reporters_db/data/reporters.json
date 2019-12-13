@@ -8402,10 +8402,12 @@
             "mlz_jurisdiction": [
                 "us:pa;supreme.court"
             ],
-            "name": "Pennsylvania Commonwealth Court",
+            "name": "Pennsylvania Commonwealth Court Reports",
             "variations": {
+                "Pa. Cmwlth": "Pa. Commw.",
                 "Pa. Commonwealth Ct.": "Pa. Commw.",
                 "Pa.C.": "Pa. Commw.",
+                "Pa.Cmwlth": "Pa. Commw.",
                 "Pa.Commw.Ct.": "Pa. Commw."
             }
         }
