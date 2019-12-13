@@ -9677,6 +9677,24 @@
             "variations": {}
         }
     ],
+    "Terry": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Terry": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;supreme.court"
+            ],
+            "name": "Terry's Reports (Delaware)",
+            "variations": {
+                "Ter.": "Terry"
+            }
+        }
+    ],
     "Tex.": [
         {
             "cite_type": "state",
