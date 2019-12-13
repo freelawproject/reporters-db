@@ -7362,8 +7362,8 @@
             ],
             "name": "Occupational Safety and Health Decisions (CCH)",
             "variations": {
-                "O.S.H.Dec. (CCH)": "O.S.H.D. (CCH)",
-                "O.S.H.D.": "O.S.H.D. (CCH)"
+                "O.S.H.D.": "O.S.H.D. (CCH)",
+                "O.S.H.Dec. (CCH)": "O.S.H.D. (CCH)"
             }
         }
     ],
