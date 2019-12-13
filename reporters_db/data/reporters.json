@@ -8024,6 +8024,22 @@
             }
         }
     ],
+    "P.U.R. (N.S.)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "P.U.R. (N.S.)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Public Utilities Reports, New Series",
+            "variations": {
+                "P.U.R.(N.S.)": "P.U.R. (N.S.)"
+            }
+        }
+    ],
     "PA": [
         {
             "cite_type": "neutral",
