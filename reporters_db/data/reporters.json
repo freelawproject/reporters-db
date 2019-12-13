@@ -5961,7 +5961,9 @@
                 "us:md;court.appeals"
             ],
             "name": "Maryland Appellate Reports",
-            "variations": {}
+            "variations": {
+                "Md.App.": "Md. App."
+            }
         }
     ],
     "Me.": [
