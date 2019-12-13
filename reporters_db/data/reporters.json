@@ -5050,7 +5050,11 @@
                 "us:ok;supreme.court"
             ],
             "name": "Indian Territory Reports",
-            "variations": {}
+            "notes": "The court name is Court of Appeals of Indian Territory.",
+            "variations": {
+                "Ind. T.": "Indian Terr.",
+                "Ind.T.": "Indian Terr."
+            }
         }
     ],
     "Iowa": [
