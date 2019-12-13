@@ -6207,6 +6207,22 @@
             }
         }
     ],
+    "McCanless": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "McCanless": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tn;supreme.court"
+            ],
+            "name": "Mccanless' Reports (Tenn.)",
+            "variations": {}
+        }
+    ],
     "McCord": [
         {
             "cite_type": "state",
