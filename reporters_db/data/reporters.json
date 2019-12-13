@@ -7710,6 +7710,22 @@
             }
         }
     ],
+    "Okl Jud.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Okl Jud.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Oklahoma Court on the Judiciary",
+            "variations": {
+                "OK JUD": "Okl Jud."
+            }
+        }
+    ],
     "Okla.": [
         {
             "cite_type": "state",
