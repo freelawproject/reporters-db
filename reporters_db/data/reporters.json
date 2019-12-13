@@ -10784,7 +10784,9 @@
                 "us;supreme.court"
             ],
             "name": "United States Law Week",
-            "variations": {}
+            "variations": {
+                "USLW": "U.S.L.W."
+            }
         }
     ],
     "U.S.P.Q. (BNA)": [
