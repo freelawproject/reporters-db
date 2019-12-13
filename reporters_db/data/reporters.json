@@ -5024,6 +5024,22 @@
             }
         }
     ],
+    "Kulp": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Kulp": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Kulp's Luzerne Legal Register Reports (Pa.)",
+            "variations": {}
+        }
+    ],
     "Ky.": [
         {
             "cite_type": "state",
