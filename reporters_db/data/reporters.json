@@ -2059,6 +2059,22 @@
             }
         }
     ],
+    "Comm. Fut. L. Rep.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Comm. Fut. L. Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Commodity Futures Law Reporter (CCH)",
+            "variations": {
+                "Comm. Fut. L. Rep. (CCH)": "Comm. Fut. L. Rep."
+            }
+        }
+    ],
     "Conn.": [
         {
             "cite_type": "state",
