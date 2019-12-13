@@ -8642,9 +8642,10 @@
             ],
             "name": "Pennsylvania Corporation Reporter",
             "variations": {
-                "Pa.Corp": "Pa. Corp.",
                 "Pa. Corp. R.": "Pa. Corp.",
-                "Pa. Corp. Rep.": "Pa. Corp."
+                "Pa. Corp. Rep.": "Pa. Corp.",
+                "Pa.Corp": "Pa. Corp.",
+                "Pa.Corp.": "Pa. Corp."
             }
         }
     ],
