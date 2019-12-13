@@ -9804,6 +9804,22 @@
             "variations": {}
         }
     ],
+    "Tex.Bankr.Ct.Rep.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Tex.Bankr.Ct.Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Texas Bankruptcy Court Report",
+            "variations": {
+                "Tex. Bankr. Ct. Rep.": "Tex.Bankr.Ct.Rep."
+            }
+        }
+    ],
     "Trade Cas. (CCH)": [
         {
             "cite_type": "specialty",
