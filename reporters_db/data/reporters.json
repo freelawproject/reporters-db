@@ -8595,6 +8595,26 @@
             }
         }
     ],
+    "Pa. Corp.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pa. Corp.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Pennsylvania Corporation Reporter",
+            "variations": {
+                "Pa.Corp": "Pa. Corp.",
+                "Pa. Corp. R.": "Pa. Corp.",
+                "Pa. Corp. Rep.": "Pa. Corp."
+            }
+        }
+    ],
     "Pa. D.": [
         {
             "cite_type": "state",
