@@ -5363,6 +5363,27 @@
             }
         }
     ],
+    "Lack. L.N.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Lack. L.N.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Lackawanna Legal News (Pa.)",
+            "variations": {
+                "Lacka. Leg. News": "Lack. L.N.",
+                "Lack.L.N.": "Lack. L.N.",
+                "Lack. Leg.": "Lack. L.N.",
+                "Lack. Leg. News (P.A.)": "Lack. L.N."
+            }
+        }
+    ],
     "Lack.Jur.": [
         {
             "cite_type": "state",
