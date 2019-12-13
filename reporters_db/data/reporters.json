@@ -3299,6 +3299,23 @@
             }
         }
     ],
+    "Fed. Appx.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Fed. Appx.": {
+                    "end": null,
+                    "start": "2001-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "West's Federal Appendix",
+            "notes": "https://en.wikipedia.org/wiki/Federal_Appendix, Relatively new published book.",
+            "variations": {
+                "Fed.Appx.": "Fed. Appx."
+            }
+        }
+    ],
     "Fed. Carr. Cas. (CCH)": [
         {
             "cite_type": "federal",
