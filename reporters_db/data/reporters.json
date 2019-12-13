@@ -6272,6 +6272,31 @@
             }
         }
     ],
+    "Montg.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Montg.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Montgomery County Law Reporter (Pa.)",
+            "variations": {
+                "Mont'g. Co. L. Rep.": "Montg.",
+                "Mont'g. L. Rep.": "Montg.",
+                "Montg. (Pa.)": "Montg.",
+                "Montg. Co.": "Montg.",
+                "Montg. Co. L. Rep'r": "Montg.",
+                "Montg. Co. L.R.": "Montg.",
+                "Montg. Co. L.R. (Pa.)": "Montg.",
+                "Montg. Co. Law Rep'r.": "Montg."
+            }
+        }
+    ],
     "Morris": [
         {
             "cite_type": "state",
