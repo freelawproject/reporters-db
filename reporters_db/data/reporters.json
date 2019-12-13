@@ -4682,10 +4682,11 @@
             "variations": {
                 "Ill. App.2d": "Ill. App. 2d",
                 "Ill. App.3d": "Ill. App. 3d",
-                "Ill.App.3d": "Ill. App. 3d",
                 "Ill.A.": "Ill. App.",
                 "Ill.A.2d": "Ill. App. 2d",
-                "Ill.A.3d": "Ill. App. 3d"
+                "Ill.A.3d": "Ill. App. 3d",
+                "Ill.App.": "Ill. App.",
+                "Ill.App.3d": "Ill. App. 3d"
             }
         }
     ],
