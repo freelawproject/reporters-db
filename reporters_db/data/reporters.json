@@ -945,6 +945,23 @@
             }
         }
     ],
+    "Bankr. Ct. Dec. (CRR)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Bankr. Ct. Dec. (CRR)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Bankruptcy Court Decisions",
+            "variations": {
+                "Bankr. Ct. Dec.": "Bankr. Ct. Dec. (CRR)",
+                "Bankr.Ct.Dec.": "Bankr. Ct. Dec. (CRR)"
+            }
+        }
+    ],
     "Barb.": [
         {
             "cite_type": "state",
