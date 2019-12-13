@@ -9695,6 +9695,24 @@
             }
         }
     ],
+    "Storey": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Storey": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:del;supreme.court"
+            ],
+            "name": "Storey's Reports (Del.)",
+            "variations": {
+                "Sto.": "Storey"
+            }
+        }
+    ],
     "Strob.": [
         {
             "cite_type": "state",
