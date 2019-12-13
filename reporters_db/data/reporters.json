@@ -9105,6 +9105,24 @@
             }
         }
     ],
+    "Sawy.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Sawy.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Sawyer's U.S. Circuit Court Reports",
+            "variations": {
+                "Saw.": "Sawy.",
+                "Sawyer Circt.": "Sawy.",
+                "Sawyer U.S. Ct. Rep.": "Sawy."
+            }
+        }
+    ],
     "Scam.": [
         {
             "cite_type": "state",
