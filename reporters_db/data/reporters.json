@@ -3346,6 +3346,23 @@
             "variations": {}
         }
     ],
+    "FLW Fed": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "FLW Fed": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Florida Law Weekly Federal",
+            "variations": {
+                "Fla. L. Weekly Fed.": "FLW Fed"
+            }
+        }
+    ],
     "Fair Empl. Prac. Cas. (BNA)": [
         {
             "cite_type": "specialty",
