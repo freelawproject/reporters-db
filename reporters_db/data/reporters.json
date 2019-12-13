@@ -8092,15 +8092,28 @@
         {
             "cite_type": "specialty",
             "editions": {
+                "P.U.R.": {
+                    "end": null,
+                    "start": null
+                },
                 "P.U.R. (N.S.)": {
+                    "end": null,
+                    "start": null
+                },
+                "P.U.R.3d": {
+                    "end": null,
+                    "start": null
+                },
+                "P.U.R.4th": {
                     "end": null,
                     "start": null
                 }
             },
             "mlz_jurisdiction": [],
-            "name": "Public Utilities Reports, New Series",
+            "name": "Public Utilities Reports",
             "variations": {
-                "P.U.R.(N.S.)": "P.U.R. (N.S.)"
+                "P.U.R.(N.S.)": "P.U.R. (N.S.)",
+                "P.U.R.(NS)": "P.U.R. (N.S.)"
             }
         }
     ],
