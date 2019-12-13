@@ -4968,6 +4968,22 @@
             }
         }
     ],
+    "Just.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Just.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Justices' Law Reporter (Pennsylvania)",
+            "variations": {}
+        }
+    ],
     "Kan.": [
         {
             "cite_type": "state",
