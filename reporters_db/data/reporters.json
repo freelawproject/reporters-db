@@ -10241,7 +10241,9 @@
                 "us:tn;supreme.court"
             ],
             "name": "Tennessee Appeals Reports",
-            "variations": {}
+            "variations": {
+                "Tenn.App.": "Tenn. App."
+            }
         }
     ],
     "Tenn. Crim. App.": [
