@@ -2218,6 +2218,23 @@
             }
         }
     ],
+    "Cont. Cas. Fed.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Cont. Cas. Fed.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Contract Cases, Federal",
+            "variations": {
+                "Cont.Cas.Fed. (CCH)": "Cont. Cas. Fed."
+            }
+        }
+    ],
     "Cooke": [
         {
             "cite_type": "state",
