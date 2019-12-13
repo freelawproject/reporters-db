@@ -7106,6 +7106,9 @@
             ],
             "name": "Supreme Court Reports",
             "variations": {
+                "N.Y. Super. Ct.": "N.Y. Sup. Ct.",
+                "N.Y. Super.Ct.": "N.Y. Sup. Ct.",
+                "N.Y.Super.Ct.": "N.Y. Sup. Ct.",
                 "N.Y.Supr.Ct.": "N.Y. Sup. Ct.",
                 "N.Y.Suprm.Ct.": "N.Y. Sup. Ct."
             }
