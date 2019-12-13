@@ -2954,6 +2954,23 @@
             }
         }
     ],
+    "Employee Benefits Cas. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Employee Benefits Cas. (BNA)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Employee Benefits Cases",
+            "variations": {
+                "Employee Benefits Cas.": "Employee Benefits Cas. (BNA)"
+            }
+        }
+    ],
     "Envtl. L. Rep. (Envtl. Law Inst.)": [
         {
             "cite_type": "specialty",
