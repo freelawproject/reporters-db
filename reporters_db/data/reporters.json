@@ -8396,6 +8396,22 @@
             }
         }
     ],
+    "Phila.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Phila.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Philadelphia Reports",
+            "variations": {}
+        }
+    ],
     "Pick.": [
         {
             "cite_type": "state",
