@@ -5727,7 +5727,10 @@
                 "us:de;supreme.court"
             ],
             "name": "Delaware Reports, Marvel",
-            "variations": {}
+            "variations": {
+                "Marv.": "Marvel",
+                "Marv. (Del.)": "Marvel"
+            }
         }
     ],
     "Mass.": [
