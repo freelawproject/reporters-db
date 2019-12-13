@@ -8895,6 +8895,22 @@
             }
         }
     ],
+    "Pickle": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pickle": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tn;supreme.court"
+            ],
+            "name": "Pickle's Reports (85-108 Tenn.)",
+            "variations": {}
+        }
+    ],
     "Pin.": [
         {
             "cite_type": "state",
