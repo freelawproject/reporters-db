@@ -4265,8 +4265,8 @@
             "name": "Hawaii Reports",
             "variations": {
                 "H.": "Haw.",
-                "Haw.": "Hawaii",
-                "Hawai'i": "Hawaii",
+                "Haw.": "Haw.",
+                "Hawai'i": "Haw.",
                 "Hawaii": "Haw.",
                 "Hawaii Rep.": "Haw."
             }
@@ -4282,7 +4282,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:hi;supreme.court"
+                "us:hi;court.appeals"
             ],
             "name": "Hawaii Appellate Reports",
             "variations": {
