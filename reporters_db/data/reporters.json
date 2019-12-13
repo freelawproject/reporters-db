@@ -11242,12 +11242,17 @@
                 "Wage & Hour Cas. (BNA)": {
                     "end": null,
                     "start": "1750-01-01T00:00:00"
+                },
+                "Wage & Hour Cas.2d (BNA)": {
+                    "end": null,
+                    "start": null
                 }
             },
             "mlz_jurisdiction": [],
             "name": "Wage and Hour Cases",
             "variations": {
-                "Wage & Hour Cas.": "Wage & Hour Cas. (BNA)"
+                "Wage & Hour Cas.": "Wage & Hour Cas. (BNA)",
+                "Wage & Hour Cas. 2d": "Wage & Hour Cas.2d (BNA)"
             }
         }
     ],
