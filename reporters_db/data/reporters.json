@@ -6683,6 +6683,24 @@
             "variations": {}
         }
     ],
+    "N.M. (J.)": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.M. (J.)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nm;supreme.court"
+            ],
+            "name": "New Mexico Reports (Johnson)",
+            "variations": {
+                "Johnson": "N.M. (J.)"
+            }
+        }
+    ],
     "N.W.": [
         {
             "cite_type": "state_regional",
