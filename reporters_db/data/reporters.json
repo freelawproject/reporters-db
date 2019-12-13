@@ -1046,6 +1046,22 @@
             "variations": {}
         }
     ],
+    "Beeler": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Beeler": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tn;supreme.court"
+            ],
+            "name": "Beeler's Reports (Tenn.)",
+            "variations": {}
+        }
+    ],
     "Bibb": [
         {
             "cite_type": "state",
