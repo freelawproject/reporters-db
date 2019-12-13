@@ -7376,11 +7376,11 @@
             "variations": {}
         }
     ],
-    "Northumb. L.J": [
+    "Northumb. L.J.": [
         {
             "cite_type": "state_regional",
             "editions": {
-                "Northumb. L.J": {
+                "Northumb. L.J.": {
                     "end": null,
                     "start": null
                 }
@@ -7390,9 +7390,12 @@
             ],
             "name": "Northumberland Legal Journal (Pa.)",
             "variations": {
-                "Northumb. Legal. J.": "Northumb. L.J",
-                "Northumberland Co. Leg. Jour": "Northumb. L.J",
-                "Northumberland L.J.": "Northumb. L.J"
+                "Northumb. L.J": "Northumb. L.J.",
+                "Northumb. Legal. J.": "Northumb. L.J.",
+                "Northumb.L.J": "Northumb. L.J.",
+                "Northumb.L.J.": "Northumb. L.J.",
+                "Northumberland Co. Leg. Jour": "Northumb. L.J.",
+                "Northumberland L.J.": "Northumb. L.J."
             }
         }
     ],
