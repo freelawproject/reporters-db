@@ -1100,6 +1100,36 @@
             }
         }
     ],
+    "Biss.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Biss.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c7:il.cd;district.court",
+                "us:c7:il.d;district.court",
+                "us:c7:il.ed;district.court",
+                "us:c7:il.nd;district.court",
+                "us:c7:il.sd;district.court",
+                "us:c7:in.d;district.court",
+                "us:c7:in.nd;district.court",
+                "us:c7:in.sd;district.court",
+                "us:c7:wi.ed;district.court",
+                "us:c7:wi.wd;district.court",
+                "us:c7;court.appeals"
+            ],
+            "name": "Bissell's United States Circuit Court Reports",
+            "variations": {
+                "Biss": "Biss.",
+                "Biss. (U.S.) Bissell's": "Biss.",
+                "Bissell": "Biss."
+            }
+        }
+    ],
     "Black": [
         {
             "cite_type": "scotus_early",
