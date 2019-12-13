@@ -6840,7 +6840,9 @@
                 "us:nc;supreme.court"
             ],
             "name": "North Carolina Court of Appeals Reports",
-            "variations": {}
+            "variations": {
+                "N.C.App.": "N.C. App."
+            }
         }
     ],
     "N.D.": [
