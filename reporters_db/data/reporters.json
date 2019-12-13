@@ -5344,6 +5344,25 @@
             }
         }
     ],
+    "Lack.Jur.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Lack.Jur.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Lackawanna Jurist (Pa.)",
+            "variations": {
+                "Lac. Jur.": "Lack.Jur.",
+                "Lack.Jurist": "Lack.Jur."
+            }
+        }
+    ],
     "Lans.": [
         {
             "cite_type": "state",
