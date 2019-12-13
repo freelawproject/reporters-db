@@ -4082,7 +4082,8 @@
             ],
             "name": "Hawai'i Reports",
             "variations": {
-                "Haw.": "Hawaii"
+                "Haw.": "Hawaii",
+                "Hawai'i": "Hawaii"
             }
         }
     ],
