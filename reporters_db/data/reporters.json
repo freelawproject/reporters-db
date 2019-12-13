@@ -3866,6 +3866,22 @@
             }
         }
     ],
+    "Gibbons": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Gibbons": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Gibbons' Reports, New York Surrogate Court",
+            "variations": {
+                "Gibbons (N.Y.)": "Gibbons"
+            }
+        }
+    ],
     "Gild.": [
         {
             "cite_type": "state",
