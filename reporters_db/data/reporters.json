@@ -10116,6 +10116,25 @@
             }
         }
     ],
+    "Tiffany": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tiffany": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Tiffany's Reports (28-39 New York Court of Appeals)",
+            "variations": {
+                "Tiff.": "Tiffany",
+                "Tiff": "Tiffany"
+            }
+        }
+    ],
     "Trade Cas. (CCH)": [
         {
             "cite_type": "specialty",
