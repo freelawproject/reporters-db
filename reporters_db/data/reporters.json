@@ -1365,6 +1365,20 @@
             "variations": {}
         }
     ],
+    "C.I.T.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "C.I.T.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Court of International Trade Reports",
+            "variations": {}
+        }
+    ],
     "C.M.A.": [
         {
             "cite_type": "specialty",
