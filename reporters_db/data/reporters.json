@@ -2963,8 +2963,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Employee Benefits Cases",
             "variations": {
                 "Employee Benefits Cas.": "Employee Benefits Cas. (BNA)"
@@ -3372,8 +3371,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Florida Law Weekly Federal",
             "variations": {
                 "Fla. L. Weekly Fed.": "FLW Fed"
@@ -6148,6 +6146,23 @@
             }
         }
     ],
+    "Media L. Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Media L. Rep. (BNA)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Media Law Reporter",
+            "variations": {
+                "Media L. Rep.": "Media L. Rep. (BNA)"
+            }
+        }
+    ],
     "Meigs": [
         {
             "cite_type": "state",
@@ -7376,8 +7391,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Occupational Safety and Health Decisions (CCH)",
             "variations": {
                 "O.S.H.D.": "O.S.H.D. (CCH)",
