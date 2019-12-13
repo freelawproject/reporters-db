@@ -9804,6 +9804,28 @@
             }
         }
     ],
+    "Som. L.J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Som. L.J.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Somerset Legal Journal (Pa.)",
+            "variations": {
+                "Som.": "Som. L.J.",
+                "Som. Leg. J. (Pa.)": "Som. L.J.",
+                "Som.L.J.": "Som. L.J.",
+                "Somerset L.J.": "Som. L.J.",
+                "SomersetL.J.": "Som. L.J."
+            }
+        }
+    ],
     "Speers": [
         {
             "cite_type": "state",
