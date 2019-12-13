@@ -631,7 +631,9 @@
                 "us:az;supreme.court"
             ],
             "name": "Arizona Appeals Reports",
-            "variations": {}
+            "variations": {
+                "Ariz.App.": "Ariz. App."
+            }
         }
     ],
     "Ark.": [
