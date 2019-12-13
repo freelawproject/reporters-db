@@ -5321,7 +5321,9 @@
                 "us:la;supreme.court"
             ],
             "name": "Louisiana Annual Reports",
-            "variations": {}
+            "variations": {
+                "La.Ann.": "La. Ann."
+            }
         }
     ],
     "La. App.": [
