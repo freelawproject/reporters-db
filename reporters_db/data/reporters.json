@@ -6596,7 +6596,8 @@
             ],
             "name": "New Jersey Superior Court Reports",
             "variations": {
-                "N.J.S.": "N.J. Super."
+                "N.J.S.": "N.J. Super.",
+                "N.J.Super.": "N.J. Super."
             }
         }
     ],
