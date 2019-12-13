@@ -5445,7 +5445,8 @@
             ],
             "name": "Louisiana Court of Appeals Reports",
             "variations": {
-                "La.A.": "La. App."
+                "La.A.": "La. App.",
+                "La.App.": "La. App."
             }
         }
     ],
