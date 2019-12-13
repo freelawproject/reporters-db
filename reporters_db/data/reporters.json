@@ -9250,6 +9250,23 @@
             }
         }
     ],
+    "Soc. Serv. Rev.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Soc. Serv. Rev.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Social Service Review",
+            "variations": {
+                "Soc. Sec. Rep. Serv.": "Soc. Serv. Rev.",
+                "Soc.Sec.Rep.Serv.": "Soc. Serv. Rev."
+            }
+        }
+    ],
     "Speers": [
         {
             "cite_type": "state",
