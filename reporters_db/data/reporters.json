@@ -7925,6 +7925,22 @@
             }
         }
     ],
+    "P.C.L.J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "P.C.L.J.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;supreme.court"
+            ],
+            "name": "Pacific Coast Law Journal",
+            "variations": {}
+        }
+    ],
     "P.R. Dec.": [
         {
             "cite_type": "state",
