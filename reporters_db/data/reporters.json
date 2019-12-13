@@ -3580,6 +3580,22 @@
             }
         }
     ],
+    "Flip.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Flip.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Flippin's Circuit Court Reports (U.S.)",
+            "variations": {
+                "Flipp. (F.)": "Flip."
+            }
+        }
+    ],
     "G. & J.": [
         {
             "cite_type": "state",
