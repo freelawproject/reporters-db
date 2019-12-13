@@ -1168,6 +1168,29 @@
             }
         }
     ],
+    "Blatchf.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Blatchf.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Blatchford's United States Circuit Court Reports",
+            "variations": {
+                "Bl. C.C.": "Blatchf.",
+                "Bl. C.C.R.": "Blatchf.",
+                "Blat. C.C.R.": "Blatchf.",
+                "Blatch": "Blatchf.",
+                "Blatch. (U.S. Cir. Ct.)": "Blatchf.",
+                "Blatchf. (U.S. Circ. Ct.)": "Blatchf.",
+                "Blatchf. C.C.": "Blatchf.",
+                "Blatchf. C.C. Rep.": "Blatchf."
+            }
+        }
+    ],
     "Blume Sup. Ct. Trans.": [
         {
             "cite_type": "state",
