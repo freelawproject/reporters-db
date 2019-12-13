@@ -1705,6 +1705,21 @@
             }
         }
     ],
+    "Cal. Bankr. Ct. Rep.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Cal. Bankr. Ct. Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "California Bankruptcy Court Report",
+            "variations": {}
+        }
+    ],
     "Cal. Comp. Cases": [
         {
             "cite_type": "specialty",
