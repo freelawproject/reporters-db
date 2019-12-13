@@ -2227,8 +2227,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Contract Cases, Federal",
             "variations": {
                 "Cont.Cas.Fed. (CCH)": "Cont. Cas. Fed."
@@ -7330,6 +7329,24 @@
                 "O.S.H. Cas.": "O.S.H. Cas. (BNA)",
                 "O.S.H. Cases": "O.S.H. Cas. (BNA)",
                 "O.S.H. Cases (BNA)": "O.S.H. Cas. (BNA)"
+            }
+        }
+    ],
+    "O.S.H.D. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "O.S.H.D. (CCH)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Occupational Safety and Health Decisions (CCH)",
+            "variations": {
+                "O.S.H.Dec. (CCH)": "O.S.H.D. (CCH)",
+                "O.S.H.D.": "O.S.H.D. (CCH)"
             }
         }
     ],
