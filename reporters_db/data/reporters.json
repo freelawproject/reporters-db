@@ -10750,6 +10750,27 @@
             }
         }
     ],
+    "Wash. Co.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Wash. Co.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Washington County Reports, Pennsylvania",
+            "variations": {
+                "Wash. Co (Pa.)": "Wash. Co.",
+                "Wash. Co. R.": "Wash. Co.",
+                "Wash. Co. Repr.": "Wash. Co.",
+                "Wash.Co.": "Wash. Co."
+            }
+        }
+    ],
     "Wash. Terr.": [
         {
             "cite_type": "state",
