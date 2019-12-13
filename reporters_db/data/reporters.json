@@ -7145,6 +7145,26 @@
             "variations": {}
         }
     ],
+    "Northumb. L.J": [
+        {
+            "cite_type": "state_regional",
+            "editions": {
+                "Northumb. L.J": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c3:pa.md;district.court"
+            ],
+            "name": "Northumberland Legal Journal (Pa.)",
+            "variations": {
+                "Northumberland Co. Leg. Jour": "Northumb. L.J",
+                "Northumberland L.J.": "Northumb. L.J",
+                "Northumb. Legal. J.": "Northumb. L.J"
+            }
+        }
+    ],
     "Nott & McC.": [
         {
             "cite_type": "state",
