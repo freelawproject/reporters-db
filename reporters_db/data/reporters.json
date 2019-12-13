@@ -194,6 +194,26 @@
             }
         }
     ],
+    "A.L.R. Fed.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "A.L.R. Fed.": {
+                    "end": null,
+                    "start": null
+                },
+                "A.L.R. Fed. 2d": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American Law Reports Annotated, Federal",
+            "variations": {
+                "A.L.R. Fed.2d": "A.L.R. Fed. 2d"
+            }
+        }
+    ],
     "A.M.C.": [
         {
             "cite_type": "specialty",
