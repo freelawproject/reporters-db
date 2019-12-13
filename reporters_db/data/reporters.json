@@ -10318,6 +10318,24 @@
             "variations": {}
         }
     ],
+    "Va. Dec.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Va. Dec.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:va;supreme.court"
+            ],
+            "name": "Virginia Decisions",
+            "variations": {
+                "Va.Dec.": "Va. Dec."
+            }
+        }
+    ],
     "Vet. App.": [
         {
             "cite_type": "specialty",
