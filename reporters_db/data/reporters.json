@@ -1851,6 +1851,24 @@
             }
         }
     ],
+    "Cates.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cates.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tn;supreme.court"
+            ],
+            "name": "Cates' Reports (109-127 Tennessee Reports)",
+            "variations": {
+                "Cates": "Cates."
+            }
+        }
+    ],
     "Chand.": [
         {
             "cite_type": "state",
