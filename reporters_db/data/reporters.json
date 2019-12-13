@@ -4947,6 +4947,24 @@
             }
         }
     ],
+    "Ill. C.C.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ill. C.C.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:il;supreme.court"
+            ],
+            "name": "Matthew and Bangs, Illinois Circuit Court Reports (III.)",
+            "variations": {
+                "Ill.C.C.": "Ill. C.C."
+            }
+        }
+    ],
     "Ill. Ct. Cl.": [
         {
             "cite_type": "state",
