@@ -4588,6 +4588,36 @@
             }
         }
     ],
+    "Hun": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Hun": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;supreme.court"
+            ],
+            "name": "Hun's Supreme Court Reports",
+            "variations": {}
+        },
+        {
+            "cite_type": "state",
+            "editions": {
+                "Hun": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Hun's New York Appellate Division Reports",
+            "variations": {}
+        }
+    ],
     "Hunt Mer. Mag.": [
         {
             "cite_type": "specialty",
