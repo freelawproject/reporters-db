@@ -5867,7 +5867,9 @@
                 "us:la;supreme.court"
             ],
             "name": "Louisiana Reports, Martin",
-            "variations": {}
+            "variations": {
+              "Mart.(o.s.)": "Mart."
+            }
         },
         {
             "cite_type": "state",
