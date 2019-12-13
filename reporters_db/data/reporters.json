@@ -3919,6 +3919,23 @@
                 "Hardin(Ky.)": "Hard.",
                 "Ky.(Hard.)": "Hard."
             }
+        },
+        {
+            "cite_type": "state",
+            "editions": {
+                "Hard.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;supreme.court"
+            ],
+            "name": "Hardesty Team Reports (Del.)",
+            "notes": "Reporter covered atleast the 1890s",
+            "variations": {
+                "Hardes": "Hardesty's Reports (Delaware Term)"
+            }
         }
     ],
     "Harp.": [
