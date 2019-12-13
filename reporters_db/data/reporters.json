@@ -3036,6 +3036,23 @@
             }
         }
     ],
+    "Educ. L. Rep.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Educ. L. Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Education Law Reporter",
+            "variations": {
+                "Ed. Law Rep.": "Educ. L. Rep.",
+                "Educ L Rep": "Educ. L. Rep."
+            }
+        }
+    ],
     "Edw. Ch.": [
         {
             "cite_type": "state",
