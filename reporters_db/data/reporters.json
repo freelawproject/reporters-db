@@ -8968,6 +8968,20 @@
             }
         }
     ],
+    "S.E.C. Docket": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "S.E.C. Docket": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Securities and Exchange Commission Docket",
+            "variations": {}
+        }
+    ],
     "S.W.": [
         {
             "cite_type": "state_regional",
