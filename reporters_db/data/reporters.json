@@ -4375,6 +4375,22 @@
             }
         }
     ],
+    "How. N.P.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "How. N.P.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Howell, Nisi Prius",
+            "variations": {
+                "How. N.P. (Mich.)": "How. N.P."
+            }
+        }
+    ],
     "How. Pr.": [
         {
             "cite_type": "state",
