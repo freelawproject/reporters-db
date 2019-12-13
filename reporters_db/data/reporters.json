@@ -1826,6 +1826,26 @@
             }
         }
     ],
+    "Cin. L. Bull.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cin. L. Bull.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;supreme.court"
+            ],
+            "name": "Cincinnati Law Bulletin",
+            "variations": {
+                "Cin. Law Bul.": "Cin. L. Bull.",
+                "Cin. Law Bull.": "Cin. L. Bull.",
+                "Cinc. L. Bul.": "Cin. L. Bull."
+            }
+        }
+    ],
     "Cl. Ch.": [
         {
             "cite_type": "state",
