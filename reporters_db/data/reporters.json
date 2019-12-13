@@ -10151,6 +10151,22 @@
             }
         }
     ],
+    "USCMA": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "USCMA": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;court.appeals.armed.forces"
+            ],
+            "name": "Official Reports, United States Court of Military Appeals",
+            "variations": {}
+        }
+    ],
     "UT": [
         {
             "cite_type": "neutral",
