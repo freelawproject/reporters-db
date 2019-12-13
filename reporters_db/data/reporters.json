@@ -3572,6 +3572,22 @@
             }
         }
     ],
+    "Fed. Sec. L. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fed. Sec. L. Rep. (CCH)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Federal Securities Law Reporter (CCH)",
+            "variations": {
+                "Fed. Sec. L. Rep.": "Fed. Sec. L. Rep. (CCH)"
+            }
+        }
+    ],
     "Fla.": [
         {
             "cite_type": "state",
