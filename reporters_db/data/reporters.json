@@ -9678,6 +9678,43 @@
             }
         }
     ],
+    "Sil. (Sup. Ct.)": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Sil. (Sup. Ct.)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;supreme.court"
+            ],
+            "name": "Silvernail's Supreme Court Reports (N.Y.)",
+            "variations": {
+                "Silvernail": "Sil. (Sup. Ct.)"
+            }
+        }
+    ],
+    "Smith & H.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Smith & H.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tn;supreme.court"
+            ],
+            "name": "Smith & Heiskell (Tenn.)",
+            "variations": {
+                "Smith": "Smith & H.",
+                "Smith (TN)": "Smith & H."
+            }
+        }
+    ],
     "Sneed": [
         {
             "cite_type": "state",
