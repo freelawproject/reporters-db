@@ -7941,6 +7941,22 @@
             "variations": {}
         }
     ],
+    "P.O.R.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "P.O.R.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Patent Office Reports",
+            "variations": {
+                "POR": "P.O.R."
+            }
+        }
+    ],
     "P.R. Dec.": [
         {
             "cite_type": "state",
