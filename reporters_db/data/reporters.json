@@ -5755,6 +5755,24 @@
             }
         }
     ],
+    "Leg. Rec. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Leg. Rec. Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Legal Record Reports (1-2 Schuykill Co. (Pa.)",
+            "variations": {
+                "Leg. Rec.": "Leg. Rec. Rep."
+            }
+        }
+    ],
     "Leigh": [
         {
             "cite_type": "state",
