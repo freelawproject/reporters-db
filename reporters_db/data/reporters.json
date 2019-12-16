@@ -7539,6 +7539,22 @@
             }
         }
     ],
+    "NCA": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "NCA": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ne;supreme.court"
+            ],
+            "name": "Nebraska Court of Appeals",
+            "variations": {}
+        }
+    ],
     "NCBC": [
         {
             "cite_type": "specialty",
