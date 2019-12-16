@@ -11144,6 +11144,22 @@
             "variations": {}
         }
     ],
+    "Va. Cir.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Va. Cir.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:va;circuit.court"
+            ],
+            "name": "Virginia Circuit Court",
+            "variations": {}
+        }
+    ],
     "Va. Dec.": [
         {
             "cite_type": "state",
