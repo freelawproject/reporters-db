@@ -445,6 +445,23 @@
             }
         }
     ],
+    "Am. Dec.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Am. Dec.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American Decisions",
+            "variations": {
+                "Am. D.": "Am. Dec.",
+                "Am. Dec's.": "Am. Dec."
+            }
+        }
+    ],
     "Am. Disabilities Cas. (BNA)": [
         {
             "cite_type": "specialty",
