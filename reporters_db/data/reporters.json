@@ -1,4 +1,20 @@
 {
+    "N.M. St. B. Bull.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.M. St. B. Bull.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nm;supreme.court"
+            ],
+            "name": "New Mexico State Bar Bulletin",
+            "variations": {}
+        }
+    ],
     "A.": [
         {
             "cite_type": "state_regional",
