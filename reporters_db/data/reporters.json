@@ -3942,7 +3942,9 @@
                 "us:fl;supreme.court"
             ],
             "name": "Florida Law Weekly Supplement",
-            "variations": {}
+            "variations": {
+              "Fla. L. Weekly S": "Fla. L. Weekly Supp."
+            }
         }
     ],
     "Fla. Supp.": [
