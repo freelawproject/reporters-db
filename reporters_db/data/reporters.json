@@ -1,20 +1,4 @@
 {
-    "N.M. St. B. Bull.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "N.M. St. B. Bull.": {
-                    "end": null,
-                    "start": null
-                }
-            },
-            "mlz_jurisdiction": [
-                "us:nm;supreme.court"
-            ],
-            "name": "New Mexico State Bar Bulletin",
-            "variations": {}
-        }
-    ],
     "A.": [
         {
             "cite_type": "state_regional",
@@ -297,6 +281,7 @@
             ],
             "name": "Abbott's Practice Reports",
             "variations": {
+                "Abb. Pr. (n.s.)": "Abb. Pr.",
                 "Abb.P.R.": "Abb. Pr.",
                 "Abb.Pr.Rep.": "Abb. Pr.",
                 "Abb.Prac.": "Abb. Pr.",
@@ -304,8 +289,7 @@
                 "Abbott Pr.Rep.": "Abb. Pr.",
                 "Abbott Pract.Cas.": "Abb. Pr.",
                 "Abbott's Pr.Rep.": "Abb. Pr.",
-                "Abbott's Prac.Rep.": "Abb. Pr.",
-                "Abb. Pr. (n.s.)": "Abb. Pr."
+                "Abbott's Prac.Rep.": "Abb. Pr."
             }
         }
     ],
@@ -6675,8 +6659,8 @@
             ],
             "name": "Mills' Reports, New York Surrogate Court",
             "variations": {
-                "mills": "Mills.",
-                "Mills": "Mills."
+                "Mills": "Mills.",
+                "mills": "Mills."
             }
         }
     ],
@@ -7268,6 +7252,22 @@
             "variations": {
                 "Johnson": "N.M. (J.)"
             }
+        }
+    ],
+    "N.M. St. B. Bull.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.M. St. B. Bull.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nm;supreme.court"
+            ],
+            "name": "New Mexico State Bar Bulletin",
+            "variations": {}
         }
     ],
     "N.W.": [
@@ -10753,9 +10753,9 @@
                 "U.C.C. Rep. Serv.": "U.C.C. Rep. Serv. (West)",
                 "U.C.C. Rep. Serv. (Callaghan)": "U.C.C. Rep. Serv. (West)",
                 "U.C.C. Rep. Serv. 2d": "U.C.C. Rep. Serv. 2d (West)",
+                "U.C.C. Rep. Serv. 2d (Callaghan)": "U.C.C. Rep. Serv. 2d (West)",
                 "U.C.C. Rep. Serv.2d": "U.C.C. Rep. Serv. 2d (West)",
                 "U.C.C. Rep. Serv.2d (Callaghan)": "U.C.C. Rep. Serv. 2d (West)",
-                "U.C.C. Rep. Serv. 2d (Callaghan)": "U.C.C. Rep. Serv. 2d (West)",
                 "U.C.C. Rep. Serv.2d (West)": "U.C.C. Rep. Serv. 2d (West)",
                 "U.C.C. Rep.Serv.": "U.C.C. Rep. Serv. (West)",
                 "U.C.C. Rep.Serv. (Callaghan)": "U.C.C. Rep. Serv. (West)",
@@ -10968,7 +10968,9 @@
             "name": "The United States Patents Quarterly",
             "variations": {
                 "U.S.P.Q.": "U.S.P.Q. (BNA)",
+                "U.S.P.Q.2D (BNA)": "U.S.P.Q. 2d (BNA)",
                 "U.S.P.Q.2d": "U.S.P.Q. 2d (BNA)",
+                "U.S.P.Q.2d (BNA)": "U.S.P.Q. 2d (BNA)",
                 "USPQ": "U.S.P.Q. (BNA)",
                 "USPQ (BNA)": "U.S.P.Q. (BNA)",
                 "USPQ 2d": "U.S.P.Q. 2d (BNA)",
