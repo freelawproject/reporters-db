@@ -8010,8 +8010,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Occupational Safety and Health Cases",
             "variations": {
                 "BNA OSHC": "OSHC (BNA)"
@@ -10231,6 +10230,7 @@
             ],
             "name": "Stockton's New Jersey Equity Reports",
             "variations": {
+                "B Stockton": "Stock.",
                 "B. Stockton": "Stock.",
                 "B.Stockton": "Stock."
             }
