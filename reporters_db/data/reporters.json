@@ -2668,6 +2668,22 @@
             }
         }
     ],
+    "Daily Journal DAR": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Daily Journal DAR": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;appeals.court"
+            ],
+            "name": "California Daily Journal Daily Appellate Reports",
+            "variations": {}
+        }
+    ],
     "Dakota": [
         {
             "cite_type": "state",
