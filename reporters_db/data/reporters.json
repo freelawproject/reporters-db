@@ -4940,7 +4940,8 @@
             "name": "International Trade Reporter Decisions",
             "variations": {
                 "I.T.R.D.": "I.T.R.D. (BNA)",
-                "ITRD": "I.T.R.D. (BNA)"
+                "ITRD": "I.T.R.D. (BNA)",
+                "Int'l Trade Rep. (BNA)": "I.T.R.D. (BNA)"
             }
         }
     ],
