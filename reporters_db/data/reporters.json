@@ -445,6 +445,21 @@
             }
         }
     ],
+    "Am. Disabilities Cas. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Am. Disabilities Cas. (BNA)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Americans with Disabilities Cases (BNA)",
+            "variations": {}
+        }
+    ],
     "Am. Law Reg.": [
         {
             "cite_type": "state",
