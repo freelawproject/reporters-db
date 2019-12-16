@@ -7777,6 +7777,22 @@
             }
         }
     ],
+    "O.B.A.J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "O.B.A.J.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ok;supreme.court"
+            ],
+            "name": "Oklahoma Bar Association Journal",
+            "variations": {}
+        }
+    ],
     "O.S.H. Cas. (BNA)": [
         {
             "cite_type": "specialty",
