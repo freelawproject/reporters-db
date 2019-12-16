@@ -4806,6 +4806,25 @@
             "variations": {}
         }
     ],
+    "I.E.R. Cas. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "I.E.R. Cas. (BNA)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Individual Employment Rights Cases",
+            "notes": "Bloomberg reporter",
+            "variations": {
+                "BNA IER CAS": "I.E.R. Cas. (BNA)",
+                "I.E.R.": "I.E.R. Cas. (BNA)",
+                "I.E.R. Cas.": "I.E.R. Cas. (BNA)"
+            }
+        }
+    ],
     "I.T.R.D. (BNA)": [
         {
             "cite_type": "specialty",
