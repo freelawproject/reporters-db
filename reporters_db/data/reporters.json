@@ -81,6 +81,22 @@
             }
         }
     ],
+    "A.F.T.R. (P-H)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "A.F.T.R. (P-H)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
+            "name": "American Federal Tax Reports",
+            "variations": {}
+        }
+    ],
     "A.F.T.R. (RIA)": [
         {
             "cite_type": "specialty",
