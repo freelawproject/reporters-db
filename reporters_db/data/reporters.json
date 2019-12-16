@@ -1618,6 +1618,10 @@
                 "Cal. 4th": {
                     "end": null,
                     "start": "1991-01-01T00:00:00"
+                },
+                "Cal. 5th": {
+                    "end": null,
+                    "start": null
                 }
             },
             "mlz_jurisdiction": [
@@ -1627,7 +1631,8 @@
             "variations": {
                 "Cal.2d": "Cal. 2d",
                 "Cal.3d": "Cal. 3d",
-                "Cal.4th": "Cal. 4th"
+                "Cal.4th": "Cal. 4th",
+                "Cal.5th": "Cal. 5th"
             }
         }
     ],
@@ -1666,7 +1671,8 @@
                 "Cal.App. 4th": "Cal. App. 4th",
                 "Cal.App.2d": "Cal. App. 2d",
                 "Cal.App.3d": "Cal. App. 3d",
-                "Cal.App.4th": "Cal. App. 4th"
+                "Cal.App.4th": "Cal. App. 4th",
+                "Cal.App.5th": "Cal. App. 5th"
             }
         }
     ],
@@ -1685,6 +1691,14 @@
                 "Cal. App. Supp. 3d": {
                     "end": null,
                     "start": "1929-01-01T00:00:00"
+                },
+                "Cal. App. Supp. 4th": {
+                    "end": null,
+                    "start": null
+                },
+                "Cal. App. Supp. 5th": {
+                    "end": null,
+                    "start": null
                 }
             },
             "mlz_jurisdiction": [
@@ -1700,6 +1714,8 @@
                 "Cal.App. Supp.3d": "Cal. App. Supp. 3d",
                 "Cal.App.2d Supp.": "Cal. App. Supp. 2d",
                 "Cal.App.3d Supp.": "Cal. App. Supp. 3d",
+                "Cal.App.4th Supp.": "Cal. App. Supp. 4th",
+                "Cal.App.5th Supp.": "Cal. App. Supp. 5th",
                 "Cal.App.Supp.": "Cal. App. Supp.",
                 "Cal.App.Supp.2d": "Cal. App. Supp. 2d"
             }
@@ -1714,8 +1730,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "California Bankruptcy Court Report",
             "variations": {}
         }
