@@ -7923,7 +7923,9 @@
                 "us:nv;supreme.court"
             ],
             "name": "Nevada Advance Reports",
-            "variations": {}
+            "variations": {
+              "Nev. Advance Rep.": "Nev. Adv. Rep."
+            }
         }
     ],
     "Northumb. L.J.": [
