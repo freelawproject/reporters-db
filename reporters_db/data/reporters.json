@@ -7375,7 +7375,8 @@
             ],
             "name": "New Mexico Reports (Johnson)",
             "variations": {
-                "Johnson": "N.M. (J.)"
+                "Johnson": "N.M. (J.)",
+                "N.M. (John.)": "N.M. (J.)"
             }
         }
     ],
