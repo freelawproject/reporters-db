@@ -6047,6 +6047,41 @@
             }
         }
     ],
+    "MDBT": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "MDBT": {
+                    "end": null,
+                    "start": "2003-01-30T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:md;circuit.court"
+            ],
+            "name": "Maryland Business and Technology",
+            "notes": "Appears to be a neutral citation, published but not precedential.  See url: https://mdcourts.gov/businesstech/opinions",
+            "variations": {}
+        }
+    ],
+    "MDLR": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "MDLR": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;supreme.court"
+            ],
+            "name": "Massachusetts Discrimination Law Reporter",
+            "variations": {
+                "M.D.L.R.": "MDLR"
+            }
+        }
+    ],
     "ME": [
         {
             "cite_type": "neutral",
