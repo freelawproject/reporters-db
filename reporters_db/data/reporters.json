@@ -6675,7 +6675,8 @@
             ],
             "name": "Mills' Reports, New York Surrogate Court",
             "variations": {
-                "mills": "Mills."
+                "mills": "Mills.",
+                "Mills": "Mills."
             }
         }
     ],
