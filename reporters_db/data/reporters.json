@@ -9430,6 +9430,27 @@
             }
         }
     ],
+    "Posey": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Posey": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tx;supreme.court"
+            ],
+            "name": "Posey's Unreported Cases (Tex.)",
+            "variations": {
+                "Posey U.C.": "Posey",
+                "Posey's U.C.": "Posey",
+                "Posey, Unrep. Cas.": "Posey",
+                "Tex. Unrep. Cas.": "Posey"
+            }
+        }
+    ],
     "R.I.": [
         {
             "cite_type": "state",
