@@ -6029,6 +6029,23 @@
             "variations": {}
         }
     ],
+    "MP": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "MP": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c9:mp.d;district.court"
+            ],
+            "name": "Northern Mariana Islands",
+            "notes": "Unknown name for reporter, but MP used.",
+            "variations": {}
+        }
+    ],
     "MS": [
         {
             "cite_type": "neutral",
