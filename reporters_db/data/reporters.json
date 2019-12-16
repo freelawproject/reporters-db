@@ -11008,6 +11008,22 @@
             }
         }
     ],
+    "Tex. Supp.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Supp.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tx;supreme.court"
+            ],
+            "name": "Texas Supplement",
+            "variations": {}
+        }
+    ],
     "Tex.Bankr.Ct.Rep.": [
         {
             "cite_type": "specialty",
