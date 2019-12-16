@@ -3190,6 +3190,7 @@
             "mlz_jurisdiction": [],
             "name": "Environmental Law Reporter",
             "variations": {
+                "ELR": "Envtl. L. Rep. (Envtl. Law Inst.)",
                 "Envtl. L. Rep.": "Envtl. L. Rep. (Envtl. Law Inst.)",
                 "Envtl. L.Rep.": "Envtl. L. Rep. (Envtl. Law Inst.)"
             }
