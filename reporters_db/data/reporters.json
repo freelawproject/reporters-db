@@ -2264,6 +2264,21 @@
             }
         }
     ],
+    "Colo. Bankr. Ct. Rep.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Colo. Bankr. Ct. Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Colorado (CO) Bankruptcy Court Reporter",
+            "variations": {}
+        }
+    ],
     "Colo. J.": [
         {
             "cite_type": "state",
