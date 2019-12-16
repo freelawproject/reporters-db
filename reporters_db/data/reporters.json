@@ -10855,7 +10855,9 @@
                 "us:tx;supreme.court"
             ],
             "name": "Texas Supreme Court Journal",
-            "variations": {}
+            "variations": {
+                "Tex. Sup. J.": "Tex. Sup. Ct. J."
+            }
         }
     ],
     "Tex.Bankr.Ct.Rep.": [
