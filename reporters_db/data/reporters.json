@@ -9823,6 +9823,22 @@
             }
         }
     ],
+    "S.C. Eq.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "S.C. Eq.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:sc;supreme.court"
+            ],
+            "name": "South Carolina Equity Reports",
+            "variations": {}
+        }
+    ],
     "S.D.": [
         {
             "cite_type": "state",
