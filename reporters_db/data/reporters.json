@@ -3070,6 +3070,21 @@
             "variations": {}
         }
     ],
+    "ERC (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "ERC (BNA)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Environmental Reporter Cases (BNA)",
+            "variations": {}
+        }
+    ],
     "Edm. Sel. Cas.": [
         {
             "cite_type": "state",
