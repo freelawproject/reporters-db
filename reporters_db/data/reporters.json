@@ -10677,6 +10677,24 @@
             }
         }
     ],
+    "Tenn. Ch. App.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tenn. Ch. App.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tn;appeals.court"
+            ],
+            "name": "Tennessee Chancery Appeals (Wright)",
+            "variations": {
+                "Tenn. Chancery App.": "Tenn. Ch. App."
+            }
+        }
+    ],
     "Tenn. Crim. App.": [
         {
             "cite_type": "state",
