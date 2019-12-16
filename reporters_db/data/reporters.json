@@ -1702,6 +1702,27 @@
             }
         }
     ],
+    "Cal. 4th CJP Supp.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. 4th CJP Supp.": {
+                    "end": null,
+                    "start": null
+                },
+                "Cal. 5th CJP Supp.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;supreme.court"
+            ],
+            "name": "California Reports, Supplement",
+            "notes": " State of California Commission on Judicial Performance",
+            "variations": {}
+        }
+    ],
     "Cal. App.": [
         {
             "cite_type": "state",
