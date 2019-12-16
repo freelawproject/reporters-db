@@ -3063,8 +3063,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Environmental Reporter Cases (BNA)",
             "variations": {}
         }
@@ -7963,6 +7962,23 @@
             ],
             "name": "Oklahoma Neutral Citation (Judicial Ethics Advisory Panel)",
             "variations": {}
+        }
+    ],
+    "OSHC (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "OSHC (BNA)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Occupational Safety and Health Cases",
+            "variations": {
+                "BNA OSHC": "OSHC (BNA)"
+            }
         }
     ],
     "Ohio": [
