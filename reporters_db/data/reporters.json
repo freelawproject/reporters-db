@@ -7910,6 +7910,22 @@
             "variations": {}
         }
     ],
+    "Nev. Adv. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Nev. Adv. Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nv;supreme.court"
+            ],
+            "name": "Nevada Advance Reports",
+            "variations": {}
+        }
+    ],
     "Northumb. L.J.": [
         {
             "cite_type": "state_regional",
