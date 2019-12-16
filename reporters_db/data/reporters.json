@@ -7267,6 +7267,28 @@
             "variations": {}
         }
     ],
+    "N.M. (G.)": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.M. (G.)": {
+                    "end": "1889-12-31T00:00:00",
+                    "start": "1852-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nm;supreme.court"
+            ],
+            "name": "New Mexico Reports (Gildersleeve)",
+            "variations": {
+                "Gild.": "N.M. (G.)",
+                "Gildersleeve": "N.M. (G.)",
+                "Gildersleeve (N. Mex.)": "N.M. (G.)",
+                "Gildr.": "N.M. (G.)",
+                "N.M. (Gild.)": "N.M. (G.)"
+            }
+        }
+    ],
     "N.M. (J.)": [
         {
             "cite_type": "state",
