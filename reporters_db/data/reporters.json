@@ -704,6 +704,22 @@
             }
         }
     ],
+    "Ark. Adv. Op.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ark. Adv. Op.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ar;supreme.court"
+            ],
+            "name": "Arkansas (AR) Advanced Opinions",
+            "variations": {}
+        }
+    ],
     "Ark. App'x": [
         {
             "cite_type": "state",
