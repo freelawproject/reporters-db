@@ -8916,7 +8916,10 @@
                 "us:c1:pr.d;district.court"
             ],
             "name": "Decisiones de Puerto Rico",
-            "variations": {}
+            "variations": {
+                "DPR": "P.R. Dec.",
+                "D.P.R.": "P.R. Dec."
+            }
         }
     ],
     "P.R. Offic. Trans.": [
