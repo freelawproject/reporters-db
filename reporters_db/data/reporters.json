@@ -10346,6 +10346,22 @@
             }
         }
     ],
+    "TSPR": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "TSPR": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pr;supreme.court"
+            ],
+            "name": "Tribunal Supremo de Puerto Rico",
+            "variations": {}
+        }
+    ],
     "Tay.": [
         {
             "cite_type": "state",
