@@ -5380,6 +5380,24 @@
             }
         }
     ],
+    "Jones Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Jones Law": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nc;supreme.court"
+            ],
+            "name": "Jones' North Carolina Law Reports",
+            "variations": {
+                "Jones Law.": "Jones Law"
+            }
+        }
+    ],
     "Just.": [
         {
             "cite_type": "state",
