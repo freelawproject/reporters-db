@@ -487,8 +487,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Americans with Disabilities Cases (BNA)",
             "variations": {}
         }
@@ -2294,6 +2293,23 @@
             "name": "Commodity Futures Law Reporter (CCH)",
             "variations": {
                 "Comm. Fut. L. Rep. (CCH)": "Comm. Fut. L. Rep."
+            }
+        }
+    ],
+    "Communications Reg. (P&F)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Communications Reg. (P&F)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Communications Regulations",
+            "variations": {
+                "Comm. Reg. (P & F)": "Communications Reg. (P&F)"
             }
         }
     ],
