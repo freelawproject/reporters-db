@@ -11464,7 +11464,8 @@
             "name": "Wage and Hour Cases",
             "variations": {
                 "Wage & Hour Cas.": "Wage & Hour Cas. (BNA)",
-                "Wage & Hour Cas. 2d": "Wage & Hour Cas.2d (BNA)"
+                "Wage & Hour Cas. 2d": "Wage & Hour Cas.2d (BNA)",
+                "Wage & Hour Cas. 2d (BNA)": "Wage & Hour Cas.2d (BNA)"
             }
         }
     ],
