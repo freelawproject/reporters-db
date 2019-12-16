@@ -2195,6 +2195,23 @@
             }
         }
     ],
+    "Colo. J. C.A.R.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Colo. J. C.A.R.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:co;court.appeals",
+                "us:co;supreme.court"
+            ],
+            "name": "Colorado Journal, Colorado Appellate Reports",
+            "variations": {}
+        }
+    ],
     "Colo. Law.": [
         {
             "cite_type": "state",
