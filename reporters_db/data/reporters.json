@@ -1655,6 +1655,10 @@
                 "Cal. App. 4th": {
                     "end": null,
                     "start": "1991-01-01T00:00:00"
+                },
+                "Cal. App. 5th": {
+                    "end": null,
+                    "start": null
                 }
             },
             "mlz_jurisdiction": [
