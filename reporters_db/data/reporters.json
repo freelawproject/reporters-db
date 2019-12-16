@@ -2276,7 +2276,9 @@
             "mlz_jurisdiction": [
             ],
             "name": "Colorado (CO) Bankruptcy Court Reporter",
-            "variations": {}
+            "variations": {
+              "Colo Bankr Ct Rep": "Colo. Bankr. Ct. Rep."
+            }
         }
     ],
     "Colo. J.": [
@@ -2357,8 +2359,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Communications Regulations",
             "variations": {
                 "Comm. Reg. (P & F)": "Communications Reg. (P&F)"
