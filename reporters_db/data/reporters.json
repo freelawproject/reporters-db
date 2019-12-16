@@ -11214,6 +11214,22 @@
             }
         }
     ],
+    "Va. Law Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Va. Law Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:va;supreme.court"
+            ],
+            "name": "Virginia Law Reports",
+            "variations": {}
+        }
+    ],
     "Vet. App.": [
         {
             "cite_type": "specialty",
