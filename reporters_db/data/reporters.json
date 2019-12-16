@@ -9060,6 +9060,32 @@
             }
         }
     ],
+    "Patton & Heath": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Patton & Heath": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:va;appeals.court"
+            ],
+            "name": "Patton, Jr., and Heath's Reports (Va.)",
+            "variations": {
+                "P. & H.": "Patton & Heath",
+                "P.Jr. & H.": "Patton & Heath",
+                "Pat. & H.": "Patton & Heath",
+                "Patt. & H.": "Patton & Heath",
+                "Patt. & H. (Va.)": "Patton & Heath",
+                "Patt. & Heath R.": "Patton & Heath",
+                "Patton & H.": "Patton & Heath",
+                "Patton & H. (Va.)": "Patton & Heath",
+                "Patton & Heath": "Patton & Heath"
+            }
+        }
+    ],
     "Peck": [
         {
             "cite_type": "state",
