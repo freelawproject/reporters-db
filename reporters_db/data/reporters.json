@@ -7452,6 +7452,23 @@
             }
         }
     ],
+    "NCBC": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "NCBC": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nc;superior.court"
+            ],
+            "name": "North Carolina Business Court",
+            "notes": "The North Carolina Business Court is a specialized forum of the",
+            "variations": {}
+        }
+    ],
     "ND": [
         {
             "cite_type": "neutral",
