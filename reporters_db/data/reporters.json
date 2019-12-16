@@ -1356,15 +1356,17 @@
             "cite_type": "state",
             "editions": {
                 "Brief Times Rptr.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
+                    "end": "1996-12-31T00:00:00",
+                    "start": "1977-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
                 "us:co;supreme.court"
             ],
             "name": "Brief Times Reporter",
-            "variations": {}
+            "variations": {
+                "BTR": "Brief Times Rptr."
+            }
         }
     ],
     "Buchanan": [
