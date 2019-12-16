@@ -11683,7 +11683,9 @@
                 "us:wy;supreme.court"
             ],
             "name": "West Law Citation",
-            "variations": {}
+            "variations": {
+                "wl": "WL"
+            }
         }
     ],
     "WY": [
