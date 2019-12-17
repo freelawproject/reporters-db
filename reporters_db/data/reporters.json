@@ -8572,7 +8572,8 @@
             ],
             "name": "Ohio Supplement",
             "variations": {
-                "O. Supp": "O. Supp."
+                "O. Supp": "O. Supp.",
+                "Ohio Supp.": "O. Supp."
             }
         }
     ],
