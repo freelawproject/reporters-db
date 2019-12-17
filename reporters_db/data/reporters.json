@@ -13133,6 +13133,22 @@
             }
         }
     ],
+    "W.L. M.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "W.L. M.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Western Law Monthly (OH)",
+            "variations": {
+                " W.L. Monthly": "W.L. M."
+            }
+        }
+    ],
     "W.L.B.": [
         {
             "cite_type": "state",
