@@ -5852,6 +5852,20 @@
             "variations": {}
         }
     ],
+    "Int. Rev. Rec.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Int. Rev. Rec.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Internal Revenue Record",
+            "variations": {}
+        }
+    ],
     "Iowa": [
         {
             "cite_type": "state",
