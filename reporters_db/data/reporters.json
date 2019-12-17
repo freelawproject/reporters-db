@@ -1867,6 +1867,10 @@
             ],
             "name": "California Appellate Reports, Supplement",
             "variations": {
+                "Cal. App. 2d Supp.": "Cal. App. Supp. 2d",
+                "Cal. App. 3d Supp.": "Cal. App. Supp. 3d",
+                "Cal. App. 4th Supp.": "Cal. App. Supp. 4th",
+                "Cal. App. 5th Supp.": "Cal. App. Supp. 5th",
                 "Cal.App. 2d Supp.": "Cal. App. Supp. 2d",
                 "Cal.App. 3d Supp.": "Cal. App. Supp. 3d",
                 "Cal.App. Supp. 2d": "Cal. App. Supp. 2d",
