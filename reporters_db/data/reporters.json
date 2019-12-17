@@ -11361,6 +11361,24 @@
             "variations": {}
         }
     ],
+    "Tax Ct. Mem. Dec. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Tax Ct. Mem. Dec. (CCH)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
+            "name": "Tax Court Memorandum Decisions",
+            "variations": {
+                "CCH Tax Ct. Mem.": "Tax Ct. Mem. Dec. (CCH)"
+            }
+        }
+    ],
     "Tay.": [
         {
             "cite_type": "state",
