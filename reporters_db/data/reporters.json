@@ -8954,8 +8954,8 @@
             ],
             "name": "Decisiones de Puerto Rico",
             "variations": {
-                "DPR": "P.R. Dec.",
-                "D.P.R.": "P.R. Dec."
+                "D.P.R.": "P.R. Dec.",
+                "DPR": "P.R. Dec."
             }
         }
     ],
@@ -10334,7 +10334,8 @@
             "name": "Smith & Heiskell (Tenn.)",
             "variations": {
                 "Smith": "Smith & H.",
-                "Smith (TN)": "Smith & H."
+                "Smith (TN)": "Smith & H.",
+                "Smith (Tenn.)": "Smith & H."
             }
         }
     ],
