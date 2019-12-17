@@ -6231,6 +6231,22 @@
             }
         }
     ],
+    "Law Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Law Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;supreme.court"
+            ],
+            "name": "Monthly Law Reporter, Boston Mass.",
+            "variations": {}
+        }
+    ],
     "Lea.": [
         {
             "cite_type": "state",
