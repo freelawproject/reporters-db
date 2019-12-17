@@ -2854,6 +2854,20 @@
             }
         }
     ],
+    "Crabbe": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Crabbe": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Crabbe's United States (US) District Court Reports",
+            "variations": {}
+        }
+    ],
     "Cranch": [
         {
             "cite_type": "scotus_early",
