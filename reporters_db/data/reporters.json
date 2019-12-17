@@ -4195,6 +4195,22 @@
             }
         }
     ],
+    "Fulton County D. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Fulton County D. Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ga;supreme.court"
+            ],
+            "name": "Fulton County Daily Reporter",
+            "variations": {}
+        }
+    ],
     "G. & J.": [
         {
             "cite_type": "state",
