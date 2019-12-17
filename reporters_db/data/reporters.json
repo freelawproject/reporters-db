@@ -1458,6 +1458,20 @@
             }
         }
     ],
+    "Bond": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Bond": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Bond's United States (US) Circuit Reports",
+            "variations": {}
+        }
+    ],
     "Bosw.": [
         {
             "cite_type": "state",
