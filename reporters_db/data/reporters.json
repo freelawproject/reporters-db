@@ -2563,6 +2563,25 @@
             }
         }
     ],
+    "Connoly": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Connoly": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;supreme.court"
+            ],
+            "name": "Connoly's New York Surrogate Reports",
+            "variations": {
+                "Connoly Sur. Rep.": "Connoly",
+                "Connoly Surr. Rep.": "Connoly"
+            }
+        }
+    ],
     "Cont. Cas. Fed.": [
         {
             "cite_type": "federal",
