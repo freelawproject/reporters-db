@@ -5302,6 +5302,22 @@
             }
         }
     ],
+    "Ind. Dec.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ind. Dec.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:in;supreme.court"
+            ],
+            "name": "Indiana Decisions (Ind.)",
+            "variations": {}
+        }
+    ],
     "Indian Terr.": [
         {
             "cite_type": "state",
