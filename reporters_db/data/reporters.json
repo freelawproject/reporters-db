@@ -12422,6 +12422,24 @@
                 "Wall.Rep.": "Wall.",
                 "Wall.S.C.": "Wall."
             }
+        },
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Wall.": {
+                    "end": "1874-12-31T00:00:00",
+                    "start": "1863-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c3:pa.ed;district.court",
+                "us:c3:pa.md;district.court",
+                "us:c3:pa.wd;district.court"
+            ],
+            "name": "Wallace's Circuit Court Reports",
+            "variations": {
+                "Wall. C.C": "Wall."
+            }
         }
     ],
     "Wash.": [
