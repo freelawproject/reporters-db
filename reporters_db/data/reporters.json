@@ -13078,6 +13078,20 @@
             }
         }
     ],
+    "Wkly. Dig.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Wkly. Dig.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "New York Weekly Digest",
+            "variations": {}
+        }
+    ],
     "Woods": [
         {
             "cite_type": "federal",
