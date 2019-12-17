@@ -12901,6 +12901,22 @@
             }
         }
     ],
+    "West Coast Rep.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "West Coast Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "West Coast Reporter",
+            "variations": {
+                "West Co. Rep.": "West Coast Rep."
+            }
+        }
+    ],
     "Whart.": [
         {
             "cite_type": "state",
