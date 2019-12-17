@@ -279,6 +279,20 @@
             "variations": {}
         }
     ],
+    "Abb. Adm.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Abb. Adm.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Abbott's Admiralty Reports",
+            "variations": {}
+        }
+    ],
     "Abb. N. Cas.": [
         {
             "cite_type": "state",
