@@ -4462,6 +4462,22 @@
             }
         }
     ],
+    "Fed. Sent'g Rep": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Fed. Sent'g Rep": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Federal Sentencing Reporter",
+            "variations": {
+                "Fed. Sent. R.": "Fed. Sent'g Rep"
+            }
+        }
+    ],
     "Fla.": [
         {
             "cite_type": "state",
