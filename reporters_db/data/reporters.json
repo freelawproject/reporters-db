@@ -11729,6 +11729,20 @@
             }
         }
     ],
+    "Treas. Dec.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Treas. Dec.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Treasury Decisions Under Customs and Other Laws (U.S.)",
+            "variations": {}
+        }
+    ],
     "Tuck. & Cl.": [
         {
             "cite_type": "state",
