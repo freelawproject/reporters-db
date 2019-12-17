@@ -2112,7 +2112,9 @@
                 "us:pa;supreme.court"
             ],
             "name": "Chester County Reports (Pa.)",
-            "variations": {}
+            "variations": {
+                "Chester Co. Rep.": "Chest."
+            }
         }
     ],
     "Chev.": [
