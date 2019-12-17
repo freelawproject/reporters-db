@@ -3864,6 +3864,7 @@
             "mlz_jurisdiction": [],
             "name": "Fair Employment Practice Cases",
             "variations": {
+                "Fair Empl. Prac. Newsl. (BNA)": "Fair Empl. Prac. Cas. (BNA)",
                 "Fair Empl.Prac.Cas.": "Fair Empl. Prac. Cas. (BNA)",
                 "Fair Empl.Prac.Cas. (BNA)": "Fair Empl. Prac. Cas. (BNA)"
             }
