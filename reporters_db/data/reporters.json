@@ -5616,6 +5616,20 @@
             }
         }
     ],
+    "Int'l Env't Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Int'l Env't Rep. (BNA)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "International Environment Reporter (Bureau of National Affairs)",
+            "variations": {}
+        }
+    ],
     "Iowa": [
         {
             "cite_type": "state",
