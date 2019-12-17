@@ -13173,6 +13173,20 @@
             }
         }
     ],
+    "W.L.J.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "W.L.J.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Western Law Journal (OH)",
+            "variations": {}
+        }
+    ],
     "W.N.C.": [
         {
             "cite_type": "state",
