@@ -2370,6 +2370,25 @@
             }
         }
     ],
+    "City Hall Rec. (NY)": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "City Hall Rec. (NY)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;supreme.court"
+            ],
+            "name": "City Hall Recorder (N.Y.)",
+            "variations": {
+                "City H. Rec.": "City Hall Rec. (NY)",
+                "N.Y. City H. Rec.": "City Hall Rec. (NY)"
+            }
+        }
+    ],
     "Cl. Ch.": [
         {
             "cite_type": "state",
