@@ -564,13 +564,19 @@
                 "Am. Law Reg.": {
                     "end": null,
                     "start": null
+                },
+                "Am. Law Reg. (N.S.)": {
+                    "end": null,
+                    "start": null
                 }
             },
             "mlz_jurisdiction": [
                 "us:pa;supreme.court"
             ],
             "name": "American Law Register",
-            "variations": {}
+            "variations": {
+                "Am. L. Reg., n.s.": "Am. Law Reg. (N.S.)"
+            }
         }
     ],
     "Am. Lead. Cas.": [
