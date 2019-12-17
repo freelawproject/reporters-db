@@ -10653,6 +10653,38 @@
             }
         }
     ],
+    "Shan.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Shan.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tn;supreme.court"
+            ],
+            "name": "Shannon's Unreported Cases (Tenn.)",
+            "variations": {}
+        }
+    ],
+    "Shan. Cas.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Shan. Cas.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tn;supreme.court"
+            ],
+            "name": "Shannon's Tennessee Cases",
+            "variations": {}
+        }
+    ],
     "Sickels": [
         {
             "cite_type": "state",
