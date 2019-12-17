@@ -7303,6 +7303,22 @@
             }
         }
     ],
+    "McCrary's Cir. Ct. Rpts": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "McCrary's Cir. Ct. Rpts": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "McCrary's Circuit Court Reports",
+            "variations": {
+                "McCrary": "McCrary's Cir. Ct. Rpts"
+            }
+        }
+    ],
     "McGl.": [
         {
             "cite_type": "state",
