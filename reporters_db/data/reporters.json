@@ -3827,6 +3827,22 @@
             }
         }
     ],
+    "FPSC": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "FPSC": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:fl;public.service.commission.court"
+            ],
+            "name": "Florida Public Service Commission",
+            "variations": {}
+        }
+    ],
     "Fair Empl. Prac. Cas. (BNA)": [
         {
             "cite_type": "specialty",
