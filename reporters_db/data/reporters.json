@@ -8356,6 +8356,22 @@
             "variations": {}
         }
     ],
+    "N.J. Law J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.J. Law J.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;supreme.court"
+            ],
+            "name": "New Jersey Law Journal",
+            "variations": {}
+        }
+    ],
     "N.J. Misc.": [
         {
             "cite_type": "state",
@@ -11420,8 +11436,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Securities and Exchange Commission Judicial Decision",
             "variations": {}
         }
