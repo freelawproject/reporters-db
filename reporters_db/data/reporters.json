@@ -1058,6 +1058,26 @@
             }
         }
     ],
+    "Baxt.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Baxt.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tn;supreme.court"
+            ],
+            "name": "Baxter's Reports (60-68 Tennessee)",
+            "variations": {
+                "Bax.": "Baxt.",
+                "Baxt. (Tenn.)": "Baxt.",
+                "Baxter": "Baxt."
+            }
+        }
+    ],
     "Bay": [
         {
             "cite_type": "state",
