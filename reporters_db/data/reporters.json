@@ -2510,6 +2510,20 @@
             "variations": {}
         }
     ],
+    "Code Rep.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Code Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Code Reporter (NY)",
+            "variations": {}
+        }
+    ],
     "Cold.": [
         {
             "cite_type": "state",
