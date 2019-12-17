@@ -461,6 +461,26 @@
             }
         }
     ],
+    "Am. B.R.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Am. B.R.": {
+                    "end": null,
+                    "start": null
+                },
+                "Am. B.R. (N.S.)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American Bankruptcy Reports",
+            "variations": {
+                "Am. B.R. (n.s.)": "Am. B.R. (N.S.)"
+            }
+        }
+    ],
     "Am. Dec.": [
         {
             "cite_type": "federal",
