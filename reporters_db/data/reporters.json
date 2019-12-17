@@ -11733,6 +11733,20 @@
             }
         }
     ],
+    "Sprague": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Sprague": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Sprague's United  States (US) District Ct. (Admiralty) Decisions",
+            "variations": {}
+        }
+    ],
     "State Rptr.": [
         {
             "cite_type": "state",
