@@ -8856,6 +8856,20 @@
             }
         }
     ],
+    "Newb. Adm.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Newb. Adm.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Newberry's  District Court Admiralty Rep. United States (US)",
+            "variations": {}
+        }
+    ],
     "Northumb. L.J.": [
         {
             "cite_type": "state_regional",
