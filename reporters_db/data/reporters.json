@@ -4548,6 +4548,22 @@
             "variations": {}
         }
     ],
+    "Hall.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Hall.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;superior.court"
+            ],
+            "name": "Hall's New York Superior Court Reports",
+            "variations": {}
+        }
+    ],
     "Hard.": [
         {
             "cite_type": "state",
