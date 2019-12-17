@@ -9715,6 +9715,22 @@
             }
         }
     ],
+    "Pens. & Ben. Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Pens. & Ben. Rep. (BNA)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Pension & Benefits Reporter",
+            "variations": {
+                "Pens. & Benefits Rep. (BNA)": "Pens. & Ben. Rep. (BNA)"
+            }
+        }
+    ],
     "Pet.": [
         {
             "cite_type": "scotus_early",
