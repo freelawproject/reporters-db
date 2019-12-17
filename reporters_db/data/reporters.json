@@ -2962,6 +2962,20 @@
             }
         }
     ],
+    "Curt.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Curt.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Curtis' United States (US) Circuit Court Decisions",
+            "variations": {}
+        }
+    ],
     "Cush.": [
         {
             "cite_type": "state",
