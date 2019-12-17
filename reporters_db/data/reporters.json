@@ -6633,8 +6633,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Labor Law Reporter (CCH)",
             "variations": {}
         }
@@ -8008,6 +8007,24 @@
                 "Montg. Co. L.R.": "Montg.",
                 "Montg. Co. L.R. (Pa.)": "Montg.",
                 "Montg. Co. Law Rep'r.": "Montg."
+            }
+        }
+    ],
+    "Morr. Min. Rep.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Morr. Min. Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Morrison's Mining Reports",
+            "variations": {
+                "Mor. Min. Rep.": "Morr. Min. Rep.",
+                "Morr. M.R.": "Morr. Min. Rep.",
+                "Morr. Min. R.": "Morr. Min. Rep."
             }
         }
     ],
