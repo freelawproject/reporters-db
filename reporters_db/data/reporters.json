@@ -634,6 +634,22 @@
             }
         }
     ],
+    "Amer. L. Rev.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Amer. L. Rev.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c2:ny.nd;district.court"
+            ],
+            "name": "American Law Review",
+            "variations": {}
+        }
+    ],
     "Ant. N.P. Cas.": [
         {
             "cite_type": "state",
