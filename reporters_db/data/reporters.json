@@ -6443,6 +6443,20 @@
             }
         }
     ],
+    "M.S.P.R.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "M.S.P.R.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "United States Merit Systems Protection Board Reporter",
+            "variations": {}
+        }
+    ],
     "MDBT": [
         {
             "cite_type": "state",
