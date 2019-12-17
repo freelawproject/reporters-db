@@ -4200,19 +4200,20 @@
             }
         }
     ],
-    "Fla. L. Weekly Fed. Supp.": [
+    "Fla. L. Weekly Fed. S": [
         {
             "cite_type": "federal",
             "editions": {
-                "Fla. L. Weekly Supp.": {
+                "Fla. L. Weekly S": {
                     "end": null,
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [],
-            "name": "Florida Law Weekly, Federal Supplement",
+            "mlz_jurisdiction": [
+                "us;supreme.court"
+            ],
+            "name": "Florida (FL) Law Weekly Federal, Supreme Court",
             "variations": {
-                "Fla. L. Weekly Fed. S": "Fla. L. Weekly Fed. Supp."
             }
         }
     ],
