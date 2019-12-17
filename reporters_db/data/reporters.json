@@ -8135,6 +8135,20 @@
             "variations": {}
         }
     ],
+    "N.B.R.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "N.B.R.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "National Bankruptcy Register Reports",
+            "variations": {}
+        }
+    ],
     "N.C.": [
         {
             "cite_type": "state",
