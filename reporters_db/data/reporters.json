@@ -1247,6 +1247,22 @@
             "variations": {}
         }
     ],
+    "Bee": [
+        {
+            "cite_type": "scotus_early",
+            "editions": {
+                "Bee": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us;supreme.court"
+            ],
+            "name": "Bee's United States (US) District Court Reports",
+            "variations": {}
+        }
+    ],
     "Beeler": [
         {
             "cite_type": "state",
