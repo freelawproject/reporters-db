@@ -1091,6 +1091,22 @@
             }
         }
     ],
+    "Ban. & A.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Ban. & A.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;court.customs.patent.appeals"
+            ],
+            "name": "Banning & Arden's Patent Reports (US)",
+            "variations": {}
+        }
+    ],
     "Bankr. Ct. Dec. (CRR)": [
         {
             "cite_type": "specialty",
