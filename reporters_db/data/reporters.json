@@ -452,6 +452,20 @@
             }
         }
     ],
+    "Alb. Law J.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Alb. Law J.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Albany Law Journal",
+            "variations": {}
+        }
+    ],
     "Allen": [
         {
             "cite_type": "state",
