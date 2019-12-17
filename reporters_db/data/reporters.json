@@ -4552,8 +4552,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Florida (FL) Law Weekly Federal, Bankruptcy Court",
             "variations": {}
         }
@@ -11407,6 +11406,21 @@
                 "us:sd;supreme.court"
             ],
             "name": "South Dakota Neutral Citation",
+            "variations": {}
+        }
+    ],
+    "SEC Jud. Dec.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "SEC Jud. Dec.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Securities and Exchange Commission Judicial Decision",
             "variations": {}
         }
     ],
