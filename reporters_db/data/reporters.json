@@ -6577,6 +6577,24 @@
             }
         }
     ],
+    "Law J. Q.B.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Law J. Q.B.": {
+                    "end": "1946-12-31T00:00:00",
+                    "start": "1831-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "en:c;queens.bench"
+            ],
+            "name": "Law Journal, New Series, Queen's Bench, England",
+            "variations": {
+                "L.J.Q.B.": "Law J. Q.B."
+            }
+        }
+    ],
     "Law Rep.": [
         {
             "cite_type": "state",
