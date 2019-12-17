@@ -2314,6 +2314,41 @@
             }
         }
     ],
+    "Chi. Leg. News": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Chi. Leg. News": {
+                    "end": "1925-12-31T00:00:00",
+                    "start": "1868-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c7:il.nd;district.court"
+            ],
+            "name": "Chicago Legal News (1868-1925) (Illinois)",
+            "variations": {
+                "placeholder_0": "Chi. Leg. News"
+            }
+        }
+    ],
+    "Chit. Cr. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Chit. Cr. Law": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Chitty's Criminal Law",
+            "variations": {
+                "Chit. Cr. L.": "Chit. Cr. Law",
+                "Chit. Crim. Law": "Chit. Cr. Law"
+            }
+        }
+    ],
     "Cin. L. Bull.": [
         {
             "cite_type": "state",
