@@ -10302,6 +10302,20 @@
             }
         }
     ],
+    "Paine": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Paine": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Paine's United  States (US) Circuit Court Reports",
+            "variations": {}
+        }
+    ],
     "Patton & Heath": [
         {
             "cite_type": "state",
