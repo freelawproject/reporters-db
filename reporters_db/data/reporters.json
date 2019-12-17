@@ -12264,6 +12264,24 @@
             }
         }
     ],
+    "Va. Law J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Va. Law J.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:va;supreme.court"
+            ],
+            "name": "Virginia Law Journal",
+            "variations": {
+                "Vir. L.J.": "Va. Law J."
+            }
+        }
+    ],
     "Va. Law Rep.": [
         {
             "cite_type": "state",
