@@ -2132,6 +2132,22 @@
             }
         }
     ],
+    "Chase": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Chase": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Chase's United States Circuit Court Decisions",
+            "variations": {
+                "Chase.": "Chase"
+            }
+        }
+    ],
     "Chest.": [
         {
             "cite_type": "state",
