@@ -5838,6 +5838,20 @@
             }
         }
     ],
+    "Ins. L.J.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Ins. L.J.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Insurance Law Journal",
+            "variations": {}
+        }
+    ],
     "Int'l Env't Rep. (BNA)": [
         {
             "cite_type": "specialty",
