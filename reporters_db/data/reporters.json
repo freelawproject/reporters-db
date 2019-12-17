@@ -11744,6 +11744,20 @@
             "variations": {}
         }
     ],
+    "Taney": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Taney": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Taney's United States (US) Circuit Court Reports",
+            "variations": {}
+        }
+    ],
     "Tax Ct. Mem. Dec. (CCH)": [
         {
             "cite_type": "specialty",
