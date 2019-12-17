@@ -4656,7 +4656,9 @@
                 "us:ny;superior.court"
             ],
             "name": "Hall's New York Superior Court Reports",
-            "variations": {}
+            "variations": {
+                "Hall": "Hall."
+            }
         }
     ],
     "Hard.": [
