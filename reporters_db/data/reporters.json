@@ -6309,6 +6309,27 @@
             }
         }
     ],
+    "Lehigh": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Lehigh": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Lehigh Valley Law Reporter (Pa.)",
+            "variations": {
+                "Leh. V.L.R. (Pa.)": "Lehigh",
+                "Lehigh Val. L. Rep.": "Lehigh",
+                "Lehigh Val. L.R.": "Lehigh",
+                "Lehigh Val. Law Rep": "Lehigh"
+            }
+        }
+    ],
     "Leigh": [
         {
             "cite_type": "state",
