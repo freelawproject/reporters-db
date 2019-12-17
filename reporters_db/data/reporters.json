@@ -1932,6 +1932,22 @@
             }
         }
     ],
+    "Cal. I.A.C.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Cal. I.A.C.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;iac.court"
+            ],
+            "name": "Decisions of the Industrial Accident Commission of California",
+            "variations": {}
+        }
+    ],
     "Cal. Rptr.": [
         {
             "cite_type": "state",
