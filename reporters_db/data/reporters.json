@@ -1694,6 +1694,20 @@
             }
         }
     ],
+    "C.B.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "C.B.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Cumulative Bulletin",
+            "variations": {}
+        }
+    ],
     "C.C.L.J.": [
         {
             "cite_type": "state",
