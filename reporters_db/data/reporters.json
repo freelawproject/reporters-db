@@ -3206,6 +3206,20 @@
             }
         }
     ],
+    "Deady": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Deady": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Deady's Circuit & District Court Reports",
+            "variations": {}
+        }
+    ],
     "Dec. Com. Pat.": [
         {
             "cite_type": "specialty",
