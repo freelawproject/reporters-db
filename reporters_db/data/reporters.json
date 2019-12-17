@@ -1345,6 +1345,22 @@
             }
         }
     ],
+    "Bosw.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Bosw.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;superior.court"
+            ],
+            "name": "Bosworth, New York Superior Court Reports, vols. 14-23",
+            "variations": {}
+        }
+    ],
     "Boyce": [
         {
             "cite_type": "state",
