@@ -1633,6 +1633,23 @@
             "variations": {}
         }
     ],
+    "Brunn. Coll. Cas.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Brunn. Coll. Cas.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Brunner's Collected Cases (US)",
+            "variations": {
+                "Brun. Col. Cas.": "Brunn. Coll. Cas.",
+                "Brunner, Col. Cas.": "Brunn. Coll. Cas."
+            }
+        }
+    ],
     "Buchanan": [
         {
             "cite_type": "state",
