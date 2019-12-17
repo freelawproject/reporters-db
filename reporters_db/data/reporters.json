@@ -4261,6 +4261,22 @@
             }
         }
     ],
+    "Ga. Supp.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ga. Supp.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ga;supreme.court"
+            ],
+            "name": "Georgia Reports, Supplement",
+            "variations": {}
+        }
+    ],
     "Gibbons": [
         {
             "cite_type": "state",
