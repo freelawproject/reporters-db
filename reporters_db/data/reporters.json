@@ -1,4 +1,21 @@
 {
+    " Am. J. Juris.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                " Am. J. Juris.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American Journal of Jurisprudence",
+            "variations": {
+                "Am. J. Jurispr": " Am. J. Juris.",
+                "Am. J. Jurisprud": " Am. J. Juris."
+            }
+        }
+    ],
     "A.": [
         {
             "cite_type": "state_regional",
