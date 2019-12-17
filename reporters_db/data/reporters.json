@@ -10543,6 +10543,22 @@
             }
         }
     ],
+    "Sandf.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Sandf.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;superior.court"
+            ],
+            "name": "Sandford's Reports (3-7 New York Superior)",
+            "variations": {}
+        }
+    ],
     "Sarat. Ch. Sent.": [
         {
             "cite_type": "state",
