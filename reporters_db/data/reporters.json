@@ -4478,6 +4478,20 @@
             }
         }
     ],
+    "Fish. Pat. Cas": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Fish. Pat. Cas.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Fisher's United States (US) Patent Cases",
+            "variations": {}
+        }
+    ],
     "Fla.": [
         {
             "cite_type": "state",
