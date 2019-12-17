@@ -6668,6 +6668,10 @@
                 "Mart.": {
                     "end": "1830-12-31T00:00:00",
                     "start": "1809-01-01T00:00:00"
+                },
+                "Mart. (N.S.)": {
+                    "end": null,
+                    "start": null
                 }
             },
             "mlz_jurisdiction": [
@@ -6675,6 +6679,7 @@
             ],
             "name": "Louisiana Reports, Martin",
             "variations": {
+                "Mart. (n.s.)": "Mart. (N.S.)",
                 "Mart.(o.s.)": "Mart."
             }
         },
