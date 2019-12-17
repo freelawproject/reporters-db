@@ -8811,6 +8811,37 @@
             "variations": {}
         }
     ],
+    "NDLR": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "NDLR": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "National Disability Law Repoter",
+            "variations": {
+                "NDLR (LRP)": "NDLR",
+                "NDLR (LRP) LEXIS": "NDLR"
+            }
+        }
+    ],
+    "NLRB No.": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "NLRB No.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "National Labor Relations Board Neutral Cite",
+            "variations": {}
+        }
+    ],
     "NM": [
         {
             "cite_type": "neutral",
