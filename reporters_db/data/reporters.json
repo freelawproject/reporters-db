@@ -8704,6 +8704,22 @@
             }
         }
     ],
+    "Ohio C.A.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ohio C.A.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;appeals.court"
+            ],
+            "name": "Ohio Courts of Appeals Reports",
+            "variations": {}
+        }
+    ],
     "Ohio C.C.": [
         {
             "cite_type": "state",
