@@ -7951,6 +7951,25 @@
             }
         }
     ],
+    "N.Y. Leg. Obs.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Leg. Obs.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;supreme.court"
+            ],
+            "name": "New York Legal Observer (N.Y.)",
+            "variations": {
+                "N.Y. Leg. Obs.": "N.Y. Leg. Obs.",
+                "N.Y. Legal Observer": "N.Y. Leg. Obs."
+            }
+        }
+    ],
     "N.Y. St. Rep.": [
         {
             "cite_type": "state",
