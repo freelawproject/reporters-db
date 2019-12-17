@@ -13729,6 +13729,20 @@
             }
         }
     ],
+    "West. Jur.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "West. Jur.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Western Jurist (Des Moines, Iowa)",
+            "variations": {}
+        }
+    ],
     "Whart.": [
         {
             "cite_type": "state",
