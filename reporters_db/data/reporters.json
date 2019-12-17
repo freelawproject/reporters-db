@@ -3462,6 +3462,20 @@
             }
         }
     ],
+    "Dill.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Dill.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Dillon's United States (US) Circuit Court Reports",
+            "variations": {}
+        }
+    ],
     "Doug.": [
         {
             "cite_type": "state",
