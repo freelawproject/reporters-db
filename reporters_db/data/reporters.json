@@ -7312,6 +7312,20 @@
             }
         }
     ],
+    "Mason C.C.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Mason C.C.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Mason's United States (US) Circuit Court Reports",
+            "variations": {}
+        }
+    ],
     "Mass.": [
         {
             "cite_type": "state",
