@@ -7952,6 +7952,10 @@
                 "N.Y. Civ. Proc. R.": {
                     "end": null,
                     "start": null
+                },
+                "N.Y. Civ. Proc. R., (N.S.)": {
+                    "end": null,
+                    "start": null
                 }
             },
             "mlz_jurisdiction": [
@@ -7960,6 +7964,7 @@
             "name": "New York Civil Procedure Reports",
             "variations": {
                 "N.Y. Civ. Proc. Rep.": "N.Y. Civ. Proc. R.",
+                "N.Y. Civ. Proc. Rep. (n.s.)": "N.Y. Civ. Proc. R., (N.S.)",
                 "N.Y.Civ.Proc.R.": "N.Y. Civ. Proc. R."
             }
         }
