@@ -12714,6 +12714,20 @@
             "variations": {}
         }
     ],
+    "U.S. Law Int.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "U.S. Law Int.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "United States Law Intelligencer and Review (Providence and Philadelphia)",
+            "variations": {}
+        }
+    ],
     "U.S.L.W.": [
         {
             "cite_type": "specialty",
