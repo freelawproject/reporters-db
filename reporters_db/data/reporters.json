@@ -13449,7 +13449,8 @@
             ],
             "name": "Wallace's Circuit Court Reports",
             "variations": {
-                "Wall. C.C": "Wall."
+                "Wall. C.C": "Wall.",
+                "Wall. Cir. Ct.": "Wall."
             }
         }
     ],
