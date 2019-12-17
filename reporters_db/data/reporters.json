@@ -8026,6 +8026,22 @@
             }
         }
     ],
+    "N.Y.L.J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y.L.J.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;supreme.court"
+            ],
+            "name": "New York Law Journal",
+            "variations": {}
+        }
+    ],
     "N.Y.S.": [
         {
             "cite_type": "state",
