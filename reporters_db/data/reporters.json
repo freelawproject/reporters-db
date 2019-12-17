@@ -6898,7 +6898,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Legal Gazette",
-            "variations": {}
+            "variations": {
+                "Leg. Gaz.": "Legal Gaz."
+            }
         }
     ],
     "Lehigh": [
