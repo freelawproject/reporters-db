@@ -13558,6 +13558,20 @@
             }
         }
     ],
+    "Wash. C. C.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Wash. C. C.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Washington's United States (US) Circuit Court Reports",
+            "variations": {}
+        }
+    ],
     "Wash. Co.": [
         {
             "cite_type": "state",
