@@ -7261,6 +7261,22 @@
             }
         }
     ],
+    "Miss. Dec.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Miss. Dec.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ms;supreme.court"
+            ],
+            "name": "Mississippi Decisions",
+            "variations": {}
+        }
+    ],
     "Mo.": [
         {
             "cite_type": "state",
