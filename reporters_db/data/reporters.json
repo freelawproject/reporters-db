@@ -6697,6 +6697,24 @@
             }
         }
     ],
+    "Leg. Op.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Leg. Op.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Legal Opinions",
+            "variations": {
+                "Leg. Ops. (Pa.)": "Leg. Op."
+            }
+        }
+    ],
     "Leg. Rec. Rep.": [
         {
             "cite_type": "state",
