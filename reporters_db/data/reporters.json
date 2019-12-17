@@ -7899,6 +7899,7 @@
             "name": "New York Reports",
             "variations": {
                 "N. Y.": "N.Y.",
+                "N.Y. (N.Y.S.)": "N.Y.",
                 "N.Y. 2d": "N.Y.2d",
                 "N.Y. 3d": "N.Y.3d",
                 "NY 2d": "N.Y.2d",
