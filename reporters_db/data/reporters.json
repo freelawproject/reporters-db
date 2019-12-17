@@ -6164,6 +6164,22 @@
             }
         }
     ],
+    "Lanc. L. Rev.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Lanc. L. Rev.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Lancaster Law Review",
+            "variations": {}
+        }
+    ],
     "Lans.": [
         {
             "cite_type": "state",
