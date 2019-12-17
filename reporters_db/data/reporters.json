@@ -9805,6 +9805,21 @@
             }
         }
     ],
+    "Olcott": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Olcott": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Olcott's Admiralty Reports",
+            "variations": {}
+        }
+    ],
     "Op. Att'y Gen.": [
         {
             "cite_type": "federal",
