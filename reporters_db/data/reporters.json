@@ -9396,8 +9396,10 @@
             "mlz_jurisdiction": [],
             "name": "Public Utilities Reports",
             "variations": {
+                "P.U.R. (n.s.)": "P.U.R. (N.S.)",
                 "P.U.R.(N.S.)": "P.U.R. (N.S.)",
-                "P.U.R.(NS)": "P.U.R. (N.S.)"
+                "P.U.R.(NS)": "P.U.R. (N.S.)",
+                "Pub. Util. Rep. 4th": "P.U.R.4th"
             }
         }
     ],
