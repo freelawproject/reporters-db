@@ -10148,6 +10148,26 @@
             }
         }
     ],
+    "Penn. Law J.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Penn. Law J.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court",
+                "us:c3:pa.ed;district.court"
+            ],
+            "name": "Pennsylvania Law Journal",
+            "variations": {
+                "Penn. L.J.": "Penn. Law J.",
+                "Penn. Law Jour.": "Penn. Law J."
+            }
+        }
+    ],
     "Penne.": [
         {
             "cite_type": "state",
