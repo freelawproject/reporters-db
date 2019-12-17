@@ -10316,6 +10316,31 @@
             "variations": {}
         }
     ],
+    "Park. Cr.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Park. Cr.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;supreme.court"
+            ],
+            "name": "Parker's Criminal Reports (NY)",
+            "variations": {
+                "Park. C.R.": "Park. Cr.",
+                "Park. Cr. Rep.": "Park. Cr.",
+                "Park. Crim. R.": "Park. Cr.",
+                "Park. Crim. Rep.": "Park. Cr.",
+                "Parker's Cr. R.": "Park. Cr.",
+                "Parker's Crim. R.": "Park. Cr.",
+                "Parker's Crim. Rep.": "Park. Cr.",
+                "Parker, Cr. R.": "Park. Cr."
+            }
+        }
+    ],
     "Patton & Heath": [
         {
             "cite_type": "state",
