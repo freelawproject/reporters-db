@@ -2918,6 +2918,25 @@
             }
         }
     ],
+    "Daly": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Daly": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;supreme.court"
+            ],
+            "name": "Daly's New York Common Pleas Reports",
+            "variations": {
+                "Daly (NY)": "Daly",
+                "Daly's R.": "Daly"
+            }
+        }
+    ],
     "Dana": [
         {
             "cite_type": "state",
