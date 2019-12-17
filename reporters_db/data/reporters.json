@@ -8398,6 +8398,24 @@
             }
         }
     ],
+    "O. Supp.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "O. Supp.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;supreme.court"
+            ],
+            "name": "Ohio Supplement",
+            "variations": {
+                "O. Supp": "O. Supp."
+            }
+        }
+    ],
     "O.B.A.J.": [
         {
             "cite_type": "state",
