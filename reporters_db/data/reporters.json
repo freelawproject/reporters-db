@@ -4107,6 +4107,22 @@
             }
         }
     ],
+    "Fla. L. Weekly Fed. Supp.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Fla. L. Weekly Supp.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Florida Law Weekly, Federal Supplement",
+            "variations": {
+                "Fla. L. Weekly Fed. S": "Fla. L. Weekly Fed. Supp"
+            }
+        }
+    ],
     "Fla. L. Weekly Supp.": [
         {
             "cite_type": "state",
