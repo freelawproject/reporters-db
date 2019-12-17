@@ -6715,6 +6715,20 @@
             }
         }
     ],
+    "Legal Gaz.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Legal Gaz.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Legal Gazette",
+            "variations": {}
+        }
+    ],
     "Lehigh": [
         {
             "cite_type": "state",
