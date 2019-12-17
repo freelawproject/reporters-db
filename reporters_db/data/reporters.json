@@ -3030,6 +3030,23 @@
             }
         }
     ],
+    "Dec. Com. Pat.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Dec. Com. Pat.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Decisions of the Commissioner of Patents",
+            "variations": {
+                "Dec. Comm'r Pat.": "Dec. Com. Pat.",
+                "Dec. Commr. Pat.": "Dec. Com. Pat."
+            }
+        }
+    ],
     "Del.": [
         {
             "cite_type": "state",
