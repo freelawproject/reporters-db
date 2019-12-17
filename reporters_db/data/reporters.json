@@ -12654,6 +12654,23 @@
             }
         }
     ],
+    "Wall. Jr.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Wall. Jr.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Wallace, Jr.'s Reports of Cases Determined in the Circuit Court of the United States for the Third Circuit",
+            "variations": {
+                "Wall. Jr. C.C.": "Wall. Jr.",
+                "Wallace, Jr., Rept.": "Wall. Jr."
+            }
+        }
+    ],
     "Wash.": [
         {
             "cite_type": "state",
