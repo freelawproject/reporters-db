@@ -10293,6 +10293,20 @@
             }
         }
     ],
+    "Pet. Adm.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Pet. Adm.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Peters' District  Court Admiralty Reports",
+            "variations": {}
+        }
+    ],
     "Pet. C.C.": [
         {
             "cite_type": "federal",
