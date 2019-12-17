@@ -12601,6 +12601,22 @@
             }
         }
     ],
+    "Week. No.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Week. No.": {
+                    "end": "1899-12-31T00:00:00",
+                    "start": "1874-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Weekly Notes of Cases (Pa.) (1874-99)",
+            "variations": {}
+        }
+    ],
     "Wells' Notebook": [
         {
             "cite_type": "specialty",
