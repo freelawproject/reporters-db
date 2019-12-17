@@ -8707,7 +8707,9 @@
                 "us:oh;supreme.court"
             ],
             "name": "Unreported Ohio Appellate Cases (Anderson)",
-            "variations": {}
+            "variations": {
+                "Anderson's Ohio App. Cas.": "Ohio App. Unrep."
+            }
         }
     ],
     "Ohio B.": [
