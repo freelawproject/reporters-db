@@ -11884,6 +11884,22 @@
             "variations": {}
         }
     ],
+    "Unemployment Ins. Rep.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Unemployment Ins. Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Unemployment Insurance Reports (CCH)",
+            "variations": {
+                "Unempl. Ins. Rep. (CCH)": "Unemployment Ins. Rep."
+            }
+        }
+    ],
     "Utah": [
         {
             "cite_type": "state",
