@@ -12355,6 +12355,7 @@
             ],
             "name": "West Law Citation",
             "variations": {
+                "Wl": "WL",
                 "wl": "WL"
             }
         }
