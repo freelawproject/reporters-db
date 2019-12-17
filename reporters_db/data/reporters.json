@@ -1619,6 +1619,20 @@
             }
         }
     ],
+    "Brock.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Brock.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Brockenbrough's Marshall's Decisions, United States Circuit Court",
+            "variations": {}
+        }
+    ],
     "Buchanan": [
         {
             "cite_type": "state",
