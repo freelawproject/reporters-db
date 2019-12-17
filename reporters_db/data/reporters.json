@@ -573,6 +573,26 @@
             "variations": {}
         }
     ],
+    "Am. Lead. Cas.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Am. Lead. Cas.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American Leading Cases",
+            "variations": {
+                "Am. L. C.": "Am. Lead. Cas.",
+                "Am. L. Cas": "Am. Lead. Cas.",
+                "Am. Leading Cas": "Am. Lead. Cas.",
+                "American Leading Cases": "Am. Lead. Cas.",
+                "American Leading Cases (U.S.)": "Am. Lead. Cas."
+            }
+        }
+    ],
     "Am. Neg. Ca.": [
         {
             "cite_type": "state",
