@@ -13030,6 +13030,25 @@
             "variations": {}
         }
     ],
+    "Van Ness": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Van Ness": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c2:ny.ed;district.court",
+                "us:c2:ny.nd;district.court",
+                "us:c2:ny.sd;district.court",
+                "us:c2:ny.wd;district.court"
+            ],
+            "name": "Van Ness' Prize  Cases, United States (US) District Court, District of New York (NY)",
+            "variations": {}
+        }
+    ],
     "Vet. App.": [
         {
             "cite_type": "specialty",
