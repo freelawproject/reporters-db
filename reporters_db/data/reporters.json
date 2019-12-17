@@ -11550,6 +11550,20 @@
             }
         }
     ],
+    "Story": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Story": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Story's United States Circuit Court Reports",
+            "variations": {}
+        }
+    ],
     "Strob.": [
         {
             "cite_type": "state",
