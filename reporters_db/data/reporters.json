@@ -10709,6 +10709,26 @@
             }
         }
     ],
+    "Pitts. Rpts.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pitts. Rpts.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Pittsburgh Reports",
+            "variations": {
+                "Pitts. R.": "Pitts. Rpts.",
+                "Pitts. Rep.": "Pitts. Rpts.",
+                "Pitts. Rep. (Pa.)": "Pitts. Rpts."
+            }
+        }
+    ],
     "Port.": [
         {
             "cite_type": "state",
