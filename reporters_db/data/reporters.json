@@ -6958,6 +6958,24 @@
             "variations": {}
         }
     ],
+    "McAll.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "McAll.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "McAllister's Circuit Court Reports (U.S.)",
+            "variations": {
+                "McAl.": "McAll.",
+                "McAll. (Cal.)": "McAll.",
+                "McAllister U.S. Circ. Court R.": "McAll."
+            }
+        }
+    ],
     "McCahon": [
         {
             "cite_type": "state",
