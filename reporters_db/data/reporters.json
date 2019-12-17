@@ -9892,6 +9892,22 @@
             }
         }
     ],
+    "Pet. C.C.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Pet. C.C.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Peters' United States Circuit Court Reports",
+            "variations": {
+                "Peters C.C.": "Pet. C.C."
+            }
+        }
+    ],
     "Phil. Eq.": [
         {
             "cite_type": "state",
