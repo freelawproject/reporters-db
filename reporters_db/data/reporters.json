@@ -1909,11 +1909,11 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-                "us:ca;__.__"
-            ],
+            "mlz_jurisdiction": [],
             "name": "California Compensation Cases",
-            "variations": {}
+            "variations": {
+                "Cal. Comp. Cas": "Cal. Comp. Cases"
+            }
         }
     ],
     "Cal. Daily Op. Serv.": [
