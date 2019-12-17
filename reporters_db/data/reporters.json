@@ -6249,6 +6249,21 @@
             }
         }
     ],
+    "Lab. L. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Lab. L. Rep. (CCH)": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Labor Law Reporter (CCH)",
+            "variations": {}
+        }
+    ],
     "Lack. L.N.": [
         {
             "cite_type": "state",
