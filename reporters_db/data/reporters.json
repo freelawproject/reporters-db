@@ -12066,7 +12066,9 @@
                 "us:c;court.appeals.armed.forces"
             ],
             "name": "Official Reports, United States Court of Military Appeals",
-            "variations": {}
+            "variations": {
+                " U.S.C.M.A.": "USCMA"
+            }
         }
     ],
     "UT": [
