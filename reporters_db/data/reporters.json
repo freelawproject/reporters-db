@@ -4810,6 +4810,22 @@
             }
         }
     ],
+    "Gilp.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Gilp.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Gilpin, United States (US) District Court Reports",
+            "variations": {
+                "Gilp": "Gilp."
+            }
+        }
+    ],
     "Grant": [
         {
             "cite_type": "state",
@@ -9829,8 +9845,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Olcott's Admiralty Reports",
             "variations": {}
         }
