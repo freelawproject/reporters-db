@@ -10942,6 +10942,7 @@
             "name": "State Reporter",
             "notes": "Dates and abbreviation from Indigo Book.",
             "variations": {
+                "Mont. St. Rep.": "State Rptr.",
                 "St. Rep.": "State Rptr.",
                 "St.Rep.": "State Rptr."
             }
