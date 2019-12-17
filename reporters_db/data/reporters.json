@@ -1155,8 +1155,7 @@
                     "start": null
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Bankruptcy Court Reporter",
             "variations": {}
         }
@@ -4542,6 +4541,21 @@
             "variations": {
                 "Fla. L. Weekly": "Fla. L. Weekly"
             }
+        }
+    ],
+    "Fla. L. Weekly Fed. B": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fla. L. Weekly Fed. B": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Florida (FL) Law Weekly Federal, Bankruptcy Court",
+            "variations": {}
         }
     ],
     "Fla. L. Weekly Fed. S": [
