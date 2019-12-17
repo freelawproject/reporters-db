@@ -7536,6 +7536,22 @@
             }
         }
     ],
+    "McLean": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "McLean": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "McLean's United States (US) Circuit Court Reports",
+            "variations": {
+                "Mc Lean": "McLean"
+            }
+        }
+    ],
     "McMul.": [
         {
             "cite_type": "state",
