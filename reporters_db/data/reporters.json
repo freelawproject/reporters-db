@@ -4353,6 +4353,24 @@
             "variations": {}
         }
     ],
+    "Gall.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Gall.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Gallison's Reports, United States Circuit Courts",
+            "variations": {
+                "Gall. C.C.R.": "Gall.",
+                "Gallison": "Gall.",
+                "Gallison's Rep.": "Gall."
+            }
+        }
+    ],
     "Gibbons": [
         {
             "cite_type": "state",
