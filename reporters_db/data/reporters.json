@@ -11892,6 +11892,20 @@
             }
         }
     ],
+    "Sumn.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Sumn.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Sumner's United States (US) Circuit Court Reports",
+            "variations": {}
+        }
+    ],
     "Swan": [
         {
             "cite_type": "state",
