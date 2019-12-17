@@ -12872,7 +12872,9 @@
                 "us:pa;supreme.court"
             ],
             "name": "Weekly Notes of Cases (Pa.) (1874-99)",
-            "variations": {}
+            "variations": {
+                "Week. Notes Cas.": "Week. No."
+            }
         }
     ],
     "Wells' Notebook": [
