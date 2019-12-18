@@ -262,6 +262,23 @@
             "variations": {}
         }
     ],
+    "Abb.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Abb.": {
+                    "end": "1871-12-31T00:00:00",
+                    "start": "1863-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Abbott, United States Circuit and District Court Reports",
+            "variations": {
+                "Abb": "Abb."
+            }
+        }
+    ],
     "Abb. Adm.": [
         {
             "cite_type": "specialty",
