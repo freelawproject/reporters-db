@@ -12857,6 +12857,22 @@
             }
         }
     ],
+    "U.S. (Apx.)": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "U.S. (Apx.)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "United States (US) Reports Appendix",
+            "variations": {
+                "U.S. Appx.": "U.S. (Apx.)"
+            }
+        }
+    ],
     "U.S. App. D.C.": [
         {
             "cite_type": "state",
