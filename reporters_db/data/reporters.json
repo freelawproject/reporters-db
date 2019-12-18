@@ -618,8 +618,8 @@
             "cite_type": "federal",
             "editions": {
                 "Am. Law T. Rep. U.S. Cts.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
+                    "end": "1874-12-31T00:00:00",
+                    "start": "1868-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
