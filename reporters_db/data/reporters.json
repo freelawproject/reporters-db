@@ -2347,6 +2347,22 @@
             }
         }
     ],
+    "Cent. Law J.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Cent. Law J.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "North Carolina (NC) Central Law Journal",
+            "variations": {
+                "N.C. Cent. L.J.": "Cent. Law J."
+            }
+        }
+    ],
     "Chand.": [
         {
             "cite_type": "state",
