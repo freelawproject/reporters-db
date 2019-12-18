@@ -3187,6 +3187,20 @@
             }
         }
     ],
+    "Cumb. L. Rev.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Cumb. L. Rev.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Cumberland Law Review",
+            "variations": {}
+        }
+    ],
     "Curt.": [
         {
             "cite_type": "federal",
