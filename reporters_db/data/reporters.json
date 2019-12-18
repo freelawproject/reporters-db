@@ -1,21 +1,4 @@
 {
-    " Am. J. Juris.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                " Am. J. Juris.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [],
-            "name": "American Journal of Jurisprudence",
-            "variations": {
-                "Am. J. Jurispr": " Am. J. Juris.",
-                "Am. J. Jurisprud": " Am. J. Juris."
-            }
-        }
-    ],
     "A.": [
         {
             "cite_type": "state_regional",
@@ -570,6 +553,25 @@
             ],
             "name": "Americans with  Disabilities Decisions",
             "variations": {}
+        }
+    ],
+    "Am. J. Juris.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Am. J. Juris.": {
+                    "end": null,
+                    "start": "1969-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American Journal of Jurisprudence",
+            "notes": "Published by Notre Dame Law School",
+            "variations": {
+                "Am. J. Juris.": "Am. J. Juris.",
+                "Am. J. Jurispr": "Am. J. Juris.",
+                "Am. J. Jurisprud": "Am. J. Juris."
+            }
         }
     ],
     "Am. Law Reg.": [
