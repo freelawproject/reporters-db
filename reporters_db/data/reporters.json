@@ -1690,6 +1690,22 @@
             "variations": {}
         }
     ],
+    "Brown Adm.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Brown Adm.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Brown's Admiralty (U.S.)",
+            "variations": {
+                "Brown Adm": "Brown Adm."
+            }
+        }
+    ],
     "Brunn. Coll. Cas.": [
         {
             "cite_type": "federal",
