@@ -12687,6 +12687,20 @@
             }
         }
     ],
+    "Trade Reg. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Trade Reg. Rep. (CCH)": {
+                    "end": null,
+                    "start": "1914-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "CCH Trade Regulations Reporter",
+            "variations": {}
+        }
+    ],
     "Tread.": [
         {
             "cite_type": "state",
