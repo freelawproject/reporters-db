@@ -3504,8 +3504,7 @@
             ],
             "name": "Demarest's Surrogate (New York)",
             "variations": {
-                "Dem.": "Dem. Surr.",
-                "Dem. Surr.": "Dem. Surr."
+                "Dem.": "Dem. Surr."
             }
         }
     ],
@@ -4614,7 +4613,6 @@
             ],
             "name": "Florida Law Weekly",
             "variations": {
-                "Fla. L. Weekly": "Fla. L. Weekly"
             }
         }
     ],
@@ -5237,7 +5235,6 @@
             "name": "Hawaii Reports",
             "variations": {
                 "H.": "Haw.",
-                "Haw.": "Haw.",
                 "Hawai'i": "Haw.",
                 "Hawaii": "Haw.",
                 "Hawaii Rep.": "Haw."
@@ -8791,7 +8788,6 @@
             ],
             "name": "New York Legal Observer (N.Y.)",
             "variations": {
-                "N.Y. Leg. Obs.": "N.Y. Leg. Obs.",
                 "N.Y. Legal Observer": "N.Y. Leg. Obs."
             }
         }
@@ -10514,8 +10510,7 @@
                 "Patt. & H. (Va.)": "Patton & Heath",
                 "Patt. & Heath R.": "Patton & Heath",
                 "Patton & H.": "Patton & Heath",
-                "Patton & H. (Va.)": "Patton & Heath",
-                "Patton & Heath": "Patton & Heath"
+                "Patton & H. (Va.)": "Patton & Heath"
             }
         }
     ],
