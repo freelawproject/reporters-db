@@ -5320,6 +5320,21 @@
             "variations": {}
         }
     ],
+    "Hastings L.J.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Hastings L.J.": {
+                    "end": null,
+                    "start": "1949-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Hastings Law Journal",
+            "notes": "University of California, Hastings College of the Law Journal",
+            "variations": {}
+        }
+    ],
     "Haw.": [
         {
             "cite_type": "state",
