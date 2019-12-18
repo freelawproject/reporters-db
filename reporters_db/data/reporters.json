@@ -596,6 +596,23 @@
             }
         }
     ],
+    "Am. Law T. Rep. Bankr.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Am. Law T. Rep. Bankr.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "American Law Times, Bankruptcy Reports, United States (US) Courts",
+            "variations": {
+                "A.L.T. Bankr.": "Am. Law T. Rep. Bankr."
+            }
+        }
+    ],
     "Am. Law T. Rep. U.S. Cts.": [
         {
             "cite_type": "federal",
