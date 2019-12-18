@@ -594,6 +594,20 @@
             }
         }
     ],
+    "Am. Law T. Rep. U.S. Cts.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Am. Law T. Rep. U.S. Cts.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American Law Times Reports, United States (US) Courts",
+            "variations": {}
+        }
+    ],
     "Am. Law. Rec.": [
         {
             "cite_type": "federal",
