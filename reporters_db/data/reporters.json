@@ -2866,12 +2866,17 @@
                 "Communications Reg. (P&F)": {
                     "end": null,
                     "start": "1750-01-01T00:00:00"
+                },
+                "Communications Reg. 2d (P&F)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
             "name": "Communications Regulations",
             "variations": {
-                "Comm. Reg. (P & F)": "Communications Reg. (P&F)"
+                "Comm. Reg. (P & F)": "Communications Reg. (P&F)",
+                "Comm. Reg. 2d (P & F)": "Communications Reg. 2d (P&F)"
             }
         }
     ],
