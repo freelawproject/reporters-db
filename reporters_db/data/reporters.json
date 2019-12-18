@@ -1738,7 +1738,8 @@
             "mlz_jurisdiction": [],
             "name": "Brown's Admiralty (U.S.)",
             "variations": {
-                "Brown Adm": "Brown Adm."
+                "Brown Adm": "Brown Adm.",
+                "Brown's Adm": "Brown Adm."
             }
         }
     ],
