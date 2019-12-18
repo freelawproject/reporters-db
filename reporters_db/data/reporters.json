@@ -632,12 +632,13 @@
             "cite_type": "federal",
             "editions": {
                 "Am. Law. Rec.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
+                    "end": "1887-12-31T00:00:00",
+                    "start": "1872-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
             "name": "American Law Record",
+            "publisher": "Bloch & Co",
             "variations": {
                 "Am. Law Rec.": "Am. Law. Rec."
             }
