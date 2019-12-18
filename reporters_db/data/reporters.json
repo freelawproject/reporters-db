@@ -12763,6 +12763,7 @@
                     "start": "1914-01-01T00:00:00"
                 }
             },
+            "examples": ["2016-1 Trade Reg. Rep. (CCH) P79,503"],
             "mlz_jurisdiction": [],
             "name": "CCH Trade Regulations Reporter",
             "variations": {}
