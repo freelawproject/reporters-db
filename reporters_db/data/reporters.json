@@ -3046,6 +3046,20 @@
             }
         }
     ],
+    "Copy. L. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Copy. L. Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Copyright Law Reporter (CCH)",
+            "variations": {}
+        }
+    ],
     "Cow.": [
         {
             "cite_type": "state",
