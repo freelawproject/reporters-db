@@ -6440,6 +6440,22 @@
             "variations": {}
         }
     ],
+    "Juris P.R.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Juris P.R.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pr;supreme.court"
+            ],
+            "name": "Jurisprudencia Del Tribunal Supremo (PR)",
+            "variations": {}
+        }
+    ],
     "Just.": [
         {
             "cite_type": "state",
