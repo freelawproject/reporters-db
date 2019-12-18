@@ -6406,6 +6406,23 @@
             }
         }
     ],
+    "Jour. Fr. Inst.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Jour. Fr. Inst.": {
+                    "end": null,
+                    "start": "1826-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;supreme.court",
+                "us:c2:ny.ed;district.court"
+            ],
+            "name": "Journal of the Franklin Institute",
+            "variations": {}
+        }
+    ],
     "Just.": [
         {
             "cite_type": "state",
