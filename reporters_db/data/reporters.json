@@ -549,8 +549,7 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Americans with  Disabilities Decisions",
             "variations": {}
         }
@@ -4681,8 +4680,7 @@
                 "us:fl;supreme.court"
             ],
             "name": "Florida Law Weekly",
-            "variations": {
-            }
+            "variations": {}
         }
     ],
     "Fla. L. Weekly Fed. B": [
