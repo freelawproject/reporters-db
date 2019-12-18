@@ -5,7 +5,7 @@
             "editions": {
                 " Am. J. Juris.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -104,7 +104,7 @@
             "editions": {
                 "A.F.T.R. (P-H)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -217,11 +217,11 @@
             "editions": {
                 "A.L.R. Fed.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 },
                 "A.L.R. Fed. 2d": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -285,7 +285,7 @@
             "editions": {
                 "Abb. Adm.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -458,7 +458,7 @@
             "editions": {
                 "Alb. Law J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -512,11 +512,11 @@
             "editions": {
                 "Am. B.R.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 },
                 "Am. B.R. (N.S.)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -532,7 +532,7 @@
             "editions": {
                 "Am. Dec.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -549,7 +549,7 @@
             "editions": {
                 "Am. Disabilities Cas. (BNA)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -563,7 +563,7 @@
             "editions": {
                 "Am. Disabilities Dec.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -578,11 +578,11 @@
             "editions": {
                 "Am. Law Reg.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 },
                 "Am. Law Reg. (N.S.)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -600,7 +600,7 @@
             "editions": {
                 "Am. Law T. Rep. U.S. Cts.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -614,7 +614,7 @@
             "editions": {
                 "Am. Law. Rec.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -630,7 +630,7 @@
             "editions": {
                 "Am. Lead. Cas.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -678,7 +678,7 @@
             "editions": {
                 "Am. Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -739,7 +739,7 @@
             "editions": {
                 "Amer. L. Rev.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -862,7 +862,7 @@
             "editions": {
                 "Ark. Adv. Op.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -1087,7 +1087,7 @@
             "editions": {
                 "Backes": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -1148,7 +1148,7 @@
             "editions": {
                 "Ban. & A.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -1164,7 +1164,7 @@
             "editions": {
                 "Bankr. Ct. Dec. (CRR)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -1181,7 +1181,7 @@
             "editions": {
                 "Bankr. Ct. Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -1195,7 +1195,7 @@
             "editions": {
                 "Bankr. L. Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -1209,7 +1209,7 @@
             "editions": {
                 "Bankr. Rep (St. Louis B.A.)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -1260,7 +1260,7 @@
             "editions": {
                 "Baxt.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -1332,7 +1332,7 @@
             "editions": {
                 "Bee": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -1348,7 +1348,7 @@
             "editions": {
                 "Beeler": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -1364,7 +1364,7 @@
             "editions": {
                 "Ben.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -1416,7 +1416,7 @@
             "editions": {
                 "Biss.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -1484,7 +1484,7 @@
             "editions": {
                 "Blatchf.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -1543,7 +1543,7 @@
             "editions": {
                 "Bond": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -1557,7 +1557,7 @@
             "editions": {
                 "Bosw.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -1682,7 +1682,7 @@
             "editions": {
                 "Brock.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -1696,7 +1696,7 @@
             "editions": {
                 "Brown Adm.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -1712,7 +1712,7 @@
             "editions": {
                 "Brunn. Coll. Cas.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -1826,7 +1826,7 @@
             "editions": {
                 "C.B.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -1840,7 +1840,7 @@
             "editions": {
                 "C.C.L.J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -1874,7 +1874,7 @@
             "editions": {
                 "C.I.T.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -2024,7 +2024,7 @@
                 },
                 "Cal. 5th": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -2045,11 +2045,11 @@
             "editions": {
                 "Cal. 4th CJP Supp.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 },
                 "Cal. 5th CJP Supp.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -2082,7 +2082,7 @@
                 },
                 "Cal. App. 5th": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -2122,11 +2122,11 @@
                 },
                 "Cal. App. Supp. 4th": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 },
                 "Cal. App. Supp. 5th": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -2159,7 +2159,7 @@
             "editions": {
                 "Cal. Bankr. Ct. Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -2173,7 +2173,7 @@
             "editions": {
                 "Cal. Comp. Cases": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -2209,7 +2209,7 @@
             "editions": {
                 "Cal. I.A.C.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -2335,7 +2335,7 @@
             "editions": {
                 "Cates.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -2353,7 +2353,7 @@
             "editions": {
                 "Cent. Law J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -2388,7 +2388,7 @@
             "editions": {
                 "Chase": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -2404,7 +2404,7 @@
             "editions": {
                 "Chest.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -2480,7 +2480,7 @@
             "editions": {
                 "Chit. Cr. Law": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -2497,7 +2497,7 @@
             "editions": {
                 "Cin. L. Bull.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -2518,7 +2518,7 @@
             "editions": {
                 "City Hall Rec. (NY)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -2591,7 +2591,7 @@
             "editions": {
                 "Cliff.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -2605,7 +2605,7 @@
             "editions": {
                 "Code Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -2685,11 +2685,11 @@
             "editions": {
                 "Collier Bankr. Cas.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 },
                 "Collier Bankr. Cas. 2d": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -2744,7 +2744,7 @@
             "editions": {
                 "Colo. Bankr. Ct. Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -2760,7 +2760,7 @@
             "editions": {
                 "Colo. J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -2778,7 +2778,7 @@
             "editions": {
                 "Colo. J. C.A.R.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -2813,7 +2813,7 @@
             "editions": {
                 "Comm. Fut. L. Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -2829,7 +2829,7 @@
             "editions": {
                 "Communications Reg. (P&F)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -2957,7 +2957,7 @@
             "editions": {
                 "Connoly": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -2976,7 +2976,7 @@
             "editions": {
                 "Cont. Cas. Fed.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -3030,7 +3030,7 @@
             "editions": {
                 "Crabbe": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -3138,7 +3138,7 @@
             "editions": {
                 "Curt.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -3247,7 +3247,7 @@
             "editions": {
                 "Daily Journal DAR": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -3340,7 +3340,7 @@
             "editions": {
                 "Daly": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -3396,7 +3396,7 @@
             "editions": {
                 "Deady": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -3410,7 +3410,7 @@
             "editions": {
                 "Dec. Com. Pat.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -3477,7 +3477,7 @@
             "editions": {
                 "Del. Co.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -3496,7 +3496,7 @@
             "editions": {
                 "Dem. Surr.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -3652,7 +3652,7 @@
             "editions": {
                 "Dill.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -3746,7 +3746,7 @@
             "editions": {
                 "E.H. Smith": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -3782,7 +3782,7 @@
             "editions": {
                 "ERC (BNA)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -3816,7 +3816,7 @@
             "editions": {
                 "Educ. L. Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -3872,7 +3872,7 @@
             "editions": {
                 "Employee Benefits Cas. (BNA)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -4281,7 +4281,7 @@
             "editions": {
                 "FLW Fed": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -4297,7 +4297,7 @@
             "editions": {
                 "FPSC": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -4541,7 +4541,7 @@
             "editions": {
                 "Fed. Sec. L. Rep. (CCH)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -4557,7 +4557,7 @@
             "editions": {
                 "Fed. Sent'g Rep": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -4573,7 +4573,7 @@
             "editions": {
                 "Fish. Pat. Cas.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -4624,7 +4624,7 @@
             "editions": {
                 "Fla. L. Weekly Fed. B": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -4638,7 +4638,7 @@
             "editions": {
                 "Fla. L. Weekly Fed. S": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -4694,7 +4694,7 @@
             "editions": {
                 "Flip.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -4710,7 +4710,7 @@
             "editions": {
                 "Fulton County D. Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -4776,7 +4776,7 @@
             "editions": {
                 "Ga. Supp.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -4792,7 +4792,7 @@
             "editions": {
                 "Gall.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -4810,7 +4810,7 @@
             "editions": {
                 "Gibbons": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -4904,7 +4904,7 @@
             "editions": {
                 "Gilp.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -5097,7 +5097,7 @@
             "editions": {
                 "Hall.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -5133,7 +5133,7 @@
             "editions": {
                 "Hard.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -5212,7 +5212,7 @@
             "editions": {
                 "Hasb.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -5523,7 +5523,7 @@
             "editions": {
                 "Holmes": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -5592,7 +5592,7 @@
             "editions": {
                 "How. N.P.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -5687,7 +5687,7 @@
             "editions": {
                 "Hun": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -5701,7 +5701,7 @@
             "editions": {
                 "Hun": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -5717,7 +5717,7 @@
             "editions": {
                 "Hunt Mer. Mag.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -5731,7 +5731,7 @@
             "editions": {
                 "I.E.R. Cas. (BNA)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -5962,7 +5962,7 @@
             "editions": {
                 "Ill. C.C.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -6052,7 +6052,7 @@
             "editions": {
                 "Ind. Dec.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -6088,7 +6088,7 @@
             "editions": {
                 "Ins. L.J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -6102,7 +6102,7 @@
             "editions": {
                 "Int'l Env't Rep. (BNA)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -6116,7 +6116,7 @@
             "editions": {
                 "Int. Rev. Rec.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -6314,7 +6314,7 @@
             "editions": {
                 "Jones Law": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -6332,7 +6332,7 @@
             "editions": {
                 "Just.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -6411,7 +6411,7 @@
             "editions": {
                 "Kulp": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -6550,11 +6550,11 @@
             "editions": {
                 "L.R.A.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 },
                 "L.R.A.N.S.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -6749,7 +6749,7 @@
             "editions": {
                 "Lab. L. Rep. (CCH)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -6763,7 +6763,7 @@
             "editions": {
                 "Lack. L.N.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -6784,7 +6784,7 @@
             "editions": {
                 "Lack.Jur.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -6803,7 +6803,7 @@
             "editions": {
                 "Lanc. L. Rev.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -6872,7 +6872,7 @@
             "editions": {
                 "Law Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -6888,7 +6888,7 @@
             "editions": {
                 "Lea.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -6906,7 +6906,7 @@
             "editions": {
                 "Leg. Int.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -6932,7 +6932,7 @@
             "editions": {
                 "Leg. Op.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -6950,7 +6950,7 @@
             "editions": {
                 "Leg. Rec. Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -6968,7 +6968,7 @@
             "editions": {
                 "Legal Gaz.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -6984,7 +6984,7 @@
             "editions": {
                 "Lehigh": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -7081,7 +7081,7 @@
             "editions": {
                 "Low.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -7095,7 +7095,7 @@
             "editions": {
                 "Luz. L.R.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -7133,7 +7133,7 @@
             "editions": {
                 "M.S.P.R.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -7164,7 +7164,7 @@
             "editions": {
                 "MDLR": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -7198,7 +7198,7 @@
             "editions": {
                 "ML": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -7214,7 +7214,7 @@
             "editions": {
                 "MP": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -7344,7 +7344,7 @@
                 },
                 "Mart. (N.S.)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -7405,7 +7405,7 @@
             "editions": {
                 "Mart. O.S. (La.)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -7438,7 +7438,7 @@
             "editions": {
                 "Mason C.C.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -7539,7 +7539,7 @@
             "editions": {
                 "McAll.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -7575,7 +7575,7 @@
             "editions": {
                 "McCanless": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -7628,7 +7628,7 @@
             "editions": {
                 "McCrary's Cir. Ct. Rpts": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -7662,7 +7662,7 @@
             "editions": {
                 "McLean": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -7771,7 +7771,7 @@
             "editions": {
                 "Media L. Rep. (BNA)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -7918,7 +7918,7 @@
             "editions": {
                 "Mills.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8021,7 +8021,7 @@
             "editions": {
                 "Miss. Dec.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8110,7 +8110,7 @@
             "editions": {
                 "Montg.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8137,7 +8137,7 @@
             "editions": {
                 "Morr. Min. Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -8262,7 +8262,7 @@
             "editions": {
                 "N.B.R.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -8437,7 +8437,7 @@
             "editions": {
                 "N.J. Law J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8527,7 +8527,7 @@
             "editions": {
                 "N.J.L.J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8597,7 +8597,7 @@
             "editions": {
                 "N.M. (J.)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8616,7 +8616,7 @@
             "editions": {
                 "N.M. St. B. Bull.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8700,7 +8700,7 @@
             "editions": {
                 "N.Y. Ann. Cas.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8738,11 +8738,11 @@
             "editions": {
                 "N.Y. Civ. Proc. R.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 },
                 "N.Y. Civ. Proc. R., (N.S.)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8762,7 +8762,7 @@
             "editions": {
                 "N.Y. Crim. R.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8783,7 +8783,7 @@
             "editions": {
                 "N.Y. Leg. Obs.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8842,7 +8842,7 @@
             "editions": {
                 "N.Y.L.J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8889,7 +8889,7 @@
             "editions": {
                 "NCA": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8905,7 +8905,7 @@
             "editions": {
                 "NCBC": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8954,7 +8954,7 @@
             "editions": {
                 "NDLR": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -8971,7 +8971,7 @@
             "editions": {
                 "NLRB No.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -9184,7 +9184,7 @@
             "editions": {
                 "Nev. Adv. Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -9202,7 +9202,7 @@
             "editions": {
                 "Newb. Adm.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -9216,7 +9216,7 @@
             "editions": {
                 "Northumb. L.J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -9259,7 +9259,7 @@
             "editions": {
                 "O. Supp.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -9278,7 +9278,7 @@
             "editions": {
                 "O.B.A.J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -9313,7 +9313,7 @@
             "editions": {
                 "O.S.H.D. (CCH)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -9330,7 +9330,7 @@
             "editions": {
                 "O.S.U.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -9450,7 +9450,7 @@
             "editions": {
                 "OSHC (BNA)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -9570,7 +9570,7 @@
             "editions": {
                 "Ohio C.A.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -9695,7 +9695,7 @@
             "editions": {
                 "Ohio F. Dec.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -9718,7 +9718,7 @@
             "editions": {
                 "Ohio Law Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -9873,7 +9873,7 @@
             "editions": {
                 "Oil & Gas Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -9891,7 +9891,7 @@
             "editions": {
                 "Okl Jud.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -9948,7 +9948,7 @@
             "editions": {
                 "Olcott": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -10124,7 +10124,7 @@
             "editions": {
                 "P.C.L.J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -10140,7 +10140,7 @@
             "editions": {
                 "P.O.R.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -10226,19 +10226,19 @@
             "editions": {
                 "P.U.R.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 },
                 "P.U.R. (N.S.)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 },
                 "P.U.R.3d": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 },
                 "P.U.R.4th": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -10344,7 +10344,7 @@
             "editions": {
                 "Pa. Corp.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -10459,7 +10459,7 @@
             "editions": {
                 "Paine": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -10473,7 +10473,7 @@
             "editions": {
                 "Park. Cr.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -10499,7 +10499,7 @@
             "editions": {
                 "Patton & Heath": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -10580,7 +10580,7 @@
             "editions": {
                 "Penn. Law J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -10600,7 +10600,7 @@
             "editions": {
                 "Penne.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -10657,7 +10657,7 @@
             "editions": {
                 "Pens. & Ben. Rep. (BNA)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -10693,7 +10693,7 @@
             "editions": {
                 "Pet. Adm.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -10707,7 +10707,7 @@
             "editions": {
                 "Pet. C.C.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -10768,7 +10768,7 @@
             "editions": {
                 "Phila.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -10803,7 +10803,7 @@
             "editions": {
                 "Pickle": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -10837,7 +10837,7 @@
             "editions": {
                 "Pitts L.J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -10867,7 +10867,7 @@
             "editions": {
                 "Pitts. Rpts.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -10906,7 +10906,7 @@
             "editions": {
                 "Posey": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -10943,11 +10943,11 @@
             "editions": {
                 "Rad. Reg.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 },
                 "Rad. Reg. 2d (P & F)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -11371,7 +11371,7 @@
             "editions": {
                 "S.C. Eq.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -11436,7 +11436,7 @@
             "editions": {
                 "S.E.C. Docket": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -11509,7 +11509,7 @@
             "editions": {
                 "SEC Jud. Dec.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -11566,7 +11566,7 @@
             "editions": {
                 "Sandf.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -11603,7 +11603,7 @@
             "editions": {
                 "Sawy.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -11660,7 +11660,7 @@
             "editions": {
                 "Shan.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -11676,7 +11676,7 @@
             "editions": {
                 "Shan. Cas.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -11692,7 +11692,7 @@
             "editions": {
                 "Sickels": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -11708,7 +11708,7 @@
             "editions": {
                 "Sil. (Sup. Ct.)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -11726,7 +11726,7 @@
             "editions": {
                 "Smith & H.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -11818,7 +11818,7 @@
             "editions": {
                 "Soc. Serv. Rev.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -11836,7 +11836,7 @@
             "editions": {
                 "Som. L.J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -11905,7 +11905,7 @@
             "editions": {
                 "Sprague": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -11974,7 +11974,7 @@
             "editions": {
                 "Stock.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -11994,7 +11994,7 @@
             "editions": {
                 "Storey": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -12012,7 +12012,7 @@
             "editions": {
                 "Story": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -12064,7 +12064,7 @@
             "editions": {
                 "Sumn.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -12218,7 +12218,7 @@
             "editions": {
                 "TSPR": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -12234,7 +12234,7 @@
             "editions": {
                 "Taney": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -12248,7 +12248,7 @@
             "editions": {
                 "Tax Ct. Mem. Dec. (CCH)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -12364,7 +12364,7 @@
             "editions": {
                 "Tenn. Ch. App.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -12400,7 +12400,7 @@
             "editions": {
                 "Terry": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -12529,7 +12529,7 @@
             "editions": {
                 "Tex. Supp.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -12545,7 +12545,7 @@
             "editions": {
                 "Tex.Bankr.Ct.Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -12561,7 +12561,7 @@
             "editions": {
                 "Tiffany": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -12616,7 +12616,7 @@
             "editions": {
                 "Treas. Dec.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -12886,7 +12886,7 @@
             "editions": {
                 "U.S. Law Int.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -12946,7 +12946,7 @@
             "editions": {
                 "USCMA": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -12996,7 +12996,7 @@
             "editions": {
                 "Unemployment Ins. Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -13134,7 +13134,7 @@
             "editions": {
                 "Va. Cir.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -13150,7 +13150,7 @@
             "editions": {
                 "Va. Dec.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -13168,7 +13168,7 @@
             "editions": {
                 "Va. Law J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -13186,7 +13186,7 @@
             "editions": {
                 "Va. Law Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -13202,7 +13202,7 @@
             "editions": {
                 "Van Ness": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -13239,15 +13239,15 @@
             "editions": {
                 "Vroom": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 },
                 "Vroom (G.D.W)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 },
                 "Vroom (P.D.)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -13305,7 +13305,7 @@
             "editions": {
                 "W.L. M.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -13321,7 +13321,7 @@
             "editions": {
                 "W.L.B.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -13345,7 +13345,7 @@
             "editions": {
                 "W.L.J.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -13378,7 +13378,7 @@
             "editions": {
                 "W.W. Harr.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -13530,7 +13530,7 @@
                 },
                 "Wage & Hour Cas.2d (BNA)": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -13626,7 +13626,7 @@
             "editions": {
                 "Wall. Jr.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -13643,7 +13643,7 @@
             "editions": {
                 "Ware": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -13730,7 +13730,7 @@
             "editions": {
                 "Wash. C. C.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -13744,7 +13744,7 @@
             "editions": {
                 "Wash. Co.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -13885,7 +13885,7 @@
             "editions": {
                 "West Coast Rep.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -13901,7 +13901,7 @@
             "editions": {
                 "West. Jur.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -14076,7 +14076,7 @@
             "editions": {
                 "Wkly. Dig.": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -14090,7 +14090,7 @@
             "editions": {
                 "Woods": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
@@ -14183,7 +14183,7 @@
             "editions": {
                 "York": {
                     "end": null,
-                    "start": null
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
