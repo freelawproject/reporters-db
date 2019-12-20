@@ -271,8 +271,7 @@
                     "start": "1863-01-01T00:00:00"
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Abbott, United States Circuit and District Court Reports",
             "variations": {
                 "Abb": "Abb."
@@ -635,8 +634,7 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "American Law Times, Bankruptcy Reports, United States (US) Courts",
             "variations": {
                 "A.L.T. Bankr.": "Am. Law T. Rep. Bankr."
@@ -2573,8 +2571,7 @@
                 "us:c7:il.nd;district.court"
             ],
             "name": "Chicago Legal News (1868-1925) (Illinois)",
-            "variations": {
-            }
+            "variations": {}
         }
     ],
     "Chit. Cr. Law": [
