@@ -958,6 +958,43 @@
             }
         }
     ],
+    "Auto. Cas.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Auto. Cas.": {
+                    "end": null,
+                    "start": "1895-01-01T00:00:00"
+                },
+                "Auto. Cas.2d": {
+                    "end": null,
+                    "start": "1895-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Automobile Cases (CCH)",
+            "variations": {
+                "Auto. Cas. 2d": "Auto. Cas.2d"
+            }
+        }
+    ],
+    "Av. Cas. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Av. Cas. (CCH)": {
+                    "end": null,
+                    "start": "1903-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Aviation Cases (CCH)",
+            "notes": "Aviation didnt start until 1903 in the United States.",
+            "variations": {
+                "Av. Cas.": "Av. Cas. (CCH)"
+            }
+        }
+    ],
     "B. Mon.": [
         {
             "cite_type": "state",
