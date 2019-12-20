@@ -9008,13 +9008,14 @@
             "editions": {
                 "N.L.R.B.": {
                     "end": null,
-                    "start": "1750-01-01T00:00:00"
+                    "start": "1935-07-05T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
             "name": "Decisions and Orders of the National Labor Relations Board",
             "variations": {
-                "NLRB": "N.L.R.B."
+                "NLRB": "N.L.R.B.",
+                "NLRB Dec. (CCH)": "N.L.R.B."
             }
         }
     ],
