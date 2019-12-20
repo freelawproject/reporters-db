@@ -3090,6 +3090,7 @@
             "mlz_jurisdiction": [],
             "name": "Contract Cases, Federal",
             "variations": {
+                "Cont. Cas. Fed. (CCH)": "Cont. Cas. Fed.",
                 "Cont.Cas.Fed. (CCH)": "Cont. Cas. Fed."
             }
         }
