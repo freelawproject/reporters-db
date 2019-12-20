@@ -10463,6 +10463,20 @@
             "variations": {}
         }
     ],
+    "P.H.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "P.H.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Prentice Hall",
+            "variations": {}
+        }
+    ],
     "P.O.R.": [
         {
             "cite_type": "specialty",
