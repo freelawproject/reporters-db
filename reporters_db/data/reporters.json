@@ -11217,6 +11217,22 @@
             "variations": {}
         }
     ],
+    "RICO Bus. Disp. Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "RICO Bus. Disp. Guide (CCH)": {
+                    "end": null,
+                    "start": "1970-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "RICO Business Disputes Guide (Commerce Clearing House)",
+            "variations": {
+                "RICO Bus. Disp. Guide": "RICO Bus. Disp. Guide (CCH)"
+            }
+        }
+    ],
     "Rad. Reg.": [
         {
             "cite_type": "specialty",
