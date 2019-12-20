@@ -4927,6 +4927,22 @@
             }
         }
     ],
+    "Free. Ch.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Free. Ch.": {
+                    "end": "1843-12-31T00:00:00",
+                    "start": "1839-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ms;supreme.court"
+            ],
+            "name": "Freeman's Mississippi Chancery Reports (1839-43)",
+            "variations": {}
+        }
+    ],
     "Fulton County D. Rep.": [
         {
             "cite_type": "state",
