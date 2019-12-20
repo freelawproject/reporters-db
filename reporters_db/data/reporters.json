@@ -4720,6 +4720,23 @@
             }
         }
     ],
+    "Fire & Casualty Cas.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fire & Casualty Cas.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Fire and Casualty Cases",
+            "variations": {
+                "Fire & Casualty Cas. (CCH)": "Fire & Casualty Cas.",
+                "Fire & Casualty Cas.(CCH)": "Fire & Casualty Cas."
+            }
+        }
+    ],
     "Fish. Pat. Cas.": [
         {
             "cite_type": "federal",
