@@ -7060,6 +7060,120 @@
             }
         }
     ],
+    "La.App. 1 Cir.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "La.App. 1 Cir.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:la;supreme.court"
+            ],
+            "name": "Court of Appeal of Louisiana, First Circuit",
+            "regexes": [
+                "(?P<volume>\\d{2,4}) (?P<page>\\d{2,5}) (?P<reporter>\\(La.App. 1 Cir.) (?P<date_filed>\\d{1,2}\\/\\d{1,2}\\/\\d{2,4})\\)"
+            ],
+            "variations": {}
+        }
+    ],
+    "La.App. 2 Cir.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "La.App. 2 Cir.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:la;supreme.court"
+            ],
+            "name": "Court of Appeal of Louisiana, Second Circuit",
+            "regexes": [
+                "(?P<volume>\\d{2,4}) (?P<page>\\d{2,5}) (?P<reporter>\\(La.App. 2 Cir.) (?P<date_filed>\\d{1,2}\\/\\d{1,2}\\/\\d{2,4})\\)"
+            ],
+            "variations": {}
+        }
+    ],
+    "La.App. 3 Cir.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "La.App. 3 Cir.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:la;supreme.court"
+            ],
+            "name": "Court of Appeal of Louisiana, Third Circuit",
+            "regexes": [
+                "(?P<volume>\\d{2,4}) (?P<page>\\d{2,5}) (?P<reporter>\\(La.App. 3 Cir.) (?P<date_filed>\\d{1,2}\\/\\d{1,2}\\/\\d{2,4})\\)"
+            ],
+            "variations": {}
+        }
+    ],
+    "La.App. 4 Cir.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "La.App. 4 Cir.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:la;supreme.court"
+            ],
+            "name": "Court of Appeal of Louisiana, Fourth Circuit",
+            "regexes": [
+                "(?P<volume>\\d{2,4}) (?P<page>\\d{2,5}) (?P<reporter>\\(La.App. 4 Cir.) (?P<date_filed>\\d{1,2}\\/\\d{1,2}\\/\\d{2,4})\\)"
+            ],
+            "variations": {}
+        }
+    ],
+    "La.App. 5 Cir.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "La.App. 5 Cir.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:la;supreme.court"
+            ],
+            "name": "Court of Appeal of Louisiana, Fifth Circuit",
+            "regexes": [
+                "(?P<volume>\\d{2,4}) (?P<page>\\d{2,5}) (?P<reporter>\\(La.App. 5 Cir.) (?P<date_filed>\\d{1,2}\\/\\d{1,2}\\/\\d{2,4})\\)"
+            ],
+            "variations": {}
+        }
+    ],
+    "La.App. 6 Cir.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "La.App. 6 Cir.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:la;supreme.court"
+            ],
+            "name": "Court of Appeal of Louisiana, Sixth Circuit",
+            "regexes": [
+                "(?P<volume>\\d{2,4}) (?P<page>\\d{2,5}) (?P<reporter>\\(La.App. 6 Cir.) (?P<date_filed>\\d{1,2}\\/\\d{1,2}\\/\\d{2,4})\\)"
+            ],
+            "variations": {}
+        }
+    ],
     "Lab. Cas. (CCH)": [
         {
             "cite_type": "specialty",
