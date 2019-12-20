@@ -12731,6 +12731,21 @@
             }
         }
     ],
+    "TNT": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "TNT": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+            ],
+            "name": "Tax Notes Today",
+            "variations": {}
+        }
+    ],
     "TSPR": [
         {
             "cite_type": "state",
