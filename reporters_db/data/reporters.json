@@ -340,6 +340,20 @@
             }
         }
     ],
+    "Accom. Disabilities Dec. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Accom. Disabilities Dec. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "CCH Accommodating Disabilities Decisions",
+            "variations": {}
+        }
+    ],
     "Adv. S.": [
         {
             "cite_type": "state",
