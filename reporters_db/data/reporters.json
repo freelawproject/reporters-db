@@ -7279,6 +7279,26 @@
             }
         }
     ],
+    "Life. Cas. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Life. Cas. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                },
+                "Life. Cas. 2d (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Life (Health & Accident) Cases (CCH)",
+            "variations": {
+                "Life. Cas. 2d(CCH)": "Life. Cas. 2d (CCH)"
+            }
+        }
+    ],
     "Litt.": [
         {
             "cite_type": "state",
