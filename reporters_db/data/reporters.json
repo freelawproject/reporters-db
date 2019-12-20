@@ -9456,6 +9456,24 @@
             }
         }
     ],
+    "Neg. Cas. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Neg. Cas. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                },
+                "Neg. Cas. 2d (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Negligence Cases (CCH)",
+            "variations": {}
+        }
+    ],
     "Nev.": [
         {
             "cite_type": "state",
