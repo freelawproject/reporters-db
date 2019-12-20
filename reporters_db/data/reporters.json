@@ -4479,6 +4479,22 @@
             }
         }
     ],
+    "Fed. Banking L. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fed. Banking L. Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Federal Banking Law Reporter (CCH)",
+            "variations": {
+                "Fed. Banking L. Rep.": "Fed. Banking L. Rep. (CCH)"
+            }
+        }
+    ],
     "Fed. Carr. Cas. (CCH)": [
         {
             "cite_type": "federal",
