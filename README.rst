@@ -132,10 +132,10 @@ Some notes on the ``state_abbreviations`` and
 Notes on Specific Data Point and References
 -------------------------------------------
 
-1. A good way to look up abbreviations is in `Prince's Bieber Dictionary 
-   of Legal Abbreviations <https://books.google.com/books?id=4aJsAwAAQBAJ&dq=%22Ohio+Law+Rep.%22&source=gbs_navlinks_s>`__. You can find a lot of this book on Google Books, 
+1. A good way to look up abbreviations is in `Prince's Bieber Dictionary
+   of Legal Abbreviations <https://books.google.com/books?id=4aJsAwAAQBAJ&dq=%22Ohio+Law+Rep.%22&source=gbs_navlinks_s>`__. You can find a lot of this book on Google Books,
    but we have it as a PDF too. Just ask.
-   
+
 2. Mississippi supports neutral citations, but does so in their own
    format, as specified in `this
    rule <http://www.aallnet.org/main-menu/Advocacy/access/citation/neutralrules/rules-ms.html>`__.
