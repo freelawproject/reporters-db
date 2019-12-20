@@ -6989,6 +6989,20 @@
             }
         }
     ],
+    "Lab. Cas. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Lab. Cas. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Labor Cases",
+            "variations": {}
+        }
+    ],
     "Lab. L. Rep. (CCH)": [
         {
             "cite_type": "specialty",
