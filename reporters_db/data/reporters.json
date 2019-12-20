@@ -4562,6 +4562,9 @@
                     "start": "1936-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1984-1 Fed. Carr. Cas. (CCH) P83,138"
+            ],
             "mlz_jurisdiction": [],
             "name": "Federal Carrier Cases (CCH) (1936-)",
             "variations": {
@@ -7186,6 +7189,9 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "140 Lab. Cas. (CCH) P58,886A"
+            ],
             "mlz_jurisdiction": [],
             "name": "Labor Cases",
             "variations": {}
@@ -8028,6 +8034,9 @@
                     "start": "1858-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "McCahon 206"
+            ],
             "mlz_jurisdiction": [
                 "us:ks;supreme.court"
             ],
@@ -13490,6 +13499,9 @@
                     "start": "1900-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "57-2 U.S. Tax Cas. (CCH) P9816"
+            ],
             "mlz_jurisdiction": [
                 "us:c;tax.court"
             ],
