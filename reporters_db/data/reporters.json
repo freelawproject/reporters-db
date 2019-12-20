@@ -1228,6 +1228,30 @@
             }
         }
     ],
+    "Baldw.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Baldw.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Baldw. 196"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Baldwin's United States Circuit Court Reports",
+            "notes": "Reporter does not appear to have a volume as part of citation",
+            "variations": {
+                "Bald": "Baldw.",
+                "Bald. C.C.": "Baldw.",
+                "Baldw": "Baldw.",
+                "Baldwin's C.C. U.S. Rep": "Baldw.",
+                "Baldwin's Rep.": "Baldw."
+            }
+        }
+    ],
     "Ban. & A.": [
         {
             "cite_type": "specialty",
