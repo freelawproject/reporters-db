@@ -597,6 +597,7 @@
             "name": "American Journal of Jurisprudence",
             "notes": "Published by Notre Dame Law School",
             "variations": {
+                "Am. J. Juris.": "Am. J. Juris.",
                 "Am. J. Jurispr": "Am. J. Juris.",
                 "Am. J. Jurisprud": "Am. J. Juris."
             }
@@ -10279,6 +10280,7 @@
             "name": "Oregon Reports",
             "variations": {
                 "O.": "Or.",
+                "Or.": "Or.",
                 "Ore.": "Or."
             }
         }

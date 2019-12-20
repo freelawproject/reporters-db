@@ -106,7 +106,7 @@ class ConstantsTest(TestCase):
         """
         required_fields = ['cite_type', 'editions', 'mlz_jurisdiction', 'name',
                            'variations']
-        optional_fields = ['publisher', 'notes', 'href', "examples", 'regexes']
+        optional_fields = ['publisher', 'notes', 'href']
         all_fields = required_fields + optional_fields
         for reporter_abbv, reporter_list in REPORTERS.items():
             for reporter_data in reporter_list:
