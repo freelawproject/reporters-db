@@ -217,11 +217,13 @@ Past Versions
 -  1.0.9: Updates the mlz\_jurisdiction field to be state-specific, per
    issue #1.
 
+- 1.0.13: Updates the case name abbreviations
+
 
 Current Version
 ---------------
 
-- 1.0.13: Updates the case name abbreviations
+- 1.0.20: Adds tax courts
 
 Future Versions
 ---------------
