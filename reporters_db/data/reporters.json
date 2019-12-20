@@ -971,6 +971,7 @@
             "mlz_jurisdiction": [],
             "name": "Automobile Cases (CCH)",
             "variations": {
+                "Auto. Cas. (CCH)": "Auto. Cas.",
                 "Auto. Cas. 2d": "Auto. Cas.2d",
                 "Auto. Cas. 2d (CCH)": "Auto. Cas.2d"
             }
