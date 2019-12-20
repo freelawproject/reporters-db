@@ -5572,6 +5572,23 @@
             }
         }
     ],
+    "Hempst.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Hempst.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ar;supreme.court"
+            ],
+            "name": "Hempstead (AR)",
+            "notes": "Territoy of Arkansas reporter without a volume",
+            "variations": {}
+        }
+    ],
     "Hen. & M.": [
         {
             "cite_type": "state",
