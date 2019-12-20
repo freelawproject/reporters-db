@@ -4394,6 +4394,39 @@
             "variations": {}
         }
     ],
+    "FED App.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "FED App.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "2014 FED App. 0840N (6th Cir.)"
+            ],
+            "mlz_jurisdiction": [
+                "us:c6:ky.ed;district.court",
+                "us:c6:ky.wd;district.court",
+                "us:c6:mi.ed;district.court",
+                "us:c6:mi.wd;district.court",
+                "us:c6:oh.d;district.court",
+                "us:c6:oh.nd;district.court",
+                "us:c6:oh.sd;district.court",
+                "us:c6:tn.d;district.court",
+                "us:c6:tn.ed;district.court",
+                "us:c6:tn.md;district.court",
+                "us:c6:tn.wd;district.court"
+            ],
+            "name": "United States (US) Court of Appeals for the Sixth Circuit",
+            "notes": "This is the only circuit known to us that uses this format.",
+            "variations": {},
+            "regexes": [
+                "(?P<volume>\\d{4}) (?P<reporter>(FED App.)) (?P<page>\\d{4}(N|P|n|p) )\\(6th Cir.?\\)"
+            ]
+        }
+    ],
     "FL": [
         {
             "cite_type": "neutral",
