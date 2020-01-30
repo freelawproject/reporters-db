@@ -4449,7 +4449,7 @@
             "name": "United States (US) Court of Appeals for the Sixth Circuit",
             "notes": "This is the only circuit known to us that uses this format.",
             "regexes": [
-                "(?P<volume>\\d{4}) (?P<reporter>(FED App.)) (?P<page>\\d{4}(N|P|n|p) )\\(6th Cir.?\\)"
+                "(?P<volume>\\d{4})\\s+(?P<reporter>FED App\\.)\\s+(?P<page>\\d{4}(N|P|n|p))\\s+\\(6th Cir\\.?\\)"
             ],
             "variations": {}
         }
