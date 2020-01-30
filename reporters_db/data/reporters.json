@@ -7075,10 +7075,14 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2009 1359R (La.App. 1 Cir. 05/10/10);"
+            ],
             "mlz_jurisdiction": [
                 "us:la;supreme.court"
             ],
             "name": "Court of Appeal of Louisiana, First Circuit",
+            "notes": "Occasionally the citation can have a letter at the end of the second string of numbers.",
             "regexes": [
                 "(?P<volume>\\d{2,4})( |-)(?P<page>\\d{2,5}) (?P<reporter>\\(La.App. 1 Cir.) (?P<date_filed>\\d{1,2}\\/\\d{1,2}\\/\\d{2,4})\\)"
             ],
