@@ -106,7 +106,7 @@ class ConstantsTest(TestCase):
         """
         required_fields = ['cite_type', 'editions', 'mlz_jurisdiction', 'name',
                            'variations']
-        optional_fields = ['publisher', 'notes', 'href']
+        optional_fields = ['publisher', 'notes', 'href', 'regexes', 'examples']
         all_fields = required_fields + optional_fields
         for reporter_abbv, reporter_list in REPORTERS.items():
             for reporter_data in reporter_list:
@@ -166,6 +166,7 @@ class ConstantsTest(TestCase):
                             msg="It appears that edition %s ends before it "
                                 "starts." % k
                         )
+
 
 if __name__ == '__main__':
     import unittest
