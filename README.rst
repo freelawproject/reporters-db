@@ -17,14 +17,17 @@ Authorities (Robards)."
 
 In this repository we've taken a look at all these reporters and tried
 to sort out what we know about them and convert that to data. This data
-is available as a JSON file, and can be browsed in an unofficial CSV.
+is available as a JSON file, as Python variables, and can be browsed in an
+unofficial CSV (it's usually out of date).
 
 Naturally, converting several centuries' history into clean data results
 in a mess, but we've done our best and this mess is in use in a number
-of projects as listed below.
+of projects as listed below. As of version 2.0, this data contains information
+about 733 reporters, including 1,466 name variations, and 830 editions.
 
 We hope you'll find this useful to your endeavors and that you'll share
 your work with the community if you improve or use this work.
+
 
 CSV
 ===
@@ -38,6 +41,7 @@ You can make a CSV of this data by running:
 We keep a copy of this CSV in this repository (``reporters.csv``), but
 it is not kept up to date. It should, however, provide a good idea of
 what's here.
+
 
 Known Implementations
 =====================
@@ -57,6 +61,9 @@ Known Implementations
    iteration of this code to find citations using the V8 JavaScript
    engine.
 
+Additional usages can be `found via Github <https://github.com/freelawproject/reporters-db/network/dependents?package_id=UGFja2FnZS01MjU0MTgzNg%3D%3D>`__.
+
+
 Some Notes on the Data
 ======================
 
@@ -66,20 +73,25 @@ Database:
 1. Each Reporter key maps to a list of reporters that that key can
    represent. In some cases (especially in early reporters), the key is
    ambiguous, referring to more than one possible reporter.
+
 2. Formats follow the Blue Book standard, with variations listed for
    local rules and other ways lawyers abbreviate it over the years or
    accidentally.
+
 3. The ``variations`` key consists of data from local rules, found
    through organic usage in our corpus and from the `Cardiff Index to
    Legal Abbreviations <http://www.legalabbrevs.cardiff.ac.uk/>`__. We
    have used a dict for these values due to the fact that there can be
    variations for each series.
+
 4. ``mlz_jurisdiction`` corresponds to the work that is being done for
    Multi-Lingual Zotero. This field is maintained by Frank Bennett and
    may sometimes be missing values.
+
 5. Some reporters have ``href`` or ``notes`` fields to provide a link to
    the best available reference (often Wikipedia) or to provide notes
    about the reporter itself.
+
 6. Regarding dates of the editions, there are a few things to know. In
    reporters with multiple series, if multiple volumes have the same
    dates, this indicates that the point where one series ends and the
@@ -109,6 +121,8 @@ A complete data point has fields like so:
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [],
+            "regexes": [],
             "mlz_jurisdiction": [],
             "name": "",
             "variations": {},
@@ -118,7 +132,8 @@ A complete data point has fields like so:
         }
     ],
 
-Some notes on the ``state_abbreviations`` and
+Most of those fields should make sense either from their name or by looking at
+a few examples in the data, however, a notes on the ``state_abbreviations`` and
 ``case_name_abbreviations`` files:
 
 1. Abbreviations are based on data from the values in the nineteenth
@@ -149,6 +164,7 @@ Notes on Specific Data Point and References
 4. Both Puerto Rico and "Pennsylvania State Reports, Penrose and Watts"
    use the citation "P.R."
 
+
 Installation (Python)
 =====================
 
@@ -176,6 +192,7 @@ Of course, if you're not using Python, the data is in the ``json``
 format, so you should be able to import it using your language of
 choice.
 
+
 Tests
 =====
 
@@ -191,6 +208,7 @@ with:
     python tests.py
 
 It's pretty simple, right?
+
 
 Version History
 ===============
@@ -219,23 +237,25 @@ Past Versions
 
 - 1.0.13: Updates the case name abbreviations
 
+- 1.0.20: Adds tax courts
 
 Current Version
 ---------------
 
-- 1.0.20: Adds tax courts
+- 2.0.0: Adds 273 additional reporters, 443 new variations, and 301 new editions
 
 Future Versions
 ---------------
 
--  1.1: All dates are dialed in to the nearest year for every edition of
+-  2.1: All dates are dialed in to the nearest year for every edition of
    every reporter (some still require research beyond what Blue Book
    provides). See `issue
    #7 <https://github.com/freelawproject/reporters-db/issues/7>`__
--  1.2: All dates are dialed into the correct day for every edition of
+-  2.2: All dates are dialed into the correct day for every edition of
    every reporter.
--  1.x: International Reporters added?
--  2.0: Other features (suggestions welcome)?
+-  2.x: International Reporters added?
+-  x.x: Other features (suggestions welcome)?
+
 
 License
 =======
