@@ -37,7 +37,8 @@
                 "At.": "A.",
                 "Atl.": "A.",
                 "Atl.2d": "A.2d",
-                "Atl.R.": "A."
+                "Atl.R.": "A.",
+                "Atl. Rep.": "A."
             }
         }
     ],
@@ -406,7 +407,9 @@
                 "us:al;supreme.court"
             ],
             "name": "Alabama Reports",
-            "variations": {}
+            "variations": {
+                "Ala. Rep.": "Ala."
+            }
         }
     ],
     "Ala. App.": [
@@ -1281,7 +1284,8 @@
             "name": "Bankruptcy Court Decisions",
             "variations": {
                 "Bankr. Ct. Dec.": "Bankr. Ct. Dec. (CRR)",
-                "Bankr.Ct.Dec.": "Bankr. Ct. Dec. (CRR)"
+                "Bankr.Ct.Dec.": "Bankr. Ct. Dec. (CRR)",
+                "B.C.D.": "Bankr. Ct. Dec. (CRR)"
             }
         }
     ],
@@ -1943,6 +1947,23 @@
             "mlz_jurisdiction": [],
             "name": "Cumulative Bulletin",
             "variations": {}
+        }
+    ],
+    "C.C.A.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "C.C.A.": {
+                    "end": "1920-12-31T00:00:00",
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://www.worldcat.org/title/united-states-circuit-courts-of-appeals-reports/oclc/173986701",
+            "mlz_jurisdiction": [],
+            "name": "United States Circuit Courts of Appeals Reports",
+            "variations": {
+                "C. C. A.": "C.C.A."
+            }
         }
     ],
     "C.C.L.J.": [
@@ -3236,7 +3257,8 @@
             "name": "Court of Claims Reports",
             "variations": {
                 "Court Cl.": "Ct. Cl.",
-                "Ct.Cl.": "Ct. Cl."
+                "Ct.Cl.": "Ct. Cl.",
+                "C. Cls.": "Ct. Cl."
             }
         }
     ],
@@ -3255,7 +3277,8 @@
             "name": "Court of Customs Appeals Reports",
             "variations": {
                 "Cust. Ct.": "Ct. Cust.",
-                "Cust.Ct.": "Ct. Cust."
+                "Cust.Ct.": "Ct. Cust.",
+                "Ct. Cust. Appls.": "Ct. Cust."
             }
         }
     ],
@@ -4098,6 +4121,7 @@
                 "F. 3d": "F.3d",
                 "F.2d.": "F.2d",
                 "F.3d.": "F.3d",
+                "Fed.": "F.",
                 "Fed.R.": "F.",
                 "Fed.R.2d": "F.2d",
                 "Fed.R.3d": "F.3d",
@@ -6427,7 +6451,9 @@
                 "us:ia;supreme.court"
             ],
             "name": "Iowa Reports",
-            "variations": {}
+            "variations": {
+                "Ia.": "Iowa"
+            }
         }
     ],
     "Ired.": [
@@ -6679,7 +6705,8 @@
             ],
             "name": "Kansas Reports",
             "variations": {
-                "Kans.": "Kan."
+                "Kans.": "Kan.",
+                "Kas.": "Kan."
             }
         }
     ],
@@ -7939,7 +7966,9 @@
             "name": "Massachusetts Reports",
             "variations": {
                 "Ma.": "Mass.",
-                "Mas.": "Mass."
+                "Mas.": "Mass.",
+                "Mass. Rep.": "Mass.",
+                "Mass. R.": "Mass."
             }
         }
     ],
@@ -8474,7 +8503,8 @@
                 "Misc 2d": "Misc. 2d",
                 "Misc 3d": "Misc. 3d",
                 "Misc.2d": "Misc. 2d",
-                "Misc.3d": "Misc. 3d"
+                "Misc.3d": "Misc. 3d",
+                "Misc. Rep.": "Misc."
             }
         }
     ],
@@ -8856,7 +8886,8 @@
             ],
             "name": "New Hampshire Reports",
             "variations": {
-                "N.H.R.": "N.H."
+                "N.H.R.": "N.H.",
+                "N. H. Rep.": "N.H."
             }
         }
     ],
@@ -9141,7 +9172,8 @@
                 "NW": "N.W.",
                 "NW 2d": "N.W.2d",
                 "No.West Rep.": "N.W.",
-                "Northw.Rep.": "N.W."
+                "Northw.Rep.": "N.W.",
+                "N. W. Rep.": "N.W."
             }
         }
     ],
@@ -9360,7 +9392,8 @@
                 "NYS": "N.Y.S.",
                 "NYS 2d": "N.Y.S.2d",
                 "NYS 3d": "N.Y.S.3d",
-                "New York Supp.": "N.Y.S."
+                "New York Supp.": "N.Y.S.",
+                "N. Y. Supp.": "N.Y.S."
             }
         }
     ],
@@ -10415,7 +10448,8 @@
             ],
             "name": "Oklahoma Reports",
             "variations": {
-                "OKla.": "Okla."
+                "OKla.": "Okla.",
+                "Okl.": "Okla."
             }
         }
     ],
@@ -11957,7 +11991,8 @@
                 "S. E.2d": "S.E.2d",
                 "S.E. 2d": "S.E.2d",
                 "SE": "S.E.",
-                "SE 2d": "S.E.2d"
+                "SE 2d": "S.E.2d",
+                "S. E. Rep.": "S.E."
             }
         }
     ],
@@ -12014,7 +12049,8 @@
                 "SW2D": "S.W.2d",
                 "SW2d": "S.W.2d",
                 "SW3D": "S.W.3d",
-                "SW3d": "S.W.3d"
+                "SW3d": "S.W.3d",
+                "S. W. Rep.": "S.W."
             }
         }
     ],
@@ -12340,7 +12376,9 @@
                 "So.3d": "So. 3d",
                 "South.": "So.",
                 "South.2d": "So. 2d",
-                "South.3d": "So. 3d"
+                "South.3d": "So. 3d",
+                "South. Rep.": "So.",
+                "Sou. Rep.": "So."
             }
         }
     ],
@@ -12979,7 +13017,8 @@
             ],
             "name": "Texas Reports",
             "variations": {
-                "Tex.S.Ct.": "Tex."
+                "Tex.S.Ct.": "Tex.",
+                "Texas": "Tex."
             }
         }
     ],
@@ -13018,7 +13057,9 @@
                 "Tex.Cr.App.": "Tex. Crim.",
                 "Tex.Cr.R.": "Tex. Crim.",
                 "Tex.Crim.": "Tex. Crim.",
-                "Tex.Crim.Rep.": "Tex. Crim."
+                "Tex.Crim.Rep.": "Tex. Crim.",
+                "Texas Cr. Rep.": "Tex. Crim.",
+                "Texas Crim. Rep.": "Tex. Crim."
             }
         }
     ],
