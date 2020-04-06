@@ -29,6 +29,21 @@ We hope you'll find this useful to your endeavors and that you'll share
 your work with the community if you improve or use this work.
 
 
+Data Sourcing
+=============
+
+This project has been enhanced several times with data from several sources:
+
+1. The original data came from parsing the citation fields for millions of cases in CourtListener.
+
+2. A second huge push came from parsing metadata obtained from two major legal publishers, and by parsing the citation fields of Havard's Case.law database.
+
+3. An audit was performed and additional fields were added by using regular expressions to find number-word-number strings in the entire Harvard Case.law database. The results of this were sorted by frequency, with the top omissions fixed.
+
+Along the way, small and subdry improvements have been made as gaps were identified and fixed.
+
+The result is that this database should thus be very complete when it comes to reporter abbreviations and variations. It has the data from CourtListener, two major legal publishers, and Harvard's Case.law. Hundreds of hours have gone into this database to make it complete.
+
 CSV
 ===
 
