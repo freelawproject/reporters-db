@@ -2,15 +2,15 @@ import codecs
 import os
 from setuptools import setup, find_packages
 
-try:  # for pip >= 10
-    from pip._internal.req import parse_requirements
-except ImportError:  # for pip <= 9.0.3
-    from pip.req import parse_requirements
 
-VERSION = '2.0.0'
-AUTHOR = 'Mike Lissner'
-EMAIL = 'mike@free.law'
+VERSION = "2.0.1"
+AUTHOR = "Mike Lissner"
+EMAIL = "mike@free.law"
 HERE = os.path.abspath(os.path.dirname(__file__))
+
+reqs_path = HERE + "/requirements.txt"
+with open(reqs_path) as reqs_file:
+    reqs = reqs_file.read().splitlines()
 
 
 def read(*parts):
@@ -32,15 +32,11 @@ setup(
     author_email=EMAIL,
     maintainer=AUTHOR,
     maintainer_email=EMAIL,
-    keywords=['legal', 'reporters'],
+    keywords=["legal", "reporters"],
     long_description=read("README.rst"),
-    packages=find_packages(exclude=('tests',)),
+    packages=find_packages(exclude=("tests",)),
     include_package_data=True,
-    package_data={
-        'reporters_db': [
-            'data/*',
-        ]
-    },
+    package_data={"reporters_db": ["data/*",]},
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
@@ -56,9 +52,6 @@ setup(
         "Programming Language :: Python :: Implementation :: PyPy",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    install_requires=[
-        str(r.req) for r in
-        parse_requirements('requirements.txt', session=False)
-    ],
+    install_requires=reqs,
     test_suite="tests",
 )
