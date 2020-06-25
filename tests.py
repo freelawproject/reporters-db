@@ -16,6 +16,28 @@ VALID_CITE_TYPES = (
 )
 
 
+def emit_strings(obj):
+    """Recursively get all the strings out of a JSON object.
+
+    Convert ints to strs
+    """
+    if isinstance(obj, dict):
+        # Feed the keys and items back into the function.
+        for k, v in obj.items():
+            for x in emit_strings(k):
+                yield x
+            for x in emit_strings(v):
+                yield x
+    elif isinstance(obj, list):
+        for item in obj:
+            for x in emit_strings(item):
+                yield x
+    elif isinstance(obj, int):
+        yield str(int)
+    elif isinstance(obj, six.text_type):
+        yield obj
+
+
 class ConstantsTest(TestCase):
     def test_any_keys_missing_editions(self):
         """Have we added any new reporters that lack a matching edition?"""
@@ -151,6 +173,34 @@ class ConstantsTest(TestCase):
                     "The variation '%s' is identical to the key it's supposed "
                     "to be a variation of." % variation
                 )
+
+    def test_fields_tidy(self):
+        """Do fields have any messiness?
+
+        For example:
+         - some punctuation is not allowed in some keys
+         - spaces at beginning/end not allowed
+        """
+
+        def cleaner(s):
+            return re.sub(r"[^ 0-9a-zA-Z.,\-'&()]", "", s.strip())
+
+        msg = "Got bad punctuation in: %s"
+        for reporter_abbv, reporter_list in REPORTERS.items():
+            self.assertEqual(
+                reporter_abbv, cleaner(reporter_abbv), msg=msg % reporter_abbv
+            )
+            for reporter_data in reporter_list:
+                for k in reporter_data["editions"].keys():
+                    self.assertEqual(cleaner(k), k, msg=msg % k)
+                for k, v in reporter_data["variations"].items():
+                    self.assertEqual(cleaner(k), k, msg=msg % k)
+                    self.assertEqual(cleaner(v), v, msg=msg % v)
+
+        for s in emit_strings(REPORTERS):
+            self.assertEqual(
+                s.strip(), s, msg="Fields needs whitespace stripped: '%s'" % s
+            )
 
     def test_nothing_ends_before_it_starts(self):
         """Do any editions have end dates before their start dates?"""
