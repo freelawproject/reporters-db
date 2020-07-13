@@ -272,6 +272,13 @@ Future Versions
 -  x.x: Other features (suggestions welcome)?
 
 
+Releases
+--------
+
+Update setup.py, do a Github tag with the version number, and push to master.
+Travis will push a release to PyPi if CI tests pass.
+
+
 License
 =======
 
