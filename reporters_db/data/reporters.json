@@ -12788,6 +12788,38 @@
             }
         }
     ],
+    "TN WC": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "TN WC": {
+                    "end": null,
+                    "start": "2014-07-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:TN;supreme.court"
+            ],
+            "name": "Tennessee Court of Workers' Compensation Claims",
+            "variations": {}
+        }
+    ],
+    "TN WC App.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "TN WC App.": {
+                    "end": null,
+                    "start": "2014-07-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:TN;supreme.court"
+            ],
+            "name": "Tennessee Workers' Compensation Appeals Board",
+            "variations": {}
+        }
+    ],
     "TNT": [
         {
             "cite_type": "specialty",
