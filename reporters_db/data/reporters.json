@@ -12790,7 +12790,7 @@
     ],
     "TN WC": [
         {
-            "cite_type": "specialty",
+            "cite_type": "neutral",
             "editions": {
                 "TN WC": {
                     "end": null,
@@ -12798,7 +12798,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:TN;supreme.court"
+                "us:tn;supreme.court"
             ],
             "name": "Tennessee Court of Workers' Compensation Claims",
             "variations": {}
@@ -12806,7 +12806,7 @@
     ],
     "TN WC App.": [
         {
-            "cite_type": "specialty",
+            "cite_type": "neutral",
             "editions": {
                 "TN WC App.": {
                     "end": null,
@@ -12814,7 +12814,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:TN;supreme.court"
+                "us:tn;supreme.court"
             ],
             "name": "Tennessee Workers' Compensation Appeals Board",
             "variations": {}
