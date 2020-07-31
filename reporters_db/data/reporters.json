@@ -1170,6 +1170,25 @@
             "variations": {}
         }
     ],
+    "BTA LEXIS": [
+        {
+            "cite_type": "specialty_lexis",
+            "editions": {
+                "BTA LEXIS": {
+                    "end": "1942-12-31T00:00:00",
+                    "start": "1928-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1928 BTA LEXIS 3389"
+            ],
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
+            "name": "Board of Tax Appeals Lexis",
+            "variations": {}
+        }
+    ],
     "Backes": [
         {
             "cite_type": "state",
@@ -3130,8 +3149,14 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "29 Cont. Cas. Fed. (CCH) P81,854"
+            ],
             "mlz_jurisdiction": [],
             "name": "Contract Cases, Federal",
+            "regexes": [
+                "(?P<volume>\\d{1,4}(-\\d{1,})?) (?P<reporter>Cont. Cas. Fed. \\(CCH\\)) (?P<page>P((\\d){1,3})+([,]?[\\d]{3}))"
+            ],
             "variations": {
                 "Cont. Cas. Fed. (CCH)": "Cont. Cas. Fed.",
                 "Cont.Cas.Fed. (CCH)": "Cont. Cas. Fed."
@@ -12883,6 +12908,41 @@
             }
         }
     ],
+    "Tax Ct. Memo LEXIS": [
+        {
+            "cite_type": "specialty_lexis",
+            "editions": {
+                "Tax Ct. Memo LEXIS": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "examples": [
+                "1994 Tax Ct. Memo LEXIS 397"
+            ],
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
+            "name": "Lexis Tax Court Memorandum Decisions",
+            "variations": {}
+        }
+    ],
+    "Tax Ct. Summary LEXIS": [
+        {
+            "cite_type": "specialty_lexis",
+            "editions": {
+                "Tax Ct. Summary LEXIS": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
+            "name": "Lexis Tax Court Summary Decisions",
+            "variations": {}
+        }
+    ],
     "Tay.": [
         {
             "cite_type": "state",
@@ -13589,6 +13649,26 @@
             "regexes": [
                 "(?P<volume>\\d{1,4}(-\\d{1,})?) (?P<reporter>U.S. Tax Cas. \\(CCH\\)) (?P<page>P((\\d){1,3})+([,]?[\\d]{3}))"
             ],
+            "variations": {}
+        }
+    ],
+    "U.S. Tax Ct. LEXIS": [
+        {
+            "cite_type": "specialty_lexis",
+            "editions": {
+                "U.S. Tax Ct. LEXIS": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "examples": [
+                "2002 U.S. Tax Ct. LEXIS 28"
+            ],
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
+            "name": "United States (US) Tax Cases Lexis",
+            "regexes": [],
             "variations": {}
         }
     ],
