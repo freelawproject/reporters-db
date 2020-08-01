@@ -13001,9 +13001,10 @@
             "name": "RIA Federal Tax Handbook",
             "notes": "",
             "regexes": [
-                "(?P<volume>)(?P<reporter>T\\.C\\.M\\. \\(RIA\\)) (?P<page>[0-9]{1,})"
+                "(?P<volume>)(?P<reporter>T\\.C\\.M?\\.? \\(RIA\\)) (?P<page>[0-9]{1,})"
             ],
             "variations": {
+                "RIA TM": "T.C.M. (RIA)"
             }
         }
     ],
