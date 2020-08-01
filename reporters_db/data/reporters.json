@@ -12986,6 +12986,27 @@
             }
         }
     ],
+    "T.C.M. (RIA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "T.C.M. (RIA)": {
+                    "end": "",
+                    "start": ""
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
+            "name": "RIA Federal Tax Handbook",
+            "notes": "",
+            "regexes": [
+                "(?P<volume>)(?P<reporter>T\\.C\\.M\\. \\(RIA\\)) (?P<page>[0-9]{1,})"
+            ],
+            "variations": {
+            }
+        }
+    ],
     "Teiss.": [
         {
             "cite_type": "state",
