@@ -119,12 +119,18 @@ Database:
    last opinions in a reporter series have the same dates as the
    database.
 
+7. Some reporters have atypical formatting ``cite_format`` uses
+   standard python formatting to indicate when a citation follows a
+   unique style. This appears most common in tax law.
+
+
 A complete data point has fields like so:
 
 ::
 
     "$citation": [
         {
+            "cite_format": "",
             "cite_type": "state|federal|neutral|specialty|specialty_west|specialty_lexis|state_regional|scotus_early",
             "editions": {
                 "$citation": {
@@ -198,7 +204,7 @@ Once installed you can use it in your code with something like:
 
 You can see all of the variables that can be imported by looking in
 ``__init__.py``. Other variables currently include:
-``STATE_ABBREVIATIONS``, ``CASE_NAME_ABBREVIATIONS``,
+``STATE_ABBREVIATIONS``, ``CASE_NAME_ABBREVIATIONS``, ``SPECIAL_FORMATS``,
 ``VARIATIONS_ONLY``, and ``EDITIONS``. These latter two are convenience
 variables that you can use to get different views of the ``REPORTERS``
 data.
