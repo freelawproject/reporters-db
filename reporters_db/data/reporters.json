@@ -1324,6 +1324,7 @@
     ],
     "Bankr. L. Rep.": [
         {
+            "cite_format": "{reporter} {page}",
             "cite_type": "specialty",
             "editions": {
                 "Bankr. L. Rep.": {
@@ -1334,7 +1335,7 @@
             "mlz_jurisdiction": [],
             "name": "Bankruptcy Law Reporter",
             "regexes": [
-                "(?P<volume>)(?P<reporter>Bankr\\. L\\. Rep\\. \\(CCH\\)) (?P<page>P((\\d){1,3})+([,]?[\\d]{3}))"
+                "(?P<reporter>Bankr\\. L\\. Rep\\. \\(CCH\\)) (?P<page>P((\\d){1,3})+([,]?[\\d]{3}))"
             ],
             "variations": {
                 "Bankr. L. Rep. (CCH)": "Bankr. L. Rep."
@@ -4808,6 +4809,7 @@
     ],
     "Fed. Sec. L. Rep. (CCH)": [
         {
+            "cite_format": "{reporter} {page}",
             "cite_type": "specialty",
             "editions": {
                 "Fed. Sec. L. Rep. (CCH)": {
@@ -4818,7 +4820,7 @@
             "mlz_jurisdiction": [],
             "name": "Federal Securities Law Reporter (CCH)",
             "regexes": [
-                "(?P<volume>)(?P<reporter>Fed\\. Sec\\. L\\. Rep\\. \\(CCH\\)) (?P<page>P((\\d){1,3})+([,]?[\\d]{3})([A-Z])?)"
+                "(?P<reporter>Fed\\. Sec\\. L\\. Rep\\. \\(CCH\\)) (?P<page>P((\\d){1,3})+([,]?[\\d]{3})([A-Z])?)"
             ],
             "variations": {
                 "Fed. Sec. L. Rep.": "Fed. Sec. L. Rep. (CCH)"
@@ -12742,6 +12744,7 @@
     ],
     "T.C. Memo.": [
         {
+            "cite_format": "{reporter} {volume}-{page}",
             "cite_type": "neutral",
             "editions": {
                 "T.C. Memo.": {
@@ -12787,6 +12790,7 @@
     ],
     "T.C. Summary Opinion": [
         {
+            "cite_format": "{reporter} {volume}-{page}",
             "cite_type": "neutral",
             "editions": {
                 "T.C. Summary Opinion": {
@@ -13002,6 +13006,7 @@
     ],
     "T.C.M. (RIA)": [
         {
+            "cite_format": "{reporter} {page}",
             "cite_type": "specialty",
             "editions": {
                 "T.C.M. (RIA)": {
@@ -13015,7 +13020,7 @@
             "name": "RIA Federal Tax Handbook",
             "notes": "",
             "regexes": [
-                "(?P<volume>)(?P<reporter>(T\\.C\\.M?\\.? \\(RIA\\))|RIA TM) (?P<page>[0-9]{1,})"
+                "(?P<reporter>(T\\.C\\.M?\\.? \\(RIA\\))|RIA TM) (?P<page>[0-9]{1,})"
             ],
             "variations": {
                 "RIA TM": "T.C.M. (RIA)"
@@ -13809,6 +13814,7 @@
     ],
     "Unemployment Ins. Rep.": [
         {
+            "cite_format": "{reporter} {page}",
             "cite_type": "specialty",
             "editions": {
                 "Unemployment Ins. Rep.": {
@@ -13819,7 +13825,7 @@
             "mlz_jurisdiction": [],
             "name": "Unemployment Insurance Reports (CCH)",
             "regexes": [
-                "(?P<volume>)(?P<reporter>Unemployment Ins\\. Rep\\. \\(CCH\\)) (?P<page>P((\\d){1,3})+([,]?[\\d]{3})([A-Z])?)"
+                "(?P<reporter>Unemployment Ins\\. Rep\\. \\(CCH\\)) (?P<page>P((\\d){1,3})+([,]?[\\d]{3})([A-Z])?)"
             ],
             "variations": {
                 "Unempl. Ins. Rep. (CCH)": "Unemployment Ins. Rep.",
