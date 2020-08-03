@@ -1,5 +1,3 @@
-import datetime
-import json
 
 from collections import OrderedDict
 
@@ -62,6 +60,32 @@ def suck_out_editions(reporters):
     return editions_out
 
 
+def suck_out_formats(reporters):
+    """Builds a dictionary mapping edition keys to their cite_format if any.
+
+    The dictionary takes the form of:
+        {
+            'T.C. Summary Opinion': '{reporter} {volume}-{page}',
+            'T.C. Memo.': '{reporter} {volume}-{page}'
+            ...
+        }
+
+    In other words, this lets you go from an edition match to its parent key.
+    """
+    formats_out = {}
+    for reporter_key, data_list in reporters.items():
+        # For each reporter key...
+        for data in data_list:
+            # Map the cite_format if it exists
+            for edition_key, edition_value in data["editions"].items():
+                try:
+                    formats_out[edition_key] = data["cite_format"]
+                except KeyError:
+                    # The item wasn't there; add it.
+                    pass
+    return formats_out
+
+
 def names_to_abbreviations(reporters):
     """Build a dict mapping names to their variations
 
@@ -76,20 +100,12 @@ def names_to_abbreviations(reporters):
     names = {}
     for reporter_key, data_list in reporters.items():
         for data in data_list:
-            abbrevs = data['editions'].keys()
+            abbrevs = data["editions"].keys()
             # Sort abbreviations by start date of the edition
-            sort_func = lambda x: str(data['editions'][x]['start']) + x
+            sort_func = lambda x: str(data["editions"][x]["start"]) + x
             abbrevs = sorted(abbrevs, key=sort_func)
-            names[data['name']] = abbrevs
+            names[data["name"]] = abbrevs
     sorted_names = OrderedDict(sorted(names.items(), key=lambda t: t[0]))
     return sorted_names
 
 
-def print_json_with_dates(obj):
-    date_handler = lambda obj: (
-        obj.isoformat()
-        if isinstance(obj, datetime.datetime)
-        or isinstance(obj, datetime.date)
-        else None)
-
-    print(json.dumps(obj, default=date_handler, sort_keys=True))

@@ -3,7 +3,7 @@ import json
 import os
 import six
 from .utils import suck_out_editions, names_to_abbreviations, \
-    suck_out_variations_only
+    suck_out_variations_only, suck_out_formats
 
 
 # noinspection PyBroadException
@@ -33,3 +33,4 @@ with open(os.path.join(db_root, 'data', 'case_name_abbreviations.json')) as f:
 VARIATIONS_ONLY = suck_out_variations_only(REPORTERS)
 EDITIONS = suck_out_editions(REPORTERS)
 NAMES_TO_EDITIONS = names_to_abbreviations(REPORTERS)
+SPECIAL_FORMATS = suck_out_formats(REPORTERS)
