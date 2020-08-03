@@ -12758,7 +12758,7 @@
             "name": "Tax Court Memorandum Opinions",
             "notes": "These documents are non precedential, but known to be persuasive. Atypical format atypical format -> T.C. Memo YYYY-XX",
             "regexes": [
-                "(?P<reporter>T\\.\\s?C\\.\\s?Memo)\\s+(?P<volume>\\d{1,2})-(?P<page>\\d{1,4})"
+                "(?P<reporter>T\\.\\s?C\\.\\s?Memo)\\s+(?P<volume>\\d{4})-(?P<page>\\d{1,4})"
             ],
             "variations": {
                 "T. C. Memo.": "T.C. Memo.",
@@ -12799,6 +12799,9 @@
             ],
             "name": "Tax Court Summary Opinions",
             "notes": "Neutral Citation for summary opinions of the Tax Court. These opinions are atypical format -> T.C. Summary Opinion YYYY-XX",
+            "regexes": [
+                "(?P<reporter>T\\.\\s?C\\.\\s?Summary Opinion)\\s+(?P<volume>\\d{4})-(?P<page>\\d{1,4})"
+            ],
             "variations": {
                 "T. C. Summary Opinion": "T.C. Summary Opinion"
             }
