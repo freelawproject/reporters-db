@@ -12932,7 +12932,7 @@
             "editions": {
                 "Tax Ct. Memo LEXIS": {
                     "end": null,
-                    "start": null
+                    "start": "1924-01-01T00:00:00"
                 }
             },
             "examples": [
@@ -12951,7 +12951,7 @@
             "editions": {
                 "Tax Ct. Summary LEXIS": {
                     "end": null,
-                    "start": null
+                    "start": "1924-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -13010,8 +13010,8 @@
             "cite_type": "specialty",
             "editions": {
                 "T.C.M. (RIA)": {
-                    "end": "",
-                    "start": ""
+                    "end": null,
+                    "start": "1924-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -13702,7 +13702,7 @@
             "editions": {
                 "U.S. Tax Ct. LEXIS": {
                     "end": null,
-                    "start": null
+                    "start": "1924-01-01T00:00:00"
                 }
             },
             "examples": [
