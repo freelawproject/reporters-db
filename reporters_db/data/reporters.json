@@ -12761,7 +12761,7 @@
             "name": "Tax Court Memorandum Opinions",
             "notes": "These documents are non precedential, but known to be persuasive. Atypical format atypical format -> T.C. Memo YYYY-XX",
             "regexes": [
-                "(?P<reporter>T\\.\\s?C\\.\\s?Memo)\\s+(?P<volume>\\d{4})-(?P<page>\\d{1,4})"
+                "(?P<reporter>T\\.\\s?C\\.\\s?Memo\\.?)\\s+(?P<volume>\\d{4})-(?P<page>\\d{1,4})"
             ],
             "variations": {
                 "T. C. Memo.": "T.C. Memo.",
