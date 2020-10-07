@@ -1,4 +1,3 @@
-
 from collections import OrderedDict
 
 
@@ -107,5 +106,3 @@ def names_to_abbreviations(reporters):
             names[data["name"]] = abbrevs
     sorted_names = OrderedDict(sorted(names.items(), key=lambda t: t[0]))
     return sorted_names
-
-
