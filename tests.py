@@ -1,7 +1,12 @@
 import re
 import datetime
 import six
-from reporters_db import REPORTERS, VARIATIONS_ONLY, EDITIONS, NAMES_TO_EDITIONS
+from reporters_db import (
+    REPORTERS,
+    VARIATIONS_ONLY,
+    EDITIONS,
+    NAMES_TO_EDITIONS,
+)
 from unittest import TestCase
 
 VALID_CITE_TYPES = (
@@ -60,13 +65,14 @@ class ConstantsTest(TestCase):
                 self.assertIn(
                     EDITIONS[variation],
                     REPORTERS.keys(),
-                    msg="Could not map variation to a valid reporter: %s" % variation,
+                    msg="Could not map variation to a valid reporter: %s"
+                    % variation,
                 )
 
     def test_basic_names_to_editions(self):
         """Do we get something like we expected in the NAME_TO_EDITION var?"""
         self.assertEqual(
-            ["A.", "A.2d", "A.3d"], NAMES_TO_EDITIONS["Atlantic Reporter"],
+            ["A.", "A.2d", "A.3d"], NAMES_TO_EDITIONS["Atlantic Reporter"]
         )
 
     def test_editions_ordering(self):
@@ -86,7 +92,9 @@ class ConstantsTest(TestCase):
             # ]
             for reporter_dict in reporter_list:
                 # reporter_dict == {'name': 'Atlantic Reporter'}
-                for e_name, e_dates in six.iteritems(reporter_dict["editions"]):
+                for e_name, e_dates in six.iteritems(
+                    reporter_dict["editions"]
+                ):
                     # e_name == "A. 2d"
                     # e_dates == {
                     #     "end": "1938-12-31T00:00:00",
@@ -136,7 +144,14 @@ class ConstantsTest(TestCase):
             "name",
             "variations",
         ]
-        optional_fields = ["cite_format", "publisher", "notes", "href", "regexes", "examples"]
+        optional_fields = [
+            "cite_format",
+            "publisher",
+            "notes",
+            "href",
+            "regexes",
+            "examples",
+        ]
         all_fields = required_fields + optional_fields
         for reporter_abbv, reporter_list in REPORTERS.items():
             for reporter_data in reporter_list:
@@ -156,7 +171,8 @@ class ConstantsTest(TestCase):
                     self.assertIn(
                         k,
                         all_fields,
-                        "Reporter '%s' has an unknown field '%s'" % (reporter_abbv, k),
+                        "Reporter '%s' has an unknown field '%s'"
+                        % (reporter_abbv, k),
                     )
 
                 # No empty string values?
