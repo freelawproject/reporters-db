@@ -281,8 +281,9 @@ Future Versions
 Releases
 --------
 
-Update setup.py, do a Github tag with the version number, and push to master.
-Travis will push a release to PyPi if CI tests pass.
+Update setup.py, add a git tag to the commit with the version number, and push
+to master. Be sure you have your tooling set up to push git tags. That's often
+not the default. Github Actions will push a release to PyPi if tests pass.
 
 
 License
