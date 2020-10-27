@@ -13018,7 +13018,6 @@
                 "us:c;tax.court"
             ],
             "name": "RIA Federal Tax Handbook",
-            "notes": "",
             "regexes": [
                 "(?P<reporter>(T\\.C\\.M?\\.? \\(RIA\\))|RIA TM) (?P<page>[0-9]{1,})"
             ],
