@@ -1,3 +1,11 @@
++---------------+---------------------+-------------------+
+| |Lint Badge|  | |Test Badge|        |  |Version Badge|  |
++---------------+---------------------+-------------------+
+
+.. |Lint Badge| image:: https://github.com/freelawproject/reporters-db/workflows/Lint/badge.svg
+.. |Test Badge| image:: https://github.com/freelawproject/reporters-db/workflows/Tests/badge.svg
+.. |Version Badge| image:: https://badge.fury.io/py/reporters-db.svg
+
 Background of the Free Law Reporters Database
 =============================================
 
