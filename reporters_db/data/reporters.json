@@ -9549,6 +9549,7 @@
     ],
     "NMCA": [
         {
+            "cite_format": "{volume}-{reporter}-{page}",
             "cite_type": "neutral",
             "editions": {
                 "NMCA": {
@@ -9556,15 +9557,22 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2005-NMCA-078"
+            ],
             "mlz_jurisdiction": [
                 "us:nm;court.appeals"
             ],
             "name": "New Mexico Neutral Citation (Court of Appeals)",
+            "regexes": [
+                "(?P<volume>[12]\\d{3})-(?P<reporter>NMCA)-(?P<page>\\d{3,4})"
+            ],
             "variations": {}
         }
     ],
     "NMCERT": [
         {
+            "cite_format": "{volume}-{reporter}-{page}",
             "cite_type": "neutral",
             "editions": {
                 "NMCERT": {
@@ -9572,15 +9580,22 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2010-NMCERT-001"
+            ],
             "mlz_jurisdiction": [
                 "us:nm;supreme.court"
             ],
             "name": "New Mexico Neutral Citation",
+            "regexes": [
+                "(?P<volume>[12]\\d{3})-(?P<reporter>NMCERT)-(?P<page>\\d{3,4})"
+            ],
             "variations": {}
         }
     ],
     "NMSC": [
         {
+            "cite_format": "{volume}-{reporter}-{page}",
             "cite_type": "neutral",
             "editions": {
                 "NMSC": {
@@ -9588,10 +9603,16 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2010-NMSC-007"
+            ],
             "mlz_jurisdiction": [
                 "us:nm;supreme.court"
             ],
             "name": "New Mexico Neutral Citation (Supreme Court)",
+            "regexes": [
+                "(?P<volume>[12]\\d{3})-(?P<reporter>NMSC)-(?P<page>\\d{3,4})"
+            ],
             "variations": {}
         }
     ],
@@ -9918,6 +9939,7 @@
     ],
     "OH": [
         {
+            "cite_format": "{volume}-{reporter}-{page}",
             "cite_type": "neutral",
             "editions": {
                 "OH": {
@@ -9925,10 +9947,16 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2017-Ohio-5699"
+            ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court"
             ],
             "name": "Ohio Neutral Citation",
+            "regexes": [
+                "(?P<volume>[12]\\d{3})-(?P<reporter>Ohio)-(?P<page>\\d{1,5})"
+            ],
             "variations": {
                 "OHIO": "OH",
                 "Ohio": "OH"
