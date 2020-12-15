@@ -9531,22 +9531,6 @@
             "variations": {}
         }
     ],
-    "NM": [
-        {
-            "cite_type": "neutral",
-            "editions": {
-                "NM": {
-                    "end": null,
-                    "start": "1852-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [
-                "us:nm;supreme.court"
-            ],
-            "name": "New Mexico Neutral Citation",
-            "variations": {}
-        }
-    ],
     "NMCA": [
         {
             "cite_format": "{volume}-{reporter}-{page}",
