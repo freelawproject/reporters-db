@@ -13051,6 +13051,28 @@
             }
         }
     ],
+    "T.C.M. (RIA)": [
+        {
+            "cite_format": "{reporter} {page}",
+            "cite_type": "specialty",
+            "editions": {
+                "T.C.M. (RIA)": {
+                    "end": null,
+                    "start": "1924-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;tax.court"
+            ],
+            "name": "RIA Federal Tax Handbook",
+            "regexes": [
+                "(?P<reporter>(T\\.C\\.M?\\.? \\(RIA\\))|RIA TM) (?P<page>[0-9]{1,})"
+            ],
+            "variations": {
+                "RIA TM": "T.C.M. (RIA)"
+            }
+        }
+    ],
     "TN WC": [
         {
             "cite_type": "neutral",
@@ -13220,28 +13242,6 @@
                 "N.C.T.Rep.": "Taylor",
                 "N.C.Term.R.": "Taylor",
                 "N.C.Term.Rep.": "Taylor"
-            }
-        }
-    ],
-    "T.C.M. (RIA)": [
-        {
-            "cite_format": "{reporter} {page}",
-            "cite_type": "specialty",
-            "editions": {
-                "T.C.M. (RIA)": {
-                    "end": null,
-                    "start": "1924-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [
-                "us:c;tax.court"
-            ],
-            "name": "RIA Federal Tax Handbook",
-            "regexes": [
-                "(?P<reporter>(T\\.C\\.M?\\.? \\(RIA\\))|RIA TM) (?P<page>[0-9]{1,})"
-            ],
-            "variations": {
-                "RIA TM": "T.C.M. (RIA)"
             }
         }
     ],
