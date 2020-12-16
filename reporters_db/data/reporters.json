@@ -35,10 +35,11 @@
                 "A.R.": "A.",
                 "A.Rep.": "A.",
                 "At.": "A.",
+                "At. Rep.": "A.",
                 "Atl.": "A.",
+                "Atl. Rep.": "A.",
                 "Atl.2d": "A.2d",
-                "Atl.R.": "A.",
-                "Atl. Rep.": "A."
+                "Atl.R.": "A."
             }
         }
     ],
@@ -73,6 +74,7 @@
                 "App. Div.": "A.D.",
                 "App. Div. 2d.": "A.D.2d",
                 "App. Div. 3d.": "A.D.3d",
+                "App. Div. Rep.": "A.D.",
                 "App.Div.": "A.D.",
                 "App.Div.(N.Y.)": "A.D.",
                 "App.Div.2d.": "A.D.2d",
@@ -141,7 +143,9 @@
             "variations": {
                 "Ky.(A.K.Marsh.)": "A.K. Marsh.",
                 "Mar.": "A.K. Marsh.",
+                "Mar. Rep.": "A.K. Marsh.",
                 "Marsh.": "A.K. Marsh.",
+                "Marsh. Rep.": "A.K. Marsh.",
                 "Marsh.(Ky.)": "A.K. Marsh.",
                 "Marsh.A.K.": "A.K. Marsh."
             }
@@ -275,7 +279,8 @@
             "mlz_jurisdiction": [],
             "name": "Abbott, United States Circuit and District Court Reports",
             "variations": {
-                "Abb": "Abb."
+                "Abb": "Abb.",
+                "Abb. Rep.": "Abb."
             }
         }
     ],
@@ -387,7 +392,9 @@
                 "us:vt;supreme.court"
             ],
             "name": "Vermont Reports, Aikens",
-            "variations": {}
+            "variations": {
+                "Aik. Rep.": "Aik."
+            }
         }
     ],
     "Ala.": [
@@ -497,6 +504,7 @@
             "name": "Massachusetts Reports, Allen",
             "variations": {
                 "All.": "Allen",
+                "All. Rep.": "Allen",
                 "Mass.(Allen)": "Allen"
             }
         }
@@ -902,7 +910,8 @@
             "variations": {
                 "ARK.": "Ark.",
                 "Ak.": "Ark.",
-                "Ark": "Ark."
+                "Ark": "Ark.",
+                "Ark. Rep.": "Ark."
             }
         }
     ],
@@ -1011,8 +1020,10 @@
             ],
             "name": "Kentucky Reports, Monroe, Ben",
             "variations": {
+                "B. Mon. Rep.": "B. Mon.",
                 "Ky.(B.Mon.)": "B. Mon.",
                 "Mon.": "B. Mon.",
+                "Mon. Rep.": "B. Mon.",
                 "Mon.B.": "B. Mon.",
                 "Monroe, B.": "B. Mon."
             }
@@ -1220,9 +1231,11 @@
             "name": "South Carolina Reports, Bailey",
             "variations": {
                 "Bai.": "Bail.",
+                "Bail. Rep.": "Bail.",
                 "Bail.L.": "Bail.",
                 "Bail.L.(S.C.)": "Bail.",
                 "Bailey": "Bail.",
+                "Bailey Rep.": "Bail.",
                 "S.C.L.(Bail.)": "Bail."
             }
         }
@@ -1246,6 +1259,7 @@
                 "Bailey": "Bail. Eq.",
                 "Bailey Ch.": "Bail. Eq.",
                 "Bailey Eq.": "Bail. Eq.",
+                "Bailey Rep.": "Bail. Eq.",
                 "S.C.Eq.(Bail.Eq.)": "Bail. Eq."
             }
         }
@@ -1302,9 +1316,9 @@
             "mlz_jurisdiction": [],
             "name": "Bankruptcy Court Decisions",
             "variations": {
+                "B.C.D.": "Bankr. Ct. Dec. (CRR)",
                 "Bankr. Ct. Dec.": "Bankr. Ct. Dec. (CRR)",
-                "Bankr.Ct.Dec.": "Bankr. Ct. Dec. (CRR)",
-                "B.C.D.": "Bankr. Ct. Dec. (CRR)"
+                "Bankr.Ct.Dec.": "Bankr. Ct. Dec. (CRR)"
             }
         }
     ],
@@ -1371,6 +1385,7 @@
             "name": "Barbour's Supreme Court Reports",
             "variations": {
                 "B.": "Barb.",
+                "Barb. Rep.": "Barb.",
                 "Barb.S.C.": "Barb."
             }
         }
@@ -1389,6 +1404,7 @@
             ],
             "name": "Barbour's Chancery Reports",
             "variations": {
+                "Barb. Ch. Rep.": "Barb. Ch.",
                 "Barb.Ch.(N.Y.)": "Barb. Ch."
             }
         }
@@ -1525,6 +1541,7 @@
             ],
             "name": "Kentucky Reports, Bibb",
             "variations": {
+                "Bibb Rep.": "Bibb",
                 "Bibb(Ky.)": "Bibb",
                 "Ky.(Bibb)": "Bibb"
             }
@@ -1545,6 +1562,8 @@
             "name": "Pennsylvania State Reports, Binney",
             "variations": {
                 "Bin.": "Binn.",
+                "Bin. Rep.": "Binn.",
+                "Binn. Rep.": "Binn.",
                 "Binn.(Pa.)": "Binn."
             }
         }
@@ -1594,6 +1613,7 @@
             "name": "Black's Supreme Court Reports",
             "variations": {
                 "Black R.": "Black",
+                "Black Rep.": "Black",
                 "U.S.(Black)": "Black"
             }
         }
@@ -1613,6 +1633,8 @@
             "name": "Indiana Reports, Blackford",
             "variations": {
                 "Black.": "Blackf.",
+                "Black. Rep.": "Blackf.",
+                "Blackf. Rep.": "Blackf.",
                 "Blackf.(Ind.)": "Blackf."
             }
         }
@@ -1793,6 +1815,7 @@
             ],
             "name": "South Carolina Reports, Brevard",
             "variations": {
+                "Brev. Rep.": "Brev.",
                 "S.C.L.(Brev)": "Brev."
             }
         }
@@ -1826,7 +1849,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Brockenbrough's Marshall's Decisions, United States Circuit Court",
-            "variations": {}
+            "variations": {
+                "Brock. Rep.": "Brock."
+            }
         }
     ],
     "Brown Adm.": [
@@ -1898,6 +1923,7 @@
             ],
             "name": "Wisconsin Reports, Burnett",
             "variations": {
+                "Bur. Rep.": "Bur.",
                 "Burnett": "Bur.",
                 "Burnett (Wis.)": "Bur."
             }
@@ -1987,7 +2013,8 @@
             "mlz_jurisdiction": [],
             "name": "United States Circuit Courts of Appeals Reports",
             "variations": {
-                "C. C. A.": "C.C.A."
+                "C. C. A.": "C.C.A.",
+                "C. C. A. Rep.": "C.C.A."
             }
         }
     ],
@@ -2134,9 +2161,11 @@
                 "Cai.": "Cai. Cas.",
                 "Cai.Cas.Err.": "Cai. Cas.",
                 "Cain.": "Cai. Cas.",
+                "Cain. Rep.": "Cai. Cas.",
                 "Caines": "Cai. Cas.",
                 "Caines (N.Y.)": "Cai. Cas.",
                 "Caines Cas.": "Cai. Cas.",
+                "Caines Rep.": "Cai. Cas.",
                 "N.Y.Cas.Err.": "Cai. Cas."
             }
         }
@@ -2189,6 +2218,7 @@
             ],
             "name": "California Reports",
             "variations": {
+                "Cal. Rep.": "Cal.",
                 "Cal.2d": "Cal. 2d",
                 "Cal.3d": "Cal. 3d",
                 "Cal.4th": "Cal. 4th",
@@ -2247,6 +2277,7 @@
             ],
             "name": "California Appellate Reports",
             "variations": {
+                "Cal. App. Rep.": "Cal. App.",
                 "Cal. App.2d": "Cal. App. 2d",
                 "Cal. App.3d": "Cal. App. 3d",
                 "Cal. App.4th": "Cal. App. 4th",
@@ -2442,6 +2473,7 @@
             "name": "Virginia Reports, Call",
             "variations": {
                 "Call (Va.)": "Call",
+                "Call Rep.": "Call",
                 "Va.(Call)": "Call"
             }
         }
@@ -3028,7 +3060,9 @@
                 "us:ct;supreme.court"
             ],
             "name": "Connecticut Reports",
-            "variations": {}
+            "variations": {
+                "Conn. Rep.": "Conn."
+            }
         }
     ],
     "Conn. App.": [
@@ -3217,6 +3251,7 @@
             "name": "Cowen's Reports",
             "variations": {
                 "C.": "Cow.",
+                "Cow. Rep.": "Cow.",
                 "Cow.N.Y.": "Cow."
             }
         }
@@ -3251,6 +3286,7 @@
             "variations": {
                 "Cra.": "Cranch",
                 "Cranch (US)": "Cranch",
+                "Cranch Rep.": "Cranch",
                 "U.S.(Cranch)": "Cranch"
             }
         },
@@ -3269,6 +3305,7 @@
             "variations": {
                 "Cranch C.C.": "Cranch",
                 "Cranch D.C.": "Cranch",
+                "Cranch Rep.": "Cranch",
                 "D.C.(Cranch)": "Cranch"
             }
         }
@@ -3287,9 +3324,10 @@
             ],
             "name": "Court of Claims Reports",
             "variations": {
+                "C. Cls.": "Ct. Cl.",
                 "Court Cl.": "Ct. Cl.",
-                "Ct.Cl.": "Ct. Cl.",
-                "C. Cls.": "Ct. Cl."
+                "Ct. Cl. Rep.": "Ct. Cl.",
+                "Ct.Cl.": "Ct. Cl."
             }
         }
     ],
@@ -3307,9 +3345,9 @@
             ],
             "name": "Court of Customs Appeals Reports",
             "variations": {
+                "Ct. Cust. Appls.": "Ct. Cust.",
                 "Cust. Ct.": "Ct. Cust.",
-                "Cust.Ct.": "Ct. Cust.",
-                "Ct. Cust. Appls.": "Ct. Cust."
+                "Cust.Ct.": "Ct. Cust."
             }
         }
     ],
@@ -3373,6 +3411,7 @@
             ],
             "name": "Massachusetts Reports, Cushing",
             "variations": {
+                "Cush. Rep.": "Cush.",
                 "Cush.(Mass.)": "Cush.",
                 "Cushing": "Cush.",
                 "Mass.(Cush.)": "Cush."
@@ -3426,8 +3465,10 @@
             "name": "Vermont Reports, Chipman, D.",
             "variations": {
                 "Chip.": "D. Chip.",
+                "Chip. Rep.": "D. Chip.",
                 "Chip.(Vt.)": "D. Chip.",
                 "Chip.D.": "D. Chip.",
+                "D. Chip. Rep.": "D. Chip.",
                 "D.Chip.(Vt.)": "D. Chip.",
                 "D.Chipm.": "D. Chip."
             }
@@ -3503,8 +3544,11 @@
             "name": "Dallas' Supreme Court Reports",
             "variations": {
                 "Dal.": "Dall.",
+                "Dal. Rep.": "Dall.",
+                "Dall. Rep.": "Dall.",
                 "Dall.S.C.": "Dall.",
                 "Dallas": "Dall.",
+                "Dallas Rep.": "Dall.",
                 "U.S.(Dall.)": "Dall."
             }
         },
@@ -3523,7 +3567,10 @@
             "variations": {
                 "D.": "Dall.",
                 "Dal.": "Dall.",
-                "Dallas": "Dall."
+                "Dal. Rep.": "Dall.",
+                "Dall. Rep.": "Dall.",
+                "Dallas": "Dall.",
+                "Dallas Rep.": "Dall."
             }
         }
     ],
@@ -3584,6 +3631,7 @@
             "name": "Kentucky Reports, Dana",
             "variations": {
                 "Dan.": "Dana",
+                "Dana Rep.": "Dana",
                 "Ky.(Dana)": "Dana"
             }
         }
@@ -3650,7 +3698,9 @@
                 "us:de;supreme.court"
             ],
             "name": "Delaware Reports",
-            "variations": {}
+            "variations": {
+                "Del. Rep.": "Del."
+            }
         }
     ],
     "Del. Cas.": [
@@ -3683,6 +3733,7 @@
             ],
             "name": "Delaware Chancery Reports",
             "variations": {
+                "Del. Ch. Rep.": "Del. Ch.",
                 "Del.Ch.": "Del. Ch."
             }
         }
@@ -3701,7 +3752,9 @@
             ],
             "name": "Delaware County (Pa.)",
             "variations": {
+                "Del. Co. Rep.": "Del. Co.",
                 "Del.Co.": "Del. Co.",
+                "Del.Co.Rep.": "Del. Co.",
                 "Delaware Co. Reports": "Del. Co."
             }
         }
@@ -3738,7 +3791,8 @@
             ],
             "name": "Denio's Reports",
             "variations": {
-                "Den.": "Denio"
+                "Den.": "Denio",
+                "Denio Rep.": "Denio"
             }
         }
     ],
@@ -3756,7 +3810,9 @@
             ],
             "name": "South Carolina Reports, Desaussure's Equity",
             "variations": {
+                "Des. Rep.": "Des.",
                 "Desaus.": "Des.",
+                "Desaus. Rep.": "Des.",
                 "Desaus.Eq.": "Des.",
                 "S.C.Eq.(Des.)": "Des."
             }
@@ -3776,6 +3832,7 @@
             ],
             "name": "North Carolina Reports, Devereux's Law",
             "variations": {
+                "Dev. Rep.": "Dev.",
                 "Dev.L.": "Dev.",
                 "N.C.(Dev.)": "Dev."
             }
@@ -3839,6 +3896,8 @@
             "name": "North Carolina Reports, Devereux's Equity",
             "variations": {
                 "Dev.": "Dev. Eq.",
+                "Dev. Eq. Rep.": "Dev. Eq.",
+                "Dev. Rep.": "Dev. Eq.",
                 "N.C.(Dev.Eq.)": "Dev. Eq."
             }
         }
@@ -3889,6 +3948,7 @@
             ],
             "name": "Michigan Reports, Douglass",
             "variations": {
+                "Doug. Rep.": "Doug.",
                 "Doug.(Mich.)": "Doug.",
                 "Dougl.(Mich.)": "Doug."
             }
@@ -4059,6 +4119,8 @@
                 "Ed.C.R.": "Edw. Ch.",
                 "Ed.Ch.": "Edw. Ch.",
                 "Edw.": "Edw. Ch.",
+                "Edw. Ch. Rep.": "Edw. Ch.",
+                "Edw. Rep.": "Edw. Ch.",
                 "Edw.Ch.(N.Y.)": "Edw. Ch."
             }
         }
@@ -4888,8 +4950,10 @@
             ],
             "name": "Florida Reports",
             "variations": {
+                "Fla. Rep.": "Fla.",
                 "Flor.": "Fla.",
-                "Florida": "Fla."
+                "Florida": "Fla.",
+                "Florida Rep.": "Fla."
             }
         }
     ],
@@ -5056,7 +5120,9 @@
                 "us:ga;supreme.court"
             ],
             "name": "Georgia Reports",
-            "variations": {}
+            "variations": {
+                "Ga. Rep.": "Ga."
+            }
         }
     ],
     "Ga. App.": [
@@ -5106,6 +5172,7 @@
             "name": "Gallison's Reports, United States Circuit Courts",
             "variations": {
                 "Gall. C.C.R.": "Gall.",
+                "Gall. Rep.": "Gall.",
                 "Gallison": "Gall.",
                 "Gallison's Rep.": "Gall."
             }
@@ -5573,6 +5640,8 @@
             "name": "Hawaii Reports",
             "variations": {
                 "H.": "Haw.",
+                "H. Rep.": "Haw.",
+                "Haw. Rep.": "Haw.",
                 "Hawai'i": "Haw.",
                 "Hawaii": "Haw.",
                 "Hawaii Rep.": "Haw."
@@ -5612,6 +5681,7 @@
             ],
             "name": "North Carolina Reports, Hawks",
             "variations": {
+                "Hawks Rep.": "Hawks",
                 "Hawks(N.C.)": "Hawks",
                 "N.C.(Hawks)": "Hawks"
             }
@@ -5650,6 +5720,8 @@
             "name": "North Carolina Reports, Haywood",
             "variations": {
                 "Hay.": "Hayw.",
+                "Hay. Rep.": "Hayw.",
+                "Hayw. Rep.": "Hayw.",
                 "Hayw.N.C.": "Hayw.",
                 "N.C.(Hayw.)": "Hayw."
             }
@@ -5667,6 +5739,7 @@
             ],
             "name": "Tennessee Reports, Haywood",
             "variations": {
+                "Hayw. Rep.": "Hayw.",
                 "Hayw.(Tenn.)": "Hayw.",
                 "Hayw.Tenn.": "Hayw.",
                 "Tenn.(Hayw.)": "Hayw."
@@ -5765,6 +5838,8 @@
             "name": "Hill's New York Reports",
             "variations": {
                 "H.": "Hill",
+                "H. Rep.": "Hill",
+                "Hill Rep.": "Hill",
                 "Hill.N.Y.": "Hill"
             }
         },
@@ -5782,6 +5857,7 @@
             "name": "South Carolina Reports, Hill",
             "variations": {
                 "Hill Law": "Hill",
+                "Hill Rep.": "Hill",
                 "Hill S.C.": "Hill",
                 "S.C.L.(Hill)": "Hill"
             }
@@ -5824,7 +5900,9 @@
             "variations": {
                 "Hill": "Hill Eq.",
                 "Hill Ch.": "Hill Eq.",
+                "Hill Ch. Rep.": "Hill Eq.",
                 "Hill Eq.(S.C.)": "Hill Eq.",
+                "Hill Rep.": "Hill Eq.",
                 "Hill S.C.": "Hill Eq.",
                 "S.C.Eq.(Hill Eq.)": "Hill Eq."
             }
@@ -5862,6 +5940,7 @@
             "name": "Hoffman's Chancery Reports",
             "variations": {
                 "Hoff.": "Hoff. Ch.",
+                "Hoff. Ch. Rep.": "Hoff. Ch.",
                 "Hoff.Cha.": "Hoff. Ch.",
                 "Hoff.N.Y.": "Hoff. Ch.",
                 "Hoffm.": "Hoff. Ch.",
@@ -5896,7 +5975,9 @@
                 "us:ny;court.appeals"
             ],
             "name": "Hopkins' Chancery Reports",
-            "variations": {}
+            "variations": {
+                "Hopk. Ch. Rep.": "Hopk. Ch."
+            }
         }
     ],
     "Houston": [
@@ -5934,6 +6015,7 @@
             "name": "Howard's Supreme Court Reports",
             "variations": {
                 "HOW": "How.",
+                "How. Rep.": "How.",
                 "U.S.(How.)": "How."
             }
         }
@@ -5969,6 +6051,7 @@
             ],
             "name": "Howard's Practice Reports",
             "variations": {
+                "How. Pr. Rep.": "How. Pr.",
                 "How.P.R.": "How. Pr.",
                 "How.Prac.(N.Y.)": "How. Pr.",
                 "N.Y.Spec.Term R.": "How. Pr.",
@@ -5991,6 +6074,8 @@
             "name": "Mississippi Reports, Howard",
             "variations": {
                 "How.": "Howard",
+                "How. Rep.": "Howard",
+                "Howard Rep.": "Howard",
                 "Miss.(Howard)": "Howard"
             }
         }
@@ -6028,7 +6113,9 @@
             ],
             "name": "Tennessee Reports, Humphreys",
             "variations": {
+                "Hum. Rep.": "Hum.",
                 "Humph.": "Hum.",
+                "Humph. Rep.": "Hum.",
                 "Tenn.(Hum.)": "Hum."
             }
         }
@@ -6271,6 +6358,7 @@
             ],
             "name": "Illinois Reports",
             "variations": {
+                "Ill. Rep.": "Ill.",
                 "Ill.2d": "Ill. 2d"
             }
         }
@@ -6297,6 +6385,7 @@
             ],
             "name": "Illinois Appellate Court Reports",
             "variations": {
+                "Ill. App. Rep.": "Ill. App.",
                 "Ill. App.2d": "Ill. App. 2d",
                 "Ill. App.3d": "Ill. App. 3d",
                 "Ill.A.": "Ill. App.",
@@ -6490,7 +6579,8 @@
             ],
             "name": "Iowa Reports",
             "variations": {
-                "Ia.": "Iowa"
+                "Ia.": "Iowa",
+                "Iowa Rep.": "Iowa"
             }
         }
     ],
@@ -6509,6 +6599,8 @@
             "name": "North Carolina Reports, Iredell's Law",
             "variations": {
                 "Ired. Law": "Ired.",
+                "Ired. Law Rep.": "Ired.",
+                "Ired. Rep.": "Ired.",
                 "Ired.L.": "Ired.",
                 "Ired.L.(N.C.)": "Ired.",
                 "N.C.(Ired.)": "Ired."
@@ -6530,6 +6622,8 @@
             "name": "North Carolina Reports, Iredell's Equity",
             "variations": {
                 "Ired.": "Ired. Eq.",
+                "Ired. Eq. Rep.": "Ired. Eq.",
+                "Ired. Rep.": "Ired. Eq.",
                 "Ired.Eq.(N.C.)": "Ired. Eq.",
                 "N.C.(Ired.Eq.)": "Ired. Eq."
             }
@@ -6553,6 +6647,7 @@
                 "J.J.Marsh.(Ky.)": "J.J. Marsh.",
                 "Ky.(J.J.Marsh.)": "J.J. Marsh.",
                 "Marsh.": "J.J. Marsh.",
+                "Marsh. Rep.": "J.J. Marsh.",
                 "Marsh.(Ky.)": "J.J. Marsh.",
                 "Marsh.J.J.": "J.J. Marsh."
             }
@@ -6573,11 +6668,14 @@
             "name": "Johnson's Reports",
             "variations": {
                 "J.": "Johns.",
+                "J. Rep.": "Johns.",
                 "John.": "Johns.",
+                "John. Rep.": "Johns.",
                 "Johns.Ct.Err.": "Johns.",
                 "Johns.N.Y.": "Johns.",
                 "Johns.Rep.": "Johns.",
-                "Johnson": "Johns."
+                "Johnson": "Johns.",
+                "Johnson Rep.": "Johns."
             }
         }
     ],
@@ -6615,11 +6713,13 @@
             "variations": {
                 "J.Ch.": "Johns. Ch.",
                 "Johns.": "Johns. Ch.",
+                "Johns. Ch. Rep.": "Johns. Ch.",
                 "Johns.(N.Y.)": "Johns. Ch.",
                 "Johns.Ch.(N.Y.)": "Johns. Ch.",
                 "Johns.Ch.Cas.": "Johns. Ch.",
                 "Johns.Rep.": "Johns. Ch.",
-                "Johnson": "Johns. Ch."
+                "Johnson": "Johns. Ch.",
+                "Johnson Rep.": "Johns. Ch."
             }
         }
     ],
@@ -6743,6 +6843,7 @@
             ],
             "name": "Kansas Reports",
             "variations": {
+                "Kan. Rep.": "Kan.",
                 "Kans.": "Kan.",
                 "Kas.": "Kan."
             }
@@ -6823,7 +6924,9 @@
                 "us:ky;appeals.court"
             ],
             "name": "Kentucky Reports",
-            "variations": {}
+            "variations": {
+                "Ky. Rep.": "Ky."
+            }
         }
     ],
     "Ky. App.": [
@@ -7091,7 +7194,9 @@
                 "us:la;supreme.court"
             ],
             "name": "Louisiana Reports",
-            "variations": {}
+            "variations": {
+                "La. Rep.": "La."
+            }
         }
     ],
     "La. Ann.": [
@@ -7108,6 +7213,7 @@
             ],
             "name": "Louisiana Annual Reports",
             "variations": {
+                "La. Ann. Rep.": "La. Ann.",
                 "La.Ann.": "La. Ann."
             }
         }
@@ -7367,6 +7473,7 @@
             "name": "Lansing's Chancery Reports",
             "variations": {
                 "L.": "Lans. Ch.",
+                "L. Rep.": "Lans. Ch.",
                 "Lans.": "Lans. Ch."
             }
         }
@@ -7497,7 +7604,8 @@
             "mlz_jurisdiction": [],
             "name": "Legal Gazette",
             "variations": {
-                "Leg. Gaz.": "Legal Gaz."
+                "Leg. Gaz.": "Legal Gaz.",
+                "Leg. Gaz. Rep.": "Legal Gaz."
             }
         }
     ],
@@ -7538,6 +7646,7 @@
             "name": "Virginia Reports, Leigh",
             "variations": {
                 "Leigh (Va.)": "Leigh",
+                "Leigh Rep.": "Leigh",
                 "Va.(Leigh)": "Leigh"
             }
         }
@@ -7578,8 +7687,11 @@
             "variations": {
                 "Ky.(Litt.)": "Litt.",
                 "Lit.": "Litt.",
+                "Lit. Rep.": "Litt.",
+                "Litt. Rep.": "Litt.",
                 "Litt.(Ky.)": "Litt.",
-                "Littell": "Litt."
+                "Littell": "Litt.",
+                "Littell Rep.": "Litt."
             }
         }
     ],
@@ -7647,6 +7759,7 @@
             "name": "Luzerne Legal Register (Pa.)",
             "variations": {
                 "Luz. Leg. Reg.": "Luz. L.R.",
+                "Luz. Leg. Reg. Rep.": "Luz. L.R.",
                 "Luz.L.R.": "Luz. L.R."
             }
         }
@@ -7897,6 +8010,7 @@
             "variations": {
                 "Mart. (n.s.)": "Mart. (N.S.)",
                 "Mart. (o.s.)": "Mart.",
+                "Mart. Rep.": "Mart.",
                 "Mart.(o.s.)": "Mart."
             }
         },
@@ -7913,9 +8027,11 @@
             ],
             "name": "North Carolina Reports, Martin",
             "variations": {
+                "Mart. Rep.": "Mart.",
                 "Mart.Dec.": "Mart.",
                 "Mart.N.C.": "Mart.",
                 "Martin": "Mart.",
+                "Martin Rep.": "Mart.",
                 "N.C.(Mart.)": "Mart."
             }
         }
@@ -8005,8 +8121,9 @@
             "variations": {
                 "Ma.": "Mass.",
                 "Mas.": "Mass.",
-                "Mass. Rep.": "Mass.",
-                "Mass. R.": "Mass."
+                "Mas. Rep.": "Mass.",
+                "Mass. R.": "Mass.",
+                "Mass. Rep.": "Mass."
             }
         }
     ],
@@ -8147,6 +8264,7 @@
             ],
             "name": "South Carolina Reports, McCord",
             "variations": {
+                "McCord Rep.": "McCord",
                 "S.C.L.(McCord)": "McCord"
             }
         }
@@ -8166,6 +8284,7 @@
             "name": "South Carolina Reports, McCord's Chancery",
             "variations": {
                 "McCord Ch.": "McCord Eq.",
+                "McCord Ch. Rep.": "McCord Eq.",
                 "S.C.L.(McCord Eq.)": "McCord Eq."
             }
         }
@@ -8272,7 +8391,9 @@
             ],
             "name": "Maryland Reports",
             "variations": {
-                "Maryland": "Md."
+                "Maryland": "Md.",
+                "Maryland Rep.": "Md.",
+                "Md. Rep.": "Md."
             }
         }
     ],
@@ -8309,7 +8430,8 @@
             "name": "Maine Reports",
             "variations": {
                 "Mai.": "Me.",
-                "Maine": "Me."
+                "Maine": "Me.",
+                "Maine Rep.": "Me."
             }
         }
     ],
@@ -8362,7 +8484,9 @@
             "name": "Kentucky Reports, Metcalf",
             "variations": {
                 "Ky.(Met.)": "Met.",
+                "Met. Rep.": "Met.",
                 "Metc.": "Met.",
+                "Metc. Rep.": "Met.",
                 "Metc.Ky.": "Met."
             }
         },
@@ -8380,7 +8504,9 @@
             "name": "Massachusetts Reports, Metcalf",
             "variations": {
                 "Mass.(Met.)": "Met.",
+                "Met. Rep.": "Met.",
                 "Metc.": "Met.",
+                "Metc. Rep.": "Met.",
                 "Metc.Mass.": "Met."
             }
         }
@@ -8399,7 +8525,8 @@
             ],
             "name": "Michigan Reports",
             "variations": {
-                "Mich": "Mich."
+                "Mich": "Mich.",
+                "Mich. Rep.": "Mich."
             }
         }
     ],
@@ -8453,6 +8580,7 @@
             "name": "South Carolina Reports, Mill (Constitutional)",
             "variations": {
                 "Const.": "Mill",
+                "Const. Rep.": "Mill",
                 "Const.S.C.": "Mill",
                 "Mill Const.": "Mill",
                 "Mill Const.(S.C.)": "Mill",
@@ -8493,7 +8621,9 @@
             ],
             "name": "Minnesota Reports",
             "variations": {
-                "Min.": "Minn."
+                "Min.": "Minn.",
+                "Min. Rep.": "Minn.",
+                "Minn. Rep.": "Minn."
             }
         }
     ],
@@ -8512,6 +8642,7 @@
             "name": "Minor's Alabama Reports",
             "variations": {
                 "Min.": "Minor",
+                "Min. Rep.": "Minor",
                 "Minor (Ala.)": "Minor"
             }
         }
@@ -8540,9 +8671,9 @@
             "variations": {
                 "Misc 2d": "Misc. 2d",
                 "Misc 3d": "Misc. 3d",
+                "Misc. Rep.": "Misc.",
                 "Misc.2d": "Misc. 2d",
-                "Misc.3d": "Misc. 3d",
-                "Misc. Rep.": "Misc."
+                "Misc.3d": "Misc. 3d"
             }
         }
     ],
@@ -8560,7 +8691,9 @@
             ],
             "name": "Mississippi Reports",
             "variations": {
-                "Mis.": "Miss."
+                "Mis.": "Miss.",
+                "Mis. Rep.": "Miss.",
+                "Miss. Rep.": "Miss."
             }
         }
     ],
@@ -8593,7 +8726,9 @@
                 "us:mo;supreme.court"
             ],
             "name": "Missouri Reports",
-            "variations": {}
+            "variations": {
+                "Mo. Rep.": "Mo."
+            }
         }
     ],
     "Mo. App.": [
@@ -8629,6 +8764,7 @@
             "name": "Pennsylvania State Reports, Monaghan",
             "variations": {
                 "Mon.": "Monag.",
+                "Mon. Rep.": "Monag.",
                 "Mona.": "Monag.",
                 "Monaghan": "Monag.",
                 "Monaghan(Pa.)": "Monag."
@@ -8730,7 +8866,9 @@
                 "us:va;supreme.court"
             ],
             "name": "Virginia Reports, Munford",
-            "variations": {}
+            "variations": {
+                "Munf. Rep.": "Munf."
+            }
         }
     ],
     "Mur.": [
@@ -8747,7 +8885,9 @@
             ],
             "name": "North Carolina Reports, Murphey",
             "variations": {
+                "Mur. Rep.": "Mur.",
                 "Murph.": "Mur.",
+                "Murph. Rep.": "Mur.",
                 "Murph.(N.C.)": "Mur.",
                 "N.C.(Mur.)": "Mur."
             }
@@ -8924,8 +9064,9 @@
             ],
             "name": "New Hampshire Reports",
             "variations": {
-                "N.H.R.": "N.H.",
-                "N. H. Rep.": "N.H."
+                "N. H. Rep.": "N.H.",
+                "N.H. Rep.": "N.H.",
+                "N.H.R.": "N.H."
             }
         }
     ],
@@ -9157,6 +9298,7 @@
             "name": "New Mexico Reports (Johnson)",
             "variations": {
                 "Johnson": "N.M. (J.)",
+                "Johnson Rep.": "N.M. (J.)",
                 "N.M. (John.)": "N.M. (J.)"
             }
         }
@@ -9203,15 +9345,16 @@
             "variations": {
                 "N. W.": "N.W.",
                 "N. W. 2d": "N.W.2d",
+                "N. W. Rep.": "N.W.",
                 "N. W.2d": "N.W.2d",
                 "N.W. 2d": "N.W.2d",
                 "N.W. 2nd": "N.W.2d",
+                "N.W. Rep.": "N.W.",
                 "N.W.2nd": "N.W.2d",
                 "NW": "N.W.",
                 "NW 2d": "N.W.2d",
                 "No.West Rep.": "N.W.",
-                "Northw.Rep.": "N.W.",
-                "N. W. Rep.": "N.W."
+                "Northw.Rep.": "N.W."
             }
         }
     ],
@@ -9238,6 +9381,7 @@
             "name": "New York Reports",
             "variations": {
                 "N. Y.": "N.Y.",
+                "N. Y. Rep.": "N.Y.",
                 "N.Y. (N.Y.S.)": "N.Y.",
                 "N.Y. 2d": "N.Y.2d",
                 "N.Y. 3d": "N.Y.3d",
@@ -9425,13 +9569,13 @@
             ],
             "name": "New York Supplement",
             "variations": {
+                "N. Y. Supp.": "N.Y.S.",
                 "N.Y.S. 2d": "N.Y.S.2d",
                 "N.Y.S. 3d": "N.Y.S.3d",
                 "NYS": "N.Y.S.",
                 "NYS 2d": "N.Y.S.2d",
                 "NYS 3d": "N.Y.S.3d",
-                "New York Supp.": "N.Y.S.",
-                "N. Y. Supp.": "N.Y.S."
+                "New York Supp.": "N.Y.S."
             }
         }
     ],
@@ -9959,7 +10103,8 @@
             ],
             "variations": {
                 "OHIO": "OH",
-                "Ohio": "OH"
+                "Ohio": "OH",
+                "Ohio Rep.": "OH"
             }
         }
     ],
@@ -10072,7 +10217,9 @@
                 "us:oh;supreme.court"
             ],
             "name": "Ohio Reports",
-            "variations": {}
+            "variations": {
+                "Ohio Rep.": "Ohio"
+            }
         }
     ],
     "Ohio App.": [
@@ -10121,6 +10268,7 @@
                 "Oh.App.": "Ohio App.",
                 "Oh.App.2d": "Ohio App. 2d",
                 "Oh.App.3d": "Ohio App. 3d",
+                "Ohio App. Rep.": "Ohio App.",
                 "Ohio App.2d": "Ohio App. 2d",
                 "Ohio App.3d": "Ohio App. 3d"
             }
@@ -10265,7 +10413,8 @@
             "name": "Ohio Decisions",
             "variations": {
                 "O.D.": "Ohio Dec.",
-                "Oh.Dec.": "Ohio Dec."
+                "Oh.Dec.": "Ohio Dec.",
+                "Ohio Dec. Rep.": "Ohio Dec."
             }
         }
     ],
@@ -10461,6 +10610,7 @@
                 "O.S.2d": "Ohio St. 2d",
                 "O.S.3d": "Ohio St. 3d",
                 "Oh.St.": "Ohio St.",
+                "Ohio St. Rep.": "Ohio St.",
                 "Ohio St.2d": "Ohio St. 2d",
                 "Ohio St.3d": "Ohio St. 3d"
             }
@@ -10515,7 +10665,8 @@
             "name": "Oklahoma Reports",
             "variations": {
                 "OKla.": "Okla.",
-                "Okl.": "Okla."
+                "Okl.": "Okla.",
+                "Okla. Rep.": "Okla."
             }
         }
     ],
@@ -10537,6 +10688,9 @@
                 "Okl.Cr.": "Okla. Crim.",
                 "Okla.": "Okla. Crim.",
                 "Okla. Cr.": "Okla. Crim.",
+                "Okla. Cr. Rep.": "Okla. Crim.",
+                "Okla. Crim. Rep.": "Okla. Crim.",
+                "Okla. Rep.": "Okla. Crim.",
                 "Okla.Cr.": "Okla. Crim.",
                 "Okla.Crim.": "Okla. Crim."
             }
@@ -10708,6 +10862,7 @@
                 "P 3d": "P.3d",
                 "P. 2d": "P.2d",
                 "P. 3d": "P.3d",
+                "P. Rep.": "P.",
                 "P.2": "P.2d",
                 "P.3": "P.3d",
                 "P.R.": "P.",
@@ -10716,7 +10871,8 @@
                 "Pac.2d": "P.2d",
                 "Pac.R.": "P.",
                 "Pac.Rep.": "P.",
-                "Pacific": "P."
+                "Pacific": "P.",
+                "Pacific Rep.": "P."
             }
         }
     ],
@@ -10924,6 +11080,7 @@
             "variations": {
                 "P.C.R.": "Pa. C.",
                 "Pa. Co. Ct.": "Pa. C.",
+                "Pa. Co. Ct. Rep.": "Pa. C.",
                 "Pa.C.C.": "Pa. C.",
                 "Pa.Co.Ct.": "Pa. C.",
                 "Pa.Co.Ct.R.": "Pa. C.",
@@ -11065,7 +11222,9 @@
             "variations": {
                 "Pai.": "Paige Ch.",
                 "Pai.Ch.": "Paige Ch.",
-                "Paige": "Paige Ch."
+                "Paige": "Paige Ch.",
+                "Paige Ch. Rep.": "Paige Ch.",
+                "Paige Rep.": "Paige Ch."
             }
         }
     ],
@@ -11102,6 +11261,7 @@
                 "Park. Crim. R.": "Park. Cr.",
                 "Park. Crim. Rep.": "Park. Cr.",
                 "Parker Cr.": "Park. Cr.",
+                "Parker Cr. Rep.": "Park. Cr.",
                 "Parker's Cr. R.": "Park. Cr.",
                 "Parker's Crim. R.": "Park. Cr.",
                 "Parker's Crim. Rep.": "Park. Cr.",
@@ -11296,8 +11456,10 @@
             ],
             "name": "Peters' Supreme Court Reports",
             "variations": {
+                "Pet. Rep.": "Pet.",
                 "Pet.S.C.": "Pet.",
                 "Peters": "Pet.",
+                "Peters Rep.": "Pet.",
                 "U.S.(Pet.)": "Pet."
             }
         }
@@ -11348,8 +11510,10 @@
             "variations": {
                 "N.C.(Phil.Eq.)": "Phil. Eq.",
                 "Phil.": "Phil. Eq.",
+                "Phil. Rep.": "Phil. Eq.",
                 "Phil.Eq.(N.C.)": "Phil. Eq.",
                 "Phill.": "Phil. Eq.",
+                "Phill. Rep.": "Phil. Eq.",
                 "Phillips": "Phil. Eq."
             }
         }
@@ -11370,8 +11534,10 @@
             "variations": {
                 "N.C.(Phil.Law)": "Phil. Law",
                 "Phil.": "Phil. Law",
+                "Phil. Rep.": "Phil. Law",
                 "Phil.N.C.": "Phil. Law",
                 "Phill.": "Phil. Law",
+                "Phill. Rep.": "Phil. Law",
                 "Phill.L.(N.C.)": "Phil. Law",
                 "Phillips": "Phil. Law"
             }
@@ -11390,7 +11556,9 @@
                 "us:pa;supreme.court"
             ],
             "name": "Philadelphia Reports",
-            "variations": {}
+            "variations": {
+                "Phila. Rep.": "Phila."
+            }
         }
     ],
     "Pick.": [
@@ -11408,6 +11576,7 @@
             "name": "Massachusetts Reports, Pickering",
             "variations": {
                 "Mass.(Pick.)": "Pick.",
+                "Pick. Rep.": "Pick.",
                 "Pick.(Mass.)": "Pick."
             }
         }
@@ -11510,8 +11679,10 @@
             ],
             "name": "Alabama Reports, Porter",
             "variations": {
+                "Port. Rep.": "Port.",
                 "Port.(Ala.)": "Port.",
-                "Porter": "Port."
+                "Porter": "Port.",
+                "Porter Rep.": "Port."
             }
         }
     ],
@@ -11602,6 +11773,7 @@
             ],
             "name": "Virginia Reports, Randolph",
             "variations": {
+                "Rand. Rep.": "Rand.",
                 "Va.(Rand.)": "Rand."
             }
         }
@@ -11622,7 +11794,8 @@
             "variations": {
                 "Pa. Rawle": "Rawle",
                 "R.": "Rawle",
-                "Raw.": "Rawle"
+                "Raw.": "Rawle",
+                "Rawle Rep.": "Rawle"
             }
         }
     ],
@@ -11695,6 +11868,7 @@
             ],
             "name": "South Carolina Reports, Richardson",
             "variations": {
+                "Rich. Rep.": "Rich.",
                 "Rich.L.(S.C.)": "Rich.",
                 "Rich.Law(S.C.)": "Rich.",
                 "S.C.L.(Rich.)": "Rich."
@@ -11733,6 +11907,7 @@
             ],
             "name": "South Carolina Reports, Richardson's Equity",
             "variations": {
+                "Rich. Eq. Rep.": "Rich. Eq.",
                 "Rich.Eq.Ch.": "Rich. Eq.",
                 "S.C.Eq.(Rich.Eq.)": "Rich. Eq."
             }
@@ -11830,6 +12005,7 @@
             ],
             "name": "Louisiana Reports, Robinson",
             "variations": {
+                "Rob. Rep.": "Rob.",
                 "Rob.La.": "Rob.",
                 "Robinson": "Rob."
             }
@@ -11848,6 +12024,7 @@
             "name": "Virginia Reports, Robinson",
             "variations": {
                 "Rob. (VA)": "Rob.",
+                "Rob. Rep.": "Rob.",
                 "Rob.Va.": "Rob.",
                 "Robinson": "Rob.",
                 "Va.(Rob.)": "Rob."
@@ -11869,6 +12046,7 @@
             "name": "Synopses of the Decisions of the Supreme Court of Texas Arising from Restraints by Conscript and Other Military Authorities (Robards)",
             "variations": {
                 "Rob.": "Robards",
+                "Rob. Rep.": "Robards",
                 "Rob.Cons.Cas.(Tex.)": "Robards",
                 "Rob.Consc.Cas.": "Robards",
                 "Robard": "Robards"
@@ -11966,6 +12144,7 @@
             "name": "West's Supreme Court Reporter",
             "variations": {
                 "S Ct": "S. Ct.",
+                "S. Ct. Rep.": "S. Ct.",
                 "S.C.": "S. Ct.",
                 "S.Ct.": "S. Ct.",
                 "Sup.Ct.": "S. Ct.",
@@ -12054,11 +12233,12 @@
             "variations": {
                 "S. E.": "S.E.",
                 "S. E. 2d": "S.E.2d",
+                "S. E. Rep.": "S.E.",
                 "S. E.2d": "S.E.2d",
                 "S.E. 2d": "S.E.2d",
+                "S.E. Rep.": "S.E.",
                 "SE": "S.E.",
-                "SE 2d": "S.E.2d",
-                "S. E. Rep.": "S.E."
+                "SE 2d": "S.E.2d"
             }
         }
     ],
@@ -12105,18 +12285,19 @@
                 "S. W.": "S.W.",
                 "S. W. 2d": "S.W.2d",
                 "S. W. 3d": "S.W.3d",
+                "S. W. Rep.": "S.W.",
                 "S. W.2d": "S.W.2d",
                 "S. W.3d": "S.W.3d",
                 "S.W. 2d": "S.W.2d",
                 "S.W. 3d": "S.W.3d",
+                "S.W. Rep.": "S.W.",
                 "SW": "S.W.",
                 "SW 2d": "S.W.2d",
                 "SW 3d": "S.W.3d",
                 "SW2D": "S.W.2d",
                 "SW2d": "S.W.2d",
                 "SW3D": "S.W.3d",
-                "SW3d": "S.W.3d",
-                "S. W. Rep.": "S.W."
+                "SW3d": "S.W.3d"
             }
         }
     ],
@@ -12186,6 +12367,7 @@
             ],
             "name": "Sandford's Chancery Reports",
             "variations": {
+                "Sand. Ch. Rep.": "Sand. Ch.",
                 "Sand.Chy.": "Sand. Ch.",
                 "Sandf.Ch.": "Sand. Ch.",
                 "Sandf.Ch.(N.Y.)": "Sand. Ch.",
@@ -12206,7 +12388,9 @@
                 "us:ny;superior.court"
             ],
             "name": "Sandford's Reports (3-7 New York Superior)",
-            "variations": {}
+            "variations": {
+                "Sandf. Rep.": "Sandf."
+            }
         }
     ],
     "Sarat. Ch. Sent.": [
@@ -12263,7 +12447,8 @@
             "name": "Illinois Reports, Scammon",
             "variations": {
                 "Ill.(Scam.)": "Scam.",
-                "Sc.": "Scam."
+                "Sc.": "Scam.",
+                "Scam. Rep.": "Scam."
             }
         }
     ],
@@ -12389,8 +12574,8 @@
             "variations": {
                 "Ken.Dec.": "Sneed",
                 "Ky.(Sneed)": "Sneed",
-                "Sneed Dec.": "Sneed",
-                "Sneed (Ky)": "Sneed"
+                "Sneed (Ky)": "Sneed",
+                "Sneed Dec.": "Sneed"
             }
         },
         {
@@ -12440,11 +12625,11 @@
                 "So. Rep. 3d": "So. 3d",
                 "So.2d": "So. 2d",
                 "So.3d": "So. 3d",
+                "Sou. Rep.": "So.",
                 "South.": "So.",
-                "South.2d": "So. 2d",
-                "South.3d": "So. 3d",
                 "South. Rep.": "So.",
-                "Sou. Rep.": "So."
+                "South.2d": "So. 2d",
+                "South.3d": "So. 3d"
             }
         }
     ],
@@ -12584,6 +12769,7 @@
             ],
             "name": "Alabama Reports, Stewart",
             "variations": {
+                "Stew. Rep.": "Stew.",
                 "Stewart": "Stew."
             }
         }
@@ -12638,7 +12824,8 @@
             ],
             "name": "Storey's Reports (Del.)",
             "variations": {
-                "Sto.": "Storey"
+                "Sto.": "Storey",
+                "Sto. Rep.": "Storey"
             }
         }
     ],
@@ -12653,7 +12840,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Story's United States Circuit Court Reports",
-            "variations": {}
+            "variations": {
+                "Story Rep.": "Story"
+            }
         }
     ],
     "Strob.": [
@@ -12705,7 +12894,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Sumner's United States (US) Circuit Court Reports",
-            "variations": {}
+            "variations": {
+                "Sumn. Rep.": "Sumn."
+            }
         }
     ],
     "Swan": [
@@ -12742,6 +12933,7 @@
             "variations": {
                 "Ky.(T.B.Monroe)": "T.B. Mon.",
                 "Mon.": "T.B. Mon.",
+                "Mon. Rep.": "T.B. Mon.",
                 "Mon.T.B.": "T.B. Mon.",
                 "T.B.Mon.(Ky.)": "T.B. Mon."
             }
@@ -12900,8 +13092,7 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
-            "mlz_jurisdiction": [
-            ],
+            "mlz_jurisdiction": [],
             "name": "Tax Notes Today",
             "variations": {}
         }
@@ -13087,7 +13278,9 @@
             ],
             "name": "Tennessee Reports",
             "variations": {
-                "Ten.": "Tenn."
+                "Ten.": "Tenn.",
+                "Ten. Rep.": "Tenn.",
+                "Tenn. Rep.": "Tenn."
             }
         }
     ],
@@ -13159,7 +13352,8 @@
             ],
             "name": "Terry's Reports (Delaware)",
             "variations": {
-                "Ter.": "Terry"
+                "Ter.": "Terry",
+                "Ter. Rep.": "Terry"
             }
         }
     ],
@@ -13177,8 +13371,10 @@
             ],
             "name": "Texas Reports",
             "variations": {
+                "Tex. Rep.": "Tex.",
                 "Tex.S.Ct.": "Tex.",
-                "Texas": "Tex."
+                "Texas": "Tex.",
+                "Texas Rep.": "Tex."
             }
         }
     ],
@@ -13532,6 +13728,7 @@
             "variations": {
                 "Otto": "U.S.",
                 "U. S.": "U.S.",
+                "U. S. Rep.": "U.S.",
                 "U.S.S.C.Rep.": "U.S.",
                 "US": "U.S.",
                 "USSCR": "U.S."
@@ -13943,6 +14140,7 @@
             "name": "Virginia Reports",
             "variations": {
                 "V.": "Va.",
+                "Va. Rep.": "Va.",
                 "Virg.": "Va."
             }
         }
@@ -14129,7 +14327,9 @@
             "name": "Vermont Reports",
             "variations": {
                 "V.R.": "Vt.",
-                "Verm.": "Vt."
+                "Verm.": "Vt.",
+                "Verm. Rep.": "Vt.",
+                "Vt. Rep.": "Vt."
             }
         }
     ],
@@ -14148,8 +14348,8 @@
             "name": "West Virginia Reports",
             "variations": {
                 "W.V.": "W. Va.",
-                "West Va.": "W. Va.",
-                "W.Va.": "W. Va."
+                "W.Va.": "W. Va.",
+                "West Va.": "W. Va."
             }
         }
     ],
@@ -14241,6 +14441,7 @@
             "name": "W.W. Harrington's Reports",
             "variations": {
                 "Harr.": "W.W. Harr.",
+                "Harr. Rep.": "W.W. Harr.",
                 "W.W. Harr. Del": "W.W. Harr.",
                 "W.W.H": "W.W. Harr.",
                 "W.W.Harr.": "W.W. Harr."
@@ -14535,6 +14736,7 @@
             "variations": {
                 "Va.(Wash.)": "Wash.",
                 "Wash. (VA)": "Wash.",
+                "Wash. Rep.": "Wash.",
                 "Wash.Va.": "Wash."
             }
         },
@@ -14561,6 +14763,7 @@
                 "WASH": "Wash.",
                 "Wa.": "Wash.",
                 "Wa.2d": "Wash. 2d",
+                "Wash. Rep.": "Wash.",
                 "Wash.2d": "Wash. 2d",
                 "Wash.St.": "Wash.",
                 "Wn": "Wash.",
@@ -14603,7 +14806,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Washington's United States (US) Circuit Court Reports",
-            "variations": {}
+            "variations": {
+                "Wash. C. C. Rep.": "Wash. C. C."
+            }
         }
     ],
     "Wash. Co.": [
@@ -14622,6 +14827,7 @@
             "variations": {
                 "Wash. Co (Pa.)": "Wash. Co.",
                 "Wash. Co. R.": "Wash. Co.",
+                "Wash. Co. Rep.": "Wash. Co.",
                 "Wash. Co. Repr.": "Wash. Co.",
                 "Wash.Co.": "Wash. Co."
             }
@@ -14645,6 +14851,7 @@
                 "W.T.": "Wash. Terr.",
                 "W.Ty.R.": "Wash. Terr.",
                 "Wash.": "Wash. Terr.",
+                "Wash. Rep.": "Wash. Terr.",
                 "Wash.T.": "Wash. Terr.",
                 "Wash.Ter.": "Wash. Terr.",
                 "Wash.Ter.N.S.": "Wash. Terr.",
@@ -14669,6 +14876,7 @@
             "name": "Pennsylvania State Reports, Watts",
             "variations": {
                 "Wa.": "Watts",
+                "Watts Rep.": "Watts",
                 "Watts(Pa.)": "Watts"
             }
         }
@@ -14742,8 +14950,10 @@
             "name": "Wendell's Reports",
             "variations": {
                 "W.": "Wend.",
+                "Wend. Rep.": "Wend.",
                 "Wend.(N.Y.)": "Wend.",
-                "Wendell": "Wend."
+                "Wendell": "Wend.",
+                "Wendell Rep.": "Wend."
             }
         }
     ],
@@ -14792,7 +15002,10 @@
             "name": "Pennsylvania State Reports, Wharton",
             "variations": {
                 "Wh.": "Whart.",
+                "Wh. Rep.": "Whart.",
                 "Whar.": "Whart.",
+                "Whar. Rep.": "Whart.",
+                "Whart. Rep.": "Whart.",
                 "Whart.Pa.": "Whart.",
                 "Wharton": "Whart."
             }
@@ -14814,7 +15027,9 @@
             "notes": "Note that Wheaton was not a Free Law advocate. From Georgia v. Public.Resources.Org (SCOTUS, 2020, internal citations omitted): \"In this Court’s first copyright case, Wheaton v. Peters, the Court’s third Reporter of Decisions, Wheaton, sued the fourth, Peters, unsuccessfully asserting a copyright interest in the Justices’ opinions. In Wheaton’s view, the opinions 'must have belonged to some one' because 'they were new, original,' and much more 'elaborate' than law or custom required. Wheaton argued that the Justices were the authors and had assigned their ownership interests to him through a tacit 'gift.'\"",
             "variations": {
                 "U.S.(Wheat.)": "Wheat.",
-                "Wheaton": "Wheat."
+                "Wheat. Rep.": "Wheat.",
+                "Wheaton": "Wheat.",
+                "Wheaton Rep.": "Wheat."
             }
         }
     ],
@@ -14878,7 +15093,9 @@
                 "us:tx;supreme.court"
             ],
             "name": "Condensed Reports of Decisions in Civil Causes in the Court of Appeals of Texas (Wilson)",
-            "variations": {}
+            "variations": {
+                "Wilson Rep.": "Wilson"
+            }
         }
     ],
     "Wilson's Red Book": [
@@ -14935,6 +15152,7 @@
                 "W.": "Wis.",
                 "W.2d": "Wis. 2d",
                 "W.R.": "Wis.",
+                "Wis. Rep.": "Wis.",
                 "Wis.2d": "Wis. 2d"
             }
         }
@@ -15022,7 +15240,8 @@
             "name": "Pennsylvania State Reports, Yeates",
             "variations": {
                 "Y.": "Yeates",
-                "Yea.": "Yeates"
+                "Yea.": "Yeates",
+                "Yeates Rep.": "Yeates"
             }
         }
     ],
@@ -15041,7 +15260,9 @@
             "name": "Tennessee Reports, Yerger",
             "variations": {
                 "Tenn.(Yer.)": "Yer.",
+                "Yer. Rep.": "Yer.",
                 "Yerg.": "Yer.",
+                "Yerg. Rep.": "Yer.",
                 "Yerg.(Tenn.)": "Yer."
             }
         }
