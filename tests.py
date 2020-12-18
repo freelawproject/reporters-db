@@ -1,5 +1,9 @@
+import json
+import os
 import re
 import datetime
+from difflib import context_diff
+from pathlib import Path
 import six
 from reporters_db import (
     REPORTERS,
@@ -239,6 +243,34 @@ class ConstantsTest(TestCase):
                             msg="It appears that edition %s ends before it "
                             "starts." % k,
                         )
+
+    def test_json_format(self):
+        """Does format of reporters.json match json.dumps(json.loads(), sort_keys=True)? """
+        json_path = (
+            Path(__file__).parent / "reporters_db" / "data" / "reporters.json"
+        )
+        json_str = json_path.read_text()
+        reformatted = json.dumps(
+            json.loads(json_str),
+            indent=4,
+            ensure_ascii=False,
+            sort_keys=True,
+        )
+        reformatted += "\n"
+        if json_str != reformatted:
+            if os.environ.get("FIX_JSON"):
+                json_path.write_text(reformatted)
+            else:
+                diff = context_diff(
+                    json_str.splitlines(),
+                    reformatted.splitlines(),
+                    fromfile="reporters.json",
+                    tofile="expected.json",
+                )
+                self.fail(
+                    "reporters.json needs reformatting. Run with env var FIX_JSON=1 to update the file automatically. Diff of actual vs. expected:\n"
+                    + "\n".join(diff)
+                )
 
 
 if __name__ == "__main__":
