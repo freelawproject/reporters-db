@@ -1724,7 +1724,7 @@
             "mlz_jurisdiction": [
                 "us:ny;superior.court"
             ],
-            "name": "Bosworth, New York Superior Court Reports, vols. 14-23",
+            "name": "Bosworth's Reports (14-23 New York Superior)",
             "variations": {}
         }
     ],
@@ -3997,6 +3997,22 @@
             }
         }
     ],
+    "Duer": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Duer": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;superior.court"
+            ],
+            "name": "Duer's Reports (8-13 New York Superior)",
+            "variations": {}
+        }
+    ],
     "Duv.": [
         {
             "cite_type": "state",
@@ -5465,11 +5481,11 @@
             "variations": {}
         }
     ],
-    "Hall.": [
+    "Hall": [
         {
             "cite_type": "state",
             "editions": {
-                "Hall.": {
+                "Hall": {
                     "end": null,
                     "start": "1750-01-01T00:00:00"
                 }
@@ -5477,9 +5493,14 @@
             "mlz_jurisdiction": [
                 "us:ny;superior.court"
             ],
-            "name": "Hall's New York Superior Court Reports",
+            "name": "Hall's Reports (1-2 New York Superior)",
             "variations": {
-                "Hall": "Hall."
+                "Hall R.": "Hall",
+                "Hall Rep.": "Hall",
+                "Hall's R.": "Hall",
+                "Hall's Sup. Court Rep.": "Hall",
+                "Hall's Sup. Ct. R.": "Hall",
+                "Hall.": "Hall"
             }
         }
     ],
@@ -6740,6 +6761,24 @@
                 "Jones L.": "Jones",
                 "Jones N.C.": "Jones",
                 "N.C.(Jones)": "Jones"
+            }
+        }
+    ],
+    "Jones & S.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Jones & S.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;superior.court"
+            ],
+            "name": "Jones & Spencer's Reports (33-61 New York Superior)",
+            "variations": {
+                "Jones & Spencer": "Jones & S."
             }
         }
     ],
@@ -9531,6 +9570,23 @@
             }
         }
     ],
+    "N.Y. Super. Ct.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Super. Ct.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://catalog.hathitrust.org/Record/008606745",
+            "mlz_jurisdiction": [
+                "us:ny;superior.court"
+            ],
+            "name": "Reports of Cases Argued and Determined in the Superior Court of the City of New York",
+            "variations": {}
+        }
+    ],
     "N.Y.L.J.": [
         {
             "cite_type": "state",
@@ -12029,6 +12085,20 @@
                 "Robinson": "Rob.",
                 "Va.(Rob.)": "Rob."
             }
+        },
+        {
+            "cite_type": "state",
+            "editions": {
+                "Rob.": {
+                    "end": "1868-12-31T00:00:00",
+                    "start": "1863-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;superior.court"
+            ],
+            "name": "Robertson's Reports (24-30 New York Superior)",
+            "variations": {}
         }
     ],
     "Robards": [
@@ -12915,6 +12985,22 @@
             "variations": {
                 "Tenn.(Swan)": "Swan"
             }
+        }
+    ],
+    "Sweeny": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Sweeny": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;superior.court"
+            ],
+            "name": "Sweeny's Reports (31-32 New York Superior)",
+            "variations": {}
         }
     ],
     "T.B. Mon.": [
