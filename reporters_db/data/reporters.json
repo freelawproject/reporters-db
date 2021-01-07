@@ -10276,6 +10276,29 @@
             "variations": {
                 "Ohio Rep.": "Ohio"
             }
+        },
+        {
+            "cite_format": "{volume}-{reporter}-{page}",
+            "cite_type": "neutral",
+            "editions": {
+                "Ohio": {
+                    "end": null,
+                    "start": "2002-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "2017-Ohio-5699"
+            ],
+            "mlz_jurisdiction": [
+                "us:oh;supreme.court"
+            ],
+            "name": "Ohio Neutral Citation",
+            "regexes": [
+                "(?P<volume>[12]\\d{3})-(?P<reporter>Ohio)-(?P<page>\\d{1,5})"
+            ],
+            "variations": {
+                "OHIO": "Ohio"
+            }
         }
     ],
     "Ohio App.": [
@@ -14981,7 +15004,7 @@
             ],
             "name": "Pennsylvania State Reports, Watts & Sergeant",
             "variations": {
-                "W.& S.": "Watts & Serg.",
+                "W. & S.": "Watts & Serg.",
                 "Watts & S.": "Watts & Serg."
             }
         }
