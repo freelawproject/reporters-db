@@ -10137,33 +10137,6 @@
             }
         }
     ],
-    "OH": [
-        {
-            "cite_format": "{volume}-{reporter}-{page}",
-            "cite_type": "neutral",
-            "editions": {
-                "OH": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "2017-Ohio-5699"
-            ],
-            "mlz_jurisdiction": [
-                "us:oh;supreme.court"
-            ],
-            "name": "Ohio Neutral Citation",
-            "regexes": [
-                "(?P<volume>[12]\\d{3})-(?P<reporter>Ohio)-(?P<page>\\d{1,5})"
-            ],
-            "variations": {
-                "OHIO": "OH",
-                "Ohio": "OH",
-                "Ohio Rep.": "OH"
-            }
-        }
-    ],
     "OK": [
         {
             "cite_type": "neutral",
