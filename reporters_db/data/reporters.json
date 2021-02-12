@@ -1639,6 +1639,22 @@
             }
         }
     ],
+    "Bland": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Bland": {
+                    "end": "1832-12-31T00:00:00",
+                    "start": "1797-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:md;court.appeals"
+            ],
+            "name": "Reports of cases decided in the High court of chancery of Maryland (Bland, Chancellor)",
+            "variations": {}
+        }
+    ],
     "Blatchf.": [
         {
             "cite_type": "federal",
@@ -3322,13 +3338,27 @@
             "mlz_jurisdiction": [
                 "us:c;court.claims"
             ],
-            "name": "Court of Claims Reports",
+            "name": "Court of Claims Reports (United States)",
             "variations": {
                 "C. Cls.": "Ct. Cl.",
                 "Court Cl.": "Ct. Cl.",
                 "Ct. Cl. Rep.": "Ct. Cl.",
                 "Ct.Cl.": "Ct. Cl."
             }
+        },
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Ct. Cl.": {
+                    "end": null,
+                    "start": "1941-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:wv;court.claims"
+            ],
+            "name": "Report of the Court of Claims (West Virginia)",
+            "variations": {}
         }
     ],
     "Ct. Cust.": [
@@ -8454,6 +8484,22 @@
             }
         }
     ],
+    "Md. Ch.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Md. Ch.": {
+                    "end": "1853-12-31T00:00:00",
+                    "start": "1841-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:md;court.appeals"
+            ],
+            "name": "Reports of cases decided in the High court of chancery of Maryland",
+            "variations": {}
+        }
+    ],
     "Me.": [
         {
             "cite_type": "state",
@@ -12621,6 +12667,31 @@
                 "Smith": "Smith & H.",
                 "Smith (TN)": "Smith & H.",
                 "Smith (Tenn.)": "Smith & H."
+            }
+        }
+    ],
+    "Smith (N. H.)": [
+        {
+            "cite_format": "{reporter} {page}",
+            "cite_type": "state",
+            "editions": {
+                "Smith (N. H.)": {
+                    "end": "1815-12-31T00:00:00",
+                    "start": "1796-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Twombly v. Baker, Smith (N. H.) 123"
+            ],
+            "mlz_jurisdiction": [
+                "us:nh;supreme.court",
+                "us:nh;superior.court"
+            ],
+            "name": "Decisions of the Superior and Supreme Courts of New Hampshire",
+            "notes": "Single volume, typically cited without volume number",
+            "variations": {
+                "Smith (N.H.)": "Smith (N. H.)",
+                "Smith's N. H. Reports": "Smith (N. H.)"
             }
         }
     ],
