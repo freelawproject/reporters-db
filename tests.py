@@ -210,7 +210,7 @@ class ConstantsTest(TestCase):
         """
 
         def cleaner(s):
-            return re.sub(r"[^ 0-9a-zA-Z.,\-'&()]", "", s.strip())
+            return re.sub(r"[^ 0-9a-zA-Z.,\-'&()\[\]]", "", s.strip())
 
         msg = "Got bad punctuation in: %s"
         for reporter_abbv, reporter_list in REPORTERS.items():
