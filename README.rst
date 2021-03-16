@@ -225,8 +225,6 @@ choice.
 Tests
 =====
 
-|Build Status|
-
 We have a few tests that make sure things haven't completely broken.
 They are automatically run by Travis CI each time a push is completed
 and should be run by developers as well before pushing. They can be run
@@ -302,6 +300,3 @@ easy and safe to incorporate in your own libraries.
 
 Pull and feature requests welcome. Online editing in Github is possible
 (and easy!)
-
-.. |Build Status| image:: https://travis-ci.org/freelawproject/reporters-db.svg?branch=master
-   :target: https://travis-ci.org/freelawproject/reporters-db
