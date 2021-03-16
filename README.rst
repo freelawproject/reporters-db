@@ -266,10 +266,14 @@ Past Versions
 
 - 1.0.20: Adds tax courts
 
+- 2.0.0: Adds 273 additional reporters, 443 new variations, and 301 new editions
+
+
 Current Version
 ---------------
 
-- 2.0.0: Adds 273 additional reporters, 443 new variations, and 301 new editions
+- 2.0.6: Merges in main reporters from Harvard's LIL. Migrates to Github Actions from Travis.
+
 
 Future Versions
 ---------------
