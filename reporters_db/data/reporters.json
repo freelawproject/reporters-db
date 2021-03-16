@@ -298,6 +298,24 @@
             "variations": {}
         }
     ],
+    "Abb. Ct. App.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Abb. Ct. App.": {
+                    "end": "1869-12-31T00:00:00",
+                    "start": "1807-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Abbott's Court of Appeals Decisions",
+            "variations": {
+                "Abb. Ct. App. Dec.": "Abb. Ct. App."
+            }
+        }
+    ],
     "Abb. N. Cas.": [
         {
             "cite_type": "state",
@@ -356,6 +374,28 @@
             },
             "mlz_jurisdiction": [],
             "name": "CCH Accommodating Disabilities Decisions",
+            "variations": {}
+        }
+    ],
+    "Add.": [
+        {
+            "cite_format": "{reporter} {page}",
+            "cite_type": "state",
+            "editions": {
+                "Add.": {
+                    "end": "1799-12-31T00:00:00",
+                    "start": "1791-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Graham v. Goudy, Add. 55"
+            ],
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court",
+                "us:pa;superior.court"
+            ],
+            "name": "Reports of cases of the State of Pennsylvania by Alexander Addison",
+            "notes": "Single volume, typically cited without volume number",
             "variations": {}
         }
     ],
@@ -754,12 +794,16 @@
             "cite_type": "state",
             "editions": {
                 "Am. Samoa": {
-                    "end": null,
+                    "end": "1975-12-31T00:00:00",
                     "start": "1900-01-01T00:00:00"
                 },
                 "Am. Samoa 2d": {
+                    "end": "1999-12-31T00:00:00",
+                    "start": "1978-01-01T00:00:00"
+                },
+                "Am. Samoa 3d": {
                     "end": null,
-                    "start": "1900-01-01T00:00:00"
+                    "start": "1993-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -789,6 +833,20 @@
                 "Am.St.R.": "Am. St. Rep.",
                 "Am.St.Rep.": "Am. St. Rep."
             }
+        }
+    ],
+    "Am. Tribal Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Am. Tribal Law": {
+                    "end": null,
+                    "start": "1997-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "West's American Tribal Law Reporter",
+            "variations": {}
         }
     ],
     "Amer. L. Rev.": [
@@ -3523,6 +3581,22 @@
             "variations": {
                 "Daily Journal D.A.R.": "D.A.R."
             }
+        }
+    ],
+    "D.C.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "D.C.": {
+                    "end": "1893-12-31T00:00:00",
+                    "start": "1801-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:dc;court.appeals"
+            ],
+            "name": "District of Columbia Reports",
+            "variations": {}
         }
     ],
     "Daily Journal DAR": [
@@ -8248,6 +8322,22 @@
             "variations": {}
         }
     ],
+    "Mass. L. Rptr.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mass. L. Rptr.": {
+                    "end": null,
+                    "start": "1993-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;superior.court"
+            ],
+            "name": "Massachusetts Law Reporter",
+            "variations": {}
+        }
+    ],
     "Mass. Supp.": [
         {
             "cite_type": "state",
@@ -8673,13 +8763,13 @@
             }
         }
     ],
-    "Mills.": [
+    "Mills Surr.": [
         {
             "cite_type": "state",
             "editions": {
-                "Mills.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
+                "Mills Surr.": {
+                    "end": "1917-12-31T00:00:00",
+                    "start": "1899-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -8687,8 +8777,9 @@
             ],
             "name": "Mills' Reports, New York Surrogate Court",
             "variations": {
-                "Mills": "Mills.",
-                "mills": "Mills."
+                "Mills": "Mills Surr.",
+                "Mills.": "Mills Surr.",
+                "mills": "Mills Surr."
             }
         }
     ],
@@ -9537,13 +9628,13 @@
             }
         }
     ],
-    "N.Y. Crim. R.": [
+    "N.Y. Crim.": [
         {
             "cite_type": "state",
             "editions": {
-                "N.Y. Crim. R.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
+                "N.Y. Crim.": {
+                    "end": "1924-12-31T00:00:00",
+                    "start": "1810-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -9551,10 +9642,11 @@
             ],
             "name": "New York Criminal Reports",
             "variations": {
-                "N.Y. Cr. R.": "N.Y. Crim. R.",
-                "N.Y. Cr. Rep.": "N.Y. Crim. R.",
-                "N.Y. Crim. Rep.": "N.Y. Crim. R.",
-                "N.Y.Crim.R.": "N.Y. Crim. R."
+                "N.Y. Cr. R.": "N.Y. Crim.",
+                "N.Y. Cr. Rep.": "N.Y. Crim.",
+                "N.Y. Crim. R.": "N.Y. Crim.",
+                "N.Y. Crim. Rep.": "N.Y. Crim.",
+                "N.Y.Crim.R.": "N.Y. Crim."
             }
         }
     ],
@@ -9588,6 +9680,9 @@
             "mlz_jurisdiction": [],
             "name": "New York State Reporter",
             "variations": {
+                "N.Y. St. R.": "N.Y. St. Rep.",
+                "N.Y. St. Rep'r": "N.Y. St. Rep.",
+                "N.Y. St. Repr.": "N.Y. St. Rep.",
                 "N.Y.St.Rep.": "N.Y. St. Rep.",
                 "St. Rep.": "N.Y. St. Rep.",
                 "St.Rep.": "N.Y. St. Rep."
@@ -10647,7 +10742,13 @@
                 "O.N.P.N.S.": "Ohio N.P. (n.s.)",
                 "Oh.N.P.": "Ohio N.P.",
                 "Oh.N.P.(N.S).": "Ohio N.P. (n.s.)",
-                "Ohio N.P.N.S.": "Ohio N.P. (n.s.)"
+                "Ohio N.P.N.S.": "Ohio N.P. (n.s.)",
+                "Ohio Nisi Prius": "Ohio N.P.",
+                "Ohio Nisi Prius (N. S.)": "Ohio N.P. (n.s.)",
+                "Ohio Nisi Prius (NS)": "Ohio N.P. (n.s.)",
+                "Ohio Nisi Prius Decisions": "Ohio N.P.",
+                "Ohio Nisi Prius Reports (N. S.)": "Ohio N.P. (n.s.)",
+                "Ohio Nisi Prius [N. S.]": "Ohio N.P. (n.s.)"
             }
         }
     ],
@@ -11030,12 +11131,30 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:c1:pr.d;district.court"
+                "us:pr;supreme.court"
             ],
             "name": "Decisiones de Puerto Rico",
             "variations": {
                 "D.P.R.": "P.R. Dec.",
                 "DPR": "P.R. Dec."
+            }
+        }
+    ],
+    "P.R. Fed.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "P.R. Fed.": {
+                    "end": "1924-12-31T00:00:00",
+                    "start": "1900-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c1:pr.d;district.court"
+            ],
+            "name": "Porto Rico Federal Reports",
+            "variations": {
+                "P.R. Fed. Rep.": "P.R. Fed."
             }
         }
     ],
@@ -11049,7 +11168,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:c1:pr.d;district.court"
+                "us:pr;supreme.court"
             ],
             "name": "Official Translations of the Opinions of the Supreme Court of Puerto Rico",
             "variations": {}
@@ -11065,7 +11184,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:c1:pr.d;district.court"
+                "us:pr;supreme.court"
             ],
             "name": "Sentencias del Tribunal Supremo de Puerto Rico",
             "variations": {}
@@ -11270,6 +11389,10 @@
                 "Pa. D. & C.4th": {
                     "end": null,
                     "start": "1921-01-01T00:00:00"
+                },
+                "Pa. D. & C.5th": {
+                    "end": null,
+                    "start": "2006-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -11277,6 +11400,10 @@
             ],
             "name": "Pennsylvania District and County Reports",
             "variations": {
+                "Pa. D. & C. 2d": "Pa. D. & C.2d",
+                "Pa. D. & C. 3d": "Pa. D. & C.3d",
+                "Pa. D. & C. 4th": "Pa. D. & C.4th",
+                "Pa. D. & C. 5th": "Pa. D. & C.5th",
                 "Pa.Dist.& C.Rep.": "Pa. D. & C.",
                 "Pa.Dist.& Co.": "Pa. D. & C."
             }
@@ -12292,14 +12419,30 @@
             "cite_type": "state",
             "editions": {
                 "S.C. Eq.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
+                    "end": "1868-12-31T00:00:00",
+                    "start": "1784-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
                 "us:sc;supreme.court"
             ],
             "name": "South Carolina Equity Reports",
+            "variations": {}
+        }
+    ],
+    "S.C.L.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "S.C.L.": {
+                    "end": "1868-12-31T00:00:00",
+                    "start": "1783-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:sc;supreme.court"
+            ],
+            "name": "South Carolina Law Reports",
             "variations": {}
         }
     ],
@@ -13184,6 +13327,22 @@
             }
         }
     ],
+    "T.C.A.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "T.C.A.": {
+                    "end": null,
+                    "start": "1995-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pr;court.appeals"
+            ],
+            "name": "Decisiones del Tribunal de Circuito de Apelaciones de Puerto Rico (Decisions of the Circuit Court of Appeals of Puerto Rico)",
+            "variations": {}
+        }
+    ],
     "T.C.M.": [
         {
             "cite_type": "specialty",
@@ -13656,6 +13815,22 @@
             "variations": {
                 "Tex. Bankr. Ct. Rep.": "Tex.Bankr.Ct.Rep."
             }
+        }
+    ],
+    "Thomp. & Cook": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Thomp. & Cook": {
+                    "end": "1875-12-31T00:00:00",
+                    "start": "1873-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;superior.court"
+            ],
+            "name": "Thompson & Cook's Supreme Court Reports",
+            "variations": {}
         }
     ],
     "Thompson": [
