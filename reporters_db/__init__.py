@@ -7,6 +7,7 @@ from .utils import (
     names_to_abbreviations,
     suck_out_variations_only,
     suck_out_formats,
+    process_variables,
 )
 
 
@@ -32,6 +33,10 @@ with open(os.path.join(db_root, "data", "state_abbreviations.json")) as f:
 
 with open(os.path.join(db_root, "data", "case_name_abbreviations.json")) as f:
     CASE_NAME_ABBREVIATIONS = json.load(f)
+
+
+with open(os.path.join(db_root, "data", "variables.json")) as f:
+    VARIABLES = process_variables(json.load(f))
 
 
 VARIATIONS_ONLY = suck_out_variations_only(REPORTERS)

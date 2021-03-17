@@ -10,8 +10,11 @@ from reporters_db import (
     VARIATIONS_ONLY,
     EDITIONS,
     NAMES_TO_EDITIONS,
+    VARIABLES,
 )
 from unittest import TestCase
+
+from reporters_db.utils import substitute_editions, recursive_substitute
 
 VALID_CITE_TYPES = (
     "federal",
@@ -239,31 +242,99 @@ class ConstantsTest(TestCase):
 
     def test_json_format(self):
         """Does format of reporters.json match json.dumps(json.loads(), sort_keys=True)? """
-        json_path = (
-            Path(__file__).parent / "reporters_db" / "data" / "reporters.json"
-        )
-        json_str = json_path.read_text()
-        reformatted = json.dumps(
-            json.loads(json_str),
-            indent=4,
-            ensure_ascii=False,
-            sort_keys=True,
-        )
-        reformatted += "\n"
-        if json_str != reformatted:
-            if os.environ.get("FIX_JSON"):
-                json_path.write_text(reformatted)
-            else:
-                diff = context_diff(
-                    json_str.splitlines(),
-                    reformatted.splitlines(),
-                    fromfile="reporters.json",
-                    tofile="expected.json",
+        for file_name in ("reporters.json", "variables.json"):
+            with self.subTest(file_name=file_name):
+                json_path = (
+                    Path(__file__).parent / "reporters_db" / "data" / file_name
                 )
-                self.fail(
-                    "reporters.json needs reformatting. Run with env var FIX_JSON=1 to update the file automatically. Diff of actual vs. expected:\n"
-                    + "\n".join(diff)
+                json_str = json_path.read_text()
+                reformatted = json.dumps(
+                    json.loads(json_str),
+                    indent=4,
+                    ensure_ascii=False,
+                    sort_keys=True,
                 )
+                reformatted += "\n"
+                if json_str != reformatted:
+                    if os.environ.get("FIX_JSON"):
+                        json_path.write_text(reformatted)
+                    else:
+                        diff = context_diff(
+                            json_str.splitlines(),
+                            reformatted.splitlines(),
+                            fromfile="reporters.json",
+                            tofile="expected.json",
+                        )
+                        self.fail(
+                            ("%s needs reformatting. " % file_name)
+                            + "Run with env var FIX_JSON=1 to update the file automatically. "
+                            + "Diff of actual vs. expected:\n"
+                            + "\n".join(diff)
+                        )
+
+    def test_regexes(self):
+        """Do custom regexes and examples match up?"""
+        for reporter_abbv, reporter_list, reporter_data in iter_reporters():
+            examples = reporter_data.get("examples", [])
+            matched_examples = set()
+            custom_regexes = {}
+
+            # check that each custom regex matches at least one example
+            for edition_abbv, edition in reporter_data["editions"].items():
+                if not edition.get("regexes"):
+                    continue
+                with self.subTest(
+                    "Check edition regexes", edition=edition_abbv
+                ):
+                    for edition_regex in edition["regexes"]:
+                        full_regex = recursive_substitute(
+                            edition_regex, VARIABLES
+                        )
+                        regexes = substitute_editions(
+                            full_regex,
+                            edition_abbv,
+                            reporter_data["variations"],
+                        )
+                        custom_regexes[edition_regex] = regexes
+                        has_match = False
+                        for example in examples:
+                            for regex in regexes:
+                                if re.match(regex + "$", example):
+                                    has_match = True
+                                    matched_examples.add(example)
+                                    break
+                        if not has_match:
+                            try:
+                                import exrex
+
+                                candidate = (
+                                    'Possible example: "%s"'
+                                    % exrex.getone(regexes[0])
+                                )
+                            except ImportError:
+                                candidate = "Run 'pip install exrex' to generate a candidate example"
+                            self.fail(
+                                "Reporter '%s' has no match in 'examples' for custom regex '%s'. Expanded regexes: %s. %s"
+                                % (
+                                    reporter_abbv,
+                                    edition_regex,
+                                    regexes,
+                                    candidate,
+                                )
+                            )
+
+            # check that each example is matched by at least one regex
+            if custom_regexes:
+                with self.subTest(
+                    "Check all examples matched by custom regex",
+                    reporter=reporter_abbv,
+                ):
+                    self.assertEqual(
+                        set(examples),
+                        matched_examples,
+                        "Not all examples matched. If custom regexes are provided, all examples should match. Regexes tried: %s"
+                        % custom_regexes,
+                    )
 
 
 if __name__ == "__main__":

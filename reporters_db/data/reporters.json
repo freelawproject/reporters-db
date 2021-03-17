@@ -1401,15 +1401,22 @@
             "editions": {
                 "Bankr. L. Rep.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_paragraph"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Bankr. L. Rep. P12,345",
+                "Bankr. L. Rep. P 80679",
+                "Bankr. L. Rep. (CCH) ¶ 67,488",
+                "Bankr. L. Rep. (C.C.H.) ¶67,049"
+            ],
             "mlz_jurisdiction": [],
             "name": "Bankruptcy Law Reporter",
-            "regexes": [
-                "(?P<reporter>Bankr\\. L\\. Rep\\. \\(CCH\\)) (?P<page>P((\\d){1,3})+([,]?[\\d]{3}))"
-            ],
             "variations": {
+                "Bankr. L. Rep. (C.C.H.)": "Bankr. L. Rep.",
                 "Bankr. L. Rep. (CCH)": "Bankr. L. Rep."
             }
         }
@@ -3260,6 +3267,9 @@
             "editions": {
                 "Cont. Cas. Fed.": {
                     "end": null,
+                    "regexes": [
+                        "$volume $reporter $paragraph_marker_optional$page_with_commas"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -3268,9 +3278,6 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Contract Cases, Federal",
-            "regexes": [
-                "(?P<volume>\\d{1,4}(-\\d{1,})?) (?P<reporter>Cont. Cas. Fed. \\(CCH\\)) (?P<page>P((\\d){1,3})+([,]?[\\d]{3}))"
-            ],
             "variations": {
                 "Cont. Cas. Fed. (CCH)": "Cont. Cas. Fed.",
                 "Cont.Cas.Fed. (CCH)": "Cont. Cas. Fed."
@@ -4251,16 +4258,23 @@
             "editions": {
                 "Empl. Prac. Dec. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$volume $reporter $paragraph_marker_optional$page_with_commas"
+                    ],
                     "start": "1971-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "42 Empl. Prac. Dec. (CCH) par. 36,973",
+                "65 Empl. Prac. Dec. (CCH) P 43,243",
+                "23 Empl. Prac. Dec. (CCH) ¶30986",
+                "53 Empl Prac Dec [CCH] ¶ 39,911"
+            ],
             "mlz_jurisdiction": [],
             "name": "Employment Practices Decisions",
             "publisher": "Commerce Clearing House",
-            "regexes": [
-                "(?P<volume>\\d{1,4}) (?P<reporter>Empl\\. Prac\\. Dec\\. \\(CCH\\)) (?P<page>P((\\d){1,3})+([,]?[\\d]{3}))"
-            ],
             "variations": {
+                "Empl Prac Dec [CCH]": "Empl. Prac. Dec. (CCH)",
                 "Empl. Prac. Dec.": "Empl. Prac. Dec. (CCH)",
                 "Empl. Prac.Dec.": "Empl. Prac. Dec. (CCH)"
             }
@@ -4667,6 +4681,9 @@
             "editions": {
                 "FED App.": {
                     "end": null,
+                    "regexes": [
+                        "$volume_year $reporter (?P<page>\\d{4}[nNpP]) \\(6th Cir\\.?\\)"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -4688,9 +4705,6 @@
             ],
             "name": "United States (US) Court of Appeals for the Sixth Circuit",
             "notes": "This is the only circuit known to us that uses this format.",
-            "regexes": [
-                "(?P<volume>\\d{4})\\s+(?P<reporter>FED App\\.)\\s+(?P<page>\\d{4}(N|P|n|p))\\s+\\(6th Cir\\.?\\)"
-            ],
             "variations": {}
         }
     ],
@@ -4996,15 +5010,21 @@
             "editions": {
                 "Fed. Sec. L. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_paragraph_with_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Fed. Sec. L. Rep. (CCH) par. 78,056",
+                "Fed. Sec. L. Rep. (CCH) ¶ 77,526",
+                "Fed Sec L Rep (CCH) ¶ 80,715"
+            ],
             "mlz_jurisdiction": [],
             "name": "Federal Securities Law Reporter (CCH)",
-            "regexes": [
-                "(?P<reporter>Fed\\. Sec\\. L\\. Rep\\. \\(CCH\\)) (?P<page>P((\\d){1,3})+([,]?[\\d]{3})([A-Z])?)"
-            ],
             "variations": {
+                "Fed Sec L Rep (CCH)": "Fed. Sec. L. Rep. (CCH)",
                 "Fed. Sec. L. Rep.": "Fed. Sec. L. Rep. (CCH)"
             }
         }
@@ -7386,20 +7406,20 @@
             "editions": {
                 "La.App. 1 Cir.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_louisiana"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "2009 1359R (La.App. 1 Cir. 05/10/10);"
+                "2009 1359R (La.App. 1 Cir. 05/10/10)"
             ],
             "mlz_jurisdiction": [
                 "us:la;supreme.court"
             ],
             "name": "Court of Appeal of Louisiana, First Circuit",
             "notes": "Occasionally the citation can have a letter at the end of the second string of numbers.",
-            "regexes": [
-                "(?P<volume>\\d{2,4})( |-)(?P<page>\\d{2,5}) (?P<reporter>\\(La.App. 1 Cir.) (?P<date_filed>\\d{1,2}\\/\\d{1,2}\\/\\d{2,4})\\)"
-            ],
             "variations": {}
         }
     ],
@@ -7409,16 +7429,19 @@
             "editions": {
                 "La.App. 2 Cir.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_louisiana"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2009 1359R (La.App. 2 Cir. 05/10/10)"
+            ],
             "mlz_jurisdiction": [
                 "us:la;supreme.court"
             ],
             "name": "Court of Appeal of Louisiana, Second Circuit",
-            "regexes": [
-                "(?P<volume>\\d{2,4})( |-)(?P<page>\\d{2,5}) (?P<reporter>\\(La.App. 2 Cir.) (?P<date_filed>\\d{1,2}\\/\\d{1,2}\\/\\d{2,4})\\)"
-            ],
             "variations": {}
         }
     ],
@@ -7428,16 +7451,19 @@
             "editions": {
                 "La.App. 3 Cir.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_louisiana"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2009 1359R (La.App. 3 Cir. 05/10/10)"
+            ],
             "mlz_jurisdiction": [
                 "us:la;supreme.court"
             ],
             "name": "Court of Appeal of Louisiana, Third Circuit",
-            "regexes": [
-                "(?P<volume>\\d{2,4})( |-)(?P<page>\\d{2,5}) (?P<reporter>\\(La.App. 3 Cir.) (?P<date_filed>\\d{1,2}\\/\\d{1,2}\\/\\d{2,4})\\)"
-            ],
             "variations": {}
         }
     ],
@@ -7447,16 +7473,19 @@
             "editions": {
                 "La.App. 4 Cir.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_louisiana"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2009 1359R (La.App. 4 Cir. 05/10/10)"
+            ],
             "mlz_jurisdiction": [
                 "us:la;supreme.court"
             ],
             "name": "Court of Appeal of Louisiana, Fourth Circuit",
-            "regexes": [
-                "(?P<volume>\\d{2,4})( |-)(?P<page>\\d{2,5}) (?P<reporter>\\(La.App. 4 Cir.) (?P<date_filed>\\d{1,2}\\/\\d{1,2}\\/\\d{2,4})\\)"
-            ],
             "variations": {}
         }
     ],
@@ -7466,16 +7495,19 @@
             "editions": {
                 "La.App. 5 Cir.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_louisiana"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2009 1359R (La.App. 5 Cir. 05/10/10)"
+            ],
             "mlz_jurisdiction": [
                 "us:la;supreme.court"
             ],
             "name": "Court of Appeal of Louisiana, Fifth Circuit",
-            "regexes": [
-                "(?P<volume>\\d{2,4})( |-)(?P<page>\\d{2,5}) (?P<reporter>\\(La.App. 5 Cir.) (?P<date_filed>\\d{1,2}\\/\\d{1,2}\\/\\d{2,4})\\)"
-            ],
             "variations": {}
         }
     ],
@@ -7485,16 +7517,19 @@
             "editions": {
                 "La.App. 6 Cir.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_louisiana"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2009 1359R (La.App. 6 Cir. 05/10/10)"
+            ],
             "mlz_jurisdiction": [
                 "us:la;supreme.court"
             ],
             "name": "Court of Appeal of Louisiana, Sixth Circuit",
-            "regexes": [
-                "(?P<volume>\\d{2,4})( |-)(?P<page>\\d{2,5}) (?P<reporter>\\(La.App. 6 Cir.) (?P<date_filed>\\d{1,2}\\/\\d{1,2}\\/\\d{2,4})\\)"
-            ],
             "variations": {}
         }
     ],
@@ -9895,6 +9930,9 @@
             "editions": {
                 "NMCA": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_format_neutral_3_4"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -9905,9 +9943,6 @@
                 "us:nm;court.appeals"
             ],
             "name": "New Mexico Neutral Citation (Court of Appeals)",
-            "regexes": [
-                "(?P<volume>[12]\\d{3})-(?P<reporter>NMCA)-(?P<page>\\d{3,4})"
-            ],
             "variations": {}
         }
     ],
@@ -9918,6 +9953,9 @@
             "editions": {
                 "NMCERT": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_format_neutral_3_4"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -9928,9 +9966,6 @@
                 "us:nm;supreme.court"
             ],
             "name": "New Mexico Neutral Citation",
-            "regexes": [
-                "(?P<volume>[12]\\d{3})-(?P<reporter>NMCERT)-(?P<page>\\d{3,4})"
-            ],
             "variations": {}
         }
     ],
@@ -9941,6 +9976,9 @@
             "editions": {
                 "NMSC": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_format_neutral_3_4"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -9951,9 +9989,6 @@
                 "us:nm;supreme.court"
             ],
             "name": "New Mexico Neutral Citation (Supreme Court)",
-            "regexes": [
-                "(?P<volume>[12]\\d{3})-(?P<reporter>NMSC)-(?P<page>\\d{3,4})"
-            ],
             "variations": {}
         }
     ],
@@ -10397,6 +10432,9 @@
             "editions": {
                 "Ohio": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_format_neutral"
+                    ],
                     "start": "2002-01-01T00:00:00"
                 }
             },
@@ -10407,9 +10445,6 @@
                 "us:oh;supreme.court"
             ],
             "name": "Ohio Neutral Citation",
-            "regexes": [
-                "(?P<volume>[12]\\d{3})-(?P<reporter>Ohio)-(?P<page>\\d{1,5})"
-            ],
             "variations": {
                 "OHIO": "Ohio"
             }
@@ -12815,16 +12850,18 @@
     ],
     "Smith (N. H.)": [
         {
-            "cite_format": "{reporter} {page}",
             "cite_type": "state",
             "editions": {
                 "Smith (N. H.)": {
                     "end": "1815-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite_single_volume"
+                    ],
                     "start": "1796-01-01T00:00:00"
                 }
             },
             "examples": [
-                "Twombly v. Baker, Smith (N. H.) 123"
+                "Smith (N. H.) 123"
             ],
             "mlz_jurisdiction": [
                 "us:nh;supreme.court",
@@ -13260,11 +13297,13 @@
     ],
     "T.C. Memo.": [
         {
-            "cite_format": "{reporter} {volume}-{page}",
             "cite_type": "neutral",
             "editions": {
                 "T.C. Memo.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_year_page"
+                    ],
                     "start": "1942-01-01T00:00:00"
                 }
             },
@@ -13276,9 +13315,6 @@
             ],
             "name": "Tax Court Memorandum Opinions",
             "notes": "These documents are non precedential, but known to be persuasive. Atypical format atypical format -> T.C. Memo YYYY-XX",
-            "regexes": [
-                "(?P<reporter>T\\.\\s?C\\.\\s?Memo\\.?)\\s+(?P<volume>\\d{4})-(?P<page>\\d{1,4})"
-            ],
             "variations": {
                 "T. C. Memo.": "T.C. Memo.",
                 "T.C. Memo": "T.C. Memo."
@@ -13306,22 +13342,24 @@
     ],
     "T.C. Summary Opinion": [
         {
-            "cite_format": "{reporter} {volume}-{page}",
             "cite_type": "neutral",
             "editions": {
                 "T.C. Summary Opinion": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_year_page"
+                    ],
                     "start": "1942-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "T.C. Summary Opinion 2002-43"
+            ],
             "mlz_jurisdiction": [
                 "us:c;tax.court"
             ],
             "name": "Tax Court Summary Opinions",
             "notes": "Neutral Citation for summary opinions of the Tax Court. These opinions are atypical format -> T.C. Summary Opinion YYYY-XX",
-            "regexes": [
-                "(?P<reporter>T\\.\\s?C\\.\\s?Summary Opinion)\\s+(?P<volume>\\d{4})-(?P<page>\\d{1,4})"
-            ],
             "variations": {
                 "T. C. Summary Opinion": "T.C. Summary Opinion"
             }
@@ -13365,21 +13403,26 @@
     ],
     "T.C.M. (RIA)": [
         {
-            "cite_format": "{reporter} {page}",
             "cite_type": "specialty",
             "editions": {
                 "T.C.M. (RIA)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_year_page",
+                        "$full_cite_paragraph"
+                    ],
                     "start": "1924-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "T.C.M. (RIA) ¶ 95,342",
+                "T.C.M. (RIA) 92736",
+                "T.C.M. (RIA) 2004-279"
+            ],
             "mlz_jurisdiction": [
                 "us:c;tax.court"
             ],
             "name": "RIA Federal Tax Handbook",
-            "regexes": [
-                "(?P<reporter>(T\\.C\\.M?\\.? \\(RIA\\))|RIA TM) (?P<page>[0-9]{1,})"
-            ],
             "variations": {
                 "RIA TM": "T.C.M. (RIA)"
             }
@@ -13874,15 +13917,21 @@
             "editions": {
                 "Trade Cas. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$volume_with_digit_suffix $reporter $paragraph_marker_optional$page_with_commas"
+                    ],
                     "start": "1914-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1982-1 Trade Cas. (CCH) par. 64,689",
+                "1940-1943 Trade Cas. (CCH) ¶ 56,104",
+                "1975 Trade Cas. (CCH) ¶ 60,219",
+                "1974-2 Trade Cas. (CCH) ¶ 75,282"
+            ],
             "href": "http://w3.nexis.com/sources/scripts/info.pl?168025",
             "mlz_jurisdiction": [],
             "name": "Trade Cases",
-            "regexes": [
-                "(?P<volume>\\d{1,4}(-\\d{1,})?) (?P<reporter>Trade Cas. \\(CCH\\)) (?P<page>P((\\d){1,3})+([,]?[\\d]{3}))"
-            ],
             "variations": {
                 "Trade Cas.": "Trade Cas. (CCH)",
                 "Trade Cases": "Trade Cas. (CCH)"
@@ -14231,6 +14280,9 @@
             "editions": {
                 "U.S. Tax Cas. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$volume_with_digit_suffix $reporter $paragraph_marker_optional$page_with_commas"
+                    ],
                     "start": "1900-01-01T00:00:00"
                 }
             },
@@ -14242,9 +14294,6 @@
                 "us:c;tax.court"
             ],
             "name": "United States (US) Tax Cases (CCH)",
-            "regexes": [
-                "(?P<volume>\\d{1,4}(-\\d{1,})?) (?P<reporter>U\\.S\\. Tax Cas\\. \\(CCH\\)) (?P<page>P((\\d){1,3})+([,]?[\\d]{3}))"
-            ],
             "variations": {}
         }
     ],
@@ -14264,7 +14313,6 @@
                 "us:c;tax.court"
             ],
             "name": "United States (US) Tax Cases Lexis",
-            "regexes": [],
             "variations": {}
         }
     ],
@@ -14366,20 +14414,28 @@
     ],
     "Unemployment Ins. Rep.": [
         {
-            "cite_format": "{reporter} {page}",
             "cite_type": "specialty",
             "editions": {
                 "Unemployment Ins. Rep.": {
                     "end": null,
+                    "regexes": [
+                        "$volume_with_alpha_suffix_optional$reporter,? (?P<jurisdiction>\\(?[A-Z][a-zA-Z .]+\\)? )?$paragraph_marker_optional$page_with_commas_or_periods"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "CCH Unemployment Ins. Rep. ¶ 15,419",
+                "1 CCH Unemployment Ins. Rep. para. 14,387",
+                "8 CCH, Unemployment Ins. Rep. W. Va. par. 8090",
+                "1A CCH, Unemployment Ins. Rep. (Ala.) par. 1950.74",
+                "4 CCH Unemployment Ins. Rep., Me. ¶ 1995.05"
+            ],
             "mlz_jurisdiction": [],
             "name": "Unemployment Insurance Reports (CCH)",
-            "regexes": [
-                "(?P<reporter>Unemployment Ins\\. Rep\\. \\(CCH\\)) (?P<page>P((\\d){1,3})+([,]?[\\d]{3})([A-Z])?)"
-            ],
             "variations": {
+                "CCH Unemployment Ins. Rep.": "Unemployment Ins. Rep.",
+                "CCH, Unemployment Ins. Rep.": "Unemployment Ins. Rep.",
                 "Unempl. Ins. Rep. (CCH)": "Unemployment Ins. Rep.",
                 "Unemployment Ins. Rep. (CCH)": "Unemployment Ins. Rep."
             }

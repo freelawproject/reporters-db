@@ -1,4 +1,6 @@
+import re
 from collections import OrderedDict
+from string import Template
 
 
 def suck_out_variations_only(reporters):
@@ -106,3 +108,71 @@ def names_to_abbreviations(reporters):
             names[data["name"]] = abbrevs
     sorted_names = OrderedDict(sorted(names.items(), key=lambda t: t[0]))
     return sorted_names
+
+
+def process_variables(variables):
+    r"""Process contents of variables.json, in preparation for passing to recursive_substitute:
+
+    - Strip keys ending in '#', which are treated as comments
+    - Flatten nested dicts, so {"page": {"": "A", "foo": "B"}} becomes {"page": "A", "page_foo": "B"}
+    - Add optional variants for each key, so {"page": "\d+"} becomes {"page_optional": "(?:\d+ ?)?"}
+    - Resolve nested references
+    """
+    # flatten variables and remove comments
+    def flatten(d, parent_key=""):
+        items = {}
+        for k, v in d.items():
+            if k.endswith("#"):
+                continue
+            new_key = "_".join(i for i in (parent_key, k) if i)
+            if isinstance(v, dict):
+                items.update(flatten(v, new_key))
+            else:
+                items[new_key] = v
+        return items
+
+    variables = flatten(variables)
+
+    # add optional variables
+    for k, v in list(variables.items()):
+        variables[k + "_optional"] = "(?:%s ?)?" % v
+
+    # resolve references
+    variables = {
+        k: recursive_substitute(v, variables) for k, v in variables.items()
+    }
+
+    return variables
+
+
+def recursive_substitute(template, variables, max_depth=100):
+    """Recursively substitute values in `template` from `variables`. For example:
+        >>> recursive_substitute("$a $b $c", {'a': '$b', 'b': '$c', 'c': 'foo'})
+        "foo foo foo"
+    Infinite loops will raise a ValueError after max_depth loops.
+    """
+    old_val = template
+    for i in range(max_depth):
+        new_val = Template(old_val).safe_substitute(variables)
+        if new_val == old_val:
+            break
+        old_val = new_val
+    else:
+        raise ValueError("max_depth exceeded for template '%s'" % template)
+    return new_val
+
+
+def substitute_editions(regex, edition_name, variations):
+    r"""Insert edition strings for the given edition into a regex with an $edition placeholder. Example:
+    >>> substitute_editions(r'\d+ $edition \d+', 'Foo.', {'Foo. Var.': 'Foo.'})
+    "\\d+ (?:Foo\\.|Foo\\. Var\\.) \d+"
+    """
+    if "$edition" not in regex and "${edition}" not in regex:
+        return [regex]
+    edition_strings = [edition_name] + [
+        k for k, v in variations.items() if v == edition_name
+    ]
+    template = Template(regex)
+    return [
+        template.safe_substitute(edition=re.escape(e)) for e in edition_strings
+    ]
