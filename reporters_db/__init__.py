@@ -36,7 +36,8 @@ with open(os.path.join(db_root, "data", "case_name_abbreviations.json")) as f:
 
 
 with open(os.path.join(db_root, "data", "variables.json")) as f:
-    VARIABLES = process_variables(json.load(f))
+    RAW_VARIABLES = json.load(f)
+    VARIABLES = process_variables(RAW_VARIABLES)
 
 
 VARIATIONS_ONLY = suck_out_variations_only(REPORTERS)
