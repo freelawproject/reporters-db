@@ -1,6 +1,6 @@
 {
     "full_cite": {
-        "": "$volume $reporter $page",
+        "": "$volume $reporter,? $page",
         "#": "Standard citation",
         "format_neutral": {
             "": "$volume_year-$reporter-$page",
