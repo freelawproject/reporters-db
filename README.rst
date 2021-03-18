@@ -278,24 +278,28 @@ Past Versions
 
 - 2.0.0: Adds 273 additional reporters, 443 new variations, and 301 new editions
 
+- 2.0.7: Merges in main reporters from Harvard's LIL. Migrates to Github Actions from Travis.
+
 
 Current Version
 ---------------
 
-- 2.0.6: Merges in main reporters from Harvard's LIL. Migrates to Github Actions from Travis.
+- 3.0.0: New approach to regexes matches for non-standard reporters (see: `PR #38 <https://github.com/freelawproject/reporters-db/pull/38>`_). Notably, the ``cite_format`` and ``regexes`` fields have been removed from the root reporter object and have been replaced by ``regexes`` and ``examples`` nodes under the ``editions`` key. This allows us to create more granular per-edition examples and regexes.
+
+  We are unaware of any usage of the old keys and they were a beta-quality feature, so we are removing them and moving forward. Get in touch if our assumptions here are wrong.
 
 
 Future Versions
 ---------------
 
--  2.1: All dates are dialed in to the nearest year for every edition of
+-  All dates are dialed in to the nearest year for every edition of
    every reporter (some still require research beyond what Blue Book
    provides). See `issue
    #7 <https://github.com/freelawproject/reporters-db/issues/7>`__
--  2.2: All dates are dialed into the correct day for every edition of
+-  All dates are dialed into the correct day for every edition of
    every reporter.
--  2.x: International Reporters added?
--  x.x: Other features (suggestions welcome)?
+-  International Reporters added?
+-  Other features (suggestions welcome)?
 
 
 Releases
