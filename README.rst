@@ -127,10 +127,6 @@ Database:
    last opinions in a reporter series have the same dates as the
    database.
 
-7. Some reporters have atypical formatting ``cite_format`` uses
-   standard python formatting to indicate when a citation follows a
-   unique style. This appears most common in tax law.
-
 
 A complete data point has fields like so:
 
@@ -138,20 +134,20 @@ A complete data point has fields like so:
 
     "$citation": [
         {
-            "cite_format": "",
             "cite_type": "state|federal|neutral|specialty|specialty_west|specialty_lexis|state_regional|scotus_early",
             "editions": {
                 "$citation": {
                     "end": null,
+                    "regexes": [],
                     "start": "1750-01-01T00:00:00"
                 },
                 "$citation 2d": {
                     "end": null,
+                    "regexes": [],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [],
-            "regexes": [],
             "mlz_jurisdiction": [],
             "name": "",
             "variations": {},
@@ -161,9 +157,23 @@ A complete data point has fields like so:
         }
     ],
 
-Most of those fields should make sense either from their name or by looking at
-a few examples in the data, however, a notes on the ``state_abbreviations`` and
-``case_name_abbreviations`` files:
+The "regexes" field and regexes.json placeholders
+-------------------------------------------------
+
+The "regexes" field can contain raw regular expressions to match a custom citation format,
+or can contain placeholders to be substituted from ``regexes.json`` using
+`python Template formatting <https://docs.python.org/3/library/string.html#template-strings>`__.
+
+If custom regexes are provided, the tests will require that all regexes match at least one
+example in ``examples`` and that all examples match at least one regex.
+
+When adding a new regex it can be useful to ``pip install exrex`` and run the tests *without*
+adding any examples to get a listing of potential citations that would be matched by the new
+regex.
+
+
+``state_abbreviations`` and ``case_name_abbreviations`` files
+-------------------------------------------------------------
 
 1. Abbreviations are based on data from the values in the nineteenth
    edition of the Blue Book supplemented with abbreviations found in our

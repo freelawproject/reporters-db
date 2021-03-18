@@ -35,7 +35,7 @@
         "with_periods": "(?P<page>\\d(?:[\\d.]*\\d)?)",
         "with_periods#": "Page number that allows internal periods, like '1234.56'"
     },
-    "paragraph_marker": "(?:P|¶|para?\\.) ?",
+    "paragraph_marker": "(?:P|¶|para?\\.)",
     "reporter": {
         "": "(?P<reporter>$edition)",
         "#": "Standard reporter"

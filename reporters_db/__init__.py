@@ -35,9 +35,9 @@ with open(os.path.join(db_root, "data", "case_name_abbreviations.json")) as f:
     CASE_NAME_ABBREVIATIONS = json.load(f)
 
 
-with open(os.path.join(db_root, "data", "variables.json")) as f:
-    RAW_VARIABLES = json.load(f)
-    VARIABLES = process_variables(RAW_VARIABLES)
+with open(os.path.join(db_root, "data", "regexes.json")) as f:
+    RAW_REGEX_VARIABLES = json.load(f)
+    REGEX_VARIABLES = process_variables(RAW_REGEX_VARIABLES)
 
 
 VARIATIONS_ONLY = suck_out_variations_only(REPORTERS)

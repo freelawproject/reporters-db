@@ -10,7 +10,7 @@ from reporters_db import (
     VARIATIONS_ONLY,
     EDITIONS,
     NAMES_TO_EDITIONS,
-    VARIABLES,
+    REGEX_VARIABLES,
 )
 from unittest import TestCase
 
@@ -242,7 +242,7 @@ class ConstantsTest(TestCase):
 
     def test_json_format(self):
         """Does format of reporters.json match json.dumps(json.loads(), sort_keys=True)? """
-        for file_name in ("reporters.json", "variables.json"):
+        for file_name in ("reporters.json", "regexes.json"):
             with self.subTest(file_name=file_name):
                 json_path = (
                     Path(__file__).parent / "reporters_db" / "data" / file_name
@@ -288,7 +288,7 @@ class ConstantsTest(TestCase):
                 ):
                     for edition_regex in edition["regexes"]:
                         full_regex = recursive_substitute(
-                            edition_regex, VARIABLES
+                            edition_regex, REGEX_VARIABLES
                         )
                         regexes = substitute_editions(
                             full_regex,
@@ -307,14 +307,14 @@ class ConstantsTest(TestCase):
                             try:
                                 import exrex
 
-                                candidate = (
-                                    'Possible example: "%s"'
-                                    % exrex.getone(regexes[0])
-                                )
+                                candidate = "Possible examples: %s" % [
+                                    exrex.getone(regexes[0], limit=3)
+                                    for _ in range(10)
+                                ]
                             except ImportError:
                                 candidate = "Run 'pip install exrex' to generate a candidate example"
                             self.fail(
-                                "Reporter '%s' has no match in 'examples' for custom regex '%s'. Expanded regexes: %s. %s"
+                                "Reporter '%s' has no match in 'examples' for custom regex '%s'.\nExpanded regexes: %s.\n%s"
                                 % (
                                     reporter_abbv,
                                     edition_regex,
