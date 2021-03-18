@@ -162,6 +162,11 @@ def recursive_substitute(template, variables, max_depth=100):
     return new_val
 
 
+def substitute_edition(regex, edition_name):
+    """Insert edition_name in place of $edition."""
+    return Template(regex).safe_substitute(edition=re.escape(edition_name))
+
+
 def substitute_editions(regex, edition_name, variations):
     r"""Insert edition strings for the given edition into a regex with an $edition placeholder. Example:
     >>> substitute_editions(r'\d+ $edition \d+', 'Foo.', {'Foo. Var.': 'Foo.'})
@@ -172,7 +177,4 @@ def substitute_editions(regex, edition_name, variations):
     edition_strings = [edition_name] + [
         k for k, v in variations.items() if v == edition_name
     ]
-    template = Template(regex)
-    return [
-        template.safe_substitute(edition=re.escape(e)) for e in edition_strings
-    ]
+    return [substitute_edition(regex, e) for e in edition_strings]
