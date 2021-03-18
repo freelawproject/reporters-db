@@ -342,8 +342,12 @@
             "cite_type": "state",
             "editions": {
                 "Abb. Pr.": {
-                    "end": "1875-12-31T00:00:00",
+                    "end": "1865-12-31T00:00:00",
                     "start": "1854-01-01T00:00:00"
+                },
+                "Abb. Pr. (n.s.)": {
+                    "end": "1875-12-31T00:00:00",
+                    "start": "1863-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -351,7 +355,6 @@
             ],
             "name": "Abbott's Practice Reports",
             "variations": {
-                "Abb. Pr. (n.s.)": "Abb. Pr.",
                 "Abb.P.R.": "Abb. Pr.",
                 "Abb.Pr.Rep.": "Abb. Pr.",
                 "Abb.Prac.": "Abb. Pr.",
