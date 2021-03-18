@@ -1,0 +1,53 @@
+{
+    "full_cite": {
+        "": "$volume $reporter $page",
+        "#": "Standard citation",
+        "format_neutral": {
+            "": "$volume_year-$reporter-$page",
+            "#": "Format neutral cite, like '2000-Ohio-123'",
+            "3_4": "$volume_year-$reporter-$page_3_4",
+            "3_4#": "Format neutral cite where the page must be 3 or 4 digits, like '2000-NMSC-123'"
+        },
+        "louisiana": {
+            "": "(?P<volume>\\d{2,4})[- ](?P<page>\\d{2,5}[A-Z]?) \\($reporter (?P<date_filed>\\d{1,2}\\/\\d{1,2}\\/\\d{2,4})\\)",
+            "#": "Format neutral Louisiana cite, like '2009 1359R (La.App. 1 Cir. 05/10/10)'"
+        },
+        "paragraph": {
+            "": "$reporter $paragraph_marker_optional$page_with_commas",
+            "#": "Citation to a paragraph instead of a volume, like 'Bankr. L. Rep. ¶12,345'",
+            "with_suffix": "$reporter $paragraph_marker_optional$page_with_commas_and_suffix",
+            "with_suffix#": "Paragraph cite with optional alpha character appended"
+        },
+        "single_volume": "$reporter $page",
+        "year_page": "$reporter $volume_year-$page"
+    },
+    "page": {
+        "": "(?P<page>\\d+)",
+        "#": "Standard page number",
+        "3_4": "(?P<page>\\d{3,4})",
+        "3_4#": "Page number that must be 3 or 4 digits long",
+        "with_commas": "(?P<page>\\d(?:[\\d,]*\\d)?)",
+        "with_commas#": "Page number that allows internal commas, like '12,345,678'. Doesn't enforce 3-digit groups.",
+        "with_commas_and_suffix": "(?P<page>\\d(?:[\\d,]*\\d)?[A-Z]?)",
+        "with_commas_and_suffix#": "Page number that allows internal commas, plus optional alpha character appended",
+        "with_commas_or_periods": "(?P<page>\\d(?:[\\d,.]*\\d)?)",
+        "with_commas_or_periods#": "Page number that allows internal punctuation",
+        "with_periods": "(?P<page>\\d(?:[\\d.]*\\d)?)",
+        "with_periods#": "Page number that allows internal periods, like '1234.56'"
+    },
+    "paragraph_marker": "(?:P|¶|para?\\.)",
+    "reporter": {
+        "": "(?P<reporter>$edition)",
+        "#": "Standard reporter"
+    },
+    "volume": {
+        "": "(?P<volume>\\d+)",
+        "#": "Standard volume number",
+        "with_alpha_suffix": "(?P<volume>\\d{1,4}A?)",
+        "with_alpha_suffix#": "Volume number that may have 'A' appended, like '1A'",
+        "with_digit_suffix": "(?P<volume>\\d{1,4}(?:-\\d+)?)",
+        "with_digit_suffix#": "Volume number that may have digits appended, like '123-4'",
+        "year": "(?P<volume>19\\d{2}|20\\d{2})",
+        "year#": "Volume number that must be a year between 1900 and 2099"
+    }
+}
