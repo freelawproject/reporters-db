@@ -13278,9 +13278,18 @@
             "editions": {
                 "T.C.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume (?P<reporter>UNITED STATES TAX COURT REPORTS?) \\($page\\)"
+                    ],
                     "start": "1942-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "7 T.C. 1488",
+                "1 UNITED STATES TAX COURT REPORT (2018)",
+                "140 UNITED STATES TAX COURT REPORTS (200)"
+            ],
             "mlz_jurisdiction": [
                 "us:c;tax.court"
             ],
