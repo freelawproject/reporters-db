@@ -5256,9 +5256,17 @@
             "editions": {
                 "Ga.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "(?P<volume>33) $reporter (?P<supp>Supp\\.) $page"
+                    ],
                     "start": "1846-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Ga. 1",
+                "33 Ga. Supp. 9"
+            ],
             "mlz_jurisdiction": [
                 "us:ga;supreme.court"
             ],
@@ -5284,22 +5292,6 @@
             "variations": {
                 "Ga.App.": "Ga. App."
             }
-        }
-    ],
-    "Ga. Supp.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Ga. Supp.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [
-                "us:ga;supreme.court"
-            ],
-            "name": "Georgia Reports, Supplement",
-            "variations": {}
         }
     ],
     "Gall.": [
@@ -8730,9 +8722,16 @@
             "editions": {
                 "Mich.": {
                     "end": null,
+                    "regexes": [
+                        "(?P<volume>\\d+|402A) $reporter,? $page"
+                    ],
                     "start": "1847-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Mich. 1",
+                "402A Mich 117"
+            ],
             "mlz_jurisdiction": [
                 "us:mi;supreme.court"
             ],
@@ -9582,6 +9581,9 @@
                 },
                 "N.Y.2d": {
                     "end": "2004-01-01T00:00:00",
+                    "regexes": [
+                        "(?P<volume>\\d+|17A) $reporter,? $page"
+                    ],
                     "start": "1956-01-01T00:00:00"
                 },
                 "N.Y.3d": {
@@ -9589,6 +9591,10 @@
                     "start": "2004-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 N.Y.2d 1",
+                "17A N.Y.2d 7"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals"
             ],
@@ -11300,9 +11306,20 @@
             "editions": {
                 "Pa.": {
                     "end": null,
+                    "regexes": [
+                        "(?P<volume>\\d+|81 ?\\*|81 1/2|\\* ?81|81 ?½) $reporter,? $page"
+                    ],
                     "start": "1845-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Pa. 1",
+                "81½ Pa. 9",
+                "81 1/2 Pa. 9",
+                "81* Pa. 57",
+                "81 * Pa. 57",
+                "*81 Pa. 57"
+            ],
             "mlz_jurisdiction": [
                 "us:pa;supreme.court"
             ],
@@ -13721,9 +13738,17 @@
             "editions": {
                 "Tex.": {
                     "end": "1962-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "(?P<volume>25) $reporter (?P<supp>Supp\\.) $page"
+                    ],
                     "start": "1846-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Tex. 1",
+                "25 Tex. Supp. 9"
+            ],
             "mlz_jurisdiction": [
                 "us:tx;supreme.court"
             ],
@@ -13829,22 +13854,6 @@
             "variations": {
                 "Tex. Sup. J.": "Tex. Sup. Ct. J."
             }
-        }
-    ],
-    "Tex. Supp.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. Supp.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [
-                "us:tx;supreme.court"
-            ],
-            "name": "Texas Supplement",
-            "variations": {}
         }
     ],
     "Tex.Bankr.Ct.Rep.": [
