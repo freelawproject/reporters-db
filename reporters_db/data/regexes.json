@@ -8,6 +8,10 @@
             "3_4": "$volume_year-$reporter-$page_3_4",
             "3_4#": "Format neutral cite where the page must be 3 or 4 digits, like '2000-NMSC-123'"
         },
+        "illinois_neutral": {
+            "": "$volume_year $reporter (?P<page>\\d{6}(?:-[A-Z])?)",
+            "#": "Illinois format-neutral cite with an optional -letter in page number."
+        },
         "louisiana": {
             "": "(?P<volume>\\d{2,4})[- ](?P<page>\\d{2,5}[A-Z]?) \\($reporter (?P<date_filed>\\d{1,2}\\/\\d{1,2}\\/\\d{2,4})\\)",
             "#": "Format neutral Louisiana cite, like '2009 1359R (La.App. 1 Cir. 05/10/10)'"

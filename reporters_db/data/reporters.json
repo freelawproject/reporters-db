@@ -6350,9 +6350,16 @@
             "editions": {
                 "IL": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_illinois_neutral"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2014 IL 115811",
+                "2014 IL 115811-B"
+            ],
             "mlz_jurisdiction": [
                 "us:il;supreme.court"
             ],
@@ -6366,9 +6373,16 @@
             "editions": {
                 "IL App (1st)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_illinois_neutral"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2014 IL App (1st) 120583",
+                "2014 IL App (1st) 120583-U"
+            ],
             "mlz_jurisdiction": [
                 "us:il;court.appeals"
             ],
@@ -6386,9 +6400,16 @@
             "editions": {
                 "IL App (2d)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_illinois_neutral"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2014 IL App (2d) 120583",
+                "2014 IL App (2d) 120583-U"
+            ],
             "mlz_jurisdiction": [
                 "us:il;court.appeals"
             ],
@@ -6407,9 +6428,16 @@
             "editions": {
                 "IL App (3d)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_illinois_neutral"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2014 IL App (3d) 120583",
+                "2014 IL App (3d) 120583-U"
+            ],
             "mlz_jurisdiction": [
                 "us:il;court.appeals"
             ],
@@ -6428,9 +6456,16 @@
             "editions": {
                 "IL App (4th)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_illinois_neutral"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2014 IL App (4th) 120583",
+                "2014 IL App (4th) 120583-U"
+            ],
             "mlz_jurisdiction": [
                 "us:il;court.appeals"
             ],
@@ -6448,9 +6483,16 @@
             "editions": {
                 "IL App (5th)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_illinois_neutral"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2014 IL App (5th) 120583",
+                "2014 IL App (5th) 120583-U"
+            ],
             "mlz_jurisdiction": [
                 "us:il;court.appeals"
             ],
