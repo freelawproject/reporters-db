@@ -3214,7 +3214,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:ct;supreme.court"
+                "us:ct;superior.court"
             ],
             "name": "Connecticut Superior Court Reports",
             "variations": {
@@ -3225,6 +3225,26 @@
                 "Ct. Sup.": "Conn. Super. Ct.",
                 "Ct.Sup.": "Conn. Super. Ct."
             }
+        },
+        {
+            "cite_type": "state",
+            "editions": {
+                "Conn. Super. Ct.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_year $reporter (?P<page>\\d{1,6}(?:-[A-Z])?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1999 Conn. Super. Ct. 13301-M"
+            ],
+            "mlz_jurisdiction": [
+                "us:ct;superior.court"
+            ],
+            "name": "Connecticut Superior Court format-neutral citation",
+            "variations": {}
         }
     ],
     "Conn. Supp.": [
