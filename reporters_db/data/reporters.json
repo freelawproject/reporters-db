@@ -3244,7 +3244,14 @@
                 "us:ct;superior.court"
             ],
             "name": "Connecticut Superior Court format-neutral citation",
-            "variations": {}
+            "variations": {
+                "CSCR": "Conn. Super. Ct.",
+                "Conn. Sup.": "Conn. Super. Ct.",
+                "Conn.Sup.": "Conn. Super. Ct.",
+                "Conn.Super.Ct.": "Conn. Super. Ct.",
+                "Ct. Sup.": "Conn. Super. Ct.",
+                "Ct.Sup.": "Conn. Super. Ct."
+            }
         }
     ],
     "Conn. Supp.": [
