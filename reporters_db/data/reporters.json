@@ -3661,6 +3661,25 @@
             "variations": {}
         }
     ],
+    "Daily Wash. L. Rptr.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Daily Wash. L. Rptr.": {
+                    "end": null,
+                    "start": "1971-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "124 Daily Wash. L. Rptr. 1473"
+            ],
+            "mlz_jurisdiction": [
+                "us:dc;superior.court"
+            ],
+            "name": "Daily Washington Law Reporter",
+            "variations": {}
+        }
+    ],
     "Dakota": [
         {
             "cite_type": "state",
@@ -3730,6 +3749,9 @@
             "editions": {
                 "Dallam": {
                     "end": "1844-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite_single_volume"
+                    ],
                     "start": "1840-01-01T00:00:00"
                 }
             },
@@ -6243,6 +6265,22 @@
             }
         }
     ],
+    "How. Pr. (n.s.)": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "How. Pr. (n.s.)": {
+                    "end": "1886-12-31T00:00:00",
+                    "start": "1879-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Howard's Practice Reports (n.s.)",
+            "variations": {}
+        }
+    ],
     "Howard": [
         {
             "cite_type": "state",
@@ -8464,6 +8502,30 @@
             "variations": {}
         }
     ],
+    "Mass. App. Div. Adv. Sh.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mass. App. Div. Adv. Sh.": {
+                    "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$reporter \\($volume_year\\) $page"
+                    ],
+                    "start": "1975-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1977 Mass. App. Div. Adv. Sh. 805",
+                "Mass. App. Div. Adv. Sh. (1979) 219"
+            ],
+            "mlz_jurisdiction": [
+                "us:ma;appeals.court"
+            ],
+            "name": "Massachusetts Appellate Division Advance Sheets",
+            "variations": {}
+        }
+    ],
     "Mass. L. Rptr.": [
         {
             "cite_type": "state",
@@ -9262,11 +9324,11 @@
             "variations": {}
         }
     ],
-    "N. Mar. I. Commw. Rptr.": [
+    "N. Mar. I. Commw.": [
         {
             "cite_type": "state",
             "editions": {
-                "N. Mar. I. Commw. Rptr.": {
+                "N. Mar. I. Commw.": {
                     "end": null,
                     "start": "1979-01-01T00:00:00"
                 }
@@ -9275,7 +9337,9 @@
                 "us:c9:mp.d;district.court"
             ],
             "name": "Northern Mariana Islands Commonwealth Reporter",
-            "variations": {}
+            "variations": {
+                "N. Mar. I. Commw. Rptr.": "N. Mar. I. Commw."
+            }
         }
     ],
     "N.B.R.": [
@@ -9300,7 +9364,8 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Phil\\. Eq\\.|Phil\\.|Jones Eq\\.|Jones|Busb\\. Eq\\.|Busb\\.|Ired\\. Eq\\.|Ired\\.|Dev\\. & Bat\\. Eq\\.|Dev\\. Eq\\.|Dev\\.|Hawks|Mur\\.|Taylor|Car\\. L\\. Rep\\.|Hayw\\.|Cam\\. & Nor\\.|Tay\\.|Mart\\.)\\) $page"
+                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Phil\\. Eq\\.|Phil\\.|Win\\.|Jones Eq\\.|Jones|Busb\\. Eq\\.|Busb\\.|Ired\\. Eq\\.|Ired\\.|Dev\\. & Bat\\. Eq\\.|Dev\\. Eq\\.|Dev\\.|Hawks|Mur\\.|Taylor|Car\\. L\\. Rep\\.|Hayw\\.|Cam\\. & Nor\\.|Tay\\.|Mart\\.)\\) $page",
+                        "$volume $reporter \\((?P<volume_nominative>3 & 4) (?P<reporter_nominative>Dev\\. & Bat\\.)\\) $page"
                     ],
                     "start": "1868-01-01T00:00:00"
                 }
@@ -9308,7 +9373,8 @@
             "examples": [
                 "1 N.C. 1",
                 "46 N.C. (1 Jones) 456",
-                "61 N.C. (Phil.) 456"
+                "61 N.C. (Phil.) 456",
+                "20 N.C. (3 & 4 Dev. & Bat.) 456"
             ],
             "mlz_jurisdiction": [
                 "us:nc;supreme.court"
@@ -10682,15 +10748,19 @@
             "cite_type": "state",
             "editions": {
                 "Ohio C.A.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
+                    "end": "1923-12-31T00:00:00",
+                    "start": "1916-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
                 "us:oh;appeals.court"
             ],
             "name": "Ohio Courts of Appeals Reports",
-            "variations": {}
+            "notes": "Continuation of Ohio C.C. (n.s.), so starts from volume 27.",
+            "variations": {
+                "O. C. A.": "Ohio C.A.",
+                "Ohio Ct. App.": "Ohio C.A."
+            }
         }
     ],
     "Ohio C.C.": [
@@ -11066,6 +11136,20 @@
                 "Okla.Cr.": "Okla. Crim.",
                 "Okla.Crim.": "Okla. Crim."
             }
+        }
+    ],
+    "Okla. Trib.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Okla. Trib.": {
+                    "end": null,
+                    "start": "1979-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Oklahoma Tribal Court Reports",
+            "variations": {}
         }
     ],
     "Olcott": [
@@ -12460,9 +12544,15 @@
             "editions": {
                 "Robards": {
                     "end": "1865-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite_single_volume"
+                    ],
                     "start": "1862-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Robards 123"
+            ],
             "mlz_jurisdiction": [
                 "us:tx;supreme.court"
             ],
@@ -13668,6 +13758,28 @@
             },
             "mlz_jurisdiction": [],
             "name": "Taney's United States (US) Circuit Court Reports",
+            "variations": {}
+        }
+    ],
+    "Tapp. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tapp. Rep.": {
+                    "end": "1819-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite_single_volume"
+                    ],
+                    "start": "1816-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Tapp. Rep. 61"
+            ],
+            "mlz_jurisdiction": [
+                "us:oh;supreme.court"
+            ],
+            "name": "Cases decided in the Courts of common pleas, in the Fifth circuit of the state of Ohio [1816-1819] (Tappan)",
             "variations": {}
         }
     ],
@@ -15641,11 +15753,11 @@
             }
         }
     ],
-    "Wilson": [
+    "Willson": [
         {
             "cite_type": "state",
             "editions": {
-                "Wilson": {
+                "Willson": {
                     "end": "1892-12-31T00:00:00",
                     "start": "1883-01-01T00:00:00"
                 }
@@ -15653,9 +15765,9 @@
             "mlz_jurisdiction": [
                 "us:tx;supreme.court"
             ],
-            "name": "Condensed Reports of Decisions in Civil Causes in the Court of Appeals of Texas (Wilson)",
+            "name": "Condensed Reports of Decisions in Civil Causes in the Court of Appeals of Texas (Willson)",
             "variations": {
-                "Wilson Rep.": "Wilson"
+                "Willson Rep.": "Willson"
             }
         }
     ],
@@ -15746,6 +15858,22 @@
             "variations": {
                 "Woods C.C.": "Woods"
             }
+        }
+    ],
+    "Wright": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Wright": {
+                    "end": "1834-12-31T00:00:00",
+                    "start": "1831-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;supreme.court"
+            ],
+            "name": "Reports of cases at law and in chancery, decided by the Supreme court of Ohio, during the years 1831, 1832, 1833, 1834",
+            "variations": {}
         }
     ],
     "Wyo.": [
