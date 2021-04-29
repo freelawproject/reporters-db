@@ -22,7 +22,7 @@
             "with_suffix": "$reporter $paragraph_marker_optional$page_with_commas_and_suffix",
             "with_suffix#": "Paragraph cite with optional alpha character appended"
         },
-        "single_volume": "$reporter $page",
+        "single_volume": "(?:(?P<volume>1) )?$reporter $page",
         "year_page": "$reporter $volume_year-$page"
     },
     "page": {
