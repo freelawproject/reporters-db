@@ -5964,8 +5964,11 @@
                 "us:ar;supreme.court"
             ],
             "name": "Hempstead (AR)",
-            "notes": "Territoy of Arkansas reporter without a volume",
-            "variations": {}
+            "notes": "Territory of Arkansas reporter without a volume",
+            "variations": {
+                "Ark. Terr. Rep.": "Hempst.",
+                "Hemp.": "Hempst." 
+            }
         }
     ],
     "Hen. & M.": [
