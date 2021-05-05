@@ -14,6 +14,7 @@ from reporters_db import (
     NAMES_TO_EDITIONS,
     REGEX_VARIABLES,
     LAWS,
+    JOURNALS,
 )
 from unittest import TestCase
 
@@ -381,6 +382,43 @@ class LawsTest(BaseTestCase):
             self.check_ascii(law["examples"])
 
         self.check_whitespace(REPORTERS)
+
+
+class JournalsTest(BaseTestCase):
+    """Tests for journals.json"""
+
+    @staticmethod
+    def iter_journals():
+        for journal_key, journal_list in JOURNALS.items():
+            yield from ((journal_key, journal) for journal in journal_list)
+
+    def test_regexes(self):
+        """Do custom regexes and examples match up?"""
+        for journal_key, journal in self.iter_journals():
+            regexes = [
+                (
+                    regex_template,
+                    recursive_substitute(regex_template, REGEX_VARIABLES),
+                )
+                for regex_template in journal.get("regexes", [])
+            ]
+            with self.subTest("Check journal regexes", name=journal["name"]):
+                self.check_regexes(regexes, journal.get("examples", []))
+
+    def text_json_format(self):
+        self.check_json_format("journals.json")
+
+    def test_dates(self):
+        for journal_key, journal in self.iter_journals():
+            self.check_dates(journal["start"], journal["end"])
+
+    def test_fields_tidy(self):
+        """Check that fields don't have unexpected characters or whitespace."""
+        for journal_key, journal in self.iter_journals():
+            self.check_ascii(journal_key)
+            self.check_ascii(journal["name"])
+
+        self.check_whitespace(JOURNALS)
 
 
 if __name__ == "__main__":

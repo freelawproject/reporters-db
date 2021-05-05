@@ -34,6 +34,10 @@ with open(os.path.join(db_root, "data", "laws.json")) as f:
     LAWS = json.load(f, object_hook=datetime_parser)
 
 
+with open(os.path.join(db_root, "data", "journals.json")) as f:
+    JOURNALS = json.load(f, object_hook=datetime_parser)
+
+
 with open(os.path.join(db_root, "data", "regexes.json")) as f:
     RAW_REGEX_VARIABLES = json.load(f)
     REGEX_VARIABLES = process_variables(RAW_REGEX_VARIABLES)
