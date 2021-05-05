@@ -3626,9 +3626,18 @@
             "editions": {
                 "D.C.": {
                     "end": "1893-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>MacArth\\. & M\\.|Tuck\\. & Cl\\.|MacArth\\.|Mackey|Cranch)\\) $page"
+                    ],
                     "start": "1801-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 D.C. 1",
+                "21 D.C. (Tuck. & Cl.) 456",
+                "12 D.C. (1 Mackey) 456"
+            ],
             "mlz_jurisdiction": [
                 "us:dc;court.appeals"
             ],
@@ -3649,6 +3658,25 @@
                 "us:ca;appeals.court"
             ],
             "name": "California Daily Journal Daily Appellate Reports",
+            "variations": {}
+        }
+    ],
+    "Daily Wash. L. Rptr.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Daily Wash. L. Rptr.": {
+                    "end": null,
+                    "start": "1971-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "124 Daily Wash. L. Rptr. 1473"
+            ],
+            "mlz_jurisdiction": [
+                "us:dc;superior.court"
+            ],
+            "name": "Daily Washington Law Reporter",
             "variations": {}
         }
     ],
@@ -3721,6 +3749,9 @@
             "editions": {
                 "Dallam": {
                     "end": "1844-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite_single_volume"
+                    ],
                     "start": "1840-01-01T00:00:00"
                 }
             },
@@ -3832,9 +3863,17 @@
             "editions": {
                 "Del.": {
                     "end": "1966-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Marv\\.|Penne\\.|Harr\\.|Boyce|Houst\\.)\\) $page"
+                    ],
                     "start": "1920-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Del. 1",
+                "24 Del. (1 Boyce) 1"
+            ],
             "mlz_jurisdiction": [
                 "us:de;supreme.court"
             ],
@@ -6226,6 +6265,22 @@
             }
         }
     ],
+    "How. Pr. (n.s.)": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "How. Pr. (n.s.)": {
+                    "end": "1886-12-31T00:00:00",
+                    "start": "1879-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Howard's Practice Reports (n.s.)",
+            "variations": {}
+        }
+    ],
     "Howard": [
         {
             "cite_type": "state",
@@ -6556,6 +6611,10 @@
             "editions": {
                 "Ill.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Scam\\.|Breese|Gilm\\.)\\) $page"
+                    ],
                     "start": "1849-01-01T00:00:00"
                 },
                 "Ill. 2d": {
@@ -6563,6 +6622,11 @@
                     "start": "1849-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Ill. 1",
+                "6 Ill. (1 Gilm.) 456",
+                "1 Ill. (Breese) 456"
+            ],
             "mlz_jurisdiction": [
                 "us:il;supreme.court"
             ],
@@ -7144,9 +7208,17 @@
             "editions": {
                 "Ky.": {
                     "end": "1951-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Bush|Duv\\.|Met\\.|B\\. Mon\\.|Dana|J\\.J\\. Marsh\\.|T\\.B\\. Mon\\.|Litt\\.|Litt\\. Sel\\. Cas\\.|A\\.K\\. Marsh\\.|Bibb|Hard\\.|Sneed|Hughes)\\) $page"
+                    ],
                     "start": "1879-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Ky. 1",
+                "66 Ky. (3 Bush) 456"
+            ],
             "mlz_jurisdiction": [
                 "us:ky;supreme.court",
                 "us:ky;appeals.court"
@@ -8354,9 +8426,17 @@
             "editions": {
                 "Mass.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Allen|Gray|Cush\\.|Met\\.|Pick\\.|Tyng|Will\\.)\\) $page"
+                    ],
                     "start": "1867-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Mass. 1",
+                "83 Mass. (1 Allen) 456"
+            ],
             "mlz_jurisdiction": [
                 "us:ma;supreme.court"
             ],
@@ -8419,6 +8499,30 @@
                 "us:ma;appeals.court"
             ],
             "name": "Reports of Massachusetts Appellate Division",
+            "variations": {}
+        }
+    ],
+    "Mass. App. Div. Adv. Sh.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mass. App. Div. Adv. Sh.": {
+                    "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$reporter \\($volume_year\\) $page"
+                    ],
+                    "start": "1975-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1977 Mass. App. Div. Adv. Sh. 805",
+                "Mass. App. Div. Adv. Sh. (1979) 219"
+            ],
+            "mlz_jurisdiction": [
+                "us:ma;appeals.court"
+            ],
+            "name": "Massachusetts Appellate Division Advance Sheets",
             "variations": {}
         }
     ],
@@ -8966,9 +9070,17 @@
             "editions": {
                 "Miss.": {
                     "end": "1966-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>S\\. & M\\.|Howard|Walker)\\) $page"
+                    ],
                     "start": "1851-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Miss. 1",
+                "9 Miss. (1 S. & M.) 456"
+            ],
             "mlz_jurisdiction": [
                 "us:ms;supreme.court"
             ],
@@ -9212,11 +9324,11 @@
             "variations": {}
         }
     ],
-    "N. Mar. I. Commw. Rptr.": [
+    "N. Mar. I. Commw.": [
         {
             "cite_type": "state",
             "editions": {
-                "N. Mar. I. Commw. Rptr.": {
+                "N. Mar. I. Commw.": {
                     "end": null,
                     "start": "1979-01-01T00:00:00"
                 }
@@ -9225,7 +9337,9 @@
                 "us:c9:mp.d;district.court"
             ],
             "name": "Northern Mariana Islands Commonwealth Reporter",
-            "variations": {}
+            "variations": {
+                "N. Mar. I. Commw. Rptr.": "N. Mar. I. Commw."
+            }
         }
     ],
     "N.B.R.": [
@@ -9248,9 +9362,20 @@
             "editions": {
                 "N.C.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Phil\\. Eq\\.|Phil\\.|Win\\.|Jones Eq\\.|Jones|Busb\\. Eq\\.|Busb\\.|Ired\\. Eq\\.|Ired\\.|Dev\\. & Bat\\. Eq\\.|Dev\\. Eq\\.|Dev\\.|Hawks|Mur\\.|Taylor|Car\\. L\\. Rep\\.|Hayw\\.|Cam\\. & Nor\\.|Tay\\.|Mart\\.)\\) $page",
+                        "$volume $reporter \\((?P<volume_nominative>3 & 4) (?P<reporter_nominative>Dev\\. & Bat\\.)\\) $page"
+                    ],
                     "start": "1868-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 N.C. 1",
+                "46 N.C. (1 Jones) 456",
+                "61 N.C. (Phil.) 456",
+                "20 N.C. (3 & 4 Dev. & Bat.) 456"
+            ],
             "mlz_jurisdiction": [
                 "us:nc;supreme.court"
             ],
@@ -10623,15 +10748,19 @@
             "cite_type": "state",
             "editions": {
                 "Ohio C.A.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
+                    "end": "1923-12-31T00:00:00",
+                    "start": "1916-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
                 "us:oh;appeals.court"
             ],
             "name": "Ohio Courts of Appeals Reports",
-            "variations": {}
+            "notes": "Continuation of Ohio C.C. (n.s.), so starts from volume 27.",
+            "variations": {
+                "O. C. A.": "Ohio C.A.",
+                "Ohio Ct. App.": "Ohio C.A."
+            }
         }
     ],
     "Ohio C.C.": [
@@ -11007,6 +11136,20 @@
                 "Okla.Cr.": "Okla. Crim.",
                 "Okla.Crim.": "Okla. Crim."
             }
+        }
+    ],
+    "Okla. Trib.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Okla. Trib.": {
+                    "end": null,
+                    "start": "1979-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Oklahoma Tribal Court Reports",
+            "variations": {}
         }
     ],
     "Olcott": [
@@ -12401,9 +12544,15 @@
             "editions": {
                 "Robards": {
                     "end": "1865-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite_single_volume"
+                    ],
                     "start": "1862-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Robards 123"
+            ],
             "mlz_jurisdiction": [
                 "us:tx;supreme.court"
             ],
@@ -12545,9 +12694,18 @@
             "editions": {
                 "S.C. Eq.": {
                     "end": "1868-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Rich\\. Eq\\.|Strob\\. Eq\\.|Speers Eq\\.|McMul\\. Eq\\.|Chev\\. Eq\\.|Rice Eq\\.|Dud\\. Eq\\.|Ril\\. Eq\\.|Hill Eq\\.|Rich\\. Cas\\.|Bail\\. Eq\\.|McCord Eq\\.|Harp\\. Eq\\.|Des\\. Eq\\.)\\) $page"
+                    ],
                     "start": "1784-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 S.C. Eq. 1",
+                "24 S.C. Eq. (3 Rich. Eq.) 456",
+                "17 S.C. Eq. (Speers Eq.) 456"
+            ],
             "mlz_jurisdiction": [
                 "us:sc;supreme.court"
             ],
@@ -12561,9 +12719,18 @@
             "editions": {
                 "S.C.L.": {
                     "end": "1868-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Rich\\.|Strob\\.|Speers|McMul\\.|Chev\\.|Rice|Dud\\.|Ril\\.|Hill|Bail\\.|Harp\\.|McCord|Nott & McC\\.|Mill|Tread\\.|Brev\\.|Bay)\\) $page"
+                    ],
                     "start": "1783-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 S.C.L. 1",
+                "37 S.C.L. (3 Rich.) 456",
+                "24 S.C.L. (Rice) 456"
+            ],
             "mlz_jurisdiction": [
                 "us:sc;supreme.court"
             ],
@@ -13594,6 +13761,28 @@
             "variations": {}
         }
     ],
+    "Tapp. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tapp. Rep.": {
+                    "end": "1819-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite_single_volume"
+                    ],
+                    "start": "1816-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Tapp. Rep. 61"
+            ],
+            "mlz_jurisdiction": [
+                "us:oh;supreme.court"
+            ],
+            "name": "Cases decided in the Courts of common pleas, in the Fifth circuit of the state of Ohio [1816-1819] (Tappan)",
+            "variations": {}
+        }
+    ],
     "Tax Ct. Mem. Dec. (CCH)": [
         {
             "cite_type": "specialty",
@@ -13715,9 +13904,18 @@
             "editions": {
                 "Tenn.": {
                     "end": "1971-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Heisk\\.|Cold\\.|Head|Sneed|Swan|Hum\\.|Meigs|Yer\\.|Mart\\. & Yer\\.|Peck|Hayw\\.|Cooke|Overt\\.)\\) $page"
+                    ],
                     "start": "1870-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Tenn. 1",
+                "48 Tenn. (1 Heisk.) 456",
+                "19 Tenn. (Meigs) 456"
+            ],
             "mlz_jurisdiction": [
                 "us:tn;supreme.court"
             ],
@@ -14597,9 +14795,18 @@
             "editions": {
                 "Va.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Gratt\\.|Rob\\.|Leigh|Rand\\.|Gilmer|Munf\\.|Hen\\. & M\\.|Call|Va\\. Cas\\.|Wash\\.)\\) $page"
+                    ],
                     "start": "1880-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Va. 1",
+                "21 Va. (Gilmer) 456",
+                "1 Va. (1 Wash.) 456"
+            ],
             "mlz_jurisdiction": [
                 "us:va;supreme.court"
             ],
@@ -15546,11 +15753,11 @@
             }
         }
     ],
-    "Wilson": [
+    "Willson": [
         {
             "cite_type": "state",
             "editions": {
-                "Wilson": {
+                "Willson": {
                     "end": "1892-12-31T00:00:00",
                     "start": "1883-01-01T00:00:00"
                 }
@@ -15558,9 +15765,9 @@
             "mlz_jurisdiction": [
                 "us:tx;supreme.court"
             ],
-            "name": "Condensed Reports of Decisions in Civil Causes in the Court of Appeals of Texas (Wilson)",
+            "name": "Condensed Reports of Decisions in Civil Causes in the Court of Appeals of Texas (Willson)",
             "variations": {
-                "Wilson Rep.": "Wilson"
+                "Willson Rep.": "Willson"
             }
         }
     ],
@@ -15651,6 +15858,22 @@
             "variations": {
                 "Woods C.C.": "Woods"
             }
+        }
+    ],
+    "Wright": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Wright": {
+                    "end": "1834-12-31T00:00:00",
+                    "start": "1831-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;supreme.court"
+            ],
+            "name": "Reports of cases at law and in chancery, decided by the Supreme court of Ohio, during the years 1831, 1832, 1833, 1834",
+            "variations": {}
         }
     ],
     "Wyo.": [

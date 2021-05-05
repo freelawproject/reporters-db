@@ -241,7 +241,7 @@ class ConstantsTest(TestCase):
                 )
 
     def test_json_format(self):
-        """Does format of reporters.json match json.dumps(json.loads(), sort_keys=True)? """
+        """Does format of reporters.json match json.dumps(json.loads(), sort_keys=True)?"""
         for file_name in ("reporters.json", "regexes.json"):
             with self.subTest(file_name=file_name):
                 json_path = (

@@ -22,7 +22,7 @@
             "with_suffix": "$reporter $paragraph_marker_optional$page_with_commas_and_suffix",
             "with_suffix#": "Paragraph cite with optional alpha character appended"
         },
-        "single_volume": "$reporter $page",
+        "single_volume": "(?:(?P<volume>1) )?$reporter $page",
         "year_page": "$reporter $volume_year-$page"
     },
     "page": {
@@ -47,6 +47,8 @@
     "volume": {
         "": "(?P<volume>\\d+)",
         "#": "Standard volume number",
+        "nominative": "(?:(?P<volume_nominative>\\d{1,2}) )?",
+        "nominative#": "Nominative volume number embedded in an official cite; made optional for single-volume nominatives",
         "with_alpha_suffix": "(?P<volume>\\d{1,4}A?)",
         "with_alpha_suffix#": "Volume number that may have 'A' appended, like '1A'",
         "with_digit_suffix": "(?P<volume>\\d{1,4}(?:-\\d+)?)",
