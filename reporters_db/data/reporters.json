@@ -634,26 +634,8 @@
                 }
             },
             "mlz_jurisdiction": [],
-            "name": "Americans with  Disabilities Decisions",
+            "name": "Americans with Disabilities Decisions",
             "variations": {}
-        }
-    ],
-    "Am. J. Juris.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Am. J. Juris.": {
-                    "end": null,
-                    "start": "1969-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [],
-            "name": "American Journal of Jurisprudence",
-            "notes": "Published by Notre Dame Law School",
-            "variations": {
-                "Am. J. Jurispr": "Am. J. Juris.",
-                "Am. J. Jurisprud": "Am. J. Juris."
-            }
         }
     ],
     "Am. Law Reg.": [
@@ -1090,6 +1072,20 @@
             }
         }
     ],
+    "B.C.A. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "B.C.A. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Board of Contract Appeals Decisions",
+            "variations": {}
+        }
+    ],
     "B.R.": [
         {
             "cite_type": "specialty",
@@ -1365,6 +1361,20 @@
             "variations": {}
         }
     ],
+    "Banking Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Banking Rep. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "BNA's Banking Report",
+            "variations": {}
+        }
+    ],
     "Bankr. Ct. Dec. (CRR)": [
         {
             "cite_type": "specialty",
@@ -1381,6 +1391,20 @@
                 "Bankr. Ct. Dec.": "Bankr. Ct. Dec. (CRR)",
                 "Bankr.Ct.Dec.": "Bankr. Ct. Dec. (CRR)"
             }
+        }
+    ],
+    "Bankr. Ct. Dec. (LRP)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Bankr. Ct. Dec. (LRP)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Bankruptcy Court Decisions",
+            "variations": {}
         }
     ],
     "Bankr. Ct. Rep.": [
@@ -1595,6 +1619,20 @@
             "variations": {}
         }
     ],
+    "Ben. Rev. Bd. Serv. (MB)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Ben. Rev. Bd. Serv. (MB)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Benefits Review Board Service",
+            "variations": {}
+        }
+    ],
     "Bibb": [
         {
             "cite_type": "state",
@@ -1744,6 +1782,20 @@
                 "Blatchf. C.C.": "Blatchf.",
                 "Blatchf. C.C. Rep.": "Blatchf."
             }
+        }
+    ],
+    "Blue Sky L. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Blue Sky L. Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Blue Sky Law Reports",
+            "variations": {}
         }
     ],
     "Blume Sup. Ct. Trans.": [
@@ -2011,6 +2063,20 @@
                 "Burnett": "Bur.",
                 "Burnett (Wis.)": "Bur."
             }
+        }
+    ],
+    "Bus. Franchise Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Bus. Franchise Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Business Franchise Guide",
+            "variations": {}
         }
     ],
     "Busb.": [
@@ -2583,6 +2649,34 @@
             }
         }
     ],
+    "Can. Com. L. Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Can. Com. L. Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Canadian Commercial Law Guide",
+            "variations": {}
+        }
+    ],
+    "Can. Tax Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Can. Tax Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Canadian Tax Reports",
+            "variations": {}
+        }
+    ],
     "Car. L. Rep.": [
         {
             "cite_type": "state",
@@ -2636,22 +2730,6 @@
             }
         }
     ],
-    "Cent. Law J.": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Cent. Law J.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [],
-            "name": "North Carolina (NC) Central Law Journal",
-            "variations": {
-                "N.C. Cent. L.J.": "Cent. Law J."
-            }
-        }
-    ],
     "Chand.": [
         {
             "cite_type": "state",
@@ -2685,6 +2763,20 @@
             "variations": {
                 "Chase.": "Chase"
             }
+        }
+    ],
+    "Chem. Reg. Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Chem. Reg. Rep. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Chemical Regulation Reporter",
+            "variations": {}
         }
     ],
     "Chest.": [
@@ -2758,6 +2850,20 @@
                 "us:c7:il.nd;district.court"
             ],
             "name": "Chicago Legal News (1868-1925) (Illinois)",
+            "variations": {}
+        }
+    ],
+    "Chicago Bd. Options Ex. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Chicago Bd. Options Ex. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Chicago Board Options Exchange",
             "variations": {}
         }
     ],
@@ -2966,6 +3072,20 @@
             }
         }
     ],
+    "Collective Bargaining Negot. & Cont. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Collective Bargaining Negot. & Cont. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Collective Bargaining Negotiations & Contracts",
+            "variations": {}
+        }
+    ],
     "Collier Bankr. Cas.": [
         {
             "cite_type": "specialty",
@@ -3076,24 +3196,6 @@
             "variations": {}
         }
     ],
-    "Colo. Law.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Colo. Law.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [
-                "us:co;supreme.court"
-            ],
-            "name": "Colorado Lawyer",
-            "variations": {
-                "Colorado Law.": "Colo. Law."
-            }
-        }
-    ],
     "Comm. Fut. L. Rep.": [
         {
             "cite_type": "specialty",
@@ -3108,6 +3210,20 @@
             "variations": {
                 "Comm. Fut. L. Rep. (CCH)": "Comm. Fut. L. Rep."
             }
+        }
+    ],
+    "Commc'ns Reg. (P & F)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Commc'ns Reg. (P & F)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Communications Regulation",
+            "variations": {}
         }
     ],
     "Communications Reg. (P&F)": [
@@ -3129,6 +3245,20 @@
                 "Comm. Reg. (P & F)": "Communications Reg. (P&F)",
                 "Comm. Reg. 2d (P & F)": "Communications Reg. 2d (P&F)"
             }
+        }
+    ],
+    "Cong. Index(CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Cong. Index(CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Congressional Index",
+            "variations": {}
         }
     ],
     "Conn.": [
@@ -3291,6 +3421,48 @@
             }
         }
     ],
+    "Consumer Cred. Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Consumer Cred. Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Consumer Credit Guide",
+            "variations": {}
+        }
+    ],
+    "Consumer Prod. Safety Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Consumer Prod. Safety Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Consumer Product Safety Guide",
+            "variations": {}
+        }
+    ],
+    "Cont. App. Dec. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Cont. App. Dec. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Contract Appeals Decisions",
+            "variations": {}
+        }
+    ],
     "Cont. Cas. Fed.": [
         {
             "cite_type": "federal",
@@ -3344,6 +3516,48 @@
             },
             "mlz_jurisdiction": [],
             "name": "Copyright Law Reporter (CCH)",
+            "variations": {}
+        }
+    ],
+    "Copyright L. Dec. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Copyright L. Dec. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Copyright Law Decisions",
+            "variations": {}
+        }
+    ],
+    "Copyright L. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Copyright L. Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Copyright Law Reporter",
+            "variations": {}
+        }
+    ],
+    "Cost Accounting Stand. Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Cost Accounting Stand. Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Cost Accounting Standards Guide",
             "variations": {}
         }
     ],
@@ -3421,6 +3635,20 @@
             }
         }
     ],
+    "Crim. L. Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Crim. L. Rep. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "The Criminal Law Reporter",
+            "variations": {}
+        }
+    ],
     "Ct. Cl.": [
         {
             "cite_type": "specialty",
@@ -3492,20 +3720,6 @@
             "variations": {
                 "Ct.Int'l Trade": "Ct. Int'l Trade"
             }
-        }
-    ],
-    "Cumb. L. Rev.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Cumb. L. Rev.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [],
-            "name": "Cumberland Law Review",
-            "variations": {}
         }
     ],
     "Curt.": [
@@ -3658,6 +3872,20 @@
                 "us:ca;appeals.court"
             ],
             "name": "California Daily Journal Daily Appellate Reports",
+            "variations": {}
+        }
+    ],
+    "Daily Lab. Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Daily Lab. Rep. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Daily Labor Report",
             "variations": {}
         }
     ],
@@ -4114,6 +4342,20 @@
             "variations": {}
         }
     ],
+    "Dominion Tax Cas. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Dominion Tax Cas. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Dominion Tax Cases",
+            "variations": {}
+        }
+    ],
     "Doug.": [
         {
             "cite_type": "state",
@@ -4231,6 +4473,20 @@
             }
         }
     ],
+    "EEOC Compl. Man. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "EEOC Compl. Man. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "EEOC Compliance Manual",
+            "variations": {}
+        }
+    ],
     "ERC": [
         {
             "cite_type": "specialty",
@@ -4321,6 +4577,34 @@
             }
         }
     ],
+    "Empl. Benefits Cas. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Empl. Benefits Cas. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Employee Benefits Cases",
+            "variations": {}
+        }
+    ],
+    "Empl. Coordinator (RIA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Empl. Coordinator (RIA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Employee Benefits Compliance Coordinator",
+            "variations": {}
+        }
+    ],
     "Empl. Prac. Dec. (CCH)": [
         {
             "cite_type": "specialty",
@@ -4349,6 +4633,34 @@
             }
         }
     ],
+    "Empl. Prac. Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Empl. Prac. Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Employment Practices Guide",
+            "variations": {}
+        }
+    ],
+    "Empl. Safety & Health Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Empl. Safety & Health Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Employment Safety and Health Guide",
+            "variations": {}
+        }
+    ],
     "Employee Benefits Cas. (BNA)": [
         {
             "cite_type": "specialty",
@@ -4363,6 +4675,48 @@
             "variations": {
                 "Employee Benefits Cas.": "Employee Benefits Cas. (BNA)"
             }
+        }
+    ],
+    "Energy Mgmt. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Energy Mgmt. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Energy Management & Federal Energy Guidelines",
+            "variations": {}
+        }
+    ],
+    "Env't Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Env't Rep. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Environment Reporter",
+            "variations": {}
+        }
+    ],
+    "Env't Rep. Cas. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Env't Rep. Cas. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Environment Reporter Cases",
+            "variations": {}
         }
     ],
     "Envtl. L. Rep. (Envtl. Law Inst.)": [
@@ -4382,6 +4736,20 @@
                 "Envtl. L. Rep.": "Envtl. L. Rep. (Envtl. Law Inst.)",
                 "Envtl. L.Rep.": "Envtl. L. Rep. (Envtl. Law Inst.)"
             }
+        }
+    ],
+    "Exempt Org. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Exempt Org. Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Exempt Organizations Reports",
+            "variations": {}
         }
     ],
     "F.": [
@@ -4843,6 +5211,34 @@
             }
         }
     ],
+    "Fam. L. Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fam. L. Rep. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "The Family Law Reporter",
+            "variations": {}
+        }
+    ],
+    "Fam. L. Tax Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fam. L. Tax Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Family Law Tax Guide",
+            "variations": {}
+        }
+    ],
     "Fed. Appx.": [
         {
             "cite_type": "federal",
@@ -4858,6 +5254,20 @@
             "variations": {
                 "Fed.Appx.": "Fed. Appx."
             }
+        }
+    ],
+    "Fed. Audit Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fed. Audit Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Federal Audit Guides",
+            "variations": {}
         }
     ],
     "Fed. Banking L. Rep. (CCH)": [
@@ -4895,6 +5305,20 @@
             }
         }
     ],
+    "Fed. Carr. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fed. Carr. Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Federal Carriers Reports",
+            "variations": {}
+        }
+    ],
     "Fed. Cl.": [
         {
             "cite_type": "specialty",
@@ -4911,6 +5335,90 @@
             "variations": {
                 "Fed.Cl.": "Fed. Cl."
             }
+        }
+    ],
+    "Fed. Cont. Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fed. Cont. Rep. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Federal Contracts Report",
+            "variations": {}
+        }
+    ],
+    "Fed. Election Camp. Fin. Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fed. Election Camp. Fin. Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Federal Election Campaign Financing Guide",
+            "variations": {}
+        }
+    ],
+    "Fed. Energy Reg. Comm'n Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fed. Energy Reg. Comm'n Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Federal Energy Regulatory Commission Reports",
+            "variations": {}
+        }
+    ],
+    "Fed. Est. & Gift Tax Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fed. Est. & Gift Tax Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Federal Estate and Gift Tax Reporter",
+            "variations": {}
+        }
+    ],
+    "Fed. Ex. Tax Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fed. Ex. Tax Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Federal Excise Tax Reports",
+            "variations": {}
+        }
+    ],
+    "Fed. Inc. Gift & Est. Tax'n (MB)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fed. Inc. Gift & Est. Tax'n (MB)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Federal Income, Gift and Estate Taxation",
+            "variations": {}
         }
     ],
     "Fed. R. Serv.": [
@@ -5072,6 +5580,20 @@
             }
         }
     ],
+    "Fed. R. Serv. 2d (West)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fed. R. Serv. 2d (West)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Federal Rules Service, Second Series",
+            "variations": {}
+        }
+    ],
     "Fed. Sec. L. Rep. (CCH)": [
         {
             "cite_format": "{reporter} {page}",
@@ -5112,6 +5634,34 @@
             "variations": {
                 "Fed. Sent. R.": "Fed. Sent'g Rep"
             }
+        }
+    ],
+    "Fed. Tax Coordinator Second Series (RIA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fed. Tax Coordinator Second Series (RIA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Federal Tax Coordinator Second",
+            "variations": {}
+        }
+    ],
+    "Fed. Tax Guide Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fed. Tax Guide Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Federal Tax Guide Reports",
+            "variations": {}
         }
     ],
     "Fire & Casualty Cas.": [
@@ -5266,6 +5816,20 @@
             "variations": {
                 "Flipp. (F.)": "Flip."
             }
+        }
+    ],
+    "Food Drug Cosm. L. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Food Drug Cosm. L. Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Food Drug Cosmetic Law Reports",
+            "variations": {}
         }
     ],
     "Free. Ch.": [
@@ -5489,6 +6053,34 @@
             }
         }
     ],
+    "Gov't Cont. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Gov't Cont. Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Government Contracts Reporter",
+            "variations": {}
+        }
+    ],
+    "Gov't Empl. Rel. Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Gov't Empl. Rel. Rep. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Government Employee Relations Report",
+            "variations": {}
+        }
+    ],
     "Grant": [
         {
             "cite_type": "state",
@@ -5596,7 +6188,7 @@
                 "us:nj;supreme.court"
             ],
             "name": "Gummere's Reports",
-            "notes": "Estimated date range.  https://www.njstatelib.org/research_library/legal_resources/historical_laws/reporters/",
+            "notes": "Estimated date range. https://www.njstatelib.org/research_library/legal_resources/historical_laws/reporters/",
             "variations": {}
         }
     ],
@@ -5813,21 +6405,6 @@
             },
             "mlz_jurisdiction": [],
             "name": "Haskell's Reports",
-            "variations": {}
-        }
-    ],
-    "Hastings L.J.": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Hastings L.J.": {
-                    "end": null,
-                    "start": "1949-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [],
-            "name": "Hastings Law Journal",
-            "notes": "University of California, Hastings College of the Law Journal",
             "variations": {}
         }
     ],
@@ -6187,6 +6764,20 @@
             "variations": {
                 "Hopk. Ch. Rep.": "Hopk. Ch."
             }
+        }
+    ],
+    "Hous. & Dev. Rep. (RIA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Hous. & Dev. Rep. (RIA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Housing & Development Reporter",
+            "variations": {}
         }
     ],
     "Houston": [
@@ -6590,6 +7181,20 @@
             }
         }
     ],
+    "IRS Pos. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "IRS Pos. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "IRS Positions",
+            "variations": {}
+        }
+    ],
     "Idaho": [
         {
             "cite_type": "state",
@@ -6727,6 +7332,20 @@
             }
         }
     ],
+    "Immigr. L. Serv. (West)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Immigr. L. Serv. (West)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Immigration Law Service",
+            "variations": {}
+        }
+    ],
     "Ind.": [
         {
             "cite_type": "state",
@@ -6798,6 +7417,34 @@
                 "Ind. T.": "Indian Terr.",
                 "Ind.T.": "Indian Terr."
             }
+        }
+    ],
+    "Inher. Est. & Gift Tax Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Inher. Est. & Gift Tax Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Inheritance, Estate and Gift Tax Reports",
+            "variations": {}
+        }
+    ],
+    "Ins. L. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Ins. L. Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Insurance Law Reports",
+            "variations": {}
         }
     ],
     "Ins. L.J.": [
@@ -7673,6 +8320,34 @@
             "variations": {}
         }
     ],
+    "Lab. Arb. Awards (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Lab. Arb. Awards (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Labor Arbitration Awards",
+            "variations": {}
+        }
+    ],
+    "Lab. Arb. Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Lab. Arb. Rep. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Labor Arbitration Reports",
+            "variations": {}
+        }
+    ],
     "Lab. Cas. (CCH)": [
         {
             "cite_type": "specialty",
@@ -7701,6 +8376,20 @@
             },
             "mlz_jurisdiction": [],
             "name": "Labor Law Reporter (CCH)",
+            "variations": {}
+        }
+    ],
+    "Lab. Rel. Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Lab. Rel. Rep. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Labor Relations Reporter",
             "variations": {}
         }
     ],
@@ -7989,6 +8678,20 @@
             }
         }
     ],
+    "Liquor Cont. L. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Liquor Cont. L. Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Liquor Control Law Reports",
+            "variations": {}
+        }
+    ],
     "Litt.": [
         {
             "cite_type": "state",
@@ -8058,7 +8761,7 @@
                 }
             },
             "mlz_jurisdiction": [],
-            "name": "Lowell's District  Court Reports (US Mass. Dist.)",
+            "name": "Lowell's District Court Reports (US Mass. Dist.)",
             "variations": {}
         }
     ],
@@ -8128,7 +8831,7 @@
                 "us:md;circuit.court"
             ],
             "name": "Maryland Business and Technology",
-            "notes": "Appears to be a neutral citation, published but not precedential.  See url: https://mdcourts.gov/businesstech/opinions",
+            "notes": "Appears to be a neutral citation, published but not precedential. See url: https://mdcourts.gov/businesstech/opinions",
             "variations": {}
         }
     ],
@@ -8817,6 +9520,20 @@
             }
         }
     ],
+    "Med. Devices Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Med. Devices Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Medical Devices Reports",
+            "variations": {}
+        }
+    ],
     "Media L. Rep. (BNA)": [
         {
             "cite_type": "specialty",
@@ -8831,6 +9548,20 @@
             "variations": {
                 "Media L. Rep.": "Media L. Rep. (BNA)"
             }
+        }
+    ],
+    "Medicare & Medicaid Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Medicare & Medicaid Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Medicare and Medicaid Guide",
+            "variations": {}
         }
     ],
     "Meigs": [
@@ -9289,6 +10020,20 @@
                 "Murph.(N.C.)": "Mur.",
                 "N.C.(Mur.)": "Mur."
             }
+        }
+    ],
+    "Mut. Funds Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Mut. Funds Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Mutual Funds Guide",
+            "variations": {}
         }
     ],
     "N. Chip.": [
@@ -10018,6 +10763,20 @@
             }
         }
     ],
+    "N.Y.S.E. Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "N.Y.S.E. Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "New York Stock Exchange Guide",
+            "variations": {}
+        }
+    ],
     "NCA": [
         {
             "cite_type": "state",
@@ -10380,7 +11139,7 @@
                 }
             },
             "mlz_jurisdiction": [],
-            "name": "Newberry's  District Court Admiralty Rep. United States (US)",
+            "name": "Newberry's District Court Admiralty Rep. United States (US)",
             "variations": {}
         }
     ],
@@ -10425,6 +11184,20 @@
                 "Nott & M'C.(S.C.)": "Nott & McC.",
                 "S.C.L.(Nott & McC.)": "Nott & McC."
             }
+        }
+    ],
+    "Nuclear Reg. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Nuclear Reg. Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Nuclear Regulation Reports",
+            "variations": {}
         }
     ],
     "O. Supp.": [
@@ -10481,6 +11254,34 @@
             }
         }
     ],
+    "O.S.H. Dec. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "O.S.H. Dec. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Occupational Safety and Health Decisions",
+            "variations": {}
+        }
+    ],
+    "O.S.H. Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "O.S.H. Rep. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Occupational Safety & Health Reporter",
+            "variations": {}
+        }
+    ],
     "O.S.H.D. (CCH)": [
         {
             "cite_type": "specialty",
@@ -10518,6 +11319,20 @@
                 "Ohio S.U.": "O.S.U.",
                 "Ohio. Unrept.Cas.": "O.S.U."
             }
+        }
+    ],
+    "OFCCP Fed. Cont. Compl. Man. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "OFCCP Fed. Cont. Compl. Man. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "OFCCP Federal Contract Compliance Manual",
+            "variations": {}
         }
     ],
     "OK": [
@@ -10597,6 +11412,20 @@
                 "us:ok;court.ethics"
             ],
             "name": "Oklahoma Neutral Citation (Judicial Ethics Advisory Panel)",
+            "variations": {}
+        }
+    ],
+    "OSHA Comp. Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "OSHA Comp. Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Human Resources Management OSHA Compliance Guide",
             "variations": {}
         }
     ],
@@ -11734,7 +12563,7 @@
                 }
             },
             "mlz_jurisdiction": [],
-            "name": "Paine's United  States (US) Circuit Court Reports",
+            "name": "Paine's United States (US) Circuit Court Reports",
             "variations": {}
         }
     ],
@@ -11763,6 +12592,20 @@
                 "Parker's Crim. Rep.": "Park. Cr.",
                 "Parker, Cr. R.": "Park. Cr."
             }
+        }
+    ],
+    "Pat. Trademark & Copyright J. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Pat. Trademark & Copyright J. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Patent, Trademark & Copyright Journal",
+            "variations": {}
         }
     ],
     "Patton & Heath": [
@@ -11938,6 +12781,62 @@
             }
         }
     ],
+    "Pens. & Profit Sharing 2d (RIA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Pens. & Profit Sharing 2d (RIA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Pension & Profit Sharing Second",
+            "variations": {}
+        }
+    ],
+    "Pens. Plan Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Pens. Plan Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Pension Plan Guide",
+            "variations": {}
+        }
+    ],
+    "Personal and Comm. Liab. Life Health & Accid. Ins. Cas. 2d (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Personal and Comm. Liab. Life Health & Accid. Ins. Cas. 2d (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Personal and Commercial Liability Life, Health & Accident Insurance Cases 2d",
+            "variations": {}
+        }
+    ],
+    "Personnel Mgmt. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Personnel Mgmt. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Personnel Management",
+            "variations": {}
+        }
+    ],
     "Pet.": [
         {
             "cite_type": "scotus_early",
@@ -11970,7 +12869,7 @@
                 }
             },
             "mlz_jurisdiction": [],
-            "name": "Peters' District  Court Admiralty Reports",
+            "name": "Peters' District Court Admiralty Reports",
             "variations": {}
         }
     ],
@@ -12201,6 +13100,34 @@
                 "Posey, Unrep. Cas.": "Posey",
                 "Tex. Unrep. Cas.": "Posey"
             }
+        }
+    ],
+    "Prod. Liab. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Prod. Liab. Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Products Liability Reports",
+            "variations": {}
+        }
+    ],
+    "Prod. Safety & Liab. Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Prod. Safety & Liab. Rep. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Product Safety & Liability Reporter",
+            "variations": {}
         }
     ],
     "R.I.": [
@@ -12867,6 +13794,20 @@
             "variations": {}
         }
     ],
+    "SEC Accounting R. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "SEC Accounting R. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "SEC Accounting Rules",
+            "variations": {}
+        }
+    ],
     "SEC Jud. Dec.": [
         {
             "cite_type": "specialty",
@@ -13002,6 +13943,48 @@
             }
         }
     ],
+    "Sec. & Fed. Corp. L. Rep. (West)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Sec. & Fed. Corp. L. Rep. (West)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Securities and Federal Corporate Law Report",
+            "variations": {}
+        }
+    ],
+    "Sec. Reg. & L. Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Sec. Reg. & L. Rep. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Securities Regulation & Law Report",
+            "variations": {}
+        }
+    ],
+    "Secured Transactions Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Secured Transactions Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Secured Transactions Guide",
+            "variations": {}
+        }
+    ],
     "Serg. & Rawle": [
         {
             "cite_type": "state",
@@ -13051,6 +14034,20 @@
                 "us:tn;supreme.court"
             ],
             "name": "Shannon's Tennessee Cases",
+            "variations": {}
+        }
+    ],
+    "Shipping Reg. (P & F)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Shipping Reg. (P & F)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Shipping Regulation",
             "variations": {}
         }
     ],
@@ -13210,22 +14207,18 @@
             }
         }
     ],
-    "Soc. Serv. Rev.": [
+    "Soc. Sec. Rep. (CCH)": [
         {
             "cite_type": "specialty",
             "editions": {
-                "Soc. Serv. Rev.": {
+                "Soc. Sec. Rep. (CCH)": {
                     "end": null,
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
-            "name": "Social Service Review",
-            "variations": {
-                "Soc. Sec. Rep. Serv.": "Soc. Serv. Rev.",
-                "Soc. Sec. Rep. Service": "Soc. Serv. Rev.",
-                "Soc.Sec.Rep.Serv.": "Soc. Serv. Rev."
-            }
+            "name": "Social Security Reporter",
+            "variations": {}
         }
     ],
     "Som. L.J.": [
@@ -13307,7 +14300,63 @@
                 }
             },
             "mlz_jurisdiction": [],
-            "name": "Sprague's United  States (US) District Ct. (Admiralty) Decisions",
+            "name": "Sprague's United States (US) District Ct. (Admiralty) Decisions",
+            "variations": {}
+        }
+    ],
+    "St. & Loc. Tax Serv. (RIA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "St. & Loc. Tax Serv. (RIA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "State and Local Tax Service",
+            "variations": {}
+        }
+    ],
+    "St. Tax Guide (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "St. Tax Guide (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "State Tax Guide",
+            "variations": {}
+        }
+    ],
+    "St. Tax Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "St. Tax Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "State Tax Reporter",
+            "variations": {}
+        }
+    ],
+    "Stand. Fed. Tax Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Stand. Fed. Tax Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Standard Federal Tax Reports",
             "variations": {}
         }
     ],
@@ -13823,6 +14872,34 @@
             "variations": {}
         }
     ],
+    "Tax Ct. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Tax Ct. Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Tax Court Reports",
+            "variations": {}
+        }
+    ],
+    "Tax Ct. Rep. Dec. (RIA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Tax Ct. Rep. Dec. (RIA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Tax Court Reported Decisions",
+            "variations": {}
+        }
+    ],
     "Tax Ct. Summary LEXIS": [
         {
             "cite_type": "specialty_lexis",
@@ -13836,6 +14913,20 @@
                 "us:c;tax.court"
             ],
             "name": "Lexis Tax Court Summary Decisions",
+            "variations": {}
+        }
+    ],
+    "Tax Treaties (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Tax Treaties (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Tax Treaties",
             "variations": {}
         }
     ],
@@ -14088,24 +15179,6 @@
             "name": "Texas Court of Appeals Reports",
             "variations": {
                 "Tex.Ct.App.R.": "Tex. Ct. App."
-            }
-        }
-    ],
-    "Tex. L. Rev.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. L. Rev.": {
-                    "end": "1846-12-31T00:00:00",
-                    "start": "1845-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [
-                "us:tx;supreme.court"
-            ],
-            "name": "Texas Law Review",
-            "variations": {
-                "Texas L.Rev.": "Tex. L. Rev."
             }
         }
     ],
@@ -14599,6 +15672,20 @@
             "variations": {}
         }
     ],
+    "U.S. Tax Rep. (RIA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "U.S. Tax Rep. (RIA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "U.S. Tax Reporter",
+            "variations": {}
+        }
+    ],
     "U.S.L.W.": [
         {
             "cite_type": "specialty",
@@ -14615,6 +15702,20 @@
             "variations": {
                 "USLW": "U.S.L.W."
             }
+        }
+    ],
+    "U.S.L.W. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "U.S.L.W. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "The United States Law Week",
+            "variations": {}
         }
     ],
     "U.S.P.Q. (BNA)": [
@@ -14724,6 +15825,20 @@
             }
         }
     ],
+    "Union Lab. Rep. (BNA)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Union Lab. Rep. (BNA)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Union Labor Report",
+            "variations": {}
+        }
+    ],
     "Utah": [
         {
             "cite_type": "state",
@@ -14757,6 +15872,20 @@
             "mlz_jurisdiction": [],
             "name": "Utah Advance Reports",
             "publisher": "Code Co.",
+            "variations": {}
+        }
+    ],
+    "Util. L. Rep. (CCH)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Util. L. Rep. (CCH)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Utilities Law Reports",
             "variations": {}
         }
     ],
@@ -14938,7 +16067,7 @@
                 "us:c2:ny.sd;district.court",
                 "us:c2:ny.wd;district.court"
             ],
-            "name": "Van Ness' Prize  Cases, United States (US) District Court, District of New York (NY)",
+            "name": "Van Ness' Prize Cases, United States (US) District Court, District of New York (NY)",
             "variations": {}
         }
     ],
@@ -15392,7 +16521,7 @@
                 }
             },
             "mlz_jurisdiction": [],
-            "name": "Ware's United  States (US) District Court Reports",
+            "name": "Ware's United States (US) District Court Reports",
             "variations": {}
         }
     ],

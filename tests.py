@@ -4,6 +4,8 @@ import re
 import datetime
 from difflib import context_diff
 from pathlib import Path
+from string import Template
+
 import six
 from reporters_db import (
     REPORTERS,
@@ -11,6 +13,8 @@ from reporters_db import (
     EDITIONS,
     NAMES_TO_EDITIONS,
     REGEX_VARIABLES,
+    LAWS,
+    JOURNALS,
 )
 from unittest import TestCase
 
@@ -62,7 +66,125 @@ def iter_editions():
             yield edition_abbv, edition
 
 
-class ConstantsTest(TestCase):
+class BaseTestCase(TestCase):
+    def check_regexes(self, regexes, examples):
+        """Check that each regex matches at least one example, and each example matches at least one regex.
+        regexes should be a list of [(regex_template, regex)]."""
+        matched_examples = set()
+
+        # check that each regex matches at least one example
+        for regex_template, regex in regexes:
+            has_match = False
+            for example in examples:
+                if re.match(regex + "$", example):
+                    has_match = True
+                    matched_examples.add(example)
+            if not has_match:
+                try:
+                    import exrex
+
+                    candidate = "Possible examples: %s" % [
+                        exrex.getone(regex, limit=3) for _ in range(10)
+                    ]
+                except ImportError:
+                    candidate = "Run 'pip install exrex' to generate a candidate example"
+                self.fail(
+                    "No match in 'examples' for custom regex '%s'.\n"
+                    "Expanded regex: %s.\n"
+                    "Provided examples: %s.\n"
+                    "%s"
+                    % (
+                        regex_template,
+                        regex,
+                        examples,
+                        candidate,
+                    )
+                )
+
+        # check that each example is matched by at least one regex
+        self.assertEqual(
+            set(examples),
+            matched_examples,
+            "Not all examples matched. If custom regexes are provided, all examples should match."
+            "Unmatched examples: %s. Regexes tried: %s"
+            % (set(examples) - matched_examples, regexes),
+        )
+
+    def check_json_format(self, file_name):
+        """Does format of json file match json.dumps(json.loads(), sort_keys=True)?"""
+        json_path = Path(__file__).parent / "reporters_db" / "data" / file_name
+        json_str = json_path.read_text()
+        reformatted = json.dumps(
+            json.loads(json_str),
+            indent=4,
+            ensure_ascii=False,
+            sort_keys=True,
+        )
+        reformatted += "\n"
+        if json_str != reformatted:
+            if os.environ.get("FIX_JSON"):
+                json_path.write_text(reformatted)
+            else:
+                diff = context_diff(
+                    json_str.splitlines(),
+                    reformatted.splitlines(),
+                    fromfile="reporters.json",
+                    tofile="expected.json",
+                )
+                self.fail(
+                    ("%s needs reformatting. " % file_name)
+                    + "Run with env var FIX_JSON=1 to update the file automatically. "
+                    + "Diff of actual vs. expected:\n"
+                    + "\n".join(diff)
+                )
+
+    def check_dates(self, start, end):
+        """Check that start and end dates are valid."""
+        if start is not None:
+            self.assertTrue(
+                isinstance(start, datetime.datetime),
+                f"{repr(start)} should be imported as a date.",
+            )
+        if end is not None:
+            self.assertTrue(
+                isinstance(end, datetime.datetime),
+                f"{repr(end)} should be imported as a date.",
+            )
+        if start is not None and end is not None:
+            self.assertLessEqual(start, end)
+
+    def check_ascii(self, obj):
+        """Check that all strings in obj match a list of expected ascii characters."""
+        allowed_chars = r"[ 0-9a-zA-Z.,\-'&(){}\[\]\\$§_?<>+:/]"
+        for s in emit_strings(obj):
+            remaining_chars = re.sub(allowed_chars, "", s)
+            self.assertFalse(
+                remaining_chars,
+                f"Unexpected characters in {repr(s)}: {repr(remaining_chars)}.",
+            )
+
+    def check_whitespace(self, obj):
+        for s in emit_strings(obj):
+            self.assertEqual(
+                s.strip(), s, msg="Field needs whitespace stripped: '%s'" % s
+            )
+            non_space_whitespace = any(w != " " for w in re.findall(r"\s+", s))
+            self.assertFalse(
+                non_space_whitespace,
+                f"Field has unexpected whitespace: {repr(s)}",
+            )
+
+
+class RegexesTest(BaseTestCase):
+    """Tests for regexes.json"""
+
+    def text_json_format(self):
+        self.check_json_format("regexes.json")
+
+
+class ReportersTest(BaseTestCase):
+    """Tests for reporters.json"""
+
     def test_any_keys_missing_editions(self):
         """Have we added any new reporters that lack a matching edition?"""
         for reporter_abbv, reporter_list, reporter_data in iter_reporters():
@@ -98,37 +220,11 @@ class ConstantsTest(TestCase):
             NAMES_TO_EDITIONS["Illinois Appellate Court Reports"],
         )
 
-    def test_that_all_dates_are_converted_to_dates_not_strings(self):
+    def test_dates(self):
         """Do we properly make the ISO-8601 date strings into Python dates?"""
         # for reporter_abbv, reporter_list, reporter_data in iter_reporters():
-        for e_name, e_dates in iter_editions():
-            # e_name == "A. 2d"
-            # e_dates == {
-            #     "end": "1938-12-31T00:00:00",
-            #     "start": "1885-01-01T00:00:00"
-            # }
-            for key in ["start", "end"]:
-                is_date_or_none = (
-                    isinstance(e_dates[key], datetime.datetime)
-                    or e_dates[key] is None
-                )
-                self.assertTrue(
-                    is_date_or_none,
-                    msg=(
-                        "%s dates in the reporter '%s' appear to be "
-                        "coming through as '%s'"
-                        % (key, e_name, type(e_dates[key]))
-                    ),
-                )
-                if key == "start":
-                    start_is_not_none = e_dates[key] is not None
-                    self.assertTrue(
-                        start_is_not_none,
-                        msg=(
-                            "Start date in reporter '%s' appears to "
-                            "be None, not 1750" % e_name
-                        ),
-                    )
+        for edition_name, edition in iter_editions():
+            self.check_dates(edition["start"], edition["end"])
 
     def test_all_reporters_have_valid_cite_type(self):
         """Do all reporters have valid cite_type values?"""
@@ -203,138 +299,126 @@ class ConstantsTest(TestCase):
                 )
 
     def test_fields_tidy(self):
-        """Do fields have any messiness?
-
-        For example:
-         - some punctuation is not allowed in some keys
-         - spaces at beginning/end not allowed
-        """
-
-        def cleaner(s):
-            return re.sub(r"[^ 0-9a-zA-Z.,\-'&()\[\]]", "", s.strip())
-
-        msg = "Got bad punctuation in: %s"
+        """Check that fields don't have unexpected characters or whitespace."""
         for reporter_abbv, reporter_list, reporter_data in iter_reporters():
-            self.assertEqual(
-                reporter_abbv, cleaner(reporter_abbv), msg=msg % reporter_abbv
-            )
-            for k in reporter_data["editions"].keys():
-                self.assertEqual(cleaner(k), k, msg=msg % k)
-            for k, v in reporter_data["variations"].items():
-                self.assertEqual(cleaner(k), k, msg=msg % k)
-                self.assertEqual(cleaner(v), v, msg=msg % v)
+            self.check_ascii(reporter_abbv)
+            self.check_ascii(list(reporter_data["editions"].keys()))
+            self.check_ascii(reporter_data["variations"])
 
-        for s in emit_strings(REPORTERS):
-            self.assertEqual(
-                s.strip(), s, msg="Fields needs whitespace stripped: '%s'" % s
-            )
-
-    def test_nothing_ends_before_it_starts(self):
-        """Do any editions have end dates before their start dates?"""
-        for k, edition in iter_editions():
-            if edition["start"] and edition["end"]:
-                self.assertLessEqual(
-                    edition["start"],
-                    edition["end"],
-                    msg="It appears that edition %s ends before it "
-                    "starts." % k,
-                )
-
-    def test_json_format(self):
-        """Does format of reporters.json match json.dumps(json.loads(), sort_keys=True)?"""
-        for file_name in ("reporters.json", "regexes.json"):
-            with self.subTest(file_name=file_name):
-                json_path = (
-                    Path(__file__).parent / "reporters_db" / "data" / file_name
-                )
-                json_str = json_path.read_text()
-                reformatted = json.dumps(
-                    json.loads(json_str),
-                    indent=4,
-                    ensure_ascii=False,
-                    sort_keys=True,
-                )
-                reformatted += "\n"
-                if json_str != reformatted:
-                    if os.environ.get("FIX_JSON"):
-                        json_path.write_text(reformatted)
-                    else:
-                        diff = context_diff(
-                            json_str.splitlines(),
-                            reformatted.splitlines(),
-                            fromfile="reporters.json",
-                            tofile="expected.json",
-                        )
-                        self.fail(
-                            ("%s needs reformatting. " % file_name)
-                            + "Run with env var FIX_JSON=1 to update the file automatically. "
-                            + "Diff of actual vs. expected:\n"
-                            + "\n".join(diff)
-                        )
+        self.check_whitespace(REPORTERS)
 
     def test_regexes(self):
         """Do custom regexes and examples match up?"""
         for reporter_abbv, reporter_list, reporter_data in iter_reporters():
-            examples = reporter_data.get("examples", [])
-            matched_examples = set()
-            custom_regexes = {}
 
-            # check that each custom regex matches at least one example
+            # get list of expanded regexes and examples for this reporter
+            examples = reporter_data.get("examples", [])
+            regexes = []
             for edition_abbv, edition in reporter_data["editions"].items():
                 if not edition.get("regexes"):
                     continue
-                with self.subTest(
-                    "Check edition regexes", edition=edition_abbv
-                ):
-                    for edition_regex in edition["regexes"]:
-                        full_regex = recursive_substitute(
-                            edition_regex, REGEX_VARIABLES
-                        )
-                        regexes = substitute_editions(
-                            full_regex,
-                            edition_abbv,
-                            reporter_data["variations"],
-                        )
-                        custom_regexes[edition_regex] = regexes
-                        has_match = False
-                        for example in examples:
-                            for regex in regexes:
-                                if re.match(regex + "$", example):
-                                    has_match = True
-                                    matched_examples.add(example)
-                                    break
-                        if not has_match:
-                            try:
-                                import exrex
-
-                                candidate = "Possible examples: %s" % [
-                                    exrex.getone(regexes[0], limit=3)
-                                    for _ in range(10)
-                                ]
-                            except ImportError:
-                                candidate = "Run 'pip install exrex' to generate a candidate example"
-                            self.fail(
-                                "Reporter '%s' has no match in 'examples' for custom regex '%s'.\nExpanded regexes: %s.\n%s"
-                                % (
-                                    reporter_abbv,
-                                    edition_regex,
-                                    regexes,
-                                    candidate,
-                                )
-                            )
-
-            # check that each example is matched by at least one regex
-            if custom_regexes:
-                with self.subTest(
-                    "Check all examples matched by custom regex",
-                    reporter=reporter_abbv,
-                ):
-                    self.assertEqual(
-                        set(examples),
-                        matched_examples,
-                        "Not all examples matched. If custom regexes are provided, all examples should match. Regexes tried: %s"
-                        % custom_regexes,
+                for regex_template in edition["regexes"]:
+                    edition_strings = [edition_abbv] + [
+                        k
+                        for k, v in reporter_data["variations"].items()
+                        if v == edition_abbv
+                    ]
+                    regex = recursive_substitute(
+                        regex_template, REGEX_VARIABLES
                     )
+                    regex = Template(regex).safe_substitute(
+                        edition="(?:%s)"
+                        % "|".join(re.escape(e) for e in edition_strings)
+                    )
+                    regexes.append((regex_template, regex))
+
+            if not regexes:
+                continue
+
+            with self.subTest(
+                "Check reporter regexes", reporter=reporter_abbv
+            ):
+                self.check_regexes(regexes, examples)
+
+    def text_json_format(self):
+        self.check_json_format("reporters.json")
+
+
+class LawsTest(BaseTestCase):
+    """Tests for laws.json"""
+
+    @staticmethod
+    def iter_laws():
+        for law_key, law_list in LAWS.items():
+            yield from ((law_key, law) for law in law_list)
+
+    def test_regexes(self):
+        """Do custom regexes and examples match up?"""
+        for law_key, law in self.iter_laws():
+            regexes = []
+            # expand regex and substitute $edition value
+            series_strings = [law_key] + law["variations"]
+            for regex_template in law["regexes"]:
+                regex = recursive_substitute(regex_template, REGEX_VARIABLES)
+                regex = Template(regex).safe_substitute(
+                    edition="(?:%s)"
+                    % "|".join(re.escape(e) for e in series_strings)
+                )
+                regexes.append((regex_template, regex))
+            with self.subTest("Check law regexes", name=law["name"]):
+                self.check_regexes(regexes, law["examples"])
+
+    def text_json_format(self):
+        self.check_json_format("laws.json")
+
+    def test_dates(self):
+        for law_key, law in self.iter_laws():
+            self.check_dates(law["start"], law["end"])
+
+    def test_fields_tidy(self):
+        """Check that fields don't have unexpected characters or whitespace."""
+        for law_key, law in self.iter_laws():
+            self.check_ascii(law["regexes"])
+            self.check_ascii(law["examples"])
+
+        self.check_whitespace(REPORTERS)
+
+
+class JournalsTest(BaseTestCase):
+    """Tests for journals.json"""
+
+    @staticmethod
+    def iter_journals():
+        for journal_key, journal_list in JOURNALS.items():
+            yield from ((journal_key, journal) for journal in journal_list)
+
+    def test_regexes(self):
+        """Do custom regexes and examples match up?"""
+        for journal_key, journal in self.iter_journals():
+            regexes = [
+                (
+                    regex_template,
+                    recursive_substitute(regex_template, REGEX_VARIABLES),
+                )
+                for regex_template in journal.get("regexes", [])
+            ]
+            with self.subTest("Check journal regexes", name=journal["name"]):
+                self.check_regexes(regexes, journal.get("examples", []))
+
+    def text_json_format(self):
+        self.check_json_format("journals.json")
+
+    def test_dates(self):
+        for journal_key, journal in self.iter_journals():
+            self.check_dates(journal["start"], journal["end"])
+
+    def test_fields_tidy(self):
+        """Check that fields don't have unexpected characters or whitespace."""
+        for journal_key, journal in self.iter_journals():
+            self.check_ascii(journal_key)
+            self.check_ascii(journal["name"])
+
+        self.check_whitespace(JOURNALS)
 
 
 if __name__ == "__main__":
