@@ -10,7 +10,7 @@
             "name": "Alabama Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition r\\. $law_section"
+                "$reporter r\\. $law_section"
             ],
             "start": null,
             "variations": []
@@ -27,7 +27,7 @@
             "name": "Alabama Administrative Monthly",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -44,7 +44,7 @@
             "name": "Michie's Alabama Code <year> Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -61,7 +61,7 @@
             "name": "Code of Alabama, 1975 (West); Michie's Alabama Code, 1975 (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -78,7 +78,7 @@
             "name": "Alabama Laws",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -95,7 +95,7 @@
             "name": "West's Alabama Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -112,7 +112,7 @@
             "name": "Alaska Administrative Code (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -129,7 +129,7 @@
             "name": "Alaska Statutes <year> Advance Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -146,7 +146,7 @@
             "name": "West's Alaska Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -163,7 +163,7 @@
             "name": "Session Laws of Alaska",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -180,7 +180,7 @@
             "name": "Alaska Statutes (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -197,7 +197,7 @@
             "name": "West's Alaska Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -214,7 +214,7 @@
             "name": "American Samoa Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -231,7 +231,7 @@
             "name": "American Samoa Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -248,7 +248,7 @@
             "name": "Arizona Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -265,7 +265,7 @@
             "name": "Arizona Administrative Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -282,7 +282,7 @@
             "name": "Arizona Legislative Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -299,7 +299,7 @@
             "name": "Arizona Revised Statutes (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -316,7 +316,7 @@
             "name": "Arizona Revised Statutes Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -333,7 +333,7 @@
             "name": "Session Laws, Arizona",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -350,7 +350,7 @@
             "name": "Acts of Arkansas (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -367,7 +367,7 @@
             "name": "Arkansas Code of 1987 Annotated <year> Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -384,7 +384,7 @@
             "name": "Arkansas Code of 1987 Annotated (LexisNexis); West's Arkansas Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -401,7 +401,7 @@
             "name": "Code of Arkansas Rules (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<chapter>\\d+-\\d+-\\d+) $edition § $law_section"
+                "(?P<chapter>\\d+-\\d+-\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -418,7 +418,7 @@
             "name": "Arkansas Government Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -435,7 +435,7 @@
             "name": "West's Arkansas Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -452,7 +452,7 @@
             "name": "Arkansas Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -469,7 +469,7 @@
             "name": "Panama Canal Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -486,7 +486,7 @@
             "name": "Deering's California Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -520,7 +520,7 @@
             "name": "California Code of Regulations (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -537,7 +537,7 @@
             "name": "West's California Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -554,7 +554,7 @@
             "name": "California Regulatory Notice Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -571,7 +571,7 @@
             "name": "Statutes of California",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -588,7 +588,7 @@
             "name": "Colorado Code of Regulations; Code of Colorado Regulations (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition § $law_section"
+                "$volume $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -605,7 +605,7 @@
             "name": "Colorado Legislative Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -622,7 +622,7 @@
             "name": "Colorado Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -639,7 +639,7 @@
             "name": "Colorado Revised Statutes (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -656,7 +656,7 @@
             "name": "West's Colorado Revised Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -673,7 +673,7 @@
             "name": "Session Laws of Colorado (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -690,7 +690,7 @@
             "name": "Connecticut Public & Special Acts",
             "notes": "Automatically generated. Remove this message if replacing with real examples. Indigo Book dates 1972-date.",
             "regexes": [
-                "$law_year $edition $page_with_commas \\(\\[Reg\\. or Spec\\.\\] Sess\\.\\)"
+                "$law_year $reporter $page_with_commas \\(\\[Reg\\. or Spec\\.\\] Sess\\.\\)"
             ],
             "start": null,
             "variations": []
@@ -707,7 +707,7 @@
             "name": "Regulations of Connecticut State Agencies",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -724,7 +724,7 @@
             "name": "General Statutes of Connecticut",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -741,7 +741,7 @@
             "name": "Connecticut General Statutes Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -758,7 +758,7 @@
             "name": "Connecticut Government Register (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -775,7 +775,7 @@
             "name": "Connecticut Law Journal",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -792,7 +792,7 @@
             "name": "Connecticut Legislative Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -809,7 +809,7 @@
             "name": "Connecticut Public Acts",
             "notes": "Automatically generated. Remove this message if replacing with real examples. Indigo Book dates 1650-1971.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -826,7 +826,7 @@
             "name": "Connecticut Special Acts (Resolves & Private Laws, Private & Special Laws, Special Laws, Resolves & Private Acts, Resolutions & Private Acts, Private Acts & Resolutions, and Special Acts & Resolutions)",
             "notes": "Automatically generated. Remove this message if replacing with real examples. Indigo Book dates 1789-1971.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -843,7 +843,7 @@
             "name": "District of Columbia Official Code (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -860,7 +860,7 @@
             "name": "District of Columbia Official Code Lexis Advance Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -877,7 +877,7 @@
             "name": "West's District of Columbia Code Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -894,7 +894,7 @@
             "name": "Code of District of Columbia Municipal Regulations (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+) § $law_section"
+                "$reporter tit\\. (?P<title>\\d+) § $law_section"
             ],
             "start": null,
             "variations": []
@@ -911,7 +911,7 @@
             "name": "Code of D.C. Municipal Regulations",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -928,7 +928,7 @@
             "name": "District of Columbia Register; District of Columbia Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -945,7 +945,7 @@
             "name": "District of Columbia Session Law Service West",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -962,7 +962,7 @@
             "name": "Delaware Government Register (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -979,7 +979,7 @@
             "name": "Delaware Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<chapter>\\d+-\\d+-\\d+) $edition § $law_section"
+                "(?P<chapter>\\d+-\\d+-\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -996,7 +996,7 @@
             "name": "Delaware Code Annotated (LexisNexis); West's Delaware Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1013,7 +1013,7 @@
             "name": "Code of Delaware Regulations (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<chapter>\\d+-\\d+-\\d+) $edition § $law_section"
+                "(?P<chapter>\\d+-\\d+-\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1030,7 +1030,7 @@
             "name": "Delaware Code Annotated <year> Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1047,7 +1047,7 @@
             "name": "Laws of Delaware",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1064,7 +1064,7 @@
             "name": "West's Delaware Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1081,7 +1081,7 @@
             "name": "Delaware Register of Regulations",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1098,7 +1098,7 @@
             "name": "Florida Administrative Code Annotated (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition r\\. $law_section"
+                "$reporter r\\. $law_section"
             ],
             "start": null,
             "variations": []
@@ -1115,7 +1115,7 @@
             "name": "Florida Administrative Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples. Indigo Book dates 2012-date.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1132,7 +1132,7 @@
             "name": "Florida Administrative Weekly (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples. Indigo Book dates 1996-2012.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1149,7 +1149,7 @@
             "name": "Laws of Florida",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1166,7 +1166,7 @@
             "name": "West's Florida Session Law Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1183,7 +1183,7 @@
             "name": "Florida Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1200,7 +1200,7 @@
             "name": "West's Florida Statutes Annotated; LexisNexis Florida Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1217,7 +1217,7 @@
             "name": "Official Code of Georgia Annotated (LexisNexis); West's Code of Georgia Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1234,7 +1234,7 @@
             "name": "Georgia <year> Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1249,7 +1249,7 @@
             "name": "West's Georgia Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1266,7 +1266,7 @@
             "name": "Official Compilation Rules and Regulations of the State of Georgia",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition $law_section"
+                "$reporter $law_section"
             ],
             "start": null,
             "variations": []
@@ -1283,7 +1283,7 @@
             "name": "Georgia Government Register (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1300,7 +1300,7 @@
             "name": "Georgia Laws",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1317,7 +1317,7 @@
             "name": "Administrative Rules & Regulations of the Government of Guam",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition § $law_section"
+                "(?P<title>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1334,7 +1334,7 @@
             "name": "Guam Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition § $law_section"
+                "(?P<title>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1351,7 +1351,7 @@
             "name": "Guam Session Laws",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition (?P<law>\\d+)"
+                "$reporter (?P<law>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -1368,7 +1368,7 @@
             "name": "Code of Hawaii Rules (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1385,7 +1385,7 @@
             "name": "Hawaii Government Register (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1402,7 +1402,7 @@
             "name": "West's Hawai'i Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1419,7 +1419,7 @@
             "name": "Hawaii Revised Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1436,7 +1436,7 @@
             "name": "Michie's Hawaii Revised Statutes Annotated (LexisNexis); West's Hawai'i Revised Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1453,7 +1453,7 @@
             "name": "Michie's Hawaii Revised Statutes Annotated Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1470,7 +1470,7 @@
             "name": "Session Laws of Hawaii",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1487,7 +1487,7 @@
             "name": "Idaho Administrative Bulletin",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1504,7 +1504,7 @@
             "name": "Idaho Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition r\\. $law_section"
+                "$reporter r\\. $law_section"
             ],
             "start": null,
             "variations": []
@@ -1521,7 +1521,7 @@
             "name": "Idaho Code (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1538,7 +1538,7 @@
             "name": "West's Idaho Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1555,7 +1555,7 @@
             "name": "Idaho Code Annotated Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1572,7 +1572,7 @@
             "name": "West's Idaho Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1589,7 +1589,7 @@
             "name": "Idaho Session Laws",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1606,7 +1606,7 @@
             "name": "Illinois Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1623,7 +1623,7 @@
             "name": "Code of Illinois Rules (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition (?P<rule>\\d+)"
+                "$volume $reporter (?P<rule>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -1640,7 +1640,7 @@
             "name": "Illinois Compiled Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<chapter>\\d+) $edition (?P<act>\\d+) / $law_section"
+                "(?P<chapter>\\d+) $reporter (?P<act>\\d+) / $law_section"
             ],
             "start": null,
             "variations": []
@@ -1657,7 +1657,7 @@
             "name": "West's Smith-Hurd Illinois Compiled Statutes Annotated; Illinois Compiled Statutes Annotated (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<chapter>\\d+) $edition (?P<act>\\d+) / $law_section"
+                "(?P<chapter>\\d+) $reporter (?P<act>\\d+) / $law_section"
             ],
             "start": null,
             "variations": []
@@ -1674,7 +1674,7 @@
             "name": "Illinois Compiled Statutes Annotated Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1691,7 +1691,7 @@
             "name": "Laws of Illinois",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1708,7 +1708,7 @@
             "name": "Illinois Legislative Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1725,7 +1725,7 @@
             "name": "Illinois Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1742,7 +1742,7 @@
             "name": "Acts, Indiana",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1759,7 +1759,7 @@
             "name": "Indiana Administrative Code; West's Indiana Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition (?P<rule>\\d+)"
+                "(?P<title>\\d+) $reporter (?P<rule>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -1776,7 +1776,7 @@
             "name": "Indiana Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1793,7 +1793,7 @@
             "name": "West's Annotated Indiana Code; Burns Indiana Statutes Annotated (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1810,7 +1810,7 @@
             "name": "West's Indiana Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1827,7 +1827,7 @@
             "name": "Indiana Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1844,7 +1844,7 @@
             "name": "Burns Indiana Statutes Annotated Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1861,7 +1861,7 @@
             "name": "Acts of the State of Iowa",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1878,7 +1878,7 @@
             "name": "Iowa Administrative Bulletin",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1895,7 +1895,7 @@
             "name": "Iowa Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition r\\. $law_section"
+                "$reporter r\\. $law_section"
             ],
             "start": null,
             "variations": []
@@ -1912,7 +1912,7 @@
             "name": "Code of Iowa",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1929,7 +1929,7 @@
             "name": "West's Iowa Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1946,7 +1946,7 @@
             "name": "Iowa Legislative Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1963,7 +1963,7 @@
             "name": "Kansas Administrative Regulations (updated by supplements)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -1980,7 +1980,7 @@
             "name": "West's Kansas Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -1997,7 +1997,7 @@
             "name": "Kansas Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2014,7 +2014,7 @@
             "name": "Session Laws of Kansas",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2031,7 +2031,7 @@
             "name": "Kansas Statutes Annotated; West's Kansas Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2048,7 +2048,7 @@
             "name": "Acts of Kentucky",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2065,7 +2065,7 @@
             "name": "Administrative Register of Kentucky",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2082,7 +2082,7 @@
             "name": "Kentucky Administrative Regulations Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition (?P<rule>\\d+)"
+                "(?P<title>\\d+) $reporter (?P<rule>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -2099,7 +2099,7 @@
             "name": "Kentucky Revised Statutes and Rules Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2116,7 +2116,7 @@
             "name": "Michie's Kentucky Revised Statutes Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2133,7 +2133,7 @@
             "name": "Baldwin's Kentucky Revised Statutes Annotated (West); Michie's Kentucky Revised Statutes Annotated (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2150,7 +2150,7 @@
             "name": "State of Louisiana: Acts of the Legislature",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2167,7 +2167,7 @@
             "name": "Louisiana Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2184,7 +2184,7 @@
             "name": "West's Louisiana Children's Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition art (?P<article>\\d+)"
+                "$reporter art (?P<article>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -2201,7 +2201,7 @@
             "name": "West's Louisiana Civil Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition art (?P<article>\\d+)"
+                "$reporter art (?P<article>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -2218,7 +2218,7 @@
             "name": "West's Louisiana Code of Civil Procedure Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition art (?P<article>\\d+)"
+                "$reporter art (?P<article>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -2235,7 +2235,7 @@
             "name": "West's Louisiana Code of Criminal Procedure Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition art (?P<article>\\d+)"
+                "$reporter art (?P<article>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -2252,7 +2252,7 @@
             "name": "West's Louisiana Code of Evidence Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition art (?P<article>\\d+)"
+                "$reporter art (?P<article>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -2269,7 +2269,7 @@
             "name": "West's Louisiana Constitution Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition art (?P<article>\\d+)"
+                "$reporter art (?P<article>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -2286,7 +2286,7 @@
             "name": "Louisiana Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2303,7 +2303,7 @@
             "name": "West's Louisiana Session Law Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2320,7 +2320,7 @@
             "name": "West's Louisiana Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2337,7 +2337,7 @@
             "name": "Acts and Resolves of Massachusetts",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2354,7 +2354,7 @@
             "name": "Massachusetts Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2371,7 +2371,7 @@
             "name": "Annotated Laws of Massachusetts (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition ch\\. (?P<chapter>\\d+), § $law_section"
+                "$reporter ch\\. (?P<chapter>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2388,7 +2388,7 @@
             "name": "Code of Massachusetts Regulations; Code of Massachusetts Regulations (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition $law_section"
+                "(?P<title>\\d+) $reporter $law_section"
             ],
             "start": null,
             "variations": []
@@ -2405,7 +2405,7 @@
             "name": "General Laws of Massachusetts (Mass. Bar Ass'n/West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition ch\\. (?P<chapter>\\d+), § $law_section"
+                "$reporter ch\\. (?P<chapter>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2422,7 +2422,7 @@
             "name": "Massachusetts General Laws Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition ch\\. (?P<chapter>\\d+), § $law_section"
+                "$reporter ch\\. (?P<chapter>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2439,7 +2439,7 @@
             "name": "Massachusetts Legislative Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2456,7 +2456,7 @@
             "name": "Massachusetts Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2473,7 +2473,7 @@
             "name": "Michie's Annotated Code of Maryland (LexisNexis); West's Annotated Code of Maryland",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition, $law_subject § $law_section"
+                "$reporter, $law_subject § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2490,7 +2490,7 @@
             "name": "Michie's Annotated Code of Maryland Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2507,7 +2507,7 @@
             "name": "Code of Maryland Regulations",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition (?P<reg>\\d+)"
+                "$reporter (?P<reg>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -2524,7 +2524,7 @@
             "name": "Laws of Maryland",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2541,7 +2541,7 @@
             "name": "West's Maryland Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2558,7 +2558,7 @@
             "name": "Maryland Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2575,7 +2575,7 @@
             "name": "Code of Maine Rules (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<chapter>\\d+-\\d+-\\d+) $edition § $law_section"
+                "(?P<chapter>\\d+-\\d+-\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2592,7 +2592,7 @@
             "name": "Maine Government Register (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2609,7 +2609,7 @@
             "name": "Laws of the State of Maine",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2626,7 +2626,7 @@
             "name": "Maine Legislative Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2643,7 +2643,7 @@
             "name": "Maine Revised Statutes Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2660,7 +2660,7 @@
             "name": "West's Maine Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2677,7 +2677,7 @@
             "name": "Michigan Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition r. $law_section"
+                "$reporter r. $law_section"
             ],
             "start": null,
             "variations": []
@@ -2694,7 +2694,7 @@
             "name": "Michigan Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2711,7 +2711,7 @@
             "name": "Michigan Compiled Laws (1979)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2728,7 +2728,7 @@
             "name": "Michigan Compiled Laws Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2745,7 +2745,7 @@
             "name": "Michigan Compiled Laws Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2762,7 +2762,7 @@
             "name": "Michigan Legislative Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2779,7 +2779,7 @@
             "name": "Public and Local Acts of the Legislature of the State of Michigan",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2796,7 +2796,7 @@
             "name": "Michigan Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2813,7 +2813,7 @@
             "name": "Laws of Minnesota",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2830,7 +2830,7 @@
             "name": "Minnesota Rules",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition (?P<rule>\\d+)"
+                "$reporter (?P<rule>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -2847,7 +2847,7 @@
             "name": "Minnesota State Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2864,7 +2864,7 @@
             "name": "Minnesota Session Law Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2881,7 +2881,7 @@
             "name": "Minnesota Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2898,7 +2898,7 @@
             "name": "Minnesota Statutes Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2915,7 +2915,7 @@
             "name": "Mississippi Code 1972 Annotated (LexisNexis); West's Annotated Mississippi Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2932,7 +2932,7 @@
             "name": "Code of Mississippi Rules (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+)\\-(?P<chapter>\\d+) $edition § $law_section"
+                "(?P<title>\\d+)\\-(?P<chapter>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -2949,7 +2949,7 @@
             "name": "Mississippi Government Register (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2966,7 +2966,7 @@
             "name": "General Laws of Mississippi",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -2983,7 +2983,7 @@
             "name": "Mississippi General Laws Advance Sheets (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3000,7 +3000,7 @@
             "name": "West's Mississippi Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3017,7 +3017,7 @@
             "name": "Vernon's Annotated Missouri Statutes (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3034,7 +3034,7 @@
             "name": "Missouri Code of State Regulations Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3051,7 +3051,7 @@
             "name": "Session Laws of Missouri",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3068,7 +3068,7 @@
             "name": "Missouri Legislative Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3085,7 +3085,7 @@
             "name": "Missouri Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3102,7 +3102,7 @@
             "name": "Missouri Revised Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3119,7 +3119,7 @@
             "name": "Administrative Rules of Montana",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition (?P<rule>\\d+)"
+                "$reporter (?P<rule>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -3136,7 +3136,7 @@
             "name": "Montana Administrative Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3153,7 +3153,7 @@
             "name": "Montana Code Annotated; West's Montana Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3170,7 +3170,7 @@
             "name": "Laws of Montana",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3187,7 +3187,7 @@
             "name": "Northern Mariana Islands Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition § $law_section"
+                "(?P<title>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3204,7 +3204,7 @@
             "name": "Northern Mariana Islands Commonwealth Code (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition § $law_section"
+                "(?P<title>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3221,7 +3221,7 @@
             "name": "Northern Mariana Islands Session Laws",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition (?P<law>\\d+)"
+                "$law_year $reporter (?P<law>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -3238,7 +3238,7 @@
             "name": "Northern Mariana Islands Commonwealth Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3255,7 +3255,7 @@
             "name": "North Carolina Administrative Code (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition (?P<rule>\\d+)"
+                "(?P<title>\\d+) $reporter (?P<rule>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -3272,7 +3272,7 @@
             "name": "North Carolina <year> Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3289,7 +3289,7 @@
             "name": "General Statutes of North Carolina (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3306,7 +3306,7 @@
             "name": "West's North Carolina General Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3323,7 +3323,7 @@
             "name": "North Carolina Legislative Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3340,7 +3340,7 @@
             "name": "North Carolina Register (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3357,7 +3357,7 @@
             "name": "Session Laws of North Carolina",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3374,7 +3374,7 @@
             "name": "North Dakota Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition (?P<rule>\\d+)"
+                "$reporter (?P<rule>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -3391,7 +3391,7 @@
             "name": "North Dakota Century Code (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3408,7 +3408,7 @@
             "name": "North Dakota Century Code <year> Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3425,7 +3425,7 @@
             "name": "West's North Dakota Century Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3442,7 +3442,7 @@
             "name": "Laws of North Dakota",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3459,7 +3459,7 @@
             "name": "West's North Dakota Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3476,7 +3476,7 @@
             "name": "New Hampshire Code of Administrative Rules Annotated (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition $law_subject (?P<rule>\\d+)"
+                "$reporter $law_subject (?P<rule>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -3493,7 +3493,7 @@
             "name": "Code of New Hampshire Rules (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition $law_subject (?P<rule>\\d+)"
+                "$reporter $law_subject (?P<rule>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -3510,7 +3510,7 @@
             "name": "New Hampshire Government Register (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3527,7 +3527,7 @@
             "name": "Laws of the State of New Hampshire (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3544,7 +3544,7 @@
             "name": "New Hampshire Legislative Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3561,7 +3561,7 @@
             "name": "New Hampshire Revised Statutes Annotated (West); Lexis New Hampshire Revised Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3578,7 +3578,7 @@
             "name": "Lexis New Hampshire Revised Statutes Annotated <year> Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3595,7 +3595,7 @@
             "name": "New Hampshire Rulemaking Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3612,7 +3612,7 @@
             "name": "New Jersey Administrative Code (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3629,7 +3629,7 @@
             "name": "Laws of New Jersey",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3646,7 +3646,7 @@
             "name": "New Jersey Register (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3663,7 +3663,7 @@
             "name": "New Jersey Revised Statutes (2013)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3680,7 +3680,7 @@
             "name": "New Jersey Session Law Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3697,7 +3697,7 @@
             "name": "New Jersey Statutes Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3714,7 +3714,7 @@
             "name": "New Mexico Advance Legislative Service (Conway Greene)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3731,7 +3731,7 @@
             "name": "Code of New Mexico Rules (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3748,7 +3748,7 @@
             "name": "Laws of the State of New Mexico",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3765,7 +3765,7 @@
             "name": "West's New Mexico Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3782,7 +3782,7 @@
             "name": "New Mexico Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3799,7 +3799,7 @@
             "name": "New Mexico Statutes Annotated 1978 (Conway Greene); West's New Mexico Statutes Annotated; Michie's Annotated Statutes of New Mexico (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3816,7 +3816,7 @@
             "name": "McKinney's Consolidated Laws; Consolidated Laws Service; LexisNexis New York Consolidated Laws Unannotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition $law_subject § $law_section"
+                "$reporter $law_subject § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3833,7 +3833,7 @@
             "name": "Official Compilation of Codes, Rules & Regulations of the State of New York (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3850,7 +3850,7 @@
             "name": "New York Consolidated Laws Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter"
             ],
             "start": null,
             "variations": []
@@ -3884,7 +3884,7 @@
             "name": "Laws of New York",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3901,7 +3901,7 @@
             "name": "Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition $page_with_commas"
+                "$reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3918,7 +3918,7 @@
             "name": "New York State Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3935,7 +3935,7 @@
             "name": "McKinney's Session Laws of New York (West) (McKinney)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -3952,7 +3952,7 @@
             "name": "Navajo Nation Code Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3969,7 +3969,7 @@
             "name": "Nebraska Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition § $law_section"
+                "(?P<title>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -3986,7 +3986,7 @@
             "name": "Laws of Nebraska",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4003,7 +4003,7 @@
             "name": "West's Nebraska Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4020,7 +4020,7 @@
             "name": "Revised Statutes of Nebraska",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4037,7 +4037,7 @@
             "name": "Revised Statutes of Nebraska Annotated (LexisNexis); West's Revised Statutes of Nebraska Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4054,7 +4054,7 @@
             "name": "Nevada Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4071,7 +4071,7 @@
             "name": "West's Nevada Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4088,7 +4088,7 @@
             "name": "Nevada Register of Administrative Regulations",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition (?P<reg>\\d+)"
+                "$volume $reporter (?P<reg>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -4105,7 +4105,7 @@
             "name": "Nevada Revised Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4122,7 +4122,7 @@
             "name": "Michie's Nevada Revised Statutes Annotated (LexisNexis); West's Nevada Revised Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4139,7 +4139,7 @@
             "name": "Statutes of Nevada",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4156,7 +4156,7 @@
             "name": "Baldwin's Ohio Administrative Code (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition (?P<rule>\\d+)"
+                "$reporter (?P<rule>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -4173,7 +4173,7 @@
             "name": "Ohio Department Reports",
             "notes": "Automatically generated. Remove this message if replacing with real examples. Indigo Book dates 1914-1964.",
             "regexes": [
-                "$edition $page_with_commas"
+                "$reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4190,7 +4190,7 @@
             "name": "Ohio Government Reports",
             "notes": "Automatically generated. Remove this message if replacing with real examples. Indigo Book dates 1965-1976.",
             "regexes": [
-                "$edition $page_with_commas"
+                "$reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4207,7 +4207,7 @@
             "name": "State of Ohio: Legislative Acts Passed and Joint Resolutions Adopted",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4224,7 +4224,7 @@
             "name": "Page's Ohio Legislative Bulletin (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4241,7 +4241,7 @@
             "name": "Baldwin's Ohio Legislative Service Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4258,7 +4258,7 @@
             "name": "Baldwin's Ohio Monthly Record",
             "notes": "Automatically generated. Remove this message if replacing with real examples. Indigo Book dates 1977-date.",
             "regexes": [
-                "$edition $page_with_commas"
+                "$reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4275,7 +4275,7 @@
             "name": "Page's Ohio Revised Code Annotated (LexisNexis); Baldwin's Ohio Revised Code Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4292,7 +4292,7 @@
             "name": "Oklahoma Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4309,7 +4309,7 @@
             "name": "Oklahoma Gazette 1962-1983",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4326,7 +4326,7 @@
             "name": "Oklahoma Register 1983-date",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4343,7 +4343,7 @@
             "name": "Oklahoma Session Law Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4360,7 +4360,7 @@
             "name": "Oklahoma Session Laws (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4377,7 +4377,7 @@
             "name": "Oklahoma Statutes (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4394,7 +4394,7 @@
             "name": "Oklahoma Statutes Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4411,7 +4411,7 @@
             "name": "Oregon Administrative Rules",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition (?P<rule>\\d+)"
+                "$reporter (?P<rule>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -4428,7 +4428,7 @@
             "name": "Oregon Bulletin",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4445,7 +4445,7 @@
             "name": "Oregon Laws and Resolutions",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4462,7 +4462,7 @@
             "name": "",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition No\\. (?P<number>\\d+), $page_with_commas"
+                "$law_year $reporter No\\. (?P<number>\\d+), $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4479,7 +4479,7 @@
             "name": "",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4496,7 +4496,7 @@
             "name": "West's Oregon Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4513,7 +4513,7 @@
             "name": "Oregon Revised Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4530,7 +4530,7 @@
             "name": "West's Oregon Revised Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4547,7 +4547,7 @@
             "name": "Laws of Puerto Rico",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4564,7 +4564,7 @@
             "name": "Laws of Puerto Rico Annotated (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4581,7 +4581,7 @@
             "name": "Leyes de Puerto Rico (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4598,7 +4598,7 @@
             "name": "Leyes de Puerto Rico Anotadas (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4615,7 +4615,7 @@
             "name": "Pennsylvania Bulletin (Fry Communications)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4632,7 +4632,7 @@
             "name": "Pennsylvania Code (Fry Communications)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition § $law_section"
+                "(?P<title>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4649,7 +4649,7 @@
             "name": "Pennsylvania Consolidated Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition § $law_section"
+                "(?P<title>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4666,7 +4666,7 @@
             "name": "Laws of Pennsylvania",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4683,7 +4683,7 @@
             "name": "Purdon's Pennsylvania Legislative Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4700,7 +4700,7 @@
             "name": "Purdon's Pennsylvania Statutes and Consolidated Statutes Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition § $law_section"
+                "(?P<title>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4717,7 +4717,7 @@
             "name": "Acts and Resolves of Rhode Island and Providence Plantations",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4734,7 +4734,7 @@
             "name": "Rhode Island Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4749,7 +4749,7 @@
             "name": "West's Rhode Island Advance Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4766,7 +4766,7 @@
             "name": "Code of Rhode Island Rules (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+)\\-(?P<chapter>\\d+) $edition § $law_section"
+                "(?P<title>\\d+)\\-(?P<chapter>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4783,7 +4783,7 @@
             "name": "General Laws of Rhode Island (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition § $law_section"
+                "(?P<title>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4800,7 +4800,7 @@
             "name": "West's General Laws of Rhode Island Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition § $law_section"
+                "(?P<title>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4817,7 +4817,7 @@
             "name": "Rhode Island Government Register (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4834,7 +4834,7 @@
             "name": "Public Laws of Rhode Island and Providence Plantations",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4851,7 +4851,7 @@
             "name": "Laws of the Republic of Texas",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4868,7 +4868,7 @@
             "name": "Acts and Joint Resolutions, South Carolina",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4885,7 +4885,7 @@
             "name": "Code of Laws of South Carolina 1976 Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4902,7 +4902,7 @@
             "name": "Code of Laws of South Carolina 1976 Annotated:Code of Regulations (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition (?P<reg>\\d+)"
+                "$reporter (?P<reg>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -4919,7 +4919,7 @@
             "name": "South Carolina State Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4936,7 +4936,7 @@
             "name": "Administrative Rules of South Dakota",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition (?P<rule>\\d+)"
+                "$reporter (?P<rule>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -4953,7 +4953,7 @@
             "name": "South Dakota Codified Laws (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -4970,7 +4970,7 @@
             "name": "South Dakota Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4987,7 +4987,7 @@
             "name": "Session Laws of South Dakota",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition ch\\\\. (?P<chapter>\\d+) § $law_section $page_with_commas"
+                "$law_year $reporter ch\\\\. (?P<chapter>\\d+) § $law_section $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5004,7 +5004,7 @@
             "name": "United States Statutes at Large",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5021,7 +5021,7 @@
             "name": "Tennessee Administrative Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5038,7 +5038,7 @@
             "name": "Tennessee Code Annotated (LexisNexis); West's Tennessee Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5055,7 +5055,7 @@
             "name": "Tennessee Code Annotated Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5072,7 +5072,7 @@
             "name": "Official Compilation Rules & Regulations of the State of Tennessee",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition (?P<rule>\\d+)"
+                "$reporter (?P<rule>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -5089,7 +5089,7 @@
             "name": "West's Tennessee Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5106,7 +5106,7 @@
             "name": "Private Acts of the State of Tennessee",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5123,7 +5123,7 @@
             "name": "Public Acts of the State of Tennessee",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5140,7 +5140,7 @@
             "name": "Texas Administrative Code (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition § $law_section"
+                "(?P<title>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5157,7 +5157,7 @@
             "name": "Vernon's Texas Business Corporation Act Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition art (?P<article>\\d+)"
+                "$reporter art (?P<article>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -5191,7 +5191,7 @@
             "name": "Vernon's Texas Code of Criminal Procedure Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition art (?P<article>\\d+)"
+                "$reporter art (?P<article>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -5208,7 +5208,7 @@
             "name": "General and Special Laws of the State of Texas",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5225,7 +5225,7 @@
             "name": "Vernon's Texas Insurance Code Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition art (?P<article>\\d+)"
+                "$reporter art (?P<article>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -5242,7 +5242,7 @@
             "name": "Vernon's Texas Probate Code Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5259,7 +5259,7 @@
             "name": "Texas Register (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5276,7 +5276,7 @@
             "name": "Vernon's Texas Revised Civil Statutes Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition art (?P<article>\\d+), § $law_section"
+                "$reporter art (?P<article>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5293,7 +5293,7 @@
             "name": "Vernon's Texas Session Law Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5310,7 +5310,7 @@
             "name": "Utah Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition r\\. $law_section"
+                "$reporter r\\. $law_section"
             ],
             "start": null,
             "variations": []
@@ -5327,7 +5327,7 @@
             "name": "Utah Code <year> Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5344,7 +5344,7 @@
             "name": "Utah State Bulletin",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5361,7 +5361,7 @@
             "name": "Utah Code Annotated (LexisNexis); West's Utah Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5378,7 +5378,7 @@
             "name": "Laws of Utah",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5395,7 +5395,7 @@
             "name": "Utah Legislative Service (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5412,7 +5412,7 @@
             "name": "Virgin Islands Code Annotated (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples. Indigo Book dates 1962-date.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section $law_year"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section $law_year"
             ],
             "start": null,
             "variations": []
@@ -5429,7 +5429,7 @@
             "name": "Virgin Islands Code Annotated Advance",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter"
             ],
             "start": null,
             "variations": []
@@ -5446,7 +5446,7 @@
             "name": "Code of U.S. Virgin Islands Rules (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+)\\-(?P<chapter>\\d+) $edition § $law_section"
+                "(?P<title>\\d+)\\-(?P<chapter>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5463,7 +5463,7 @@
             "name": "Virgin Islands Government Register (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5480,7 +5480,7 @@
             "name": "Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition $page_with_commas"
+                "$reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5497,7 +5497,7 @@
             "name": "Session Laws of the Virgin Islands",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5514,7 +5514,7 @@
             "name": "Acts of the General Assembly of the Commonwealth of Virginia",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5531,7 +5531,7 @@
             "name": "Virginia Administrative Code (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $edition § $law_section"
+                "(?P<title>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5548,7 +5548,7 @@
             "name": "Virginia <year> Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5565,7 +5565,7 @@
             "name": "Code of Virginia 1950 Annotated (LexisNexis); West's Annotated Code of Virginia",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5582,7 +5582,7 @@
             "name": "West's Virginia Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5599,7 +5599,7 @@
             "name": "Virginia Register of Regulations (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5616,7 +5616,7 @@
             "name": "Acts and Resolves of Vermont",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5633,7 +5633,7 @@
             "name": "Vermont <year> Advance Legislative Service(LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5650,7 +5650,7 @@
             "name": "Code of Vermont Rules (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+)\\-(?P<chapter>\\d+) $edition § $law_section"
+                "(?P<title>\\d+)\\-(?P<chapter>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5667,7 +5667,7 @@
             "name": "Vermont Government Register (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5684,7 +5684,7 @@
             "name": "West's Vermont Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5701,7 +5701,7 @@
             "name": "Vermont Statutes Annotated (LexisNexis); West's Vermont Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5718,7 +5718,7 @@
             "name": "Acts of the Legislature of West Virginia",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5735,7 +5735,7 @@
             "name": "West Virginia <year> Advance Legislative Service (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year\\-(?P<pamphlet>\\d+) $edition $page_with_commas"
+                "$law_year\\-(?P<pamphlet>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5752,7 +5752,7 @@
             "name": "West Virginia Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5769,7 +5769,7 @@
             "name": "Michie's West Virginia Code Annotated (LexisNexis); West's Annotated Code of West Virginia",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5786,7 +5786,7 @@
             "name": "West Virginia Code of State Rules",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5803,7 +5803,7 @@
             "name": "West's West Virginia Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5820,7 +5820,7 @@
             "name": "West Virginia Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$volume $edition $page_with_commas"
+                "$volume $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5837,7 +5837,7 @@
             "name": "Washington Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5854,7 +5854,7 @@
             "name": "West's Washington Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5871,7 +5871,7 @@
             "name": "Washington State Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5888,7 +5888,7 @@
             "name": "Revised Code of Washington",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5905,7 +5905,7 @@
             "name": "West's Revised Code of Washington Annotated; Annotated Revised Code of Washington (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5922,7 +5922,7 @@
             "name": "Session Laws of Washington",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5939,7 +5939,7 @@
             "name": "Wisconsin Administrative Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition (?P<agency>[A-Z][A-Za-z]+) § $law_section"
+                "$reporter (?P<agency>[A-Z][A-Za-z]+) § $law_section"
             ],
             "start": null,
             "variations": []
@@ -5956,7 +5956,7 @@
             "name": "Wisconsin Administrative Register",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5973,7 +5973,7 @@
             "name": "West's Wisconsin Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -5990,7 +5990,7 @@
             "name": "Wisconsin Session Laws",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -6007,7 +6007,7 @@
             "name": "Wisconsin Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -6024,7 +6024,7 @@
             "name": "West's Wisconsin Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -6041,7 +6041,7 @@
             "name": "Code of Wyoming Rules (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+)\\-(?P<chapter>\\d+) $edition § $law_section"
+                "(?P<title>\\d+)\\-(?P<chapter>\\d+) $reporter § $law_section"
             ],
             "start": null,
             "variations": []
@@ -6058,7 +6058,7 @@
             "name": "Wyoming Government Register (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<issue>\\d+) $edition $page_with_commas"
+                "(?P<issue>\\d+) $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -6075,7 +6075,7 @@
             "name": "West's Wyoming Legislative Service",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -6092,7 +6092,7 @@
             "name": "Session Laws of Wyoming",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $edition $page_with_commas"
+                "$law_year $reporter $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -6109,7 +6109,7 @@
             "name": "Wyoming Statutes Annotated (LexisNexis); West's Wyoming Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$edition § $law_section"
+                "$reporter § $law_section"
             ],
             "start": null,
             "variations": []
