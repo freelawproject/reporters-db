@@ -12,7 +12,7 @@
 
 ## Current Version
 
- - 3.1.0: In addition to several regex enhancements, this version brings two new data files. The first file, `laws.json` provides regular expressions for parsing various state laws. The second, `journals.json` does the same for various law journals. 
+ - 3.1.x: In addition to several regex enhancements, this version brings two new data files. The first file, `laws.json` provides regular expressions for parsing various state laws. The second, `journals.json` does the same for various law journals. 
 
     Similar our existing data files, these two data files can be imported with `from reporters_db import LAWS, JOURNALS`.  
 
