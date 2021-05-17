@@ -368,7 +368,7 @@ class LawsTest(BaseTestCase):
             with self.subTest("Check law regexes", name=law["name"]):
                 self.check_regexes(regexes, law["examples"])
 
-    def text_json_format(self):
+    def test_json_format(self):
         self.check_json_format("laws.json")
 
     def test_dates(self):
