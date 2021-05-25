@@ -178,7 +178,7 @@ class BaseTestCase(TestCase):
 class RegexesTest(BaseTestCase):
     """Tests for regexes.json"""
 
-    def text_json_format(self):
+    def test_json_format(self):
         self.check_json_format("regexes.json")
 
 
@@ -340,7 +340,7 @@ class ReportersTest(BaseTestCase):
             ):
                 self.check_regexes(regexes, examples)
 
-    def text_json_format(self):
+    def test_json_format(self):
         self.check_json_format("reporters.json")
 
 
@@ -405,7 +405,7 @@ class JournalsTest(BaseTestCase):
             with self.subTest("Check journal regexes", name=journal["name"]):
                 self.check_regexes(regexes, journal.get("examples", []))
 
-    def text_json_format(self):
+    def test_json_format(self):
         self.check_json_format("journals.json")
 
     def test_dates(self):
