@@ -2,6 +2,8 @@
     "full_cite": {
         "": "$volume $reporter,? $page",
         "#": "Standard citation",
+        "cch": "(?:$volume_with_digit_suffix )?$full_cite_paragraph",
+        "cch#": "Cite in CCH service format, like '1982-1 Trade Cas. (CCH) par. 64,689'",
         "format_neutral": {
             "": "$volume_year-$reporter-$page",
             "#": "Format neutral cite, like '2000-Ohio-123'",
@@ -25,6 +27,18 @@
         "single_volume": "(?:(?P<volume>1) )?$reporter $page",
         "year_page": "$reporter $volume_year-$page"
     },
+    "law": {
+        "#": "Regexes used in laws.json",
+        "day": "(?P<day>\\d{1,2}),?",
+        "month": "(?P<month>[A-Z][a-z]+\\.?)",
+        "section": "(?P<section>\\d+(?:[\\-.:]\\d+){,3})",
+        "section#": "Section like 1-2-3, 1.2.3, or 1:2-3.4",
+        "subject": "(?P<subject>$law_subject_word(?: $law_subject_word| &){,4})",
+        "subject#": "One to five word statute subject like 'Parks Rec. & Hist. Preserv.', 'Not-for-Profit Corp.', 'Alt. County Gov’t', 'R.R.'",
+        "subject_word": "[A-Z][.\\-'A-Za-z]*",
+        "subject_word#": "Single word in statute subject, like Rec., Gov't, or Not-for-Profit",
+        "year": "(?P<year>1\\d{3}|20\\d{2})"
+    },
     "page": {
         "": "(?P<page>\\d+)",
         "#": "Standard page number",
@@ -43,18 +57,6 @@
     "reporter": {
         "": "(?P<reporter>$edition)",
         "#": "Standard reporter"
-    },
-    "law": {
-        "#": "Regexes used in laws.json",
-        "day": "(?P<day>\\d{1,2}),?",
-        "month": "(?P<month>[A-Z][a-z]+\\.?)",
-        "section": "(?P<section>\\d+(?:[\\-.:]\\d+){,3})",
-        "section#": "Section like 1-2-3, 1.2.3, or 1:2-3.4",
-        "subject": "(?P<subject>$law_subject_word(?: $law_subject_word| &){,4})",
-        "subject#": "One to five word statute subject like 'Parks Rec. & Hist. Preserv.', 'Not-for-Profit Corp.', 'Alt. County Gov’t', 'R.R.'",
-        "subject_word": "[A-Z][.\\-'A-Za-z]*",
-        "subject_word#": "Single word in statute subject, like Rec., Gov't, or Not-for-Profit",
-        "year": "(?P<year>1\\d{3}|20\\d{2})"
     },
     "volume": {
         "": "(?P<volume>\\d+)",

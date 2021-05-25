@@ -1,4 +1,21 @@
 {
+    "ASBCA": [
+        {
+            "cite_type": "admin_docket",
+            "end": null,
+            "examples": [
+                "ASBCA No. 43466"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "jurisdiction": "United States",
+            "name": "Armed Services Board of Contract Appeals",
+            "regexes": [
+                "$reporter No. (?P<docket_number>\\d+)"
+            ],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Ala. Admin. Code": [
         {
             "cite_type": "admin_compilation",
@@ -458,6 +475,26 @@
             "variations": []
         }
     ],
+    "C.F.R.": [
+        {
+            "cite_type": "admin_compilation",
+            "end": null,
+            "examples": [
+                "48 C.F.R. § 38.48"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "jurisdiction": "United States",
+            "name": "Code of Federal Regulations",
+            "regexes": [
+                "(?P<chapter>\\d+) $reporter,? § $law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CFR",
+                "C. F. R."
+            ]
+        }
+    ],
     "C.Z. Code": [
         {
             "cite_type": "leg_statute",
@@ -470,6 +507,58 @@
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
                 "$reporter tit\\. (?P<title>\\d+), § $law_section"
+            ],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "CBCA": [
+        {
+            "cite_type": "admin_docket",
+            "end": null,
+            "examples": [
+                "CBCA No. 4845-R"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "jurisdiction": "United States",
+            "name": "Civilian Board of Contract Appeals",
+            "notes": "Don't know valid docket number suffixes",
+            "regexes": [
+                "$reporter No. (?P<docket_number>\\d+-[A-Z])"
+            ],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "CFPB": [
+        {
+            "cite_type": "admin_docket",
+            "end": null,
+            "examples": [
+                "CFPB No. 2013-CFPB-0013"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "jurisdiction": "United States",
+            "name": "Consumer Financial Protection Bureau",
+            "regexes": [
+                "$reporter No. (?P<docket_number>\\d{4}-CFPB-\\d+)"
+            ],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "CFTC": [
+        {
+            "cite_type": "admin_docket",
+            "end": null,
+            "examples": [
+                "CFTC No. 14-R1"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "jurisdiction": "United States",
+            "name": "Commodity Futures Trading Commission",
+            "regexes": [
+                "$reporter No. (?P<docket_number>\\d+-[A-Z\\d]+)"
             ],
             "start": null,
             "variations": []
@@ -4840,6 +4929,23 @@
             "variations": []
         }
     ],
+    "Registration": [
+        {
+            "cite_type": "admin_filing",
+            "end": null,
+            "examples": [
+                "Registration No. 3,886,986"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "jurisdiction": "United States",
+            "name": "Trademark Registration",
+            "regexes": [
+                "$reporter No\\. (?P<number>\\d[\\d,]*)"
+            ],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Repub. Tex. Laws": [
         {
             "cite_type": "leg_session",
@@ -4988,6 +5094,23 @@
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
                 "$law_year $reporter ch\\\\. (?P<chapter>\\d+) § $law_section $page_with_commas"
+            ],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "SBA": [
+        {
+            "cite_type": "admin_docket",
+            "end": null,
+            "examples": [
+                "SBA No. SIZ-5707"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "jurisdiction": "United States",
+            "name": "Small Business Administration",
+            "regexes": [
+                "$reporter No. (?P<docket_number>(?:NAICS|BDP|VET|SIZ|SDBA)-\\d+)"
             ],
             "start": null,
             "variations": []
@@ -5299,6 +5422,40 @@
             "variations": []
         }
     ],
+    "Treas. Reg.": [
+        {
+            "cite_type": "admin_compilation",
+            "end": null,
+            "examples": [
+                "Treas. Reg. § 1.41-2"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "jurisdiction": "United States",
+            "name": "Department of the Treasury",
+            "regexes": [
+                "$reporter § $law_section"
+            ],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "U.S. Patent": [
+        {
+            "cite_type": "admin_filing",
+            "end": null,
+            "examples": [
+                "U.S. Patent No. 8,112,504 B2"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "jurisdiction": "United States",
+            "name": "U.S. Patent",
+            "regexes": [
+                "$reporter No\\. (?P<number>\\d[\\d,]*)(?: (?P<kind_code>[A-Z]\\d?))?"
+            ],
+            "start": null,
+            "variations": []
+        }
+    ],
     "U.S.C.": [
         {
             "cite_type": "leg_statute",
@@ -5316,6 +5473,8 @@
             ],
             "start": null,
             "variations": [
+                "U. S. C.",
+                "USC",
                 "U.S.C.A.",
                 "U.S.C.S.",
                 "U.S.C.U."
