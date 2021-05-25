@@ -84,6 +84,23 @@
             }
         }
     ],
+    "A.E.C.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "A.E.C.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Atomic Energy Commission Reports",
+            "variations": {}
+        }
+    ],
     "A.F.T.R. (P-H)": [
         {
             "cite_type": "specialty",
@@ -420,6 +437,26 @@
             "variations": {
                 "Adv.S.": "Adv. S."
             }
+        }
+    ],
+    "Agric. Dec": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Agric. Dec": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "55 Agric Dec. 1121"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Agriculture Decisions",
+            "variations": {}
         }
     ],
     "Aik.": [
@@ -1238,6 +1275,50 @@
             "variations": {}
         }
     ],
+    "BCA": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "BCA": {
+                    "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "93-1 BCA ¶ 25,508"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Board of Contract Appeals Decisions, published by Commerce Clearing House",
+            "variations": {}
+        }
+    ],
+    "BNA OSHC": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "BNA OSHC": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "http://www.bna.com/occupational-safety--p4900/",
+            "mlz_jurisdiction": [],
+            "name": "Occupational Safety & Health Cases",
+            "notes": "See https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2 for nonstandard abbreviation",
+            "variations": {
+                "O.S.H. Cas.": "BNA OSHC",
+                "O.S.H. Cas. (BNA)": "BNA OSHC",
+                "O.S.H. Cases": "BNA OSHC",
+                "O.S.H. Cases (BNA)": "BNA OSHC"
+            }
+        }
+    ],
     "BTA LEXIS": [
         {
             "cite_type": "specialty_lexis",
@@ -1429,7 +1510,7 @@
                 "Bankr. L. Rep.": {
                     "end": null,
                     "regexes": [
-                        "$full_cite_paragraph"
+                        "$full_cite_cch"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -2246,6 +2327,33 @@
             ],
             "name": "Court Martial Records",
             "variations": {}
+        }
+    ],
+    "CCH OSHD": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "CCH OSHD": {
+                    "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "CCH OSHD ¶ 33123"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [],
+            "name": "Occupational Safety and Health Decisions (CCH)",
+            "variations": {
+                "O.S.H. Dec. (CCH)": "CCH OSHD",
+                "O.S.H.D.": "CCH OSHD",
+                "O.S.H.D. (CCH)": "CCH OSHD",
+                "O.S.H.Dec. (CCH)": "CCH OSHD",
+                "OSHD (CCH)": "CCH OSHD"
+            }
         }
     ],
     "CIT": [
@@ -3247,6 +3355,23 @@
             }
         }
     ],
+    "Comp. Gen.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Comp. Gen.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Decisions of the Comptroller General of the United States",
+            "variations": {}
+        }
+    ],
     "Cong. Index(CCH)": [
         {
             "cite_type": "specialty",
@@ -3470,7 +3595,7 @@
                 "Cont. Cas. Fed.": {
                     "end": null,
                     "regexes": [
-                        "$volume $reporter $paragraph_marker_optional$page_with_commas"
+                        "$full_cite_cch"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -4085,6 +4210,26 @@
             }
         }
     ],
+    "Dec. Comm'r Pat.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Dec. Comm'r Pat.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1885 Dec. Comm’r Pat. 279"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Decisions of the Commissioner of Patents",
+            "variations": {}
+        }
+    ],
     "Del.": [
         {
             "cite_type": "state",
@@ -4453,6 +4598,23 @@
             }
         }
     ],
+    "E.A.D.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "E.A.D.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Environmental Administrative Decisions",
+            "variations": {}
+        }
+    ],
     "E.H. Smith": [
         {
             "cite_type": "state",
@@ -4612,7 +4774,7 @@
                 "Empl. Prac. Dec. (CCH)": {
                     "end": null,
                     "regexes": [
-                        "$volume $reporter $paragraph_marker_optional$page_with_commas"
+                        "$full_cite_cch"
                     ],
                     "start": "1971-01-01T00:00:00"
                 }
@@ -4991,6 +5153,44 @@
             }
         }
     ],
+    "F.C.C.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "F.C.C.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                },
+                "F.C.C.2d": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Federal Communications Commission Reports",
+            "variations": {}
+        }
+    ],
+    "F.L.R.A.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "F.L.R.A.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Decisions of the Federal Labor Relations Authority",
+            "variations": {}
+        }
+    ],
     "F.R.D.": [
         {
             "cite_type": "specialty",
@@ -5112,6 +5312,43 @@
             "variations": {}
         }
     ],
+    "F.T.C.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "F.T.C.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Federal Trade Commission",
+            "variations": {}
+        }
+    ],
+    "FCC Rcd": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "FCC Rcd": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "29 FCC Rcd 5561"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Federal Communications Commission Record",
+            "variations": {}
+        }
+    ],
     "FED App.": [
         {
             "cite_type": "federal",
@@ -5145,6 +5382,29 @@
             "variations": {}
         }
     ],
+    "FERC": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "FERC": {
+                    "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "141 FERC ¶ 61,049"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Federal Energy Guidelines: FERC Reports",
+            "variations": {}
+        }
+    ],
     "FL": [
         {
             "cite_type": "neutral",
@@ -5175,6 +5435,23 @@
             "variations": {
                 "Fla. L. Weekly Fed.": "FLW Fed"
             }
+        }
+    ],
+    "FMSHRC": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "FMSHRC": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Federal Mine Safety and Health Review Commission Decisions",
+            "variations": {}
         }
     ],
     "FPSC": [
@@ -5594,6 +5871,29 @@
             "variations": {}
         }
     ],
+    "Fed. Reg.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Fed. Reg.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume $reporter $page_with_commas"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "60 Fed. Reg. 68,380"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Federal Register",
+            "variations": {}
+        }
+    ],
     "Fed. Sec. L. Rep. (CCH)": [
         {
             "cite_format": "{reporter} {page}",
@@ -5602,7 +5902,7 @@
                 "Fed. Sec. L. Rep. (CCH)": {
                     "end": null,
                     "regexes": [
-                        "$full_cite_paragraph_with_suffix"
+                        "$full_cite_cch"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -6980,6 +7280,44 @@
             "variations": {}
         }
     ],
+    "I. & N. Dec.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "I. & N. Dec.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Administrative Decisions Under Immigration and Nationality Laws",
+            "variations": {}
+        }
+    ],
+    "I.C.C.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "I.C.C.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                },
+                "I.C.C.2d": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Interstate Commerce Commission Reporter",
+            "variations": {}
+        }
+    ],
     "I.E.R. Cas. (BNA)": [
         {
             "cite_type": "specialty",
@@ -6997,6 +7335,23 @@
                 "I.E.R.": "I.E.R. Cas. (BNA)",
                 "I.E.R. Cas.": "I.E.R. Cas. (BNA)"
             }
+        }
+    ],
+    "I.R.B.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "I.R.B.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Internal Revenue Bulletin",
+            "variations": {}
         }
     ],
     "I.T.R.D. (BNA)": [
@@ -7486,6 +7841,23 @@
             },
             "mlz_jurisdiction": [],
             "name": "Internal Revenue Record",
+            "variations": {}
+        }
+    ],
+    "Interior Dec.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Interior Dec.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Interior Decisions",
             "variations": {}
         }
     ],
@@ -8802,6 +9174,23 @@
                 "M. J.": "M.J.",
                 "MJ": "M.J."
             }
+        }
+    ],
+    "M.S.P.B.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "M.S.P.B.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Decisions of the United States Merit Systems Protection Board",
+            "variations": {}
         }
     ],
     "M.S.P.R.": [
@@ -10475,6 +10864,57 @@
             "variations": {}
         }
     ],
+    "N.M.B.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "N.M.B.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Decisions of the National Mediation Board",
+            "variations": {}
+        }
+    ],
+    "N.R.C.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "N.R.C.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Nuclear Regulatory Commission Issuances",
+            "variations": {}
+        }
+    ],
+    "N.T.S.B.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "N.T.S.B.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "National Transportation Safety Board Decisions",
+            "variations": {}
+        }
+    ],
     "N.W.": [
         {
             "cite_type": "state_regional",
@@ -10868,6 +11308,9 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "370 NLRB No. 128"
+            ],
             "mlz_jurisdiction": [],
             "name": "National Labor Relations Board Neutral Cite",
             "variations": {}
@@ -11235,36 +11678,23 @@
             "variations": {}
         }
     ],
-    "O.S.H. Cas. (BNA)": [
+    "O.R.W.": [
         {
-            "cite_type": "specialty",
+            "cite_type": "federal",
             "editions": {
-                "O.S.H. Cas. (BNA)": {
+                "O.R.W.": {
                     "end": null,
                     "start": "1750-01-01T00:00:00"
                 }
             },
-            "href": "http://www.bna.com/occupational-safety--p4900/",
-            "mlz_jurisdiction": [],
-            "name": "Occupational Safety & Health Cases",
-            "variations": {
-                "O.S.H. Cas.": "O.S.H. Cas. (BNA)",
-                "O.S.H. Cases": "O.S.H. Cas. (BNA)",
-                "O.S.H. Cases (BNA)": "O.S.H. Cas. (BNA)"
-            }
-        }
-    ],
-    "O.S.H. Dec. (CCH)": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "O.S.H. Dec. (CCH)": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [],
-            "name": "Occupational Safety and Health Decisions",
+            "examples": [
+                "6 O.R.W. 479"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Ocean Resources and Wildlife Reporter",
             "variations": {}
         }
     ],
@@ -11280,24 +11710,6 @@
             "mlz_jurisdiction": [],
             "name": "Occupational Safety & Health Reporter",
             "variations": {}
-        }
-    ],
-    "O.S.H.D. (CCH)": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "O.S.H.D. (CCH)": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [],
-            "name": "Occupational Safety and Health Decisions (CCH)",
-            "variations": {
-                "O.S.H.D.": "O.S.H.D. (CCH)",
-                "O.S.H.Dec. (CCH)": "O.S.H.D. (CCH)",
-                "OSHD (CCH)": "O.S.H.D. (CCH)"
-            }
         }
     ],
     "O.S.U.": [
@@ -13130,6 +13542,23 @@
             "variations": {}
         }
     ],
+    "Pub. Lands Dec.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Pub. Lands Dec.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Interior and General Land Office Cases Relating to Public Lands",
+            "variations": {}
+        }
+    ],
     "R.I.": [
         {
             "cite_type": "state",
@@ -13719,17 +14148,20 @@
             }
         }
     ],
-    "S.E.C. Docket": [
+    "S.T.B.": [
         {
-            "cite_type": "specialty",
+            "cite_type": "federal",
             "editions": {
-                "S.E.C. Docket": {
+                "S.T.B.": {
                     "end": null,
                     "start": "1750-01-01T00:00:00"
                 }
             },
-            "mlz_jurisdiction": [],
-            "name": "Securities and Exchange Commission Docket",
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Surface Transportation Board Reporter",
             "variations": {}
         }
     ],
@@ -13806,6 +14238,22 @@
             "mlz_jurisdiction": [],
             "name": "SEC Accounting Rules",
             "variations": {}
+        }
+    ],
+    "SEC Docket": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "SEC Docket": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Securities and Exchange Commission Docket",
+            "variations": {
+                "S.E.C. Docket": "SEC Docket"
+            }
         }
     ],
     "SEC Jud. Dec.": [
@@ -15274,7 +15722,7 @@
                 "Trade Cas. (CCH)": {
                     "end": null,
                     "regexes": [
-                        "$volume_with_digit_suffix $reporter $paragraph_marker_optional$page_with_commas"
+                        "$full_cite_cch"
                     ],
                     "start": "1914-01-01T00:00:00"
                 }
@@ -15340,6 +15788,23 @@
             },
             "mlz_jurisdiction": [],
             "name": "Treasury Decisions Under Customs and Other Laws (U.S.)",
+            "variations": {}
+        }
+    ],
+    "Treas. Dec. Int. Rev.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Treas. Dec. Int. Rev.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
+            "mlz_jurisdiction": [
+                "us;federal"
+            ],
+            "name": "Treasury Decisions Under Internal Revenue Laws",
             "variations": {}
         }
     ],
@@ -15637,7 +16102,7 @@
                 "U.S. Tax Cas. (CCH)": {
                     "end": null,
                     "regexes": [
-                        "$volume_with_digit_suffix $reporter $paragraph_marker_optional$page_with_commas"
+                        "$full_cite_cch"
                     ],
                     "start": "1900-01-01T00:00:00"
                 }

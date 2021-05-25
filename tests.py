@@ -155,7 +155,7 @@ class BaseTestCase(TestCase):
 
     def check_ascii(self, obj):
         """Check that all strings in obj match a list of expected ascii characters."""
-        allowed_chars = r"[ 0-9a-zA-Z.,\-'&(){}\[\]\\$§_?<>+:/]"
+        allowed_chars = r"[ 0-9a-zA-Z.,\-'&(){}\[\]\\$§_?<>+*|:/]"
         for s in emit_strings(obj):
             remaining_chars = re.sub(allowed_chars, "", s)
             self.assertFalse(
@@ -178,7 +178,7 @@ class BaseTestCase(TestCase):
 class RegexesTest(BaseTestCase):
     """Tests for regexes.json"""
 
-    def text_json_format(self):
+    def test_json_format(self):
         self.check_json_format("regexes.json")
 
 
@@ -340,7 +340,7 @@ class ReportersTest(BaseTestCase):
             ):
                 self.check_regexes(regexes, examples)
 
-    def text_json_format(self):
+    def test_json_format(self):
         self.check_json_format("reporters.json")
 
 
@@ -405,7 +405,7 @@ class JournalsTest(BaseTestCase):
             with self.subTest("Check journal regexes", name=journal["name"]):
                 self.check_regexes(regexes, journal.get("examples", []))
 
-    def text_json_format(self):
+    def test_json_format(self):
         self.check_json_format("journals.json")
 
     def test_dates(self):
