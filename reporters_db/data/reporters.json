@@ -2938,7 +2938,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:ca;supreme.court"
+                "us:ca;appeals.court"
             ],
             "name": "California Appellate Reports",
             "variations": {
@@ -17786,7 +17786,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:tn;supreme.court"
+                "us:tn;court.workers.comp.claims"
             ],
             "name": "Tennessee Court of Workers' Compensation Claims",
             "variations": {}
@@ -17802,7 +17802,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:tn;supreme.court"
+                "us:tn;board.workers.comp.appeals"
             ],
             "name": "Tennessee Workers' Compensation Appeals Board",
             "variations": {}
@@ -19830,9 +19830,15 @@
             "editions": {
                 "WY": {
                     "end": null,
+                    "regexes": [
+                        "$volume_year $reporter (?P<page>\\d{1,6}A?)"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2015 WY 90A"
+            ],
             "mlz_jurisdiction": [
                 "us:wy;supreme.court"
             ],
