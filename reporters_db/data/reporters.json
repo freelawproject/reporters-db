@@ -517,6 +517,102 @@
             }
         }
     ],
+    "Ala. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ala. App. LEXIS": {
+                    "end": "1969-12-31T00:00:00",
+                    "start": "1911-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:al;appeals.court"
+            ],
+            "name": "LexisNexis Alabama Appeals Court",
+            "variations": {}
+        }
+    ],
+    "Ala. Civ. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ala. Civ. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:al;civil.appeals.court"
+            ],
+            "name": "LexisNexis Alabama Court of Civil Appeals",
+            "variations": {}
+        }
+    ],
+    "Ala. Crim. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ala. Crim. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:al;criminal.appeals.court"
+            ],
+            "name": "LexisNexis Alabama Court of Criminal Appeals",
+            "variations": {}
+        }
+    ],
+    "Ala. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ala. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:al;supreme.court"
+            ],
+            "name": "LexisNexis Alabama Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Alas. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Alas. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ak;appeals.court"
+            ],
+            "name": "LexisNexis Alaska Appeals Court",
+            "variations": {}
+        }
+    ],
+    "Alas. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Alas. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ak;supreme.court"
+            ],
+            "name": "LexisNexis Alaska Supreme Court",
+            "variations": {}
+        }
+    ],
     "Alaska": [
         {
             "cite_type": "state",
@@ -974,6 +1070,86 @@
             }
         }
     ],
+    "Ariz. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ariz. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:az;appeals.court"
+            ],
+            "name": "LexisNexis Arizona Court of Appeals",
+            "variations": {}
+        }
+    ],
+    "Ariz. App. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ariz. App. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:az;appeals.court"
+            ],
+            "name": "LexisNexis Arizona Appeals Court Unpublished",
+            "variations": {}
+        }
+    ],
+    "Ariz. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ariz. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:az;supreme.court"
+            ],
+            "name": "LexisNexis Arizona Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Ariz. Tax LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ariz. Tax LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:az;supreme.court"
+            ],
+            "name": "LexisNexis Arizona Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Ariz. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ariz. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:az;supreme.court"
+            ],
+            "name": "LexisNexis Arizona Supreme Court Unpublished",
+            "variations": {}
+        }
+    ],
     "Ark.": [
         {
             "cite_type": "state",
@@ -1045,6 +1221,38 @@
             "variations": {
                 "Ak. App.": "Ark. App."
             }
+        }
+    ],
+    "Ark. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ark. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ar;superior.court"
+            ],
+            "name": "LexisNexis Arkansas Court of Appeals",
+            "variations": {}
+        }
+    ],
+    "Ark. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ark. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ar;supreme.court"
+            ],
+            "name": "LexisNexis Arkansas Supreme Court",
+            "variations": {}
         }
     ],
     "Auto. Cas.": [
@@ -1527,6 +1735,123 @@
                 "Bankr. L. Rep. (C.C.H.)": "Bankr. L. Rep.",
                 "Bankr. L. Rep. (CCH)": "Bankr. L. Rep."
             }
+        }
+    ],
+    "Bankr. LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Bankr. LEXIS": {
+                    "end": null,
+                    "start": "1979-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c0:dc.d;bankruptcy.court",
+                "us:c10:co.d;bankruptcy.court",
+                "us:c10:ks.d;bankruptcy.court",
+                "us:c10:nm.d;bankruptcy.court",
+                "us:c10:ok.ed;bankruptcy.court",
+                "us:c10:ok.nd;bankruptcy.court",
+                "us:c10:ok.wd;bankruptcy.court",
+                "us:c10:ut.d;bankruptcy.court",
+                "us:c10:wy.d;bankruptcy.court",
+                "us:c10;bankruptcy.appellate.panel",
+                "us:c11:al.md;bankruptcy.court",
+                "us:c11:al.nd;bankruptcy.court",
+                "us:c11:al.sd;bankruptcy.court",
+                "us:c11:fl.md;bankruptcy.court",
+                "us:c11:fl.nd;bankruptcy.court",
+                "us:c11:fl.sd;bankruptcy.court",
+                "us:c11:ga.md;bankruptcy.court",
+                "us:c11:ga.nd;bankruptcy.court",
+                "us:c11:ga.sd;bankruptcy.court",
+                "us:c1:ma.d;bankruptcy.court",
+                "us:c1:me.d;bankruptcy.appellate.panel",
+                "us:c1:me.d;bankruptcy.court",
+                "us:c1:nh.d;bankruptcy.court",
+                "us:c1:pr.d;bankruptcy.court",
+                "us:c1:ri.d;bankruptcy.court",
+                "us:c1;bankruptcy.appellate.panel",
+                "us:c2:ct.d;bankruptcy.court",
+                "us:c2:ny.ed;bankruptcy.court",
+                "us:c2:ny.nd;bankruptcy.court",
+                "us:c2:ny.sd;bankruptcy.court",
+                "us:c2:ny.wd;bankruptcy.court",
+                "us:c2:vt.d;bankruptcy.court",
+                "us:c2;bankruptcy.appellate.panel",
+                "us:c3:de.d;bankruptcy.court",
+                "us:c3:nj.d;bankruptcy.court",
+                "us:c3:pa.ed;bankruptcy.court",
+                "us:c3:pa.md;bankruptcy.court",
+                "us:c3:pa.wd;bankruptcy.court",
+                "us:c3:vi.d;bankruptcy.court",
+                "us:c4:md.d;bankruptcy.court",
+                "us:c4:nc.ed;bankruptcy.court",
+                "us:c4:nc.md;bankruptcy.court",
+                "us:c4:nc.wd;bankruptcy.court",
+                "us:c4:sc.d;bankruptcy.court",
+                "us:c4:va.ed;bankruptcy.court",
+                "us:c4:va.wd;bankruptcy.court",
+                "us:c4:wv.nd;bankruptcy.court",
+                "us:c4:wv.sd;bankruptcy.court",
+                "us:c5:la.ed;bankruptcy.court",
+                "us:c5:la.md;bankruptcy.court",
+                "us:c5:la.wd;bankruptcy.court",
+                "us:c5:ms.nd;bankruptcy.court",
+                "us:c5:ms.sd;bankruptcy.court",
+                "us:c5:tx.ed;bankruptcy.court",
+                "us:c5:tx.nd;bankruptcy.court",
+                "us:c5:tx.sd;bankruptcy.court",
+                "us:c5:tx.wd;bankruptcy.court",
+                "us:c6:ky.ed;bankruptcy.court",
+                "us:c6:ky.wd;bankruptcy.court",
+                "us:c6:mi.ed;bankruptcy.court",
+                "us:c6:mi.wd;bankruptcy.court",
+                "us:c6:oh.nd;bankruptcy.court",
+                "us:c6:oh.sd;bankruptcy.court",
+                "us:c6:tn.d;bankruptcy.court",
+                "us:c6:tn.ed;bankruptcy.court",
+                "us:c6:tn.md;bankruptcy.court",
+                "us:c6:tn.wd;bankruptcy.court",
+                "us:c6;bankruptcy.appellate.panel",
+                "us:c7:il.cd;bankruptcy.court",
+                "us:c7:il.nd;bankruptcy.court",
+                "us:c7:il.sd;bankruptcy.court",
+                "us:c7:in.nd;bankruptcy.court",
+                "us:c7:in.sd;bankruptcy.court",
+                "us:c7:wi.ed;bankruptcy.court",
+                "us:c7:wi.wd;bankruptcy.court",
+                "us:c8:ar.ed;bankruptcy.court",
+                "us:c8:ar.wd;bankruptcy.court",
+                "us:c8:ia.nd;bankruptcy.court",
+                "us:c8:ia.sd;bankruptcy.court",
+                "us:c8:mn.d;bankruptcy.court",
+                "us:c8:mo.ed;bankruptcy.court",
+                "us:c8:mo.wd;bankruptcy.court",
+                "us:c8:nd.d;bankruptcy.court",
+                "us:c8:ne.d;bankruptcy.court",
+                "us:c8:sd.d;bankruptcy.court",
+                "us:c8;bankruptcy.appellate.panel",
+                "us:c9:ak.d;bankruptcy.court",
+                "us:c9:az.d;bankruptcy.court",
+                "us:c9:ca.cd;bankruptcy.court",
+                "us:c9:ca.ed;bankruptcy.court",
+                "us:c9:ca.nd;bankruptcy.court",
+                "us:c9:ca.sd;bankruptcy.court",
+                "us:c9:gu.d;bankruptcy.court",
+                "us:c9:hi.d;bankruptcy.court",
+                "us:c9:id.d;bankruptcy.court",
+                "us:c9:mp.d;bankruptcy.court",
+                "us:c9:mt.d;bankruptcy.court",
+                "us:c9:nv.d;bankruptcy.court",
+                "us:c9:or.d;bankruptcy.court",
+                "us:c9:wa.ed;bankruptcy.court",
+                "us:c9:wa.wd;bankruptcy.court",
+                "us:c9;bankruptcy.appellate.panel"
+            ],
+            "name": "LexisNexis Bankruptcy Reporter",
+            "variations": {}
         }
     ],
     "Bankr. Rep (St. Louis B.A.)": [
@@ -2329,6 +2654,38 @@
             "variations": {}
         }
     ],
+    "CAAF LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "CAAF LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;court.appeals.armed.forces"
+            ],
+            "name": "LexisNexis Court of Appeals for the Armed Forces",
+            "variations": {}
+        }
+    ],
+    "CCA LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "CCA LEXIS": {
+                    "end": null,
+                    "start": "1951-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;court.criminal.appeals.armed.forces"
+            ],
+            "name": "LexisNexis United States Court of Criminal Appeals",
+            "variations": {}
+        }
+    ],
     "CCH OSHD": [
         {
             "cite_type": "specialty",
@@ -2356,6 +2713,24 @@
             }
         }
     ],
+    "CCPA LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "CCPA LEXIS": {
+                    "end": "1982-09-30T00:00:00",
+                    "start": "1910-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;court.customs.patent.appeals"
+            ],
+            "name": "LexisNexis United States Court of Customs and Patent Appeals",
+            "variations": {
+                "Ct. Cust. LEXIS": "CCPA LEXIS"
+            }
+        }
+    ],
     "CIT": [
         {
             "cite_type": "neutral",
@@ -2367,6 +2742,38 @@
             },
             "mlz_jurisdiction": [],
             "name": "Neutral citation for Court of International Trade",
+            "variations": {}
+        }
+    ],
+    "CMA LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "CMA LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;court.appeals.armed.forces"
+            ],
+            "name": "LexisNexis United States Court of Military Appeals",
+            "variations": {}
+        }
+    ],
+    "CMR LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "CMR LEXIS": {
+                    "end": null,
+                    "start": "1951-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;court.military.review"
+            ],
+            "name": "LexisNexis United States Court of Military Review",
             "variations": {}
         }
     ],
@@ -2550,6 +2957,22 @@
             }
         }
     ],
+    "Cal. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;appeals.court"
+            ],
+            "name": "LexisNexis California Appeals Court",
+            "variations": {}
+        }
+    ],
     "Cal. App. Supp.": [
         {
             "cite_type": "state",
@@ -2599,6 +3022,22 @@
             }
         }
     ],
+    "Cal. App. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. App. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;appeals.court"
+            ],
+            "name": "LexisNexis California Appeals Court Unpublished",
+            "variations": {}
+        }
+    ],
     "Cal. Bankr. Ct. Rep.": [
         {
             "cite_type": "specialty",
@@ -2610,6 +3049,22 @@
             },
             "mlz_jurisdiction": [],
             "name": "California Bankruptcy Court Report",
+            "variations": {}
+        }
+    ],
+    "Cal. Comm. Jud. Perform. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. Comm. Jud. Perform. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;judicial.performance.commission"
+            ],
+            "name": "LexisNexis California Commission on Judicial Performance",
             "variations": {}
         }
     ],
@@ -2665,6 +3120,38 @@
             "variations": {}
         }
     ],
+    "Cal. Jud. Ethics Op. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. Jud. Ethics Op. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;judicial.ethics.commission"
+            ],
+            "name": "LexisNexis California Commission on Judicial Ethics",
+            "variations": {}
+        }
+    ],
+    "Cal. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;supreme.court"
+            ],
+            "name": "LexisNexis Supreme Court of California",
+            "variations": {}
+        }
+    ],
     "Cal. Rptr.": [
         {
             "cite_type": "state",
@@ -2695,6 +3182,22 @@
                 "Cal.Rptr.2d": "Cal. Rptr. 2d",
                 "Cal.Rptr.3d": "Cal. Rptr. 3d"
             }
+        }
+    ],
+    "Cal. Super. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. Super. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;superior.court"
+            ],
+            "name": "LexisNexis California Superior Court",
+            "variations": {}
         }
     ],
     "Cal. Unrep.": [
@@ -3253,6 +3756,22 @@
             }
         }
     ],
+    "Colo. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Colo. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:co;appeals.court"
+            ],
+            "name": "LexisNexis Colorado Court of Appeals",
+            "variations": {}
+        }
+    ],
     "Colo. Bankr. Ct. Rep.": [
         {
             "cite_type": "specialty",
@@ -3267,6 +3786,22 @@
             "variations": {
                 "Colo Bankr Ct Rep": "Colo. Bankr. Ct. Rep."
             }
+        }
+    ],
+    "Colo. Discipl. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Colo. Discipl. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:co;supreme.court"
+            ],
+            "name": "LexisNexis Colorado Supreme Court Disciplinary Opinions",
+            "variations": {}
         }
     ],
     "Colo. J.": [
@@ -3301,6 +3836,22 @@
                 "us:co;supreme.court"
             ],
             "name": "Colorado Journal, Colorado Appellate Reports",
+            "variations": {}
+        }
+    ],
+    "Colo. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Colo. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nv;supreme.court"
+            ],
+            "name": "LexisNexis Colorado Supreme Court",
             "variations": {}
         }
     ],
@@ -3422,6 +3973,22 @@
             }
         }
     ],
+    "Conn. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Conn. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ct;supreme.court"
+            ],
+            "name": "LexisNexis Connecticut Supreme Court",
+            "variations": {}
+        }
+    ],
     "Conn. Cir. Ct.": [
         {
             "cite_type": "state",
@@ -3441,6 +4008,22 @@
             }
         }
     ],
+    "Conn. Cir. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Conn. Cir. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ct;circuit.court"
+            ],
+            "name": "LexisNexis Connecticut Circuit Court",
+            "variations": {}
+        }
+    ],
     "Conn. L. Rptr.": [
         {
             "cite_type": "state",
@@ -3457,6 +4040,22 @@
             "variations": {
                 "CLR": "Conn. L. Rptr."
             }
+        }
+    ],
+    "Conn. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Conn. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ct;supreme.court"
+            ],
+            "name": "LexisNexis Connecticut Supreme Court",
+            "variations": {}
         }
     ],
     "Conn. Super. Ct.": [
@@ -3507,6 +4106,22 @@
                 "Ct. Sup.": "Conn. Super. Ct.",
                 "Ct.Sup.": "Conn. Super. Ct."
             }
+        }
+    ],
+    "Conn. Super. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Conn. Super. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ct;superior.court"
+            ],
+            "name": "LexisNexis Connecticut Superior Court",
+            "variations": {}
         }
     ],
     "Conn. Supp.": [
@@ -3847,6 +4462,20 @@
             }
         }
     ],
+    "Ct. Intl. Trade LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Ct. Intl. Trade LEXIS": {
+                    "end": null,
+                    "start": "1980-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "LexisNexis Court of International Trade",
+            "variations": {}
+        }
+    ],
     "Curt.": [
         {
             "cite_type": "federal",
@@ -3911,6 +4540,22 @@
                 "us:c;customs.court"
             ],
             "name": "Customs Court Reports",
+            "variations": {}
+        }
+    ],
+    "Cust. Ct. LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Cust. Ct. LEXIS": {
+                    "end": "1980-10-31T00:00:00",
+                    "start": "1938-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;court.customs"
+            ],
+            "name": "LexisNexis United States Customs Court",
             "variations": {}
         }
     ],
@@ -3984,6 +4629,38 @@
             "variations": {}
         }
     ],
+    "D.C. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "D.C. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:dc;appeals.court"
+            ],
+            "name": "LexisNexis Washington D.C. Appeals Court",
+            "variations": {}
+        }
+    ],
+    "D.C. Super. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "D.C. Super. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:dc;superior.court"
+            ],
+            "name": "LexisNexis Washington D.C. Superior Court",
+            "variations": {}
+        }
+    ],
     "Daily Journal DAR": [
         {
             "cite_type": "state",
@@ -4049,6 +4726,23 @@
             "variations": {
                 "Dak.": "Dakota"
             }
+        }
+    ],
+    "Dakota LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Dakota LEXIS": {
+                    "end": "1889-12-31T00:00:00",
+                    "start": "1867-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nd;supreme.court",
+                "us:sd;supreme.court"
+            ],
+            "name": "LexisNexis Court of the Dakota Territory",
+            "variations": {}
         }
     ],
     "Dall.": [
@@ -4256,6 +4950,22 @@
             }
         }
     ],
+    "Del. C.P. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Del. C.P. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;common.pleas.court"
+            ],
+            "name": "LexisNexis Delaware Court of Common Pleas",
+            "variations": {}
+        }
+    ],
     "Del. Cas.": [
         {
             "cite_type": "state",
@@ -4291,6 +5001,22 @@
             }
         }
     ],
+    "Del. Ch. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Del. Ch. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;chancery.court"
+            ],
+            "name": "LexisNexis Delaware Chancery Court",
+            "variations": {}
+        }
+    ],
     "Del. Co.": [
         {
             "cite_type": "state",
@@ -4310,6 +5036,54 @@
                 "Del.Co.Rep.": "Del. Co.",
                 "Delaware Co. Reports": "Del. Co."
             }
+        }
+    ],
+    "Del. Fam. Ct. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Del. Fam. Ct. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;supreme.court"
+            ],
+            "name": "LexisNexis Delaware Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Del. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Del. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;supreme.court"
+            ],
+            "name": "LexisNexis Delaware Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Del. Super. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Del. Super. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;superior.court"
+            ],
+            "name": "LexisNexis Delaware Superior Court",
+            "variations": {}
         }
     ],
     "Dem. Surr.": [
@@ -6016,6 +6790,22 @@
             }
         }
     ],
+    "Fla. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Fla. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:fl;appeals.court"
+            ],
+            "name": "LexisNexis Florida Appeals Court",
+            "variations": {}
+        }
+    ],
     "Fla. L. Weekly": [
         {
             "cite_type": "state",
@@ -6078,6 +6868,22 @@
             "variations": {
                 "Fla. L. Weekly S": "Fla. L. Weekly Supp."
             }
+        }
+    ],
+    "Fla. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Fla. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:fl;supreme.court"
+            ],
+            "name": "LexisNexis Florida Supreme Court",
+            "variations": {}
         }
     ],
     "Fla. Supp.": [
@@ -6222,6 +7028,38 @@
             "variations": {
                 "Ga.App.": "Ga. App."
             }
+        }
+    ],
+    "Ga. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ga. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ga;appeals.court"
+            ],
+            "name": "LexisNexis Georgia Appeals Court",
+            "variations": {}
+        }
+    ],
+    "Ga. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ga. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ga;supreme.court"
+            ],
+            "name": "LexisNexis Georgia Supreme Court",
+            "variations": {}
         }
     ],
     "Gall.": [
@@ -6472,6 +7310,22 @@
                 "us:c9:gu.d;district.court"
             ],
             "name": "Guam Reports",
+            "variations": {}
+        }
+    ],
+    "Guam LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Guam LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:gu;supreme.court"
+            ],
+            "name": "LexisNexis Guam Supreme Court",
             "variations": {}
         }
     ],
@@ -6748,6 +7602,38 @@
                 "Haw.App.": "Haw. App.",
                 "Hawaii App.": "Haw. App."
             }
+        }
+    ],
+    "Haw. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Haw. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:hi;court.appeals"
+            ],
+            "name": "LexisNexis Hawaii Court Appeals",
+            "variations": {}
+        }
+    ],
+    "Haw. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Haw. LEXIS": {
+                    "end": null,
+                    "start": "1847-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:hi;supreme.court"
+            ],
+            "name": "LexisNexis Supreme Court of Hawaii",
+            "variations": {}
         }
     ],
     "Hawks": [
@@ -7550,6 +8436,54 @@
             "variations": {}
         }
     ],
+    "Ida. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ida. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:id;appeals.court"
+            ],
+            "name": "LexisNexis Idaho Appeals Court",
+            "variations": {}
+        }
+    ],
+    "Ida. App. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ida. App. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:id;appeals.court"
+            ],
+            "name": "LexisNexis Idaho Court of Appeals",
+            "variations": {}
+        }
+    ],
+    "Ida. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ida. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:id;supreme.court"
+            ],
+            "name": "LexisNexis Idaho Supreme Court",
+            "variations": {}
+        }
+    ],
     "Idaho": [
         {
             "cite_type": "state",
@@ -7634,6 +8568,38 @@
             }
         }
     ],
+    "Ill. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ill. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:il;court.appeals"
+            ],
+            "name": "LexisNexis Illinois Court of Appeals",
+            "variations": {}
+        }
+    ],
+    "Ill. App. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ill. App. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:il;appeals.court"
+            ],
+            "name": "LexisNexis Illinois Appeals Court Unpublished",
+            "variations": {}
+        }
+    ],
     "Ill. C.C.": [
         {
             "cite_type": "state",
@@ -7668,6 +8634,22 @@
             "variations": {}
         }
     ],
+    "Ill. Ct. Cl. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ill. Ct. Cl. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:il;court.claims"
+            ],
+            "name": "LexisNexis Illinois Court of Claims",
+            "variations": {}
+        }
+    ],
     "Ill. Dec.": [
         {
             "cite_type": "state",
@@ -7685,6 +8667,22 @@
                 "Ill.Dec.": "Ill. Dec.",
                 "Ill.Decs.": "Ill. Dec."
             }
+        }
+    ],
+    "Ill. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ill. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:il;supreme.court"
+            ],
+            "name": "LexisNexis Illinois Supreme Court",
+            "variations": {}
         }
     ],
     "Immigr. L. Serv. (West)": [
@@ -7738,6 +8736,38 @@
             }
         }
     ],
+    "Ind. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ind. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:in;appeals.court"
+            ],
+            "name": "LexisNexis Indiana Court of Appeals",
+            "variations": {}
+        }
+    ],
+    "Ind. App. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ind. App. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:in;appeals.court"
+            ],
+            "name": "LexisNexis Indiana Appeals Court Unpublished",
+            "variations": {}
+        }
+    ],
     "Ind. Dec.": [
         {
             "cite_type": "state",
@@ -7751,6 +8781,38 @@
                 "us:in;supreme.court"
             ],
             "name": "Indiana Decisions (Ind.)",
+            "variations": {}
+        }
+    ],
+    "Ind. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ind. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:in;supreme.court"
+            ],
+            "name": "LexisNexis Indiana Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Ind. Tax LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ind. Tax LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:in;tax.court"
+            ],
+            "name": "LexisNexis Indiana Tax Court",
             "variations": {}
         }
     ],
@@ -7772,6 +8834,22 @@
                 "Ind. T.": "Indian Terr.",
                 "Ind.T.": "Indian Terr."
             }
+        }
+    ],
+    "Indian Terr. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Indian Terr. LEXIS": {
+                    "end": "1907-12-31T00:00:00",
+                    "start": "1896-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ok;supreme.court"
+            ],
+            "name": "LexisNexis Court of Appeals of Indian Territory",
+            "variations": {}
         }
     ],
     "Inher. Est. & Gift Tax Rep. (CCH)": [
@@ -7878,6 +8956,38 @@
                 "Ia.": "Iowa",
                 "Iowa Rep.": "Iowa"
             }
+        }
+    ],
+    "Iowa App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Iowa App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ia;supreme.court"
+            ],
+            "name": "LexisNexis Iowa Appeals Court",
+            "variations": {}
+        }
+    ],
+    "Iowa Sup. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Iowa Sup. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ia;supreme.court"
+            ],
+            "name": "LexisNexis Iowa Supreme Court",
+            "variations": {}
         }
     ],
     "Ired.": [
@@ -8189,6 +9299,70 @@
             }
         }
     ],
+    "Kan. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Kan. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ks;court.appeals"
+            ],
+            "name": "LexisNexis Kansas Court of Appeals",
+            "variations": {}
+        }
+    ],
+    "Kan. App. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Kan. App. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ks;appeals.court"
+            ],
+            "name": "LexisNexis Kansas Appeals Court Unpublished",
+            "variations": {}
+        }
+    ],
+    "Kan. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Kan. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ks;supreme.court"
+            ],
+            "name": "LexisNexis Kansas Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Kan. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Kan. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ks;supreme.court"
+            ],
+            "name": "LexisNexis Kansas Supreme Court Unpublished",
+            "variations": {}
+        }
+    ],
     "Kirby": [
         {
             "cite_type": "state",
@@ -8267,6 +9441,38 @@
             "variations": {}
         }
     ],
+    "Ky. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ky. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ky;appeals.court"
+            ],
+            "name": "LexisNexis Kentucky Appeals Court",
+            "variations": {}
+        }
+    ],
+    "Ky. App. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ky. App. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ky;appeals.court"
+            ],
+            "name": "LexisNexis Kentucky Appeals Court Unpublished",
+            "variations": {}
+        }
+    ],
     "Ky. L. Rptr.": [
         {
             "cite_type": "state",
@@ -8304,6 +9510,22 @@
             "variations": {}
         }
     ],
+    "Ky. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ky. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ky;supreme.court"
+            ],
+            "name": "LexisNexis Kentucky Supreme Court",
+            "variations": {}
+        }
+    ],
     "Ky. Op.": [
         {
             "cite_type": "state",
@@ -8320,6 +9542,22 @@
             "variations": {
                 "Ken.Opin.": "Ky. Op."
             }
+        }
+    ],
+    "Ky. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ky. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ky;supreme.court"
+            ],
+            "name": "LexisNexis Kentucky Supreme Court Unpublished",
+            "variations": {}
         }
     ],
     "L. Ed.": [
@@ -8557,6 +9795,54 @@
                 "La.A.": "La. App.",
                 "La.App.": "La. App."
             }
+        }
+    ],
+    "La. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "La. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:la;appeals.court"
+            ],
+            "name": "LexisNexis Louisiana Appeals Court",
+            "variations": {}
+        }
+    ],
+    "La. App. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "La. App. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:la;appeals.court"
+            ],
+            "name": "LexisNexis Louisiana Appeals Court Unpublished",
+            "variations": {}
+        }
+    ],
+    "La. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "La. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:la;supreme.court"
+            ],
+            "name": "LexisNexis Louisiana Supreme Court",
+            "variations": {}
         }
     ],
     "La.App. 1 Cir.": [
@@ -9621,6 +10907,54 @@
             "variations": {}
         }
     ],
+    "Mass. App. Div. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mass. App. Div. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;appellate.division"
+            ],
+            "name": "LexisNexis Massachusetts Appellate Division",
+            "variations": {}
+        }
+    ],
+    "Mass. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mass. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;court.appeals"
+            ],
+            "name": "LexisNexis Massachusetts Court of Appeals",
+            "variations": {}
+        }
+    ],
+    "Mass. App. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mass. App. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;appeals.court"
+            ],
+            "name": "LexisNexis Massachusetts Appeals Court Unpublished",
+            "variations": {}
+        }
+    ],
     "Mass. L. Rptr.": [
         {
             "cite_type": "state",
@@ -9634,6 +10968,54 @@
                 "us:ma;superior.court"
             ],
             "name": "Massachusetts Law Reporter",
+            "variations": {}
+        }
+    ],
+    "Mass. LCR LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mass. LCR LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;land.court"
+            ],
+            "name": "LexisNexis Massachusetts Land Court",
+            "variations": {}
+        }
+    ],
+    "Mass. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mass. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;supreme.court"
+            ],
+            "name": "LexisNexis Massachusetts Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Mass. Super. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mass. Super. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;superior.court"
+            ],
+            "name": "LexisNexis Massachusetts Superior Court",
             "variations": {}
         }
     ],
@@ -9873,6 +11255,22 @@
             }
         }
     ],
+    "Md. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Md. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:md;court.appeals"
+            ],
+            "name": "LexisNexis Maryland Court of Appeals",
+            "variations": {}
+        }
+    ],
     "Md. Ch.": [
         {
             "cite_type": "state",
@@ -9886,6 +11284,54 @@
                 "us:md;court.appeals"
             ],
             "name": "Reports of cases decided in the High court of chancery of Maryland",
+            "variations": {}
+        }
+    ],
+    "Md. Cir. Ct. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Md. Cir. Ct. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:md;circuit.court"
+            ],
+            "name": "LexisNexis Maryland Circuit Court",
+            "variations": {}
+        }
+    ],
+    "Md. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Md. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:md;court.appeals"
+            ],
+            "name": "LexisNexis Maryland Court Appeals",
+            "variations": {}
+        }
+    ],
+    "Md. Tax LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Md. Tax LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:md;supreme.court"
+            ],
+            "name": "LexisNexis Maryland Supreme Court",
             "variations": {}
         }
     ],
@@ -9907,6 +11353,54 @@
                 "Maine": "Me.",
                 "Maine Rep.": "Me."
             }
+        }
+    ],
+    "Me. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Me. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:me;supreme.court"
+            ],
+            "name": "LexisNexis Maine Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Me. Super. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Me. Super. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:me;superior.court"
+            ],
+            "name": "LexisNexis Maine Superior Court",
+            "variations": {}
+        }
+    ],
+    "Me. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Me. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:me;supreme.court"
+            ],
+            "name": "LexisNexis Maine Supreme Court Unpublished",
+            "variations": {}
         }
     ],
     "Med. Devices Rep. (CCH)": [
@@ -10058,6 +11552,22 @@
             }
         }
     ],
+    "Mich. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mich. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mi;supreme.court"
+            ],
+            "name": "LexisNexis Michigan Supreme Court",
+            "variations": {}
+        }
+    ],
     "Mich. Ct. Cl.": [
         {
             "cite_type": "state",
@@ -10071,6 +11581,22 @@
                 "us:mi;supreme.court"
             ],
             "name": "Michigan Court of Claims Reports",
+            "variations": {}
+        }
+    ],
+    "Mich. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mich. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mi;supreme.court"
+            ],
+            "name": "LexisNexis Michigan Supreme Court",
             "variations": {}
         }
     ],
@@ -10135,6 +11661,86 @@
                 "Min. Rep.": "Minn.",
                 "Minn. Rep.": "Minn."
             }
+        }
+    ],
+    "Minn. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Minn. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mn;appeals.court"
+            ],
+            "name": "LexisNexis Minnesota Appeals Court",
+            "variations": {}
+        }
+    ],
+    "Minn. App. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Minn. App. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mn;appeals.court"
+            ],
+            "name": "LexisNexis Minnesota Appeals Court Unpublished",
+            "variations": {}
+        }
+    ],
+    "Minn. Dist. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Minn. Dist. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mn;district.court"
+            ],
+            "name": "LexisNexis Minnesota District Court",
+            "variations": {}
+        }
+    ],
+    "Minn. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Minn. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mn;supreme.court"
+            ],
+            "name": "LexisNexis Minnesota Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Minn. Tax LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Minn. Tax LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mn;supreme.court"
+            ],
+            "name": "LexisNexis Minnesota Supreme Court",
+            "variations": {}
         }
     ],
     "Minor": [
@@ -10215,6 +11821,22 @@
             }
         }
     ],
+    "Miss. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Miss. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ms;appeals.court"
+            ],
+            "name": "LexisNexis Mississippi Appeals Court",
+            "variations": {}
+        }
+    ],
     "Miss. Dec.": [
         {
             "cite_type": "state",
@@ -10228,6 +11850,22 @@
                 "us:ms;supreme.court"
             ],
             "name": "Mississippi Decisions",
+            "variations": {}
+        }
+    ],
+    "Miss. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Miss. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ms;court.supreme"
+            ],
+            "name": "LexisNexis Mississippi Supreme Court",
             "variations": {}
         }
     ],
@@ -10265,6 +11903,38 @@
             "variations": {
                 "Mo.App.Rep.": "Mo. App."
             }
+        }
+    ],
+    "Mo. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mo. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mo;appeals.court"
+            ],
+            "name": "LexisNexis Missouri Appeals Court",
+            "variations": {}
+        }
+    ],
+    "Mo. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mo. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mo;supreme.court"
+            ],
+            "name": "LexisNexis Missouri Supreme Court",
+            "variations": {}
         }
     ],
     "Monag.": [
@@ -10305,6 +11975,54 @@
             "variations": {
                 "Mont": "Mont."
             }
+        }
+    ],
+    "Mont. Dist. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mont. Dist. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mt;district.court"
+            ],
+            "name": "LexisNexis Montana District Court",
+            "variations": {}
+        }
+    ],
+    "Mont. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mont. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mt;supreme.court"
+            ],
+            "name": "LexisNexis Montana Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Mont. Water LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mont. Water LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mo;water.court"
+            ],
+            "name": "LexisNexis Missouri Water Court",
+            "variations": {}
         }
     ],
     "Montg.": [
@@ -10479,6 +12197,22 @@
             }
         }
     ],
+    "N. Mar. I. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N. Mar. I. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mp;supreme.court"
+            ],
+            "name": "LexisNexis Northern Mariana Islands Supreme Court",
+            "variations": {}
+        }
+    ],
     "N.B.R.": [
         {
             "cite_type": "specialty",
@@ -10538,6 +12272,38 @@
             }
         }
     ],
+    "N.C. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.C. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nc;supreme.court"
+            ],
+            "name": "LexisNexis North Carolina Supreme Court",
+            "variations": {}
+        }
+    ],
+    "N.C. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.C. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nc;supreme.court"
+            ],
+            "name": "LexisNexis North Carolina Supreme Court",
+            "variations": {}
+        }
+    ],
     "N.D.": [
         {
             "cite_type": "state",
@@ -10551,6 +12317,38 @@
                 "us:nd;supreme.court"
             ],
             "name": "North Dakota Reports",
+            "variations": {}
+        }
+    ],
+    "N.D. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.D. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nd;appeals.court"
+            ],
+            "name": "LexisNexis North Dakota Appeals Court",
+            "variations": {}
+        }
+    ],
+    "N.D. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.D. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nd;supreme.court"
+            ],
+            "name": "LexisNexis North Dakota Supreme Court",
             "variations": {}
         }
     ],
@@ -10615,6 +12413,38 @@
             }
         }
     ],
+    "N.H. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.H. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nh;supreme.court"
+            ],
+            "name": "LexisNexis New Hampshire Supreme Court",
+            "variations": {}
+        }
+    ],
+    "N.H. Super. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.H. Super. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nh;superior.court"
+            ],
+            "name": "LexisNexis New Hampshire Superior Court",
+            "variations": {}
+        }
+    ],
     "N.J.": [
         {
             "cite_type": "state",
@@ -10651,6 +12481,22 @@
             "variations": {}
         }
     ],
+    "N.J. Ch. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.J. Ch. LEXIS": {
+                    "end": "1948-12-31T00:00:00",
+                    "start": "1830-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;chancery.court"
+            ],
+            "name": "LexisNexis New Jersey Chancery Court",
+            "variations": {}
+        }
+    ],
     "N.J. Eq.": [
         {
             "cite_type": "state",
@@ -10664,6 +12510,22 @@
                 "us:nj;supreme.court"
             ],
             "name": "New Jersey Equity Reports",
+            "variations": {}
+        }
+    ],
+    "N.J. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.J. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;supreme.court"
+            ],
+            "name": "LexisNexis New Jersey Supreme Court",
             "variations": {}
         }
     ],
@@ -10702,6 +12564,54 @@
             }
         }
     ],
+    "N.J. Misc. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.J. Misc. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;court.appeals"
+            ],
+            "name": "LexisNexis New Jersey Miscellaneous Opinions",
+            "variations": {}
+        }
+    ],
+    "N.J. Prerog. Ct. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.J. Prerog. Ct. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;prerogative.court"
+            ],
+            "name": "LexisNexis New Jersey Prerogative Court",
+            "variations": {}
+        }
+    ],
+    "N.J. Sup. Ct. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.J. Sup. Ct. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;superior.court"
+            ],
+            "name": "LexisNexis New Jersey Superior Court",
+            "variations": {}
+        }
+    ],
     "N.J. Super.": [
         {
             "cite_type": "state",
@@ -10719,6 +12629,38 @@
                 "N.J.S.": "N.J. Super.",
                 "N.J.Super.": "N.J. Super."
             }
+        }
+    ],
+    "N.J. Super. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.J. Super. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;superior.court"
+            ],
+            "name": "LexisNexis New Jersey Superior Court",
+            "variations": {}
+        }
+    ],
+    "N.J. Super. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.J. Super. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nj;superior.court"
+            ],
+            "name": "LexisNexis New Jersey Superior Court Unpublished",
+            "variations": {}
         }
     ],
     "N.J. Tax": [
@@ -10848,6 +12790,54 @@
             }
         }
     ],
+    "N.M. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.M. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nm;appeals.court"
+            ],
+            "name": "LexisNexis New Mexico Appeals Court",
+            "variations": {}
+        }
+    ],
+    "N.M. App. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.M. App. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nm;appeals.court"
+            ],
+            "name": "LexisNexis New Mexico Appeals Court Unpublished",
+            "variations": {}
+        }
+    ],
+    "N.M. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.M. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nm;supreme.court"
+            ],
+            "name": "LexisNexis New Mexico Supreme Court",
+            "variations": {}
+        }
+    ],
     "N.M. St. B. Bull.": [
         {
             "cite_type": "state",
@@ -10861,6 +12851,22 @@
                 "us:nm;supreme.court"
             ],
             "name": "New Mexico State Bar Bulletin",
+            "variations": {}
+        }
+    ],
+    "N.M. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.M. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nm;supreme.court"
+            ],
+            "name": "LexisNexis New Mexico Supreme Court Unpublished",
             "variations": {}
         }
     ],
@@ -11013,6 +13019,22 @@
             }
         }
     ],
+    "N.Y. App. Div. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. App. Div. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "LexisNexis New York Supreme Court Appellate Division",
+            "variations": {}
+        }
+    ],
     "N.Y. Ch. Ann.": [
         {
             "cite_type": "state",
@@ -11077,6 +13099,22 @@
             }
         }
     ],
+    "N.Y. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "LexisNexis New York Court Appeals",
+            "variations": {}
+        }
+    ],
     "N.Y. Leg. Obs.": [
         {
             "cite_type": "state",
@@ -11093,6 +13131,22 @@
             "variations": {
                 "N.Y. Legal Observer": "N.Y. Leg. Obs."
             }
+        }
+    ],
+    "N.Y. Misc. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Misc. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "LexisNexis New York Miscellaneous Opinions",
+            "variations": {}
         }
     ],
     "N.Y. St. Rep.": [
@@ -11247,6 +13301,22 @@
             ],
             "name": "North Carolina Business Court",
             "notes": "The North Carolina Business Court is a specialized forum of the",
+            "variations": {}
+        }
+    ],
+    "NCBC LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "NCBC LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nc;business.court"
+            ],
+            "name": "LexisNexis North Carolina Business Court",
             "variations": {}
         }
     ],
@@ -11481,6 +13551,22 @@
             }
         }
     ],
+    "Neb. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Neb. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ne;appeals.court"
+            ],
+            "name": "LexisNexis Nebraska Appeals Court",
+            "variations": {}
+        }
+    ],
     "Neb. Ct. App.": [
         {
             "cite_type": "state",
@@ -11502,6 +13588,22 @@
                 "Neb.App.R.": "Neb. Ct. App.",
                 "Neb.C.A.": "Neb. Ct. App."
             }
+        }
+    ],
+    "Neb. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Neb. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ne;supreme.court"
+            ],
+            "name": "LexisNexis Nebraska Supreme Court",
+            "variations": {}
         }
     ],
     "Neg. Cas. (CCH)": [
@@ -11570,6 +13672,38 @@
             "variations": {
                 "Nev. Advance Rep.": "Nev. Adv. Rep."
             }
+        }
+    ],
+    "Nev. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Nev. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nv;supreme.court"
+            ],
+            "name": "LexisNexis Nevada Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Nev. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Nev. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nv;supreme.court"
+            ],
+            "name": "LexisNexis Nevada Supreme Court",
+            "variations": {}
         }
     ],
     "Newb. Adm.": [
@@ -11950,6 +14084,22 @@
             }
         }
     ],
+    "Ohio App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ohio App. LEXIS": {
+                    "end": null,
+                    "start": "1789-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;court.appeals"
+            ],
+            "name": "LexisNexis Ohio Court of Appeals",
+            "variations": {}
+        }
+    ],
     "Ohio App. Unrep.": [
         {
             "cite_type": "state",
@@ -12140,6 +14290,22 @@
             }
         }
     ],
+    "Ohio LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ohio LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;supreme.court"
+            ],
+            "name": "LexisNexis Ohio Supreme Court",
+            "variations": {}
+        }
+    ],
     "Ohio Law Rep.": [
         {
             "cite_type": "state",
@@ -12205,6 +14371,22 @@
                 "Ohio Misc.2d": "Ohio Misc. 2d",
                 "Ohio Misc.Dec.": "Ohio Misc."
             }
+        }
+    ],
+    "Ohio Misc. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ohio Misc. LEXIS": {
+                    "end": null,
+                    "start": "1823-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;court.common.pleas"
+            ],
+            "name": "LexisNexis Ohio Miscellaneous Opinions",
+            "variations": {}
         }
     ],
     "Ohio N.P.": [
@@ -12356,6 +14538,22 @@
             }
         }
     ],
+    "Okla. Civ. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Okla. Civ. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ok;civil.appeals.court"
+            ],
+            "name": "LexisNexis Oklahoma Court of Civil Appeals",
+            "variations": {}
+        }
+    ],
     "Okla. Crim.": [
         {
             "cite_type": "state",
@@ -12380,6 +14578,54 @@
                 "Okla.Cr.": "Okla. Crim.",
                 "Okla.Crim.": "Okla. Crim."
             }
+        }
+    ],
+    "Okla. Crim. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Okla. Crim. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ok;court.criminal.appeals"
+            ],
+            "name": "LexisNexis Oklahoma Court of Criminal Appeals",
+            "variations": {}
+        }
+    ],
+    "Okla. JUD LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Okla. JUD LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ok;appeals.court"
+            ],
+            "name": "LexisNexis Oklahoma Court of Appeals",
+            "variations": {}
+        }
+    ],
+    "Okla. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Okla. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ok;supreme.court"
+            ],
+            "name": "LexisNexis Oklahoma Supreme Court",
+            "variations": {}
         }
     ],
     "Okla. Trib.": [
@@ -12501,6 +14747,54 @@
                 "OTR": "Or. Tax",
                 "OTR-MD": "Or. Tax"
             }
+        }
+    ],
+    "Ore. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ore. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:or;supreme.court"
+            ],
+            "name": "LexisNexis Oregon Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Ore. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ore. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:or;supreme.court"
+            ],
+            "name": "LexisNexis Oregon Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Ore. Tax LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ore. Tax LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:or;supreme.court"
+            ],
+            "name": "LexisNexis Oregon Supreme Court",
+            "variations": {}
         }
     ],
     "Overt.": [
@@ -12757,6 +15051,38 @@
             "variations": {}
         }
     ],
+    "PR App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "PR App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pr;appeals.court"
+            ],
+            "name": "LexisNexis Puerto Rico Appeals Court",
+            "variations": {}
+        }
+    ],
+    "PR Sup. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "PR Sup. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pr;supreme.court"
+            ],
+            "name": "LexisNexis Puerto Rico Supreme Court",
+            "variations": {}
+        }
+    ],
     "Pa.": [
         {
             "cite_type": "state",
@@ -12840,6 +15166,38 @@
             }
         }
     ],
+    "Pa. Commw. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pa. Commw. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;commonwealth.court"
+            ],
+            "name": "LexisNexis Pennsylvania Commonwealth Court",
+            "variations": {}
+        }
+    ],
+    "Pa. Commw. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pa. Commw. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;commonwealth.court"
+            ],
+            "name": "LexisNexis Pennsylvania Commonwealth Court Unpublished",
+            "variations": {}
+        }
+    ],
     "Pa. Corp.": [
         {
             "cite_type": "state",
@@ -12921,6 +15279,54 @@
             }
         }
     ],
+    "Pa. Dist. & Cnty. Dec. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pa. Dist. & Cnty. Dec. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;court.common.pleas"
+            ],
+            "name": "LexisNexis Common Pleas in the State of Pennsylvania",
+            "variations": {}
+        }
+    ],
+    "Pa. Jud. Disc. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pa. Jud. Disc. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;court.judicial.discipline"
+            ],
+            "name": "LexisNexis Pennsylvania Court of Judicial Discipline",
+            "variations": {}
+        }
+    ],
+    "Pa. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pa. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "LexisNexis Pennsylvania Supreme Court",
+            "variations": {}
+        }
+    ],
     "Pa. Super.": [
         {
             "cite_type": "state",
@@ -12941,6 +15347,38 @@
                 "Pa.Super.": "Pa. Super.",
                 "Pa.Super.Ct.": "Pa. Super."
             }
+        }
+    ],
+    "Pa. Super. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pa. Super. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;superior.court"
+            ],
+            "name": "LexisNexis Pennsylvania Superior Court",
+            "variations": {}
+        }
+    ],
+    "Pa. Super. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pa. Super. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;superior.court"
+            ],
+            "name": "LexisNexis Pennsylvania Superior Court Unpublished",
+            "variations": {}
         }
     ],
     "Paige Ch.": [
@@ -13368,6 +15806,38 @@
             }
         }
     ],
+    "Phila. Ct. Com. Pl. LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Phila. Ct. Com. Pl. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;court.common.pleas"
+            ],
+            "name": "LexisNexis Philadelphia Court of Common Pleas",
+            "variations": {}
+        }
+    ],
+    "Phila. Cty. Rptr. LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Phila. Cty. Rptr. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;court.common.pleas"
+            ],
+            "name": "LexisNexis Philadelphia Court of Common Pleas",
+            "variations": {}
+        }
+    ],
     "Pick.": [
         {
             "cite_type": "state",
@@ -13572,6 +16042,38 @@
                 "us:ri;supreme.court"
             ],
             "name": "Rhode Island Reports",
+            "variations": {}
+        }
+    ],
+    "R.I. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "R.I. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ri;supreme.court"
+            ],
+            "name": "LexisNexis Rhode Island Supreme Court",
+            "variations": {}
+        }
+    ],
+    "R.I. Super. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "R.I. Super. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ri;superior.court"
+            ],
+            "name": "LexisNexis Rhode Island Superior Court",
             "variations": {}
         }
     ],
@@ -14047,6 +16549,38 @@
             }
         }
     ],
+    "S.C. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "S.C. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:sc;appeals.court"
+            ],
+            "name": "LexisNexis South Carolina Appeals Court",
+            "variations": {}
+        }
+    ],
+    "S.C. App. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "S.C. App. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:sc;court.appeals"
+            ],
+            "name": "LexisNexis South Carolina Court of Appeals Unpublished",
+            "variations": {}
+        }
+    ],
     "S.C. Eq.": [
         {
             "cite_type": "state",
@@ -14069,6 +16603,38 @@
                 "us:sc;supreme.court"
             ],
             "name": "South Carolina Equity Reports",
+            "variations": {}
+        }
+    ],
+    "S.C. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "S.C. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:sc;supreme.court"
+            ],
+            "name": "LexisNexis South Carolina Supreme Court",
+            "variations": {}
+        }
+    ],
+    "S.C. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "S.C. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:sc;court.supreme"
+            ],
+            "name": "LexisNexis South Carolina Supreme Court Unpublished",
             "variations": {}
         }
     ],
@@ -14113,6 +16679,22 @@
             "variations": {
                 "S.Dak.": "S.D."
             }
+        }
+    ],
+    "S.D. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "S.D. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:sd;supreme.court"
+            ],
+            "name": "LexisNexis South Dakota Supreme Court",
+            "variations": {}
         }
     ],
     "S.E.": [
@@ -15487,6 +18069,22 @@
             }
         }
     ],
+    "Tenn. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tenn. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tn;appeals.court"
+            ],
+            "name": "LexisNexis Tennessee Appeals Court",
+            "variations": {}
+        }
+    ],
     "Tenn. Ch. App.": [
         {
             "cite_type": "state",
@@ -15505,6 +18103,22 @@
             }
         }
     ],
+    "Tenn. Ch. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tenn. Ch. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tn;court.chancery.appeals"
+            ],
+            "name": "LexisNexis Tennessee Chancery Appeals Court",
+            "variations": {}
+        }
+    ],
     "Tenn. Crim. App.": [
         {
             "cite_type": "state",
@@ -15521,6 +18135,38 @@
             "variations": {
                 "Tenn.Crim.App.": "Tenn. Crim. App."
             }
+        }
+    ],
+    "Tenn. Crim. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tenn. Crim. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tn;criminal.appeals.court"
+            ],
+            "name": "LexisNexis Tennessee Criminal Appeals Court",
+            "variations": {}
+        }
+    ],
+    "Tenn. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tenn. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tn;supreme.court"
+            ],
+            "name": "LexisNexis Supreme Court of Tennessee",
+            "variations": {}
         }
     ],
     "Terry": [
@@ -15571,6 +18217,22 @@
             }
         }
     ],
+    "Tex. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tx;appeals.court"
+            ],
+            "name": "LexisNexis Texas Appeals Court",
+            "variations": {}
+        }
+    ],
     "Tex. Civ. App.": [
         {
             "cite_type": "state",
@@ -15612,6 +18274,38 @@
             }
         }
     ],
+    "Tex. Crim. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Crim. App. LEXIS": {
+                    "end": null,
+                    "start": "1841-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tx;supreme.court"
+            ],
+            "name": "LexisNexis Texas Criminal Court of Appeals",
+            "variations": {}
+        }
+    ],
+    "Tex. Crim. App. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Crim. App. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tx;supreme.court"
+            ],
+            "name": "LexisNexis Texas Court of Criminal Appeals Unpublished",
+            "variations": {}
+        }
+    ],
     "Tex. Ct. App.": [
         {
             "cite_type": "state",
@@ -15628,6 +18322,22 @@
             "variations": {
                 "Tex.Ct.App.R.": "Tex. Ct. App."
             }
+        }
+    ],
+    "Tex. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tx;supreme.court"
+            ],
+            "name": "LexisNexis Texas Supreme Court",
+            "variations": {}
         }
     ],
     "Tex. Sup. Ct. J.": [
@@ -15991,6 +18701,72 @@
             "variations": {}
         }
     ],
+    "U.S. CMCR LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "U.S. CMCR LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;court.appeals.armed.forces"
+            ],
+            "name": "LexisNexis United States Court of Military Commission Review",
+            "variations": {}
+        }
+    ],
+    "U.S. Claims LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "U.S. Claims LEXIS": {
+                    "end": null,
+                    "start": "1982-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;claims.court"
+            ],
+            "name": "LexisNexis United States Claims Court",
+            "variations": {
+                "U.S. Cl. Ct. LEXIS": "U.S. Claims LEXIS"
+            }
+        }
+    ],
+    "U.S. Commerce Ct. LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "U.S. Commerce Ct. LEXIS": {
+                    "end": "1913-12-31T00:00:00",
+                    "start": "1910-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;court.commerce"
+            ],
+            "name": "LexisNexis United States Commerce Court",
+            "variations": {}
+        }
+    ],
+    "U.S. Ct. Cl. LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "U.S. Ct. Cl. LEXIS": {
+                    "end": null,
+                    "start": "1856-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;court.claims"
+            ],
+            "name": "LexisNexis United States Court of Claims",
+            "variations": {}
+        }
+    ],
     "U.S. Dist. LEXIS": [
         {
             "cite_type": "specialty_lexis",
@@ -16149,6 +18925,24 @@
             "mlz_jurisdiction": [],
             "name": "U.S. Tax Reporter",
             "variations": {}
+        }
+    ],
+    "U.S. Vet. App. LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "U.S. Vet. App. LEXIS": {
+                    "end": null,
+                    "start": "1990-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c;board.veterans.appeals"
+            ],
+            "name": "LexisNexis United States Board of Veteran Appeals",
+            "variations": {
+                "U.S. App. Vet. Claims LEXIS": "U.S. Vet. App. LEXIS"
+            }
         }
     ],
     "U.S.L.W.": [
@@ -16340,6 +19134,38 @@
             "variations": {}
         }
     ],
+    "Utah App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Utah App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ut;appeals.court"
+            ],
+            "name": "LexisNexis Utah Appeals Court",
+            "variations": {}
+        }
+    ],
+    "Utah LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Utah LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ut;supreme.court"
+            ],
+            "name": "LexisNexis Utah Supreme Court",
+            "variations": {}
+        }
+    ],
     "Util. L. Rep. (CCH)": [
         {
             "cite_type": "specialty",
@@ -16367,6 +19193,38 @@
                 "us:c3:vi.d;district.court"
             ],
             "name": "Virgin Islands Reports",
+            "variations": {}
+        }
+    ],
+    "V.I. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "V.I. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:vi;supreme.court"
+            ],
+            "name": "LexisNexis Virgin Island Supreme Court",
+            "variations": {}
+        }
+    ],
+    "V.I. Supreme LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "V.I. Supreme LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:vi;supreme.court"
+            ],
+            "name": "LexisNexis Virgin Islands Supreme Court",
             "variations": {}
         }
     ],
@@ -16433,6 +19291,22 @@
             }
         }
     ],
+    "Va. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Va. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:va;supreme.court"
+            ],
+            "name": "LexisNexis Virginia Supreme Court",
+            "variations": {}
+        }
+    ],
     "Va. Cas.": [
         {
             "cite_type": "state",
@@ -16465,6 +19339,22 @@
             "variations": {}
         }
     ],
+    "Va. Cir. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Va. Cir. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:va;circuit.court"
+            ],
+            "name": "LexisNexis Virgina Circuit Court",
+            "variations": {}
+        }
+    ],
     "Va. Dec.": [
         {
             "cite_type": "state",
@@ -16481,6 +19371,22 @@
             "variations": {
                 "Va.Dec.": "Va. Dec."
             }
+        }
+    ],
+    "Va. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Va. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:va;court.supreme"
+            ],
+            "name": "LexisNexis Virginia Supreme Court",
+            "variations": {}
         }
     ],
     "Va. Law J.": [
@@ -16514,6 +19420,22 @@
                 "us:va;supreme.court"
             ],
             "name": "Virginia Law Reports",
+            "variations": {}
+        }
+    ],
+    "Va. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Va. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:in;supreme.court"
+            ],
+            "name": "LexisNexis Virginia Supreme Court Unpublished",
             "variations": {}
         }
     ],
@@ -16603,6 +19525,54 @@
             }
         }
     ],
+    "Vt. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Vt. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:vt;supreme.court"
+            ],
+            "name": "LexisNexis Vermont Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Vt. Super. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Vt. Super. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:vt;superior.court"
+            ],
+            "name": "LexisNexis Vermont Superior Court",
+            "variations": {}
+        }
+    ],
+    "Vt. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Vt. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:vt;supreme.court"
+            ],
+            "name": "LexisNexis Vermont Supreme Court Unpublished",
+            "variations": {}
+        }
+    ],
     "W. Va.": [
         {
             "cite_type": "state",
@@ -16621,6 +19591,22 @@
                 "W.Va.": "W. Va.",
                 "West Va.": "W. Va."
             }
+        }
+    ],
+    "W. Va. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "W. Va. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:wv;supreme.court"
+            ],
+            "name": "LexisNexis West Virginia Supreme Court",
+            "variations": {}
         }
     ],
     "W.L. M.": [
@@ -17065,6 +20051,22 @@
             }
         }
     ],
+    "Wash. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Wash. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:wa;supreme.court"
+            ],
+            "name": "LexisNexis Washington Supreme Court",
+            "variations": {}
+        }
+    ],
     "Wash. C. C.": [
         {
             "cite_type": "federal",
@@ -17103,6 +20105,22 @@
             }
         }
     ],
+    "Wash. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Wash. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:wa;supreme.court"
+            ],
+            "name": "LexisNexis Washington Supreme Court",
+            "variations": {}
+        }
+    ],
     "Wash. Terr.": [
         {
             "cite_type": "state",
@@ -17129,6 +20147,22 @@
                 "Wash.Ty.": "Wash. Terr.",
                 "Wn. Terr.": "Wash. Terr."
             }
+        }
+    ],
+    "Wash. Terr. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Wash. Terr. LEXIS": {
+                    "end": "1889-11-11T00:00:00",
+                    "start": "1854-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:wa;supreme.court"
+            ],
+            "name": "LexisNexis Supreme Court of the Territory of Washington",
+            "variations": {}
         }
     ],
     "Watts": [
@@ -17427,6 +20461,54 @@
             }
         }
     ],
+    "Wisc. App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Wisc. App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:wi;appeals.court"
+            ],
+            "name": "LexisNexis Wisconsin Appeals Court",
+            "variations": {}
+        }
+    ],
+    "Wisc. Cir. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Wisc. Cir. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:wi;circuit.court"
+            ],
+            "name": "LexisNexis Wisconsin Circuit Court",
+            "variations": {}
+        }
+    ],
+    "Wisc. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Wisc. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:wi;supreme.court"
+            ],
+            "name": "LexisNexis Wisconsin Supreme Court",
+            "variations": {}
+        }
+    ],
     "Wkly. Dig.": [
         {
             "cite_type": "federal",
@@ -17490,6 +20572,22 @@
                 "W.": "Wyo.",
                 "Wy.": "Wyo."
             }
+        }
+    ],
+    "Wyo. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Wyo. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:wy;supreme.court"
+            ],
+            "name": "LexisNexis Wyoming Supreme Court",
+            "variations": {}
         }
     ],
     "Yates Sel. Cas.": [
