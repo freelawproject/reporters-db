@@ -308,10 +308,10 @@
             "notes": "Published by Notre Dame Law School",
             "regexes": [],
             "start": "1969-01-01T00:00:00",
-            "variations": {
-                "Am. J. Jurispr": "Am. J. Juris.",
-                "Am. J. Jurisprud": "Am. J. Juris."
-            }
+            "variations": [
+                "Am. J. Jurispr",
+                "Am. J. Jurisprud"
+            ]
         }
     ],
     "Am. J. Legal Hist.": [
@@ -1486,9 +1486,9 @@
             "name": "Colorado Lawyer",
             "regexes": [],
             "start": null,
-            "variations": {
-                "Colorado Law.": "Colo. Law."
-            }
+            "variations": [
+                "Colorado Law."
+            ]
         }
     ],
     "Colum. Bus. L. Rev.": [
@@ -1967,7 +1967,7 @@
             "name": "Cumberland Law Review",
             "regexes": [],
             "start": null,
-            "variations": {}
+            "variations": []
         }
     ],
     "Current Med. for Att'ys": [
@@ -3275,7 +3275,7 @@
             "notes": "University of California, Hastings College of the Law Journal",
             "regexes": [],
             "start": "1949-01-01T00:00:00",
-            "variations": {}
+            "variations": []
         }
     ],
     "Hastings W.-Nw. J. Envtl. L. & Pol'y": [
@@ -5530,9 +5530,9 @@
             "name": "North Carolina (NC) Central Law Journal",
             "regexes": [],
             "start": null,
-            "variations": {
-                "N.C. Cent. L.J.": "Cent. Law J."
-            }
+            "variations": [
+                "Cent. Law J."
+            ]
         }
     ],
     "N.C. J. Int'l L. & Com. Reg.": [
@@ -7125,11 +7125,11 @@
             "name": "Social Service Review",
             "regexes": [],
             "start": null,
-            "variations": {
-                "Soc. Sec. Rep. Serv.": "Soc. Serv. Rev.",
-                "Soc. Sec. Rep. Service": "Soc. Serv. Rev.",
-                "Soc.Sec.Rep.Serv.": "Soc. Serv. Rev."
-            }
+            "variations": [
+                "Soc. Sec. Rep. Serv.",
+                "Soc. Sec. Rep. Service",
+                "Soc.Sec.Rep.Serv."
+            ]
         }
     ],
     "Software L.J.": [
@@ -7800,9 +7800,9 @@
             "name": "Texas Law Review",
             "regexes": [],
             "start": "1845-01-01T00:00:00",
-            "variations": {
-                "Texas L.Rev.": "Tex. L. Rev."
-            }
+            "variations": [
+                "Texas L.Rev."
+            ]
         }
     ],
     "Tex. Rev. L. & Pol.": [
