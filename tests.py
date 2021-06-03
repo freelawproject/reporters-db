@@ -6,6 +6,7 @@ from difflib import context_diff
 from pathlib import Path
 from string import Template
 
+import jsonschema
 import six
 from reporters_db import (
     REPORTERS,
@@ -18,7 +19,7 @@ from reporters_db import (
 )
 from unittest import TestCase
 
-from reporters_db.utils import substitute_editions, recursive_substitute
+from reporters_db.utils import recursive_substitute
 
 VALID_CITE_TYPES = (
     "federal",
@@ -67,6 +68,26 @@ def iter_editions():
 
 
 class BaseTestCase(TestCase):
+    # override this with a json file name like "reporters.json":
+    json_name = None
+    # string contents of json file:
+    json_str = None
+    # parsed contents of json file:
+    json = None
+    # parsed contents of schema file:
+    schema = None
+
+    @classmethod
+    def setUpClass(cls) -> None:
+        """Preload json file and schema for validation."""
+        cls.json_path = (
+            Path(__file__).parent / "reporters_db" / "data" / cls.json_name
+        )
+        cls.json_str = cls.json_path.read_text()
+        cls.json = json.loads(cls.json_str)
+        schema_path = Path(__file__).parent / "schemas" / cls.json_name
+        cls.schema = json.loads(schema_path.read_text())
+
     def check_regexes(self, regexes, examples):
         """Check that each regex matches at least one example, and each example matches at least one regex.
         regexes should be a list of [(regex_template, regex)]."""
@@ -110,33 +131,35 @@ class BaseTestCase(TestCase):
             % (set(examples) - matched_examples, regexes),
         )
 
-    def check_json_format(self, file_name):
+    def test_json_format(self):
         """Does format of json file match json.dumps(json.loads(), sort_keys=True)?"""
-        json_path = Path(__file__).parent / "reporters_db" / "data" / file_name
-        json_str = json_path.read_text()
         reformatted = json.dumps(
-            json.loads(json_str),
+            self.json,
             indent=4,
             ensure_ascii=False,
             sort_keys=True,
         )
         reformatted += "\n"
-        if json_str != reformatted:
+        if self.json_str != reformatted:
             if os.environ.get("FIX_JSON"):
-                json_path.write_text(reformatted)
+                self.json_path.write_text(reformatted)
             else:
                 diff = context_diff(
-                    json_str.splitlines(),
+                    self.json_str.splitlines(),
                     reformatted.splitlines(),
                     fromfile="reporters.json",
                     tofile="expected.json",
                 )
                 self.fail(
-                    ("%s needs reformatting. " % file_name)
+                    ("%s needs reformatting. " % self.json_name)
                     + "Run with env var FIX_JSON=1 to update the file automatically. "
                     + "Diff of actual vs. expected:\n"
                     + "\n".join(diff)
                 )
+
+    def test_schema(self):
+        """Does json file validate against the schema in the schemas folder?"""
+        jsonschema.validate(self.json, self.schema)
 
     def check_dates(self, start, end):
         """Check that start and end dates are valid."""
@@ -178,12 +201,13 @@ class BaseTestCase(TestCase):
 class RegexesTest(BaseTestCase):
     """Tests for regexes.json"""
 
-    def test_json_format(self):
-        self.check_json_format("regexes.json")
+    json_name = "regexes.json"
 
 
 class ReportersTest(BaseTestCase):
     """Tests for reporters.json"""
+
+    json_name = "reporters.json"
 
     def test_any_keys_missing_editions(self):
         """Have we added any new reporters that lack a matching edition?"""
@@ -234,56 +258,6 @@ class ReportersTest(BaseTestCase):
                 VALID_CITE_TYPES,
                 "%s did not have a valid cite_type value" % reporter_abbv,
             )
-
-    def test_all_required_keys_no_extra_keys(self):
-        """Are all required keys present? Are there any keys present that
-        shouldn't be?
-        """
-        required_fields = [
-            "cite_type",
-            "editions",
-            "mlz_jurisdiction",
-            "name",
-            "variations",
-        ]
-        optional_fields = [
-            "cite_format",
-            "publisher",
-            "notes",
-            "href",
-            "regexes",
-            "examples",
-        ]
-        all_fields = required_fields + optional_fields
-        for reporter_abbv, reporter_list, reporter_data in iter_reporters():
-
-            # All required fields present?
-            for required_field in required_fields:
-                try:
-                    reporter_data[required_field]
-                except KeyError:
-                    self.fail(
-                        "Reporter '%s' lacks required field '%s'"
-                        % (reporter_abbv, required_field)
-                    )
-
-            # No extra fields?
-            for k in reporter_data.keys():
-                self.assertIn(
-                    k,
-                    all_fields,
-                    "Reporter '%s' has an unknown field '%s'"
-                    % (reporter_abbv, k),
-                )
-
-            # No empty string values?
-            for k, v in reporter_data.items():
-                if isinstance(v, str):
-                    self.assertTrue(
-                        v != "",
-                        msg="Field '%s' is empty in reporter '%s'"
-                        % (k, reporter_abbv),
-                    )
 
     def test_no_variation_is_same_as_key(self):
         """Are any variations identical to the keys they're supposed to be
@@ -340,12 +314,11 @@ class ReportersTest(BaseTestCase):
             ):
                 self.check_regexes(regexes, examples)
 
-    def test_json_format(self):
-        self.check_json_format("reporters.json")
-
 
 class LawsTest(BaseTestCase):
     """Tests for laws.json"""
+
+    json_name = "laws.json"
 
     @staticmethod
     def iter_laws():
@@ -368,9 +341,6 @@ class LawsTest(BaseTestCase):
             with self.subTest("Check law regexes", name=law["name"]):
                 self.check_regexes(regexes, law["examples"])
 
-    def test_json_format(self):
-        self.check_json_format("laws.json")
-
     def test_dates(self):
         for law_key, law in self.iter_laws():
             self.check_dates(law["start"], law["end"])
@@ -386,6 +356,8 @@ class LawsTest(BaseTestCase):
 
 class JournalsTest(BaseTestCase):
     """Tests for journals.json"""
+
+    json_name = "journals.json"
 
     @staticmethod
     def iter_journals():
@@ -405,9 +377,6 @@ class JournalsTest(BaseTestCase):
             with self.subTest("Check journal regexes", name=journal["name"]):
                 self.check_regexes(regexes, journal.get("examples", []))
 
-    def test_json_format(self):
-        self.check_json_format("journals.json")
-
     def test_dates(self):
         for journal_key, journal in self.iter_journals():
             self.check_dates(journal["start"], journal["end"])
@@ -419,6 +388,10 @@ class JournalsTest(BaseTestCase):
             self.check_ascii(journal["name"])
 
         self.check_whitespace(JOURNALS)
+
+
+# avoid running test methods in BaseTestCase itself
+del BaseTestCase
 
 
 if __name__ == "__main__":

@@ -1,0 +1,67 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "patternProperties": {
+        "^.*$": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "cite_type": {
+                            "type": "string"
+                        },
+                        "end": {
+                            "type": ["string", "null"]
+                        },
+                        "examples": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "href": {
+                            "type": "string"
+                        },
+                        "jurisdiction": {
+                            "type": "string"
+                        },
+                        "name": {
+                            "type": "string"
+                        },
+                        "notes": {
+                            "type": "string"
+                        },
+                        "regexes": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "start": {
+                            "type": ["string", "null"]
+                        },
+                        "variations": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "required": [
+                        "cite_type",
+                        "end",
+                        "examples",
+                        "jurisdiction",
+                        "name",
+                        "regexes",
+                        "start",
+                        "variations"
+                    ],
+                    "additionalProperties": false
+                }
+            ]
+        }
+    },
+    "additionalProperties": false
+}
