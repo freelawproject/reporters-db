@@ -12,9 +12,11 @@
 
 ## Current Version
 
- - 3.2.0 (2021-05-26): Adds federal administrative and executive materials. Adds U.S.C. to laws parsers.  
+ - 3.2.1 (2021-06-04): Fixes bug with format of journals and adds json schemas to prevent regressions 
 
 ## Past Versions
+
+ - 3.2.0 (2021-05-26): Adds federal administrative and executive materials. Adds U.S.C. to laws parsers.
 
  - 3.1.x: In addition to several regex enhancements, this version brings two new data files. The first file, `laws.json` provides regular expressions for parsing various state laws. The second, `journals.json` does the same for various law journals. 
 
