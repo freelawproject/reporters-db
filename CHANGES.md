@@ -12,9 +12,11 @@
 
 ## Current Version
 
- - 3.2.1 (2021-06-04): Fixes bug with format of journals and adds json schemas to prevent regressions 
+ - 3.2.2 (2021-06-30): Add F.4th and increment the doomsday clock one notch. 
 
 ## Past Versions
+
+ - 3.2.1 (2021-06-04): Fixes bug with format of journals and adds json schemas to prevent regressions
 
  - 3.2.0 (2021-05-26): Adds federal administrative and executive materials. Adds U.S.C. to laws parsers.
 
