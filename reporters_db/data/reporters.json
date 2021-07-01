@@ -4929,6 +4929,10 @@
                 "F.3d": {
                     "end": null,
                     "start": "1993-01-01T00:00:00"
+                },
+                "F.4th": {
+                    "end": null,
+                    "start": "2021-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -4945,18 +4949,23 @@
                 "us:c9;court.appeals"
             ],
             "name": "Federal Reporter",
+            "notes": "F.4th was first noted on 2021-06-30, but we don't yet know the last F.3d case nor the first F.4th case. Once 4th is published, we can check.",
             "variations": {
                 "F. 2d": "F.2d",
                 "F. 3d": "F.3d",
+                "F. 4th": "F.4th",
                 "F.2d.": "F.2d",
                 "F.3d.": "F.3d",
+                "F.4th.": "F.4th",
                 "Fed.": "F.",
                 "Fed.R.": "F.",
                 "Fed.R.2d": "F.2d",
                 "Fed.R.3d": "F.3d",
+                "Fed.R.4th": "F.4th",
                 "Fed.Rep.": "F.",
                 "Fed.Rep.2d": "F.2d",
-                "Fed.Rep.3d": "F.3d"
+                "Fed.Rep.3d": "F.3d",
+                "Fed.Rep.4th": "F.4th"
             }
         }
     ],
