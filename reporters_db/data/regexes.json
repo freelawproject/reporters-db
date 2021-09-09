@@ -51,7 +51,9 @@
         "with_commas_or_periods": "(?P<page>\\d(?:[\\d,.]*\\d)?)",
         "with_commas_or_periods#": "Page number that allows internal punctuation",
         "with_periods": "(?P<page>\\d(?:[\\d.]*\\d)?)",
-        "with_periods#": "Page number that allows internal periods, like '1234.56'"
+        "with_periods#": "Page number that allows internal periods, like '1234.56'",
+        "with_roman_numerals": "([cC]?(?:[xX][cC]|[xX][lL]|[lL]?[xX]{1,3})(?:[iI][xX]|[iI][vV]|[vV]?[iI]{0,3})|(?:[cC]?[lL]?)(?:[iI][xX]|[iI][vV]|[vV]?[iI]{1,3})|(?:[lL][vV]|[cC][vV]|[cC][lL]|[cC][lL][vV]))",
+        "with_roman_numerals#": "Page number expressed as Roman numerals"
     },
     "paragraph_marker": "(?:P|¶|para?\\.)",
     "reporter": {
@@ -67,7 +69,7 @@
         "with_alpha_suffix#": "Volume number that may have 'A' appended, like '1A'",
         "with_digit_suffix": "(?P<volume>\\d{1,4}(?:-\\d+)?)",
         "with_digit_suffix#": "Volume number that may have digits appended, like '123-4'",
-        "year": "(?P<volume>19\\d{2}|20\\d{2})",
+        "year": "(?P<volume>1[89]\\d{2}|20\\d{2})",
         "year#": "Volume number that must be a year between 1900 and 2099"
     }
 }
