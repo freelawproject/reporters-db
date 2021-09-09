@@ -16786,7 +16786,8 @@
                 "348 S. W. 2d 17",
                 "47 S. W. 2d XI",
                 "47 SW 3d 1",
-                "7 S.W. 3d LII;"
+                "7 S.W. 3d LII",
+                "7 S.W. 3d iv"
             ],
             "mlz_jurisdiction": [
                 "us:ar;supreme.court",
@@ -17272,7 +17273,7 @@
             },
             "examples": [
                 "67 So.3d 2",
-                "90 South.3d VVI"
+                "90 So.3d LII"
             ],
             "mlz_jurisdiction": [
                 "us:al;supreme.court",
