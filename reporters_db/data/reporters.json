@@ -16766,7 +16766,8 @@
                 "S.W.3d": {
                     "end": null,
                     "regexes": [
-                        "$full_cite"
+                        "$full_cite",
+                        "$volume $reporter (?P<page>[LXIV]+);?"
                     ],
                     "start": "1999-01-01T00:00:00"
                 }
