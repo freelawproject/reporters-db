@@ -16757,10 +16757,17 @@
                 },
                 "S.W.2d": {
                     "end": "1999-12-31T00:00:00",
+                    "regexes": [
+                        "$volume S\\.?-? ?(W|w)\\.?,? ?\\(?2n?d,?\\.?\\)?( Series,?)? $page",
+                        "$volume $reporter (?P<page>[LXIV]+);?"
+                    ],
                     "start": "1928-01-01T00:00:00"
                 },
                 "S.W.3d": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1999-01-01T00:00:00"
                 }
             },
@@ -16780,16 +16787,43 @@
                 "S. W.2d": "S.W.2d",
                 "S. W.3d": "S.W.3d",
                 "S.W. 2d": "S.W.2d",
+                "S. W. (2d)": "S.W.2d",
                 "S.W. 3d": "S.W.3d",
                 "S.W. Rep.": "S.W.",
                 "SW": "S.W.",
                 "SW 2d": "S.W.2d",
+                "S. W. 2d Series.": "S.W.2d",
+                "S. W., 2d Series.": "S.W.2d",
+                "S. W., 2d Series,": "S.W.2d",
+                "S. W., Second Series,": "S.W.2d",
                 "SW 3d": "S.W.3d",
                 "SW2D": "S.W.2d",
                 "SW2d": "S.W.2d",
                 "SW3D": "S.W.3d",
-                "SW3d": "S.W.3d"
+                "SW3d": "S.W.3d",
+                "SW.3d": "S.W.3d"
+
             }
+        }
+    ],
+    "SCDB": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "SCDB": {
+                    "end": null,
+                    "regexes": [
+                        "$reporter $volume_year-$page"
+                    ],
+                    "start": "1791-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "SCDB 1846-016"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "The Supreme Court Database",
+            "variations": {}
         }
     ],
     "SD": [
