@@ -12879,6 +12879,22 @@
             "variations": {}
         }
     ],
+    "N.M. Unpub. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.M. Unpub. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:nm;supreme.court"
+            ],
+            "name": "LexisNexis New Mexico Supreme Court Unpublished",
+            "variations": {}
+        }
+    ],
     "N.M.B.": [
         {
             "cite_type": "federal",
@@ -15092,6 +15108,38 @@
             "variations": {}
         }
     ],
+    "PR App. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "PR App. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pr;appeals.court"
+            ],
+            "name": "LexisNexis Puerto Rico Appeals Court",
+            "variations": {}
+        }
+    ],
+    "PR Sup. LEXIS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "PR Sup. LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pr;supreme.court"
+            ],
+            "name": "LexisNexis Puerto Rico Supreme Court",
+            "variations": {}
+        }
+    ],
     "Pa.": [
         {
             "cite_type": "state",
@@ -16808,17 +16856,44 @@
                 "S. W.2d": "S.W.2d",
                 "S. W.3d": "S.W.3d",
                 "S.W. 2d": "S.W.2d",
+                "S. W. (2d)": "S.W.2d",
                 "S.W. 3d": "S.W.3d",
                 "S.W. Rep.": "S.W.",
                 "SW": "S.W.",
                 "SW 2d": "S.W.2d",
+                "S. W. 2d Series.": "S.W.2d",
+                "S. W., 2d Series.": "S.W.2d",
+                "S. W., 2d Series,": "S.W.2d",
+                "S. W., Second Series,": "S.W.2d",
                 "SW 3d": "S.W.3d",
                 "SW.3d": "S.W.3d",
                 "SW2D": "S.W.2d",
                 "SW2d": "S.W.2d",
                 "SW3D": "S.W.3d",
-                "SW3d": "S.W.3d"
+                "SW3d": "S.W.3d",
+                "SW.3d": "S.W.3d"
+
             }
+        }
+    ],
+    "SCDB": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "SCDB": {
+                    "end": null,
+                    "regexes": [
+                        "$reporter $volume_year-$page"
+                    ],
+                    "start": "1791-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "SCDB 1846-016"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "The Supreme Court Database",
+            "variations": {}
         }
     ],
     "SCDB": [
@@ -17292,11 +17367,20 @@
                 "So. Rep. 2d": "So. 2d",
                 "So. Rep. 3d": "So. 3d",
                 "So.2d": "So. 2d",
+                "Sou. (2nd)": "So. 2d",
+                "So. 2nd": "So. 2d",
+                "So. 2d.": "So. 2d",
+                "So. (2nd)": "So. 2d",
+                "So. (2d)": "So. 2d",
+                "So. (2d Series)": "So. 2d",
+                "So .2d": "So. 2d",
+                "So (2nd)": "So. 2d",
                 "So.3d": "So. 3d",
                 "Sou.": "So.",
                 "Sou. (2nd)": "So. 2d",
                 "Sou. Rep.": "So.",
                 "South.": "So.",
+                "Sou.": "So.",
                 "South. Rep.": "So.",
                 "South.2d": "So. 2d",
                 "South.3d": "So. 3d"
