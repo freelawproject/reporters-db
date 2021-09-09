@@ -17248,6 +17248,10 @@
                 },
                 "So. 3d": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter (?P<page>[LXIV]+);?"
+                    ],
                     "start": "2008-01-01T00:00:00"
                 }
             },
@@ -17263,9 +17267,18 @@
                 "So. Rep. 2d": "So. 2d",
                 "So. Rep. 3d": "So. 3d",
                 "So.2d": "So. 2d",
+                "Sou. (2nd)": "So. 2d",
+                "So. 2nd": "So. 2d",
+                "So. 2d.": "So. 2d",
+                "So. (2nd)": "So. 2d",
+                "So. (2d)": "So. 2d",
+                "So. (2d Series)": "So. 2d",
+                "So .2d": "So. 2d",
+                "So (2nd)": "So. 2d",
                 "So.3d": "So. 3d",
                 "Sou. Rep.": "So.",
                 "South.": "So.",
+                "Sou.": "So.",
                 "South. Rep.": "So.",
                 "South.2d": "So. 2d",
                 "South.3d": "So. 3d"
