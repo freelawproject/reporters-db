@@ -16769,7 +16769,7 @@
                     "regexes": [
                         "$full_cite",
                         "$volume S\\.?-? ?(W|w)\\.?,? ?\\(?2n?d,?\\.?\\)?( Series,?)? $page",
-                        "$volume $reporter (?P<page>[LXIV]+);?"
+                        "$volume $reporter $page_with_roman_numerals"
                     ],
                     "start": "1928-01-01T00:00:00"
                 },
@@ -16777,7 +16777,7 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter (?P<page>[LXIV]+);?"
+                        "$volume $reporter $page_with_roman_numerals"
                     ],
                     "start": "1999-01-01T00:00:00"
                 }
@@ -17265,7 +17265,7 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter (?P<page>[LXIV]+);?"
+                        "$volume $reporter $page_with_roman_numerals"
                     ],
                     "start": "2008-01-01T00:00:00"
                 }

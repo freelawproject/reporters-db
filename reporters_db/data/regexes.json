@@ -51,7 +51,9 @@
         "with_commas_or_periods": "(?P<page>\\d(?:[\\d,.]*\\d)?)",
         "with_commas_or_periods#": "Page number that allows internal punctuation",
         "with_periods": "(?P<page>\\d(?:[\\d.]*\\d)?)",
-        "with_periods#": "Page number that allows internal periods, like '1234.56'"
+        "with_periods#": "Page number that allows internal periods, like '1234.56'",
+        "with_roman_numerals": "c?(?:xc|xl|l?x{1,3})(?:ix|iv|v?i{0,3})|(?:c?l?)(?:ix|iv|v?i{1,3})|(?:lv|cv|cl|clv)",
+        "with_roman_numerals#": "Page number expressed as Roman numerals"
     },
     "paragraph_marker": "(?:P|¶|para?\\.)",
     "reporter": {
