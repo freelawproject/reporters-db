@@ -16781,6 +16781,12 @@
                     "start": "1999-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "348 S. W. 2d 17",
+                "47 S. W. 2d XI",
+                "47 SW 3d 1",
+                "7 S.W. 3d LII;"
+            ],
             "mlz_jurisdiction": [
                 "us:ar;supreme.court",
                 "us:ky;supreme.court",
@@ -16812,7 +16818,6 @@
                 "SW3D": "S.W.3d",
                 "SW3d": "S.W.3d",
                 "SW.3d": "S.W.3d"
-
             }
         }
     ],
@@ -17264,6 +17269,10 @@
                     "start": "2008-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "67 So.3d 2",
+                "90 South.3d VVI"
+            ],
             "mlz_jurisdiction": [
                 "us:al;supreme.court",
                 "us:fl;supreme.court",
