@@ -3,7 +3,7 @@ import os
 from setuptools import setup, find_packages
 
 
-VERSION = "3.2.4"
+VERSION = "3.2.5"
 AUTHOR = "Mike Lissner"
 EMAIL = "mike@free.law"
 HERE = os.path.abspath(os.path.dirname(__file__))
