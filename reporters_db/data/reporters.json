@@ -20201,9 +20201,17 @@
             "editions": {
                 "Wash. Terr.": {
                     "end": "1888-12-31T00:00:00",
+                    "regexes": [
+                        "$volume $reporter (?P<page>\\d+[ab]?)"
+                    ],
                     "start": "1854-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "3 Wash. Terr. 33",
+                "3 Wash. Terr. 332a",
+                "3 Wash. Terr. 332b"
+            ],
             "mlz_jurisdiction": [
                 "us:wa;supreme.court"
             ],
