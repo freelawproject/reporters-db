@@ -30,7 +30,7 @@ with open(os.path.join(db_root, "data", "case_name_abbreviations.json")) as f:
     CASE_NAME_ABBREVIATIONS = json.load(f)
 
 
-with open(os.path.join(db_root, "data", "laws.json")) as f:
+with open(os.path.join(db_root, "data", "laws.json"), encoding="utf-8") as f:
     LAWS = json.load(f, object_hook=datetime_parser)
 
 
