@@ -54,6 +54,6 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     install_requires=reqs,
-    tests_require=["jsonschema==4.3.1"],
+    tests_require=["jsonschema==4.3.2"],
     test_suite="tests",
 )
