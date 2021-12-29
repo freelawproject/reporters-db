@@ -135,7 +135,7 @@ def process_variables(variables):
 
     # add optional variables
     for k, v in list(variables.items()):
-        variables[k + "_optional"] = "(?:%s ?)?" % v
+        variables[f"{k}_optional"] = f"(?:{v} ?)?"
 
     # resolve references
     variables = {
@@ -158,7 +158,7 @@ def recursive_substitute(template, variables, max_depth=100):
             break
         old_val = new_val
     else:
-        raise ValueError("max_depth exceeded for template '%s'" % template)
+        raise ValueError(f"max_depth exceeded for template '{template}'")
     return new_val
 
 
