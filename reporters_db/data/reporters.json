@@ -10552,10 +10552,6 @@
             "editions": {
                 "ME": {
                     "end": null,
-                    "regexes": [
-                        "$full_cite",
-                        "$volume $reporter (?P<page>\\d+[D])"
-                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -11363,9 +11359,17 @@
             "editions": {
                 "Me.": {
                     "end": "1965-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter (?P<page>\\d+[D])"
+                    ],
                     "start": "1820-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Me. 100",
+                "160 Me. 240D"
+            ],
             "mlz_jurisdiction": [
                 "us:me;supreme.judicial.court"
             ],
