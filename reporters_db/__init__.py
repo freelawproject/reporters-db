@@ -1,13 +1,10 @@
 import datetime
 import json
 import os
-from .utils import (
-    suck_out_editions,
-    names_to_abbreviations,
-    suck_out_variations_only,
-    suck_out_formats,
-    process_variables,
-)
+
+from .utils import (names_to_abbreviations, process_variables,
+                    suck_out_editions, suck_out_formats,
+                    suck_out_variations_only)
 
 
 def datetime_parser(dct):

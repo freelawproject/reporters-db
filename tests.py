@@ -1,24 +1,17 @@
+import datetime
 import json
 import os
 import re
-import datetime
 from difflib import context_diff
 from pathlib import Path
 from string import Template
+from unittest import TestCase
 
 import jsonschema
 import six
-from reporters_db import (
-    REPORTERS,
-    VARIATIONS_ONLY,
-    EDITIONS,
-    NAMES_TO_EDITIONS,
-    REGEX_VARIABLES,
-    LAWS,
-    JOURNALS,
-)
-from unittest import TestCase
 
+from reporters_db import (EDITIONS, JOURNALS, LAWS, NAMES_TO_EDITIONS,
+                          REGEX_VARIABLES, REPORTERS, VARIATIONS_ONLY)
 from reporters_db.utils import recursive_substitute
 
 VALID_CITE_TYPES = (
@@ -41,17 +34,14 @@ def emit_strings(obj):
     if isinstance(obj, dict):
         # Feed the keys and items back into the function.
         for k, v in obj.items():
-            for x in emit_strings(k):
-                yield x
-            for x in emit_strings(v):
-                yield x
+            yield from emit_strings(k)
+            yield from emit_strings(v)
     elif isinstance(obj, list):
         for item in obj:
-            for x in emit_strings(item):
-                yield x
+            yield from emit_strings(item)
     elif isinstance(obj, int):
         yield str(int)
-    elif isinstance(obj, six.text_type):
+    elif isinstance(obj, str):
         yield obj
 
 
@@ -63,8 +53,7 @@ def iter_reporters():
 
 def iter_editions():
     for reporter_abbv, reporter_list, reporter_data in iter_reporters():
-        for edition_abbv, edition in reporter_data["editions"].items():
-            yield edition_abbv, edition
+        yield from reporter_data["editions"].items()
 
 
 class BaseTestCase(TestCase):

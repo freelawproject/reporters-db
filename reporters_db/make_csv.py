@@ -1,6 +1,7 @@
 """This will take the reporters json file and flatten it into a CSV."""
 
 import csv
+
 from reporters_db import REPORTERS
 
 FIELDNAMES = [
@@ -41,11 +42,11 @@ def make_editions_dict(editions):
     nums = ["1", "2", "3", "4", "5", "6"]
     num_counter = 0
     for k, date_dict in editions.items():
-        d["edition%s" % nums[num_counter]] = k
+        d[f"edition{nums[num_counter]}"] = k
         if date_dict["start"] is not None:
-            d["start_e%s" % nums[num_counter]] = date_dict["start"].isoformat()
+            d[f"start_e{nums[num_counter]}"] = date_dict["start"].isoformat()
         if date_dict["end"] is not None:
-            d["end_e%s" % nums[num_counter]] = date_dict["end"].isoformat()
+            d[f"end_e{nums[num_counter]}"] = date_dict["end"].isoformat()
 
         num_counter += 1
 
@@ -58,7 +59,7 @@ def make_csv():
         out.writeheader()
 
         for cite, reporter_list in REPORTERS.items():
-            print("Adding: %s" % cite)
+            print(f"Adding: {cite}")
             for reporter in reporter_list:
                 d = make_editions_dict(reporter["editions"])
                 d["citation"] = cite
