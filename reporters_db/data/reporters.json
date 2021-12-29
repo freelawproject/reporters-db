@@ -1156,9 +1156,17 @@
             "editions": {
                 "Ark.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_year $reporter $page_with_commas_and_suffix"
+                    ],
                     "start": "1837-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2009 Ark. 190",
+                "2009 Ark. 189A"
+            ],
             "mlz_jurisdiction": [
                 "us:ar;supreme.court"
             ],
@@ -1219,7 +1227,8 @@
             ],
             "name": "Arkansas Appellate Reports",
             "variations": {
-                "Ak. App.": "Ark. App."
+                "Ak. App.": "Ark. App.",
+                "Ark.App.": "Ark. App."
             }
         }
     ],
@@ -10543,6 +10552,10 @@
             "editions": {
                 "ME": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter (?P<page>\\d+[D])"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -18333,6 +18346,8 @@
             ],
             "name": "Texas Criminal Reports",
             "variations": {
+                "Tex. Cr. R.": "Tex. Crim.",
+                "Tex.Cr.": "Tex. Crim.",
                 "Tex.Cr.App.": "Tex. Crim.",
                 "Tex.Cr.R.": "Tex. Crim.",
                 "Tex.Crim.": "Tex. Crim.",
@@ -20201,9 +20216,17 @@
             "editions": {
                 "Wash. Terr.": {
                     "end": "1888-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter (?P<page>\\d+[ab])"
+                    ],
                     "start": "1854-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "123 Wash. Terr. 515",
+                "3 Wash. Terr. 332a"
+            ],
             "mlz_jurisdiction": [
                 "us:wa;supreme.court"
             ],
