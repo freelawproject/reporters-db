@@ -8198,7 +8198,9 @@
                 "us;federal"
             ],
             "name": "Administrative Decisions Under Immigration and Nationality Laws",
-            "variations": {}
+            "variations": {
+                "I&N Dec.": "I. & N. Dec."
+            }
         }
     ],
     "I.C.C.": [
