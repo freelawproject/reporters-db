@@ -18413,6 +18413,22 @@
             }
         }
     ],
+    "Tex. L. R.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. L. R.": {
+                    "end": "1885-12-31T00:00:00",
+                    "start": "1844-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tx;supreme.court"
+            ],
+            "name": "Texas Law Reporter",
+            "variations": {}
+        }
+    ],
     "Tex. LEXIS": [
         {
             "cite_type": "state",
