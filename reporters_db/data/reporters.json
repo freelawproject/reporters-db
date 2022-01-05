@@ -1152,20 +1152,39 @@
     ],
     "Ark.": [
         {
-            "cite_type": "state",
+            "cite_type": "neutral",
             "editions": {
                 "Ark.": {
                     "end": null,
                     "regexes": [
-                        "$full_cite",
                         "$volume_year $reporter $page_with_commas_and_suffix"
                     ],
-                    "start": "1837-01-01T00:00:00"
+                    "start": "2009-01-01T00:00:00"
                 }
             },
             "examples": [
                 "2009 Ark. 190",
                 "2009 Ark. 189A"
+            ],
+            "mlz_jurisdiction": [
+                "us:ar;supreme.court"
+            ],
+            "name": "Arkansas Reports",
+            "variations": {
+                "ARK.": "Ark.",
+                "Ark": "Ark."
+            }
+        },
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ark.": {
+                    "end": "2008-12-31T00:00:00",
+                    "start": "1837-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "298 Ark. 1"
             ],
             "mlz_jurisdiction": [
                 "us:ar;supreme.court"
