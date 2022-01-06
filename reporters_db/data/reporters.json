@@ -1237,12 +1237,29 @@
             "cite_type": "state",
             "editions": {
                 "Ark. App.": {
-                    "end": null,
+                    "end": "2008-12-31T00:00:00",
                     "start": "1981-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
-                "us:ar;supreme.court"
+                "us:ar;appeals.court"
+            ],
+            "name": "Arkansas Appellate Reports",
+            "variations": {
+                "Ak. App.": "Ark. App.",
+                "Ark.App.": "Ark. App."
+            }
+        },
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "Ark. App.": {
+                    "end": null,
+                    "start": "2009-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ar;appeals.court"
             ],
             "name": "Arkansas Appellate Reports",
             "variations": {
