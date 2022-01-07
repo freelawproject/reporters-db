@@ -1181,7 +1181,7 @@
                 "Ark.": {
                     "end": "2008-12-31T00:00:00",
                     "regexes": [
-                        "$full_cite"
+                        "(?P<volume>\\d{1,3}) $reporter $page"
                     ],
                     "start": "1837-01-01T00:00:00"
                 }

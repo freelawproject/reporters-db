@@ -17,7 +17,7 @@
 ## Past Versions
 
  - 3.2.8 (2022-01-05): Fix Arkansas Appellate Reports.  Divide into two editions. Book edition and neutral online edition.
- - 
+
  - 3.2.7 (2022-01-05): Fix Arkansas Reports.  Divide into two editions. Book edition and neutral online edition.
 
  - 3.2.2 (2021-06-30): Add F.4th and increment the doomsday clock one notch.
