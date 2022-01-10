@@ -12,10 +12,12 @@
 
 ## Current Version
 
- - 3.2.10 (2022-01-07): Update Arkansas regex to remove potential overlap between editions.
+ - 3.2.11 (2022-01-10): Add California and New York Reporters with various updates.  Including Coffey, Myrick and Cal. Dist. Ct.
 
 ## Past Versions
 
+ - 3.2.10 (2022-01-07): Update Arkansas regex to remove potential overlap between editions.
+ - 
  - 3.2.9 (2022-01-06): Update Arkansas / Appellate Reports. Include regex patterns.
 
  - 3.2.8 (2022-01-05): Fix Arkansas Appellate Reports.  Divide into two editions. Book edition and neutral online edition.
