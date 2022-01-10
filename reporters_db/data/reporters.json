@@ -71,6 +71,7 @@
                 "AD 3d": "A.D.3d",
                 "Ap.": "A.D.",
                 "Ap.2d.": "A.D.2d",
+                "App. Div": "A.D.",
                 "App. Div.": "A.D.",
                 "App. Div. 2d.": "A.D.2d",
                 "App. Div. 3d.": "A.D.3d",
@@ -3164,6 +3165,22 @@
             }
         }
     ],
+    "Cal. Dist. Ct.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. Dist. Ct.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;district.court"
+            ],
+            "name": "Reports of Cases Determined in the District Courts of the State of California",
+            "variations": {}
+        }
+    ],
     "Cal. I.A.C.": [
         {
             "cite_type": "specialty",
@@ -3674,6 +3691,23 @@
             },
             "mlz_jurisdiction": [],
             "name": "Code Reporter (NY)",
+            "variations": {}
+        }
+    ],
+    "Coffey": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Coffey": {
+                    "end": "1915-12-31T00:00:00",
+                    "start": "1880-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;supreme.court",
+                "us:ca;appeals.court"
+            ],
+            "name": "Reports of Decisions in Probate, by James V. Coffey, Judge of the Superior Court in and for the City and County of San Francisco, State of California. Reported and Annotated by Peter V. Ross and Jeremiah V. Coffey",
             "variations": {}
         }
     ],
@@ -4890,6 +4924,7 @@
             ],
             "name": "Daly's New York Common Pleas Reports",
             "variations": {
+                "Daly (N.Y.)": "Daly",
                 "Daly (NY)": "Daly",
                 "Daly's R.": "Daly"
             }
@@ -8204,7 +8239,9 @@
                 "us:ny;supreme.court"
             ],
             "name": "Hun's Supreme Court Reports",
-            "variations": {}
+            "variations": {
+                "Hun.": "Hun"
+            }
         },
         {
             "cite_type": "state",
@@ -11866,6 +11903,7 @@
             "variations": {
                 "Misc 2d": "Misc. 2d",
                 "Misc 3d": "Misc. 3d",
+                "Misc Rep.": "Misc.",
                 "Misc. Rep.": "Misc.",
                 "Misc.2d": "Misc. 2d",
                 "Misc.3d": "Misc. 3d"
@@ -12222,6 +12260,23 @@
             "variations": {}
         }
     ],
+    "Myrick": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Myrick": {
+                    "end": "1879-12-31T00:00:00",
+                    "start": "1872-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;supreme.court",
+                "us:ca;appeals.court"
+            ],
+            "name": "Reports of Cases in the Probate Court of the City and County of San Francisco, from January 1, 1872, to December 31, 1879, Milton H. Myrick, Probate Judge",
+            "variations": {}
+        }
+    ],
     "N. Chip.": [
         {
             "cite_type": "state",
@@ -12468,6 +12523,7 @@
                 "NE": "N.E.",
                 "NE 2d": "N.E.2d",
                 "NE 3d": "N.E.3d",
+                "NE2d": "N.E.2d",
                 "No.East Rep.": "N.E."
             }
         }
@@ -13045,6 +13101,10 @@
             "editions": {
                 "N.Y.": {
                     "end": "1956-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter (?P<page>\\d+a)"
+                    ],
                     "start": "1847-01-01T00:00:00"
                 },
                 "N.Y.2d": {
@@ -13060,6 +13120,8 @@
                 }
             },
             "examples": [
+                "1 N.Y. 1",
+                "1 N.Y. 1a",
                 "1 N.Y.2d 1",
                 "17A N.Y.2d 7"
             ],
@@ -13070,11 +13132,13 @@
             "variations": {
                 "N. Y.": "N.Y.",
                 "N. Y. Rep.": "N.Y.",
+                "N.Y": "N.Y.",
                 "N.Y. (N.Y.S.)": "N.Y.",
                 "N.Y. 2d": "N.Y.2d",
                 "N.Y. 3d": "N.Y.3d",
                 "NY 2d": "N.Y.2d",
-                "NY 3d": "N.Y.3d"
+                "NY 3d": "N.Y.3d",
+                "NYS2d": "N.Y.2d"
             }
         }
     ],
@@ -13150,6 +13214,7 @@
             ],
             "name": "New York Civil Procedure Reports",
             "variations": {
+                "Civ. Proc. R.": "N.Y. Civ. Proc. R.",
                 "N.Y. Civ. Proc. Rep.": "N.Y. Civ. Proc. R.",
                 "N.Y. Civ. Proc. Rep. (n.s.)": "N.Y. Civ. Proc. R., (N.S.)",
                 "N.Y.Civ.Proc.R.": "N.Y. Civ. Proc. R."
