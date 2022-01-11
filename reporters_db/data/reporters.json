@@ -9495,6 +9495,22 @@
             "variations": {}
         }
     ],
+    "Keyes": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Keyes": {
+                    "end": "1868-12-31T00:00:00",
+                    "start": "1863-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Keyes' New York Court of Appeals Reports",
+            "variations": {}
+        }
+    ],
     "Kirby": [
         {
             "cite_type": "state",
