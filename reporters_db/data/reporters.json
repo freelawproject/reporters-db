@@ -2892,9 +2892,17 @@
             "editions": {
                 "Cai. Cas.": {
                     "end": "1805-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter (?P<page>\\d{1,6}[ab])"
+                    ],
                     "start": "1796-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Cai. 2",
+                "1 Cai. 22a"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals"
             ],
