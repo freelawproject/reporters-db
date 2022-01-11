@@ -5524,6 +5524,22 @@
             "variations": {}
         }
     ],
+    "E.D. Smith": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "E.D. Smith": {
+                    "end": "1862-12-31T00:00:00",
+                    "start": "1850-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "E.D. Smith's Common Pleas Reports",
+            "variations": {}
+        }
+    ],
     "E.H. Smith": [
         {
             "cite_type": "state",
@@ -7225,6 +7241,22 @@
             }
         }
     ],
+    "Gibb. Surr.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Gibb. Surr.": {
+                    "end": "1898-12-31T00:00:00",
+                    "start": "1893-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Gibbons' Surrogate's Reports",
+            "variations": {}
+        }
+    ],
     "Gibbons": [
         {
             "cite_type": "state",
@@ -8041,6 +8073,22 @@
             "variations": {}
         }
     ],
+    "Hilt.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Hilt.": {
+                    "end": "1860-12-31T00:00:00",
+                    "start": "1855-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Hilton's Common Pleas Reports",
+            "variations": {}
+        }
+    ],
     "Hoff. Ch.": [
         {
             "cite_type": "state",
@@ -8148,6 +8196,22 @@
                 "How. Rep.": "How.",
                 "U.S.(How.)": "How."
             }
+        }
+    ],
+    "How. App. Cas.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "How. App. Cas.": {
+                    "end": "1860-12-31T00:00:00",
+                    "start": "1855-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Howard's Appeal Cases",
+            "variations": {}
         }
     ],
     "How. N.P.": [
@@ -10514,6 +10578,22 @@
             "variations": {}
         }
     ],
+    "Liquor Tax Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Liquor Tax Rep.": {
+                    "end": "1905-12-31T00:00:00",
+                    "start": "1896-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Liquor Tax Law Reports",
+            "variations": {}
+        }
+    ],
     "Litt.": [
         {
             "cite_type": "state",
@@ -10563,9 +10643,17 @@
             "editions": {
                 "Lock. Rev. Cas.": {
                     "end": "1847-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter (?P<page>\\d+\\w)"
+                    ],
                     "start": "1799-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Lock. Rev. Cas. 567",
+                "1 Lock. Rev. Cas. 567d"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals"
             ],
@@ -16184,6 +16272,22 @@
             }
         }
     ],
+    "Pow. Surr.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pow. Surr.": {
+                    "end": "1894-12-31T00:00:00",
+                    "start": "1890-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Power's Surrogate's Reports",
+            "variations": {}
+        }
+    ],
     "Prod. Liab. Rep. (CCH)": [
         {
             "cite_type": "specialty",
@@ -16367,6 +16471,22 @@
             ],
             "name": "Read's Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
+            "variations": {}
+        }
+    ],
+    "Redf.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Redf.": {
+                    "end": "1882-12-31T00:00:00",
+                    "start": "1846-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Redfield's Reports",
             "variations": {}
         }
     ],
@@ -17257,6 +17377,22 @@
             "variations": {}
         }
     ],
+    "Seld. Notes": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Seld. Notes": {
+                    "end": "1854-12-31T00:00:00",
+                    "start": "1852-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Selden's Notes of Cases",
+            "variations": {}
+        }
+    ],
     "Serg. & Rawle": [
         {
             "cite_type": "state",
@@ -17355,6 +17491,38 @@
             "variations": {
                 "Silvernail": "Sil. (Sup. Ct.)"
             }
+        }
+    ],
+    "Silv. Ct. App.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Silv. Ct. App.": {
+                    "end": "1892-12-31T00:00:00",
+                    "start": "1886-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Silvernail's Court of Appeals Reports",
+            "variations": {}
+        }
+    ],
+    "Silv. Sup.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Silv. Sup.": {
+                    "end": "1890-12-31T00:00:00",
+                    "start": "1884-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;supreme.court"
+            ],
+            "name": "Silvernail's Supreme Court Reports",
+            "variations": {}
         }
     ],
     "Smith & H.": [
@@ -18746,6 +18914,22 @@
             "variations": {}
         }
     ],
+    "Trans. App.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Trans. App.": {
+                    "end": "1868-12-31T00:00:00",
+                    "start": "1867-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Transcript Appeals",
+            "variations": {}
+        }
+    ],
     "Tread.": [
         {
             "cite_type": "state",
@@ -18813,6 +18997,22 @@
                 "Tuck.": "Tuck. & Cl.",
                 "Tuck.& C.": "Tuck. & Cl."
             }
+        }
+    ],
+    "Tuck. Surr.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tuck. Surr.": {
+                    "end": "1870-12-31T00:00:00",
+                    "start": "1870-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Tucker's Surrogate's Reports",
+            "variations": {}
         }
     ],
     "Tyl.": [
@@ -20626,6 +20826,22 @@
                 "Wheaton": "Wheat.",
                 "Wheaton Rep.": "Wheat."
             }
+        }
+    ],
+    "Wheel. Cr. Cas.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Wheel. Cr. Cas.": {
+                    "end": "1825-12-31T00:00:00",
+                    "start": "1791-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Wheeler's Criminal Cases",
+            "variations": {}
         }
     ],
     "White & W.": [
