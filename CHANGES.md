@@ -12,9 +12,11 @@
 
 ## Current Version
 
- - 3.2.12 (2022-01-11): Add various additional NY reporters from 1800s
+ - 3.2.13 (2022-01-11): Add Cal Super Ct Reporter.
 
 ## Past Versions
+
+ - 3.2.12 (2022-01-11): Add various additional NY reporters from 1800s
 
  - 3.2.11 (2022-01-10): Add California and New York Reporters with various updates.  Including Coffey, Myrick and Cal. Dist. Ct.
 

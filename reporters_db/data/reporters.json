@@ -2972,7 +2972,8 @@
                 "Cal.2d": "Cal. 2d",
                 "Cal.3d": "Cal. 3d",
                 "Cal.4th": "Cal. 4th",
-                "Cal.5th": "Cal. 5th"
+                "Cal.5th": "Cal. 5th",
+                "cal. 4th": "Cal. 4th"
             }
         }
     ],
@@ -3283,6 +3284,22 @@
                 "Cal.Rptr.2d": "Cal. Rptr. 2d",
                 "Cal.Rptr.3d": "Cal. Rptr. 3d"
             }
+        }
+    ],
+    "Cal. Super. Ct.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. Super. Ct.": {
+                    "end": "1926-12-31T00:00:00",
+                    "start": "1921-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;superior.court"
+            ],
+            "name": "California Superior Court Decisions: Notable Cases",
+            "variations": {}
         }
     ],
     "Cal. Super. LEXIS": [
