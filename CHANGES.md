@@ -10,6 +10,10 @@
  - International Reporters added?
  - Other features (suggestions welcome)?
 
+## Upcoming Changes
+
+- Added variations for I&N Dec. reporter
+
 ## Current Version
 
  - 3.2.13 (2022-01-11): Add Cal Super Ct Reporter.

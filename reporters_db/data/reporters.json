@@ -8399,16 +8399,28 @@
             "editions": {
                 "I. & N. Dec.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter$page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "27 IN Dec. 782",
+                "10 I&NDec. 613",
+                "12 I&N Dec.432"
+            ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
             "mlz_jurisdiction": [
                 "us;federal"
             ],
             "name": "Administrative Decisions Under Immigration and Nationality Laws",
             "variations": {
-                "I&N Dec.": "I. & N. Dec."
+                "I&N": "I. & N. Dec.",
+                "I&N Dec.": "I. & N. Dec.",
+                "I&NDec.": "I. & N. Dec.",
+                "IN Dec.": "I. & N. Dec."
             }
         }
     ],
