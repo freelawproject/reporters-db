@@ -7185,6 +7185,7 @@
             ],
             "name": "Georgia Reports",
             "variations": {
+                "Ga. (Kelly)": "Ga.",
                 "Ga. Rep.": "Ga."
             }
         }
@@ -9620,9 +9621,7 @@
                 "us:ga;supreme.court"
             ],
             "name": "Kelly's Reports",
-            "variations": {
-                "Ga. (Kelly)": "Kelly"
-            }
+            "variations": {}
         }
     ],
     "Keyes": [
