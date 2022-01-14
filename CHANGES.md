@@ -12,13 +12,15 @@
 
 ## Upcoming Changes
 
-- Added variations for I&N Dec. reporter
+- N/A
 
 ## Current Version
 
- - 3.2.13 (2022-01-11): Add Cal Super Ct Reporter.
+ - 3.2.14 (2022-01-14): Add Kelly Reporter (GA), Update variations for I & N Dec. and update Oregon variations for historical citations.
 
 ## Past Versions
+
+ - 3.2.13 (2022-01-11): Add Cal Super Ct Reporter.
 
  - 3.2.12 (2022-01-11): Add various additional NY reporters from 1800s
 
