@@ -7185,6 +7185,7 @@
             ],
             "name": "Georgia Reports",
             "variations": {
+                "Ga. (Kelly)": "Ga.",
                 "Ga. Rep.": "Ga."
             }
         }
@@ -9601,6 +9602,25 @@
                 "us:ks;supreme.court"
             ],
             "name": "LexisNexis Kansas Supreme Court Unpublished",
+            "variations": {}
+        }
+    ],
+    "Kelly": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Kelly": {
+                    "end": "1849-12-31T00:00:00",
+                    "start": "1847-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Kelly 355"
+            ],
+            "mlz_jurisdiction": [
+                "us:ga;supreme.court"
+            ],
+            "name": "Kelly's Reports",
             "variations": {}
         }
     ],
@@ -15021,7 +15041,8 @@
             "variations": {
                 "O.": "Or.",
                 "Or": "Or.",
-                "Ore.": "Or."
+                "Ore.": "Or.",
+                "Oreg.": "Or."
             }
         }
     ],
