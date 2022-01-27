@@ -350,6 +350,7 @@
             "variations": {
                 "A.N.": "Abb. N. Cas.",
                 "A.N.C.": "Abb. N. Cas.",
+                "Abb. N. C.": "Abb. N. Cas.",
                 "Abb.N. Cas.": "Abb. N. Cas.",
                 "Abb.N.C.": "Abb. N. Cas."
             }
@@ -12094,6 +12095,7 @@
             ],
             "name": "New York Miscellaneous Reports",
             "variations": {
+                "Misc": "Misc.",
                 "Misc 2d": "Misc. 2d",
                 "Misc 3d": "Misc. 3d",
                 "Misc Rep.": "Misc.",
@@ -12717,6 +12719,7 @@
                 "NE 2d": "N.E.2d",
                 "NE 3d": "N.E.3d",
                 "NE2d": "N.E.2d",
+                "NE3d": "N.E.3d",
                 "No.East Rep.": "N.E."
             }
         }
@@ -13330,8 +13333,7 @@
                 "N.Y. 2d": "N.Y.2d",
                 "N.Y. 3d": "N.Y.3d",
                 "NY 2d": "N.Y.2d",
-                "NY 3d": "N.Y.3d",
-                "NYS2d": "N.Y.2d"
+                "NY 3d": "N.Y.3d"
             }
         }
     ],
@@ -13349,6 +13351,7 @@
             ],
             "name": "New York Annotated Cases",
             "variations": {
+                "N. Y. Ann. Cas.": "N.Y. Ann. Cas.",
                 "N.Y. Ann. Ca.": "N.Y. Ann. Cas.",
                 "N.Y. Anno. Cas.": "N.Y. Ann. Cas.",
                 "N.Y.Ann.Cas.": "N.Y. Ann. Cas."
@@ -13408,6 +13411,7 @@
             "name": "New York Civil Procedure Reports",
             "variations": {
                 "Civ. Proc. R.": "N.Y. Civ. Proc. R.",
+                "Civil Proc. R.": "N.Y. Civ. Proc. R.",
                 "N.Y. Civ. Proc. Rep.": "N.Y. Civ. Proc. R.",
                 "N.Y. Civ. Proc. Rep. (n.s.)": "N.Y. Civ. Proc. R., (N.S.)",
                 "N.Y.Civ.Proc.R.": "N.Y. Civ. Proc. R."
@@ -13502,6 +13506,7 @@
                 "N.Y. St. Rep'r": "N.Y. St. Rep.",
                 "N.Y. St. Repr.": "N.Y. St. Rep.",
                 "N.Y.St.Rep.": "N.Y. St. Rep.",
+                "S. R.": "N.Y. St. Rep.",
                 "St. Rep.": "N.Y. St. Rep.",
                 "St.Rep.": "N.Y. St. Rep."
             }
@@ -13572,6 +13577,10 @@
                 },
                 "N.Y.S.2d": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter (?P<page>\\d{1,6}\\w)"
+                    ],
                     "start": "1938-01-01T00:00:00"
                 },
                 "N.Y.S.3d": {
@@ -13579,18 +13588,26 @@
                     "start": "1938-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "64 NYS2d 1",
+                "1 NYS2d 1f"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals"
             ],
             "name": "New York Supplement",
             "variations": {
                 "N. Y. Supp.": "N.Y.S.",
+                "N. Y. Supplement": "N.Y.S.",
                 "N.Y.S. 2d": "N.Y.S.2d",
                 "N.Y.S. 3d": "N.Y.S.3d",
                 "NYS": "N.Y.S.",
                 "NYS 2d": "N.Y.S.2d",
                 "NYS 3d": "N.Y.S.3d",
-                "New York Supp.": "N.Y.S."
+                "NYS2d": "N.Y.S.2d",
+                "NYS3d": "N.Y.S.3d",
+                "New York Supp.": "N.Y.S.",
+                "New York Supplement": "N.Y.S."
             }
         }
     ],
