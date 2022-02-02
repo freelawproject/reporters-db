@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.14 (2022-01-14): Add Kelly Reporter (GA), Update variations for I & N Dec. and update Oregon variations for historical citations.
+ - 3.2.15 (2022-02-02): Update regexes for a handful of old NY reporters.
 
 ## Past Versions
+
+ - 3.2.14 (2022-01-14): Add Kelly Reporter (GA), Update variations for I & N Dec. and update Oregon variations for historical citations.
 
  - 3.2.13 (2022-01-11): Add Cal Super Ct Reporter.
 
