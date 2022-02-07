@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.16 (2022-02-07): Historical NY reporters (2) added.
+ - 3.2.17 (2022-02-07): Update NY Reports.
 
 ## Past Versions
+
+ - 3.2.16 (2022-02-07): Historical NY reporters (2) added.
 
  - 3.2.15 (2022-02-02): Update regexes for a handful of old NY reporters.
 
