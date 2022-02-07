@@ -13299,7 +13299,7 @@
                     "end": "1956-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter (?P<page>\\d+a)"
+                        "$volume $reporter (?P<page>\\d+[ab])"
                     ],
                     "start": "1847-01-01T00:00:00"
                 },
@@ -13312,6 +13312,10 @@
                 },
                 "N.Y.3d": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter (?P<page>\\d+e)"
+                    ],
                     "start": "2004-01-01T00:00:00"
                 }
             },
@@ -13319,7 +13323,11 @@
                 "1 N.Y. 1",
                 "1 N.Y. 1a",
                 "1 N.Y.2d 1",
-                "17A N.Y.2d 7"
+                "17A N.Y.2d 7",
+                "6 N.Y. 510b",
+                "13 N.Y. 215b",
+                "7 N.Y.3d 428",
+                "7 N.Y.3d 428e"
             ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals"
