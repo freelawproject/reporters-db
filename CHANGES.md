@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.15 (2022-02-02): Update regexes for a handful of old NY reporters.
+ - 3.2.16 (2022-02-07): Historical NY reporters (2) added.
 
 ## Past Versions
+
+ - 3.2.15 (2022-02-02): Update regexes for a handful of old NY reporters.
 
  - 3.2.14 (2022-01-14): Add Kelly Reporter (GA), Update variations for I & N Dec. and update Oregon variations for historical citations.
 
