@@ -9,15 +9,8 @@ from unittest import TestCase
 
 import jsonschema
 
-from reporters_db import (
-    EDITIONS,
-    JOURNALS,
-    LAWS,
-    NAMES_TO_EDITIONS,
-    REGEX_VARIABLES,
-    REPORTERS,
-    VARIATIONS_ONLY,
-)
+from reporters_db import (EDITIONS, JOURNALS, LAWS, NAMES_TO_EDITIONS,
+                          REGEX_VARIABLES, REPORTERS, VARIATIONS_ONLY)
 from reporters_db.utils import recursive_substitute
 
 VALID_CITE_TYPES = (
