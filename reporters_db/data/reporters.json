@@ -13392,6 +13392,22 @@
             }
         }
     ],
+    "N.Y. City Ct. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. City Ct. Rep.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;marine.court"
+            ],
+            "name": "City Court Reports",
+            "variations": {}
+        }
+    ],
     "N.Y. Civ. Proc. R.": [
         {
             "cite_type": "state",
@@ -13487,6 +13503,22 @@
                 "us:ny;court.appeals"
             ],
             "name": "LexisNexis New York Miscellaneous Opinions",
+            "variations": {}
+        }
+    ],
+    "N.Y. Proc. Ct. Ass.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Proc. Ct. Ass.": {
+                    "end": "1701-12-31T00:00:00",
+                    "start": "1664-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Proceedings of the General Court of Assizes",
             "variations": {}
         }
     ],
