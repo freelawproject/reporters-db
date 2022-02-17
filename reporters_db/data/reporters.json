@@ -2861,9 +2861,17 @@
             "editions": {
                 "CO": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "(?P<volume>(1[89]\\d{2}|20)?\\d{2})$reporter(?P<page>\\d{1,6})"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2022 CO 7",
+                "22CO7"
+            ],
             "mlz_jurisdiction": [
                 "us:co;supreme.court"
             ],
@@ -2877,9 +2885,18 @@
             "editions": {
                 "COA": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "(?P<volume>(1[89]\\d{2}|20)?\\d{2})$reporter(?P<page>\\d{1,6})"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2021COA112",
+                "21COA112",
+                "437 COA 3"
+            ],
             "mlz_jurisdiction": [
                 "us:co;court.appeals"
             ],
