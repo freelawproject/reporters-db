@@ -12,7 +12,7 @@
 
 ## Upcoming Changes
 
-- N/A
+- Colo and Colo App Ct. Regex updates for new patterns.
 
 ## Current Version
 
