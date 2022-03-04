@@ -17203,7 +17203,7 @@
                     "end": "1999-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
-                        "$volume S\\.?-? ?(W|w)\\.?,? ?\\(?2n?d,?\\.?\\)?( Series,?)? $page",
+                        "$volume (?P<reporter>S\\.?-? ?(?:W|w)\\.?,? ?\\(?2n?d,?\\.?\\)?( Series,?)?) $page",
                         "$volume $reporter $page_with_roman_numerals"
                     ],
                     "start": "1928-01-01T00:00:00"
