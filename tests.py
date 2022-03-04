@@ -126,6 +126,23 @@ class BaseTestCase(TestCase):
             % (set(examples) - matched_examples, regexes),
         )
 
+    def check_for_matching_groups(self, regexes, examples):
+        """Check that each regex has named <reporter> and <page> matching groups."""
+        for regex_template, regex in regexes:
+            for example in examples:
+                if m := re.match(regex + "$", example):
+                    self.assertIn(
+                        "reporter",
+                        m.groupdict(),
+                        "<reporter> group missing in regex %s" % regex,
+                    )
+                    self.assertIn(
+                        "page",
+                        m.groupdict(),
+                        "<page> group missing in regex %s" % regex,
+                    )
+                    continue
+
     def test_json_format(self):
         """Does format of json file match json.dumps(json.loads(), sort_keys=True)?"""
         reformatted = json.dumps(
@@ -277,7 +294,10 @@ class ReportersTest(BaseTestCase):
         self.check_whitespace(REPORTERS)
 
     def test_regexes(self):
-        """Do custom regexes and examples match up?"""
+        """
+        (1) Do custom regexes and examples match up?
+        (2) Does each regex have named <reporter> and <page> matching groups?
+        """
         for reporter_abbv, reporter_list, reporter_data in iter_reporters():
 
             # get list of expanded regexes and examples for this reporter
@@ -308,6 +328,11 @@ class ReportersTest(BaseTestCase):
                 "Check reporter regexes", reporter=reporter_abbv
             ):
                 self.check_regexes(regexes, examples)
+
+            with self.subTest(
+                "Check for named matching groups", reporter=reporter_abbv
+            ):
+                self.check_for_matching_groups(regexes, examples)
 
 
 class LawsTest(BaseTestCase):
