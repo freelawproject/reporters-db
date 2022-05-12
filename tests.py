@@ -322,9 +322,13 @@ class ReportersTest(BaseTestCase):
                     regexes.append((regex_template, regex))
                     # Check that all regexes have Volume, Reporter and Page
                     # Excluding RIA Federal Tax Handbook
-                    if "RIA Federal Tax Handbook" == reporter_data['name']:
+                    if "RIA Federal Tax Handbook" == reporter_data["name"]:
                         continue
-                    if "?P<volume>" not in regex or "?P<reporter>" not in regex or "?P<page>" not in regex:
+                    if (
+                        "?P<volume>" not in regex
+                        or "?P<reporter>" not in regex
+                        or "?P<page>" not in regex
+                    ):
                         self.fail(
                             f"Regex for {reporter_data['name']}: {regex} is missing Volume, Reporter or Page"
                         )
