@@ -17526,11 +17526,15 @@
                     "start": "1814-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "3 Serg. & Rawl. 133"
+            ],
             "mlz_jurisdiction": [
                 "us:pa;supreme.court"
             ],
             "name": "Pennsylvania State Reports, Sergeant and Rawle",
             "variations": {
+                "Serg. & Rawl.": "Serg. & Rawle",
                 "Serg.& R.": "Serg. & Rawle",
                 "Serg.& Raw.": "Serg. & Rawle",
                 "Serg.& Rawl.": "Serg. & Rawle"
