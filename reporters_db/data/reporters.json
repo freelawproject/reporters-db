@@ -15856,6 +15856,22 @@
             }
         }
     ],
+    "Parsons": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Park. Cr.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;court.common.pleas"
+            ],
+            "name": "Select cases in equity and at law (Parsons) (PA)",
+            "variations": {}
+        }
+    ],
     "Pat. Trademark & Copyright J. (BNA)": [
         {
             "cite_type": "specialty",
