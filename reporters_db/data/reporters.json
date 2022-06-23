@@ -15754,6 +15754,7 @@
             "name": "Pennsylvania Superior Court Reports",
             "variations": {
                 "PA Super": "Pa. Super.",
+                "Pa. Super": "Pa. Super.",
                 "Pa. Superior Ct.": "Pa. Super.",
                 "Pa.S.": "Pa. Super.",
                 "Pa.Super.": "Pa. Super.",
@@ -15854,6 +15855,22 @@
                 "Parker's Crim. Rep.": "Park. Cr.",
                 "Parker, Cr. R.": "Park. Cr."
             }
+        }
+    ],
+    "Parsons": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Parsons": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;court.common.pleas"
+            ],
+            "name": "Select cases in equity and at law (Parsons) (PA)",
+            "variations": {}
         }
     ],
     "Pat. Trademark & Copyright J. (BNA)": [
@@ -17526,11 +17543,15 @@
                     "start": "1814-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "3 Serg. & Rawl. 133"
+            ],
             "mlz_jurisdiction": [
                 "us:pa;supreme.court"
             ],
             "name": "Pennsylvania State Reports, Sergeant and Rawle",
             "variations": {
+                "Serg. & Rawl.": "Serg. & Rawle",
                 "Serg.& R.": "Serg. & Rawle",
                 "Serg.& Raw.": "Serg. & Rawle",
                 "Serg.& Rawl.": "Serg. & Rawle"
