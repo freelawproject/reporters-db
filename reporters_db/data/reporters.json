@@ -16631,6 +16631,54 @@
             "variations": {}
         }
     ],
+    "Rec. Co. Ct.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Rec. Co. Ct.": {
+                    "end": "1680-12-31T00:00:00",
+                    "start": "1671-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;trial.court"
+            ],
+            "name": "Records of the Suffolk county court, 1671-1680 (1671-1680)",
+            "variations": {}
+        }
+    ],
+    "Rep. Cont. El.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Rep. Cont. El.": {
+                    "end": "1862-12-31T00:00:00",
+                    "start": "1781-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;supreme.court"
+            ],
+            "name": "Reports of controverted elections in the House of representatives, of the commonwealth of Massachusetts",
+            "variations": {}
+        }
+    ],
+    "Rep. Cont. Elect. Case.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Rep. Cont. Elect. Case.": {
+                    "end": "1897-12-31T00:00:00",
+                    "start": "1886-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;supreme.court"
+            ],
+            "name": "orts of contested election cases in the Senate and House of Representatives of the commonwealth of Massachusetts for the year 1886-1897",
+            "variations": {}
+        }
+    ],
     "Redf.": [
         {
             "cite_type": "state",
@@ -18141,6 +18189,22 @@
             "variations": {
                 "Sumn. Rep.": "Sumn."
             }
+        }
+    ],
+    "Super. Ct. Jud.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Super. Ct. Jud.": {
+                    "end": "1776-12-31T00:00:00",
+                    "start": "1761-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;supreme.court"
+            ],
+            "name": "Reports of cases argued and adjudged in the Superior Court of Judicature of the Province of Massachusetts Bay, between 1761 and 1772",
+            "variations": {}
         }
     ],
     "Swan": [
