@@ -7165,6 +7165,22 @@
             "variations": {}
         }
     ],
+    "Foster": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Foster": {
+                    "end": "1875-12-31T00:00:00",
+                    "start": "1870-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Legal Chronicle reports of Cases decided in the Supreme Court of Pennsylvania (Foster)",
+            "variations": {}
+        }
+    ],
     "Free. Ch.": [
         {
             "cite_type": "state",
