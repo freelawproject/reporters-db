@@ -20757,6 +20757,20 @@
                 "Walk.": "Walker",
                 "Walk.Miss.": "Walker"
             }
+        },
+        {
+            "cite_type": "state",
+            "editions": {
+                "Walker": {
+                    "end": "1887-12-31T00:00:00",
+                    "start": "1849-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Reports of cases decided by the supreme court of pennsylvania which have been omitted from the regular reports",
+            "variations": {}
         }
     ],
     "Wall.": [
