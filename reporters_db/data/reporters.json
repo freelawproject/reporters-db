@@ -16647,6 +16647,22 @@
             "variations": {}
         }
     ],
+    "Redf.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Redf.": {
+                    "end": "1882-12-31T00:00:00",
+                    "start": "1846-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "Redfield's Reports",
+            "variations": {}
+        }
+    ],
     "Rep. Cont. El.": [
         {
             "cite_type": "state",
@@ -16675,23 +16691,7 @@
             "mlz_jurisdiction": [
                 "us:ma;supreme.court"
             ],
-            "name": "orts of contested election cases in the Senate and House of Representatives of the commonwealth of Massachusetts for the year 1886-1897",
-            "variations": {}
-        }
-    ],
-    "Redf.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Redf.": {
-                    "end": "1882-12-31T00:00:00",
-                    "start": "1846-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [
-                "us:ny;court.appeals"
-            ],
-            "name": "Redfield's Reports",
+            "name": "Reports of contested election cases in the Senate and House of Representatives of the commonwealth of Massachusetts for the year 1886-1897",
             "variations": {}
         }
     ],
