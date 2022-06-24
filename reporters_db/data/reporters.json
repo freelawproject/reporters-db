@@ -11975,6 +11975,22 @@
             "variations": {}
         }
     ],
+    "Miles": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Miles": {
+                    "end": "1842-12-31T00:00:00",
+                    "start": "1825-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;district.court"
+            ],
+            "name": "Reports of cases determined in the district court for the city and county of Philadelphia",
+            "variations": {}
+        }
+    ],
     "Mill": [
         {
             "cite_type": "state",
