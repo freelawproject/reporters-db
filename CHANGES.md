@@ -14,7 +14,7 @@
 
 ## Current Version
 
- - 3.2.20 (2022-06-24): Update PA Reporters
+ - 3.2.21 (2022-06-24): Update PA Reporters
 
 ## Past Versions
 
