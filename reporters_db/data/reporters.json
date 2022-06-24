@@ -5009,6 +5009,22 @@
             }
         }
     ],
+    "Davis. L. Ct. Cas.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Day": {
+                    "end": "1908-12-31T00:00:00",
+                    "start": "1898-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ma;land.court"
+            ],
+            "name": "Massachusetts Land Court decisions, 1898-1908",
+            "variations": {}
+        }
+    ],
     "Day": [
         {
             "cite_type": "state",
