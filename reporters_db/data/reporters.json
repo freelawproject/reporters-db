@@ -16009,6 +16009,22 @@
             }
         }
     ],
+    "Pears.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pears.": {
+                    "end": "1869-12-31T00:00:00",
+                    "start": "1851-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;court.common.pleas"
+            ],
+            "name": "Decisions of the Honorable John J. Pearson, judge of the twelvth judicial district",
+            "variations": {}
+        }
+    ],
     "Peck": [
         {
             "cite_type": "state",
