@@ -2458,6 +2458,22 @@
             }
         }
     ],
+    "Brightly": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Brightly": {
+                    "end": "1851-12-31T00:00:00",
+                    "start": "1809-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;nisi.prius.court"
+            ],
+            "name": "Reports of cases decided by the judges of the supreme court of Pennsylvania, in the court of nisi prius",
+            "variations": {}
+        }
+    ],
     "Brock.": [
         {
             "cite_type": "federal",
@@ -10488,6 +10504,22 @@
             "variations": {}
         }
     ],
+    "Law Times (N.S.)": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Law Times (N.S.)": {
+                    "end": "1879-12-31T00:00:00",
+                    "start": "1876-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;court.common.please"
+            ],
+            "name": "Law Times (New Series)",
+            "variations": {}
+        }
+    ],
     "Lea.": [
         {
             "cite_type": "state",
@@ -15547,6 +15579,23 @@
             }
         }
     ],
+    "Pa. (Admiralty)": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pa. (Admiralty)": {
+                    "end": "1788-12-31T00:00:00",
+                    "start": "1783-01-01T00:00:00"
+                }
+            },
+            "examples": [],
+            "mlz_jurisdiction": [
+                "us:pa;admiralty.court"
+            ],
+            "name": "Judgements in the Admiralty of Pennsylvania in four suits, brought as for maritime hypothecations",
+            "variations": {}
+        }
+    ],
     "Pa. C.": [
         {
             "cite_type": "state",
@@ -15723,6 +15772,22 @@
             "variations": {}
         }
     ],
+    "Pa. Fid.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pa. Fid.": {
+                    "end": "1981-12-31T00:00:00",
+                    "start": "1977-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;court.common.pleas"
+            ],
+            "name": "Pennsylvania Fiduciary Reporter",
+            "variations": {}
+        }
+    ],
     "Pa. Jud. Disc. LEXIS": [
         {
             "cite_type": "state",
@@ -15736,6 +15801,22 @@
                 "us:pa;court.judicial.discipline"
             ],
             "name": "LexisNexis Pennsylvania Court of Judicial Discipline",
+            "variations": {}
+        }
+    ],
+    "Pa. Just. L. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pa. Just. L. Rep.": {
+                    "end": "1903-12-31T00:00:00",
+                    "start": "1900-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;court.common.pleas"
+            ],
+            "name": "Pennsylvania Justices' Law Reporter",
             "variations": {}
         }
     ],
@@ -20157,6 +20238,22 @@
                 "us:c2:ny.wd;district.court"
             ],
             "name": "Van Ness' Prize Cases, United States (US) District Court, District of New York (NY)",
+            "variations": {}
+        }
+    ],
+    "Vaux": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Vaux": {
+                    "end": "1846-12-31T00:00:00",
+                    "start": "1846-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;municipal.court"
+            ],
+            "name": "Reports of some of the criminal cases on primary hearing, before Richard Vaux, recorder of the city of Philadelphia",
             "variations": {}
         }
     ],
