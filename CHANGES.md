@@ -14,9 +14,11 @@
 
 ## Current Version
 
- - 3.2.21 (2022-06-24): Update PA Reporters
+ - 3.2.22 (2022-06-29): Bulk update of reporters for import
 
 ## Past Versions
+
+ - 3.2.21 (2022-06-24): Update PA Reporters
 
  - 3.2.19 (2022-06-23): Update PA Reporters
 
