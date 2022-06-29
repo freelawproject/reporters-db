@@ -253,6 +253,22 @@
             }
         }
     ],
+    "AOA": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "AOA": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;court.appeals"
+            ],
+            "name": "Anderson's Unreported Ohio Appellate Cases: cases argued and determined in the Ohio courts of appeal",
+            "variations": {}
+        }
+    ],
     "AWCC": [
         {
             "cite_type": "neutral",
@@ -1386,6 +1402,7 @@
             ],
             "name": "Kentucky Reports, Monroe, Ben",
             "variations": {
+                "B. Mon": "B. Mon.",
                 "B. Mon. Rep.": "B. Mon.",
                 "Ky.(B.Mon.)": "B. Mon.",
                 "Mon.": "B. Mon.",
@@ -1709,6 +1726,22 @@
                 "Baldw": "Baldw.",
                 "Baldwin's C.C. U.S. Rep": "Baldw.",
                 "Baldwin's Rep.": "Baldw."
+            }
+        }
+    ],
+    "Balt. C. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Balt. C. Rep.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Baltimore City Reports",
+            "variations": {
+                "B.R.": "Balt. C. Rep."
             }
         }
     ],
@@ -3320,6 +3353,25 @@
             }
         }
     ],
+    "Cal. Sup.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. Sup.": {
+                    "end": "1926-12-31T00:00:00",
+                    "start": "1921-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ca;superior.court"
+            ],
+            "name": "California Superior Court, Reports of Cases in Appellate Departments",
+            "variations": {
+                "Cal. Sup. (Cal.)": "Cal. Sup.",
+                "Cal. Supp.": "Cal. Sup."
+            }
+        }
+    ],
     "Cal. Super. Ct.": [
         {
             "cite_type": "state",
@@ -3668,6 +3720,28 @@
             }
         }
     ],
+    "Cin. Sup. Ct. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cin. Sup. Ct. Rep.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;superior.court"
+            ],
+            "name": "Cincinnati Superior Court Reports (Ohio)",
+            "variations": {
+                "Cin. R.": "Cin. Sup. Ct. Rep.",
+                "Cin. Rep.": "Cin. Sup. Ct. Rep.",
+                "Cin. S.C. Rep.": "Cin. Sup. Ct. Rep.",
+                "Cin. S.C.R.": "Cin. Sup. Ct. Rep.",
+                "Cin. Super. (Ohio)": "Cin. Sup. Ct. Rep."
+            }
+        }
+    ],
     "City Hall Rec. (NY)": [
         {
             "cite_type": "state",
@@ -4008,6 +4082,27 @@
             "variations": {}
         }
     ],
+    "Colo. L. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Colo. L. Rep.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:co;supreme.court"
+            ],
+            "name": "Colorado Law Reporter (Colo.)",
+            "variations": {
+                "Col. L. Rep.": "Colo. L. Rep.",
+                "Col. Law Rep.": "Colo. L. Rep.",
+                "Colo. Law Rep.": "Colo. L. Rep.",
+                "Colo. R.": "Colo. L. Rep."
+            }
+        }
+    ],
     "Colo. LEXIS": [
         {
             "cite_type": "state",
@@ -4018,7 +4113,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:nv;supreme.court"
+                "us:co;supreme.court"
             ],
             "name": "LexisNexis Colorado Supreme Court",
             "variations": {}
@@ -4540,6 +4635,8 @@
                 "Cranch C.C.": "Cranch",
                 "Cranch D.C.": "Cranch",
                 "Cranch Rep.": "Cranch",
+                "Cranch, C. C.": "Cranch",
+                "Cranch. C. C.": "Cranch",
                 "D.C.(Cranch)": "Cranch"
             }
         }
@@ -4752,6 +4849,22 @@
             }
         }
     ],
+    "D. Haw.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "D. Haw.": {
+                    "end": null,
+                    "start": "1847-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c9:hi.d;district.court"
+            ],
+            "name": "United States District Court for the District of Hawaii",
+            "variations": {}
+        }
+    ],
     "D.A.R.": [
         {
             "cite_type": "state",
@@ -4798,6 +4911,22 @@
             "variations": {}
         }
     ],
+    "D.C. App.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "D.C. App.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:dc;appeals.court"
+            ],
+            "name": "District of Columbia Appeals Reports",
+            "variations": {}
+        }
+    ],
     "D.C. App. LEXIS": [
         {
             "cite_type": "state",
@@ -4830,6 +4959,41 @@
             "variations": {}
         }
     ],
+    "DNH": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "DNH": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c1:nh.d;district.court"
+            ],
+            "name": "United States District Court for the District of New Hampshire",
+            "variations": {
+                "D.N.H.": "DNH"
+            }
+        }
+    ],
+    "DTA": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "DTA": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pr;supreme.court",
+                "us:pr;court.appeals"
+            ],
+            "name": "Decisiones del Tribunal de Circuito de Apelaciones de Puerto Rico",
+            "variations": {}
+        }
+    ],
     "Daily Journal DAR": [
         {
             "cite_type": "state",
@@ -4844,6 +5008,29 @@
             ],
             "name": "California Daily Journal Daily Appellate Reports",
             "variations": {}
+        }
+    ],
+    "Daily L.N.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Daily L.N.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa"
+            ],
+            "name": "Daily Legal News (Pa.)",
+            "variations": {
+                "D. L. N.": "Daily L.N.",
+                "D. L. N.,": "Daily L.N.",
+                "D.L.N.": "Daily L.N.",
+                "Daily L.R.": "Daily L.N.",
+                "Daily Leg. (Pa.)": "Daily L.N.",
+                "Daily Leg. News (Pa.)": "Daily L.N."
+            }
         }
     ],
     "Daily Lab. Rep. (BNA)": [
@@ -5347,6 +5534,22 @@
             }
         }
     ],
+    "Des. Eq.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Des. Eq.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:sc;chancery.court"
+            ],
+            "name": "Cases argued and determined in the Court of Chancery of South Carolina",
+            "variations": {}
+        }
+    ],
     "Dev.": [
         {
             "cite_type": "state",
@@ -5460,6 +5663,41 @@
             },
             "mlz_jurisdiction": [],
             "name": "Dillon's United States (US) Circuit Court Reports",
+            "variations": {}
+        }
+    ],
+    "Disney (Ohio)": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Disney (Ohio)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;superior.court"
+            ],
+            "name": "Disney, Superior Court of Cincinnati Reports (Ohio)",
+            "variations": {
+                "Dis. R.": "Disney (Ohio)"
+            }
+        }
+    ],
+    "Div.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Div.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:al;supreme.court"
+            ],
+            "name": "Div.",
+            "notes": "Unknown name for this Alabama Reporter",
             "variations": {}
         }
     ],
@@ -5984,7 +6222,9 @@
                 "us:c9;court.appeals"
             ],
             "name": "Federal Appendix",
-            "variations": {}
+            "variations": {
+                "F. App\\xe2\\x80\\x99x": "F. App'x"
+            }
         }
     ],
     "F. Cas.": [
@@ -6530,6 +6770,7 @@
             "name": "West's Federal Appendix",
             "notes": "https://en.wikipedia.org/wiki/Federal_Appendix, Relatively new published book.",
             "variations": {
+                "Fed. App'x": "Fed. Appx.",
                 "Fed.Appx.": "Fed. Appx."
             }
         }
@@ -7194,7 +7435,14 @@
                 "us:ms;supreme.court"
             ],
             "name": "Freeman's Mississippi Chancery Reports (1839-43)",
-            "variations": {}
+            "variations": {
+                "Fr. Ch.": "Free. Ch.",
+                "Fr. Chy.": "Free. Ch.",
+                "Freem.": "Free. Ch.",
+                "Freem. (Miss.)": "Free. Ch.",
+                "Freem. Ch.": "Free. Ch.",
+                "Freem. Ch. (Miss.)": "Free. Ch."
+            }
         }
     ],
     "Fulton County D. Rep.": [
@@ -7290,6 +7538,24 @@
             "variations": {}
         }
     ],
+    "Ga. L. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ga. L. Rep.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ga;supreme.court"
+            ],
+            "name": "Georgia Law Reporter",
+            "variations": {
+                "Ga. Law Reporter": "Ga. L. Rep."
+            }
+        }
+    ],
     "Ga. LEXIS": [
         {
             "cite_type": "state",
@@ -7323,6 +7589,22 @@
                 "Gallison": "Gall.",
                 "Gallison's Rep.": "Gall."
             }
+        }
+    ],
+    "Georgia Decisions": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Georgia Decisions": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ga;supreme.court"
+            ],
+            "name": "Georgia Decisions",
+            "variations": {}
         }
     ],
     "Gibb. Surr.": [
@@ -7448,6 +7730,26 @@
             "name": "Gilpin, United States (US) District Court Reports",
             "variations": {
                 "Gilp": "Gilp."
+            }
+        }
+    ],
+    "Goebel": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Goebel": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;probate.court"
+            ],
+            "name": "Goebel's Probate Reports (Ohio)",
+            "variations": {
+                "Goebel's Rep.": "Goebel",
+                "Ohio Prob.": "Goebel",
+                "Ohio Prob. Ct.": "Goebel"
             }
         }
     ],
@@ -7808,6 +8110,20 @@
             "variations": {}
         }
     ],
+    "Hask.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Hask.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Haskell's Reports for U.S. Courts in Maine (Fox's Decisions)",
+            "variations": {}
+        }
+    ],
     "Haskell C.C.": [
         {
             "cite_type": "federal",
@@ -7972,6 +8288,26 @@
                 "Hayw.(Tenn.)": "Hayw.",
                 "Hayw.Tenn.": "Hayw.",
                 "Tenn.(Hayw.)": "Hayw."
+            }
+        }
+    ],
+    "Hayw. & H.D.C.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Hayw. & H.D.C.": {
+                    "end": "1941-12-31T00:00:00",
+                    "start": "1893-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:dc;circuit.court"
+            ],
+            "name": "Hayward & Hazelton Circuit Court Reports (D.C.)",
+            "variations": {
+                "Hay. & H.": "Hayw. & H.D.C.",
+                "Hay. & Haz.": "Hayw. & H.D.C.",
+                "Hayw. & H.": "Hayw. & H.D.C."
             }
         }
     ],
@@ -8228,6 +8564,22 @@
             }
         }
     ],
+    "Hosea's Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Hosea's Rep.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;superior.court"
+            ],
+            "name": "Cincinnati Superior Court Decisions (Ohio)",
+            "variations": {}
+        }
+    ],
     "Hous. & Dev. Rep. (RIA)": [
         {
             "cite_type": "specialty",
@@ -8311,7 +8663,8 @@
             "name": "Howell, Nisi Prius",
             "variations": {
                 "How. N.P. (Mich.)": "How. N.P.",
-                "How.N.P.": "How. N.P."
+                "How.N.P.": "How. N.P.",
+                "Howell N.P.": "How. N.P."
             }
         }
     ],
@@ -8457,7 +8810,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Hunt's Merchant's Magazine, New York",
-            "variations": {}
+            "variations": {
+                "Hunt, Mer. Mag.": "Hunt Mer. Mag."
+            }
         }
     ],
     "I. & N. Dec.": [
@@ -8926,6 +9281,24 @@
             }
         }
     ],
+    "Ill. Cir. Ct.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ill. Cir. Ct.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:il;circuit.court"
+            ],
+            "name": "Illinois Circuit Court Reports",
+            "variations": {
+                "Ill. Cir. Ct. Rep.": "Ill. Cir. Ct."
+            }
+        }
+    ],
     "Ill. Ct. Cl.": [
         {
             "cite_type": "state",
@@ -9089,6 +9462,34 @@
                 "us:in;supreme.court"
             ],
             "name": "Indiana Decisions (Ind.)",
+            "variations": {}
+        }
+    ],
+    "Ind. L. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ind. L. Rep.": {
+                    "end": null,
+                    "start": "1881-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:in;supreme.court"
+            ],
+            "name": "Indiana Law Reporter (1881)",
+            "variations": {}
+        },
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Ind. L. Rep.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Indian Law Reporter",
             "variations": {}
         }
     ],
@@ -10803,7 +11204,11 @@
             },
             "mlz_jurisdiction": [],
             "name": "Lowell's District Court Reports (US Mass. Dist.)",
-            "variations": {}
+            "variations": {
+                "Low. Dec.": "Low.",
+                "Low. Dis.": "Low.",
+                "Lowell": "Low."
+            }
         }
     ],
     "Luz. L.R.": [
@@ -10996,9 +11401,17 @@
             "editions": {
                 "MT": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter (?P<page>\\d+[N]?)"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "108 MT 1",
+                "108 MT 23N"
+            ],
             "mlz_jurisdiction": [
                 "us:mt;supreme.court"
             ],
@@ -11066,6 +11479,27 @@
             "name": "District of Columbia Reports, Mackey",
             "variations": {
                 "D.C.(Mackey)": "Mackey"
+            }
+        }
+    ],
+    "Mann. Unrep. Cas.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mann. Unrep. Cas.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:la;supreme.court"
+            ],
+            "name": "Manning's Unreported Cases (La.)",
+            "variations": {
+                "Man. Unrep. Cas.": "Mann. Unrep. Cas.",
+                "Manning La.": "Mann. Unrep. Cas.",
+                "Manning's U.C.": "Mann. Unrep. Cas.",
+                "Manning's Unrep. Cases": "Mann. Unrep. Cas."
             }
         }
     ],
@@ -11181,7 +11615,14 @@
             },
             "mlz_jurisdiction": [],
             "name": "Mason's United States (US) Circuit Court Reports",
-            "variations": {}
+            "variations": {
+                "Mas.": "Mason C.C.",
+                "Mason": "Mason C.C.",
+                "Mason C.C.R.": "Mason C.C.",
+                "Mason Circt. Ct. R.": "Mason C.C.",
+                "Mason R.": "Mason C.C.",
+                "Mason U.S.": "Mason C.C."
+            }
         }
     ],
     "Mass.": [
@@ -11543,6 +11984,26 @@
             "name": "Louisiana Court of Appeals Reports, McGloin",
             "variations": {
                 "McGloin": "McGl."
+            }
+        }
+    ],
+    "McGrath": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "McGrath": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mi;supreme.court"
+            ],
+            "name": "McGrath's Mandamus Cases (Michigan)",
+            "notes": "Also known as 'Mandamus cases decided in the Supreme court of Michigan'",
+            "variations": {
+                "M.,": "McGrath",
+                "McGrdath": "McGrath"
             }
         }
     ],
@@ -11989,6 +12450,24 @@
             ],
             "name": "LexisNexis Michigan Supreme Court",
             "variations": {}
+        }
+    ],
+    "Mich. N.P.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mich. N.P.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mi;supreme.court"
+            ],
+            "name": "Brown's or Howell's Michigan Nisi Prius Reports or Cases",
+            "variations": {
+                "Mich. N.P. R.": "Mich. N.P."
+            }
         }
     ],
     "Miles": [
@@ -12476,6 +12955,26 @@
                 "Mor. Min. Rep.": "Morr. Min. Rep.",
                 "Morr. M.R.": "Morr. Min. Rep.",
                 "Morr. Min. R.": "Morr. Min. Rep."
+            }
+        }
+    ],
+    "Morr. St. Cas.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Morr. St. Cas.": {
+                    "end": "1872-12-31T00:00:00",
+                    "start": "1818-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ms;supreme.court"
+            ],
+            "name": "Morris' State Cases (Miss. 1818-72)",
+            "variations": {
+                "Mor. St. Ca.": "Morr. St. Cas.",
+                "Mor. St. Cas.": "Morr. St. Cas.",
+                "Morris St. Cas.": "Morr. St. Cas."
             }
         }
     ],
@@ -13105,6 +13604,7 @@
             ],
             "name": "New Jersey Tax Court",
             "variations": {
+                "N.J. Tax.": "N.J. Tax",
                 "N.J.Tax": "N.J. Tax"
             }
         }
@@ -13383,6 +13883,8 @@
                 "N.W.2nd": "N.W.2d",
                 "NW": "N.W.",
                 "NW 2d": "N.W.2d",
+                "NW2D": "N.W.2d",
+                "NW2d": "N.W.2d",
                 "No.West Rep.": "N.W.",
                 "Northw.Rep.": "N.W."
             }
@@ -13591,6 +14093,7 @@
             ],
             "name": "New York Legal Observer (N.Y.)",
             "variations": {
+                "N. Y. Leg. Obs.": "N.Y. Leg. Obs.",
                 "N.Y. Legal Observer": "N.Y. Leg. Obs."
             }
         }
@@ -13992,6 +14495,130 @@
             "variations": {}
         }
     ],
+    "Nat. Bank. Reg.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Nat. Bank. Reg.": {
+                    "end": null,
+                    "start": "1978-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c0:dc.d;bankruptcy.court",
+                "us:c10:co.d;bankruptcy.court",
+                "us:c10:ks.d;bankruptcy.court",
+                "us:c10:nm.d;bankruptcy.court",
+                "us:c10:ok.ed;bankruptcy.court",
+                "us:c10:ok.nd;bankruptcy.court",
+                "us:c10:ok.wd;bankruptcy.court",
+                "us:c10:ut.d;bankruptcy.court",
+                "us:c10:wy.d;bankruptcy.court",
+                "us:c10;bankruptcy.appellate.panel",
+                "us:c11:al.md;bankruptcy.court",
+                "us:c11:al.nd;bankruptcy.court",
+                "us:c11:al.sd;bankruptcy.court",
+                "us:c11:fl.md;bankruptcy.court",
+                "us:c11:fl.nd;bankruptcy.court",
+                "us:c11:fl.sd;bankruptcy.court",
+                "us:c11:ga.md;bankruptcy.court",
+                "us:c11:ga.nd;bankruptcy.court",
+                "us:c11:ga.sd;bankruptcy.court",
+                "us:c1:ma.d;bankruptcy.court",
+                "us:c1:me.d;bankruptcy.appellate.panel",
+                "us:c1:me.d;bankruptcy.court",
+                "us:c1:nh.d;bankruptcy.court",
+                "us:c1:pr.d;bankruptcy.court",
+                "us:c1:ri.d;bankruptcy.court",
+                "us:c1;bankruptcy.appellate.panel",
+                "us:c2:ct.d;bankruptcy.court",
+                "us:c2:ny.ed;bankruptcy.court",
+                "us:c2:ny.nd;bankruptcy.court",
+                "us:c2:ny.sd;bankruptcy.court",
+                "us:c2:ny.wd;bankruptcy.court",
+                "us:c2:vt.d;bankruptcy.court",
+                "us:c2;bankruptcy.appellate.panel",
+                "us:c3:de.d;bankruptcy.court",
+                "us:c3:nj.d;bankruptcy.court",
+                "us:c3:pa.ed;bankruptcy.court",
+                "us:c3:pa.md;bankruptcy.court",
+                "us:c3:pa.wd;bankruptcy.court",
+                "us:c3:vi.d;bankruptcy.court",
+                "us:c4:md.d;bankruptcy.court",
+                "us:c4:nc.ed;bankruptcy.court",
+                "us:c4:nc.md;bankruptcy.court",
+                "us:c4:nc.wd;bankruptcy.court",
+                "us:c4:sc.d;bankruptcy.court",
+                "us:c4:va.ed;bankruptcy.court",
+                "us:c4:va.wd;bankruptcy.court",
+                "us:c4:wv.nd;bankruptcy.court",
+                "us:c4:wv.sd;bankruptcy.court",
+                "us:c5:la.ed;bankruptcy.court",
+                "us:c5:la.md;bankruptcy.court",
+                "us:c5:la.wd;bankruptcy.court",
+                "us:c5:ms.nd;bankruptcy.court",
+                "us:c5:ms.sd;bankruptcy.court",
+                "us:c5:tx.ed;bankruptcy.court",
+                "us:c5:tx.nd;bankruptcy.court",
+                "us:c5:tx.sd;bankruptcy.court",
+                "us:c5:tx.wd;bankruptcy.court",
+                "us:c6:ky.ed;bankruptcy.court",
+                "us:c6:ky.wd;bankruptcy.court",
+                "us:c6:mi.ed;bankruptcy.court",
+                "us:c6:mi.wd;bankruptcy.court",
+                "us:c6:oh.nd;bankruptcy.court",
+                "us:c6:oh.sd;bankruptcy.court",
+                "us:c6:tn.d;bankruptcy.court",
+                "us:c6:tn.ed;bankruptcy.court",
+                "us:c6:tn.md;bankruptcy.court",
+                "us:c6:tn.wd;bankruptcy.court",
+                "us:c6;bankruptcy.appellate.panel",
+                "us:c7:il.cd;bankruptcy.court",
+                "us:c7:il.nd;bankruptcy.court",
+                "us:c7:il.sd;bankruptcy.court",
+                "us:c7:in.nd;bankruptcy.court",
+                "us:c7:in.sd;bankruptcy.court",
+                "us:c7:wi.ed;bankruptcy.court",
+                "us:c7:wi.wd;bankruptcy.court",
+                "us:c8:ar.ed;bankruptcy.court",
+                "us:c8:ar.wd;bankruptcy.court",
+                "us:c8:ia.nd;bankruptcy.court",
+                "us:c8:ia.sd;bankruptcy.court",
+                "us:c8:mn.d;bankruptcy.court",
+                "us:c8:mo.ed;bankruptcy.court",
+                "us:c8:mo.wd;bankruptcy.court",
+                "us:c8:nd.d;bankruptcy.court",
+                "us:c8:ne.d;bankruptcy.court",
+                "us:c8:sd.d;bankruptcy.court",
+                "us:c8;bankruptcy.appellate.panel",
+                "us:c9:ak.d;bankruptcy.court",
+                "us:c9:az.d;bankruptcy.court",
+                "us:c9:ca.cd;bankruptcy.court",
+                "us:c9:ca.ed;bankruptcy.court",
+                "us:c9:ca.nd;bankruptcy.court",
+                "us:c9:ca.sd;bankruptcy.court",
+                "us:c9:gu.d;bankruptcy.court",
+                "us:c9:hi.d;bankruptcy.court",
+                "us:c9:id.d;bankruptcy.court",
+                "us:c9:mp.d;bankruptcy.court",
+                "us:c9:mt.d;bankruptcy.court",
+                "us:c9:nv.d;bankruptcy.court",
+                "us:c9:or.d;bankruptcy.court",
+                "us:c9:wa.ed;bankruptcy.court",
+                "us:c9:wa.wd;bankruptcy.court",
+                "us:c9;bankruptcy.appellate.panel"
+            ],
+            "name": "National Bankruptcy Register Reports (U.S.)",
+            "variations": {
+                "Bk. Reg.": "Nat. Bank. Reg.",
+                "N. B. R.": "Nat. Bank. Reg.",
+                "N. Bk. R.": "Nat. Bank. Reg.",
+                "N. Bkpt. R.": "Nat. Bank. Reg.",
+                "N. Bkpt. Reg.": "Nat. Bank. Reg.",
+                "Nat. Bankr. Reg.": "Nat. Bank. Reg."
+            }
+        }
+    ],
     "Navajo Rptr.": [
         {
             "cite_type": "federal",
@@ -14301,6 +14928,26 @@
             ],
             "name": "Oklahoma Bar Association Journal",
             "variations": {}
+        }
+    ],
+    "O.G.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "O.G.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Official Gazette, United States Patent Office (Washington, D.C.)",
+            "variations": {
+                "O. G.": "O.G.",
+                "O.G. Pat. Off.": "O.G.",
+                "Off. Gaz.": "O.G.",
+                "Off. Gaz. Pat.": "O.G.",
+                "Off. Gaz. Pat. Off.": "O.G."
+            }
         }
     ],
     "O.R.W.": [
@@ -14669,6 +15316,7 @@
                 "O.C.C.N.S.": "Ohio C.C. (n.s.)",
                 "Oh.Cir.Ct.": "Ohio C.C.",
                 "Oh.Cir.Ct.N.S.": "Ohio C.C. (n.s.)",
+                "Ohio C.C. (N.S.)": "Ohio C.C. (n.s.)",
                 "Ohio C.C.N.S.": "Ohio C.C. (n.s.)",
                 "Ohio C.C.R.": "Ohio C.C.",
                 "Ohio C.C.R.N.S.": "Ohio C.C. (n.s.)",
@@ -14696,6 +15344,22 @@
                 "O.C.C.": "Ohio C.C. Dec.",
                 "Ohio Cir.Ct.": "Ohio C.C. Dec."
             }
+        }
+    ],
+    "Ohio Ch.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ohio Ch.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;chancery.court"
+            ],
+            "name": "Reports of cases at law and in chancery Ohio",
+            "variations": {}
         }
     ],
     "Ohio Cir. Dec.": [
@@ -14811,6 +15475,7 @@
             ],
             "name": "Ohio Law Reporter",
             "variations": {
+                "Ohio L.R.": "Ohio Law Rep.",
                 "Ohio Law R": "Ohio Law Rep."
             }
         }
@@ -14829,9 +15494,11 @@
             ],
             "name": "Ohio Law Abstracts",
             "variations": {
+                "Abs.": "Ohio Law. Abs.",
                 "O.L.A.": "Ohio Law. Abs.",
                 "O.L.Abs.": "Ohio Law. Abs.",
                 "Ohio Abs.": "Ohio Law. Abs.",
+                "Ohio L. Abs.": "Ohio Law. Abs.",
                 "Ohio L.Abs.": "Ohio Law. Abs.",
                 "Ohio Law Abs.": "Ohio Law. Abs.",
                 "Ohio Law Abst.": "Ohio Law. Abs.",
@@ -14902,10 +15569,12 @@
                 "O.N.P.N.S.": "Ohio N.P. (n.s.)",
                 "Oh.N.P.": "Ohio N.P.",
                 "Oh.N.P.(N.S).": "Ohio N.P. (n.s.)",
+                "Ohio N. P. (n.s.)": "Ohio N.P. (n.s.)",
                 "Ohio N.P.N.S.": "Ohio N.P. (n.s.)",
                 "Ohio Nisi Prius": "Ohio N.P.",
                 "Ohio Nisi Prius (N. S.)": "Ohio N.P. (n.s.)",
                 "Ohio Nisi Prius (NS)": "Ohio N.P. (n.s.)",
+                "Ohio Nisi Prius (n.s.)": "Ohio N.P. (n.s.)",
                 "Ohio Nisi Prius Decisions": "Ohio N.P.",
                 "Ohio Nisi Prius Reports (N. S.)": "Ohio N.P. (n.s.)",
                 "Ohio Nisi Prius [N. S.]": "Ohio N.P. (n.s.)"
@@ -15885,6 +16554,7 @@
             "variations": {
                 "PA Super": "Pa. Super.",
                 "Pa. Super": "Pa. Super.",
+                "Pa. Super. Ct.": "Pa. Super.",
                 "Pa. Superior Ct.": "Pa. Super.",
                 "Pa.S.": "Pa. Super.",
                 "Pa.Super.": "Pa. Super.",
@@ -16038,7 +16708,8 @@
                 "Patt. & H. (Va.)": "Patton & Heath",
                 "Patt. & Heath R.": "Patton & Heath",
                 "Patton & H.": "Patton & Heath",
-                "Patton & H. (Va.)": "Patton & Heath"
+                "Patton & H. (Va.)": "Patton & Heath",
+                "Va. (Patt. & Heath)": "Patton & Heath"
             }
         }
     ],
@@ -16636,6 +17307,22 @@
             "variations": {}
         }
     ],
+    "R.I. Dec.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "R.I. Dec.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ri;supreme.court"
+            ],
+            "name": "Rhode Island Decisions",
+            "variations": {}
+        }
+    ],
     "R.I. LEXIS": [
         {
             "cite_type": "state",
@@ -16761,6 +17448,22 @@
             "variations": {}
         }
     ],
+    "Rec. Co. Ch. (S.C.)": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Rec. Co. Ch. (S.C.)": {
+                    "end": null,
+                    "start": "1671-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:sc;court.chancery"
+            ],
+            "name": "Records of the court of Chancery of South Carolina, 1671-1779",
+            "variations": {}
+        }
+    ],
     "Rec. Co. Ct.": [
         {
             "cite_type": "state",
@@ -16774,6 +17477,20 @@
                 "us:ma;trial.court"
             ],
             "name": "Records of the Suffolk county court, 1671-1680 (1671-1680)",
+            "variations": {}
+        }
+    ],
+    "Rec. V.A. Ct. (R.I.)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Rec. V.A. Ct. (R.I.)": {
+                    "end": "1752-12-31T00:00:00",
+                    "start": "1716-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Records of the Vice-Admiralty Court of Rhode Island, 1716-1752",
             "variations": {}
         }
     ],
@@ -17290,6 +18007,22 @@
                 "us:sc;court.supreme"
             ],
             "name": "LexisNexis South Carolina Supreme Court Unpublished",
+            "variations": {}
+        }
+    ],
+    "S.C.D.C. (N.S.)": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "S.C.D.C. (N.S.)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:dc;supreme.court"
+            ],
+            "name": "Supreme Court of the District of Columbia",
             "variations": {}
         }
     ],
@@ -18097,7 +18830,10 @@
             },
             "mlz_jurisdiction": [],
             "name": "Sprague's United States (US) District Ct. (Admiralty) Decisions",
-            "variations": {}
+            "variations": {
+                "Spr.": "Sprague",
+                "Sprague.": "Sprague"
+            }
         }
     ],
     "St. & Loc. Tax Serv. (RIA)": [
@@ -18319,6 +19055,22 @@
             "variations": {
                 "Sumn. Rep.": "Sumn."
             }
+        }
+    ],
+    "Super. Ct. (R.I.)": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Super. Ct. (R.I.)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ri;superior.court"
+            ],
+            "name": "Rhode Island Superior Court",
+            "variations": {}
         }
     ],
     "Super. Ct. Jud.": [
@@ -18901,6 +19653,25 @@
             "variations": {}
         }
     ],
+    "Tenn. Ch. R.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tenn. Ch. R.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:tn;appeals.court"
+            ],
+            "name": "Tennessee Chancery Reports, Cooper (Tenn.)",
+            "variations": {
+                "Coop. Chy.": "Tenn. Ch. R.",
+                "Tenn. Chancery": "Tenn. Ch. R."
+            }
+        }
+    ],
     "Tenn. Crim. App.": [
         {
             "cite_type": "state",
@@ -19203,6 +19974,24 @@
                 "us:tn;supreme.court"
             ],
             "name": "Thompson's Unreported Cases (TN)",
+            "variations": {
+                "Thomp. Cas.": "Thompson"
+            }
+        }
+    ],
+    "Tiess.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tiess.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:la;court.appeals"
+            ],
+            "name": "Decisions, Court of Appeal, parish of Orleans (Teissier)",
             "variations": {}
         }
     ],
@@ -19297,9 +20086,28 @@
             "mlz_jurisdiction": [
                 "us:sc;supreme.court"
             ],
-            "name": "South Carolina Reports, Treadway",
+            "name": "Treadway's South Carolina Law Reports (1812-16)",
             "variations": {
-                "S.C.L.(Tread.)": "Tread."
+                "S.C.L.(Tread.)": "Tread.",
+                "Tread": "Tread."
+            }
+        },
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tread.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:sc;supreme.court"
+            ],
+            "name": "Treadway's South Carolina Constitutional Reports",
+            "variations": {
+                "Tread": "Tread.",
+                "Tread. Const.": "Tread.",
+                "Treadway Const. (S.C.)": "Tread."
             }
         }
     ],
@@ -20187,6 +20995,20 @@
             "variations": {}
         }
     ],
+    "Va. Col. Dec.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Va. Col. Dec.": {
+                    "end": null,
+                    "start": "1600-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Virginia Colonial Decisions (Randolph & Barrandall)",
+            "variations": {}
+        }
+    ],
     "Va. Dec.": [
         {
             "cite_type": "state",
@@ -20526,7 +21348,10 @@
             "name": "Weekly Notes of Cases",
             "notes": "Estimated date range",
             "variations": {
-                "W.N.C. (Pa.)": "W.N.C."
+                "W.N.C. (Pa.)": "W.N.C.",
+                "Wkly. N.C": "W.N.C.",
+                "Wkly. Notes Cas.": "W.N.C.",
+                "Wkly. Notes Cas. (Pa.)": "W.N.C."
             }
         }
     ],
@@ -20738,6 +21563,22 @@
                 "Walk.Pa.": "Walk.",
                 "Walker": "Walk."
             }
+        }
+    ],
+    "Walk. Ch.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Walk. Ch.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mi;supreme.court"
+            ],
+            "name": "Reports of cases argued and determined in the court of chancery of the state of michigan",
+            "variations": {}
         }
     ],
     "Walker": [
@@ -21291,6 +22132,57 @@
             "name": "Condensed Reports of Decisions in Civil Causes in the Court of Appeals of Texas (Willson)",
             "variations": {
                 "Willson Rep.": "Willson"
+            }
+        }
+    ],
+    "Wilson": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Wilson": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:or;supreme.court"
+            ],
+            "name": "Wilson's Reports (1-3 Oregon)",
+            "variations": {
+                "Wils. Oreg.": "Wilson"
+            }
+        },
+        {
+            "cite_type": "state",
+            "editions": {
+                "Wilson": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mn;supreme.court"
+            ],
+            "name": "Wilson's Reports (48-59 Minn.)",
+            "variations": {
+                "Wils. Minn.": "Wilson"
+            }
+        },
+        {
+            "cite_type": "state",
+            "editions": {
+                "Wilson": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:in;supreme.court"
+            ],
+            "name": "Wilson's Reports, Indiana Superior Court",
+            "variations": {
+                "Wils. Ind.": "Wilson",
+                "Wils. Super. (Ind.)": "Wilson"
             }
         }
     ],
