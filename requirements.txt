@@ -1,4 +1,1 @@
-attrs==21.4.0
-jsonschema==4.3.2
-pyrsistent==0.18.1
 six==1.16.0
