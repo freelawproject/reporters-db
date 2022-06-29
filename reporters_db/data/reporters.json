@@ -13627,6 +13627,25 @@
             "variations": {}
         }
     ],
+    "N.Y. Slip Op.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Slip Op.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:ny;court.appeals"
+            ],
+            "name": "New York Slip Opinion",
+            "variations": {
+                "N.Y. Slip Op": "N.Y. Slip Op.",
+                "NY Slip Op": "N.Y. Slip Op."
+            }
+        }
+    ],
     "N.Y. St. Rep.": [
         {
             "cite_type": "state",
@@ -13973,22 +13992,6 @@
             },
             "mlz_jurisdiction": [],
             "name": "Nevada",
-            "variations": {}
-        }
-    ],
-    "NY Slip Op": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "NY Slip Op": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [
-                "us:ny;court.appeals"
-            ],
-            "name": "New York Slip Opinion",
             "variations": {}
         }
     ],
