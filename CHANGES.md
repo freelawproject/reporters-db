@@ -14,7 +14,7 @@
 
 ## Current Version
 
- - 3.2.22 (2022-06-29): Bulk update of reporters for import
+ - 3.2.23 (2022-06-29): Bulk update of reporters for import
 
 ## Past Versions
 
