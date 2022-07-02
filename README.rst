@@ -48,7 +48,7 @@ This project has been enhanced several times with data from several sources:
 
 3. An audit was performed and additional fields were added by using regular expressions to find number-word-number strings in the entire Harvard Case.law database. The results of this were sorted by frequency, with the top omissions fixed.
 
-Along the way, small and subdry improvements have been made as gaps were identified and fixed.
+Along the way, small and subtle improvements have been made as gaps were identified and fixed.
 
 The result is that this database should thus be very complete when it comes to reporter abbreviations and variations. It has the data from CourtListener, two major legal publishers, and Harvard's Case.law. Hundreds of hours have gone into this database to make it complete.
 
