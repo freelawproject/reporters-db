@@ -12794,6 +12794,22 @@
             }
         }
     ],
+    "Mich. Pr.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mich. Pr.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mi;supreme.court"
+            ],
+            "name": "Practice reports. Cases decided in the Supreme court of Michigan in 1896, in which written opinions were not filed.",
+            "variations": {}
+        }
+    ],
     "Miles": [
         {
             "cite_type": "state",
@@ -16402,7 +16418,12 @@
                 "P.2": "P.2d",
                 "P.3": "P.3d",
                 "P.R.": "P.",
+                "P2.d": "P.2d",
+                "Pac": "P.",
+                "Pac (2d)": "P.2d",
                 "Pac.": "P.",
+                "Pac. (2)": "P.2d",
+                "Pac. (2d)": "P.2d",
                 "Pac. (2d).": "P.2d",
                 "Pac. 2d": "P.2d",
                 "Pac. Rep.": "P.",
@@ -16443,6 +16464,24 @@
             "mlz_jurisdiction": [],
             "name": "Prentice Hall",
             "variations": {}
+        }
+    ],
+    "P.L.R.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "P.L.R.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Pacific Law Reporter",
+            "variations": {
+                "P.L. Rep.": "P.L.R.",
+                "Pac. Law Rep.": "P.L.R.",
+                "Pac. Law Reptr.": "P.L.R."
+            }
         }
     ],
     "P.O.R.": [
@@ -16976,6 +17015,23 @@
             ],
             "name": "LexisNexis Pennsylvania Superior Court Unpublished",
             "variations": {}
+        }
+    ],
+    "Pac. Law Mag.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pac. Law Mag.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Pacific Law Magazine",
+            "variations": {
+                "P.L.M.": "Pac. Law Mag.",
+                "Pacific Law Mag.": "Pac. Law Mag."
+            }
         }
     ],
     "Paige Ch.": [
@@ -22409,6 +22465,25 @@
             }
         }
     ],
+    "Week. Law Gaz.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Week. Law Gaz.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;supreme.court"
+            ],
+            "name": "Weekly Law Gazette (Ohio)",
+            "variations": {
+                "Wkly. Law Gaz.": "Week. Law Gaz.",
+                "Wkly. Law Gaz. No.": "Week. Law Gaz."
+            }
+        }
+    ],
     "Week. No.": [
         {
             "cite_type": "state",
@@ -22555,7 +22630,10 @@
                 "us:ny;court.appeals"
             ],
             "name": "Wheeler's Criminal Cases",
-            "variations": {}
+            "variations": {
+                "Wheeler, Cr. Cas.": "Wheel. Cr. Cas.",
+                "Wheeler, Crim. Cas.": "Wheel. Cr. Cas."
+            }
         }
     ],
     "White & W.": [
