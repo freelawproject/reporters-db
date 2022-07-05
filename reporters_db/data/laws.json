@@ -1176,6 +1176,28 @@
             "variations": []
         }
     ],
+    "FR": [
+        {
+            "cite_type": "admin_register",
+            "end": null,
+            "examples": [
+                "48 Fed. Reg. 9871",
+                "59 FR 9061",
+                "60 Fed. Reg. 68,380"
+            ],
+            "jurisdiction": "United States",
+            "name": "Federal Register",
+            "notes": "",
+            "regexes": [
+                "$volume $reporter $page_with_commas"
+            ],
+            "start": null,
+            "variations": [
+                "F.R.",
+                "Fed. Reg."
+            ]
+        }
+    ],
     "Fla. Admin. Code Ann.": [
         {
             "cite_type": "admin_compilation",

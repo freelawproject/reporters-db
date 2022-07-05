@@ -1622,6 +1622,22 @@
             }
         }
     ],
+    "BNH": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "BNH": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c1:nh.d;bankruptcy.court"
+            ],
+            "name": "United States Bankruptcy Court for the District of New Hampshire",
+            "variations": {}
+        }
+    ],
     "BTA LEXIS": [
         {
             "cite_type": "specialty_lexis",
@@ -2062,9 +2078,17 @@
             "editions": {
                 "Bayard's Notebook": {
                     "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter, $page"
+                    ],
                     "start": "1792-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Bayard's Notebook, 235",
+                "1 Bayard's Notebook, 235"
+            ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
@@ -2148,6 +2172,32 @@
             "mlz_jurisdiction": [],
             "name": "Benefits Review Board Service",
             "variations": {}
+        }
+    ],
+    "Betts' Dec.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Betts' Dec.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c2:ny.sd;district.court"
+            ],
+            "name": "Reports of Cases Argued and Determined in the District Court of the United States for the Southern District of New York",
+            "variations": {
+                "Bett's D. C. MS.": "Betts' Dec.",
+                "Betts D. C. MS.": "Betts' Dec.",
+                "Betts' C. C. MS.": "Betts' Dec.",
+                "Betts' D. C. MS.": "Betts' Dec.",
+                "Betts, C. C. MS.": "Betts' Dec.",
+                "Betts, D. C.": "Betts' Dec.",
+                "Betts, D. C. MS.": "Betts' Dec.",
+                "Betts, D. C. Ms.": "Betts' Dec.",
+                "Betts. D. C. MSS.": "Betts' Dec."
+            }
         }
     ],
     "Bibb": [
@@ -2536,7 +2586,8 @@
             "name": "Brown's Admiralty (U.S.)",
             "variations": {
                 "Brown Adm": "Brown Adm.",
-                "Brown's Adm": "Brown Adm."
+                "Brown's Adm": "Brown Adm.",
+                "Brown, Adm.": "Brown Adm."
             }
         }
     ],
@@ -2912,14 +2963,15 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "(?P<volume>(1[89]\\d{2}|20)?\\d{2})$reporter(?P<page>\\d{1,6})"
+                        "(?P<volume>(1[89]\\d{2}|20)?\\d{2}) ?$reporter ?(?P<page>\\d{1,6})M?"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "2022 CO 7",
-                "22CO7"
+                "22CO7",
+                "2016 CO 47M"
             ],
             "mlz_jurisdiction": [
                 "us:co;supreme.court"
@@ -2936,7 +2988,7 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "(?P<volume>(1[89]\\d{2}|20)?\\d{2})$reporter(?P<page>\\d{1,6}M?)"
+                        "(?P<volume>(1[89]\\d{2}|20)?\\d{2}) ?$reporter ?(?P<page>\\d{1,6}M?)"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -2944,7 +2996,8 @@
             "examples": [
                 "2021COA112",
                 "21COA112",
-                "437 COA 3"
+                "437 COA 3",
+                "2016 COA 180M"
             ],
             "mlz_jurisdiction": [
                 "us:co;court.appeals"
@@ -3828,9 +3881,17 @@
             "editions": {
                 "Clayton's Notebook": {
                     "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter, $page"
+                    ],
                     "start": "1792-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Clayton's Notebook, 235",
+                "1 Clayton's Notebook, 235"
+            ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
@@ -5001,6 +5062,24 @@
             }
         }
     ],
+    "DSD": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "DSD": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c1:sd.d;district.court"
+            ],
+            "name": "United States District Court for the District of South Dakota",
+            "variations": {
+                "D.S.D.": "DSD"
+            }
+        }
+    ],
     "DTA": [
         {
             "cite_type": "state",
@@ -5868,6 +5947,22 @@
                 "us;federal"
             ],
             "name": "Environmental Administrative Decisions",
+            "variations": {}
+        }
+    ],
+    "E.D. Pa.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "E.D. Pa.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:c1:pa.ed;district.court"
+            ],
+            "name": "United States District Court for the Eastern District of Pennsylvania",
             "variations": {}
         }
     ],
@@ -7155,29 +7250,6 @@
             "variations": {}
         }
     ],
-    "Fed. Reg.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Fed. Reg.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume $reporter $page_with_commas"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "60 Fed. Reg. 68,380"
-            ],
-            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
-            "mlz_jurisdiction": [
-                "us;federal"
-            ],
-            "name": "Federal Register",
-            "variations": {}
-        }
-    ],
     "Fed. Sec. L. Rep. (CCH)": [
         {
             "cite_format": "{reporter} {page}",
@@ -7547,6 +7619,21 @@
                 "us:md;court.appeals"
             ],
             "name": "Maryland Reports, Gill & Johnson",
+            "variations": {}
+        }
+    ],
+    "G.D.R.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "G.D.R.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Gaming Dispute Reporter",
+            "notes": "This reporter is unknown but occurs in relation to gaming disputes at tribal casinos",
             "variations": {}
         }
     ],
@@ -8942,13 +9029,22 @@
             "editions": {
                 "Hunt Mer. Mag.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\(\\d{4}\\) $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Hunt, Mer. Mag. (1858) 1",
+                "1 Hunt, Mer. Mag. 1"
+            ],
             "mlz_jurisdiction": [],
             "name": "Hunt's Merchant's Magazine, New York",
             "variations": {
-                "Hunt, Mer. Mag.": "Hunt Mer. Mag."
+                "Hunt, Mer. Mag.": "Hunt Mer. Mag.",
+                "Hunt. Mer. Mag.": "Hunt Mer. Mag."
             }
         }
     ],
@@ -10510,6 +10606,7 @@
             "name": "Lawyers' Reports Annotated",
             "notes": "N.S. stands for new series",
             "variations": {
+                "L. R. A.,": "L.R.A.",
                 "L.R.A (N.S.)": "L.R.A.N.S."
             }
         }
@@ -11435,6 +11532,34 @@
             "variations": {}
         }
     ],
+    "M.T.C.A.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "M.T.C.A.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Mohegan Tribal Court Appeals",
+            "variations": {}
+        }
+    ],
+    "M.T.C.R.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "M.T.C.R.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Mohegan Tribal Court Reporter",
+            "variations": {}
+        }
+    ],
     "MDBT": [
         {
             "cite_type": "state",
@@ -11581,14 +11706,18 @@
             "cite_type": "specialty",
             "editions": {
                 "MacA. Pat. Cas.": {
-                    "end": "1980-01-01T00:00:00",
-                    "start": "1891-01-01T00:00:00"
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
-            "name": "Colorado Court of Appeals Reports",
+            "name": "Reports of cases arising upon applications for letters-patent for inventions determined in the Circuit and Supreme Court of the District of Columbia (MacArthur's Patent Cases)",
             "variations": {
-                "MacArth.": "MacA. Pat. Cas."
+                "D.C. (patent)": "MacA. Pat. Cas.",
+                "Mac. A. Pat. Cas.": "MacA. Pat. Cas.",
+                "MacA. Pat Cas.": "MacA. Pat. Cas.",
+                "MacArth.": "MacA. Pat. Cas.",
+                "McA. Pat. Cas.": "MacA. Pat. Cas."
             }
         }
     ],
@@ -11791,7 +11920,8 @@
                 "Mason C.C.R.": "Mason C.C.",
                 "Mason Circt. Ct. R.": "Mason C.C.",
                 "Mason R.": "Mason C.C.",
-                "Mason U.S.": "Mason C.C."
+                "Mason U.S.": "Mason C.C.",
+                "Mason.": "Mason C.C."
             }
         }
     ],
@@ -12189,7 +12319,8 @@
             "mlz_jurisdiction": [],
             "name": "McLean's United States (US) Circuit Court Reports",
             "variations": {
-                "Mc Lean": "McLean"
+                "Mc Lean": "McLean",
+                "McLean.": "McLean"
             }
         }
     ],
@@ -12640,6 +12771,22 @@
             }
         }
     ],
+    "Mich. Pr.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mich. Pr.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:mi;supreme.court"
+            ],
+            "name": "Practice reports. Cases decided in the Supreme court of Michigan in 1896, in which written opinions were not filed.",
+            "variations": {}
+        }
+    ],
     "Miles": [
         {
             "cite_type": "state",
@@ -13024,9 +13171,17 @@
             "editions": {
                 "Mont.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter (?P<page>\\d{1,4}a?)"
+                    ],
                     "start": "1868-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "382 Mont. 1a",
+                "1 Mont. 2"
+            ],
             "mlz_jurisdiction": [
                 "us:mt;supreme.court"
             ],
@@ -13562,6 +13717,31 @@
             "variations": {}
         }
     ],
+    "N.J. (Manumission)": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.J. (Manumission)": {
+                    "end": "1875-12-31T00:00:00",
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 N.J. (Manumission) 17"
+            ],
+            "mlz_jurisdiction": [
+                "us:ny;supreme.court"
+            ],
+            "name": "Bloomfield's Manumission (or Negro) Cases (N.J.)",
+            "variations": {
+                "Blm. Neg.": "N.J. (Manumission)",
+                "Bloom. Man.": "N.J. (Manumission)",
+                "Bloom. Man. Neg. Cas.": "N.J. (Manumission)",
+                "Manum.": "N.J. (Manumission)",
+                "Manum. Cas.": "N.J. (Manumission)"
+            }
+        }
+    ],
     "N.J. Admin.": [
         {
             "cite_type": "state",
@@ -13643,7 +13823,9 @@
                 "us:nj;supreme.court"
             ],
             "name": "New Jersey Law Journal",
-            "variations": {}
+            "variations": {
+                "N. J. Law J.": "N.J. Law J."
+            }
         }
     ],
     "N.J. Misc.": [
@@ -14051,14 +14233,17 @@
                 "N. W. 2d": "N.W.2d",
                 "N. W. Rep.": "N.W.",
                 "N. W.2d": "N.W.2d",
+                "N.W. (2d)": "N.W.2d",
                 "N.W. 2d": "N.W.2d",
                 "N.W. 2nd": "N.W.2d",
                 "N.W. Rep.": "N.W.",
+                "N.W.2.d": "N.W.2d",
+                "N.W.2d.": "N.W.2d",
                 "N.W.2nd": "N.W.2d",
                 "NW": "N.W.",
                 "NW 2d": "N.W.2d",
+                "NW.2d": "N.W.2d",
                 "NW2D": "N.W.2d",
-                "NW2d": "N.W.2d",
                 "No.West Rep.": "N.W.",
                 "Northw.Rep.": "N.W."
             }
@@ -14675,9 +14860,17 @@
             "editions": {
                 "Nat. Bank. Reg.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\(\\d{4}\\) $page"
+                    ],
                     "start": "1978-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 N. B. R. (1874) 1",
+                "1 N. B. R. 2"
+            ],
             "mlz_jurisdiction": [
                 "us:c0:dc.d;bankruptcy.court",
                 "us:c10:co.d;bankruptcy.court",
@@ -15674,6 +15867,7 @@
                 "Ohio Abs.": "Ohio Law. Abs.",
                 "Ohio L. Abs.": "Ohio Law. Abs.",
                 "Ohio L.Abs.": "Ohio Law. Abs.",
+                "Ohio Law Abs": "Ohio Law. Abs.",
                 "Ohio Law Abs.": "Ohio Law. Abs.",
                 "Ohio Law Abst.": "Ohio Law. Abs.",
                 "Ohio Laws Abs.": "Ohio Law. Abs."
@@ -16190,19 +16384,32 @@
                 "P": "P.",
                 "P 2d": "P.2d",
                 "P 3d": "P.3d",
+                "P [2d]": "P.2d",
+                "P. (2d)": "P.2d",
                 "P. 2d": "P.2d",
                 "P. 3d": "P.3d",
                 "P. Rep.": "P.",
+                "P. [2d.]": "P.2d",
+                "P. [2d]": "P.2d",
+                "P. [2nd]": "P.2d",
                 "P.2": "P.2d",
                 "P.3": "P.3d",
                 "P.R.": "P.",
+                "P2.d": "P.2d",
+                "Pac": "P.",
+                "Pac (2d)": "P.2d",
                 "Pac.": "P.",
+                "Pac. (2)": "P.2d",
+                "Pac. (2d)": "P.2d",
+                "Pac. (2d).": "P.2d",
                 "Pac. 2d": "P.2d",
+                "Pac. Rep.": "P.",
                 "Pac.2d": "P.2d",
                 "Pac.R.": "P.",
                 "Pac.Rep.": "P.",
                 "Pacific": "P.",
-                "Pacific Rep.": "P."
+                "Pacific Rep.": "P.",
+                "p.2d": "P.2d"
             }
         }
     ],
@@ -16234,6 +16441,24 @@
             "mlz_jurisdiction": [],
             "name": "Prentice Hall",
             "variations": {}
+        }
+    ],
+    "P.L.R.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "P.L.R.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Pacific Law Reporter",
+            "variations": {
+                "P.L. Rep.": "P.L.R.",
+                "Pac. Law Rep.": "P.L.R.",
+                "Pac. Law Reptr.": "P.L.R."
+            }
         }
     ],
     "P.O.R.": [
@@ -16769,6 +16994,23 @@
             "variations": {}
         }
     ],
+    "Pac. Law Mag.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pac. Law Mag.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Pacific Law Magazine",
+            "variations": {
+                "P.L.M.": "Pac. Law Mag.",
+                "Pacific Law Mag.": "Pac. Law Mag."
+            }
+        }
+    ],
     "Paige Ch.": [
         {
             "cite_type": "state",
@@ -16974,6 +17216,8 @@
             ],
             "name": "Pennsylvania Law Journal",
             "variations": {
+                "Pa. Law J.": "Penn. Law J.",
+                "Pa. Law J. Rep.": "Penn. Law J.",
                 "Penn. L.J.": "Penn. Law J.",
                 "Penn. Law Jour.": "Penn. Law J."
             }
@@ -17156,8 +17400,24 @@
             "mlz_jurisdiction": [],
             "name": "Peters' United States Circuit Court Reports",
             "variations": {
+                "Pet C. C.": "Pet. C.C.",
+                "Pet. C. C.": "Pet. C.C.",
                 "Peters C.C.": "Pet. C.C."
             }
+        }
+    ],
+    "Pet. Cir. C.R.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Pet. Cir. C.R.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Peters' Condensed U.S. Circuit Reports",
+            "variations": {}
         }
     ],
     "Phil. Eq.": [
@@ -17714,7 +17974,9 @@
                 "us:ma;supreme.court"
             ],
             "name": "Reports of contested election cases in the Senate and House of Representatives of the commonwealth of Massachusetts for the year 1886-1897",
-            "variations": {}
+            "variations": {
+                "Rep. Cont. Elect. Cas.": "Rep. Cont. Elect. Case."
+            }
         }
     ],
     "Rice": [
@@ -17820,25 +18082,48 @@
             "editions": {
                 "Ridgely's Notebook": {
                     "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter, $page"
+                    ],
                     "start": "1792-01-01T00:00:00"
                 },
                 "Ridgely's Notebook II": {
                     "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter, $page"
+                    ],
                     "start": "1792-01-01T00:00:00"
                 },
                 "Ridgely's Notebook III": {
                     "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter, $page"
+                    ],
                     "start": "1792-01-01T00:00:00"
                 },
                 "Ridgely's Notebook IV": {
                     "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter, $page"
+                    ],
                     "start": "1792-01-01T00:00:00"
                 },
                 "Ridgely's Notebook V": {
                     "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter, $page"
+                    ],
                     "start": "1792-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Ridgely's Notebook IV, 33",
+                "Ridgely's Notebook IV, 5",
+                "Ridgely's Notebook V, 362",
+                "Ridgely's Notebook III, 5",
+                "Ridgely's Notebook II, 180",
+                "Ridgely's Notebook I, 244"
+            ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
@@ -18047,6 +18332,7 @@
                 "S.& Mar.": "S. & M.",
                 "Sm.& M.": "S. & M.",
                 "Smed.& M.": "S. & M.",
+                "Smedes & M.": "S. & M.",
                 "Smedes & M.(Miss.)": "S. & M."
             }
         }
@@ -18066,8 +18352,10 @@
             "name": "West's Supreme Court Reporter",
             "variations": {
                 "S Ct": "S. Ct.",
+                "S. Ct": "S. Ct.",
                 "S. Ct. Rep.": "S. Ct.",
                 "S.C.": "S. Ct.",
+                "S.Ct": "S. Ct.",
                 "S.Ct.": "S. Ct.",
                 "Sup.Ct.": "S. Ct.",
                 "Sup.Ct.Rep.": "S. Ct.",
@@ -18290,7 +18578,8 @@
                 "S.E. 2d": "S.E.2d",
                 "S.E. Rep.": "S.E.",
                 "SE": "S.E.",
-                "SE 2d": "S.E.2d"
+                "SE 2d": "S.E.2d",
+                "SE2d": "S.E.2d"
             }
         }
     ],
@@ -18391,9 +18680,12 @@
                 }
             },
             "examples": [
-                "SCDB 1846-016"
+                "SCDB 1846-016",
+                "SCDB 1799-006"
             ],
-            "mlz_jurisdiction": [],
+            "mlz_jurisdiction": [
+                "us;supreme.court"
+            ],
             "name": "The Supreme Court Database",
             "variations": {}
         }
@@ -20145,15 +20437,15 @@
                 "Thompson": {
                     "end": null,
                     "regexes": [
-                        "(?:(?P<volume>1) )?$reporter, (?P<page>\\d{1,3}-\\d{1,3})",
+                        "(?:(?P<volume>1) )?$reporter, (?P<page>\\d{1,3})",
                         "$full_cite"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "Thomp. Cas., 86-90",
-                "1 Unrep. Tenn. Cas. 141"
+                "1 Unrep. Tenn. Cas. 141",
+                "Thomp. Cas., 21"
             ],
             "mlz_jurisdiction": [
                 "us:tn;supreme.court"
@@ -20879,6 +21171,9 @@
             ],
             "name": "Utah Neutral Citation",
             "variations": {
+                "UT App.": "UT App",
+                "UT Ct. App.": "UT App",
+                "Utah App.": "UT App",
                 "Utah Ct. App.": "UT App"
             }
         }
@@ -21490,22 +21785,6 @@
             "variations": {}
         }
     ],
-    "W.L. M.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "W.L. M.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [],
-            "name": "Western Law Monthly (OH)",
-            "variations": {
-                "W.L. Monthly": "W.L. M."
-            }
-        }
-    ],
     "W.L.B.": [
         {
             "cite_type": "state",
@@ -21541,7 +21820,28 @@
             },
             "mlz_jurisdiction": [],
             "name": "Western Law Journal (OH)",
-            "variations": {}
+            "variations": {
+                "West. Law J.": "W.L.J."
+            }
+        }
+    ],
+    "W.L.M.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "W.L.M.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Western Law Monthly (OH)",
+            "variations": {
+                "W.L. M.": "W.L.M.",
+                "W.L. Monthly": "W.L.M.",
+                "West Law Month.": "W.L.M.",
+                "West. Law Month.": "W.L.M."
+            }
         }
     ],
     "W.N.C.": [
@@ -21888,9 +22188,19 @@
             "editions": {
                 "Ware": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter,? \\((Dav\\. )?\\d+,?\\),? $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "862 Ware 63",
+                "2 Ware (Dav. 172) 176",
+                "1 Ware (Dav. 146), 123",
+                "43 Ware, (332,) 232"
+            ],
             "mlz_jurisdiction": [],
             "name": "Ware's United States (US) District Court Reports",
             "variations": {}
@@ -22132,6 +22442,25 @@
             }
         }
     ],
+    "Week. Law Gaz.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Week. Law Gaz.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:oh;supreme.court"
+            ],
+            "name": "Weekly Law Gazette (Ohio)",
+            "variations": {
+                "Wkly. Law Gaz.": "Week. Law Gaz.",
+                "Wkly. Law Gaz. No.": "Week. Law Gaz."
+            }
+        }
+    ],
     "Week. No.": [
         {
             "cite_type": "state",
@@ -22278,7 +22607,10 @@
                 "us:ny;court.appeals"
             ],
             "name": "Wheeler's Criminal Cases",
-            "variations": {}
+            "variations": {
+                "Wheeler, Cr. Cas.": "Wheel. Cr. Cas.",
+                "Wheeler, Crim. Cas.": "Wheel. Cr. Cas."
+            }
         }
     ],
     "White & W.": [
@@ -22403,9 +22735,15 @@
             "editions": {
                 "Wilson's Red Book": {
                     "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter, $page"
+                    ],
                     "start": "1792-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Wilson's Red Book, 179"
+            ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
@@ -22518,6 +22856,22 @@
             "variations": {}
         }
     ],
+    "Woodb. & M.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Woodb. & M.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Woodbury & Minot's United States Circuit Court Reports",
+            "variations": {
+                "Wood. & Minot": "Woodb. & M."
+            }
+        }
+    ],
     "Woods": [
         {
             "cite_type": "federal",
@@ -22530,7 +22884,41 @@
             "mlz_jurisdiction": [],
             "name": "Woods' United States Circuit Court Reports",
             "variations": {
-                "Woods C.C.": "Woods"
+                "Woods C.C.": "Woods",
+                "Woods.": "Woods"
+            }
+        }
+    ],
+    "Woolw.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Woolw.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Woolworth's United States Circuit Court Reports",
+            "variations": {
+                "Wool.": "Woolw.",
+                "Woolw. Rep.": "Woolw.",
+                "Woolworth": "Woolw.",
+                "Woolworth's Cir. Ct. R.": "Woolw."
+            }
+        },
+        {
+            "cite_type": "state",
+            "editions": {
+                "Woolw.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Woolworth's Reports (1 Nebraska)",
+            "variations": {
+                "Woolw. Rep.": "Woolw."
             }
         }
     ],

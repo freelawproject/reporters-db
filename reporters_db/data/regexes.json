@@ -69,7 +69,7 @@
         "with_alpha_suffix#": "Volume number that may have 'A' appended, like '1A'",
         "with_digit_suffix": "(?P<volume>\\d{1,4}(?:-\\d+)?)",
         "with_digit_suffix#": "Volume number that may have digits appended, like '123-4'",
-        "year": "(?P<volume>1[89]\\d{2}|20\\d{2})",
+        "year": "(?P<volume>1[789]\\d{2}|20\\d{2})",
         "year#": "Volume number that must be a year between 1900 and 2099"
     }
 }
