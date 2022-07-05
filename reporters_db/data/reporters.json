@@ -7250,29 +7250,6 @@
             "variations": {}
         }
     ],
-    "Fed. Reg.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Fed. Reg.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume $reporter $page_with_commas"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "60 Fed. Reg. 68,380"
-            ],
-            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
-            "mlz_jurisdiction": [
-                "us;federal"
-            ],
-            "name": "Federal Register",
-            "variations": {}
-        }
-    ],
     "Fed. Sec. L. Rep. (CCH)": [
         {
             "cite_format": "{reporter} {page}",
