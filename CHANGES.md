@@ -14,7 +14,7 @@
 
 ## Current Version
 
- - 3.2.24 (2022-07-05): Bulk update continued, Update Fed. Reg. to laws.json
+ - 3.2.25 (2022-07-05): Bulk update continued, Update Fed. Reg. to laws.json
 
 ## Past Versions
 
