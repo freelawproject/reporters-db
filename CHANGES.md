@@ -14,9 +14,11 @@
 
 ## Current Version
 
- - 3.2.25 (2022-07-05): Bulk update continued, Update Fed. Reg. to laws.json
+ - 3.2.26 (2022-07-20): Minor tweak to NW2d
 
 ## Past Versions
+
+ - 3.2.25 (2022-07-05): Bulk update continued, Update Fed. Reg. to laws.json
 
  - 3.2.23 (2022-06-29): Bulk update of reporters for import
 
