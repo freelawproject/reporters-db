@@ -39,7 +39,8 @@
                 "Atl.": "A.",
                 "Atl. Rep.": "A.",
                 "Atl.2d": "A.2d",
-                "Atl.R.": "A."
+                "Atl.R.": "A.",
+                "A2d": "A.2d"
             }
         }
     ],
@@ -998,7 +999,9 @@
                 "us:c2:ny.nd;district.court"
             ],
             "name": "American Law Review",
-            "variations": {}
+            "variations": {
+                "Amer. Law Rev.": "Amer. L. Rev."
+            }
         }
     ],
     "Ant. N.P. Cas.": [
@@ -2094,7 +2097,9 @@
             ],
             "name": "Bayard's Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "variations": {}
+            "variations": {
+
+            }
         }
     ],
     "Bedell": [
@@ -12994,7 +12999,8 @@
                 "Misc Rep.": "Misc.",
                 "Misc. Rep.": "Misc.",
                 "Misc.2d": "Misc. 2d",
-                "Misc.3d": "Misc. 3d"
+                "Misc.3d": "Misc. 3d",
+                "Misc. Rep": "Misc."
             }
         }
     ],
@@ -14607,7 +14613,8 @@
                 "NYS2d": "N.Y.S.2d",
                 "NYS3d": "N.Y.S.3d",
                 "New York Supp.": "N.Y.S.",
-                "New York Supplement": "N.Y.S."
+                "New York Supplement": "N.Y.S.",
+                "N.Y. Supp.": "N.Y.S."
             }
         }
     ],
@@ -16410,7 +16417,9 @@
                 "Pac.Rep.": "P.",
                 "Pacific": "P.",
                 "Pacific Rep.": "P.",
-                "p.2d": "P.2d"
+                "p.2d": "P.2d",
+                "P2d": "P.2d",
+                "PaC.": "P."
             }
         }
     ],
@@ -16458,7 +16467,8 @@
             "variations": {
                 "P.L. Rep.": "P.L.R.",
                 "Pac. Law Rep.": "P.L.R.",
-                "Pac. Law Reptr.": "P.L.R."
+                "Pac. Law Reptr.": "P.L.R.",
+                "Pac. Law. Rep.": "P.L.R."
             }
         }
     ],
@@ -18580,7 +18590,8 @@
                 "S.E. Rep.": "S.E.",
                 "SE": "S.E.",
                 "SE 2d": "S.E.2d",
-                "SE2d": "S.E.2d"
+                "SE2d": "S.E.2d",
+                "S.E.2d.": "S.E.2d"
             }
         }
     ],
