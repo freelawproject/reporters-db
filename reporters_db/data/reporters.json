@@ -6336,6 +6336,7 @@
                 "F. 2d": "F.2d",
                 "F. 3d": "F.3d",
                 "F. 4th": "F.4th",
+                "F.(2d)": "F.2d",
                 "F.2d.": "F.2d",
                 "F.3d.": "F.3d",
                 "F.4th.": "F.4th",
@@ -6347,8 +6348,7 @@
                 "Fed.Rep.": "F.",
                 "Fed.Rep.2d": "F.2d",
                 "Fed.Rep.3d": "F.3d",
-                "Fed.Rep.4th": "F.4th",
-                "F.(2d)": "F.2d"
+                "Fed.Rep.4th": "F.4th"
             }
         }
     ],
@@ -6537,14 +6537,14 @@
             ],
             "name": "Federal Supplement",
             "variations": {
+                "F. Supp": "F. Supp.",
                 "F. Supp.2d": "F. Supp. 2d",
                 "F.Supp.": "F. Supp.",
                 "F.Supp. 2d": "F. Supp. 2d",
                 "F.Supp. 3d": "F. Supp. 3d",
                 "F.Supp.2d": "F. Supp. 2d",
                 "F.Supp.3d": "F. Supp. 3d",
-                "FS3d": "F. Supp. 3d",
-                "F. Supp": "F. Supp."
+                "FS3d": "F. Supp. 3d"
             }
         }
     ],
@@ -14249,6 +14249,7 @@
             ],
             "name": "North Western Reporter",
             "variations": {
+                "N W. Rep.": "N.W.",
                 "N. W.": "N.W.",
                 "N. W. 2d": "N.W.2d",
                 "N. W. Rep.": "N.W.",
@@ -14266,8 +14267,7 @@
                 "NW2D": "N.W.2d",
                 "NW2d": "N.W.2d",
                 "No.West Rep.": "N.W.",
-                "Northw.Rep.": "N.W.",
-                "N W. Rep.": "N.W."
+                "Northw.Rep.": "N.W."
             }
         }
     ],
@@ -19228,18 +19228,18 @@
                 "So. Rep.": "So.",
                 "So. Rep. 2d": "So. 2d",
                 "So. Rep. 3d": "So. 3d",
+                "So. Reporter": "So.",
+                "So. Reporter,": "So.",
                 "So.2d": "So. 2d",
                 "So.3d": "So. 3d",
                 "Sou.": "So.",
                 "Sou. (2nd)": "So. 2d",
                 "Sou. Rep.": "So.",
+                "South": "So.",
                 "South.": "So.",
                 "South. Rep.": "So.",
                 "South.2d": "So. 2d",
-                "South.3d": "So. 3d",
-                "So. Reporter,": "So.",
-                "So. Reporter": "So.",
-                "South": "So."
+                "South.3d": "So. 3d"
             }
         }
     ],
