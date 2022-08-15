@@ -9850,7 +9850,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Insurance Law Journal",
-            "variations": {}
+            "variations": {
+                "Ins. Law J.": "Ins. L.J."
+            }
         }
     ],
     "Int'l Env't Rep. (BNA)": [
@@ -22244,7 +22246,9 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Ware's United States (US) District Court Reports",
-            "variations": {}
+            "variations": {
+                "Ware.": "Ware"
+            }
         }
     ],
     "Wash.": [
