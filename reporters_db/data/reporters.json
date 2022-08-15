@@ -6347,7 +6347,8 @@
                 "Fed.Rep.": "F.",
                 "Fed.Rep.2d": "F.2d",
                 "Fed.Rep.3d": "F.3d",
-                "Fed.Rep.4th": "F.4th"
+                "Fed.Rep.4th": "F.4th",
+                "F.(2d)": "F.2d"
             }
         }
     ],
@@ -6542,7 +6543,8 @@
                 "F.Supp. 3d": "F. Supp. 3d",
                 "F.Supp.2d": "F. Supp. 2d",
                 "F.Supp.3d": "F. Supp. 3d",
-                "FS3d": "F. Supp. 3d"
+                "FS3d": "F. Supp. 3d",
+                "F. Supp": "F. Supp."
             }
         }
     ],
@@ -14262,7 +14264,8 @@
                 "NW2D": "N.W.2d",
                 "NW2d": "N.W.2d",
                 "No.West Rep.": "N.W.",
-                "Northw.Rep.": "N.W."
+                "Northw.Rep.": "N.W.",
+                "N W. Rep.": "N.W."
             }
         }
     ],
@@ -19231,7 +19234,10 @@
                 "South.": "So.",
                 "South. Rep.": "So.",
                 "South.2d": "So. 2d",
-                "South.3d": "So. 3d"
+                "South.3d": "So. 3d",
+                "So. Reporter,": "So.",
+                "So. Reporter": "So.",
+                "South": "So."
             }
         }
     ],
