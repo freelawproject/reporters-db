@@ -54,7 +54,7 @@ def make_editions_dict(editions):
 
 
 def make_csv():
-    with open("reporters.csv", "w") as f:
+    with open("reporters.csv", "w", newline="") as f:
         out = csv.DictWriter(f, fieldnames=FIELDNAMES)
         out.writeheader()
 
