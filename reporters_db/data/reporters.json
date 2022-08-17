@@ -2594,7 +2594,8 @@
             "variations": {
                 "Brown Adm": "Brown Adm.",
                 "Brown's Adm": "Brown Adm.",
-                "Brown, Adm.": "Brown Adm."
+                "Brown, Adm.": "Brown Adm.",
+                "Brown's Adm.": "Brown Adm."
             }
         }
     ],
@@ -3584,7 +3585,9 @@
                 "us:nc;supreme.court"
             ],
             "name": "Carolina Law Repository (N. C.)",
-            "variations": {}
+            "variations": {
+                "Car. Law. Repos." : "Car. Law Repos."
+            }
         }
     ],
     "Cates.": [
@@ -4772,7 +4775,8 @@
                 "C. Cls.": "Ct. Cl.",
                 "Court Cl.": "Ct. Cl.",
                 "Ct. Cl. Rep.": "Ct. Cl.",
-                "Ct.Cl.": "Ct. Cl."
+                "Ct.Cl.": "Ct. Cl.",
+                "Ct. Cls. R.": "Ct. Cl."
             }
         },
         {
@@ -22061,7 +22065,9 @@
                 "us:wy;supreme.court"
             ],
             "name": "Wyoming Neutral Citation",
-            "variations": {}
+            "variations": {
+                "WYO": "WY"
+            }
         }
     ],
     "Wage & Hour Cas. (BNA)": [
@@ -22185,7 +22191,8 @@
             "variations": {
                 "U.S.(Wall.)": "Wall.",
                 "Wall.Rep.": "Wall.",
-                "Wall.S.C.": "Wall."
+                "Wall.S.C.": "Wall.",
+                "Wallace R.": "Wall."
             }
         },
         {
