@@ -3752,7 +3752,9 @@
         "us:c7:il.nd;district.court"
       ],
       "name": "Chicago Legal News (1868-1925) (Illinois)",
-      "variations": {}
+      "variations": {
+        "Chi Leg. News": "Chi. Leg. News"
+      }
     }
   ],
   "Chicago Bd. Options Ex. (CCH)": [
@@ -22915,7 +22917,9 @@
       },
       "mlz_jurisdiction": [],
       "name": "New York Weekly Digest",
-      "variations": {}
+      "variations": {
+        "N. Y. Wkly. Dig.": "Wkly. Dig."
+      }
     }
   ],
   "Woodb. & M.": [
