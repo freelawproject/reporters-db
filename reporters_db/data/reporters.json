@@ -812,7 +812,8 @@
             ],
             "name": "American Law Register",
             "variations": {
-                "Am. L. Reg., n.s.": "Am. Law Reg. (N.S.)"
+                "Am. L. Reg., n.s.": "Am. Law Reg. (N.S.)",
+                "Amer. Law Reg.": "Am. Law Reg."
             }
         }
     ],
