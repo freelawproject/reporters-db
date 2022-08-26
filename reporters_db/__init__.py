@@ -19,24 +19,33 @@ def datetime_parser(dct):
 
 
 db_root = os.path.dirname(os.path.realpath(__file__))
-with open(os.path.join(db_root, "data", "reporters.json"), encoding="utf-8") as f:
+with open(
+    os.path.join(db_root, "data", "reporters.json"), encoding="utf-8"
+) as f:
     REPORTERS = json.load(f, object_hook=datetime_parser)
 
-with open(os.path.join(db_root, "data", "state_abbreviations.json"),
-          encoding="utf-8") as f:
+with open(
+    os.path.join(db_root, "data", "state_abbreviations.json"), encoding="utf-8"
+) as f:
     STATE_ABBREVIATIONS = json.load(f)
 
-with open(os.path.join(db_root, "data", "case_name_abbreviations.json"),
-          encoding="utf-8") as f:
+with open(
+    os.path.join(db_root, "data", "case_name_abbreviations.json"),
+    encoding="utf-8",
+) as f:
     CASE_NAME_ABBREVIATIONS = json.load(f)
 
 with open(os.path.join(db_root, "data", "laws.json"), encoding="utf-8") as f:
     LAWS = json.load(f, object_hook=datetime_parser)
 
-with open(os.path.join(db_root, "data", "journals.json"), encoding="utf-8") as f:
+with open(
+    os.path.join(db_root, "data", "journals.json"), encoding="utf-8"
+) as f:
     JOURNALS = json.load(f, object_hook=datetime_parser)
 
-with open(os.path.join(db_root, "data", "regexes.json"), encoding="utf-8") as f:
+with open(
+    os.path.join(db_root, "data", "regexes.json"), encoding="utf-8"
+) as f:
     RAW_REGEX_VARIABLES = json.load(f)
     REGEX_VARIABLES = process_variables(RAW_REGEX_VARIABLES)
 
