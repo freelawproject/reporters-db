@@ -2095,14 +2095,17 @@
             },
             "examples": [
                 "Bayard's Notebook, 235",
-                "1 Bayard's Notebook, 235"
+                "1 Bayard's Notebook, 235",
+                "Bayard’s Notebook, 235"
             ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
             "name": "Bayard's Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "variations": {}
+            "variations": {
+                "Bayard’s Notebook": "Bayard's Notebook"
+            }
         }
     ],
     "Bedell": [
@@ -3904,14 +3907,17 @@
             },
             "examples": [
                 "Clayton's Notebook, 235",
-                "1 Clayton's Notebook, 235"
+                "1 Clayton's Notebook, 235",
+                "Clayton’s Notebook, 235"
             ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
             "name": "Clayton's Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "variations": {}
+            "variations": {
+                "Clayton’s Notebook": "Clayton's Notebook"
+            }
         }
     ],
     "Cliff.": [
@@ -17917,15 +17923,25 @@
             "editions": {
                 "Read's Notebook": {
                     "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter, $page"
+                    ],
                     "start": "1792-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Read’s Notebook, 235",
+                "72 Read’s Notebook, 8"
+            ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
             "name": "Read's Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "variations": {}
+            "variations": {
+                "Read’s Notebook": "Read's Notebook"
+            }
         }
     ],
     "Rec. Co. Ch. (S.C.)": [
@@ -18167,7 +18183,9 @@
                 "Ridgely's Notebook V, 362",
                 "Ridgely's Notebook III, 5",
                 "Ridgely's Notebook II, 180",
-                "Ridgely's Notebook I, 244"
+                "Ridgely's Notebook I, 244",
+                "Ridgely’s Notebook IV, 33",
+                "Ridgely’s Notebook V, 362"
             ],
             "mlz_jurisdiction": [
                 "us:de;"
@@ -18175,7 +18193,12 @@
             "name": "Ridgely's Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
             "variations": {
-                "Ridgely's Notebook I": "Ridgely's Notebook"
+                "Ridgely's Notebook I": "Ridgely's Notebook",
+                "Ridgely’s Notebook I": "Ridgely's Notebook",
+                "Ridgely’s Notebook II": "Ridgely's Notebook II",
+                "Ridgely’s Notebook III": "Ridgely's Notebook III",
+                "Ridgely’s Notebook IV": "Ridgely's Notebook IV",
+                "Ridgely’s Notebook V": "Ridgely's Notebook V"
             }
         }
     ],
@@ -18339,7 +18362,9 @@
             ],
             "name": "Rodney's Notes",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "variations": {}
+            "variations": {
+                "Rodney’s Notes": "Rodney's Notes"
+            }
         }
     ],
     "Root": [
@@ -22551,15 +22576,25 @@
             "editions": {
                 "Wells' Notebook": {
                     "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter, $page"
+                    ],
                     "start": "1792-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Wells’ Notebook, 365",
+                "1 Wells’ Notebook, 365"
+            ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
             "name": "Wells' Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "variations": {}
+            "variations": {
+                "Wells’ Notebook": "Wells' Notebook"
+            }
         }
     ],
     "Wend.": [
@@ -22808,14 +22843,17 @@
                 }
             },
             "examples": [
-                "Wilson's Red Book, 179"
+                "Wilson's Red Book, 179",
+                "Wilson’s Red Book, 179"
             ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
             "name": "Wilson's Red Book",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "variations": {}
+            "variations": {
+                "Wilson’s Red Book": "Wilson's Red Book"
+            }
         }
     ],
     "Win.": [
