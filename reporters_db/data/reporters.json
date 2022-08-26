@@ -8745,7 +8745,9 @@
             ],
             "name": "Hilles Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "variations": {}
+            "variations": {
+                "Hilles’ Notebook": "Hilles' Notebook"
+            }
         }
     ],
     "Hilt.": [
@@ -12856,6 +12858,32 @@
                 "Mill Const.": "Mill",
                 "Mill Const.(S.C.)": "Mill",
                 "S.C.L.(Mill)": "Mill"
+            }
+        }
+    ],
+    "Miller's Notebook": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Miller's Notebook": {
+                    "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter, $page"
+                    ],
+                    "start": "1792-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Miller's Notebook, 179",
+                "Miller’s Notebook, 179"
+            ],
+            "mlz_jurisdiction": [
+                "us:de;"
+            ],
+            "name": "Miller's Notebook",
+            "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
+            "variations": {
+                "Miller’s Notebook": "Miller's Notebook"
             }
         }
     ],
