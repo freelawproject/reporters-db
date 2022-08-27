@@ -18382,9 +18382,19 @@
             "editions": {
                 "Rodney's Notes": {
                     "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter, $page",
+                        "$reporter$page?"
+                    ],
                     "start": "1792-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Rodney's Notes, 235",
+                "1 Rodney's Notes, 235",
+                "Rodney's Notes"
+            ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
