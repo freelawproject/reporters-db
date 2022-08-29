@@ -4822,8 +4822,8 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Family Sponsor Immigration Act of 2002, Pub. L. No. 107-150",
-                "Patient Protection and Affordable Care Act, Pub. L. No. 111-148, § 1101",
+                "Pub. L. No. 107-150",
+                "Pub. L. No. 111-148, § 1101",
                 "Public Law No. 117-174",
                 "Pub.L. 107-006",
                 "Public Law Number 107-743"
@@ -4831,10 +4831,34 @@
             "jurisdiction": "United States",
             "name": "Public Laws",
             "regexes": [
-                "$reporter\s*(?:No\.|Number)?\s*(?P<title>\d{1,3}-\d{1,5}),?\s*(?:§|Sec|sec|Section|section)?[§|s]?\.?\s*$law_section?*
+                "$reporter \\s*(?:No\\.|Number)?\\s*(?P<title>\\d{1,3}-\\d{1,5}),?\\s*(?:§|Sec|sec|Section|section)?[§|s]?\\.?\\s*$law_section?"
             ],
             "start": null,
-            "variations": ["Public Law", "Pub.L."]
+            "variations": [
+                "Public Law",
+                "Pub.L."
+            ]
+        }
+    ],
+    "Pvt. L.": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "Private Law 115-1",
+                "Pvt.L. 115-001",
+                "Pvt. L. No. 112-1"
+            ],
+            "jurisdiction": "United States",
+            "name": "Private Laws",
+            "regexes": [
+                "$reporter \\s*(?:No\\.|Number)?\\s*(?P<title>\\d{1,3}-\\d{1,5})"
+            ],
+            "start": null,
+            "variations": [
+                "Private Law",
+                "Pvt.L."
+            ]
         }
     ],
     "R.I. Acts & Resolves": [
