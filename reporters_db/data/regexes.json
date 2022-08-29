@@ -61,7 +61,7 @@
         "#": "Standard reporter"
     },
     "volume": {
-        "": "(?P<volume>\\d+)",
+        "": "(?P<volume>\\d+)(\\.)?",
         "#": "Standard volume number",
         "nominative": "(?:(?P<volume_nominative>\\d{1,2}) )?",
         "nominative#": "Nominative volume number embedded in an official cite; made optional for single-volume nominatives",
