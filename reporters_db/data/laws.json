@@ -4817,6 +4817,26 @@
             "variations": []
         }
     ],
+    "Pub. L.": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "Family Sponsor Immigration Act of 2002, Pub. L. No. 107-150",
+                "Patient Protection and Affordable Care Act, Pub. L. No. 111-148, § 1101",
+                "Public Law No. 117-174",
+                "Pub.L. 107-006",
+                "Public Law Number 107-743"
+            ],
+            "jurisdiction": "United States",
+            "name": "Public Laws",
+            "regexes": [
+                "$reporter\s*(?:No\.|Number)?\s*(?P<title>\d{1,3}-\d{1,5}),?\s*(?:§|Sec|sec|Section|section)?[§|s]?\.?\s*$law_section?*
+            ],
+            "start": null,
+            "variations": ["Public Law", "Pub.L."]
+        }
+    ],
     "R.I. Acts & Resolves": [
         {
             "cite_type": "leg_session",
