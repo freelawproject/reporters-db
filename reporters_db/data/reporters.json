@@ -30,10 +30,14 @@
             ],
             "name": "Atlantic Reporter",
             "variations": {
+                "A .2d": "A.2d",
+                "A,2d": "A.2d",
                 "A. 2d": "A.2d",
                 "A. 3d": "A.3d",
+                "A.2d.": "A.2d",
                 "A.R.": "A.",
                 "A.Rep.": "A.",
+                "A2d": "A.2d",
                 "At.": "A.",
                 "At. Rep.": "A.",
                 "Atl.": "A.",
@@ -71,6 +75,7 @@
                 "AD 3d": "A.D.3d",
                 "Ap.": "A.D.",
                 "Ap.2d.": "A.D.2d",
+                "App Div.": "A.D.",
                 "App. Div": "A.D.",
                 "App. Div.": "A.D.",
                 "App. Div. 2d.": "A.D.2d",
@@ -998,7 +1003,9 @@
                 "us:c2:ny.nd;district.court"
             ],
             "name": "American Law Review",
-            "variations": {}
+            "variations": {
+                "Amer. Law Rev.": "Amer. L. Rev."
+            }
         }
     ],
     "Ant. N.P. Cas.": [
@@ -4676,9 +4683,17 @@
             "editions": {
                 "Crabbe": {
                     "end": null,
+                    "regexes": [
+                        "$reporter, $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Crabbe, 138",
+                "Crabbe, 66",
+                "Crabbe, 2"
+            ],
             "mlz_jurisdiction": [],
             "name": "Crabbe's United States (US) District Court Reports",
             "variations": {}
@@ -6321,6 +6336,7 @@
                 "F. 2d": "F.2d",
                 "F. 3d": "F.3d",
                 "F. 4th": "F.4th",
+                "F.(2d)": "F.2d",
                 "F.2d.": "F.2d",
                 "F.3d.": "F.3d",
                 "F.4th.": "F.4th",
@@ -6521,6 +6537,7 @@
             ],
             "name": "Federal Supplement",
             "variations": {
+                "F. Supp": "F. Supp.",
                 "F. Supp.2d": "F. Supp. 2d",
                 "F.Supp.": "F. Supp.",
                 "F.Supp. 2d": "F. Supp. 2d",
@@ -9836,7 +9853,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Insurance Law Journal",
-            "variations": {}
+            "variations": {
+                "Ins. Law J.": "Ins. L.J."
+            }
         }
     ],
     "Int'l Env't Rep. (BNA)": [
@@ -12995,6 +13014,7 @@
                 "Misc 2d": "Misc. 2d",
                 "Misc 3d": "Misc. 3d",
                 "Misc Rep.": "Misc.",
+                "Misc. Rep": "Misc.",
                 "Misc. Rep.": "Misc.",
                 "Misc.2d": "Misc. 2d",
                 "Misc.3d": "Misc. 3d"
@@ -14232,6 +14252,7 @@
             ],
             "name": "North Western Reporter",
             "variations": {
+                "N W. Rep.": "N.W.",
                 "N. W.": "N.W.",
                 "N. W. 2d": "N.W.2d",
                 "N. W. Rep.": "N.W.",
@@ -14602,6 +14623,7 @@
             "variations": {
                 "N. Y. Supp.": "N.Y.S.",
                 "N. Y. Supplement": "N.Y.S.",
+                "N.Y. Supp.": "N.Y.S.",
                 "N.Y.S. 2d": "N.Y.S.2d",
                 "N.Y.S. 3d": "N.Y.S.3d",
                 "NYS": "N.Y.S.",
@@ -15865,6 +15887,7 @@
             ],
             "name": "Ohio Law Abstracts",
             "variations": {
+                "Abs": "Ohio Law. Abs.",
                 "Abs.": "Ohio Law. Abs.",
                 "O.L.A.": "Ohio Law. Abs.",
                 "O.L.Abs.": "Ohio Law. Abs.",
@@ -16397,9 +16420,13 @@
                 "P. [2d]": "P.2d",
                 "P. [2nd]": "P.2d",
                 "P.2": "P.2d",
+                "P.2 d": "P.2d",
+                "P.2d.": "P.2d",
                 "P.3": "P.3d",
                 "P.R.": "P.",
                 "P2.d": "P.2d",
+                "P2d": "P.2d",
+                "PaC.": "P.",
                 "Pac": "P.",
                 "Pac (2d)": "P.2d",
                 "Pac.": "P.",
@@ -16413,6 +16440,7 @@
                 "Pac.Rep.": "P.",
                 "Pacific": "P.",
                 "Pacific Rep.": "P.",
+                "p.2 d": "P.2d",
                 "p.2d": "P.2d"
             }
         }
@@ -16461,7 +16489,8 @@
             "variations": {
                 "P.L. Rep.": "P.L.R.",
                 "Pac. Law Rep.": "P.L.R.",
-                "Pac. Law Reptr.": "P.L.R."
+                "Pac. Law Reptr.": "P.L.R.",
+                "Pac. Law. Rep.": "P.L.R."
             }
         }
     ],
@@ -18581,6 +18610,8 @@
                 "S. E.2d": "S.E.2d",
                 "S.E. 2d": "S.E.2d",
                 "S.E. Rep.": "S.E.",
+                "S.E.2d.": "S.E.2d",
+                "S.E2.d": "S.E.2d",
                 "SE": "S.E.",
                 "SE 2d": "S.E.2d",
                 "SE2d": "S.E.2d"
@@ -19186,21 +19217,28 @@
             ],
             "name": "Southern Reporter",
             "variations": {
+                "(So. 2nd)": "So. 2d",
                 "So (2nd)": "So. 2d",
                 "So .2d": "So. 2d",
+                "So,": "So.",
+                "So, (2nd)": "So. 2d",
                 "So. (2d Series)": "So. 2d",
                 "So. (2d)": "So. 2d",
+                "So. (2nd Series)": "So. 2d",
                 "So. (2nd)": "So. 2d",
                 "So. 2d.": "So. 2d",
                 "So. 2nd": "So. 2d",
                 "So. Rep.": "So.",
                 "So. Rep. 2d": "So. 2d",
                 "So. Rep. 3d": "So. 3d",
+                "So. Reporter": "So.",
+                "So. Reporter,": "So.",
                 "So.2d": "So. 2d",
                 "So.3d": "So. 3d",
                 "Sou.": "So.",
                 "Sou. (2nd)": "So. 2d",
                 "Sou. Rep.": "So.",
+                "South": "So.",
                 "South.": "So.",
                 "South. Rep.": "So.",
                 "South.2d": "So. 2d",
@@ -20990,7 +21028,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "United States Law Intelligencer and Review (Providence and Philadelphia)",
-            "variations": {}
+            "variations": {
+                "U. S. Law Int.": "U.S. Law Int."
+            }
         }
     ],
     "U.S. Tax Cas. (CCH)": [
@@ -21177,6 +21217,8 @@
             "variations": {
                 "UT App.": "UT App",
                 "UT Ct. App.": "UT App",
+                "UTApp": "UT App",
+                "Utah App": "UT App",
                 "Utah App.": "UT App",
                 "Utah Ct. App.": "UT App"
             }
@@ -22207,7 +22249,9 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Ware's United States (US) District Court Reports",
-            "variations": {}
+            "variations": {
+                "Ware.": "Ware"
+            }
         }
     ],
     "Wash.": [
