@@ -5147,7 +5147,7 @@
             ],
             "jurisdiction": "United States",
             "name": "United States Statutes at Large",
-            "notes": "Automatically generated. Remove this message if replacing with real examples.",
+            "notes": "Some of these citations may be to treaties, which were reported here until December 31, 1949. See Ch 1001, Sec. 2, 64 Stat. 980 (1950).",
             "regexes": [
                 "$volume $reporter $page_with_commas"
             ],
