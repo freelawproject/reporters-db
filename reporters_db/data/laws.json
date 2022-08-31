@@ -4900,6 +4900,48 @@
             ],
             "start": "1949-01-01T00:00:00",
             "variations": []
+    "Pub. L.": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "Pub. L. No. 107-150",
+                "Pub. L. No. 111-148, § 1101",
+                "Public Law No. 117-174",
+                "Pub.L. 107-006",
+                "Public Law Number 107-743"
+            ],
+            "jurisdiction": "United States",
+            "name": "Public Laws",
+            "regexes": [
+                "$reporter \\s*(?:No\\.|Number)?\\s*(?P<title>\\d{1,3}-\\d{1,5}),?\\s*(?:§|Sec|sec|Section|section)?[§|s]?\\.?\\s*$law_section?"
+            ],
+            "start": null,
+            "variations": [
+                "Public Law",
+                "Pub.L."
+            ]
+        }
+    ],
+    "Pvt. L.": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "Private Law 115-1",
+                "Pvt.L. 115-001",
+                "Pvt. L. No. 112-1"
+            ],
+            "jurisdiction": "United States",
+            "name": "Private Laws",
+            "regexes": [
+                "$reporter \\s*(?:No\\.|Number)?\\s*(?P<title>\\d{1,3}-\\d{1,5})"
+            ],
+            "start": null,
+            "variations": [
+                "Private Law",
+                "Pvt.L."
+            ]
         }
     ],
     "R.I. Acts & Resolves": [
@@ -5639,12 +5681,13 @@
                 "1 U.S.C. § 1",
                 "1 U.S.C.A. § 1",
                 "1 U.S.C.S. § 1",
-                "1 U.S.C.U. § 1"
+                "1 U.S.C.U. § 1",
+                "1 U.S.C. sec. 1"
             ],
             "jurisdiction": "United States",
             "name": "United States Code; United States Code Annotated; United States Code Service; Gould’s United States Code Unannotated",
             "regexes": [
-                "(?P<title>\\d+) $reporter § $law_section"
+                "(?P<title>\\d+) $reporter (?:§|Sec|sec|Section|section)[§|s]?\\.? $law_section"
             ],
             "start": null,
             "variations": [
