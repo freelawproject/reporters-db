@@ -6566,7 +6566,10 @@
                 "us;federal"
             ],
             "name": "Federal Communications Commission Reports",
-            "variations": {}
+            "variations": {
+                "FCC 2d": "F.C.C.2d",
+                "FCC" : "F.C.C."
+        }
         }
     ],
     "F.L.R.A.": [
