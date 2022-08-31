@@ -109,7 +109,13 @@ class BaseTestCase(TestCase):
                     "No match in 'examples' for custom regex '%s'.\n"
                     "Expanded regex: %s.\n"
                     "Provided examples: %s.\n"
-                    "%s" % (regex_template, regex, examples, candidate,)
+                    "%s"
+                    % (
+                        regex_template,
+                        regex,
+                        examples,
+                        candidate,
+                    )
                 )
 
         # check that each example is matched by at least one regex
@@ -141,7 +147,10 @@ class BaseTestCase(TestCase):
     def test_json_format(self):
         """Does format of json file match json.dumps(json.loads(), sort_keys=True)?"""
         reformatted = json.dumps(
-            self.json, indent=4, ensure_ascii=False, sort_keys=True,
+            self.json,
+            indent=4,
+            ensure_ascii=False,
+            sort_keys=True,
         )
         reformatted += "\n"
         if self.json_str != reformatted:
