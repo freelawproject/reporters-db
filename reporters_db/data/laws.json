@@ -5530,12 +5530,13 @@
                 "1 U.S.C. § 1",
                 "1 U.S.C.A. § 1",
                 "1 U.S.C.S. § 1",
-                "1 U.S.C.U. § 1"
+                "1 U.S.C.U. § 1",
+                "1 U.S.C. sec. 1"
             ],
             "jurisdiction": "United States",
             "name": "United States Code; United States Code Annotated; United States Code Service; Gould’s United States Code Unannotated",
             "regexes": [
-                "(?P<title>\\d+) $reporter § $law_section"
+                "(?P<title>\\d+) $reporter (?:§|Sec|sec|Section|section)[§|s]?\\.? $law_section"
             ],
             "start": null,
             "variations": [
