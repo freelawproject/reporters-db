@@ -10,7 +10,7 @@ jobs:
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.FLOOIE_TOKEN }}
+          token: ${{ secrets.FREELAWBOT_TOKEN }}
           repository: freelawproject/eyecite
           event-type: reporters-db-pr
           client-payload: '{"ref": "${{ github.ref }}", "pr_number": "${{ github.event.number }}", "commit": "${{ github.event.pull_request.head.sha }}" }'
