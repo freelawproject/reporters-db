@@ -14874,7 +14874,11 @@
                 "us:ny;court.appeals"
             ],
             "name": "New York Slip Opinion",
-            "variations": {}
+            "variations": {
+                "N.Y. Slip Op": "NY Slip Op",
+                "N.Y. Slip Op.": "NY Slip Op",
+                "NY Slip Op.": "NY Slip Op"
+            }
         }
     ],
     "Nat. Bank. Reg.": [
