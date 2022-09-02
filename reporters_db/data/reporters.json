@@ -9064,7 +9064,7 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\(\\d{4}\\) $page"
+                        "$full_cite_year_included"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -14932,7 +14932,7 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\(\\d{4}\\) $page"
+                        "$full_cite_year_included"
                     ],
                     "start": "1978-01-01T00:00:00"
                 }
