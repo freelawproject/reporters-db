@@ -25,11 +25,11 @@
             "with_suffix#": "Paragraph cite with optional alpha character appended"
         },
         "single_volume": "(?:(?P<volume>1) )?$reporter $page",
-        "year_page": "$reporter $volume_year-$page",
         "year_included": {
             "": "$volume $reporter \\((?P<year>1[789]\\d{2}|20\\d{2})\\) $page",
             "#": "Citation that includes the volume year after the reporter '14 Haz. Reg. Pa. (1834) 10'"
-        }
+        },
+        "year_page": "$reporter $volume_year-$page"
     },
     "law": {
         "#": "Regexes used in laws.json",
