@@ -60,7 +60,7 @@
         "": "(?P<reporter>$edition)",
         "#": "Standard reporter"
     },
-    "section_marker": "(§§?)|\s[Ss](ec)?(tion)?s?\.?",
+    "section_marker": "((§§?)|([Ss]((ec)(tion)?)?s?\\.?))",
     "volume": {
         "": "(?P<volume>\\d+)",
         "#": "Standard volume number",
