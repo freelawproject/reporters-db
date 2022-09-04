@@ -18173,7 +18173,7 @@
                     "end": "1830-12-31T00:00:00",
                     "regexes": [
                         "$volume_nominative ?$reporter, $page",
-                        "$volume_nominative ?(?P<reporter>Ridgely(.)s Notebook\\s?(I)?), $page"
+                        "$volume_nominative ?(?P<reporter>Ridgely(’|')s Notebook\\s?(I)?), $page"
                     ],
                     "start": "1792-01-01T00:00:00"
                 },
@@ -18181,7 +18181,7 @@
                     "end": "1830-12-31T00:00:00",
                     "regexes": [
                         "$volume_nominative ?$reporter, $page",
-                        "$volume_nominative ?(?P<reporter>Ridgely(.)s Notebook II), $page"
+                        "$volume_nominative ?(?P<reporter>Ridgely(’|')s Notebook II), $page"
                     ],
                     "start": "1792-01-01T00:00:00"
                 },
@@ -18189,7 +18189,7 @@
                     "end": "1830-12-31T00:00:00",
                     "regexes": [
                         "$volume_nominative ?$reporter, $page",
-                        "$volume_nominative ?(?P<reporter>Ridgely(.)s Notebook III), $page"
+                        "$volume_nominative ?(?P<reporter>Ridgely(’|')s Notebook III), $page"
                     ],
                     "start": "1792-01-01T00:00:00"
                 },
@@ -18197,7 +18197,7 @@
                     "end": "1830-12-31T00:00:00",
                     "regexes": [
                         "$volume_nominative ?$reporter, $page",
-                        "$volume_nominative ?(?P<reporter>Ridgely(.)s Notebook IV), $page"
+                        "$volume_nominative ?(?P<reporter>Ridgely(’|')s Notebook IV), $page"
                     ],
                     "start": "1792-01-01T00:00:00"
                 },
@@ -18205,7 +18205,7 @@
                     "end": "1830-12-31T00:00:00",
                     "regexes": [
                         "$volume_nominative ?$reporter, $page",
-                        "$volume_nominative ?(?P<reporter>Ridgely(.)s Notebook V), $page"
+                        "$volume_nominative ?(?P<reporter>Ridgely(’|')s Notebook V), $page"
                     ],
                     "start": "1792-01-01T00:00:00"
                 }
@@ -18373,6 +18373,25 @@
                 "Robb. (N.J.)": "Robb.",
                 "Robbins": "Robb.",
                 "Robbins.": "Robb."
+            }
+        }
+    ],
+    "Rodney's Notes": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Rodney's Notes": {
+                    "end": "1830-12-31T00:00:00",
+                    "start": "1792-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:de;"
+            ],
+            "name": "Rodney's Notes",
+            "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
+            "variations": {
+                "Rodney’s Notes": "Rodney's Notes"
             }
         }
     ],
