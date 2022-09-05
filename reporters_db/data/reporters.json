@@ -812,7 +812,8 @@
             ],
             "name": "American Law Register",
             "variations": {
-                "Am. L. Reg., n.s.": "Am. Law Reg. (N.S.)"
+                "Am. L. Reg., n.s.": "Am. Law Reg. (N.S.)",
+                "Amer. Law Reg.": "Am. Law Reg."
             }
         }
     ],
@@ -2094,14 +2095,17 @@
             },
             "examples": [
                 "Bayard's Notebook, 235",
-                "1 Bayard's Notebook, 235"
+                "1 Bayard's Notebook, 235",
+                "Bayard’s Notebook, 235"
             ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
             "name": "Bayard's Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "variations": {}
+            "variations": {
+                "Bayard’s Notebook": "Bayard's Notebook"
+            }
         }
     ],
     "Bedell": [
@@ -2347,6 +2351,7 @@
             "mlz_jurisdiction": [],
             "name": "Blatchford's United States Circuit Court Reports",
             "variations": {
+                "Bl.": "Blatchf.",
                 "Bl. C.C.": "Blatchf.",
                 "Bl. C.C.R.": "Blatchf.",
                 "Blat. C.C.R.": "Blatchf.",
@@ -2594,6 +2599,7 @@
             "variations": {
                 "Brown Adm": "Brown Adm.",
                 "Brown's Adm": "Brown Adm.",
+                "Brown's Adm.": "Brown Adm.",
                 "Brown, Adm.": "Brown Adm."
             }
         }
@@ -3584,7 +3590,9 @@
                 "us:nc;supreme.court"
             ],
             "name": "Carolina Law Repository (N. C.)",
-            "variations": {}
+            "variations": {
+                "Car. Law. Repos.": "Car. Law Repos."
+            }
         }
     ],
     "Cates.": [
@@ -3749,7 +3757,9 @@
                 "us:c7:il.nd;district.court"
             ],
             "name": "Chicago Legal News (1868-1925) (Illinois)",
-            "variations": {}
+            "variations": {
+                "Chi Leg. News": "Chi. Leg. News"
+            }
         }
     ],
     "Chicago Bd. Options Ex. (CCH)": [
@@ -3897,14 +3907,17 @@
             },
             "examples": [
                 "Clayton's Notebook, 235",
-                "1 Clayton's Notebook, 235"
+                "1 Clayton's Notebook, 235",
+                "Clayton’s Notebook, 235"
             ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
             "name": "Clayton's Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "variations": {}
+            "variations": {
+                "Clayton’s Notebook": "Clayton's Notebook"
+            }
         }
     ],
     "Cliff.": [
@@ -4772,6 +4785,7 @@
                 "C. Cls.": "Ct. Cl.",
                 "Court Cl.": "Ct. Cl.",
                 "Ct. Cl. Rep.": "Ct. Cl.",
+                "Ct. Cls. R.": "Ct. Cl.",
                 "Ct.Cl.": "Ct. Cl."
             }
         },
@@ -8731,7 +8745,9 @@
             ],
             "name": "Hilles Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "variations": {}
+            "variations": {
+                "Hilles’ Notebook": "Hilles' Notebook"
+            }
         }
     ],
     "Hilt.": [
@@ -9048,7 +9064,7 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\(\\d{4}\\) $page"
+                        "$full_cite_year_included"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -12845,6 +12861,32 @@
             }
         }
     ],
+    "Miller's Notebook": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Miller's Notebook": {
+                    "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter, $page"
+                    ],
+                    "start": "1792-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Miller's Notebook, 179",
+                "Miller’s Notebook, 179"
+            ],
+            "mlz_jurisdiction": [
+                "us:de;"
+            ],
+            "name": "Miller's Notebook",
+            "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
+            "variations": {
+                "Miller’s Notebook": "Miller's Notebook"
+            }
+        }
+    ],
     "Mills Surr.": [
         {
             "cite_type": "state",
@@ -13519,13 +13561,16 @@
                 "1 N.C. 1",
                 "46 N.C. (1 Jones) 456",
                 "61 N.C. (Phil.) 456",
-                "20 N.C. (3 & 4 Dev. & Bat.) 456"
+                "20 N.C. (3 & 4 Dev. & Bat.) 456",
+                "73 N. C. Rep. 441"
             ],
             "mlz_jurisdiction": [
                 "us:nc;supreme.court"
             ],
             "name": "North Carolina Reports",
-            "variations": {}
+            "variations": {
+                "N. C. Rep.": "N.C."
+            }
         }
     ],
     "N.C. App.": [
@@ -13591,7 +13636,9 @@
                 "us:nd;supreme.court"
             ],
             "name": "North Dakota Reports",
-            "variations": {}
+            "variations": {
+                "N. D.": "N.D."
+            }
         }
     ],
     "N.D. App. LEXIS": [
@@ -14889,7 +14936,7 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\(\\d{4}\\) $page"
+                        "$full_cite_year_included"
                     ],
                     "start": "1978-01-01T00:00:00"
                 }
@@ -16033,6 +16080,7 @@
                 "O.S.": "Ohio St.",
                 "O.S.2d": "Ohio St. 2d",
                 "O.S.3d": "Ohio St. 3d",
+                "OS.": "Ohio St.",
                 "Oh.St.": "Ohio St.",
                 "Ohio St. Rep.": "Ohio St.",
                 "Ohio St.2d": "Ohio St. 2d",
@@ -16441,6 +16489,7 @@
                 "Pac.Rep.": "P.",
                 "Pacific": "P.",
                 "Pacific Rep.": "P.",
+                "Page": "P.",
                 "p.2 d": "P.2d",
                 "p.2d": "P.2d"
             }
@@ -17906,15 +17955,25 @@
             "editions": {
                 "Read's Notebook": {
                     "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter, $page"
+                    ],
                     "start": "1792-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Read’s Notebook, 235",
+                "72 Read’s Notebook, 8"
+            ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
             "name": "Read's Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "variations": {}
+            "variations": {
+                "Read’s Notebook": "Read's Notebook"
+            }
         }
     ],
     "Rec. Co. Ch. (S.C.)": [
@@ -18156,7 +18215,11 @@
                 "Ridgely's Notebook V, 362",
                 "Ridgely's Notebook III, 5",
                 "Ridgely's Notebook II, 180",
-                "Ridgely's Notebook I, 244"
+                "Ridgely’s Notebook I, 244",
+                "Ridgely's Notebook I, 244",
+                "Ridgely’s Notebook IV, 33",
+                "Ridgely’s Notebook III, 33",
+                "Ridgely’s Notebook V, 362"
             ],
             "mlz_jurisdiction": [
                 "us:de;"
@@ -18164,7 +18227,12 @@
             "name": "Ridgely's Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
             "variations": {
-                "Ridgely's Notebook I": "Ridgely's Notebook"
+                "Ridgely's Notebook I": "Ridgely's Notebook",
+                "Ridgely’s Notebook I": "Ridgely's Notebook",
+                "Ridgely’s Notebook II": "Ridgely's Notebook II",
+                "Ridgely’s Notebook III": "Ridgely's Notebook III",
+                "Ridgely’s Notebook IV": "Ridgely's Notebook IV",
+                "Ridgely’s Notebook V": "Ridgely's Notebook V"
             }
         }
     ],
@@ -18320,15 +18388,25 @@
             "editions": {
                 "Rodney's Notes": {
                     "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter,? $page"
+                    ],
                     "start": "1792-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Rodney's Notes, 235",
+                "Rodney's Notes, 235"
+            ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
             "name": "Rodney's Notes",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "variations": {}
+            "variations": {
+                "Rodney’s Notes": "Rodney's Notes"
+            }
         }
     ],
     "Root": [
@@ -19219,8 +19297,10 @@
             "name": "Southern Reporter",
             "variations": {
                 "(So. 2nd)": "So. 2d",
+                "S.": "So.",
+                "S. (2nd)": "So. 2d",
+                "SO.": "So.",
                 "So (2nd)": "So. 2d",
-                "So .2d": "So. 2d",
                 "So,": "So.",
                 "So, (2nd)": "So. 2d",
                 "So. (2d Series)": "So. 2d",
@@ -22065,7 +22145,9 @@
                 "us:wy;supreme.court"
             ],
             "name": "Wyoming Neutral Citation",
-            "variations": {}
+            "variations": {
+                "WYO": "WY"
+            }
         }
     ],
     "Wage & Hour Cas. (BNA)": [
@@ -22189,7 +22271,8 @@
             "variations": {
                 "U.S.(Wall.)": "Wall.",
                 "Wall.Rep.": "Wall.",
-                "Wall.S.C.": "Wall."
+                "Wall.S.C.": "Wall.",
+                "Wallace R.": "Wall."
             }
         },
         {
@@ -22534,15 +22617,25 @@
             "editions": {
                 "Wells' Notebook": {
                     "end": "1830-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter, $page"
+                    ],
                     "start": "1792-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Wells’ Notebook, 365",
+                "1 Wells’ Notebook, 365"
+            ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
             "name": "Wells' Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "variations": {}
+            "variations": {
+                "Wells’ Notebook": "Wells' Notebook"
+            }
         }
     ],
     "Wend.": [
@@ -22791,14 +22884,17 @@
                 }
             },
             "examples": [
-                "Wilson's Red Book, 179"
+                "Wilson's Red Book, 179",
+                "Wilson’s Red Book, 179"
             ],
             "mlz_jurisdiction": [
                 "us:de;"
             ],
             "name": "Wilson's Red Book",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
-            "variations": {}
+            "variations": {
+                "Wilson’s Red Book": "Wilson's Red Book"
+            }
         }
     ],
     "Win.": [
@@ -22902,7 +22998,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "New York Weekly Digest",
-            "variations": {}
+            "variations": {
+                "N. Y. Wkly. Dig.": "Wkly. Dig."
+            }
         }
     ],
     "Woodb. & M.": [
