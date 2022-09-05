@@ -442,6 +442,20 @@
             "variations": {}
         }
     ],
+    "Adm. Rec.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Adm. Rec.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Admiralty Records",
+            "variations": {}
+        }
+    ],
     "Adv. S.": [
         {
             "cite_type": "state",
@@ -706,6 +720,20 @@
                 "All. Rep.": "Allen",
                 "Mass.(Allen)": "Allen"
             }
+        }
+    ],
+    "Am. & Eng. R. Cas.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Am. & Eng. R. Cas.": {
+                    "end": "1895-12-31T00:00:00",
+                    "start": "1879-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American and English Railroad Cases.",
+            "variations": {}
         }
     ],
     "Am. Ann. Cas.": [
@@ -1007,6 +1035,20 @@
             "variations": {
                 "Amer. Law Rev.": "Amer. L. Rev."
             }
+        }
+    ],
+    "Amer. Law T. Rep.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Amer. Law T. Rep.": {
+                    "end": "1873-12-31T00:00:00",
+                    "start": "1868-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American Law Times Reports, New Series.",
+            "variations": {}
         }
     ],
     "Ant. N.P. Cas.": [
@@ -2361,6 +2403,20 @@
                 "Blatchf. C.C.": "Blatchf.",
                 "Blatchf. C.C. Rep.": "Blatchf."
             }
+        }
+    ],
+    "Blatchf. & H.": [
+        {
+            "cite_type": "scotus_early",
+            "editions": {
+                "Blatchf. & H.": {
+                    "end": "1837-12-31T00:00:00",
+                    "start": "1827-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Blatchford and Howland's Reports.",
+            "variations": {}
         }
     ],
     "Blue Sky L. Rep. (CCH)": [
@@ -8569,6 +8625,28 @@
             }
         }
     ],
+    "Haz. Reg. Pa.": [
+        {
+            "cite_type": "scotus_early",
+            "editions": {
+                "Haz. Reg. Pa.": {
+                    "end": "1836-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\(\\d{4}\\) $page"
+                    ],
+                    "start": "1828-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "14 Haz. Reg. Pa. (1834) 10",
+                "14 Haz. Reg. Pa. 10"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Hazard's Pennsylvania Register",
+            "variations": {}
+        }
+    ],
     "Head": [
         {
             "cite_type": "state",
@@ -13334,6 +13412,20 @@
             }
         }
     ],
+    "Month. Jur.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Month. Jur.": {
+                    "end": "1879-12-31T00:00:00",
+                    "start": "1878-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Monthly Jurist",
+            "variations": {}
+        }
+    ],
     "Morr. Min. Rep.": [
         {
             "cite_type": "specialty",
@@ -18073,6 +18165,20 @@
             "variations": {
                 "Rep. Cont. Elect. Cas.": "Rep. Cont. Elect. Case."
             }
+        }
+    ],
+    "Reporter,": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Reporter,": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Reporter. (Continuation of Law and Equity Reporter and of American Law Times Reports, New Series.)",
+            "variations": {}
         }
     ],
     "Rice": [
