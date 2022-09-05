@@ -18172,40 +18172,35 @@
                 "Ridgely's Notebook": {
                     "end": "1830-12-31T00:00:00",
                     "regexes": [
-                        "$volume_nominative ?$reporter, $page",
-                        "$volume_nominative ?(?P<reporter>Ridgely(’|')s Notebook\\s?(I)?), $page"
+                        "$volume_nominative ?$reporter, $page"
                     ],
                     "start": "1792-01-01T00:00:00"
                 },
                 "Ridgely's Notebook II": {
                     "end": "1830-12-31T00:00:00",
                     "regexes": [
-                        "$volume_nominative ?$reporter, $page",
-                        "$volume_nominative ?(?P<reporter>Ridgely(’|')s Notebook II), $page"
+                        "$volume_nominative ?$reporter, $page"
                     ],
                     "start": "1792-01-01T00:00:00"
                 },
                 "Ridgely's Notebook III": {
                     "end": "1830-12-31T00:00:00",
                     "regexes": [
-                        "$volume_nominative ?$reporter, $page",
-                        "$volume_nominative ?(?P<reporter>Ridgely(’|')s Notebook III), $page"
+                        "$volume_nominative ?$reporter, $page"
                     ],
                     "start": "1792-01-01T00:00:00"
                 },
                 "Ridgely's Notebook IV": {
                     "end": "1830-12-31T00:00:00",
                     "regexes": [
-                        "$volume_nominative ?$reporter, $page",
-                        "$volume_nominative ?(?P<reporter>Ridgely(’|')s Notebook IV), $page"
+                        "$volume_nominative ?$reporter, $page"
                     ],
                     "start": "1792-01-01T00:00:00"
                 },
                 "Ridgely's Notebook V": {
                     "end": "1830-12-31T00:00:00",
                     "regexes": [
-                        "$volume_nominative ?$reporter, $page",
-                        "$volume_nominative ?(?P<reporter>Ridgely(’|')s Notebook V), $page"
+                        "$volume_nominative ?$reporter, $page"
                     ],
                     "start": "1792-01-01T00:00:00"
                 }
@@ -18216,8 +18211,10 @@
                 "Ridgely's Notebook V, 362",
                 "Ridgely's Notebook III, 5",
                 "Ridgely's Notebook II, 180",
+                "Ridgely’s Notebook I, 244",
                 "Ridgely's Notebook I, 244",
                 "Ridgely’s Notebook IV, 33",
+                "Ridgely’s Notebook III, 33",
                 "Ridgely’s Notebook V, 362"
             ],
             "mlz_jurisdiction": [
@@ -18226,7 +18223,12 @@
             "name": "Ridgely's Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
             "variations": {
-                "Ridgely's Notebook I": "Ridgely's Notebook"
+                "Ridgely's Notebook I": "Ridgely's Notebook",
+                "Ridgely’s Notebook I": "Ridgely's Notebook",
+                "Ridgely’s Notebook II": "Ridgely's Notebook II",
+                "Ridgely’s Notebook III": "Ridgely's Notebook III",
+                "Ridgely’s Notebook IV": "Ridgely's Notebook IV",
+                "Ridgely’s Notebook V": "Ridgely's Notebook V"
             }
         }
     ],
