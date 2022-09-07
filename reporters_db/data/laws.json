@@ -5346,14 +5346,14 @@
             "cite_type": "treaty",
             "end": "1945-12-31T23:59:59",
             "examples": [
-                " T.S. No. 251",
-                " T.S. Number 251"
+                "T.S. No. 251",
+                "T.S. Number 251"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T6",
             "jurisdiction": "United States",
             "name": "Treaty Series",
             "regexes": [
-                "\\s$reporter\\s*$number_label?\\s*(?P<number>\\d+)"
+                "$reporter\\s*$number_label?\\s*(?P<number>\\d+)"
             ],
             "start": "1778-01-01T00:00:00",
             "variations": []
