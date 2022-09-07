@@ -12,11 +12,17 @@
 
 ## Upcoming Changes
 
+ - N/A
+
 ## Current Version
 
- - 3.2.26 (2022-07-20): Minor tweak to NW2d
+ - 3.2.28 (2022-09-07): Drop variation from pacific reporter
 
 ## Past Versions
+
+ - 3.2.27 (2022-09-05): Updates to reporters/variants and section
+
+ - 3.2.26 (2022-07-20): Minor tweak to NW2d
 
  - 3.2.25 (2022-07-05): Bulk update continued, Update Fed. Reg. to laws.json
 
