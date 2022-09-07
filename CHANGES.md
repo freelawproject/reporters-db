@@ -20,7 +20,7 @@
 
 ## Past Versions
 
- - 3.2.28 (2022-09-05): Updates to reporters/variants and section
+ - 3.2.27 (2022-09-05): Updates to reporters/variants and section
 
  - 3.2.26 (2022-07-20): Minor tweak to NW2d
 
