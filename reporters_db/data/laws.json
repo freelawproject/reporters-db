@@ -10,7 +10,7 @@
             "jurisdiction": "United States",
             "name": "Armed Services Board of Contract Appeals",
             "regexes": [
-                "$reporter No. (?P<docket_number>\\d+)"
+                "$reporter $number_label (?P<docket_number>\\d+)"
             ],
             "start": null,
             "variations": []
@@ -480,13 +480,14 @@
             "cite_type": "treaty",
             "end": null,
             "examples": [
-                "C.E.T.S. No. 196"
+                "C.E.T.S. No. 196",
+                "C.E.T.S. Number 196"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T6",
             "jurisdiction": "",
             "name": "Council of Europe Treaty Series",
             "regexes": [
-                "$reporter\\s*(?:No\\.|Number)?\\s*(?P<number>\\d+)"
+                "$reporter\\s*$number_label?\\s*(?P<number>\\d+)"
             ],
             "start": "2004-01-01T00:00:00",
             "variations": []
@@ -541,7 +542,7 @@
             "name": "Civilian Board of Contract Appeals",
             "notes": "Don't know valid docket number suffixes",
             "regexes": [
-                "$reporter No. (?P<docket_number>\\d+-[A-Z])"
+                "$reporter $number_label (?P<docket_number>\\d+-[A-Z])"
             ],
             "start": null,
             "variations": []
@@ -558,7 +559,7 @@
             "jurisdiction": "United States",
             "name": "Consumer Financial Protection Bureau",
             "regexes": [
-                "$reporter No. (?P<docket_number>\\d{4}-CFPB-\\d+)"
+                "$reporter $number_label (?P<docket_number>\\d{4}-CFPB-\\d+)"
             ],
             "start": null,
             "variations": []
@@ -575,7 +576,7 @@
             "jurisdiction": "United States",
             "name": "Commodity Futures Trading Commission",
             "regexes": [
-                "$reporter No. (?P<docket_number>\\d+-[A-Z\\d]+)"
+                "$reporter $number_label (?P<docket_number>\\d+-[A-Z\\d]+)"
             ],
             "start": null,
             "variations": []
@@ -1204,7 +1205,7 @@
             "jurisdiction": "United States",
             "name": "Executive Agreement Series",
             "regexes": [
-                "$reporter\\s*(?:No\\.|Number)?\\s*(?P<number>\\d+)"
+                "$reporter\\s*$number_label?\\s*(?P<number>\\d+)"
             ],
             "start": "1922-01-01T00:00:00",
             "variations": []
@@ -1221,7 +1222,7 @@
             "jurisdiction": "",
             "name": "European Treaty Series",
             "regexes": [
-                "$reporter\\s*(?:No\\.|Number)?\\s*(?P<number>\\d+)"
+                "$reporter\\s*$number_label?\\s*(?P<number>\\d+)"
             ],
             "start": "1948-01-01T00:00:00",
             "variations": []
@@ -1643,13 +1644,14 @@
             "cite_type": "treaty",
             "end": null,
             "examples": [
-                "Hein's No. KAV 2053"
+                "Hein's No. KAV 2053",
+                "Hein's Number KAV 2053"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T6",
             "jurisdiction": "United States",
             "name": "Hein’s United States Treaties and Other International Agreements",
             "regexes": [
-                "$reporter\\s*(?:No\\.|Number)?\\s*KAV\\s*(?P<number>\\d+)"
+                "$reporter\\s*$number_label?\\s*KAV\\s*(?P<number>\\d+)"
             ],
             "start": "1984-01-01T00:00:00",
             "variations": []
@@ -4641,7 +4643,7 @@
             "name": "",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$law_year $reporter No\\. (?P<number>\\d+), $page_with_commas"
+                "$law_year $reporter $number_label (?P<number>\\d+), $page_with_commas"
             ],
             "start": null,
             "variations": []
@@ -4890,13 +4892,14 @@
             "cite_type": "treaty",
             "end": null,
             "examples": [
-                "Pan-Am. T.S. No. 22"
+                "Pan-Am. T.S. No. 22",
+                "Pan-Am. T.S. Number 22"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T6",
             "jurisdiction": "",
             "name": "Pan-American Treaty Series",
             "regexes": [
-                "$reporter\\s*(?:No\\.|Number)?\\s*(?P<number>\\d+)"
+                "$reporter\\s*$number_label?\\s*(?P<number>\\d+)"
             ],
             "start": "1949-01-01T00:00:00",
             "variations": []
@@ -4916,7 +4919,7 @@
             "jurisdiction": "United States",
             "name": "Public Laws",
             "regexes": [
-                "$reporter \\s*(?:No\\.|Number)?\\s*(?P<title>\\d{1,3}-\\d{1,5}),?\\s*(?:§|Sec|sec|Section|section)?[§|s]?\\.?\\s*$law_section?"
+                "$reporter \\s*$number_label?\\s*(?P<title>\\d{1,3}-\\d{1,5}),?\\s*(?:§|Sec|sec|Section|section)?[§|s]?\\.?\\s*$law_section?"
             ],
             "start": null,
             "variations": [
@@ -4937,7 +4940,7 @@
             "jurisdiction": "United States",
             "name": "Private Laws",
             "regexes": [
-                "$reporter \\s*(?:No\\.|Number)?\\s*(?P<title>\\d{1,3}-\\d{1,5})"
+                "$reporter \\s*$number_label?\\s*(?P<title>\\d{1,3}-\\d{1,5})"
             ],
             "start": null,
             "variations": [
@@ -5119,13 +5122,14 @@
             "cite_type": "treaty",
             "end": "1980-12-31T23:59:59",
             "examples": [
-                "S. Exec. Doc. No. 38"
+                "S. Exec. Doc. No. 38",
+                "S. Exec. Doc. Number 38"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T6",
             "jurisdiction": "United States",
             "name": "Senate Executive Documents",
             "regexes": [
-                "$reporter\\s*(?:No\\.|Number)?\\s*(?P<number>\\d*[A-Z]?)"
+                "$reporter\\s*$number_label?\\s*(?P<number>\\d*[A-Z]?)"
             ],
             "start": "1778-01-01T00:00:00",
             "variations": []
@@ -5136,13 +5140,14 @@
             "cite_type": "treaty",
             "end": null,
             "examples": [
-                "S. Treaty Doc. No. 100-20"
+                "S. Treaty Doc. No. 100-20",
+                "S. Treaty Doc. Number 100-20"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T6",
             "jurisdiction": "United States",
             "name": "Senate Treaty Document ",
             "regexes": [
-                "$reporter\\s*(?:No\\.|Number)?\\s*(?P<number>\\d+-?\\d*)"
+                "$reporter\\s*$number_label?\\s*(?P<number>\\d+-?\\d*)"
             ],
             "start": "1981-01-01T00:00:00",
             "variations": []
@@ -5295,7 +5300,7 @@
             "jurisdiction": "United States",
             "name": "Small Business Administration",
             "regexes": [
-                "$reporter No. (?P<docket_number>(?:NAICS|BDP|VET|SIZ|SDBA)-\\d+)"
+                "$reporter $number_label (?P<docket_number>(?:NAICS|BDP|VET|SIZ|SDBA)-\\d+)"
             ],
             "start": null,
             "variations": []
@@ -5323,13 +5328,14 @@
             "cite_type": "treaty",
             "end": null,
             "examples": [
-                "T.I.A.S. No. 6577"
+                "T.I.A.S. No. 6577",
+                "T.I.A.S. Number 6577"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T6",
             "jurisdiction": "United States",
             "name": "Treaties and Other International Acts Series",
             "regexes": [
-                "$reporter\\s*(?:No\\.|Number)?\\s*(?P<number>\\d+)"
+                "$reporter\\s*$number_label?\\s*(?P<number>\\d+)"
             ],
             "start": "1945-01-01T00:00:00",
             "variations": []
@@ -5340,13 +5346,14 @@
             "cite_type": "treaty",
             "end": "1945-12-31T23:59:59",
             "examples": [
-                " T.S. No. 251"
+                " T.S. No. 251",
+                " T.S. Number 251"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T6",
             "jurisdiction": "United States",
             "name": "Treaty Series",
             "regexes": [
-                "\\s$reporter\\s*(?:No\\.|Number)?\\s*(?P<number>\\d+)"
+                "\\s$reporter\\s*$number_label?\\s*(?P<number>\\d+)"
             ],
             "start": "1778-01-01T00:00:00",
             "variations": []
@@ -5669,7 +5676,7 @@
             "jurisdiction": "United States",
             "name": "U.S. Patent",
             "regexes": [
-                "$reporter No\\. (?P<number>\\d[\\d,]*)(?: (?P<kind_code>[A-Z]\\d?))?"
+                "$reporter $number_label (?P<number>\\d[\\d,]*)(?: (?P<kind_code>[A-Z]\\d?))?"
             ],
             "start": null,
             "variations": []
@@ -5683,12 +5690,13 @@
                 "1 U.S.C. § 1",
                 "1 U.S.C.A. § 1",
                 "1 U.S.C.S. § 1",
-                "1 U.S.C.U. § 1"
+                "1 U.S.C.U. § 1",
+                "1 U.S.C. sec. 1"
             ],
             "jurisdiction": "United States",
             "name": "United States Code; United States Code Annotated; United States Code Service; Gould’s United States Code Unannotated",
             "regexes": [
-                "(?P<title>\\d+) $reporter § $law_section"
+                "(?P<title>\\d+) $reporter (?:§|Sec|sec|Section|section)[§|s]?\\.? $law_section"
             ],
             "start": null,
             "variations": [
