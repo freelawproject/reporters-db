@@ -191,7 +191,7 @@ class BaseTestCase(TestCase):
 
     def check_ascii(self, obj):
         """Check that all strings in obj match a list of expected ascii characters."""
-        allowed_chars = r"[ 0-9a-zA-Z.,\-'&(){}\[\]\\$§_?<>+*|:/]"
+        allowed_chars = r"[ 0-9a-zA-Z.,\-'&(){}\[\]\\$§_?<>+*|:/’]"
         for s in emit_strings(obj):
             remaining_chars = re.sub(allowed_chars, "", s)
             self.assertFalse(
