@@ -2342,6 +2342,7 @@
             "variations": {
                 "Black R.": "Black",
                 "Black Rep.": "Black",
+                "U.S. (Black)": "Black",
                 "U.S.(Black)": "Black"
             }
         }
@@ -4789,6 +4790,7 @@
                 "Cra.": "Cranch",
                 "Cranch (US)": "Cranch",
                 "Cranch Rep.": "Cranch",
+                "U.S. (Cranch)": "Cranch",
                 "U.S.(Cranch)": "Cranch"
             }
         },
@@ -5313,6 +5315,7 @@
                 "Dall.S.C.": "Dall.",
                 "Dallas": "Dall.",
                 "Dallas Rep.": "Dall.",
+                "U.S. (Dall.)": "Dall.",
                 "U.S.(Dall.)": "Dall."
             }
         },
@@ -6001,7 +6004,9 @@
                 "us:ny;superior.court"
             ],
             "name": "Duer's Reports (8-13 New York Superior)",
-            "variations": {}
+            "variations": {
+                "Duer Super. Ct. Rep.": "Duer"
+            }
         }
     ],
     "Duv.": [
@@ -6450,7 +6455,9 @@
             ],
             "name": "Federal Appendix",
             "variations": {
-                "F. App'x.": "F. App'x"
+                "F. App'x.": "F. App'x",
+                "F.App'x": "F. App'x",
+                "F.App'x.": "F. App'x"
             }
         }
     ],
@@ -12833,6 +12840,7 @@
             "name": "Michigan Appeals Reports",
             "variations": {
                 "Mich App": "Mich. App.",
+                "Mich. Ct. App.": "Mich. App.",
                 "Mich.App.": "Mich. App."
             }
         }
@@ -15871,6 +15879,7 @@
             ],
             "name": "Ohio Circuit Court Reports",
             "variations": {
+                "Jahn": "Ohio C.C.",
                 "O.C.C.N.S.": "Ohio C.C. (n.s.)",
                 "Oh.Cir.Ct.": "Ohio C.C.",
                 "Oh.Cir.Ct.N.S.": "Ohio C.C. (n.s.)",
@@ -15882,8 +15891,7 @@
                 "Ohio Cir.Ct.": "Ohio C.C.",
                 "Ohio Cir.Ct.(N.S.)": "Ohio C.C. (n.s.)",
                 "Ohio Cir.Ct.R.N.S.": "Ohio C.C. (n.s.)",
-                "Ohio Cr.Ct.R.": "Ohio C.C.",
-                "Jahn": "Ohio C.C."
+                "Ohio Cr.Ct.R.": "Ohio C.C."
             }
         }
     ],
@@ -21066,6 +21074,7 @@
                 "Otto": "U.S.",
                 "U. S.": "U.S.",
                 "U. S. Rep.": "U.S.",
+                "U.S. (1 Wall.)": "U.S.",
                 "U.S. (Wall.)": "U.S.",
                 "U.S. (Wheat.)": "U.S.",
                 "U.S.S.C.Rep.": "U.S.",
