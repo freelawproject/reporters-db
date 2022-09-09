@@ -12216,7 +12216,8 @@
             ],
             "name": "Massachusetts Law Reporter",
             "variations": {
-                "Mass. Law Rep": "Mass. L. Rptr."
+                "Mass. Law Rep": "Mass. L. Rptr.",
+                "Mass. Law Rep.": "Mass. L. Rptr."
             }
         }
     ],
