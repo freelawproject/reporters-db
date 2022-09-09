@@ -7742,7 +7742,8 @@
             },
             "examples": [
                 "1 Ga. 1",
-                "33 Ga. Supp. 9"
+                "33 Ga. Supp. 9",
+                "33 Suppl. Ga. 29"
             ],
             "mlz_jurisdiction": [
                 "us:ga;supreme.court"
@@ -7750,7 +7751,8 @@
             "name": "Georgia Reports",
             "variations": {
                 "Ga. (Kelly)": "Ga.",
-                "Ga. Rep.": "Ga."
+                "Ga. Rep.": "Ga.",
+                "Suppl. Ga.": "Ga."
             }
         }
     ],
@@ -12056,7 +12058,8 @@
             },
             "examples": [
                 "1 Mass. 1",
-                "83 Mass. (1 Allen) 456"
+                "83 Mass. (1 Allen) 456",
+                "8 Mass. (Cush) 1"
             ],
             "mlz_jurisdiction": [
                 "us:ma;supreme.court"
@@ -12066,6 +12069,7 @@
                 "Ma.": "Mass.",
                 "Mas.": "Mass.",
                 "Mas. Rep.": "Mass.",
+                "Mass. (Cush)": "Mass.",
                 "Mass. R.": "Mass.",
                 "Mass. Rep.": "Mass."
             }
@@ -12204,11 +12208,16 @@
                     "start": "1993-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Mass. Law Rep. 561"
+            ],
             "mlz_jurisdiction": [
                 "us:ma;superior.court"
             ],
             "name": "Massachusetts Law Reporter",
-            "variations": {}
+            "variations": {
+                "Mass. Law Rep": "Mass. L. Rptr."
+            }
         }
     ],
     "Mass. LCR LEXIS": [
@@ -13664,7 +13673,8 @@
             ],
             "name": "North Carolina Reports",
             "variations": {
-                "N. C. Rep.": "N.C."
+                "N. C. Rep.": "N.C.",
+                "N.C. (Dev. & Bat.)": "N.C."
             }
         }
     ],
@@ -14122,6 +14132,7 @@
             ],
             "name": "New Jersey Tax Court",
             "variations": {
+                "N.J. Tax Ct.": "N.J. Tax",
                 "N.J. Tax.": "N.J. Tax",
                 "N.J.Tax": "N.J. Tax"
             }
@@ -14668,6 +14679,7 @@
                 "N.Y. St. R.": "N.Y. St. Rep.",
                 "N.Y. St. Rep'r": "N.Y. St. Rep.",
                 "N.Y. St. Repr.": "N.Y. St. Rep.",
+                "N.Y. St. Rptr.": "N.Y. St. Rep.",
                 "N.Y.St.Rep.": "N.Y. St. Rep.",
                 "S. R.": "N.Y. St. Rep.",
                 "St. Rep.": "N.Y. St. Rep.",
@@ -15844,6 +15856,9 @@
                     "start": "1901-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "17 Ohio C.C. (n.s) 289"
+            ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court"
             ],
@@ -15853,6 +15868,7 @@
                 "Oh.Cir.Ct.": "Ohio C.C.",
                 "Oh.Cir.Ct.N.S.": "Ohio C.C. (n.s.)",
                 "Ohio C.C. (N.S.)": "Ohio C.C. (n.s.)",
+                "Ohio C.C.(n.s.)": "Ohio C.C. (n.s.)",
                 "Ohio C.C.N.S.": "Ohio C.C. (n.s.)",
                 "Ohio C.C.R.": "Ohio C.C.",
                 "Ohio C.C.R.N.S.": "Ohio C.C. (n.s.)",
@@ -16111,6 +16127,7 @@
                 "Ohio N.P.N.S.": "Ohio N.P. (n.s.)",
                 "Ohio Nisi Prius": "Ohio N.P.",
                 "Ohio Nisi Prius (N. S.)": "Ohio N.P. (n.s.)",
+                "Ohio Nisi Prius (N.S.)": "Ohio N.P. (n.s.)",
                 "Ohio Nisi Prius (NS)": "Ohio N.P. (n.s.)",
                 "Ohio Nisi Prius (n.s.)": "Ohio N.P. (n.s.)",
                 "Ohio Nisi Prius Decisions": "Ohio N.P.",
@@ -16181,6 +16198,27 @@
                 "Ohio St.2d": "Ohio St. 2d",
                 "Ohio St.3d": "Ohio St. 3d",
                 "Ohio State": "Ohio St."
+            }
+        }
+    ],
+    "Ohio St. (N.S.)": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ohio St. (N.S.)": {
+                    "end": null,
+                    "start": "1840-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "61 Ohio St. (n.s.) 494"
+            ],
+            "mlz_jurisdiction": [
+                "us:oh;supreme.court"
+            ],
+            "name": "Ohio State Reports, Annotated, New Series",
+            "variations": {
+                "Ohio St. (n.s.)": "Ohio St. (N.S.)"
             }
         }
     ],
@@ -18438,7 +18476,9 @@
                 "us:ny;superior.court"
             ],
             "name": "Robertson's Reports (24-30 New York Superior)",
-            "variations": {}
+            "variations": {
+                "Robertson's Super. Ct. Rep.": "Rob."
+            }
         }
     ],
     "Robards": [
@@ -18726,13 +18766,16 @@
             "examples": [
                 "1 S.C.L. 1",
                 "37 S.C.L. (3 Rich.) 456",
-                "24 S.C.L. (Rice) 456"
+                "24 S.C.L. (Rice) 456",
+                "9 S.C.L. (Mill Const.) 452"
             ],
             "mlz_jurisdiction": [
                 "us:sc;supreme.court"
             ],
             "name": "South Carolina Law Reports",
-            "variations": {}
+            "variations": {
+                "S.C.L. (Mill Const.)": "S.C.L."
+            }
         }
     ],
     "S.D.": [
@@ -19030,7 +19073,8 @@
             ],
             "name": "Sandford's Reports (3-7 New York Superior)",
             "variations": {
-                "Sandf. Rep.": "Sandf."
+                "Sandf. Rep.": "Sandf.",
+                "Sandford Super. Ct. Rep.": "Sandf."
             }
         }
     ],
@@ -19090,6 +19134,24 @@
                 "Ill.(Scam.)": "Scam.",
                 "Sc.": "Scam.",
                 "Scam. Rep.": "Scam."
+            }
+        }
+    ],
+    "Sch. Reg.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Sch. Reg.": {
+                    "end": null,
+                    "start": "1770-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:pa;supreme.court"
+            ],
+            "name": "Schuylkill Register (Pa.)",
+            "variations": {
+                "Schuy. Reg.": "Sch. Reg."
             }
         }
     ],
@@ -20986,6 +21048,8 @@
                 "Otto": "U.S.",
                 "U. S.": "U.S.",
                 "U. S. Rep.": "U.S.",
+                "U.S. (Wall.)": "U.S.",
+                "U.S. (Wheat.)": "U.S.",
                 "U.S.S.C.Rep.": "U.S.",
                 "US": "U.S.",
                 "USSCR": "U.S."
@@ -21618,7 +21682,8 @@
             "examples": [
                 "1 Va. 1",
                 "21 Va. (Gilmer) 456",
-                "1 Va. (1 Wash.) 456"
+                "1 Va. (1 Wash.) 456",
+                "5 Va. Leigh 1"
             ],
             "mlz_jurisdiction": [
                 "us:va;supreme.court"
@@ -21626,6 +21691,7 @@
             "name": "Virginia Reports",
             "variations": {
                 "V.": "Va.",
+                "Va. Leigh": "Va.",
                 "Va. Rep.": "Va.",
                 "Virg.": "Va."
             }
