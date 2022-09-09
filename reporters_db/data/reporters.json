@@ -1016,7 +1016,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "West's American Tribal Law Reporter",
-            "variations": {}
+            "variations": {
+                "Tribal": "Am. Tribal Law"
+            }
         }
     ],
     "Amer. L. Rev.": [
@@ -2496,7 +2498,9 @@
                 "us:ny;superior.court"
             ],
             "name": "Bosworth's Reports (14-23 New York Superior)",
-            "variations": {}
+            "variations": {
+                "Bosworth Super. Ct. Rep.": "Bosw."
+            }
         }
     ],
     "Boyce": [
@@ -8242,6 +8246,7 @@
             "variations": {
                 "Hall R.": "Hall",
                 "Hall Rep.": "Hall",
+                "Hall Super. Ct. Rep.": "Hall",
                 "Hall's R.": "Hall",
                 "Hall's Sup. Court Rep.": "Hall",
                 "Hall's Sup. Ct. R.": "Hall",
@@ -10240,7 +10245,8 @@
             ],
             "name": "Jones & Spencer's Reports (33-61 New York Superior)",
             "variations": {
-                "Jones & Spencer": "Jones & S."
+                "Jones & Spencer": "Jones & S.",
+                "Jones and Spencer's Super. Ct. Rep.": "Jones & S."
             }
         }
     ],
@@ -15876,7 +15882,8 @@
                 "Ohio Cir.Ct.": "Ohio C.C.",
                 "Ohio Cir.Ct.(N.S.)": "Ohio C.C. (n.s.)",
                 "Ohio Cir.Ct.R.N.S.": "Ohio C.C. (n.s.)",
-                "Ohio Cr.Ct.R.": "Ohio C.C."
+                "Ohio Cr.Ct.R.": "Ohio C.C.",
+                "Jahn": "Ohio C.C."
             }
         }
     ],
@@ -19882,7 +19889,9 @@
                 "us:ny;superior.court"
             ],
             "name": "Sweeny's Reports (31-32 New York Superior)",
-            "variations": {}
+            "variations": {
+                "Sweeney Super. Ct. Rep.": "Sweeny"
+            }
         }
     ],
     "T.B. Mon.": [
