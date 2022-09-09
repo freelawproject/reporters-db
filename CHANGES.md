@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.28 (2022-09-07): Drop variation from pacific reporter
+ - 3.2.29 (2022-09-09): Add more reporters and varations
 
 ## Past Versions
+
+ - 3.2.28 (2022-09-07): Drop variation from pacific reporter
 
  - 3.2.27 (2022-09-05): Updates to reporters/variants and section
 
