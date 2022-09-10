@@ -6457,7 +6457,8 @@
             "variations": {
                 "F. App'x.": "F. App'x",
                 "F.App'x": "F. App'x",
-                "F.App'x.": "F. App'x"
+                "F.App'x.": "F. App'x",
+                "F.App’x.": "F. App'x"
             }
         }
     ],
@@ -8982,7 +8983,8 @@
             "variations": {
                 "HOW": "How.",
                 "How. Rep.": "How.",
-                "U.S.(How.)": "How."
+                "U.S.(How.)": "How.",
+                "U.S. (How.)": "How."
             }
         }
     ],
@@ -17601,7 +17603,8 @@
                 "Pet.S.C.": "Pet.",
                 "Peters": "Pet.",
                 "Peters Rep.": "Pet.",
-                "U.S.(Pet.)": "Pet."
+                "U.S.(Pet.)": "Pet.",
+                "U.S. (Pet.)": "Pet."
             }
         }
     ],
@@ -19149,7 +19152,8 @@
             "variations": {
                 "Ill.(Scam.)": "Scam.",
                 "Sc.": "Scam.",
-                "Scam. Rep.": "Scam."
+                "Scam. Rep.": "Scam.",
+                "Ill. (Scam)": "Scam."
             }
         }
     ],
