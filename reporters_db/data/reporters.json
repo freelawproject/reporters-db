@@ -8983,8 +8983,8 @@
             "variations": {
                 "HOW": "How.",
                 "How. Rep.": "How.",
-                "U.S.(How.)": "How.",
-                "U.S. (How.)": "How."
+                "U.S. (How.)": "How.",
+                "U.S.(How.)": "How."
             }
         }
     ],
@@ -17603,8 +17603,8 @@
                 "Pet.S.C.": "Pet.",
                 "Peters": "Pet.",
                 "Peters Rep.": "Pet.",
-                "U.S.(Pet.)": "Pet.",
-                "U.S. (Pet.)": "Pet."
+                "U.S. (Pet.)": "Pet.",
+                "U.S.(Pet.)": "Pet."
             }
         }
     ],
@@ -19150,10 +19150,10 @@
             ],
             "name": "Illinois Reports, Scammon",
             "variations": {
+                "Ill. (Scam)": "Scam.",
                 "Ill.(Scam.)": "Scam.",
                 "Sc.": "Scam.",
-                "Scam. Rep.": "Scam.",
-                "Ill. (Scam)": "Scam."
+                "Scam. Rep.": "Scam."
             }
         }
     ],
@@ -19286,7 +19286,9 @@
                 "us:tn;supreme.court"
             ],
             "name": "Shannon's Tennessee Cases",
-            "variations": {}
+            "variations": {
+                "Tenn. Cas.": "Shan. Cas."
+            }
         }
     ],
     "Shipping Reg. (P & F)": [
