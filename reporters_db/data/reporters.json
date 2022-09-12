@@ -2341,9 +2341,7 @@
             "name": "Black's Supreme Court Reports",
             "variations": {
                 "Black R.": "Black",
-                "Black Rep.": "Black",
-                "U.S. (Black)": "Black",
-                "U.S.(Black)": "Black"
+                "Black Rep.": "Black"
             }
         }
     ],
@@ -4789,9 +4787,7 @@
             "variations": {
                 "Cra.": "Cranch",
                 "Cranch (US)": "Cranch",
-                "Cranch Rep.": "Cranch",
-                "U.S. (Cranch)": "Cranch",
-                "U.S.(Cranch)": "Cranch"
+                "Cranch Rep.": "Cranch"
             }
         },
         {
@@ -8982,9 +8978,7 @@
             "name": "Howard's Supreme Court Reports",
             "variations": {
                 "HOW": "How.",
-                "How. Rep.": "How.",
-                "U.S. (How.)": "How.",
-                "U.S.(How.)": "How."
+                "How. Rep.": "How."
             }
         }
     ],
@@ -17602,9 +17596,7 @@
                 "Pet. Rep.": "Pet.",
                 "Pet.S.C.": "Pet.",
                 "Peters": "Pet.",
-                "Peters Rep.": "Pet.",
-                "U.S. (Pet.)": "Pet.",
-                "U.S.(Pet.)": "Pet."
+                "Peters Rep.": "Pet."
             }
         }
     ],
@@ -21062,14 +21054,16 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter, at $page"
+                        "$volume $reporter, at $page",
+                        "$volume $reporter\\s*\\($volume_nominative(?P<reporter_nominative>Black|Cranch|Pet.|Wall.|How.)\\) $page"
                     ],
                     "start": "1875-01-01T00:00:00"
                 }
             },
             "examples": [
                 "515 U. S., at 314",
-                "1 U.S. 1"
+                "1 U.S. 1",
+                "67 U.S. (Black) 17"
             ],
             "mlz_jurisdiction": [
                 "us;supreme.court"
@@ -22476,7 +22470,6 @@
             ],
             "name": "Wallace's Supreme Court Reports",
             "variations": {
-                "U.S.(Wall.)": "Wall.",
                 "Wall.Rep.": "Wall.",
                 "Wall.S.C.": "Wall.",
                 "Wallace R.": "Wall."
