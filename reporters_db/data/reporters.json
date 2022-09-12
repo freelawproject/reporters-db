@@ -319,7 +319,8 @@
             "name": "Abbott, United States Circuit and District Court Reports",
             "variations": {
                 "Abb": "Abb.",
-                "Abb. Rep.": "Abb."
+                "Abb. Rep.": "Abb.",
+                "Abb. U. S.": "Abb."
             }
         }
     ],
@@ -3221,6 +3222,7 @@
             "name": "California Appellate Reports",
             "variations": {
                 "Cal. App. Rep.": "Cal. App.",
+                "Cal. App. Supp": "Cal. App.",
                 "Cal. App.2d": "Cal. App. 2d",
                 "Cal. App.3d": "Cal. App. 3d",
                 "Cal. App.4th": "Cal. App. 4th",
@@ -6464,9 +6466,18 @@
             "editions": {
                 "F. Cas.": {
                     "end": "1880-01-01T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter (p|P)age $page"
+                    ],
                     "start": "1789-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 F. Cas. 1",
+                "14 F. Cas. Page 1048",
+                "10 F. Cas. page 164"
+            ],
             "mlz_jurisdiction": [
                 "us:c10;court.appeals",
                 "us:c11;court.appeals",
@@ -6484,6 +6495,7 @@
             "variations": {
                 "F.C.": "F. Cas.",
                 "F.Cas.": "F. Cas.",
+                "Fed. Cas.": "F. Cas.",
                 "Fed.Ca.": "F. Cas."
             }
         }
@@ -7006,6 +7018,7 @@
             "notes": "https://en.wikipedia.org/wiki/Federal_Appendix, Relatively new published book.",
             "variations": {
                 "Fed. App'x": "Fed. Appx.",
+                "Fed.App'x": "Fed. Appx.",
                 "Fed.Appx.": "Fed. Appx."
             }
         }
