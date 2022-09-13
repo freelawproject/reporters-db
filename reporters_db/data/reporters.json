@@ -8657,13 +8657,14 @@
                     "end": "1836-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\(\\d{4}\\) $page"
+                        "$volume $reporter \\(\\d{4}\\,?\\) $page"
                     ],
                     "start": "1828-01-01T00:00:00"
                 }
             },
             "examples": [
                 "14 Haz. Reg. Pa. (1834) 10",
+                "14 Haz. Reg. Pa. (1834,) 10",
                 "14 Haz. Reg. Pa. 10"
             ],
             "mlz_jurisdiction": [],
