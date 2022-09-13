@@ -5312,9 +5312,7 @@
                 "Dall. Rep.": "Dall.",
                 "Dall.S.C.": "Dall.",
                 "Dallas": "Dall.",
-                "Dallas Rep.": "Dall.",
-                "U.S. (Dall.)": "Dall.",
-                "U.S.(Dall.)": "Dall."
+                "Dallas Rep.": "Dall."
             }
         },
         {
@@ -21069,7 +21067,7 @@
                     "regexes": [
                         "$full_cite",
                         "$volume $reporter, at $page",
-                        "$volume $reporter\\s*\\($volume_nominative(?P<reporter_nominative>Black|Cranch|Pet.|Wall.|How.)\\) $page"
+                        "$volume $reporter\\s*\\($volume_nominative(?P<reporter_nominative>Black|Cranch|Pet.|Wall.|How.|Wheat.|Dall.)\\) $page"
                     ],
                     "start": "1875-01-01T00:00:00"
                 }
@@ -22943,7 +22941,6 @@
             "name": "Wheaton's Supreme Court Reports",
             "notes": "Note that Wheaton was not a Free Law advocate. From Georgia v. Public.Resources.Org (SCOTUS, 2020, internal citations omitted): \"In this Court’s first copyright case, Wheaton v. Peters, the Court’s third Reporter of Decisions, Wheaton, sued the fourth, Peters, unsuccessfully asserting a copyright interest in the Justices’ opinions. In Wheaton’s view, the opinions 'must have belonged to some one' because 'they were new, original,' and much more 'elaborate' than law or custom required. Wheaton argued that the Justices were the authors and had assigned their ownership interests to him through a tacit 'gift.'\"",
             "variations": {
-                "U.S.(Wheat.)": "Wheat.",
                 "Wheat. Rep.": "Wheat.",
                 "Wheaton": "Wheat.",
                 "Wheaton Rep.": "Wheat."
