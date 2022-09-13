@@ -319,7 +319,8 @@
             "name": "Abbott, United States Circuit and District Court Reports",
             "variations": {
                 "Abb": "Abb.",
-                "Abb. Rep.": "Abb."
+                "Abb. Rep.": "Abb.",
+                "Abb. U. S.": "Abb."
             }
         }
     ],
@@ -1016,7 +1017,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "West's American Tribal Law Reporter",
-            "variations": {}
+            "variations": {
+                "Tribal": "Am. Tribal Law"
+            }
         }
     ],
     "Amer. L. Rev.": [
@@ -2339,8 +2342,7 @@
             "name": "Black's Supreme Court Reports",
             "variations": {
                 "Black R.": "Black",
-                "Black Rep.": "Black",
-                "U.S.(Black)": "Black"
+                "Black Rep.": "Black"
             }
         }
     ],
@@ -2496,7 +2498,9 @@
                 "us:ny;superior.court"
             ],
             "name": "Bosworth's Reports (14-23 New York Superior)",
-            "variations": {}
+            "variations": {
+                "Bosworth Super. Ct. Rep.": "Bosw."
+            }
         }
     ],
     "Boyce": [
@@ -3218,6 +3222,7 @@
             "name": "California Appellate Reports",
             "variations": {
                 "Cal. App. Rep.": "Cal. App.",
+                "Cal. App. Supp": "Cal. App.",
                 "Cal. App.2d": "Cal. App. 2d",
                 "Cal. App.3d": "Cal. App. 3d",
                 "Cal. App.4th": "Cal. App. 4th",
@@ -4784,8 +4789,7 @@
             "variations": {
                 "Cra.": "Cranch",
                 "Cranch (US)": "Cranch",
-                "Cranch Rep.": "Cranch",
-                "U.S.(Cranch)": "Cranch"
+                "Cranch Rep.": "Cranch"
             }
         },
         {
@@ -5308,8 +5312,7 @@
                 "Dall. Rep.": "Dall.",
                 "Dall.S.C.": "Dall.",
                 "Dallas": "Dall.",
-                "Dallas Rep.": "Dall.",
-                "U.S.(Dall.)": "Dall."
+                "Dallas Rep.": "Dall."
             }
         },
         {
@@ -5997,7 +6000,9 @@
                 "us:ny;superior.court"
             ],
             "name": "Duer's Reports (8-13 New York Superior)",
-            "variations": {}
+            "variations": {
+                "Duer Super. Ct. Rep.": "Duer"
+            }
         }
     ],
     "Duv.": [
@@ -6446,7 +6451,10 @@
             ],
             "name": "Federal Appendix",
             "variations": {
-                "F. App'x.": "F. App'x"
+                "F. App'x.": "F. App'x",
+                "F.App'x": "F. App'x",
+                "F.App'x.": "F. App'x",
+                "F.App’x.": "F. App'x"
             }
         }
     ],
@@ -6456,9 +6464,18 @@
             "editions": {
                 "F. Cas.": {
                     "end": "1880-01-01T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter (p|P)age $page"
+                    ],
                     "start": "1789-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 F. Cas. 1",
+                "14 F. Cas. Page 1048",
+                "10 F. Cas. page 164"
+            ],
             "mlz_jurisdiction": [
                 "us:c10;court.appeals",
                 "us:c11;court.appeals",
@@ -6476,6 +6493,7 @@
             "variations": {
                 "F.C.": "F. Cas.",
                 "F.Cas.": "F. Cas.",
+                "Fed. Cas.": "F. Cas.",
                 "Fed.Ca.": "F. Cas."
             }
         }
@@ -6998,6 +7016,7 @@
             "notes": "https://en.wikipedia.org/wiki/Federal_Appendix, Relatively new published book.",
             "variations": {
                 "Fed. App'x": "Fed. Appx.",
+                "Fed.App'x": "Fed. Appx.",
                 "Fed.Appx.": "Fed. Appx."
             }
         }
@@ -8242,6 +8261,7 @@
             "variations": {
                 "Hall R.": "Hall",
                 "Hall Rep.": "Hall",
+                "Hall Super. Ct. Rep.": "Hall",
                 "Hall's R.": "Hall",
                 "Hall's Sup. Court Rep.": "Hall",
                 "Hall's Sup. Ct. R.": "Hall",
@@ -8635,13 +8655,14 @@
                     "end": "1836-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\(\\d{4}\\) $page"
+                        "$volume $reporter \\(\\d{4}\\,?\\) $page"
                     ],
                     "start": "1828-01-01T00:00:00"
                 }
             },
             "examples": [
                 "14 Haz. Reg. Pa. (1834) 10",
+                "14 Haz. Reg. Pa. (1834,) 10",
                 "14 Haz. Reg. Pa. 10"
             ],
             "mlz_jurisdiction": [],
@@ -8969,8 +8990,7 @@
             "name": "Howard's Supreme Court Reports",
             "variations": {
                 "HOW": "How.",
-                "How. Rep.": "How.",
-                "U.S.(How.)": "How."
+                "How. Rep.": "How."
             }
         }
     ],
@@ -10240,7 +10260,8 @@
             ],
             "name": "Jones & Spencer's Reports (33-61 New York Superior)",
             "variations": {
-                "Jones & Spencer": "Jones & S."
+                "Jones & Spencer": "Jones & S.",
+                "Jones and Spencer's Super. Ct. Rep.": "Jones & S."
             }
         }
     ],
@@ -12216,7 +12237,8 @@
             ],
             "name": "Massachusetts Law Reporter",
             "variations": {
-                "Mass. Law Rep": "Mass. L. Rptr."
+                "Mass. Law Rep": "Mass. L. Rptr.",
+                "Mass. Law Rep.": "Mass. L. Rptr."
             }
         }
     ],
@@ -12826,6 +12848,7 @@
             "name": "Michigan Appeals Reports",
             "variations": {
                 "Mich App": "Mich. App.",
+                "Mich. Ct. App.": "Mich. App.",
                 "Mich.App.": "Mich. App."
             }
         }
@@ -15864,6 +15887,7 @@
             ],
             "name": "Ohio Circuit Court Reports",
             "variations": {
+                "Jahn": "Ohio C.C.",
                 "O.C.C.N.S.": "Ohio C.C. (n.s.)",
                 "Oh.Cir.Ct.": "Ohio C.C.",
                 "Oh.Cir.Ct.N.S.": "Ohio C.C. (n.s.)",
@@ -16533,6 +16557,23 @@
                 "us:or;supreme.court"
             ],
             "name": "LexisNexis Oregon Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Otto": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Otto": {
+                    "end": "1883-12-31T00:00:00",
+                    "start": "1875-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us;supreme.court"
+            ],
+            "name": "Otto's Reports",
+            "notes": "See http://www.indianalegalarchive.com/journal/otto for more details on Otto (the reporter)",
             "variations": {}
         }
     ],
@@ -17584,8 +17625,7 @@
                 "Pet. Rep.": "Pet.",
                 "Pet.S.C.": "Pet.",
                 "Peters": "Pet.",
-                "Peters Rep.": "Pet.",
-                "U.S.(Pet.)": "Pet."
+                "Peters Rep.": "Pet."
             }
         }
     ],
@@ -19131,6 +19171,7 @@
             ],
             "name": "Illinois Reports, Scammon",
             "variations": {
+                "Ill. (Scam)": "Scam.",
                 "Ill.(Scam.)": "Scam.",
                 "Sc.": "Scam.",
                 "Scam. Rep.": "Scam."
@@ -19266,7 +19307,9 @@
                 "us:tn;supreme.court"
             ],
             "name": "Shannon's Tennessee Cases",
-            "variations": {}
+            "variations": {
+                "Tenn. Cas.": "Shan. Cas."
+            }
         }
     ],
     "Shipping Reg. (P & F)": [
@@ -19881,7 +19924,9 @@
                 "us:ny;superior.court"
             ],
             "name": "Sweeny's Reports (31-32 New York Superior)",
-            "variations": {}
+            "variations": {
+                "Sweeney Super. Ct. Rep.": "Sweeny"
+            }
         }
     ],
     "T.B. Mon.": [
@@ -21038,26 +21083,28 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter, at $page"
+                        "$volume $reporter, at $page",
+                        "$volume $reporter\\s*\\($volume_nominative(?P<reporter_nominative>Black|Cranch|Pet.|Wall.|How.|Wheat.|Dall.)\\) $page"
                     ],
                     "start": "1875-01-01T00:00:00"
                 }
             },
             "examples": [
                 "515 U. S., at 314",
-                "1 U.S. 1"
+                "1 U.S. 1",
+                "67 U.S. (Black) 17",
+                "1 U.S. (1 Wall.) 12",
+                "1 U.S. (Wall.) 12",
+                "55 U.S. (Wheat.) 2"
             ],
             "mlz_jurisdiction": [
                 "us;supreme.court"
             ],
             "name": "United States Supreme Court Reports",
-            "notes": "Otto was the first 'anonymous' SCOTUS reporter. In theory, he shouldn't ever have citations under his name. Nevertheless, he does, so we simply consider these citations to be variations of U.S.",
+            "notes": "",
             "variations": {
-                "Otto": "U.S.",
                 "U. S.": "U.S.",
                 "U. S. Rep.": "U.S.",
-                "U.S. (Wall.)": "U.S.",
-                "U.S. (Wheat.)": "U.S.",
                 "U.S.S.C.Rep.": "U.S.",
                 "US": "U.S.",
                 "USSCR": "U.S."
@@ -22451,7 +22498,6 @@
             ],
             "name": "Wallace's Supreme Court Reports",
             "variations": {
-                "U.S.(Wall.)": "Wall.",
                 "Wall.Rep.": "Wall.",
                 "Wall.S.C.": "Wall.",
                 "Wallace R.": "Wall."
@@ -22911,7 +22957,6 @@
             "name": "Wheaton's Supreme Court Reports",
             "notes": "Note that Wheaton was not a Free Law advocate. From Georgia v. Public.Resources.Org (SCOTUS, 2020, internal citations omitted): \"In this Court’s first copyright case, Wheaton v. Peters, the Court’s third Reporter of Decisions, Wheaton, sued the fourth, Peters, unsuccessfully asserting a copyright interest in the Justices’ opinions. In Wheaton’s view, the opinions 'must have belonged to some one' because 'they were new, original,' and much more 'elaborate' than law or custom required. Wheaton argued that the Justices were the authors and had assigned their ownership interests to him through a tacit 'gift.'\"",
             "variations": {
-                "U.S.(Wheat.)": "Wheat.",
                 "Wheat. Rep.": "Wheat.",
                 "Wheaton": "Wheat.",
                 "Wheaton Rep.": "Wheat."
