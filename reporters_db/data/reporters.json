@@ -21092,7 +21092,10 @@
             "examples": [
                 "515 U. S., at 314",
                 "1 U.S. 1",
-                "67 U.S. (Black) 17"
+                "67 U.S. (Black) 17",
+                "1 U.S. (1 Wall.) 12",
+                "1 U.S. (Wall.) 12",
+                "55 U.S. (Wheat.) 2"
             ],
             "mlz_jurisdiction": [
                 "us;supreme.court"
@@ -21102,9 +21105,6 @@
             "variations": {
                 "U. S.": "U.S.",
                 "U. S. Rep.": "U.S.",
-                "U.S. (1 Wall.)": "U.S.",
-                "U.S. (Wall.)": "U.S.",
-                "U.S. (Wheat.)": "U.S.",
                 "U.S.S.C.Rep.": "U.S.",
                 "US": "U.S.",
                 "USSCR": "U.S."
