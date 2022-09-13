@@ -9087,6 +9087,21 @@
             }
         }
     ],
+    "Howison": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Howison": {
+                    "end": "1851-12-31T00:00:00",
+                    "start": "1850-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Howison's Criminal Trials",
+            "notes": "",
+            "variations": {}
+        }
+    ],
     "Hughes": [
         {
             "cite_type": "state",
