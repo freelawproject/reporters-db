@@ -16565,7 +16565,7 @@
             "cite_type": "federal",
             "editions": {
                 "Otto": {
-                    "end": "1881-12-31T00:00:00",
+                    "end": "1883-12-31T00:00:00",
                     "start": "1875-01-01T00:00:00"
                 }
             },
@@ -16573,7 +16573,7 @@
                 "us;supreme.court"
             ],
             "name": "Otto's Reports",
-            "notes": "More often cited as United States Reports, are law reports of cases from the United States Supreme Court 1875-1881, and are contained in fifteen volumes. Otto was the first 'anonymous' SCOTUS reporter. In theory, he shouldn't ever have citations under his name.",
+            "notes": "See http://www.indianalegalarchive.com/journal/otto for more details on Otto (the reporter)",
             "variations": {}
         }
     ],
