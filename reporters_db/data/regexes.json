@@ -54,6 +54,8 @@
         "with_commas_and_suffix#": "Page number that allows internal commas, plus optional alpha character appended",
         "with_commas_or_periods": "(?P<page>\\d(?:[\\d,.]*\\d)?)",
         "with_commas_or_periods#": "Page number that allows internal punctuation",
+        "with_letter": "(?P<page>\\d+\\w)",
+        "with_letter#": "Page number followed by a letter",
         "with_periods": "(?P<page>\\d(?:[\\d.]*\\d)?)",
         "with_periods#": "Page number that allows internal periods, like '1234.56'",
         "with_roman_numerals": "(?P<page>[cC]?(?:[xX][cC]|[xX][lL]|[lL]?[xX]{1,3})(?:[iI][xX]|[iI][vV]|[vV]?[iI]{0,3})|(?:[cC]?[lL]?)(?:[iI][xX]|[iI][vV]|[vV]?[iI]{1,3})|(?:[lL][vV]|[cC][vV]|[cC][lL]|[cC][lL][vV]))",
