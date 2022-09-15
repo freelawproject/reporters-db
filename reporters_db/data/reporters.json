@@ -3155,6 +3155,10 @@
                     "end": "1991-12-31T00:00:00",
                     "start": "1969-01-01T00:00:00"
                 },
+                "Cal. 3d Spec. Trib Supp.": {
+                    "end": "1991-12-31T00:00:00",
+                    "start": "1969-01-01T00:00:00"
+                },
                 "Cal. 4th": {
                     "end": null,
                     "start": "1991-01-01T00:00:00"
@@ -13712,6 +13716,30 @@
             "variations": {}
         }
     ],
+    "N.B.R. (Supp.)": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "N.B.R. (Supp.)": {
+                    "end": null,
+                    "regexes": [
+                        "$full_cite_single_volume"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Bankr. Reg. Supp. 46",
+                "Bankr. Reg. Supp. 14",
+                "Bankr. Reg. Supp. 19"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "National Bankruptcy Register Reports, Supplement",
+            "variations": {
+                "Bankr. Reg. Supp.": "N.B.R. (Supp.)"
+            }
+        }
+    ],
     "N.C.": [
         {
             "cite_type": "state",
@@ -22534,9 +22562,17 @@
             "editions": {
                 "Wall.": {
                     "end": "1874-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$reporter,? (p.)? $page"
+                    ],
                     "start": "1863-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "487 Wall. 141",
+                "Wallace R., p. 573"
+            ],
             "mlz_jurisdiction": [
                 "us;supreme.court"
             ],
