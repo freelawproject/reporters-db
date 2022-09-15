@@ -533,6 +533,7 @@
             ],
             "name": "Alabama Reports",
             "variations": {
+                "Ala. (N.S.)": "Ala.",
                 "Ala. Rep.": "Ala."
             }
         }
@@ -958,6 +959,21 @@
                 "Am. Reports": "Am. Rep.",
                 "Am.Rep.": "Am. Rep."
             }
+        }
+    ],
+    "Am. Ry. Rep.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Am. Ry. Rep.": {
+                    "end": "1881-12-31T00:00:00",
+                    "start": "1873-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American Railway Reports",
+            "notes": "",
+            "variations": {}
         }
     ],
     "Am. Samoa": [
@@ -15962,6 +15978,7 @@
                 "Oh.Cir.Ct.": "Ohio C.C.",
                 "Oh.Cir.Ct.N.S.": "Ohio C.C. (n.s.)",
                 "Ohio C.C. (N.S.)": "Ohio C.C. (n.s.)",
+                "Ohio C.C. (n.s.)": "Ohio C.C. (n.s.)",
                 "Ohio C.C.(n.s.)": "Ohio C.C. (n.s.)",
                 "Ohio C.C.N.S.": "Ohio C.C. (n.s.)",
                 "Ohio C.C.R.": "Ohio C.C.",
