@@ -19525,7 +19525,6 @@
             "name": "Southern Reporter",
             "variations": {
                 "(So. 2nd)": "So. 2d",
-                "S.": "So.",
                 "S. (2nd)": "So. 2d",
                 "SO.": "So.",
                 "So (2nd)": "So. 2d",
@@ -21098,14 +21097,12 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter, at $page",
                         "$volume $reporter\\s*\\($volume_nominative(?P<reporter_nominative>Black|Cranch|Pet.|Wall.|How.|Wheat.|Dall.)\\) $page"
                     ],
                     "start": "1875-01-01T00:00:00"
                 }
             },
             "examples": [
-                "515 U. S., at 314",
                 "1 U.S. 1",
                 "67 U.S. (Black) 17",
                 "1 U.S. (1 Wall.) 12",
