@@ -16993,7 +16993,7 @@
                 "Pa.": {
                     "end": null,
                     "regexes": [
-                        "(?P<volume>\\d+|81 ?\\*|81 1/2|\\* ?81|81 ?½) $reporter,? $page",
+                        "(?P<volume>\\d+|81 ?\\*|\\* ?81) $reporter,? $page",
                         "$volume $reporter $page_with_letter"
                     ],
                     "start": "1845-01-01T00:00:00"
@@ -17001,8 +17001,6 @@
             },
             "examples": [
                 "1 Pa. 1",
-                "81½ Pa. 9",
-                "81 1/2 Pa. 9",
                 "81* Pa. 57",
                 "81 * Pa. 57",
                 "*81 Pa. 57",
