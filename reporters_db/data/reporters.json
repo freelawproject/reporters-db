@@ -842,7 +842,8 @@
             "name": "American Law Register",
             "variations": {
                 "Am. L. Reg., n.s.": "Am. Law Reg. (N.S.)",
-                "Amer. Law Reg.": "Am. Law Reg."
+                "Amer. Law Reg.": "Am. Law Reg.",
+                "Amer. Law Reg. (N. S.)": "Am. Law Reg. (N.S.)"
             }
         }
     ],
@@ -1028,9 +1029,17 @@
             "editions": {
                 "Amer. L. Rev.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\(\\d{4}\\,?\\) $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2 Amer. Law Rev. (1868,) 346",
+                "40 Amer. L. Rev. 64"
+            ],
             "mlz_jurisdiction": [
                 "us:c2:ny.nd;district.court"
             ],
@@ -1071,6 +1080,25 @@
                 "Anth.": "Ant. N.P. Cas.",
                 "Anthon N.P.(N.Y.)": "Ant. N.P. Cas."
             }
+        }
+    ],
+    "App. Com'r Pat.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "App. Com'r Pat.": {
+                    "end": null,
+                    "start": "1881-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "3 App. Com'r Pat. 384",
+                "3 App. Com'r Pat. 353",
+                "3 App. Com'r Pat. 287"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Appeals from the Commissioner of Patents",
+            "variations": {}
         }
     ],
     "App. D.C.": [
@@ -3674,6 +3702,25 @@
             }
         }
     ],
+    "Cent. Law J.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Cent. Law J.": {
+                    "end": "1927-12-31T00:00:00",
+                    "start": "1874-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "3 Cent. Law. J. 333"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Central Law Journal",
+            "variations": {
+                "Cent. Law. J.": "Cent. Law J."
+            }
+        }
+    ],
     "Chand.": [
         {
             "cite_type": "state",
@@ -4282,6 +4329,25 @@
                 "us:co;supreme.court"
             ],
             "name": "LexisNexis Colorado Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Colo. N. P.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Colo. N. P.": {
+                    "end": "1902-12-31T00:00:00",
+                    "start": "1898-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Colo. N. P. 102",
+                "1 Colo. N. P. 160",
+                "1 Colo. N. P. 307"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Colorado Nisi Prius Decisions",
             "variations": {}
         }
     ],
@@ -13180,6 +13246,7 @@
                 "Misc": "Misc.",
                 "Misc 2d": "Misc. 2d",
                 "Misc 3d": "Misc. 3d",
+                "Misc Rep": "Misc.",
                 "Misc Rep.": "Misc.",
                 "Misc. Rep": "Misc.",
                 "Misc. Rep.": "Misc.",
@@ -14918,7 +14985,10 @@
                 "us:nd;court.appeals"
             ],
             "name": "North Dakota Neutral Citation, Court of Appeals",
-            "variations": {}
+            "variations": {
+                "N.D.App.": "ND App",
+                "ND APP": "ND App"
+            }
         }
     ],
     "NDLR": [
@@ -18896,6 +18966,7 @@
                 "S. E. 2d": "S.E.2d",
                 "S. E. Rep.": "S.E.",
                 "S. E.2d": "S.E.2d",
+                "S.E. (2d)": "S.E.2d",
                 "S.E. 2d": "S.E.2d",
                 "S.E. Rep.": "S.E.",
                 "S.E.2d.": "S.E.2d",
@@ -19874,6 +19945,7 @@
             "mlz_jurisdiction": [],
             "name": "Sumner's United States (US) Circuit Court Reports",
             "variations": {
+                "Sum.": "Sumn.",
                 "Sumn. Rep.": "Sumn."
             }
         }
@@ -22202,9 +22274,17 @@
             "editions": {
                 "W.L.M.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\(\\d{4}\\,?\\) $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "8 West. Law Month. 949",
+                "1 West. Law Month. (1859,) 53"
+            ],
             "mlz_jurisdiction": [],
             "name": "Western Law Monthly (OH)",
             "variations": {
