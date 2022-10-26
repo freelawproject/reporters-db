@@ -13718,20 +13718,6 @@
             "variations": {}
         }
     ],
-    "N.B.R.": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "N.B.R.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [],
-            "name": "National Bankruptcy Register Reports",
-            "variations": {}
-        }
-    ],
     "N.B.R. (Supp.)": [
         {
             "cite_type": "specialty",
@@ -15149,12 +15135,12 @@
             "cite_type": "specialty",
             "editions": {
                 "Nat. Bank. Reg.": {
-                    "end": null,
+                    "end": "1882-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
                         "$full_cite_year_included"
                     ],
-                    "start": "1978-01-01T00:00:00"
+                    "start": "1867-01-01T00:00:00"
                 }
             },
             "examples": [
@@ -15272,6 +15258,7 @@
                 "N. Bk. R.": "Nat. Bank. Reg.",
                 "N. Bkpt. R.": "Nat. Bank. Reg.",
                 "N. Bkpt. Reg.": "Nat. Bank. Reg.",
+                "N.B.R.": "Nat. Bank. Reg.",
                 "Nat. Bankr. Reg.": "Nat. Bank. Reg."
             }
         }
