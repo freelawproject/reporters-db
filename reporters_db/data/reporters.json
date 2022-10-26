@@ -1098,7 +1098,9 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Appeals from the Commissioner of Patents",
-            "variations": {}
+            "variations": {
+                "App. Comr. Pat.": "App. Com'r Pat."
+            }
         }
     ],
     "App. D.C.": [
@@ -2449,6 +2451,27 @@
             "variations": {}
         }
     ],
+    "Blatchf. Pr. Cas.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Blatchf. Pr. Cas.": {
+                    "end": "1865-12-31T00:00:00",
+                    "regexes": [
+                        "$reporter $page"
+                    ],
+                    "start": "1861-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Blatchf. Pr. Cas. 132",
+                "Blatchf. Pr. Cas. 40"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Blatchford's United States District Court Prize Cases",
+            "variations": {}
+        }
+    ],
     "Blue Sky L. Rep. (CCH)": [
         {
             "cite_type": "specialty",
@@ -3653,34 +3676,27 @@
             "editions": {
                 "Car. L. Rep.": {
                     "end": "1816-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$reporter $page"
+                    ],
                     "start": "1811-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2 Car. L. Rep. 440",
+                "Car. Law Repos. 204",
+                "1 Car. Law Repos. 385"
+            ],
             "mlz_jurisdiction": [
                 "us:nc;supreme.court"
             ],
             "name": "Carolina Law Repository",
             "variations": {
+                "Car. Law Repos.": "Car. L. Rep.",
+                "Car. Law. Repos.": "Car. L. Rep.",
                 "Car.Law.Repos.": "Car. L. Rep.",
                 "N.C.(Car.L.Rep.)": "Car. L. Rep."
-            }
-        }
-    ],
-    "Car. Law Repos.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Car. Law Repos.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [
-                "us:nc;supreme.court"
-            ],
-            "name": "Carolina Law Repository (N. C.)",
-            "variations": {
-                "Car. Law. Repos.": "Car. Law Repos."
             }
         }
     ],
@@ -8335,6 +8351,25 @@
             }
         }
     ],
+    "Hall, Law J.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Hall, Law J.": {
+                    "end": "1817-12-31T00:00:00",
+                    "start": "1808-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "4 Hall. Law J. 488",
+                "1 Hall, Law J. 36"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Hall's Law Journal",
+            "notes": "Also known as American Law Journal, Hall's (Amer. Law J.)",
+            "variations": {}
+        }
+    ],
     "Handy": [
         {
             "cite_type": "state",
@@ -8733,6 +8768,23 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Hazard's Pennsylvania Register",
+            "variations": {}
+        }
+    ],
+    "Haz. U. S. Reg.": [
+        {
+            "cite_type": "scotus_early",
+            "editions": {
+                "Haz. U. S. Reg.": {
+                    "end": null,
+                    "start": "1839-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Haz. U. S. Reg. 87"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Hazard's United States Register",
             "variations": {}
         }
     ],
@@ -20263,10 +20315,18 @@
             "cite_type": "federal",
             "editions": {
                 "Taney": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
+                    "end": "1861-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter, $page"
+                    ],
+                    "start": "1836-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Taney, 400",
+                "Taney, 11",
+                "1 Taney, 440"
+            ],
             "mlz_jurisdiction": [],
             "name": "Taney's United States (US) Circuit Court Reports",
             "variations": {}
