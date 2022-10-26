@@ -16980,7 +16980,7 @@
                 "Pa.": {
                     "end": null,
                     "regexes": [
-                        "(?P<volume>\\d+|81 ?\\*|\\* ?81) $reporter,? $page",
+                        "$full_cite",
                         "$volume $reporter $page_with_letter"
                     ],
                     "start": "1845-01-01T00:00:00"
@@ -16988,9 +16988,6 @@
             },
             "examples": [
                 "1 Pa. 1",
-                "81* Pa. 57",
-                "81 * Pa. 57",
-                "*81 Pa. 57",
                 "323 Pa. 560a"
             ],
             "mlz_jurisdiction": [
