@@ -14504,6 +14504,22 @@
             "variations": {}
         }
     ],
+    "N.M. Ct. App.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.M. Ct. App.": {
+                    "end": null,
+                    "start": "1966-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "New Mexico Court of Appeals",
+            "variations": {
+                "N.M. (Ct. App.)": "N.M. Ct. App."
+            }
+        }
+    ],
     "N.M. LEXIS": [
         {
             "cite_type": "state",
