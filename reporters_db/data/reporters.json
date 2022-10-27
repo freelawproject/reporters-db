@@ -533,6 +533,7 @@
             ],
             "name": "Alabama Reports",
             "variations": {
+                "Ala. (N.S.)": "Ala.",
                 "Ala. Rep.": "Ala."
             }
         }
@@ -961,6 +962,21 @@
             }
         }
     ],
+    "Am. Ry. Rep.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Am. Ry. Rep.": {
+                    "end": "1881-12-31T00:00:00",
+                    "start": "1873-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American Railway Reports",
+            "notes": "",
+            "variations": {}
+        }
+    ],
     "Am. Samoa": [
         {
             "cite_type": "state",
@@ -1109,9 +1125,17 @@
             "editions": {
                 "App. D.C.": {
                     "end": "1941-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1893-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "44 App. D.C. 154b",
+                "48 App. D.C. 606"
+            ],
             "mlz_jurisdiction": [
                 "us:dc;court.appeals"
             ],
@@ -3198,6 +3222,10 @@
                     "end": "1991-12-31T00:00:00",
                     "start": "1969-01-01T00:00:00"
                 },
+                "Cal. 3d Spec. Trib Supp.": {
+                    "end": "1991-12-31T00:00:00",
+                    "start": "1969-01-01T00:00:00"
+                },
                 "Cal. 4th": {
                     "end": null,
                     "start": "1991-01-01T00:00:00"
@@ -3272,6 +3300,7 @@
             ],
             "name": "California Appellate Reports",
             "variations": {
+                "Cal. App. 2d Supp": "Cal. App. 2d",
                 "Cal. App. Rep.": "Cal. App.",
                 "Cal. App. Supp": "Cal. App.",
                 "Cal. App.2d": "Cal. App. 2d",
@@ -7579,9 +7608,17 @@
             "editions": {
                 "Fla.": {
                     "end": "1948-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1846-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "95 Fla. 736a",
+                "128 Fla. 1"
+            ],
             "mlz_jurisdiction": [
                 "us:fl;supreme.court"
             ],
@@ -7836,7 +7873,8 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "(?P<volume>33) $reporter (?P<supp>Supp\\.) $page"
+                        "(?P<volume>33) $reporter (?P<supp>Supp\\.) $page",
+                        "$volume $reporter $page_with_letter"
                     ],
                     "start": "1846-01-01T00:00:00"
                 }
@@ -7844,7 +7882,8 @@
             "examples": [
                 "1 Ga. 1",
                 "33 Ga. Supp. 9",
-                "33 Suppl. Ga. 29"
+                "33 Suppl. Ga. 29",
+                "246 Ga. 822a"
             ],
             "mlz_jurisdiction": [
                 "us:ga;supreme.court"
@@ -9807,9 +9846,17 @@
             "editions": {
                 "Ill. Ct. Cl.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1889-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "7 Ill. Ct. Cl. 156a",
+                "49 Ill. Ct. Cl. 42"
+            ],
             "mlz_jurisdiction": [
                 "us:il;supreme.court"
             ],
@@ -13790,18 +13837,28 @@
             "variations": {}
         }
     ],
-    "N.B.R.": [
+    "N.B.R. (Supp.)": [
         {
             "cite_type": "specialty",
             "editions": {
-                "N.B.R.": {
+                "N.B.R. (Supp.)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_single_volume"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Bankr. Reg. Supp. 46",
+                "Bankr. Reg. Supp. 14",
+                "Bankr. Reg. Supp. 19"
+            ],
             "mlz_jurisdiction": [],
-            "name": "National Bankruptcy Register Reports",
-            "variations": {}
+            "name": "National Bankruptcy Register Reports, Supplement",
+            "variations": {
+                "Bankr. Reg. Supp.": "N.B.R. (Supp.)"
+            }
         }
     ],
     "N.C.": [
@@ -15201,12 +15258,12 @@
             "cite_type": "specialty",
             "editions": {
                 "Nat. Bank. Reg.": {
-                    "end": null,
+                    "end": "1882-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
                         "$full_cite_year_included"
                     ],
-                    "start": "1978-01-01T00:00:00"
+                    "start": "1867-01-01T00:00:00"
                 }
             },
             "examples": [
@@ -15324,6 +15381,7 @@
                 "N. Bk. R.": "Nat. Bank. Reg.",
                 "N. Bkpt. R.": "Nat. Bank. Reg.",
                 "N. Bkpt. Reg.": "Nat. Bank. Reg.",
+                "N.B.R.": "Nat. Bank. Reg.",
                 "Nat. Bankr. Reg.": "Nat. Bank. Reg."
             }
         }
@@ -17046,18 +17104,15 @@
                 "Pa.": {
                     "end": null,
                     "regexes": [
-                        "(?P<volume>\\d+|81 ?\\*|81 1/2|\\* ?81|81 ?½) $reporter,? $page"
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
                     ],
                     "start": "1845-01-01T00:00:00"
                 }
             },
             "examples": [
                 "1 Pa. 1",
-                "81½ Pa. 9",
-                "81 1/2 Pa. 9",
-                "81* Pa. 57",
-                "81 * Pa. 57",
-                "*81 Pa. 57"
+                "323 Pa. 560a"
             ],
             "mlz_jurisdiction": [
                 "us:pa;supreme.court"
@@ -22645,9 +22700,17 @@
             "editions": {
                 "Wall.": {
                     "end": "1874-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$reporter,? p. $page"
+                    ],
                     "start": "1863-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "487 Wall. 141",
+                "Wallace R., p. 573"
+            ],
             "mlz_jurisdiction": [
                 "us;supreme.court"
             ],
