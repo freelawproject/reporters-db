@@ -20743,6 +20743,22 @@
             "variations": {}
         }
     ],
+    "Tenn. Leg. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tenn. Leg. Rep.": {
+                    "end": "1879-12-31T00:00:00",
+                    "start": "1877-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Tennessee Legal Reporter",
+            "variations": {
+                "Leg. Rep.": "Tenn. Leg. Rep."
+            }
+        }
+    ],
     "Terry": [
         {
             "cite_type": "state",
