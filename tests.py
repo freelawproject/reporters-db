@@ -29,6 +29,7 @@ VALID_CITE_TYPES = (
     "specialty_lexis",
     "state",
     "state_regional",
+    "treaty",
 )
 
 

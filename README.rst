@@ -134,7 +134,7 @@ A complete data point has fields like so:
 
     "$citation": [
         {
-            "cite_type": "state|federal|neutral|specialty|specialty_west|specialty_lexis|state_regional|scotus_early",
+            "cite_type": "state|federal|neutral|specialty|specialty_west|specialty_lexis|state_regional|scotus_early|treaty",
             "editions": {
                 "$citation": {
                     "end": null,

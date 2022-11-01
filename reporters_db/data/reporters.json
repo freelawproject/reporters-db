@@ -2280,6 +2280,26 @@
             }
         }
     ],
+    "Bevans": [
+        {
+            "cite_type": "treaty",
+            "editions": {
+                "Bevans": {
+                    "end": "1949-12-31T23:59:59",
+                    "start": "1776-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "4 Bevans 828"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T6",
+            "mlz_jurisdiction": [
+                "us:federal"
+            ],
+            "name": "Bevans",
+            "variations": {}
+        }
+    ],
     "Bibb": [
         {
             "cite_type": "state",
@@ -4618,6 +4638,24 @@
                 "Connoly Sur. Rep.": "Connoly",
                 "Connoly Surr. Rep.": "Connoly"
             }
+        }
+    ],
+    "Consol. T.S.": [
+        {
+            "cite_type": "treaty",
+            "editions": {
+                "Consol. T.S.": {
+                    "end": "1919-12-31T23:59:59",
+                    "start": "1648-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "212 Consol. T.S. 178"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T6",
+            "mlz_jurisdiction": [],
+            "name": "Parry’s Consolidated Treaty Series",
+            "variations": {}
         }
     ],
     "Consumer Cred. Guide (CCH)": [
@@ -9309,6 +9347,24 @@
             }
         }
     ],
+    "I.L.M.": [
+        {
+            "cite_type": "treaty",
+            "editions": {
+                "I.L.M.": {
+                    "end": null,
+                    "start": "1962-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "23 I.L.M. 1027"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T6",
+            "mlz_jurisdiction": [],
+            "name": "International Legal Materials",
+            "variations": {}
+        }
+    ],
     "I.R.B.": [
         {
             "cite_type": "federal",
@@ -10788,6 +10844,24 @@
                 "U.S.L.Ed.2d": "L. Ed. 2d",
                 "U.S.Law.Ed.": "L. Ed."
             }
+        }
+    ],
+    "L.N.T.S.": [
+        {
+            "cite_type": "treaty",
+            "editions": {
+                "L.N.T.S.": {
+                    "end": "1945-12-31T23:59:59",
+                    "start": "1920-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "137 L.N.T.S. 11"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T6",
+            "mlz_jurisdiction": [],
+            "name": "League of Nations Treaty Series",
+            "variations": {}
         }
     ],
     "L.R.A.": [
@@ -15556,6 +15630,24 @@
                 "O. Supp": "O. Supp.",
                 "Ohio Supp.": "O. Supp."
             }
+        }
+    ],
+    "O.A.S.T.S.": [
+        {
+            "cite_type": "treaty",
+            "editions": {
+                "O.A.S.T.S.": {
+                    "end": null,
+                    "start": "1970-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "36 O.A.S.T.S. 1"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T6",
+            "mlz_jurisdiction": [],
+            "name": "Organization of American States Treaty Series",
+            "variations": {}
         }
     ],
     "O.B.A.J.": [
@@ -21144,6 +21236,24 @@
             }
         }
     ],
+    "U.N.T.S.": [
+        {
+            "cite_type": "treaty",
+            "editions": {
+                "U.N.T.S.": {
+                    "end": null,
+                    "start": "1946-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "213 U.N.T.S. 221"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T6",
+            "mlz_jurisdiction": [],
+            "name": "United Nations Treaty Series",
+            "variations": {}
+        }
+    ],
     "U.S.": [
         {
             "cite_type": "federal",
@@ -21540,6 +21650,26 @@
                 "USPQ 2d": "U.S.P.Q. 2d (BNA)",
                 "USPQ 2d (BNA)": "U.S.P.Q. 2d (BNA)"
             }
+        }
+    ],
+    "U.S.T.": [
+        {
+            "cite_type": "treaty",
+            "editions": {
+                "U.S.T.": {
+                    "end": null,
+                    "start": "1950-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "19 U.S.T. 6223"
+            ],
+            "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T6",
+            "mlz_jurisdiction": [
+                "us:federal"
+            ],
+            "name": "United States Treaties and Other International Agreements",
+            "variations": {}
         }
     ],
     "USCMA": [
