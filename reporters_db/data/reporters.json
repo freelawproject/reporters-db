@@ -7040,10 +7040,14 @@
                     "start": "2001-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "66 F. App’x 164"
+            ],
             "mlz_jurisdiction": [],
             "name": "West's Federal Appendix",
             "notes": "https://en.wikipedia.org/wiki/Federal_Appendix, Relatively new published book.",
             "variations": {
+                "F. App’x": "Fed. Appx.",
                 "Fed. App'x": "Fed. Appx.",
                 "Fed.App'x": "Fed. Appx.",
                 "Fed.Appx.": "Fed. Appx."
