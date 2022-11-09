@@ -52,6 +52,72 @@ Along the way, small and subtle improvements have been made as gaps were identif
 
 The result is that this database should thus be very complete when it comes to reporter abbreviations and variations. It has the data from CourtListener, two major legal publishers, and Harvard's Case.law. Hundreds of hours have gone into this database to make it complete.
 
+
+Installation (Python)
+=====================
+
+You can install the Free Law Reporters Database with a few simple
+commands:
+
+::
+
+    pip install reporters-db
+
+Of course, if you're not using Python, the data is in the ``json``
+format, so you should be able to import it using your language of
+choice. People occasionally play with converting this to other languages, but
+no other implementations are presently known.
+
+
+API
+===
+Using this database is pretty simple. As this is a database, here are no
+public methods or classes, only variables. Importing any of these these
+variables loads them all, including loading several JSON files from disk. It is
+therefore recommended not to load these variables more than necessary.
+
+The simplest way to understand this data is to simply import these variables
+and look at them.
+
+All variables are imported from the package root as follows:
+
+::
+
+    from reporters_db import REPORTERS
+
+The available variables are:
+
+ - ``REPORTERS`` — This is the main database and contains a huge dict of
+reporters as described below.
+
+ - ``LAWS`` — Our database of statutory abbreviations, mapping the statute
+abbreviations to their metadata. For example ``Ark. Reg`` is the abbreviation
+for the ``Arkansas Register``.
+
+ - ``JOURNALS`` — Same idea as ``LAWS``, but for legal journal abbreviations.
+
+ - ``STATE_ABBREVIATIONS`` — Bluebook style abbreviations for each state. For
+example, ``Ala.`` for Alaska and ``Haw.`` for Hawaii.
+
+ - ``CASE_NAME_ABBREVIATIONS`` — Bluebook style abbreviations for common words,
+mapping each abbreviation to a list of possible words. For example, ``Admin``
+maps to ``["Administrative", "Administration"]``.
+
+A few specialized reporter-related variables are:
+
+ - ``VARIATIONS_ONLY`` — This contains a dict mapping a canonical reporter
+abbreviation to a list of possible variations it could represent. For example,
+``A. 2d`` sometimes incorrectly lacks a space, and has a variation list of
+``["A.2d"]``. ``P.R.`` could be ``["Pen. & W.", "P.R.R.", "P."]``.
+
+ - ``EDITIONS`` — A simple dict to map the abbreviations for each reporter
+edition to the canonical reporter. For example, ``A.2d`` maps to ``A.``.
+
+ - ``NAMES_TO_EDITIONS`` — A simple dict to map the name of a reporter back to
+its canonilcal abbreviations. For example, ``Atlantic Reporter`` maps to
+``['A.', 'A.2d']``.
+
+
 CSV
 ===
 
@@ -204,34 +270,6 @@ Notes on Specific Data Point and References
    use the citation "P.R."
 
 
-Installation (Python)
-=====================
-
-You can install the Free Law Reporters Database with a few simple
-commands:
-
-::
-
-    pip install reporters-db
-
-Once installed you can use it in your code with something like:
-
-::
-
-    from reporters_db import REPORTERS
-
-You can see all of the variables that can be imported by looking in
-``__init__.py``. Other variables currently include:
-``STATE_ABBREVIATIONS``, ``CASE_NAME_ABBREVIATIONS``, ``SPECIAL_FORMATS``,
-``VARIATIONS_ONLY``, and ``EDITIONS``. These latter two are convenience
-variables that you can use to get different views of the ``REPORTERS``
-data.
-
-Of course, if you're not using Python, the data is in the ``json``
-format, so you should be able to import it using your language of
-choice.
-
-
 Tests
 =====
 
@@ -245,7 +283,6 @@ with:
     python tests.py
 
 It's pretty simple, right?
-
 
 
 Releases
