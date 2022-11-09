@@ -30,8 +30,8 @@ unofficial CSV (it's usually out of date).
 
 Naturally, converting several centuries' history into clean data results
 in a mess, but we've done our best and this mess is in use in a number
-of projects as listed below. As of version 2.0, this data contains information
-about 733 reporters, including 1,466 name variations, and 830 editions.
+of projects as listed below. As of version 3.2.32, this data contains information
+about 1,167 reporters and 2,102 name variations.
 
 We hope you'll find this useful to your endeavors and that you'll share
 your work with the community if you improve or use this work.
