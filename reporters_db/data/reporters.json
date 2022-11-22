@@ -374,7 +374,8 @@
                 "A.N.C.": "Abb. N. Cas.",
                 "Abb. N. C.": "Abb. N. Cas.",
                 "Abb.N. Cas.": "Abb. N. Cas.",
-                "Abb.N.C.": "Abb. N. Cas."
+                "Abb.N.C.": "Abb. N. Cas.",
+                "Abb.N.Cas.": "Abb. N. Cas."
             }
         }
     ],
@@ -843,7 +844,8 @@
             "name": "American Law Register",
             "variations": {
                 "Am. L. Reg., n.s.": "Am. Law Reg. (N.S.)",
-                "Amer. Law Reg.": "Am. Law Reg."
+                "Amer. Law Reg.": "Am. Law Reg.",
+                "Amer. Law Reg. (N. S.)": "Am. Law Reg. (N.S.)"
             }
         }
     ],
@@ -1044,9 +1046,17 @@
             "editions": {
                 "Amer. L. Rev.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\(\\d{4}\\,?\\) $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2 Amer. Law Rev. (1868,) 346",
+                "40 Amer. L. Rev. 64"
+            ],
             "mlz_jurisdiction": [
                 "us:c2:ny.nd;district.court"
             ],
@@ -1086,6 +1096,27 @@
             "variations": {
                 "Anth.": "Ant. N.P. Cas.",
                 "Anthon N.P.(N.Y.)": "Ant. N.P. Cas."
+            }
+        }
+    ],
+    "App. Com'r Pat.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "App. Com'r Pat.": {
+                    "end": null,
+                    "start": "1881-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "3 App. Com'r Pat. 384",
+                "3 App. Com'r Pat. 353",
+                "3 App. Com'r Pat. 287"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Appeals from the Commissioner of Patents",
+            "variations": {
+                "App. Comr. Pat.": "App. Com'r Pat."
             }
         }
     ],
@@ -1276,13 +1307,16 @@
                 "Ark.": {
                     "end": "2008-12-31T00:00:00",
                     "regexes": [
-                        "(?P<volume>\\d{1,3}) $reporter $page"
+                        "(?P<volume>\\d{1,3}) $reporter $page",
+                        "$volume $reporter $page_with_letter"
                     ],
                     "start": "1837-01-01T00:00:00"
                 }
             },
             "examples": [
-                "298 Ark. 1"
+                "298 Ark. 1",
+                "244 Ark. 1028A",
+                "244 Ark. 890A"
             ],
             "mlz_jurisdiction": [
                 "us:ar;supreme.court"
@@ -2442,6 +2476,27 @@
             },
             "mlz_jurisdiction": [],
             "name": "Blatchford and Howland's Reports.",
+            "variations": {}
+        }
+    ],
+    "Blatchf. Pr. Cas.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Blatchf. Pr. Cas.": {
+                    "end": "1865-12-31T00:00:00",
+                    "regexes": [
+                        "$reporter $page"
+                    ],
+                    "start": "1861-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Blatchf. Pr. Cas. 132",
+                "Blatchf. Pr. Cas. 40"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Blatchford's United States District Court Prize Cases",
             "variations": {}
         }
     ],
@@ -3654,34 +3709,27 @@
             "editions": {
                 "Car. L. Rep.": {
                     "end": "1816-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$reporter $page"
+                    ],
                     "start": "1811-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2 Car. L. Rep. 440",
+                "Car. Law Repos. 204",
+                "1 Car. Law Repos. 385"
+            ],
             "mlz_jurisdiction": [
                 "us:nc;supreme.court"
             ],
             "name": "Carolina Law Repository",
             "variations": {
+                "Car. Law Repos.": "Car. L. Rep.",
+                "Car. Law. Repos.": "Car. L. Rep.",
                 "Car.Law.Repos.": "Car. L. Rep.",
                 "N.C.(Car.L.Rep.)": "Car. L. Rep."
-            }
-        }
-    ],
-    "Car. Law Repos.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Car. Law Repos.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [
-                "us:nc;supreme.court"
-            ],
-            "name": "Carolina Law Repository (N. C.)",
-            "variations": {
-                "Car. Law. Repos.": "Car. Law Repos."
             }
         }
     ],
@@ -3700,6 +3748,25 @@
             "name": "Cates' Reports (109-127 Tennessee Reports)",
             "variations": {
                 "Cates": "Cates."
+            }
+        }
+    ],
+    "Cent. Law J.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Cent. Law J.": {
+                    "end": "1927-12-31T00:00:00",
+                    "start": "1874-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "3 Cent. Law. J. 333"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Central Law Journal",
+            "variations": {
+                "Cent. Law. J.": "Cent. Law J."
             }
         }
     ],
@@ -4311,6 +4378,25 @@
                 "us:co;supreme.court"
             ],
             "name": "LexisNexis Colorado Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Colo. N. P.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Colo. N. P.": {
+                    "end": "1902-12-31T00:00:00",
+                    "start": "1898-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Colo. N. P. 102",
+                "1 Colo. N. P. 160",
+                "1 Colo. N. P. 307"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Colorado Nisi Prius Decisions",
             "variations": {}
         }
     ],
@@ -8312,6 +8398,25 @@
             }
         }
     ],
+    "Hall, Law J.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Hall, Law J.": {
+                    "end": "1817-12-31T00:00:00",
+                    "start": "1808-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "4 Hall. Law J. 488",
+                "1 Hall, Law J. 36"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Hall's Law Journal",
+            "notes": "Also known as American Law Journal, Hall's (Amer. Law J.)",
+            "variations": {}
+        }
+    ],
     "Handy": [
         {
             "cite_type": "state",
@@ -8710,6 +8815,23 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Hazard's Pennsylvania Register",
+            "variations": {}
+        }
+    ],
+    "Haz. U. S. Reg.": [
+        {
+            "cite_type": "scotus_early",
+            "editions": {
+                "Haz. U. S. Reg.": {
+                    "end": null,
+                    "start": "1839-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Haz. U. S. Reg. 87"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Hazard's United States Register",
             "variations": {}
         }
     ],
@@ -12581,9 +12703,17 @@
             "editions": {
                 "Md.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1851-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "253 Md. 1",
+                "299 Md. 447a"
+            ],
             "mlz_jurisdiction": [
                 "us:md;court.appeals"
             ],
@@ -13231,6 +13361,7 @@
                 "Misc": "Misc.",
                 "Misc 2d": "Misc. 2d",
                 "Misc 3d": "Misc. 3d",
+                "Misc Rep": "Misc.",
                 "Misc Rep.": "Misc.",
                 "Misc. Rep": "Misc.",
                 "Misc. Rep.": "Misc.",
@@ -14378,6 +14509,22 @@
             "variations": {}
         }
     ],
+    "N.M. Ct. App.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.M. Ct. App.": {
+                    "end": null,
+                    "start": "1966-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "New Mexico Court of Appeals",
+            "variations": {
+                "N.M. (Ct. App.)": "N.M. Ct. App."
+            }
+        }
+    ],
     "N.M. LEXIS": [
         {
             "cite_type": "state",
@@ -14503,6 +14650,7 @@
             "variations": {
                 "N W. Rep.": "N.W.",
                 "N. W.": "N.W.",
+                "N. W. (2d)": "N.W.2d",
                 "N. W. 2d": "N.W.2d",
                 "N. W. Rep.": "N.W.",
                 "N. W.2d": "N.W.2d",
@@ -14978,7 +15126,10 @@
                 "us:nd;court.appeals"
             ],
             "name": "North Dakota Neutral Citation, Court of Appeals",
-            "variations": {}
+            "variations": {
+                "N.D.App.": "ND App",
+                "ND APP": "ND App"
+            }
         }
     ],
     "NDLR": [
@@ -16724,6 +16875,7 @@
                 "P.2d.": "P.2d",
                 "P.3": "P.3d",
                 "P.R.": "P.",
+                "P.[2d]": "P.2d",
                 "P2.d": "P.2d",
                 "P2d": "P.2d",
                 "PaC.": "P.",
@@ -18717,9 +18869,19 @@
             "editions": {
                 "S. Ct.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\(\\d{4}\\) $page",
+                        "$volume $reporter $page \\(\\d{4}\\)"
+                    ],
                     "start": "1882-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "40 S. Ct. 22",
+                "136 S. Ct. 2272 (2016)",
+                "126 S. Ct. (2006) 1910"
+            ],
             "mlz_jurisdiction": [
                 "us;supreme.court"
             ],
@@ -18949,9 +19111,11 @@
             "name": "South Eastern Reporter",
             "variations": {
                 "S. E.": "S.E.",
+                "S. E. (2d)": "S.E.2d",
                 "S. E. 2d": "S.E.2d",
                 "S. E. Rep.": "S.E.",
                 "S. E.2d": "S.E.2d",
+                "S.E. (2d)": "S.E.2d",
                 "S.E. 2d": "S.E.2d",
                 "S.E. Rep.": "S.E.",
                 "S.E.2d.": "S.E.2d",
@@ -19930,6 +20094,7 @@
             "mlz_jurisdiction": [],
             "name": "Sumner's United States (US) Circuit Court Reports",
             "variations": {
+                "Sum.": "Sumn.",
                 "Sumn. Rep.": "Sumn."
             }
         }
@@ -20247,10 +20412,18 @@
             "cite_type": "federal",
             "editions": {
                 "Taney": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
+                    "end": "1861-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter, $page"
+                    ],
+                    "start": "1836-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Taney, 400",
+                "Taney, 11",
+                "1 Taney, 440"
+            ],
             "mlz_jurisdiction": [],
             "name": "Taney's United States (US) Circuit Court Reports",
             "variations": {}
@@ -20599,6 +20772,22 @@
             ],
             "name": "LexisNexis Supreme Court of Tennessee",
             "variations": {}
+        }
+    ],
+    "Tenn. Leg. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tenn. Leg. Rep.": {
+                    "end": "1879-12-31T00:00:00",
+                    "start": "1877-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Tennessee Legal Reporter",
+            "variations": {
+                "Leg. Rep.": "Tenn. Leg. Rep."
+            }
         }
     ],
     "Terry": [
@@ -22258,9 +22447,17 @@
             "editions": {
                 "W.L.M.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter \\(\\d{4}\\,?\\) $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "8 West. Law Month. 949",
+                "1 West. Law Month. (1859,) 53"
+            ],
             "mlz_jurisdiction": [],
             "name": "Western Law Monthly (OH)",
             "variations": {
@@ -23229,9 +23426,17 @@
                 },
                 "Wis. 2d": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1853-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "71 Wis. 2d 497a",
+                "211 Wis. 2d 1"
+            ],
             "mlz_jurisdiction": [
                 "us:wi;supreme.court"
             ],
