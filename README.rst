@@ -87,35 +87,23 @@ All variables are imported from the package root as follows:
 
 The available variables are:
 
- - ``REPORTERS`` — This is the main database and contains a huge dict of
-reporters as described below.
+ - ``REPORTERS`` — This is the main database and contains a huge dict of reporters as described below.
 
- - ``LAWS`` — Our database of statutory abbreviations, mapping the statute
-abbreviations to their metadata. For example ``Ark. Reg`` is the abbreviation
-for the ``Arkansas Register``.
+ - ``LAWS`` — Our database of statutory abbreviations, mapping the statute abbreviations to their metadata. For example ``Ark. Reg`` is the abbreviation for the ``Arkansas Register``.
 
  - ``JOURNALS`` — Same idea as ``LAWS``, but for legal journal abbreviations.
 
- - ``STATE_ABBREVIATIONS`` — Bluebook style abbreviations for each state. For
-example, ``Ala.`` for Alaska and ``Haw.`` for Hawaii.
+ - ``STATE_ABBREVIATIONS`` — Bluebook style abbreviations for each state. For example, ``Ala.`` for Alaska and ``Haw.`` for Hawaii.
 
- - ``CASE_NAME_ABBREVIATIONS`` — Bluebook style abbreviations for common words,
-mapping each abbreviation to a list of possible words. For example, ``Admin``
-maps to ``["Administrative", "Administration"]``.
+ - ``CASE_NAME_ABBREVIATIONS`` — Bluebook style abbreviations for common words, mapping each abbreviation to a list of possible words. For example, ``Admin`` maps to ``["Administrative", "Administration"]``.
 
 A few specialized reporter-related variables are:
 
- - ``VARIATIONS_ONLY`` — This contains a dict mapping a canonical reporter
-abbreviation to a list of possible variations it could represent. For example,
-``A. 2d`` sometimes incorrectly lacks a space, and has a variation list of
-``["A.2d"]``. ``P.R.`` could be ``["Pen. & W.", "P.R.R.", "P."]``.
+ - ``VARIATIONS_ONLY`` — This contains a dict mapping a canonical reporter abbreviation to a list of possible variations it could represent. For example, ``A. 2d`` sometimes incorrectly lacks a space, and has a variation list of ``["A.2d"]``. ``P.R.`` could be ``["Pen. & W.", "P.R.R.", "P."]``.
 
- - ``EDITIONS`` — A simple dict to map the abbreviations for each reporter
-edition to the canonical reporter. For example, ``A.2d`` maps to ``A.``.
+ - ``EDITIONS`` — A simple dict to map the abbreviations for each reporter edition to the canonical reporter. For example, ``A.2d`` maps to ``A.``.
 
- - ``NAMES_TO_EDITIONS`` — A simple dict to map the name of a reporter back to
-its canonilcal abbreviations. For example, ``Atlantic Reporter`` maps to
-``['A.', 'A.2d']``.
+ - ``NAMES_TO_EDITIONS`` — A simple dict to map the name of a reporter back to its canonilcal abbreviations. For example, ``Atlantic Reporter`` maps to ``['A.', 'A.2d']``.
 
 
 CSV
