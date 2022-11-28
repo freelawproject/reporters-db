@@ -1062,6 +1062,7 @@
             ],
             "name": "American Law Review",
             "variations": {
+                "Am. Law Rev.": "Amer. L. Rev.",
                 "Amer. Law Rev.": "Amer. L. Rev."
             }
         }
@@ -2234,14 +2235,22 @@
             "editions": {
                 "Bee": {
                     "end": null,
+                    "regexes": [
+                        "$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Bee, 120"
+            ],
             "mlz_jurisdiction": [
                 "us;supreme.court"
             ],
             "name": "Bee's United States (US) District Court Reports",
-            "variations": {}
+            "variations": {
+                "Bee,": "Bee"
+            }
         }
     ],
     "Beeler": [
@@ -2471,9 +2480,17 @@
             "editions": {
                 "Blatchf. & H.": {
                     "end": "1837-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1827-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Blatchf. & H. 83",
+                "Blatchf. & H. 114"
+            ],
             "mlz_jurisdiction": [],
             "name": "Blatchford and Howland's Reports.",
             "variations": {}
@@ -2497,7 +2514,9 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Blatchford's United States District Court Prize Cases",
-            "variations": {}
+            "variations": {
+                "Blatchf. Prize Cas.": "Blatchf. Pr. Cas."
+            }
         }
     ],
     "Blue Sky L. Rep. (CCH)": [
@@ -2981,7 +3000,9 @@
                 "us:c;courts.martial"
             ],
             "name": "Court Martial Records",
-            "variations": {}
+            "variations": {
+                "CMR": "C.M.R."
+            }
         }
     ],
     "CAAF LEXIS": [
@@ -3532,6 +3553,23 @@
             "variations": {}
         }
     ],
+    "Cal. Law J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. Law J.": {
+                    "end": "1863-12-31T00:00:00",
+                    "start": "1862-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Cal. Law J. 195"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "California Law Journal",
+            "variations": {}
+        }
+    ],
     "Cal. Rptr.": [
         {
             "cite_type": "state",
@@ -3819,12 +3857,19 @@
             "editions": {
                 "Chase": {
                     "end": null,
+                    "regexes": [
+                        "$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Chase, 267"
+            ],
             "mlz_jurisdiction": [],
             "name": "Chase's United States Circuit Court Decisions",
             "variations": {
+                "Chase,": "Chase",
                 "Chase.": "Chase"
             }
         }
@@ -3899,6 +3944,23 @@
                 "Cheves Eq.(S.C.)": "Chev. Eq.",
                 "S.C.Eq.(Chev.Eq.)": "Chev. Eq."
             }
+        }
+    ],
+    "Chi. Law J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Chi. Law J.": {
+                    "end": "1907-12-31T00:00:00",
+                    "start": "1878-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Chi. Law J. 524"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Chicago Law Journal",
+            "variations": {}
         }
     ],
     "Chi. Leg. News": [
@@ -4924,6 +4986,7 @@
                 "Cranch D.C.": "Cranch",
                 "Cranch Rep.": "Cranch",
                 "Cranch, C. C.": "Cranch",
+                "Cranch, C.C.": "Cranch",
                 "Cranch. C. C.": "Cranch",
                 "D.C.(Cranch)": "Cranch"
             }
@@ -4959,6 +5022,7 @@
             "variations": {
                 "C. Cls.": "Ct. Cl.",
                 "Court Cl.": "Ct. Cl.",
+                "Ct. Cl. R.": "Ct. Cl.",
                 "Ct. Cl. Rep.": "Ct. Cl.",
                 "Ct. Cls. R.": "Ct. Cl.",
                 "Ct.Cl.": "Ct. Cl."
@@ -5558,12 +5622,20 @@
             "editions": {
                 "Deady": {
                     "end": null,
+                    "regexes": [
+                        "$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Deady, 264"
+            ],
             "mlz_jurisdiction": [],
             "name": "Deady's Circuit & District Court Reports",
-            "variations": {}
+            "variations": {
+                "Deady,": "Deady"
+            }
         }
     ],
     "Dec. Com. Pat.": [
@@ -8123,9 +8195,15 @@
             "editions": {
                 "Gilp.": {
                     "end": null,
+                    "regexes": [
+                        "$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Gilp. 106"
+            ],
             "mlz_jurisdiction": [],
             "name": "Gilpin, United States (US) District Court Reports",
             "variations": {
@@ -9035,6 +9113,28 @@
             "variations": {}
         }
     ],
+    "Hoff.": [
+        {
+            "cite_type": "scotus_early",
+            "editions": {
+                "Hoff.": {
+                    "end": "1858-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1853-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Hoff. Dec. 10"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Hoffman's Decisions",
+            "variations": {
+                "Hoff. Dec.": "Hoff."
+            }
+        }
+    ],
     "Hoff. Ch.": [
         {
             "cite_type": "state",
@@ -9056,6 +9156,28 @@
                 "Hoffm.": "Hoff. Ch.",
                 "Hoffm.Ch.(N.Y.)": "Hoff. Ch."
             }
+        }
+    ],
+    "Hoff. Land Cas.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Hoff. Land Cas.": {
+                    "end": "1858-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1853-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Hoff. Land Cas. 182",
+                "Hoff. Land Cas. 101"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Hoffman's Land Cases",
+            "variations": {}
         }
     ],
     "Holmes": [
@@ -9282,6 +9404,7 @@
             "name": "Kentucky Reports, Hughes",
             "variations": {
                 "Hugh.": "Hughes",
+                "Hughes.": "Hughes",
                 "Ky.(Hughes)": "Hughes"
             }
         }
@@ -11785,7 +11908,8 @@
             "variations": {
                 "Low. Dec.": "Low.",
                 "Low. Dis.": "Low.",
-                "Lowell": "Low."
+                "Lowell": "Low.",
+                "Lowell.": "Low."
             }
         }
     ],
@@ -15629,12 +15753,21 @@
             "editions": {
                 "Newb. Adm.": {
                     "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Newb. 101",
+                "1 Newb. Adm. 269"
+            ],
             "mlz_jurisdiction": [],
             "name": "Newberry's District Court Admiralty Rep. United States (US)",
-            "variations": {}
+            "variations": {
+                "Newb.": "Newb. Adm."
+            }
         }
     ],
     "Northumb. L.J.": [
@@ -16638,12 +16771,20 @@
             "editions": {
                 "Olcott": {
                     "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Olc. 12"
+            ],
             "mlz_jurisdiction": [],
             "name": "Olcott's Admiralty Reports",
-            "variations": {}
+            "variations": {
+                "Olc.": "Olcott"
+            }
         }
     ],
     "Op. Att'y Gen.": [
@@ -16866,6 +17007,7 @@
                 "P. (2d)": "P.2d",
                 "P. 2d": "P.2d",
                 "P. 3d": "P.3d",
+                "P. R.": "P.",
                 "P. Rep.": "P.",
                 "P. [2d.]": "P.2d",
                 "P. [2d]": "P.2d",
@@ -20977,6 +21119,23 @@
                 "us:tx;supreme.court"
             ],
             "name": "LexisNexis Texas Supreme Court",
+            "variations": {}
+        }
+    ],
+    "Tex. Law J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Law J.": {
+                    "end": "1882-12-31T00:00:00",
+                    "start": "1877-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Tex. Law J. 116"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Texas Law Journal",
             "variations": {}
         }
     ],
