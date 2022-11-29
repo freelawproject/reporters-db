@@ -21,7 +21,7 @@
 ## Past Versions
 
  - 3.2.33 (2022-11-11): Updates
- - 
+ -
  - 3.2.32 (2022-10-14): Fix Scotus regex variation
 
  - 3.2.30 (2022-09-13): Add more reporters and varations
