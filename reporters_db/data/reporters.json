@@ -5035,6 +5035,28 @@
             }
         }
     ],
+    "Cranch, Pat. Dec.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Cranch, Pat. Dec.": {
+                    "end": "1847-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1841-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Cranch, Pat. Dec. 125"
+            ],
+            "mlz_jurisdiction": [
+                "us;supreme.court"
+            ],
+            "name": "Cranch's Patent Decisions",
+            "variations": {}
+        }
+    ],
     "Crim. L. Rep. (BNA)": [
         {
             "cite_type": "specialty",
@@ -12223,9 +12245,17 @@
             "editions": {
                 "MacA. Pat. Cas.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "McA. Pat. Cas. 510",
+                "1 McA. Pat. Cas. 123"
+            ],
             "mlz_jurisdiction": [],
             "name": "Reports of cases arising upon applications for letters-patent for inventions determined in the Circuit and Supreme Court of the District of Columbia (MacArthur's Patent Cases)",
             "variations": {
@@ -12233,6 +12263,7 @@
                 "Mac. A. Pat. Cas.": "MacA. Pat. Cas.",
                 "MacA. Pat Cas.": "MacA. Pat. Cas.",
                 "MacArth.": "MacA. Pat. Cas.",
+                "Mc.A. Pat. Cas.": "MacA. Pat. Cas.",
                 "McA. Pat. Cas.": "MacA. Pat. Cas."
             }
         }
@@ -19444,6 +19475,7 @@
             "name": "South Western Reporter",
             "variations": {
                 "S. W.": "S.W.",
+                "S.W. Series": "S.W.",
                 "S. W. (2d)": "S.W.2d",
                 "S. W. 2d": "S.W.2d",
                 "S. W. 2d Series.": "S.W.2d",
