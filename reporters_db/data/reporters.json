@@ -4153,6 +4153,29 @@
             "variations": {}
         }
     ],
+    "Codd. Dig.": [
+        {
+            "cite_type": "scotus_early",
+            "editions": {
+                "Codd. Dig.": {
+                    "end": null,
+                    "regexes": [
+                        "$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Codd. Dig. 341",
+                "Coddington's Digest 312"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Coddington's Digest of the Law of Trade-Marks",
+            "variations": {
+                "Coddington's Digest": "Codd. Dig."
+            }
+        }
+    ],
     "Code Rep.": [
         {
             "cite_type": "federal",
@@ -4928,6 +4951,26 @@
             }
         }
     ],
+    "Cox. Manual Trade-Mark Cas.": [
+        {
+            "cite_type": "scotus_early",
+            "editions": {
+                "Cox. Manual Trade-Mark Cas.": {
+                    "end": null,
+                    "regexes": [
+                        "$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Cox. Manual Trade-Mark Cas. 241"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Cox's Manual of Trade-Mark Cases",
+            "variations": {}
+        }
+    ],
     "Crabbe": [
         {
             "cite_type": "federal",
@@ -5634,7 +5677,8 @@
             "mlz_jurisdiction": [],
             "name": "Deady's Circuit & District Court Reports",
             "variations": {
-                "Deady,": "Deady"
+                "Deady,": "Deady",
+                "Deady.": "Deady"
             }
         }
     ],
@@ -8910,7 +8954,9 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Hazard's United States Register",
-            "variations": {}
+            "variations": {
+                "Haz. Reg. U. S.": "Haz. U. S. Reg."
+            }
         }
     ],
     "Head": [
@@ -16783,8 +16829,29 @@
             "mlz_jurisdiction": [],
             "name": "Olcott's Admiralty Reports",
             "variations": {
-                "Olc.": "Olcott"
+                "Olc.": "Olcott",
+                "Olcott,": "Olcott"
             }
+        }
+    ],
+    "Oliver's Forms": [
+        {
+            "cite_type": "scotus_early",
+            "editions": {
+                "Oliver's Forms": {
+                    "end": "1843-12-31T00:00:00",
+                    "regexes": [
+                        "$reporter \\(Ed. \\d{4}\\,?\\) $page"
+                    ],
+                    "start": "1788-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Oliver's Forms (Ed. 1842) 489"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Oliver's Forms in Chancery, Admiralty, and at Common Law",
+            "variations": {}
         }
     ],
     "Op. Att'y Gen.": [
@@ -20309,6 +20376,26 @@
             }
         }
     ],
+    "Syllabi": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Syllabi": {
+                    "end": "1879-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter, $page"
+                    ],
+                    "start": "1876-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Syllabi, 182"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Syllabi",
+            "variations": {}
+        }
+    ],
     "T.B. Mon.": [
         {
             "cite_type": "state",
@@ -20556,7 +20643,7 @@
                 "Taney": {
                     "end": "1861-12-31T00:00:00",
                     "regexes": [
-                        "$volume_nominative ?$reporter, $page"
+                        "$volume_nominative ?$reporter,? $page"
                     ],
                     "start": "1836-01-01T00:00:00"
                 }
@@ -20568,7 +20655,9 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Taney's United States (US) Circuit Court Reports",
-            "variations": {}
+            "variations": {
+                "Taney.": "Taney"
+            }
         }
     ],
     "Tapp. Rep.": [
@@ -23282,13 +23371,15 @@
                     "end": "1830-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
-                        "$volume_nominative ?$reporter, $page"
+                        "$volume_nominative ?$reporter, $page",
+                        "$volume_nominative ?$reporter, $page_with_letter"
                     ],
                     "start": "1792-01-01T00:00:00"
                 }
             },
             "examples": [
                 "Wells’ Notebook, 365",
+                "Wells’ Notebook, 356a",
                 "1 Wells’ Notebook, 365"
             ],
             "mlz_jurisdiction": [
@@ -23375,6 +23466,46 @@
                 "Whart.Pa.": "Whart.",
                 "Wharton": "Whart."
             }
+        }
+    ],
+    "Whart. Hom.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Whart. Hom.": {
+                    "end": null,
+                    "regexes": [
+                        "$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Whart. Hom. 483"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Wharton, Treatise on the Law of Homicide in the United States",
+            "variations": {}
+        }
+    ],
+    "Whart. St. Tr.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Whart. St. Tr.": {
+                    "end": null,
+                    "regexes": [
+                        "$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Whart. St. Tr. 688"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Wharton's State Trials",
+            "variations": {}
         }
     ],
     "Wheat.": [
@@ -23712,9 +23843,17 @@
             "editions": {
                 "Woolw.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Woolw. 217",
+                "9 Woolw. Rep., 6"
+            ],
             "mlz_jurisdiction": [],
             "name": "Woolworth's United States Circuit Court Reports",
             "variations": {
