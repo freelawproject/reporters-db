@@ -8722,9 +8722,17 @@
             "editions": {
                 "Hask.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Hask. 236",
+                "1 Hask. 405"
+            ],
             "mlz_jurisdiction": [],
             "name": "Haskell's Reports for U.S. Courts in Maine (Fox's Decisions)",
             "variations": {}
@@ -9223,7 +9231,10 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Hoffman's Land Cases",
-            "variations": {}
+            "variations": {
+                "Hoff Land Cas.": "Hoff. Land Cas.",
+                "Hoff. Land. Cas.": "Hoff. Land Cas."
+            }
         }
     ],
     "Holmes": [
@@ -9232,9 +9243,17 @@
             "editions": {
                 "Holmes": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter, $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Holmes, 272",
+                "1 Holmes, 299"
+            ],
             "mlz_jurisdiction": [],
             "name": "Holmes Circuit Court Reports (US)",
             "variations": {}
@@ -12974,6 +12993,20 @@
                 "us:md;court.appeals"
             ],
             "name": "LexisNexis Maryland Court Appeals",
+            "variations": {}
+        }
+    ],
+    "Md. Law Rec.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Md. Law Rec.": {
+                    "end": "1889-12-31T00:00:00",
+                    "start": "1878-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Maryland Law Record",
             "variations": {}
         }
     ],
@@ -18984,6 +19017,22 @@
             }
         }
     ],
+    "Robb, Pat. Cas.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Robb, Pat. Cas.": {
+                    "end": "1850-12-31T00:00:00",
+                    "start": "1789-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us;supreme.court"
+            ],
+            "name": "Robb's Patent Cases",
+            "variations": {}
+        }
+    ],
     "Robb.": [
         {
             "cite_type": "state",
@@ -20249,7 +20298,8 @@
             "mlz_jurisdiction": [],
             "name": "Story's United States Circuit Court Reports",
             "variations": {
-                "Story Rep.": "Story"
+                "Story Rep.": "Story",
+                "Story.": "Story"
             }
         }
     ],
