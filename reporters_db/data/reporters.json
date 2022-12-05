@@ -1117,6 +1117,7 @@
             "mlz_jurisdiction": [],
             "name": "Appeals from the Commissioner of Patents",
             "variations": {
+                "App. Com'rs Pat.": "App. Com'r Pat.",
                 "App. Comr. Pat.": "App. Com'r Pat."
             }
         }
@@ -2315,10 +2316,13 @@
                 "Betts D. C. MS.": "Betts' Dec.",
                 "Betts' C. C. MS.": "Betts' Dec.",
                 "Betts' D. C. MS.": "Betts' Dec.",
+                "Betts' D. C. MSS.": "Betts' Dec.",
                 "Betts, C. C. MS.": "Betts' Dec.",
                 "Betts, D. C.": "Betts' Dec.",
                 "Betts, D. C. MS.": "Betts' Dec.",
+                "Betts, D. C. MSS.": "Betts' Dec.",
                 "Betts, D. C. Ms.": "Betts' Dec.",
+                "Betts. D. C. MS.": "Betts' Dec.",
                 "Betts. D. C. MSS.": "Betts' Dec."
             }
         }
@@ -2580,7 +2584,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Bond's United States (US) Circuit Reports",
-            "variations": {}
+            "variations": {
+                "Bond.": "Bond"
+            }
         }
     ],
     "Bosw.": [
@@ -8902,6 +8908,8 @@
             "variations": {
                 "Hay.": "Hayw.",
                 "Hay. Rep.": "Hayw.",
+                "Hayw. (N. C.)": "Hayw.",
+                "Hayw. N. C.": "Hayw.",
                 "Hayw. Rep.": "Hayw.",
                 "Hayw.N.C.": "Hayw.",
                 "N.C.(Hayw.)": "Hayw."
@@ -10216,6 +10224,20 @@
             "variations": {}
         }
     ],
+    "Ind. Cl. Comm.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Ind. Cl. Comm.": {
+                    "end": "1973-12-31T00:00:00",
+                    "start": "1948-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Indian Claims Commission",
+            "variations": {}
+        }
+    ],
     "Ind. Dec.": [
         {
             "cite_type": "state",
@@ -11377,6 +11399,20 @@
             "variations": {}
         }
     ],
+    "La. Law J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "La. Law J.": {
+                    "end": "1842-12-31T00:00:00",
+                    "start": "1841-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Louisiana Law Journal",
+            "variations": {}
+        }
+    ],
     "La.App. 1 Cir.": [
         {
             "cite_type": "state",
@@ -11675,6 +11711,21 @@
             }
         }
     ],
+    "Law & Eq. Rep.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Law & Eq. Rep.": {
+                    "end": "1878-12-31T00:00:00",
+                    "start": "1876-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Law and Equity Reporter",
+            "notes": "Continued in Reporter.",
+            "variations": {}
+        }
+    ],
     "Law J. Q.B.": [
         {
             "cite_type": "specialty",
@@ -11706,6 +11757,21 @@
                 "us:ma;supreme.court"
             ],
             "name": "Monthly Law Reporter, Boston Mass.",
+            "variations": {}
+        }
+    ],
+    "Law Reporter": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Law Reporter": {
+                    "end": "1848-12-31T00:00:00",
+                    "start": "1839-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "The Law Reporter",
+            "notes": "Sometimes cited as Monthly Law Reporter. Vol. 11 and subsequent volumes are the same as Vol 1, etc., New Series.",
             "variations": {}
         }
     ],
@@ -13331,6 +13397,21 @@
             "variations": {}
         }
     ],
+    "Mich. Lawy.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mich. Lawy.": {
+                    "end": "1879-12-31T00:00:00",
+                    "start": "1875-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Michigan Lawyer",
+            "notes": "",
+            "variations": {}
+        }
+    ],
     "Mich. N.P.": [
         {
             "cite_type": "state",
@@ -13886,6 +13967,20 @@
             },
             "mlz_jurisdiction": [],
             "name": "Monthly Jurist",
+            "variations": {}
+        }
+    ],
+    "Month. West. Jur.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Month. West. Jur.": {
+                    "end": "1877-12-31T00:00:00",
+                    "start": "1875-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Monthly Western Jurist",
             "variations": {}
         }
     ],
@@ -17799,7 +17894,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Paine's United States (US) Circuit Court Reports",
-            "variations": {}
+            "variations": {
+                "Paine.": "Paine"
+            }
         }
     ],
     "Park. Cr.": [
@@ -18480,6 +18577,20 @@
             "variations": {}
         }
     ],
+    "Quart. Law J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Quart. Law J.": {
+                    "end": "1859-12-31T00:00:00",
+                    "start": "1856-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Quarterly Law Journal",
+            "variations": {}
+        }
+    ],
     "R.I.": [
         {
             "cite_type": "state",
@@ -18754,7 +18865,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Reporter. (Continuation of Law and Equity Reporter and of American Law Times Reports, New Series.)",
-            "variations": {}
+            "variations": {
+                "Reporter.": "Reporter,"
+            }
         }
     ],
     "Rice": [
@@ -19475,7 +19588,6 @@
             "name": "South Western Reporter",
             "variations": {
                 "S. W.": "S.W.",
-                "S.W. Series": "S.W.",
                 "S. W. (2d)": "S.W.2d",
                 "S. W. 2d": "S.W.2d",
                 "S. W. 2d Series.": "S.W.2d",
@@ -19489,6 +19601,7 @@
                 "S.W. 2d": "S.W.2d",
                 "S.W. 3d": "S.W.3d",
                 "S.W. Rep.": "S.W.",
+                "S.W. Series": "S.W.",
                 "SW": "S.W.",
                 "SW 2d": "S.W.2d",
                 "SW 3d": "S.W.3d",
@@ -19603,6 +19716,20 @@
                 "Sadl.": "Sadler",
                 "Sadler(Pa.)": "Sadler"
             }
+        }
+    ],
+    "San Fran. Law J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "San Fran. Law J.": {
+                    "end": "1878-12-31T00:00:00",
+                    "start": "1877-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "San Francisco Law Journal",
+            "variations": {}
         }
     ],
     "Sand. Ch.": [
@@ -21620,6 +21747,20 @@
             "variations": {
                 "Mass.(Tyng)": "Tyng"
             }
+        }
+    ],
+    "U. S. Law J.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "U. S. Law J.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "United States Law Journal and Civilians' Magazine",
+            "variations": {}
         }
     ],
     "U.C.C. Rep. Serv. (West)": [
