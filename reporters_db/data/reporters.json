@@ -319,6 +319,7 @@
             "name": "Abbott, United States Circuit and District Court Reports",
             "variations": {
                 "Abb": "Abb.",
+                "Abb. (U. S.)": "Abb.",
                 "Abb. Rep.": "Abb.",
                 "Abb. U. S.": "Abb."
             }
@@ -837,12 +838,12 @@
             "cite_type": "state",
             "editions": {
                 "Am. Law Reg.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
+                    "end": "1861-12-31T00:00:00",
+                    "start": "1853-01-01T00:00:00"
                 },
                 "Am. Law Reg. (N.S.)": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
+                    "end": "1878-12-31T00:00:00",
+                    "start": "1862-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -1920,6 +1921,20 @@
             }
         }
     ],
+    "Balt. Law Trans.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Balt. Law Trans.": {
+                    "end": "1870-12-31T00:00:00",
+                    "start": "1868-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Baltimore Law Transcript",
+            "variations": {}
+        }
+    ],
     "Ban. & A.": [
         {
             "cite_type": "specialty",
@@ -2327,7 +2342,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Benedict United States District Reports",
-            "variations": {}
+            "variations": {
+                "Ben": "Ben."
+            }
         }
     ],
     "Ben. Rev. Bd. Serv. (MB)": [
@@ -2368,6 +2385,7 @@
                 "Betts, D. C. MS.": "Betts' Dec.",
                 "Betts, D. C. MSS.": "Betts' Dec.",
                 "Betts, D. C. Ms.": "Betts' Dec.",
+                "Betts. C. C. MS.": "Betts' Dec.",
                 "Betts. D. C. MS.": "Betts' Dec.",
                 "Betts. D. C. MSS.": "Betts' Dec."
             }
@@ -2815,6 +2833,7 @@
             "mlz_jurisdiction": [],
             "name": "Brockenbrough's Marshall's Decisions, United States Circuit Court",
             "variations": {
+                "Brock,": "Brock.",
                 "Brock. Rep.": "Brock."
             }
         }
@@ -2826,13 +2845,15 @@
                 "Brown Adm.": {
                     "end": null,
                     "regexes": [
-                        "$volume_nominative ?$reporter $page"
+                        "$volume_nominative ?$reporter $page",
+                        "$full_cite_year_included"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "Brown, Adm. 124"
+                "Brown, Adm. 124",
+                "1 Brown, Adm. (1876) 193"
             ],
             "mlz_jurisdiction": [],
             "name": "Brown's Admiralty (U.S.)",
@@ -2840,7 +2861,8 @@
                 "Brown Adm": "Brown Adm.",
                 "Brown's Adm": "Brown Adm.",
                 "Brown's Adm.": "Brown Adm.",
-                "Brown, Adm.": "Brown Adm."
+                "Brown, Adm.": "Brown Adm.",
+                "Brown. Adm.": "Brown Adm."
             }
         }
     ],
@@ -4051,9 +4073,17 @@
             "editions": {
                 "Chi. Leg. News": {
                     "end": "1925-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1868-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "10 Chi. Leg. News (1878) 353",
+                "3 Chi. Leg. News, 260"
+            ],
             "mlz_jurisdiction": [
                 "us:c7:il.nd;district.court"
             ],
@@ -4100,9 +4130,17 @@
             "editions": {
                 "Cin. L. Bull.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "9 Cin. L. Bull. 65",
+                "1 Cin. Law Bul. (1877) 374"
+            ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court"
             ],
@@ -5254,7 +5292,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Curtis' United States (US) Circuit Court Decisions",
-            "variations": {}
+            "variations": {
+                "Curt": "Curt."
+            }
         }
     ],
     "Cush.": [
@@ -6091,6 +6131,7 @@
             ],
             "name": "North Carolina Reports, Devereux's Law",
             "variations": {
+                "Dev. (N. C.)": "Dev.",
                 "Dev. Rep.": "Dev.",
                 "Dev.L.": "Dev.",
                 "N.C.(Dev.)": "Dev."
@@ -8582,7 +8623,9 @@
                 "us:md;court.appeals"
             ],
             "name": "Maryland Reports, Harris and Johnson",
-            "variations": {}
+            "variations": {
+                "Har. & J.": "H. & J."
+            }
         }
     ],
     "H. & McH.": [
@@ -9510,6 +9553,7 @@
             "name": "Howard's Practice Reports",
             "variations": {
                 "How. Pr. Rep.": "How. Pr.",
+                "How. Prac.": "How. Pr.",
                 "How.P.R.": "How. Pr.",
                 "How.Prac.(N.Y.)": "How. Pr.",
                 "N.Y.Spec.Term R.": "How. Pr.",
@@ -9575,15 +9619,24 @@
             "editions": {
                 "Hughes": {
                     "end": "1801-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1785-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2 Hughes 447",
+                "3 Hughes (1880) 464"
+            ],
             "mlz_jurisdiction": [
                 "us:ky;supreme.court"
             ],
             "name": "Kentucky Reports, Hughes",
             "variations": {
                 "Hugh.": "Hughes",
+                "Hughes (1877)": "Hughes",
                 "Hughes.": "Hughes",
                 "Ky.(Hughes)": "Hughes"
             }
@@ -10821,6 +10874,24 @@
                 "us:c2:ny.ed;district.court"
             ],
             "name": "Journal of the Franklin Institute",
+            "variations": {}
+        }
+    ],
+    "Jour. Jur.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Jour. Jur.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Jour. Jur. 131"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Journal of Jurisprudence",
+            "notes": "Sometimes cited as Hall's Amer. Law J., Vol. 7.",
             "variations": {}
         }
     ],
@@ -13778,14 +13849,16 @@
                     "end": "1966-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>S\\. & M\\.|Howard|Walker)\\) $page"
+                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>S\\. & M\\.|Howard|Walker)\\) $page",
+                        "$volume $reporter,? p. $page"
                     ],
                     "start": "1851-01-01T00:00:00"
                 }
             },
             "examples": [
                 "1 Miss. 1",
-                "9 Miss. (1 S. & M.) 456"
+                "9 Miss. (1 S. & M.) 456",
+                "33 Miss. R., p. 363"
             ],
             "mlz_jurisdiction": [
                 "us:ms;supreme.court"
@@ -21922,6 +21995,7 @@
                 "U. S.": "U.S.",
                 "U. S. R.": "U.S.",
                 "U. S. Rep.": "U.S.",
+                "U.S.R.": "U.S.",
                 "U.S.S.C.Rep.": "U.S.",
                 "US": "U.S.",
                 "USSCR": "U.S."
