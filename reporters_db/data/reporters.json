@@ -330,9 +330,16 @@
             "editions": {
                 "Abb. Adm.": {
                     "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Abb. Adm. 317",
+                "Abb. Adm. 418"
+            ],
             "mlz_jurisdiction": [],
             "name": "Abbott's Admiralty Reports",
             "variations": {}
@@ -844,9 +851,25 @@
             "name": "American Law Register",
             "variations": {
                 "Am. L. Reg., n.s.": "Am. Law Reg. (N.S.)",
+                "Am. Law Reg. (N. S.)": "Am. Law Reg. (N.S.)",
                 "Amer. Law Reg.": "Am. Law Reg.",
                 "Amer. Law Reg. (N. S.)": "Am. Law Reg. (N.S.)"
             }
+        }
+    ],
+    "Am. Law T. Rep. (N. S.)": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Am. Law T. Rep. (N. S.)": {
+                    "end": "1877-12-31T00:00:00",
+                    "start": "1874-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American Law Times Reports, New Series",
+            "notes": "",
+            "variations": {}
         }
     ],
     "Am. Law T. Rep. Bankr.": [
@@ -876,7 +899,10 @@
             },
             "mlz_jurisdiction": [],
             "name": "American Law Times Reports, United States (US) Courts",
-            "variations": {}
+            "variations": {
+                "Am. Law T. Rep. (U. S. Cts.)": "Am. Law T. Rep. U.S. Cts.",
+                "Am. Law T. Rep. U. S. Cts.": "Am. Law T. Rep. U.S. Cts."
+            }
         }
     ],
     "Am. Law. Rec.": [
@@ -1064,6 +1090,26 @@
             "variations": {
                 "Am. Law Rev.": "Amer. L. Rev.",
                 "Amer. Law Rev.": "Amer. L. Rev."
+            }
+        }
+    ],
+    "Amer. Law J. (N. S.)": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Amer. Law J. (N. S.)": {
+                    "end": "1852-12-31T00:00:00",
+                    "start": "1848-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "2 Am. Law J. (N. S.) 179"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "American Law Journal, New Series",
+            "notes": "Continuation of Pennsylvania Law Journal",
+            "variations": {
+                "Am. Law J. (N. S.)": "Amer. Law J. (N. S.)"
             }
         }
     ],
@@ -2327,6 +2373,30 @@
             }
         }
     ],
+    "Betts' Scr. Bk.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Betts' Scr. Bk.": {
+                    "end": "1862-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter,? $page"
+                    ],
+                    "start": "1839-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Betts' Scr. Bk. 139",
+                "Betts, Scr. Bk. 268"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Betts' Scrap Book.",
+            "notes": "Cases in the United States Circuit and District Courts for the Southern District of New York from 1839 to 1862, with a few cases from other districts. Collected by Hon. Samuel R. Betts, District Judge. On file in the office of the clerk of the District Court for the Southern District of New York.",
+            "variations": {
+                "Betts, Scr. Bk.": "Betts' Scr. Bk."
+            }
+        }
+    ],
     "Bibb": [
         {
             "cite_type": "state",
@@ -2755,9 +2825,15 @@
             "editions": {
                 "Brown Adm.": {
                     "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Brown, Adm. 124"
+            ],
             "mlz_jurisdiction": [],
             "name": "Brown's Admiralty (U.S.)",
             "variations": {
@@ -5092,6 +5168,7 @@
             "name": "Court of Claims Reports (United States)",
             "variations": {
                 "C. Cls.": "Ct. Cl.",
+                "C. Cls. R.": "Ct. Cl.",
                 "Court Cl.": "Ct. Cl.",
                 "Ct. Cl. R.": "Ct. Cl.",
                 "Ct. Cl. Rep.": "Ct. Cl.",
@@ -9041,9 +9118,16 @@
             "editions": {
                 "Hempst.": {
                     "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Ark. Terr. Rep. 332",
+                "Hempst. 286"
+            ],
             "mlz_jurisdiction": [
                 "us:ar;supreme.court"
             ],
@@ -9051,7 +9135,8 @@
             "notes": "Territory of Arkansas reporter without a volume",
             "variations": {
                 "Ark. Terr. Rep.": "Hempst.",
-                "Hemp.": "Hempst."
+                "Hemp.": "Hempst.",
+                "Hempst": "Hempst."
             }
         }
     ],
@@ -21835,6 +21920,7 @@
             "notes": "",
             "variations": {
                 "U. S.": "U.S.",
+                "U. S. R.": "U.S.",
                 "U. S. Rep.": "U.S.",
                 "U.S.S.C.Rep.": "U.S.",
                 "US": "U.S.",
@@ -23231,14 +23317,16 @@
                     "end": "1874-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
-                        "$reporter,? p. $page"
+                        "$reporter,? p. $page",
+                        "$volume $reporter,? p. $page"
                     ],
                     "start": "1863-01-01T00:00:00"
                 }
             },
             "examples": [
                 "487 Wall. 141",
-                "Wallace R., p. 573"
+                "Wallace R., p. 573",
+                "8 Wallace R., p. 269"
             ],
             "mlz_jurisdiction": [
                 "us;supreme.court"
