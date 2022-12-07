@@ -15927,9 +15927,15 @@
             "editions": {
                 "Neb.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1860-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "293 Neb. 359"
+            ],
             "mlz_jurisdiction": [
                 "us:ne;supreme.court"
             ],
@@ -15977,9 +15983,15 @@
             "editions": {
                 "Neb. Ct. App.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1922-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Neb. Ct. App. 1"
+            ],
             "mlz_jurisdiction": [
                 "us:ne;supreme.court"
             ],
