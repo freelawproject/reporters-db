@@ -833,6 +833,32 @@
             "variations": {}
         }
     ],
+    "Am. Jur.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Am. Jur.": {
+                    "end": "1843-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter,? p. $page"
+                    ],
+                    "start": "1829-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Amer. Jur. 441",
+                "40 Amer. Jur., p. 764",
+                "19 Am. Jur. 219"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "American Jurist and Law Magazine",
+            "notes": "",
+            "variations": {
+                "Amer. Jur.": "Am. Jur."
+            }
+        }
+    ],
     "Am. Law Reg.": [
         {
             "cite_type": "state",
@@ -1091,6 +1117,26 @@
             "variations": {
                 "Am. Law Rev.": "Amer. L. Rev.",
                 "Amer. Law Rev.": "Amer. L. Rev."
+            }
+        }
+    ],
+    "Amer. Law J.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Amer. Law J.": {
+                    "end": "1817-12-31T00:00:00",
+                    "start": "1808-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "2 Amer. Law J. 97"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "American Law Journal",
+            "notes": "It was originally called the American Law Journal and Miscellaneous Repertory",
+            "variations": {
+                "Am. Law J.": "Amer. Law J."
             }
         }
     ],
@@ -2298,7 +2344,7 @@
                 "Bee": {
                     "end": null,
                     "regexes": [
-                        "$reporter $page"
+                        "$reporter,? $page"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -2311,7 +2357,7 @@
             ],
             "name": "Bee's United States (US) District Court Reports",
             "variations": {
-                "Bee,": "Bee"
+                "Bee.": "Bee"
             }
         }
     ],
@@ -5098,7 +5144,7 @@
                 "Crabbe": {
                     "end": null,
                     "regexes": [
-                        "$reporter, $page"
+                        "$reporter,? $page"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -5110,7 +5156,9 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Crabbe's United States (US) District Court Reports",
-            "variations": {}
+            "variations": {
+                "Crabbe.": "Crabbe"
+            }
         }
     ],
     "Cranch": [
@@ -9544,9 +9592,17 @@
             "editions": {
                 "How. Pr.": {
                     "end": "1886-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1844-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "7 How. Pr. Rep., 305",
+                "18 How. Prac. (1860) 482"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals"
             ],
@@ -10557,7 +10613,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Internal Revenue Record",
-            "variations": {}
+            "variations": {
+                "Int Rev. Rec.": "Int. Rev. Rec."
+            }
         }
     ],
     "Interior Dec.": [
@@ -13036,9 +13094,18 @@
             "editions": {
                 "McCrary's Cir. Ct. Rpts": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "4 McCrary's Cir. Ct. Rpts 567",
+                "1 McCrary, 480",
+                "1 McCrary (1881) 213"
+            ],
             "mlz_jurisdiction": [],
             "name": "McCrary's Circuit Court Reports",
             "variations": {
@@ -15361,6 +15428,7 @@
             ],
             "name": "New York Legal Observer (N.Y.)",
             "variations": {
+                "N. Y. Leg. Ob.": "N.Y. Leg. Obs.",
                 "N. Y. Leg. Obs.": "N.Y. Leg. Obs.",
                 "N.Y. Legal Observer": "N.Y. Leg. Obs."
             }
@@ -15473,7 +15541,9 @@
                 "us:ny;supreme.court"
             ],
             "name": "New York Law Journal",
-            "variations": {}
+            "variations": {
+                "N. Y. Law J.": "N.Y.L.J."
+            }
         }
     ],
     "N.Y.S.": [
@@ -18229,9 +18299,19 @@
             "editions": {
                 "Penn. Law J.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Pa. Law J. 291",
+                "1 Pa. Law J. Rep. 82",
+                "2 Penn. L. J. 299",
+                "1 Pa. Law J. (1842) 225"
+            ],
             "mlz_jurisdiction": [
                 "us:pa;supreme.court",
                 "us:c3:pa.ed;district.court"
@@ -18240,6 +18320,7 @@
             "variations": {
                 "Pa. Law J.": "Penn. Law J.",
                 "Pa. Law J. Rep.": "Penn. Law J.",
+                "Penn. L. J.": "Penn. Law J.",
                 "Penn. L.J.": "Penn. Law J.",
                 "Penn. Law Jour.": "Penn. Law J."
             }
@@ -18616,6 +18697,7 @@
                 "Pittsb. L. Rev.": "Pitts L.J.",
                 "Pittsb. L.J.": "Pitts L.J.",
                 "Pittsb. Leg. J.": "Pitts L.J.",
+                "Pittsb. Leg. J. (O. S.)": "Pitts L.J.",
                 "Pittsb. Leg. J. (Pa.)": "Pitts L.J.",
                 "Pittsb. R. (Pa.)": "Pitts L.J.",
                 "Pittsburgh Leg. J.": "Pitts L.J.",
@@ -18753,9 +18835,17 @@
             "editions": {
                 "Quart. Law J.": {
                     "end": "1859-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1856-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "3 Quart. Law J. 42",
+                "1 Quart. Law J. (1856,) 153"
+            ],
             "mlz_jurisdiction": [],
             "name": "Quarterly Law Journal",
             "variations": {}
@@ -19899,7 +19989,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "San Francisco Law Journal",
-            "variations": {}
+            "variations": {
+                "San Fran. Law. J.": "San Fran. Law J."
+            }
         }
     ],
     "Sand. Ch.": [
@@ -22234,9 +22326,17 @@
             "editions": {
                 "U.S. Law Int.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 U. S. Law Int. 69",
+                "1 U. S. Law Int. (1829) 22"
+            ],
             "mlz_jurisdiction": [],
             "name": "United States Law Intelligencer and Review (Providence and Philadelphia)",
             "variations": {
@@ -23457,6 +23557,7 @@
             "name": "Wallace, Jr.'s Reports of Cases Determined in the Circuit Court of the United States for the Third Circuit",
             "variations": {
                 "Wall. Jr. C.C.": "Wall. Jr.",
+                "Wall., Jr.": "Wall. Jr.",
                 "Wallace, Jr., Rept.": "Wall. Jr."
             }
         }
