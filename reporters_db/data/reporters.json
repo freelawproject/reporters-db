@@ -800,6 +800,7 @@
             "mlz_jurisdiction": [],
             "name": "American Decisions",
             "variations": {
+                "Am Dec.": "Am. Dec.",
                 "Am. D.": "Am. Dec.",
                 "Am. Dec's.": "Am. Dec."
             }
@@ -865,6 +866,10 @@
             "editions": {
                 "Am. Law Reg.": {
                     "end": "1861-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1853-01-01T00:00:00"
                 },
                 "Am. Law Reg. (N.S.)": {
@@ -872,6 +877,10 @@
                     "start": "1862-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "9 Am. Law Reg. 661",
+                "5 Am. Law Reg. (1857) 280"
+            ],
             "mlz_jurisdiction": [
                 "us:pa;supreme.court"
             ],
@@ -882,6 +891,21 @@
                 "Amer. Law Reg.": "Am. Law Reg.",
                 "Amer. Law Reg. (N. S.)": "Am. Law Reg. (N.S.)"
             }
+        }
+    ],
+    "Am. Law T.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Am. Law T.": {
+                    "end": "1871-12-31T00:00:00",
+                    "start": "1870-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "American Law Times",
+            "notes": "",
+            "variations": {}
         }
     ],
     "Am. Law T. Rep. (N. S.)": [
@@ -896,7 +920,9 @@
             "mlz_jurisdiction": [],
             "name": "American Law Times Reports, New Series",
             "notes": "",
-            "variations": {}
+            "variations": {
+                "Am. Law T. (N. S.)": "Am. Law T. Rep. (N. S.)"
+            }
         }
     ],
     "Am. Law T. Rep. Bankr.": [
@@ -1115,6 +1141,7 @@
             ],
             "name": "American Law Review",
             "variations": {
+                "Am Law Rev.": "Amer. L. Rev.",
                 "Am. Law Rev.": "Amer. L. Rev.",
                 "Amer. Law Rev.": "Amer. L. Rev."
             }
@@ -1136,7 +1163,8 @@
             "name": "American Law Journal",
             "notes": "It was originally called the American Law Journal and Miscellaneous Repertory",
             "variations": {
-                "Am. Law J.": "Amer. Law J."
+                "Am. Law J.": "Amer. Law J.",
+                "Am. Law J. (U. S.)": "Amer. Law J."
             }
         }
     ],
@@ -1210,7 +1238,11 @@
             "mlz_jurisdiction": [],
             "name": "Appeals from the Commissioner of Patents",
             "variations": {
+                "App. Com'r of Pat.": "App. Com'r Pat.",
+                "App. Com'r. Pat.": "App. Com'r Pat.",
                 "App. Com'rs Pat.": "App. Com'r Pat.",
+                "App. Com. Pat.": "App. Com'r Pat.",
+                "App. Comm. Pat.": "App. Com'r Pat.",
                 "App. Comr. Pat.": "App. Com'r Pat."
             }
         }
@@ -2481,6 +2513,26 @@
             }
         }
     ],
+    "Bigelow. Ins. Rep.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Bigelow. Ins. Rep.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Bigelow's Insurance Reports, 672",
+                "2 Bigelow. Ins. Rep. 35"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Bigelow's Insurance Reports",
+            "variations": {
+                "Bigelow's Insurance Reports": "Bigelow. Ins. Rep."
+            }
+        }
+    ],
     "Binn.": [
         {
             "cite_type": "state",
@@ -2909,6 +2961,26 @@
                 "Brown's Adm.": "Brown Adm.",
                 "Brown, Adm.": "Brown Adm.",
                 "Brown. Adm.": "Brown Adm."
+            }
+        }
+    ],
+    "Browne (Pa.)": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Browne (Pa.)": {
+                    "end": "1814-12-31T00:00:00",
+                    "start": "1801-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Browne (Pa.), 334",
+                "2 Browne (Pa.) 335"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Browne's Pennsylvania Reports",
+            "variations": {
+                "Browne, (Pa.)": "Browne (Pa.)"
             }
         }
     ],
@@ -5601,6 +5673,20 @@
             "variations": {}
         }
     ],
+    "DTS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "DTS": {
+                    "end": null,
+                    "start": "1998-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Decisiones del Tribunal Supremo",
+            "variations": {}
+        }
+    ],
     "Daily Journal DAR": [
         {
             "cite_type": "state",
@@ -5850,6 +5936,20 @@
             "variations": {
                 "Day (Conn)": "Day"
             }
+        }
+    ],
+    "Day.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Day.": {
+                    "end": "1813-12-31T00:00:00",
+                    "start": "1802-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Day's Reports (Connecticut)",
+            "variations": {}
         }
     ],
     "Deady": [
@@ -6279,7 +6379,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Dillon's United States (US) Circuit Court Reports",
-            "variations": {}
+            "variations": {
+                "Dill": "Dill."
+            }
         }
     ],
     "Disney (Ohio)": [
@@ -8732,7 +8834,9 @@
             "mlz_jurisdiction": [],
             "name": "Hall's Law Journal",
             "notes": "Also known as American Law Journal, Hall's (Amer. Law J.)",
-            "variations": {}
+            "variations": {
+                "Hall. Law J.": "Hall, Law J."
+            }
         }
     ],
     "Handy": [
@@ -9056,6 +9160,7 @@
             ],
             "name": "District of Columbia Reports, Hayward & Hazelton",
             "variations": {
+                "Hayw. & Haz.": "Hay. & Haz.",
                 "Hayw.& H.": "Hay. & Haz."
             }
         }
@@ -9480,6 +9585,25 @@
             "name": "Hopkins' Chancery Reports",
             "variations": {
                 "Hopk. Ch. Rep.": "Hopk. Ch."
+            }
+        }
+    ],
+    "Hopk. Works.": [
+        {
+            "cite_type": "scotus_early",
+            "editions": {
+                "Hopk. Works.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "3 Hopk. Works, 70"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Hopkinson, Life and Letters of Hon. Francis Hopkinson, District Judge",
+            "variations": {
+                "Hopk. Works": "Hopk. Works."
             }
         }
     ],
@@ -10429,7 +10553,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Indian Claims Commission",
-            "variations": {}
+            "variations": {
+                "Ind. Cl. Com.": "Ind. Cl. Comm."
+            }
         }
     ],
     "Ind. Dec.": [
@@ -10584,7 +10710,9 @@
             "mlz_jurisdiction": [],
             "name": "Insurance Law Journal",
             "variations": {
-                "Ins. Law J.": "Ins. L.J."
+                "Ins Law J.": "Ins. L.J.",
+                "Ins. Law J.": "Ins. L.J.",
+                "Ins. Law. J.": "Ins. L.J."
             }
         }
     ],
@@ -10608,9 +10736,18 @@
             "editions": {
                 "Int. Rev. Rec.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "24 Int. Rev. Rec. 164",
+                "2 Int. Rev. Rec. (1865) 45",
+                "2 Int. Rev. Rec. (1865,) 62"
+            ],
             "mlz_jurisdiction": [],
             "name": "Internal Revenue Record",
             "variations": {
@@ -10753,6 +10890,23 @@
                 "Marsh.(Ky.)": "J.J. Marsh.",
                 "Marsh.J.J.": "J.J. Marsh."
             }
+        }
+    ],
+    "JTS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "JTS": {
+                    "end": null,
+                    "start": "1899-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "95 JTS 8"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Jurisprudencia del Tribunal Supremo",
+            "variations": {}
         }
     ],
     "Jeff.": [
@@ -10924,9 +11078,17 @@
             "editions": {
                 "Jour. Fr. Inst.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1826-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "6 Jour. Fr. Inst. 132",
+                "21 Jour. Fr. Inst. (1836) 165"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;supreme.court",
                 "us:c2:ny.ed;district.court"
@@ -11255,6 +11417,7 @@
             "name": "Kentucky Law Reporter",
             "variations": {
                 "Ken.L.Re.": "Ky. L. Rptr.",
+                "Ky. Law Rep.": "Ky. L. Rptr.",
                 "Ky.L.R.": "Ky. L. Rptr.",
                 "Ky.L.Rptr.": "Ky. L. Rptr.",
                 "Ky.Law.Rep.": "Ky. L. Rptr."
@@ -11964,14 +12127,24 @@
             "editions": {
                 "Law Rep.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "5 Law Rep. (1842) 321",
+                "5 Law Rep. 462"
+            ],
             "mlz_jurisdiction": [
                 "us:ma;supreme.court"
             ],
             "name": "Monthly Law Reporter, Boston Mass.",
-            "variations": {}
+            "variations": {
+                "Law, Rep.": "Law Rep."
+            }
         }
     ],
     "Law Reporter": [
@@ -12029,9 +12202,17 @@
             "editions": {
                 "Leg. Int.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "30 Leg. Int. 266",
+                "7 Leg. Int. (1850,) 203"
+            ],
             "mlz_jurisdiction": [
                 "us:pa;supreme.court"
             ],
@@ -12647,6 +12828,7 @@
             ],
             "name": "Louisiana Reports, Martin",
             "variations": {
+                "Mart. (O. S.)": "Mart.",
                 "Mart. (n.s.)": "Mart. (N.S.)",
                 "Mart. (o.s.)": "Mart.",
                 "Mart. Rep.": "Mart.",
@@ -12666,6 +12848,8 @@
             ],
             "name": "North Carolina Reports, Martin",
             "variations": {
+                "Mart. (N. C.)": "Mart.",
+                "Mart. N. C.": "Mart.",
                 "Mart. Rep.": "Mart.",
                 "Mart.Dec.": "Mart.",
                 "Mart.N.C.": "Mart.",
@@ -14407,6 +14591,23 @@
             "variations": {}
         }
     ],
+    "N. Y. City H. Rec.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N. Y. City H. Rec.": {
+                    "end": "1822-12-31T00:00:00",
+                    "start": "1816-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "2 N. Y. City H. Rec. 131"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York City Hall Recorder",
+            "variations": {}
+        }
+    ],
     "N.B.R. (Supp.)": [
         {
             "cite_type": "specialty",
@@ -14457,6 +14658,7 @@
             ],
             "name": "North Carolina Reports",
             "variations": {
+                "N. C.": "N.C.",
                 "N. C. Rep.": "N.C.",
                 "N.C. (Dev. & Bat.)": "N.C."
             }
@@ -14772,9 +14974,17 @@
             "editions": {
                 "N.J. Law J.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 N. J. Law J. 4",
+                "2 N. J. Law J. (1879) 150"
+            ],
             "mlz_jurisdiction": [
                 "us:nj;supreme.court"
             ],
@@ -16215,6 +16425,27 @@
             }
         }
     ],
+    "Niles Reg.": [
+        {
+            "cite_type": "scotus_early",
+            "editions": {
+                "Niles Reg.": {
+                    "end": "1848-12-31T00:00:00",
+                    "start": "1811-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "20 Niles Reg. 346",
+                "2 Niles' Reg. 216"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Niles' Weekly Register",
+            "variations": {
+                "Niles' Reg.": "Niles Reg.",
+                "Niles, Reg.": "Niles Reg."
+            }
+        }
+    ],
     "Northumb. L.J.": [
         {
             "cite_type": "state_regional",
@@ -16313,9 +16544,17 @@
             "editions": {
                 "O.G.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "3 O. G. (1873,) 688",
+                "15 O. G. 510"
+            ],
             "mlz_jurisdiction": [],
             "name": "Official Gazette, United States Patent Office (Washington, D.C.)",
             "variations": {
@@ -18162,6 +18401,7 @@
                 "Parker's Cr. R.": "Park. Cr.",
                 "Parker's Crim. R.": "Park. Cr.",
                 "Parker's Crim. Rep.": "Park. Cr.",
+                "Parker, Cr. Cas.": "Park. Cr.",
                 "Parker, Cr. R.": "Park. Cr."
             }
         }
@@ -23174,13 +23414,22 @@
             "editions": {
                 "W.L.J.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_year_included"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "3 West. Law J. (1846) 153",
+                "7 West. Law J. 431"
+            ],
             "mlz_jurisdiction": [],
             "name": "Western Law Journal (OH)",
             "variations": {
-                "West. Law J.": "W.L.J."
+                "West. Law J.": "W.L.J.",
+                "West. Law. J.": "W.L.J."
             }
         }
     ],
@@ -23229,7 +23478,8 @@
                 "W.N.C. (Pa.)": "W.N.C.",
                 "Wkly. N.C": "W.N.C.",
                 "Wkly. Notes Cas.": "W.N.C.",
-                "Wkly. Notes Cas. (Pa.)": "W.N.C."
+                "Wkly. Notes Cas. (Pa.)": "W.N.C.",
+                "Wkly. Notes. Cas.": "W.N.C."
             }
         }
     ],
