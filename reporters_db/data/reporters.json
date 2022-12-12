@@ -7116,6 +7116,8 @@
             "name": "Federal Appendix",
             "variations": {
                 "F. App'x.": "F. App'x",
+                "F. Appx.": "F. App'x",
+                "F. App’x": "F. App'x",
                 "F.App'x": "F. App'x",
                 "F.App'x.": "F. App'x",
                 "F.App’x.": "F. App'x"
