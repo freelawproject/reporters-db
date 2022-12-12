@@ -905,7 +905,9 @@
             "mlz_jurisdiction": [],
             "name": "American Law Times",
             "notes": "",
-            "variations": {}
+            "variations": {
+                "Am. Law T. Rep.": "Am. Law T."
+            }
         }
     ],
     "Am. Law T. Rep. (N. S.)": [
@@ -2459,11 +2461,13 @@
                 "Betts' D. C. MS.": "Betts' Dec.",
                 "Betts' D. C. MSS.": "Betts' Dec.",
                 "Betts, C. C. MS.": "Betts' Dec.",
+                "Betts, D C. MS.": "Betts' Dec.",
                 "Betts, D. C.": "Betts' Dec.",
                 "Betts, D. C. MS.": "Betts' Dec.",
                 "Betts, D. C. MSS.": "Betts' Dec.",
                 "Betts, D. C. Ms.": "Betts' Dec.",
                 "Betts. C. C. MS.": "Betts' Dec.",
+                "Betts. D C. MS.": "Betts' Dec.",
                 "Betts. D. C. MS.": "Betts' Dec.",
                 "Betts. D. C. MSS.": "Betts' Dec."
             }
@@ -2990,14 +2994,23 @@
             "editions": {
                 "Brunn. Coll. Cas.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Brunner, Col. Cas. 190",
+                "1 Brunn. Coll. Cas. 577"
+            ],
             "mlz_jurisdiction": [],
             "name": "Brunner's Collected Cases (US)",
             "variations": {
                 "Brun. Col. Cas.": "Brunn. Coll. Cas.",
-                "Brunner, Col. Cas.": "Brunn. Coll. Cas."
+                "Brunner, Col. Cas.": "Brunn. Coll. Cas.",
+                "Brunner. Col. Cas.": "Brunn. Coll. Cas."
             }
         }
     ],
@@ -3039,6 +3052,23 @@
                 "Bur. Rep.": "Bur.",
                 "Burnett": "Bur.",
                 "Burnett (Wis.)": "Bur."
+            }
+        }
+    ],
+    "Burr's Trial": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Burr's Trial": {
+                    "end": null,
+                    "start": "1864-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "The Trial of Col. Aaron Burr on an Indictment for Treason",
+            "notes": "The Trial of Col. Aaron Burr On an Indictment for Treason: Before the Circuit Court of the United States, Held in Richmond, (Virginia), May Term, 1807 / by T. Carpenter.",
+            "variations": {
+                "Burr’s Trial": "Burr's Trial"
             }
         }
     ],
@@ -3792,6 +3822,26 @@
             "variations": {}
         }
     ],
+    "Cal. Law J. & Lit. Rev.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. Law J. & Lit. Rev.": {
+                    "end": "1863-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter,? $page"
+                    ],
+                    "start": "1862-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Cal. Law J. & Lit. Rev. 137"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "California Law Journal and Literary Review",
+            "variations": {}
+        }
+    ],
     "Cal. Rptr.": [
         {
             "cite_type": "state",
@@ -3993,6 +4043,25 @@
             }
         }
     ],
+    "Carpenter's Report of Burr's Trial": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Carpenter's Report of Burr's Trial": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "3 Carpenter's Report of Burr's Trial, 93"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Carpenter's Report of Burr's Trial",
+            "variations": {
+                "Carpenter’s Report of Burr’s Trial": "Carpenter's Report of Burr's Trial"
+            }
+        }
+    ],
     "Cates.": [
         {
             "cite_type": "state",
@@ -4093,6 +4162,25 @@
             "variations": {
                 "Chase,": "Chase",
                 "Chase.": "Chase"
+            }
+        }
+    ],
+    "Chase's Trial. Append.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Chase's Trial. Append.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Chase's Trial. Append. 65"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Chase's Trial. Append",
+            "variations": {
+                "Chase’s Trial. Append.": "Chase's Trial. Append."
             }
         }
     ],
@@ -4207,7 +4295,8 @@
             ],
             "name": "Chicago Legal News (1868-1925) (Illinois)",
             "variations": {
-                "Chi Leg. News": "Chi. Leg. News"
+                "Chi Leg. News": "Chi. Leg. News",
+                "Chi. Leg. News.": "Chi. Leg. News"
             }
         }
     ],
@@ -5100,16 +5189,49 @@
             "editions": {
                 "Cooke": {
                     "end": "1814-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter,? $page"
+                    ],
                     "start": "1811-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Cooke, 130",
+                "Cooke (Tenn.), 298",
+                "3 Tenn.(Cooke), 464"
+            ],
             "mlz_jurisdiction": [
                 "us:tn;supreme.court"
             ],
             "name": "Tennessee Reports, Cooke",
             "variations": {
                 "Cooke (Tenn.)": "Cooke",
+                "Tenn. (Cooke)": "Cooke",
                 "Tenn.(Cooke)": "Cooke"
+            }
+        }
+    ],
+    "Coombs' Trial of Aaron Burr": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Coombs' Trial of Aaron Burr": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter,? $page"
+                    ],
+                    "start": "1864-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Coombs’ Trial of Aaron Burr. 1"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "The trial of Aaron Burr for high treason",
+            "notes": "The trial of Aaron Burr for high treason : in the Circuit Court of the United States for the district of Virginia, summer term, 1807 : comprising all the evidence and the opinions of the court upon all motions made in the various stages of the case, with abstracts of arguments of counsel : compiled from authentic reports made during the progress of the trial : to which is added an account of the subsequent proceedings against Burr, Blennerhassett, and Smith, in the same court : with notes by the compiler on the law of treason, as applicable to the existing rebellion : prefaced by a brief historical sketch of Burr's Western expedition in 1806 / by J.J. Coombs.",
+            "variations": {
+                "Coombs’ Trial of Aaron Burr.": "Coombs' Trial of Aaron Burr"
             }
         }
     ],
@@ -5902,6 +6024,21 @@
                 "Dana Rep.": "Dana",
                 "Ky.(Dana)": "Dana"
             }
+        }
+    ],
+    "Dane, Abr.": [
+        {
+            "cite_type": "scotus_early",
+            "editions": {
+                "Dane, Abr.": {
+                    "end": null,
+                    "start": "1823-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Dane's Abridgement and Digest of American Law",
+            "notes": "",
+            "variations": {}
         }
     ],
     "Davis. L. Ct. Cas.": [
@@ -8011,9 +8148,15 @@
             "editions": {
                 "Fish. Prize Cas.": {
                     "end": null,
+                    "regexes": [
+                        "$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Fish. Pr. Cas. 32"
+            ],
             "mlz_jurisdiction": [],
             "name": "Fisher's United States Prize Cases",
             "variations": {
@@ -9160,6 +9303,7 @@
             ],
             "name": "District of Columbia Reports, Hayward & Hazelton",
             "variations": {
+                "Havw. & H.": "Hay. & Haz.",
                 "Hayw. & Haz.": "Hay. & Haz.",
                 "Hayw.& H.": "Hay. & Haz."
             }
@@ -9214,9 +9358,16 @@
             "editions": {
                 "Hayw. & H.D.C.": {
                     "end": "1941-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1893-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Hay. & Haz. 176"
+            ],
             "mlz_jurisdiction": [
                 "us:dc;circuit.court"
             ],
@@ -9546,6 +9697,27 @@
                 "Hoff Land Cas.": "Hoff. Land Cas.",
                 "Hoff. Land. Cas.": "Hoff. Land Cas."
             }
+        }
+    ],
+    "Hoff. Op.": [
+        {
+            "cite_type": "scotus_early",
+            "editions": {
+                "Hoff. Op.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter,? $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Hoff. Op. 433"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Hoffman's Opinions",
+            "notes": "An unpublished collection of manuscript and pamphlet decisions by Hon. Ogden Hoffman, District Judge.",
+            "variations": {}
         }
     ],
     "Holmes": [
@@ -10751,7 +10923,8 @@
             "mlz_jurisdiction": [],
             "name": "Internal Revenue Record",
             "variations": {
-                "Int Rev. Rec.": "Int. Rev. Rec."
+                "Int Rev. Rec.": "Int. Rev. Rec.",
+                "Int. Rev. Rec,": "Int. Rev. Rec."
             }
         }
     ],
@@ -12143,7 +12316,8 @@
             ],
             "name": "Monthly Law Reporter, Boston Mass.",
             "variations": {
-                "Law, Rep.": "Law Rep."
+                "Law, Rep.": "Law Rep.",
+                "Law. Rep.": "Law Rep."
             }
         }
     ],
@@ -12416,6 +12590,20 @@
                 "Ky.(Lit.Sel.Cas.)": "Litt. Sel. Cas.",
                 "Lit.Sel.Ca.": "Litt. Sel. Cas."
             }
+        }
+    ],
+    "Liv. Law Mag.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Liv. Law Mag.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Livingston's Law Magazine",
+            "variations": {}
         }
     ],
     "Lock. Rev. Cas.": [
@@ -16441,6 +16629,7 @@
             "mlz_jurisdiction": [],
             "name": "Niles' Weekly Register",
             "variations": {
+                "Nile, Reg.": "Niles Reg.",
                 "Niles' Reg.": "Niles Reg.",
                 "Niles, Reg.": "Niles Reg."
             }
@@ -19695,6 +19884,25 @@
                 "Robb. (N.J.)": "Robb.",
                 "Robbins": "Robb.",
                 "Robbins.": "Robb."
+            }
+        }
+    ],
+    "Robertson's Report of the Trial of Aaron Burr.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Robertson's Report of the Trial of Aaron Burr.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "2 Robertson's Report of the Trial of Aaron Burr. 481"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Robertson's Report of the Trial of Aaron Burr",
+            "variations": {
+                "Robertson’s Report of the Trial of Aaron Burr.": "Robertson's Report of the Trial of Aaron Burr."
             }
         }
     ],
@@ -23812,6 +24020,26 @@
             }
         }
     ],
+    "Wall. Jr. Append.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Wall. Jr. Append.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume $reporter $page_with_roman_numerals"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Wall. Jr. Append. ix"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Wall. Jr. Append.",
+            "variations": {}
+        }
+    ],
     "Ware": [
         {
             "cite_type": "federal",
@@ -24292,7 +24520,8 @@
             "name": "Wheeler's Criminal Cases",
             "variations": {
                 "Wheeler, Cr. Cas.": "Wheel. Cr. Cas.",
-                "Wheeler, Crim. Cas.": "Wheel. Cr. Cas."
+                "Wheeler, Crim. Cas.": "Wheel. Cr. Cas.",
+                "Wheeler. Cr. Cas.": "Wheel. Cr. Cas."
             }
         }
     ],
