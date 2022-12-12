@@ -15448,6 +15448,9 @@
                     "start": "1860-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "7 Neb. 47"
+            ],
             "mlz_jurisdiction": [
                 "us:ne;supreme.court"
             ],
