@@ -6567,6 +6567,8 @@
             "name": "Federal Appendix",
             "variations": {
                 "F. App'x.": "F. App'x",
+                "F. Appx.": "F. App'x",
+                "F. App’x": "F. App'x",
                 "F.App'x": "F. App'x",
                 "F.App'x.": "F. App'x",
                 "F.App’x.": "F. App'x"
@@ -15440,6 +15442,9 @@
             "editions": {
                 "Neb.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1860-01-01T00:00:00"
                 }
             },
