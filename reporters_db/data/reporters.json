@@ -16942,9 +16942,15 @@
             "editions": {
                 "Ohio": {
                     "end": "1851-12-31T00:00:00",
+                    "regexes": [
+                        "(?P<volume>\\d{1,3}) $reporter $page"
+                    ],
                     "start": "1821-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "822 Ohio 993"
+            ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court"
             ],
@@ -16960,13 +16966,15 @@
                 "Ohio": {
                     "end": null,
                     "regexes": [
-                        "$full_cite_format_neutral"
+                        "$full_cite_format_neutral",
+                        "$volume_year $reporter $page"
                     ],
                     "start": "2002-01-01T00:00:00"
                 }
             },
             "examples": [
-                "2017-Ohio-5699"
+                "2017-Ohio-5699",
+                "2016 Ohio 2813"
             ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court"
