@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.35 (2022-12-12): Add more reporters and variations
+ - 3.2.36 (2022-01-11): Cleanup Maine citations
 
 ## Past Versions
+
+ - 3.2.35 (2022-12-12): Add more reporters and variations
 
  - 3.2.34 (2022-11-11): Update to readme file
 
