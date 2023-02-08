@@ -1270,7 +1270,9 @@
                 "us:dc;court.appeals"
             ],
             "name": "Appeal Cases, District of Columbia",
-            "variations": {}
+            "variations": {
+                "App.D.C.": "App. D.C."
+            }
         }
     ],
     "Ariz.": [
@@ -3561,10 +3563,18 @@
                 },
                 "Cal. App. 3d": {
                     "end": "1991-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1969-01-01T00:00:00"
                 },
                 "Cal. App. 4th": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1991-01-01T00:00:00"
                 },
                 "Cal. App. 5th": {
@@ -3572,6 +3582,13 @@
                     "start": "1991-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "199 Cal. App. 3d 1099G",
+                "209 Cal. App. 3d 1098E",
+                "61 Cal. App. 3d 735",
+                "71 Cal. App. 4th 482A",
+                "103 Cal. App. 4th 262"
+            ],
             "mlz_jurisdiction": [
                 "us:ca;appeals.court"
             ],
@@ -4296,7 +4313,8 @@
             "name": "Chicago Legal News (1868-1925) (Illinois)",
             "variations": {
                 "Chi Leg. News": "Chi. Leg. News",
-                "Chi. Leg. News.": "Chi. Leg. News"
+                "Chi. Leg. News.": "Chi. Leg. News",
+                "Chi.Leg.N.": "Chi. Leg. News"
             }
         }
     ],
@@ -6341,7 +6359,8 @@
             ],
             "name": "Demarest's Surrogate (New York)",
             "variations": {
-                "Dem.": "Dem. Surr."
+                "Dem.": "Dem. Surr.",
+                "Dem.Surr.": "Dem. Surr."
             }
         }
     ],
@@ -10141,7 +10160,8 @@
             "variations": {
                 "BNA IER CAS": "I.E.R. Cas. (BNA)",
                 "I.E.R.": "I.E.R. Cas. (BNA)",
-                "I.E.R. Cas.": "I.E.R. Cas. (BNA)"
+                "I.E.R. Cas.": "I.E.R. Cas. (BNA)",
+                "IER Cases": "I.E.R. Cas. (BNA)"
             }
         }
     ],
@@ -12140,7 +12160,9 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Labor Cases",
-            "variations": {}
+            "variations": {
+                "Lab.Cas.": "Lab. Cas. (CCH)"
+            }
         }
     ],
     "Lab. L. Rep. (CCH)": [
@@ -16547,7 +16569,9 @@
                 "us:nv;supreme.court"
             ],
             "name": "Nevada Advanced Opinion",
-            "variations": {}
+            "variations": {
+                "Nev. Adv. Op.": "Nev. Adv. Op. No."
+            }
         }
     ],
     "Nev. Adv. Rep.": [
@@ -16694,12 +16718,22 @@
             "editions": {
                 "Nuclear Reg. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Nuclear Reg. Rep. P 20,754",
+                "2 Nuclear Reg. Rep. 17,342",
+                "Nuclear Reg. Rep. (CCH) ¶ 20,553"
+            ],
             "mlz_jurisdiction": [],
             "name": "Nuclear Regulation Reports",
-            "variations": {}
+            "variations": {
+                "Nuclear Reg. Rep.": "Nuclear Reg. Rep. (CCH)"
+            }
         }
     ],
     "O. Supp.": [
@@ -22601,7 +22635,9 @@
                 "us:dc;court.appeals"
             ],
             "name": "United States Court of Appeals Reports",
-            "variations": {}
+            "variations": {
+                "U.S.App.D.C.": "U.S. App. D.C."
+            }
         }
     ],
     "U.S. App. LEXIS": [
@@ -23014,6 +23050,7 @@
                 }
             },
             "examples": [
+                "Unempl.Ins.Rep. (CCH) P 8331",
                 "CCH Unemployment Ins. Rep. ¶ 15,419",
                 "1 CCH Unemployment Ins. Rep. para. 14,387",
                 "8 CCH, Unemployment Ins. Rep. W. Va. par. 8090",
@@ -23026,6 +23063,7 @@
                 "CCH Unemployment Ins. Rep.": "Unemployment Ins. Rep.",
                 "CCH, Unemployment Ins. Rep.": "Unemployment Ins. Rep.",
                 "Unempl. Ins. Rep. (CCH)": "Unemployment Ins. Rep.",
+                "Unempl.Ins.Rep. (CCH)": "Unemployment Ins. Rep.",
                 "Unemployment Ins. Rep. (CCH)": "Unemployment Ins. Rep."
             }
         }
