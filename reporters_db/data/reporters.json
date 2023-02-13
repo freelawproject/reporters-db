@@ -817,7 +817,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Americans with Disabilities Cases (BNA)",
-            "variations": {}
+            "variations": {
+                "A.D. Cases": "Am. Disabilities Cas. (BNA)"
+            }
         }
     ],
     "Am. Disabilities Dec.": [
@@ -3350,6 +3352,20 @@
             "variations": {}
         }
     ],
+    "CJ C.A.R.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "CJ C.A.R.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Colorado Journal, Colorado Appellate Reports",
+            "variations": {}
+        }
+    ],
     "CMA LEXIS": [
         {
             "cite_type": "specialty",
@@ -3958,6 +3974,22 @@
             "variations": {
                 "Cal.Unrep.": "Cal. Unrep.",
                 "Cal.Unrep.Cas.": "Cal. Unrep."
+            }
+        }
+    ],
+    "Cal. WCC": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. WCC": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "California Workers' Compensation Cases",
+            "variations": {
+                "Cal. Comp. Cases": "Cal. WCC"
             }
         }
     ],
@@ -5131,6 +5163,7 @@
             ],
             "name": "Connoly's New York Surrogate Reports",
             "variations": {
+                "Conn.Surr.": "Connoly",
                 "Connoly Sur. Rep.": "Connoly",
                 "Connoly Surr. Rep.": "Connoly"
             }
@@ -8261,6 +8294,20 @@
             "variations": {}
         }
     ],
+    "Fla. L. Weekly Fed. D": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Fla. L. Weekly Fed. D": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Florida (FL) Law Weekly Federal, District Court",
+            "variations": {}
+        }
+    ],
     "Fla. L. Weekly Fed. S": [
         {
             "cite_type": "federal",
@@ -8415,7 +8462,9 @@
                 "us:ga;supreme.court"
             ],
             "name": "Fulton County Daily Reporter",
-            "variations": {}
+            "variations": {
+                "FCDR": "Fulton County D. Rep."
+            }
         }
     ],
     "G. & J.": [
@@ -13867,7 +13916,9 @@
             },
             "mlz_jurisdiction": [],
             "name": "Medicare and Medicaid Guide",
-            "variations": {}
+            "variations": {
+                "Med & Med GD (CCH)": "Medicare & Medicaid Guide (CCH)"
+            }
         }
     ],
     "Meigs": [
@@ -15798,6 +15849,7 @@
             ],
             "name": "New York Civil Procedure Reports",
             "variations": {
+                "Civ. Proc. N.S.": "N.Y. Civ. Proc. R., (N.S.)",
                 "Civ. Proc. R.": "N.Y. Civ. Proc. R.",
                 "Civil Proc. R.": "N.Y. Civ. Proc. R.",
                 "N.Y. Civ. Proc. Rep.": "N.Y. Civ. Proc. R.",
@@ -19262,7 +19314,9 @@
                 "us:ny;court.appeals"
             ],
             "name": "Power's Surrogate's Reports",
-            "variations": {}
+            "variations": {
+                "Power": "Pow. Surr."
+            }
         }
     ],
     "Prod. Liab. Rep. (CCH)": [
@@ -22249,6 +22303,22 @@
             "variations": {}
         }
     ],
+    "Thomp.Nat.Bank Cas.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Thomp.Nat.Bank Cas.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Thompson National Bank Cases",
+            "variations": {
+                "Thomp. Nat. Bank Cas.": "Thomp.Nat.Bank Cas."
+            }
+        }
+    ],
     "Thompson": [
         {
             "cite_type": "state",
@@ -22860,13 +22930,16 @@
             },
             "examples": [
                 "57-2 U.S. Tax Cas. (CCH) P9816",
-                "2001-1 U.S. Tax Cas. (CCH) P54,209"
+                "2001-1 U.S. Tax Cas. (CCH) P54,209",
+                "86-1 USTC P 9445"
             ],
             "mlz_jurisdiction": [
                 "us:c;tax.court"
             ],
             "name": "United States (US) Tax Cases (CCH)",
-            "variations": {}
+            "variations": {
+                "USTC": "U.S. Tax Cas. (CCH)"
+            }
         }
     ],
     "U.S. Tax Ct. LEXIS": [
@@ -23460,6 +23533,22 @@
             ],
             "name": "LexisNexis Virginia Supreme Court Unpublished",
             "variations": {}
+        }
+    ],
+    "Va.Sup.Ct.Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Va.Sup.Ct.Rep.": {
+                    "end": "2002-12-31T00:00:00",
+                    "start": "1790-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Virginia Supreme Court Reports",
+            "variations": {
+                "Va. Sup. Ct. Rep.": "Va.Sup.Ct.Rep."
+            }
         }
     ],
     "Van Ness": [
