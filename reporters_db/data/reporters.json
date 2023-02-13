@@ -2723,12 +2723,22 @@
             "editions": {
                 "Blue Sky L. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Blue Sky L. Rep. P74,247",
+                "1 BLUE SKY L. REP. (CCH) ¶11,901"
+            ],
             "mlz_jurisdiction": [],
             "name": "Blue Sky Law Reports",
-            "variations": {}
+            "variations": {
+                "BLUE SKY L. REP. (CCH)": "Blue Sky L. Rep. (CCH)",
+                "Blue Sky L. Rep.": "Blue Sky L. Rep. (CCH)"
+            }
         }
     ],
     "Blume Sup. Ct. Trans.": [
@@ -3523,6 +3533,10 @@
                 },
                 "Cal. 4th": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1991-01-01T00:00:00"
                 },
                 "Cal. 5th": {
@@ -3530,6 +3544,10 @@
                     "start": "1991-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "14 Cal.4th 1089A",
+                "4 Cal.4th 116"
+            ],
             "mlz_jurisdiction": [
                 "us:ca;supreme.court"
             ],
@@ -4868,9 +4886,17 @@
             "editions": {
                 "Comm. Fut. L. Rep.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Comm. Fut. L. Rep. P 30,287",
+                "Comm. Fut. L. Rep. (CCH) 26,376",
+                "Comm. Fut. L. Rep. P. 26492"
+            ],
             "mlz_jurisdiction": [],
             "name": "Commodity Futures Law Reporter (CCH)",
             "variations": {
@@ -7018,12 +7044,23 @@
             "editions": {
                 "Energy Mgmt. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "4 Energy Mgmt. (CCH) ¶ 26,492",
+                "ENERGY MGMT. (CCH) 83,021",
+                "12 Energy Mgmt. (CCH) Paragraph 81,012"
+            ],
             "mlz_jurisdiction": [],
             "name": "Energy Management & Federal Energy Guidelines",
-            "variations": {}
+            "variations": {
+                "ENERGY MGMT. (CCH)": "Energy Mgmt. (CCH)",
+                "Energy Mgt.": "Energy Mgmt. (CCH)"
+            }
         }
     ],
     "Env't Rep. (BNA)": [
@@ -8273,6 +8310,9 @@
                     "start": "1978-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "11 Fla. L. Weekly 1325"
+            ],
             "mlz_jurisdiction": [
                 "us:fl;supreme.court"
             ],
@@ -9940,9 +9980,17 @@
             "editions": {
                 "How. N.P.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Howell N.P. 1",
+                "How.N.P. 263"
+            ],
             "mlz_jurisdiction": [],
             "name": "Howell, Nisi Prius",
             "variations": {
@@ -12201,10 +12249,14 @@
             "editions": {
                 "Lab. Cas. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
+                "65 Lab.Cas. P 11,580",
                 "140 Lab. Cas. (CCH) P58,886A"
             ],
             "mlz_jurisdiction": [],
@@ -16235,7 +16287,8 @@
                 }
             },
             "examples": [
-                "2005-NMCA-078"
+                "2005-NMCA-078",
+                "2000 -NMCA- 048"
             ],
             "mlz_jurisdiction": [
                 "us:nm;court.appeals"
@@ -16258,7 +16311,8 @@
                 }
             },
             "examples": [
-                "2010-NMCERT-001"
+                "2010-NMCERT-001",
+                "2008 -NMCERT- 006"
             ],
             "mlz_jurisdiction": [
                 "us:nm;supreme.court"
@@ -16281,7 +16335,8 @@
                 }
             },
             "examples": [
-                "2010-NMSC-007"
+                "2010-NMSC-007",
+                "2009 -NMSC- 034"
             ],
             "mlz_jurisdiction": [
                 "us:nm;supreme.court"
@@ -16891,14 +16946,23 @@
             "editions": {
                 "O.S.U.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "O.S.U. 292",
+                "1 O. S. C. D., 30"
+            ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court"
             ],
             "name": "Ohio Supreme Court Decisions, Unreported",
             "variations": {
+                "O. S. C. D.": "O.S.U.",
                 "O.S.C.D.": "O.S.U.",
                 "Oh. S.C.D.": "O.S.U.",
                 "Ohio S.U.": "O.S.U.",
@@ -17068,7 +17132,8 @@
             },
             "examples": [
                 "2017-Ohio-5699",
-                "2016 Ohio 2813"
+                "2016 Ohio 2813",
+                "2014 -Ohio- 566"
             ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court"
@@ -18952,12 +19017,22 @@
             "editions": {
                 "Pens. Plan Guide (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Pens. Plan Guide (Cch) P 23954",
+                "Pens. Plan Guide (CCH) P 24014F",
+                "Pens. Plan Guide (CCH) ¶ 19,963"
+            ],
             "mlz_jurisdiction": [],
             "name": "Pension Plan Guide",
-            "variations": {}
+            "variations": {
+                "Pens. Plan Guide (Cch)": "Pens. Plan Guide (CCH)"
+            }
         }
     ],
     "Personal and Comm. Liab. Life Health & Accid. Ins. Cas. 2d (CCH)": [
@@ -19325,12 +19400,21 @@
             "editions": {
                 "Prod. Liab. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Prod.Liab.Rep. (CCH) P 18,174",
+                "Prod. Liab. Rep. (CCH) ¶15,423"
+            ],
             "mlz_jurisdiction": [],
             "name": "Products Liability Reports",
-            "variations": {}
+            "variations": {
+                "Prod.Liab.Rep. (CCH)": "Prod. Liab. Rep. (CCH)"
+            }
         }
     ],
     "Prod. Safety & Liab. Rep. (BNA)": [
@@ -19456,13 +19540,23 @@
             "editions": {
                 "RICO Bus. Disp. Guide (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1970-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "R.I.C.O. Bus. Disp. Guide (CCH) P 9217",
+                "R.I.C.O. Bus. Disp. Guide (CCH) P 12350",
+                "RICO Bus.Disp.Guide 10,667"
+            ],
             "mlz_jurisdiction": [],
             "name": "RICO Business Disputes Guide (Commerce Clearing House)",
             "variations": {
-                "RICO Bus. Disp. Guide": "RICO Bus. Disp. Guide (CCH)"
+                "R.I.C.O. Bus. Disp. Guide (CCH)": "RICO Bus. Disp. Guide (CCH)",
+                "RICO Bus. Disp. Guide": "RICO Bus. Disp. Guide (CCH)",
+                "RICO Bus.Disp.Guide": "RICO Bus. Disp. Guide (CCH)"
             }
         }
     ],
@@ -23229,12 +23323,23 @@
             "editions": {
                 "Util. L. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Util. L. Rep. P 27,248",
+                "UTIL. L. REP. (CCH) 112,210",
+                "Util. L. Rep. (CCH) 24,101"
+            ],
             "mlz_jurisdiction": [],
             "name": "Utilities Law Reports",
-            "variations": {}
+            "variations": {
+                "UTIL. L. REP. (CCH)": "Util. L. Rep. (CCH)",
+                "Util. L. Rep.": "Util. L. Rep. (CCH)"
+            }
         }
     ],
     "V.I.": [
