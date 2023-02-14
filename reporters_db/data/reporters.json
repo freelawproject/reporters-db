@@ -2121,7 +2121,8 @@
                 "Bankr. L. Rep.": {
                     "end": null,
                     "regexes": [
-                        "$full_cite_cch"
+                        "$full_cite_cch",
+                        "$full_cite_cch_suffix"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -2130,7 +2131,8 @@
                 "Bankr. L. Rep. P12,345",
                 "Bankr. L. Rep. P 80679",
                 "Bankr. L. Rep. (CCH) ¶ 67,488",
-                "Bankr. L. Rep. (C.C.H.) ¶67,049"
+                "Bankr. L. Rep. (C.C.H.) ¶67,049",
+                "Bankr. L. Rep. P 69803A"
             ],
             "mlz_jurisdiction": [],
             "name": "Bankruptcy Law Reporter",
@@ -8179,7 +8181,8 @@
                 "Fed. Sec. L. Rep. (CCH)": {
                     "end": null,
                     "regexes": [
-                        "$full_cite_cch"
+                        "$full_cite_cch",
+                        "$full_cite_cch_suffix"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -8187,7 +8190,8 @@
             "examples": [
                 "Fed. Sec. L. Rep. (CCH) par. 78,056",
                 "Fed. Sec. L. Rep. (CCH) ¶ 77,526",
-                "Fed Sec L Rep (CCH) ¶ 80,715"
+                "Fed Sec L Rep (CCH) ¶ 80,715",
+                "Fed. Sec. L. Rep. P 94023A"
             ],
             "mlz_jurisdiction": [],
             "name": "Federal Securities Law Reporter (CCH)",
@@ -8209,7 +8213,8 @@
             "mlz_jurisdiction": [],
             "name": "Federal Sentencing Reporter",
             "variations": {
-                "Fed. Sent. R.": "Fed. Sent'g Rep"
+                "Fed. Sent. R.": "Fed. Sent'g Rep",
+                "Fed.Sent.R.": "Fed. Sent'g Rep"
             }
         }
     ],
@@ -12430,7 +12435,9 @@
                 "us:pa;supreme.court"
             ],
             "name": "Lancaster Law Review",
-            "variations": {}
+            "variations": {
+                "Lanc.L.R.": "Lanc. L. Rev."
+            }
         }
     ],
     "Lans.": [
@@ -20977,7 +20984,8 @@
             ],
             "name": "Shannon's Tennessee Cases",
             "variations": {
-                "Tenn. Cas.": "Shan. Cas."
+                "Tenn. Cas.": "Shan. Cas.",
+                "Tenn.Cas.": "Shan. Cas."
             }
         }
     ],
@@ -21214,12 +21222,22 @@
             "editions": {
                 "Soc. Sec. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch",
+                        "$full_cite_cch_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "14 Soc.Sec.Rep.Serv. 46A",
+                "137 Soc. Sec. Rep. (CCH) 707"
+            ],
             "mlz_jurisdiction": [],
             "name": "Social Security Reporter",
-            "variations": {}
+            "variations": {
+                "Soc.Sec.Rep.Serv.": "Soc. Sec. Rep. (CCH)"
+            }
         }
     ],
     "Som. L.J.": [
