@@ -769,9 +769,18 @@
             "editions": {
                 "Am. Ann. Cas.": {
                     "end": "1912-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$reporter $volume_with_letter,\\s?$page"
+                    ],
                     "start": "1904-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "7 Am.Ann.Cas. 1192",
+                "Am.Ann.Cas. 1914A,390",
+                "Am.Ann.Cas. 1916D, 988"
+            ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court",
                 "us:in;supreme.court",
@@ -1457,7 +1466,8 @@
                     "end": "2008-12-31T00:00:00",
                     "regexes": [
                         "(?P<volume>\\d{1,3}) $reporter $page",
-                        "$volume $reporter $page_with_letter"
+                        "$volume $reporter $page_with_letter",
+                        "$volume $reporter $page_with_roman_numerals"
                     ],
                     "start": "1837-01-01T00:00:00"
                 }
@@ -1465,7 +1475,8 @@
             "examples": [
                 "298 Ark. 1",
                 "244 Ark. 1028A",
-                "244 Ark. 890A"
+                "244 Ark. 890A",
+                "205 Ark. XIX"
             ],
             "mlz_jurisdiction": [
                 "us:ar;supreme.court"
@@ -3537,6 +3548,10 @@
             "editions": {
                 "Cal.": {
                     "end": "1934-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_roman_numerals"
+                    ],
                     "start": "1850-01-01T00:00:00"
                 },
                 "Cal. 2d": {
@@ -3545,6 +3560,10 @@
                 },
                 "Cal. 3d": {
                     "end": "1991-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1969-01-01T00:00:00"
                 },
                 "Cal. 3d Spec. Trib Supp.": {
@@ -3566,7 +3585,11 @@
             },
             "examples": [
                 "14 Cal.4th 1089A",
-                "4 Cal.4th 116"
+                "4 Cal.4th 116",
+                "154 Cal. XVI",
+                "3 Cal. 8",
+                "53 Cal.3d 1009A",
+                "53 Cal.3d 1180"
             ],
             "mlz_jurisdiction": [
                 "us:ca;supreme.court"
@@ -3610,6 +3633,10 @@
             "editions": {
                 "Cal. App.": {
                     "end": "1934-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_roman_numerals"
+                    ],
                     "start": "1905-01-01T00:00:00"
                 },
                 "Cal. App. 2d": {
@@ -3642,7 +3669,9 @@
                 "209 Cal. App. 3d 1098E",
                 "61 Cal. App. 3d 735",
                 "71 Cal. App. 4th 482A",
-                "103 Cal. App. 4th 262"
+                "103 Cal. App. 4th 262",
+                "9 Cal.App. XIII",
+                "1 Cal. App. 1"
             ],
             "mlz_jurisdiction": [
                 "us:ca;appeals.court"
@@ -6527,6 +6556,23 @@
             "variations": {}
         }
     ],
+    "Detroit Leg.N.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Detroit Leg.N.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "6 Detroit Leg.N. 100"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Detroit Legal News",
+            "variations": {}
+        }
+    ],
     "Dev.": [
         {
             "cite_type": "state",
@@ -8378,6 +8424,34 @@
             "variations": {}
         }
     ],
+    "Fla. L. Weekly D": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Fla. L. Weekly": {
+                    "end": null,
+                    "regexes": [
+                        "$volume $reporter D$page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                },
+                "Fla. L. Weekly D": {
+                    "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "38 Fla. L. Weekly D 2058",
+                "15 Fla. L. Weekly D1436"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Florida (FL) Law Weekly, District Courts of Appeal",
+            "variations": {}
+        }
+    ],
     "Fla. L. Weekly Fed. B": [
         {
             "cite_type": "specialty",
@@ -8440,11 +8514,26 @@
         {
             "cite_type": "state",
             "editions": {
+                "Fla. L. Weekly": {
+                    "end": null,
+                    "regexes": [
+                        "$volume $reporter S$page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                },
                 "Fla. L. Weekly Supp.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1992-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "17 Fla. L. Weekly S554",
+                "27 Fla. L. Weekly Supp. 918",
+                "38 Fla. L. Weekly S 93"
+            ],
             "mlz_jurisdiction": [
                 "us:fl;supreme.court"
             ],
@@ -8635,7 +8724,8 @@
                     "regexes": [
                         "$full_cite",
                         "(?P<volume>33) $reporter (?P<supp>Supp\\.) $page",
-                        "$volume $reporter $page_with_letter"
+                        "$volume $reporter $page_with_letter",
+                        "$volume $reporter $page_with_roman_numerals"
                     ],
                     "start": "1846-01-01T00:00:00"
                 }
@@ -8644,7 +8734,8 @@
                 "1 Ga. 1",
                 "33 Ga. Supp. 9",
                 "33 Suppl. Ga. 29",
-                "246 Ga. 822a"
+                "246 Ga. 822a",
+                "256 Ga. XXVII"
             ],
             "mlz_jurisdiction": [
                 "us:ga;supreme.court"
@@ -11911,19 +12002,33 @@
             "editions": {
                 "L.R.A.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$reporter $volume_with_letter,\\s?$page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 },
                 "L.R.A.N.S.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "15 L.R.A. 553",
+                "33 L.R.A.(N.S.) 768",
+                "L.R.A. 1915A, 788",
+                "L.R.A. 1918F,387"
+            ],
             "mlz_jurisdiction": [],
             "name": "Lawyers' Reports Annotated",
             "notes": "N.S. stands for new series",
             "variations": {
                 "L. R. A.,": "L.R.A.",
-                "L.R.A (N.S.)": "L.R.A.N.S."
+                "L.R.A (N.S.)": "L.R.A.N.S.",
+                "L.R.A.(N.S.)": "L.R.A.N.S."
             }
         }
     ],
@@ -14139,14 +14244,16 @@
                 "Mich.": {
                     "end": null,
                     "regexes": [
-                        "(?P<volume>\\d+|402A) $reporter,? $page"
+                        "(?P<volume>\\d+|402A) $reporter,? $page",
+                        "(?P<volume>\\d+|402A) $reporter,? $page_with_letter"
                     ],
                     "start": "1847-01-01T00:00:00"
                 }
             },
             "examples": [
                 "1 Mich. 1",
-                "402A Mich 117"
+                "402A Mich 117",
+                "402 Mich. 950J"
             ],
             "mlz_jurisdiction": [
                 "us:mi;supreme.court"
@@ -14870,6 +14977,23 @@
             "variations": {
                 "Mor.Ia.": "Morris",
                 "Morr.": "Morris"
+            }
+        }
+    ],
+    "Mun.L.R.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mun.L.R.": {
+                    "end": "1956-12-31T00:00:00",
+                    "start": "1909-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Municipal Law Reporter",
+            "variations": {
+                "Mun.": "Mun.L.R.",
+                "Munic.L.R.(Pa.)": "Mun.L.R."
             }
         }
     ],
@@ -16935,7 +17059,8 @@
                 "Nuclear Reg. Rep. (CCH)": {
                     "end": null,
                     "regexes": [
-                        "$full_cite_cch"
+                        "$full_cite_cch",
+                        "$full_cite_cch_suffix"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -16943,7 +17068,8 @@
             "examples": [
                 "Nuclear Reg. Rep. P 20,754",
                 "2 Nuclear Reg. Rep. 17,342",
-                "Nuclear Reg. Rep. (CCH) ¶ 20,553"
+                "Nuclear Reg. Rep. (CCH) ¶ 20,553",
+                "Nuclear Reg. Rep. P 23998U"
             ],
             "mlz_jurisdiction": [],
             "name": "Nuclear Regulation Reports",
@@ -23540,7 +23666,8 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Gratt\\.|Rob\\.|Leigh|Rand\\.|Gilmer|Munf\\.|Hen\\. & M\\.|Call|Va\\. Cas\\.|Wash\\.)\\) $page"
+                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Gratt\\.|Rob\\.|Leigh|Rand\\.|Gilmer|Munf\\.|Hen\\. & M\\.|Call|Va\\. Cas\\.|Wash\\.)\\) $page",
+                        "$volume $reporter $page_with_roman_numerals"
                     ],
                     "start": "1880-01-01T00:00:00"
                 }
@@ -23549,7 +23676,8 @@
                 "1 Va. 1",
                 "21 Va. (Gilmer) 456",
                 "1 Va. (1 Wash.) 456",
-                "5 Va. Leigh 1"
+                "5 Va. Leigh 1",
+                "244 Va. IX"
             ],
             "mlz_jurisdiction": [
                 "us:va;supreme.court"
@@ -24595,14 +24723,15 @@
                     "end": "1888-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter (?P<page>\\d+[ab])"
+                        "$volume $reporter (?P<page>\\d+[abAB])"
                     ],
                     "start": "1854-01-01T00:00:00"
                 }
             },
             "examples": [
                 "123 Wash. Terr. 515",
-                "3 Wash. Terr. 332a"
+                "3 Wash. Terr. 332a",
+                "3 Wash.Terr. 332B"
             ],
             "mlz_jurisdiction": [
                 "us:wa;supreme.court"
@@ -25065,6 +25194,10 @@
             "editions": {
                 "Wis.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_roman_numerals"
+                    ],
                     "start": "1853-01-01T00:00:00"
                 },
                 "Wis. 2d": {
@@ -25078,7 +25211,9 @@
             },
             "examples": [
                 "71 Wis. 2d 497a",
-                "211 Wis. 2d 1"
+                "211 Wis. 2d 1",
+                "229 Wis. 570",
+                "99 Wis. IV"
             ],
             "mlz_jurisdiction": [
                 "us:wi;supreme.court"
