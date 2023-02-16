@@ -129,13 +129,25 @@
             "editions": {
                 "A.F.T.R. (RIA)": {
                     "end": "1957-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 },
                 "A.F.T.R.2d (RIA)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_with_letter $reporter $page"
+                    ],
                     "start": "1958-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "71A A.F.T.R.2d (RIA) 5025",
+                "16 A.F.T.R. (RIA) 245",
+                "73 A.F.T.R.2d (RIA) 413"
+            ],
             "mlz_jurisdiction": [
                 "us:c;tax.court"
             ],
@@ -1237,9 +1249,16 @@
             "editions": {
                 "Ant. N.P. Cas.": {
                     "end": "1851-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter,? $page"
+                    ],
                     "start": "1807-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Ant. N.P. Cas. 1",
+                "1 Ant. N.P. Cas. 15"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals"
             ],
@@ -1596,14 +1615,24 @@
             "editions": {
                 "Ark. LEXIS": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2006 Ark. Lexis 326",
+                "1987 Ark. LEXIS 1981C"
+            ],
             "mlz_jurisdiction": [
                 "us:ar;supreme.court"
             ],
             "name": "LexisNexis Arkansas Supreme Court",
-            "variations": {}
+            "variations": {
+                "Ark. Lexis": "Ark. LEXIS"
+            }
         }
     ],
     "Armstrong. Election Cases": [
@@ -1628,13 +1657,23 @@
             "editions": {
                 "Auto. Cas.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1895-01-01T00:00:00"
                 },
                 "Auto. Cas.2d": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1895-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1969 Auto. Cas. 2d (CCH) P6405",
+                "1971 Auto. Cas. (CCH) P7052"
+            ],
             "mlz_jurisdiction": [],
             "name": "Automobile Cases (CCH)",
             "variations": {
@@ -1650,9 +1689,16 @@
             "editions": {
                 "Av. Cas. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1903-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "11 Av. Cas. (CCH) P17,791",
+                "8 Av. Cas. (CCH) 18"
+            ],
             "mlz_jurisdiction": [],
             "name": "Aviation Cases (CCH)",
             "notes": "Aviation didnt start until 1903 in the United States.",
@@ -4525,9 +4571,18 @@
             "editions": {
                 "Cl. Ch.": {
                     "end": "1841-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter,? $page"
+                    ],
                     "start": "1839-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Clarke Ch. (N. Y.) 136",
+                "1 Cl. Ch. 71",
+                "Cl. Ch. 272"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals"
             ],
@@ -4536,6 +4591,7 @@
                 "Cl.R.": "Cl. Ch.",
                 "Clarke": "Cl. Ch.",
                 "Clarke Ch.": "Cl. Ch.",
+                "Clarke Ch. (N. Y.)": "Cl. Ch.",
                 "Clarke Ch.(N.Y.)": "Cl. Ch."
             }
         }
@@ -4680,9 +4736,16 @@
             "editions": {
                 "Cole. & Cai. Cas.": {
                     "end": "1805-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter,? $page"
+                    ],
                     "start": "1794-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Cole. & Cai. Cas. 428",
+                "Cole. & Cai. Cas. 233"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals"
             ],
@@ -4704,9 +4767,16 @@
             "editions": {
                 "Cole. Cas.": {
                     "end": "1800-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter,? $page"
+                    ],
                     "start": "1791-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Cole. Cas. 67",
+                "1 Cole. Cas. 42"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals"
             ],
@@ -5370,9 +5440,16 @@
             "editions": {
                 "Copy. L. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Copy. L. Rep. (CCH) P27,257",
+                "Copy. L. Rep. (CCH) P30,605"
+            ],
             "mlz_jurisdiction": [],
             "name": "Copyright Law Reporter (CCH)",
             "variations": {}
@@ -7066,7 +7143,8 @@
                 "Empl. Prac. Dec. (CCH)": {
                     "end": null,
                     "regexes": [
-                        "$full_cite_cch"
+                        "$full_cite_cch",
+                        "$full_cite_cch_suffix"
                     ],
                     "start": "1971-01-01T00:00:00"
                 }
@@ -7075,7 +7153,8 @@
                 "42 Empl. Prac. Dec. (CCH) par. 36,973",
                 "65 Empl. Prac. Dec. (CCH) P 43,243",
                 "23 Empl. Prac. Dec. (CCH) ¶30986",
-                "53 Empl Prac Dec [CCH] ¶ 39,911"
+                "53 Empl Prac Dec [CCH] ¶ 39,911",
+                "18 Empl. Prac. Dec. (CCH) P8716A"
             ],
             "mlz_jurisdiction": [],
             "name": "Employment Practices Decisions",
@@ -7690,15 +7769,17 @@
                 "FED App.": {
                     "end": null,
                     "regexes": [
-                        "$volume_year $reporter (?P<page>\\d{4}[nNpP])",
-                        "$volume_year $reporter (?P<page>\\d{4}[nNpP]) \\(6th Cir\\.?\\)"
+                        "$volume_year $reporter (?P<page>\\d{4}[nNpP]) \\(6th Cir\\.?\\)",
+                        "$volume $reporter $page_with_letter"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "2014 FED App. 0840N (6th Cir.)",
-                "2007 Fed.App. 0003P"
+                "2007 Fed.App. 0003P",
+                "2005 FED App. 01007N",
+                "2005 FED App. 0423A"
             ],
             "mlz_jurisdiction": [
                 "us:c6:ky.ed;district.court",
@@ -8298,9 +8379,16 @@
             "editions": {
                 "Fire & Casualty Cas.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1969 Fire & Casualty Cas.(CCH) P242",
+                "1979 Fire & Casualty Cas. 1295"
+            ],
             "mlz_jurisdiction": [],
             "name": "Fire and Casualty Cases",
             "variations": {
@@ -8438,14 +8526,16 @@
                 "Fla. L. Weekly D": {
                     "end": null,
                     "regexes": [
-                        "$full_cite"
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "38 Fla. L. Weekly D 2058",
-                "15 Fla. L. Weekly D1436"
+                "15 Fla. L. Weekly D1436",
+                "25 Fla. L. Weekly D 1373A"
             ],
             "mlz_jurisdiction": [],
             "name": "Florida (FL) Law Weekly, District Courts of Appeal",
@@ -9984,6 +10074,7 @@
             "name": "Hoffman's Land Cases",
             "variations": {
                 "Hoff Land Cas.": "Hoff. Land Cas.",
+                "Hoff. L. Cas.": "Hoff. Land Cas.",
                 "Hoff. Land. Cas.": "Hoff. Land Cas."
             }
         }
@@ -10037,9 +10128,16 @@
             "editions": {
                 "Hopk. Ch.": {
                     "end": "1826-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter,? $page"
+                    ],
                     "start": "1823-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Hopk. Ch. 365",
+                "1 Hopk. Ch. 6"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals"
             ],
@@ -10986,9 +11084,17 @@
             "editions": {
                 "Ind. App. LEXIS": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2001 Ind. App. LEXIS 671",
+                "1994 Ind. App. LEXIS 1574C"
+            ],
             "mlz_jurisdiction": [
                 "us:in;appeals.court"
             ],
@@ -12567,9 +12673,16 @@
             "editions": {
                 "Lans. Ch.": {
                     "end": "1826-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter,? $page"
+                    ],
                     "start": "1824-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Lans. Ch. 14",
+                "1 Lans. Ch. 5"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals"
             ],
@@ -13200,14 +13313,15 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter (?P<page>\\d+[N]?)"
+                        "$volume $reporter $page_with_letter"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "108 MT 1",
-                "108 MT 23N"
+                "108 MT 23N",
+                "2006 MT 112W"
             ],
             "mlz_jurisdiction": [
                 "us:mt;supreme.court"
@@ -13721,11 +13835,16 @@
             "editions": {
                 "McCahon": {
                     "end": "1868-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter,? $page"
+                    ],
                     "start": "1858-01-01T00:00:00"
                 }
             },
             "examples": [
-                "McCahon 206"
+                "McCahon 206",
+                "McCahon 124",
+                "1 McCahon 185"
             ],
             "mlz_jurisdiction": [
                 "us:ks;supreme.court"
@@ -16310,6 +16429,10 @@
             "editions": {
                 "N.Y.S.": {
                     "end": "1937-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1888-01-01T00:00:00"
                 },
                 "N.Y.S.2d": {
@@ -16327,7 +16450,9 @@
             },
             "examples": [
                 "64 NYS2d 1",
-                "1 NYS2d 1f"
+                "1 NYS2d 1f",
+                "234 N.Y.S. 3687A",
+                "133 N.Y.S. 291"
             ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals"
@@ -16598,9 +16723,19 @@
             "editions": {
                 "NY Slip Op": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2022 NY Slip Op 07093",
+                "2022 N.Y. Slip Op. 4979",
+                "2012 NY Slip Op. 08701",
+                "2011 NY Slip Op 71377U"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals"
             ],
@@ -16868,13 +17003,23 @@
             "editions": {
                 "Neg. Cas. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 },
                 "Neg. Cas. 2d (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1969 Neg. Cas. 2d (CCH) P512",
+                "1967 Neg. Cas. (CCH) 12"
+            ],
             "mlz_jurisdiction": [],
             "name": "Negligence Cases (CCH)",
             "variations": {}
@@ -18203,9 +18348,17 @@
             "editions": {
                 "Ore. LEXIS": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2002 Ore. LEXIS 385Z",
+                "2019 Ore. LEXIS 271"
+            ],
             "mlz_jurisdiction": [
                 "us:or;supreme.court"
             ],
@@ -19645,11 +19798,13 @@
             },
             "examples": [
                 "Prod.Liab.Rep. (CCH) P 18,174",
-                "Prod. Liab. Rep. (CCH) ¶15,423"
+                "Prod. Liab. Rep. (CCH) ¶15,423",
+                "CCH Prod. Liab. Rep. P20,088"
             ],
             "mlz_jurisdiction": [],
             "name": "Products Liability Reports",
             "variations": {
+                "CCH Prod. Liab. Rep.": "Prod. Liab. Rep. (CCH)",
                 "Prod.Liab.Rep. (CCH)": "Prod. Liab. Rep. (CCH)"
             }
         }
@@ -21922,7 +22077,8 @@
                     "end": null,
                     "regexes": [
                         "$full_cite_year_page",
-                        "$full_cite_paragraph"
+                        "$full_cite_paragraph",
+                        "$volume_nominative ?$reporter $page_with_letter"
                     ],
                     "start": "1924-01-01T00:00:00"
                 }
@@ -21930,7 +22086,8 @@
             "examples": [
                 "T.C.M. (RIA) ¶ 95,342",
                 "T.C.M. (RIA) 92736",
-                "T.C.M. (RIA) 2004-279"
+                "T.C.M. (RIA) 2004-279",
+                "T.C.M. (RIA) 44277A"
             ],
             "mlz_jurisdiction": [
                 "us:c;tax.court"
@@ -23648,9 +23805,17 @@
             "editions": {
                 "VT": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2007 VT 38A",
+                "2018 VT 95"
+            ],
             "mlz_jurisdiction": [
                 "us:vt;supreme.court"
             ],
