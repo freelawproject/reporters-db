@@ -3234,6 +3234,26 @@
             }
         }
     ],
+    "C.A.D.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "C.A.D.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter,?\\s?$page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "C.A.D. 1232"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Customs Appeals Decisions",
+            "variations": {}
+        }
+    ],
     "C.B.": [
         {
             "cite_type": "specialty",
@@ -3614,6 +3634,9 @@
                 },
                 "Cal. 3d Spec. Trib Supp.": {
                     "end": "1991-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1969-01-01T00:00:00"
                 },
                 "Cal. 4th": {
@@ -3635,13 +3658,15 @@
                 "154 Cal. XVI",
                 "3 Cal. 8",
                 "53 Cal.3d 1009A",
-                "53 Cal.3d 1180"
+                "53 Cal.3d 1180",
+                "19 Cal. 3d (Spec. Trib. Supp.) 1"
             ],
             "mlz_jurisdiction": [
                 "us:ca;supreme.court"
             ],
             "name": "California Reports",
             "variations": {
+                "Cal. 3d (Spec. Trib. Supp.)": "Cal. 3d Spec. Trib Supp.",
                 "Cal. Rep.": "Cal.",
                 "Cal.2d": "Cal. 2d",
                 "Cal.3d": "Cal. 3d",
@@ -3707,6 +3732,10 @@
                 },
                 "Cal. App. 5th": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1991-01-01T00:00:00"
                 }
             },
@@ -3717,6 +3746,8 @@
                 "71 Cal. App. 4th 482A",
                 "103 Cal. App. 4th 262",
                 "9 Cal.App. XIII",
+                "6 Cal. App. 5th 601a",
+                "65 Cal.App.5th 1060",
                 "1 Cal. App. 1"
             ],
             "mlz_jurisdiction": [
@@ -3942,9 +3973,18 @@
             "editions": {
                 "Cal. LEXIS": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1881 Cal. LEXIS 302",
+                "1925 Cal. LEXIS 310",
+                "1918 Cal. LEXIS 489C"
+            ],
             "mlz_jurisdiction": [
                 "us:ca;supreme.court"
             ],
@@ -9036,9 +9076,20 @@
             "editions": {
                 "Gilmer": {
                     "end": "1821-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter,?\\s?$page"
+                    ],
                     "start": "1820-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Gilmer 235",
+                "1 Gilmer (Va.), 235",
+                "Gilmer (Va.), 235",
+                "21 Va. (Gilmer) 130",
+                "Gilmer 277"
+            ],
             "mlz_jurisdiction": [
                 "us:va;supreme.court"
             ],
@@ -9047,6 +9098,7 @@
                 "Gil.": "Gilmer",
                 "Gilm.": "Gilmer",
                 "Gilmer (Va.)": "Gilmer",
+                "Va. (Gilmer)": "Gilmer",
                 "Va.(Gilmer)": "Gilmer"
             }
         }
@@ -10614,7 +10666,8 @@
             },
             "examples": [
                 "2014 IL App (1st) 120583",
-                "2014 IL App (1st) 120583-U"
+                "2014 IL App (1st) 120583-U",
+                "2014 IL App (1st) 133032U"
             ],
             "mlz_jurisdiction": [
                 "us:il;court.appeals"
@@ -12073,13 +12126,25 @@
             "editions": {
                 "L. Ed.": {
                     "end": "1956-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1790-01-01T00:00:00"
                 },
                 "L. Ed. 2d": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1956-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "48 L. Ed. 931",
+                "16 L. Ed. 2d 321",
+                "120 L. Ed. 2d 864D"
+            ],
             "mlz_jurisdiction": [
                 "us;supreme.court"
             ],
@@ -12939,16 +13004,30 @@
             "editions": {
                 "Life. Cas. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 },
                 "Life. Cas. 2d (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1981 Life Cas. (CCH) 203",
+                "1979 Life. Cas. (CCH) P889",
+                "8 Life Cas. 2d (CCH) P 3494",
+                "5 Life. Cas. 2d(CCH) P1005"
+            ],
             "mlz_jurisdiction": [],
             "name": "Life (Health & Accident) Cases (CCH)",
             "variations": {
+                "Life Cas. (CCH)": "Life. Cas. (CCH)",
+                "Life Cas. 2d (CCH)": "Life. Cas. 2d (CCH)",
                 "Life. Cas. 2d(CCH)": "Life. Cas. 2d (CCH)"
             }
         }
@@ -13013,9 +13092,17 @@
             "editions": {
                 "Litt. Sel. Cas.": {
                     "end": "1821-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1795-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Litt. Sel. Cas. 32",
+                "Litt. Sel. Cas. 30"
+            ],
             "mlz_jurisdiction": [
                 "us:ky;supreme.court"
             ],
@@ -14692,9 +14779,20 @@
             "editions": {
                 "Minor": {
                     "end": "1826-01-01T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter,?\\s?$page"
+                    ],
                     "start": "1820-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Minor 2",
+                "9 Min. Rep. 538",
+                "Min. Rep. 325",
+                "1 Minor (Ala.) 93",
+                "Minor 407"
+            ],
             "mlz_jurisdiction": [
                 "us:al;supreme.court"
             ],
@@ -14712,17 +14810,33 @@
             "editions": {
                 "Misc.": {
                     "end": "1955-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1892-01-01T00:00:00"
                 },
                 "Misc. 2d": {
                     "end": "2004-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1955-01-01T00:00:00"
                 },
                 "Misc. 3d": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "2004-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "31 Misc. 3d 30",
+                "1 Misc. 1",
+                "7 Misc. 2d 1",
+                "46 Misc. 3d 1216A"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals"
             ],
@@ -14918,14 +15032,15 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter (?P<page>\\d{1,4}a?)"
+                        "$volume $reporter (?P<page>\\d{1,4}(a|A)?)"
                     ],
                     "start": "1868-01-01T00:00:00"
                 }
             },
             "examples": [
                 "382 Mont. 1a",
-                "1 Mont. 2"
+                "1 Mont. 2",
+                "310 Mont. 147A"
             ],
             "mlz_jurisdiction": [
                 "us:mt;supreme.court"
@@ -17489,13 +17604,15 @@
                 }
             },
             "examples": [
-                "822 Ohio 993"
+                "822 Ohio 993",
+                "13 OHIO 30"
             ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court"
             ],
             "name": "Ohio Reports",
             "variations": {
+                "OHIO": "Ohio",
                 "Ohio Rep.": "Ohio"
             }
         },
@@ -17836,6 +17953,7 @@
             ],
             "name": "Ohio Law Reporter",
             "variations": {
+                "Ohio L. Rep.": "Ohio Law Rep.",
                 "Ohio L.R.": "Ohio Law Rep.",
                 "Ohio Law R": "Ohio Law Rep."
             }
@@ -17973,6 +18091,25 @@
                 "Ohio Op.2d": "Ohio Op. 2d",
                 "Ohio Op.3d": "Ohio Op. 3d",
                 "Ohio Ops.": "Ohio Op."
+            }
+        }
+    ],
+    "Ohio Pending Op. Rep.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ohio Pending Op. Rep.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "7 Ohio Pending OP Rep 7"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Ohio (OH) Pending Opinions Reporter",
+            "variations": {
+                "Ohio Pending OP Rep": "Ohio Pending Op. Rep."
             }
         }
     ],
@@ -18291,9 +18428,17 @@
             "editions": {
                 "Or. App.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1969-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "118 Ore. App. 540E",
+                "168 Or. App. 1"
+            ],
             "mlz_jurisdiction": [
                 "us:or;supreme.court"
             ],
