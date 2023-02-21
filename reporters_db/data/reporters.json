@@ -3320,6 +3320,27 @@
             "variations": {}
         }
     ],
+    "C.F.R.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "C.F.R.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume $reporter §?\\s?(?P<page>\\d+\\.\\d+(\\-\\d+)?)"
+                    ],
+                    "start": "1938-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "16 C.F.R. § 444.1",
+                "26 C.F.R. 1.616-1"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Code of Federal Regulations",
+            "variations": {}
+        }
+    ],
     "C.I.T.": [
         {
             "cite_type": "specialty",
@@ -5747,6 +5768,23 @@
             }
         }
     ],
+    "Ct. Dec. Relating N.L.R.A.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Ct. Dec. Relating N.L.R.A.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "15 Ct. Dec. Relating N.L.R.A. 995"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Court Decisions Relating National Labor Relations Act",
+            "variations": {}
+        }
+    ],
     "Ct. Int'l Trade": [
         {
             "cite_type": "federal",
@@ -6018,9 +6056,18 @@
             "editions": {
                 "DNH": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2016 DNH 191P",
+                "2007 DNH 157",
+                "2011 D.N.H. 160"
+            ],
             "mlz_jurisdiction": [
                 "us:c1:nh.d;district.court"
             ],
@@ -7809,7 +7856,7 @@
                 "FED App.": {
                     "end": null,
                     "regexes": [
-                        "$volume_year $reporter (?P<page>\\d{4}[nNpP]) \\(6th Cir\\.?\\)",
+                        "$volume_year $reporter (?P<page>\\d{4}[nNpP]?) \\(6th Cir\\.?\\)",
                         "$volume $reporter $page_with_letter"
                     ],
                     "start": "1750-01-01T00:00:00"
@@ -7819,7 +7866,8 @@
                 "2014 FED App. 0840N (6th Cir.)",
                 "2007 Fed.App. 0003P",
                 "2005 FED App. 01007N",
-                "2005 FED App. 0423A"
+                "2005 FED App. 0423A",
+                "2017 FED App. 0061 (6th Cir.)"
             ],
             "mlz_jurisdiction": [
                 "us:c6:ky.ed;district.court",
@@ -7877,6 +7925,27 @@
                 "us:fl;supreme.court"
             ],
             "name": "Florida Neutral Citation",
+            "variations": {}
+        }
+    ],
+    "FLA. STAT.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "FLA. STAT.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "FLA. STAT. 197.502",
+                "FLA. STAT. § 895.03"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Florida Statutes",
             "variations": {}
         }
     ],
@@ -8549,6 +8618,28 @@
                 "us:fl;supreme.court"
             ],
             "name": "Florida Law Weekly",
+            "variations": {}
+        }
+    ],
+    "Fla. L. Weekly C": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Fla. L. Weekly C": {
+                    "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "324 Fla. L. Weekly C 1280",
+                "24 Fla. L. Weekly C 1286A"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Florida (FL) Law Weekly, Circuit Court",
             "variations": {}
         }
     ],
@@ -23639,6 +23730,26 @@
             }
         }
     ],
+    "U.S.C.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "U.S.C.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "28 USC 753",
+                "26 U.S.C. 151"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "United States Code",
+            "variations": {
+                "USC": "U.S.C."
+            }
+        }
+    ],
     "U.S.L.W.": [
         {
             "cite_type": "specialty",
@@ -24565,9 +24676,17 @@
             "editions": {
                 "WL": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2012 WL 688485F",
+                "2009 WL 416647"
+            ],
             "mlz_jurisdiction": [
                 "us:ak;supreme.court",
                 "us:al;supreme.court",
