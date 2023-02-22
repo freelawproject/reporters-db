@@ -8468,6 +8468,25 @@
             "variations": {}
         }
     ],
+    "Fed. Tax Ct. R.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Fed. Tax Ct. R.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "FED. TAX CT. R. 142"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Rules of Practice and Procedure of the United States Tax Court",
+            "variations": {
+                "FED. TAX CT. R.": "Fed. Tax Ct. R."
+            }
+        }
+    ],
     "Fed. Tax Guide Rep. (CCH)": [
         {
             "cite_type": "specialty",
@@ -8933,6 +8952,23 @@
             "mlz_jurisdiction": [],
             "name": "Gaming Dispute Reporter",
             "notes": "This reporter is unknown but occurs in relation to gaming disputes at tribal casinos",
+            "variations": {}
+        }
+    ],
+    "GCM": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "GCM": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "GCM 18972"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "General Counsel Memoranda",
             "variations": {}
         }
     ],
@@ -10882,6 +10918,57 @@
             }
         }
     ],
+    "IRC": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "IRC": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+)",
+                        "$volume_nominative ?$reporter §?\\s?(SEC.|Sec.|Section) (?P<page>\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "I.R.C. § 61",
+                "IRC 1954",
+                "IRC SEC. 71",
+                "IRC Sec. 754",
+                "IRC Section 6661"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Internal Revenue Code",
+            "variations": {
+                "I.R.C.": "IRC"
+            }
+        }
+    ],
+    "IRM": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "IRM": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+\\.\\d+\\.\\d+)",
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+\\.\\d+\\.\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "IRM 5.12.3.12",
+                "IRM 4.10.7.1.2"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Internal Revenue Manual",
+            "variations": {
+                "I.R.M.": "IRM"
+            }
+        }
+    ],
     "IRS Pos. (CCH)": [
         {
             "cite_type": "specialty",
@@ -11278,6 +11365,29 @@
             }
         }
     ],
+    "Ind. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ind. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+\\-\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "IND. CODE 32-18-2-14",
+                "Ind. Code § 1-1-2-1"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Indiana Code",
+            "variations": {
+                "IND. CODE": "Ind. Code"
+            }
+        }
+    ],
     "Ind. Dec.": [
         {
             "cite_type": "state",
@@ -11493,6 +11603,29 @@
             "variations": {}
         }
     ],
+    "Internal Revenue Manual Section": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Internal Revenue Manual Section": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "INTERNAL REVENUE MANUAL SECTION 9.8.1",
+                "Internal Revenue Manual Section 5.10.1"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Internal Revenue Manual Section",
+            "variations": {
+                "INTERNAL REVENUE MANUAL SECTION": "Internal Revenue Manual Section"
+            }
+        }
+    ],
     "Iowa": [
         {
             "cite_type": "state",
@@ -11526,6 +11659,29 @@
             ],
             "name": "LexisNexis Iowa Appeals Court",
             "variations": {}
+        }
+    ],
+    "Iowa Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Iowa Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "IOWA CODE 633.238",
+                "Iowa Code § 802.5"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Code of Iowa",
+            "variations": {
+                "IOWA CODE": "Iowa Code"
+            }
         }
     ],
     "Iowa Sup. LEXIS": [
@@ -11636,9 +11792,17 @@
             "editions": {
                 "Jeff.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Jefferson 2",
+                "Jeff. 96"
+            ],
             "mlz_jurisdiction": [],
             "name": "Jefferson's Reports (Virginia General Court)",
             "variations": {
@@ -11962,6 +12126,29 @@
             "variations": {}
         }
     ],
+    "Kan. Stat. Ann.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Kan. Stat. Ann.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "KAN. STAT. ANN. 59-2291",
+                "Kan. Stat. Ann. § 59-1504"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Kansas Statutes Annotated",
+            "variations": {
+                "KAN. STAT. ANN.": "Kan. Stat. Ann."
+            }
+        }
+    ],
     "Kan. Unpub. LEXIS": [
         {
             "cite_type": "state",
@@ -12123,6 +12310,29 @@
             "variations": {}
         }
     ],
+    "Ky. Const.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ky. Const.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Ky. Const. §171",
+                "KY. CONST. 242"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Kentucky Constitution",
+            "variations": {
+                "KY. CONST.": "Ky. Const."
+            }
+        }
+    ],
     "Ky. L. Rptr.": [
         {
             "cite_type": "state",
@@ -12192,6 +12402,29 @@
             "name": "Kentucky Opinions",
             "variations": {
                 "Ken.Opin.": "Ky. Op."
+            }
+        }
+    ],
+    "Ky. Rev. Stat. Ann.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ky. Rev. Stat. Ann.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "KY. REV. STAT. ANN. 271.075",
+                "Ky. Rev. Stat. Ann. § 417.240"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Michie’s Kentucky Revised Statutes Annotated (LexisNexis)",
+            "variations": {
+                "KY. REV. STAT. ANN.": "Ky. Rev. Stat. Ann."
             }
         }
     ],
@@ -12507,6 +12740,32 @@
             "variations": {}
         }
     ],
+    "La. C.C.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "La. C.C.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (Art.|Article|art.|arts.) (?P<page>\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "La. C.C. Art. 2163",
+                "La. C.C. Article 2404",
+                "La. C.C. art. 2106",
+                "La. C.C. arts. 2402",
+                "La. Civ. Code art. 38"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Louisiana Civil Code",
+            "variations": {
+                "La. Civ. Code": "La. C.C."
+            }
+        }
+    ],
     "La. LEXIS": [
         {
             "cite_type": "state",
@@ -12535,6 +12794,29 @@
             "mlz_jurisdiction": [],
             "name": "Louisiana Law Journal",
             "variations": {}
+        }
+    ],
+    "La. R.S.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "La. R.S.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+\\:\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "LA. R.S. 47:42",
+                "La. R.S. 23:966"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Louisiana Revised Statutes",
+            "variations": {
+                "LA. R.S.": "La. R.S."
+            }
         }
     ],
     "La.App. 1 Cir.": [
@@ -13357,6 +13639,113 @@
             "mlz_jurisdiction": [],
             "name": "Mohegan Tribal Court Reporter",
             "variations": {}
+        }
+    ],
+    "MD. CODE ANN.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "MD. CODE ANN.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                },
+                "MD. CODE ANN., BUS. OCC. PROF.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                },
+                "MD. CODE ANN., COM. LAW": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                },
+                "MD. CODE ANN., CORPS. ASSNS": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                },
+                "MD. CODE ANN., CTS. JUD. PROC.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                },
+                "MD. CODE ANN., EST. TRUSTS": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                },
+                "MD. CODE ANN., FAM. LAW": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                },
+                "MD. CODE ANN., FIN. INST.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                },
+                "MD. CODE ANN., REAL PROP.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                },
+                "MD. CODE ANN., TAX-GEN.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                },
+                "MD. CODE ANN., TRANSP.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "MD. CODE ANN., CORPS. ASSNS 3-503",
+                "MD. CODE ANN., BUS. OCC. PROF. 17-101",
+                "MD. CODE ANN., COM. LAW 15-209",
+                "MD. CODE ANN., CTS. JUD. PROC. 11-108",
+                "MD. CODE ANN., EST. TRUSTS 8-108",
+                "MD. CODE ANN., FAM. LAW 8-205",
+                "MD. CODE ANN., FIN. INST. 10-102",
+                "MD. CODE ANN., REAL PROP. 10-501",
+                "MD. CODE ANN., TAX-GEN. 10-821",
+                "MD. CODE ANN., TRANSP. 8-324"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "West’s Annotated Code of Maryland",
+            "variations": {
+                "Md. Code Ann., Bus. Occ. & Prof.": "MD. CODE ANN., BUS. OCC. PROF.",
+                "Md. Code Ann., Com. Law": "MD. CODE ANN., COM. LAW",
+                "Md. Code Ann., Corps. & Ass’ns": "MD. CODE ANN., CORPS. ASSNS",
+                "Md. Code Ann., Cts. & Jud. Proc.": "MD. CODE ANN., CTS. JUD. PROC.",
+                "Md. Code Ann., Est. & Trusts": "MD. CODE ANN., EST. TRUSTS",
+                "Md. Code Ann., Fam. Law": "MD. CODE ANN., FAM. LAW",
+                "Md. Code Ann., Fin. Inst.": "MD. CODE ANN., FIN. INST.",
+                "Md. Code Ann., Real Prop.": "MD. CODE ANN., REAL PROP.",
+                "Md. Code Ann., Tax-Gen.": "MD. CODE ANN., TAX-GEN.",
+                "Md. Code Ann., Transp.": "MD. CODE ANN., TRANSP."
+            }
         }
     ],
     "MDBT": [
@@ -14598,6 +14987,29 @@
             "variations": {}
         }
     ],
+    "Mich. Comp. Laws": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mich. Comp. Laws": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "MICH. COMP. LAWS 700.712",
+                "Mich. Comp. Laws § 600.5805"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Michigan Compiled Laws (1979)",
+            "variations": {
+                "MICH. COMP. LAWS": "Mich. Comp. Laws"
+            }
+        }
+    ],
     "Mich. Ct. Cl.": [
         {
             "cite_type": "state",
@@ -14848,6 +15260,31 @@
             "variations": {}
         }
     ],
+    "Minn. Stat.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Minn. Stat.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)",
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+[A-Z]\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Minn. Stat. § 275.066",
+                "MINN. STAT. 573.06",
+                "MINN. STAT. 302A.781"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Minnesota Statutes",
+            "variations": {
+                "MINN. STAT.": "Minn. Stat."
+            }
+        }
+    ],
     "Minn. Tax LEXIS": [
         {
             "cite_type": "state",
@@ -14990,6 +15427,29 @@
             ],
             "name": "LexisNexis Mississippi Appeals Court",
             "variations": {}
+        }
+    ],
+    "Miss. Code Ann.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Miss. Code Ann.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+\\-\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "MISS. CODE ANN. 83-17-7",
+                "Miss. Code Ann. § 43-20-1"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Mississippi Code 1972 Annotated (LexisNexis)",
+            "variations": {
+                "MISS. CODE ANN.": "Miss. Code Ann."
+            }
         }
     ],
     "Miss. Dec.": [
@@ -15142,6 +15602,30 @@
                 "Mont": "Mont.",
                 "Mt.": "Mont.",
                 "State Reptr.": "Mont."
+            }
+        }
+    ],
+    "Mont. Code Ann.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mont. Code Ann.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+\\-\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "MONT. CODE ANN. 15-25-111",
+                "MONT. CODE ANN. § 50-20-401",
+                "Mont. Code Ann. §1-6-105"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Montana Code Annotated",
+            "variations": {
+                "MONT. CODE ANN.": "Mont. Code Ann."
             }
         }
     ],
@@ -17561,9 +18045,7 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Official Code of Georgia Annotated (LexisNexis)",
-            "variations": {
-                "Ohio Rev. Code Ann.": "OHIO REV. CODE ANN."
-            }
+            "variations": {}
         }
     ],
     "O.G.": [
