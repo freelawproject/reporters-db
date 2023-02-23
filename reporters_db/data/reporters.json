@@ -625,6 +625,28 @@
             "variations": {}
         }
     ],
+    "Ala. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ala. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "ALA. CODE 43-8-294"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Michie’s Alabama Code, 1975 (LexisNexis)",
+            "variations": {
+                "ALA. CODE": "Ala. Code"
+            }
+        }
+    ],
     "Ala. Crim. App. LEXIS": [
         {
             "cite_type": "state",
@@ -724,6 +746,28 @@
                 "A.F.Rep.": "Alaska Fed.",
                 "Alaska Fed.R.": "Alaska Fed.",
                 "Alaska Fed.Rep.": "Alaska Fed."
+            }
+        }
+    ],
+    "Alaska Stat.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Alaska Stat.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "ALASKA STAT. 09.38.015"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Alaska Statutes (LexisNexis)",
+            "variations": {
+                "ALASKA STAT.": "Alaska Stat."
             }
         }
     ],
@@ -1321,6 +1365,31 @@
             }
         }
     ],
+    "Appendix U.S.C.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Appendix U.S.C.": {
+                    "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter § $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "50 Appendix U.S.C. 541",
+                "28 APPENDIX U.S.C. § 30",
+                "50 APPENDIX U.S.C. 20"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Appendix U.S.C.",
+            "variations": {
+                "APPENDIX U.S.C.": "Appendix U.S.C."
+            }
+        }
+    ],
     "Ariz.": [
         {
             "cite_type": "state",
@@ -1419,6 +1488,29 @@
             ],
             "name": "LexisNexis Arizona Supreme Court",
             "variations": {}
+        }
+    ],
+    "Ariz. Rev. Stat.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ariz. Rev. Stat.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "ARIZ. REV. STAT. 44-1007",
+                "Ariz. Rev. Stat. § 1-219"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Arizona Revised Statutes (LexisNexis)",
+            "variations": {
+                "ARIZ. REV. STAT.": "Ariz. Rev. Stat."
+            }
         }
     ],
     "Ariz. Tax LEXIS": [
@@ -1607,6 +1699,29 @@
             ],
             "name": "LexisNexis Arkansas Court of Appeals",
             "variations": {}
+        }
+    ],
+    "Ark. Code Ann.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ark. Code Ann.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Ark. Code Ann. § 8-2-201",
+                "ARK. CODE ANN. 4-26-715"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Arkansas Code of 1987 Annotated (LexisNexis)",
+            "variations": {
+                "ARK. CODE ANN.": "Ark. Code Ann."
+            }
         }
     ],
     "Ark. LEXIS": [
@@ -2046,6 +2161,9 @@
             "editions": {
                 "Baldw.": {
                     "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter,? $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -3629,6 +3747,30 @@
             }
         }
     ],
+    "Cal Bus & Prof Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal Bus & Prof Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?$page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Cal. Bus. & Prof. Code § 2",
+                "CAL. BUS. PROF. CODE 19565"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "California Business and Professions Code",
+            "variations": {
+                "CAL. BUS. PROF. CODE": "Cal Bus & Prof Code",
+                "Cal. Bus. & Prof. Code": "Cal Bus & Prof Code"
+            }
+        }
+    ],
     "Cal.": [
         {
             "cite_type": "state",
@@ -3886,6 +4028,78 @@
             "mlz_jurisdiction": [],
             "name": "California Bankruptcy Court Report",
             "variations": {}
+        }
+    ],
+    "Cal. Civ. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. Civ. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?$page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "CAL. CIV. CODE 2317",
+                "Cal. Civ. Code § 1646"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Civil Code",
+            "variations": {
+                "CAL. CIV. CODE": "Cal. Civ. Code"
+            }
+        }
+    ],
+    "Cal. Civ. Proc. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. Civ. Proc. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+(\\.\\d+)?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "CAL. CIV. PROC. CODE 1858",
+                "Cal. Civ. Code § 1646",
+                "Cal. Civ. Proc. Code § 1094.5"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Code of Civil Procedure",
+            "variations": {
+                "CAL. CIV. PROC. CODE": "Cal. Civ. Proc. Code",
+                "Cal. Civ. Code": "Cal. Civ. Proc. Code"
+            }
+        }
+    ],
+    "Cal. Com. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. Com. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?$page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "CAL. COM. CODE 3104",
+                "Cal. Com. Code § 3101"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Uniform Commercial Code",
+            "variations": {
+                "CAL. COM. CODE": "Cal. Com. Code",
+                "Cal. Comm. Code": "Cal. Com. Code"
+            }
         }
     ],
     "Cal. Comm. Jud. Perform. LEXIS": [
