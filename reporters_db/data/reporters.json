@@ -5956,6 +5956,49 @@
             "variations": {}
         }
     ],
+    "D. Minn. LR": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "D. Minn. LR": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "D. Minn. LR 1960"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "District of Minnesota Local Rules",
+            "variations": {}
+        }
+    ],
+    "D. Nev. LR": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "D. Nev. LR": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+(\\-|\\.)\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "D. Nev. LR 7.4",
+                "D. Nev. L.R. 16-3"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "District of Nevada Local Rules",
+            "variations": {
+                "D. Nev. L.R.": "D. Nev. LR"
+            }
+        }
+    ],
     "D.A.R.": [
         {
             "cite_type": "state",
@@ -6032,6 +6075,28 @@
             ],
             "name": "LexisNexis Washington D.C. Appeals Court",
             "variations": {}
+        }
+    ],
+    "D.C. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "D.C. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+\\-\\d+)"
+                    ],
+                    "start": "1950-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "D.C. CODE 16-1358"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "District of Columbia Official Code (LexisNexis)",
+            "variations": {
+                "D.C. CODE": "D.C. Code"
+            }
         }
     ],
     "D.C. Super. LEXIS": [
@@ -6132,14 +6197,24 @@
             "editions": {
                 "Daily Journal DAR": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "98 Daily Journal D.A.R. 889",
+                "93 Daily Journal DAR 8123L"
+            ],
             "mlz_jurisdiction": [
                 "us:ca;appeals.court"
             ],
             "name": "California Daily Journal Daily Appellate Reports",
-            "variations": {}
+            "variations": {
+                "Daily Journal D.A.R.": "Daily Journal DAR"
+            }
         }
     ],
     "Daily L.N.": [
@@ -6577,6 +6652,32 @@
                 "Del.Co.": "Del. Co.",
                 "Del.Co.Rep.": "Del. Co.",
                 "Delaware Co. Reports": "Del. Co."
+            }
+        }
+    ],
+    "Del. Code Ann.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Del. Code Ann.": {
+                    "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter ((tit.|title) \\d+)?, §?\\s?(?P<page>\\d+(\\([a-zA-Z]\\))?(\\(\\d+\\))?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "12 DEL. CODE ANN. 3526",
+                "Del. Code Ann. tit. 11, § 1206",
+                "Del. Code Ann. tit. 30, § 1102(a)",
+                "Del. Code Ann. tit. 11, § 2402(c)(4)"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Delaware Code Annotated",
+            "variations": {
+                "DEL. CODE ANN.": "Del. Code Ann."
             }
         }
     ],
@@ -7195,6 +7296,23 @@
             }
         }
     ],
+    "Empl. & L. Rel. Law": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Empl. & L. Rel. Law": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "52 Empl. & L. Rel. Law 1877"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Employee & Labor Relations Law",
+            "variations": {}
+        }
+    ],
     "Empl. Benefits Cas. (BNA)": [
         {
             "cite_type": "specialty",
@@ -7369,6 +7487,26 @@
             }
         }
     ],
+    "Exec. Order": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Exec. Order": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter No. $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Exec. Order No. 9001"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Executive Order",
+            "variations": {}
+        }
+    ],
     "Exempt Org. Rep. (CCH)": [
         {
             "cite_type": "specialty",
@@ -7427,6 +7565,7 @@
                 "F.2d.": "F.2d",
                 "F.3d.": "F.3d",
                 "F.4th.": "F.4th",
+                "FED": "F.",
                 "Fed.": "F.",
                 "Fed.R.": "F.",
                 "Fed.R.2d": "F.2d",
@@ -8236,6 +8375,116 @@
             "variations": {}
         }
     ],
+    "Fed. R. App. P.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Fed. R. App. P.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "FED. R. APP. P. 4"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Federal Rules of Appellate Procedure, USCS",
+            "variations": {
+                "FED. R. APP. P.": "Fed. R. App. P."
+            }
+        }
+    ],
+    "Fed. R. Bankr. P.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Fed. R. Bankr. P.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "FED. R. BANKR. P. 4004"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Federal Rules of Bankruptcy Procedure and Official Bankruptcy Rules, USCS",
+            "variations": {
+                "FED. R. BANKR. P.": "Fed. R. Bankr. P."
+            }
+        }
+    ],
+    "Fed. R. Civ. P.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Fed. R. Civ. P.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "FED. R. CIV. P. 65"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Federal Rules of Civil Procedure, USCS",
+            "variations": {
+                "FED. R. CIV. P.": "Fed. R. Civ. P."
+            }
+        }
+    ],
+    "Fed. R. Crim. P.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Fed. R. Crim. P.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "FED. R. CRIM. P. 6"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Federal Rules of Criminal Procedure, USCS",
+            "variations": {
+                "FED. R. CRIM. P.": "Fed. R. Crim. P."
+            }
+        }
+    ],
+    "Fed. R. Evid": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Fed. R. Evid": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "FED. R. EVID. 702"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Federal Rules of Evidence, USCS",
+            "variations": {
+                "FED. R. EVID.": "Fed. R. Evid"
+            }
+        }
+    ],
     "Fed. R. Serv.": [
         {
             "cite_type": "specialty",
@@ -8474,11 +8723,15 @@
             "editions": {
                 "Fed. Tax Ct. R.": {
                     "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "FED. TAX CT. R. 142"
+                "FED. TAX CT. R. 142",
+                "FED. TAX CT. R. 145"
             ],
             "mlz_jurisdiction": [],
             "name": "Rules of Practice and Procedure of the United States Tax Court",
