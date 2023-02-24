@@ -522,6 +522,31 @@
             }
         }
     ],
+    "Agency": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Agency": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page_with_letter",
+                        "$volume_nominative ?$reporter (sec.)?\\s?(?P<page>\\d+([a-z])?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "RESTATEMENT OF AGENCY 2d",
+                "RESTATEMENT OF AGENCY sec. 226",
+                "RESTATEMENT OF AGENCY 2"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Agency",
+            "variations": {
+                "RESTATEMENT OF AGENCY": "Agency"
+            }
+        }
+    ],
     "Agric. Dec": [
         {
             "cite_type": "federal",
@@ -20811,9 +20836,18 @@
             "editions": {
                 "Or.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter $page_with_letter"
+                    ],
                     "start": "1853-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Ore. 418",
+                "100 Or. 1",
+                "284 Ore. 80A"
+            ],
             "mlz_jurisdiction": [
                 "us:or;supreme.court"
             ],
@@ -21202,6 +21236,28 @@
             }
         }
     ],
+    "P.S.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "P.S.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume $reporter (?P<page>\\d+((\\.|\\-)\\d+)?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "72 P.S. 3403-201",
+                "71 P.S. 81",
+                "58 P.S. 601.201"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Pennsylvania Statutes: Statutes of Pennsylvania",
+            "variations": {}
+        }
+    ],
     "P.U.R. (N.S.)": [
         {
             "cite_type": "specialty",
@@ -21246,6 +21302,29 @@
                 "us:pa;supreme.court"
             ],
             "name": "Pennsylvania Neutral Citation",
+            "variations": {}
+        }
+    ],
+    "PLR": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "PLR": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page",
+                        "$volume_nominative ?$reporter $page_with_letter"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "PLR 198204056",
+                "PLR 199852037",
+                "PLR 196612201590A"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Private Letter Ruling / Technical Advice Memoranda",
             "variations": {}
         }
     ],
@@ -21628,6 +21707,29 @@
             "variations": {}
         }
     ],
+    "Pa.C.S.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Pa.C.S.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume $reporter §?\\s?$page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "13 PA.C.S. 8313",
+                "42 Pa.C.S. § 102"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Pennsylvania Statutes: Pennsylvania Consolidated Statutes",
+            "variations": {
+                "PA.C.S.": "Pa.C.S."
+            }
+        }
+    ],
     "Pac. Law Mag.": [
         {
             "cite_type": "state",
@@ -21724,6 +21826,26 @@
                 "us:pa;court.common.pleas"
             ],
             "name": "Select cases in equity and at law (Parsons) (PA)",
+            "variations": {}
+        }
+    ],
+    "Pat. No.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Pat. No.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Pat. No. 3031725"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "United States Granted Patent Number",
             "variations": {}
         }
     ],
@@ -22380,6 +22502,54 @@
             "variations": {}
         }
     ],
+    "Prop. Treas. Reg.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Prop. Treas. Reg.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+([A-Z])?\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "PROP. TREAS. REG. 1.465-8",
+                "PROP. TREAS. REG. 1.1234A-1",
+                "Prop. Treas. Reg. § 1.704-1"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "LexisNexis Proposed Treasury Regulations",
+            "variations": {
+                "PROP. TREAS. REG.": "Prop. Treas. Reg."
+            }
+        }
+    ],
+    "Property Third Servitudes": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Property Third Servitudes": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "PROPERTY THIRD SERVITUDES 4.11",
+                "Property Third (Servitudes) § 7.16"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Property Third Series (Servitudes)",
+            "variations": {
+                "PROPERTY THIRD SERVITUDES": "Property Third Servitudes",
+                "Property Third (Servitudes)": "Property Third Servitudes"
+            }
+        }
+    ],
     "Pub. Lands Dec.": [
         {
             "cite_type": "federal",
@@ -22449,6 +22619,29 @@
             ],
             "name": "Rhode Island Decisions",
             "variations": {}
+        }
+    ],
+    "R.I. Gen. Laws": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "R.I. Gen. Laws": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?\\-\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "R.I. GEN. LAWS 28-29-2",
+                "R.I. GEN. LAWS 6A-2-329"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Rhode Island Statutes: General Laws of Rhode Island",
+            "variations": {
+                "R.I. GEN. LAWS": "R.I. Gen. Laws"
+            }
         }
     ],
     "R.I. LEXIS": [
@@ -22705,6 +22898,72 @@
             "name": "Reporter. (Continuation of Law and Equity Reporter and of American Law Times Reports, New Series.)",
             "variations": {
                 "Reporter.": "Reporter,"
+            }
+        }
+    ],
+    "Restatement of Property": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Restatement of Property": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "RESTATEMENT OF PROPERTY 236"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Property",
+            "variations": {
+                "RESTATEMENT OF PROPERTY": "Restatement of Property"
+            }
+        }
+    ],
+    "Restatement of Security": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Restatement of Security": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "RESTATEMENT OF SECURITY 1"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Security",
+            "variations": {
+                "RESTATEMENT OF SECURITY": "Restatement of Security"
+            }
+        }
+    ],
+    "Restitution": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Restitution": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "RESTATEMENT OF RESTITUTION 49"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Restitution",
+            "variations": {
+                "RESTATEMENT OF RESTITUTION": "Restitution"
             }
         }
     ],
@@ -23395,6 +23654,49 @@
             }
         }
     ],
+    "S.D. Codified Laws": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "S.D. Codified Laws": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?\\-\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "S.D. CODIFIED LAWS 21-3-2",
+                "S.D. CODIFIED LAWS 57A-9-302"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "South Dakota Statutes: South Dakota Codified Laws",
+            "variations": {
+                "S.D. CODIFIED LAWS": "S.D. Codified Laws"
+            }
+        }
+    ],
+    "S.D. Ind.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "S.D. Ind.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "S.D. Ind. 1963"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "US Bankruptcy Court S. Dist. Indiana Local Bankruptcy Rules",
+            "variations": {}
+        }
+    ],
     "S.D. LEXIS": [
         {
             "cite_type": "state",
@@ -23614,6 +23916,28 @@
             },
             "mlz_jurisdiction": [],
             "name": "Securities and Exchange Commission Judicial Decision",
+            "variations": {}
+        }
+    ],
+    "SLIP OP.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "SLIP OP.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "SLIP OP. 88-120",
+                "SLIP OP. 94-78",
+                "SLIP OP. 2004-149"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "United States Court of International Trade Slip Opinion Citation",
             "variations": {}
         }
     ],
@@ -24451,6 +24775,29 @@
             }
         }
     ],
+    "Sup. Ct. R": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Sup. Ct. R": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+(\\.\\d+)?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "SUP. CT. R. 5",
+                "SUP. CT. R. 13.1"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Rules of the Supreme Court of the United States, USCS",
+            "variations": {
+                "SUP. CT. R.": "Sup. Ct. R"
+            }
+        }
+    ],
     "Super. Ct. (R.I.)": [
         {
             "cite_type": "state",
@@ -25121,6 +25468,31 @@
             }
         }
     ],
+    "Tenn. Code Ann.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tenn. Code Ann.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+((\\-\\d+)?(\\-\\d+)?))"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TENN. CODE ANN. 31-4-101",
+                "TENN. CODE ANN. 4008",
+                "TENN. CODE ANN. 35-322",
+                "Tenn. Code Ann. § 4-5-101"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Tennessee Statutes: Tennessee Code Annotated",
+            "variations": {
+                "TENN. CODE ANN.": "Tenn. Code Ann."
+            }
+        }
+    ],
     "Tenn. Crim. App.": [
         {
             "cite_type": "state",
@@ -25252,6 +25624,73 @@
             "variations": {}
         }
     ],
+    "Tex. Bus. & Com. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Bus. & Com. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TEX. BUS. COM. CODE 3.403",
+                "Tex. Bus. & Com. Code § 17.62"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Texas Statutes and Codes, Business and Commerce Code",
+            "variations": {
+                "TEX. BUS. COM. CODE": "Tex. Bus. & Com. Code"
+            }
+        }
+    ],
+    "Tex. Bus. Corp. Act": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Bus. Corp. Act": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TEX. BUS. CORP. ACT 7.12"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Texas Statutes and Codes, Business Corporation Act",
+            "variations": {
+                "TEX. BUS. CORP. ACT": "Tex. Bus. Corp. Act"
+            }
+        }
+    ],
+    "Tex. Bus. Orgs. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Bus. Orgs. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TEX. BUS. ORGS. CODE 10.254"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Texas Statutes and Codes, Business Organization",
+            "variations": {
+                "TEX. BUS. ORGS. CODE": "Tex. Bus. Orgs. Code"
+            }
+        }
+    ],
     "Tex. Civ. App.": [
         {
             "cite_type": "state",
@@ -25267,6 +25706,52 @@
             "name": "Texas Civil Appeals Reports",
             "variations": {
                 "Tex.Civ.App.": "Tex. Civ. App."
+            }
+        }
+    ],
+    "Tex. Civ. Prac. & Rem. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Civ. Prac. & Rem. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TEX. CIV. PRAC. REM. CODE 129.001",
+                "Tex. Civ. Prac. & Rem. Code § 123.001"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Texas Statutes and Codes, Civil Practice and Remedies Code",
+            "variations": {
+                "TEX. CIV. PRAC. REM. CODE": "Tex. Civ. Prac. & Rem. Code"
+            }
+        }
+    ],
+    "Tex. Const.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Const.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\s\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TEX. CONST. 16 15"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Texas Constitution",
+            "notes": "TEX. CONST. article - section",
+            "variations": {
+                "TEX. CONST.": "Tex. Const."
             }
         }
     ],
@@ -25342,6 +25827,99 @@
             "name": "Texas Court of Appeals Reports",
             "variations": {
                 "Tex.Ct.App.R.": "Tex. Ct. App."
+            }
+        }
+    ],
+    "Tex. Educ. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Educ. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TEX. EDUC. CODE 12.101",
+                "Tex. Educ. Code § 28.0022"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Texas Statutes and Codes, Education Code",
+            "variations": {
+                "TEX. EDUC. CODE": "Tex. Educ. Code"
+            }
+        }
+    ],
+    "Tex. Fam. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Fam. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TEX. FAM. CODE 5.01",
+                "Tex. Fam. Code § 264.203"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Texas Statutes and Codes, Texas Family Code",
+            "variations": {
+                "TEX. FAM. CODE": "Tex. Fam. Code"
+            }
+        }
+    ],
+    "Tex. Gov't Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Gov't Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TEX. GOVT CODE 311.028",
+                "Tex. Govt. Code. § 551.125"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Texas Statutes and Codes, Government Code",
+            "variations": {
+                "TEX. GOVT CODE": "Tex. Gov't Code",
+                "Tex. Govt. Code.": "Tex. Gov't Code"
+            }
+        }
+    ],
+    "Tex. Ins. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Ins. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TEX. INS. CODE 21.14",
+                "Tex. Ins. Code § 1952.156"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Texas Statutes and Codes, Insurance Code",
+            "variations": {
+                "TEX. INS. CODE": "Tex. Ins. Code"
             }
         }
     ],
