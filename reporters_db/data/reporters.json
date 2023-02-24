@@ -450,9 +450,17 @@
             "editions": {
                 "Accom. Disabilities Dec. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "(?:$volume_with_digit_suffix )?$reporter $paragraph_marker_optional(?P<page>\\d(?:[\\d-]*\\d)?)"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "16 Accom. Disabilities Dec. (CCH) P16-138",
+                "13 Accom. Disabilities Dec. (CCH) P13-011",
+                "280 Accom. Disabilities Dec. (CCH) P16-123"
+            ],
             "mlz_jurisdiction": [],
             "name": "CCH Accommodating Disabilities Decisions",
             "variations": {}
@@ -1497,14 +1505,15 @@
                 "Ariz. Rev. Stat.": {
                     "end": null,
                     "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+)"
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+([A-Z])?)"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "ARIZ. REV. STAT. 44-1007",
-                "Ariz. Rev. Stat. § 1-219"
+                "Ariz. Rev. Stat. § 1-219",
+                "ARIZ. REV. STAT. 25-211A"
             ],
             "mlz_jurisdiction": [],
             "name": "Arizona Revised Statutes (LexisNexis)",
@@ -3566,6 +3575,23 @@
             }
         }
     ],
+    "CCN LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "CCN LEXIS": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "2003 CCN LEXIS 14"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Chief Counsel Notice LEXIS cite",
+            "variations": {}
+        }
+    ],
     "CCPA LEXIS": [
         {
             "cite_type": "specialty",
@@ -4785,6 +4811,29 @@
             "name": "California Workers' Compensation Cases",
             "variations": {
                 "Cal. Comp. Cases": "Cal. WCC"
+            }
+        }
+    ],
+    "Cal. Welf. & Inst. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Cal. Welf. & Inst. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?$page(\\.\\d+)?"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "CAL. WELF. INST. CODE 15610.43",
+                "Cal. Welf. & Inst. Code §4502.1"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Welfare and Institutions Code",
+            "variations": {
+                "CAL. WELF. INST. CODE": "Cal. Welf. & Inst. Code"
             }
         }
     ],
@@ -6704,9 +6753,9 @@
                 "D.C. Code": {
                     "end": null,
                     "regexes": [
-                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+\\-\\d+)"
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+)"
                     ],
-                    "start": "1950-01-01T00:00:00"
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
@@ -9834,6 +9883,9 @@
             "editions": {
                 "GCM": {
                     "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -10700,6 +10752,29 @@
             "variations": {}
         }
     ],
+    "Haw. Rev. Stat.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Haw. Rev. Stat.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "HAW. REV. STAT. 516-30",
+                "Haw. Rev. Stat. § 25-2"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Hawaii Statutes: Michie's Hawaii Revised Statutes Annotated",
+            "variations": {
+                "HAW. REV. STAT.": "Haw. Rev. Stat."
+            }
+        }
+    ],
     "Hawks": [
         {
             "cite_type": "state",
@@ -11248,6 +11323,23 @@
             "variations": {}
         }
     ],
+    "Hous. Bus. & Tax L.J.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Hous. Bus. & Tax L.J.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "7 Hous. Bus. & Tax L.J. 42"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Hawaii Statutes: Houston Business and Tax Law Journal",
+            "variations": {}
+        }
+    ],
     "Houston": [
         {
             "cite_type": "state",
@@ -11791,6 +11883,46 @@
             }
         }
     ],
+    "INTERNAL REVENUE MANUAL (CCH)": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "INTERNAL REVENUE MANUAL (CCH)": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "INTERNAL REVENUE MANUAL (CCH) 5.8.4"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Internal Revenue Manual (CCH)",
+            "variations": {}
+        }
+    ],
+    "IRB LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "IRB LEXIS": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_year ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "2003 IRB LEXIS 343"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Internal Revenue Bulletin LEXIS cite",
+            "variations": {}
+        }
+    ],
     "IRC": [
         {
             "cite_type": "federal",
@@ -11799,7 +11931,7 @@
                     "end": null,
                     "regexes": [
                         "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+)",
-                        "$volume_nominative ?$reporter §?\\s?(SEC.|Sec.|Section) (?P<page>\\d+)"
+                        "$volume_nominative ?$reporter §?\\s?(SEC.|Sec.|Section|section) (?P<page>\\d+)"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -11809,7 +11941,8 @@
                 "IRC 1954",
                 "IRC SEC. 71",
                 "IRC Sec. 754",
-                "IRC Section 6661"
+                "IRC Section 6661",
+                "IRC section 6661"
             ],
             "mlz_jurisdiction": [],
             "name": "Internal Revenue Code",
@@ -11919,6 +12052,29 @@
             "name": "Idaho Reports",
             "variations": {
                 "Ida.": "Idaho"
+            }
+        }
+    ],
+    "Idaho Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Idaho Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "IDAHO CODE 43-1102",
+                "Idaho Code 74-106"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Idaho Statutes: Idaho Code",
+            "variations": {
+                "IDAHO CODE": "Idaho Code"
             }
         }
     ],
@@ -12056,6 +12212,32 @@
             }
         }
     ],
+    "Ill. Comp. Stat.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ill. Comp. Stat.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume ?$reporter (?P<page>\\d+\\/\\d+(\\-|\\.)?(\\d+)?(\\.\\d+)?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "10 ILL. COMP. STAT. 5/9-1.3",
+                "60 ILL. COMP. STAT. 1/85-10",
+                "760 ILL. COMP. STAT. 5/4.23",
+                "35 ILCS 635/22"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Illinois Statutes: Illinois Compiled Statutes (ILCS)",
+            "variations": {
+                "ILCS": "Ill. Comp. Stat.",
+                "ILL. COMP. STAT.": "Ill. Comp. Stat."
+            }
+        }
+    ],
     "Ill. Ct. Cl.": [
         {
             "cite_type": "state",
@@ -12115,6 +12297,23 @@
             }
         }
     ],
+    "Ill. L. Rev.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ill. L. Rev.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "23 Ill. L. Rev. 250"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Illinois Law Review",
+            "variations": {}
+        }
+    ],
     "Ill. LEXIS": [
         {
             "cite_type": "state",
@@ -12129,6 +12328,28 @@
             ],
             "name": "LexisNexis Illinois Supreme Court",
             "variations": {}
+        }
+    ],
+    "Ill. Sup. Ct.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Ill. Sup. Ct.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "ILL. SUP. CT. 756"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Illinois Court Rules - Supreme Court Rules",
+            "variations": {
+                "ILL. SUP. CT.": "Ill. Sup. Ct."
+            }
         }
     ],
     "Immigr. L. Serv. (West)": [
@@ -12245,14 +12466,15 @@
                 "Ind. Code": {
                     "end": null,
                     "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+\\-\\d+\\-\\d+)"
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-(\\d+)(\\.\\d+)?\\-\\d+\\-\\d+)"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "IND. CODE 32-18-2-14",
-                "Ind. Code § 1-1-2-1"
+                "Ind. Code § 1-1-2-1",
+                "IND. CODE 24-4.6-1-103"
             ],
             "mlz_jurisdiction": [],
             "name": "Indiana Code",
@@ -12541,14 +12763,15 @@
                 "Iowa Code": {
                     "end": null,
                     "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?\\.\\d+)"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "IOWA CODE 633.238",
-                "Iowa Code § 802.5"
+                "Iowa Code § 802.5",
+                "IOWA CODE 486A.101"
             ],
             "mlz_jurisdiction": [],
             "name": "Code of Iowa",
@@ -12788,6 +13011,7 @@
             ],
             "name": "Jones & Spencer's Reports (33-61 New York Superior)",
             "variations": {
+                "J. & S.": "Jones & S.",
                 "Jones & Spencer": "Jones & S.",
                 "Jones and Spencer's Super. Ct. Rep.": "Jones & S."
             }
@@ -12871,6 +13095,48 @@
             "name": "Journal of Jurisprudence",
             "notes": "Sometimes cited as Hall's Amer. Law J., Vol. 7.",
             "variations": {}
+        }
+    ],
+    "Judgments": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Judgments": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(Sec.|sec.) (?P<page>\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Judgments sec. 70"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Judgments",
+            "variations": {}
+        }
+    ],
+    "Judgments Second": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Judgments Second": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "JUDGMENTS SECOND 27"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Judgments Second Series",
+            "variations": {
+                "JUDGMENTS SECOND": "Judgments Second"
+            }
         }
     ],
     "Juris P.R.": [
@@ -13006,14 +13272,15 @@
                 "Kan. Stat. Ann.": {
                     "end": null,
                     "regexes": [
-                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+\\-\\d+)"
+                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+([A-Z])?\\-\\d+)"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "KAN. STAT. ANN. 59-2291",
-                "Kan. Stat. Ann. § 59-1504"
+                "Kan. Stat. Ann. § 59-1504",
+                "KAN. STAT. ANN. 56A-201"
             ],
             "mlz_jurisdiction": [],
             "name": "Kansas Statutes Annotated",
@@ -13285,14 +13552,15 @@
                 "Ky. Rev. Stat. Ann.": {
                     "end": null,
                     "regexes": [
-                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+([A-Z])?\\.\\d+)"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "KY. REV. STAT. ANN. 271.075",
-                "Ky. Rev. Stat. Ann. § 417.240"
+                "Ky. Rev. Stat. Ann. § 417.240",
+                "KY. REV. STAT. ANN. 26A.300"
             ],
             "mlz_jurisdiction": [],
             "name": "Michie’s Kentucky Revised Statutes Annotated (LexisNexis)",
@@ -14455,6 +14723,25 @@
             }
         }
     ],
+    "M.R.S.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "M.R.S.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "33 M.R.S. 51"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Maine Revised Statutes",
+            "variations": {
+                "MRS": "M.R.S."
+            }
+        }
+    ],
     "M.S.P.B.": [
         {
             "cite_type": "federal",
@@ -15038,6 +15325,33 @@
                 "Mass. (Cush)": "Mass.",
                 "Mass. R.": "Mass.",
                 "Mass. Rep.": "Mass."
+            }
+        }
+    ],
+    "Mass. Ann. Laws": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mass. Ann. Laws": {
+                    "end": null,
+                    "regexes": [
+                        "$reporter (?P<volume>\\d+([A-Z])?) (?P<page>\\d+(\\-\\d+)?(\\d+[A-Z])?)",
+                        "$reporter ch. (?P<volume>\\d+\\,) § (?P<page>\\d+(\\-\\d+)?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "MASS. ANN. LAWS 10 38",
+                "MASS. ANN. LAWS 106 9-102",
+                "Mass. Ann. Laws ch. 106, § 1-101",
+                "MASS. ANN. LAWS 65A 5",
+                "MASS. ANN. LAWS 112 81R"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Annotated Laws of Massachusetts (LexisNexis)",
+            "variations": {
+                "MASS. ANN. LAWS": "Mass. Ann. Laws"
             }
         }
     ],
@@ -16426,6 +16740,30 @@
             "variations": {}
         }
     ],
+    "Mo. Rev. Stat.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Mo. Rev. Stat.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+\\.\\d+(\\-\\d+)?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "MO. REV. STAT. 351.120",
+                "Mo. Rev. Stat. § 208.671",
+                "MO. REV. STAT. 400.8-401"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Missouri Revised Statutes",
+            "variations": {
+                "MO. REV. STAT.": "Mo. Rev. Stat."
+            }
+        }
+    ],
     "Monag.": [
         {
             "cite_type": "state",
@@ -16927,6 +17265,31 @@
             "variations": {}
         }
     ],
+    "N.C. Gen. Stat.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.C. Gen. Stat.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?\\-\\d+(\\.\\d+)?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.C. GEN. STAT. 128-27",
+                "N.C. GEN. STAT. 39-23.5",
+                "N.C. Gen. Stat. § 127A-195",
+                "N.C. Gen. Stat. § 143-800"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "North Carolina Statutes: General Statutes of North Carolina",
+            "variations": {
+                "N.C. GEN. STAT.": "N.C. Gen. Stat."
+            }
+        }
+    ],
     "N.C. LEXIS": [
         {
             "cite_type": "state",
@@ -16961,6 +17324,26 @@
             }
         }
     ],
+    "N.D. Ala. Rules": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.D. Ala. Rules": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.D. Ala. Rules 1973"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "US District Courts N. Dist. Alabama 1990",
+            "variations": {}
+        }
+    ],
     "N.D. App. LEXIS": [
         {
             "cite_type": "state",
@@ -16974,6 +17357,51 @@
                 "us:nd;appeals.court"
             ],
             "name": "LexisNexis North Dakota Appeals Court",
+            "variations": {}
+        }
+    ],
+    "N.D. Cent. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.D. Cent. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+(\\.\\d+)?\\-\\d+\\-\\d+(\\.\\d+)?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.D. CENT. CODE 6-01-02",
+                "N.D. CENT. CODE 14-05-08.1",
+                "N.D. CENT. CODE 26.1-36-02",
+                "N.D. Cent. Code § 1-01-06"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "North Dakota Statutes: North Dakota Century Code",
+            "variations": {
+                "N.D. CENT. CODE": "N.D. Cent. Code"
+            }
+        }
+    ],
+    "N.D. Ga. LCrR": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.D. Ga. LCrR": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.D. Ga. LCrR 1981"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "US District Courts N. Dist. Georgia Criminal Local Rules",
             "variations": {}
         }
     ],
@@ -17070,6 +17498,29 @@
             ],
             "name": "LexisNexis New Hampshire Supreme Court",
             "variations": {}
+        }
+    ],
+    "N.H. Rev. Stat. Ann.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.H. Rev. Stat. Ann.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+(\\-[A-Z])?\\:\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.H. REV. STAT. ANN. 458:17",
+                "N.H. REV. STAT. ANN. 88-A:2"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New Hampshire Statutes: New Hampshire Revised Statutes Annotated",
+            "variations": {
+                "N.H. REV. STAT. ANN.": "N.H. Rev. Stat. Ann."
+            }
         }
     ],
     "N.H. Super. LEXIS": [
@@ -17272,6 +17723,31 @@
             ],
             "name": "LexisNexis New Jersey Prerogative Court",
             "variations": {}
+        }
+    ],
+    "N.J. Stat. Ann.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.J. Stat. Ann.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?\\:\\d+\\-\\d+(\\.\\d+)?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.J. STAT. ANN. 48:3-9",
+                "N.J. STAT. ANN. 54:1-35.3",
+                "N.J. Stat. Ann. § 47:3-27",
+                "N.J. STAT. ANN. 12A:7-204"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New Jersey Annotated Statutes",
+            "variations": {
+                "N.J. STAT. ANN.": "N.J. Stat. Ann."
+            }
         }
     ],
     "N.J. Sup. Ct. LEXIS": [
@@ -17550,6 +18026,30 @@
             "variations": {}
         }
     ],
+    "N.M. Stat. Ann.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.M. Stat. Ann.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+\\-\\d+([A-Z])?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.M. STAT. ANN. 38-1-3",
+                "N.M. STAT. ANN. 56-10-16A",
+                "N.M. Stat. Ann. § 50-4-36"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New Mexico Statutes",
+            "variations": {
+                "N.M. STAT. ANN.": "N.M. Stat. Ann."
+            }
+        }
+    ],
     "N.M. Unpub. LEXIS": [
         {
             "cite_type": "state",
@@ -17755,6 +18255,70 @@
             "variations": {}
         }
     ],
+    "N.Y. Banking Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Banking Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. BANKING LAW 609"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Banking Law",
+            "variations": {
+                "N.Y. BANKING LAW": "N.Y. Banking Law"
+            }
+        }
+    ],
+    "N.Y. Bus. Corp. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Bus. Corp. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. BUS. CORP. LAW 1505"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Business Corporation Law",
+            "variations": {
+                "N.Y. BUS. CORP. LAW": "N.Y. Bus. Corp. Law"
+            }
+        }
+    ],
+    "N.Y. C.P.L.R.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. C.P.L.R.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. C.P.L.R. 342"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Civil Practice Law & Rules",
+            "variations": {}
+        }
+    ],
     "N.Y. Ch. Ann.": [
         {
             "cite_type": "state",
@@ -17770,6 +18334,51 @@
             "name": "New York Chancery Reports Annotated",
             "variations": {
                 "N.Y.Ch.R.Ann.": "N.Y. Ch. Ann."
+            }
+        }
+    ],
+    "N.Y. City Admin. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. City Admin. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. CITY ADMIN. CODE 25-303",
+                "N.Y. City Admin. Code § 20-279"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York City Administrative Code, Charter and Rules - Administrative Code",
+            "variations": {
+                "N.Y. CITY ADMIN. CODE": "N.Y. City Admin. Code"
+            }
+        }
+    ],
+    "N.Y. City Charter": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. City Charter": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. CITY CHARTER 3020"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York City Administrative Code, Charter and Rules - City Charter",
+            "variations": {
+                "N.Y. CITY CHARTER": "N.Y. City Charter"
             }
         }
     ],
@@ -17816,6 +18425,50 @@
             }
         }
     ],
+    "N.Y. Civ. Rights Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Civ. Rights Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. CIV. RIGHTS LAW 51"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Civil Rights Law",
+            "variations": {
+                "N.Y. CIV. RIGHTS LAW": "N.Y. Civ. Rights Law"
+            }
+        }
+    ],
+    "N.Y. Civ. Serv. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Civ. Serv. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. CIV. SERV. LAW 210"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Civil Service Law",
+            "variations": {
+                "N.Y. CIV. SERV. LAW": "N.Y. Civ. Serv. Law"
+            }
+        }
+    ],
     "N.Y. Crim.": [
         {
             "cite_type": "state",
@@ -17835,6 +18488,28 @@
                 "N.Y. Crim. R.": "N.Y. Crim.",
                 "N.Y. Crim. Rep.": "N.Y. Crim.",
                 "N.Y.Crim.R.": "N.Y. Crim."
+            }
+        }
+    ],
+    "N.Y. Crim. Proc. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Crim. Proc. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. CRIM. PROC. LAW 190.25"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Criminal Procedure Law",
+            "variations": {
+                "N.Y. CRIM. PROC. LAW": "N.Y. Crim. Proc. Law"
             }
         }
     ],
@@ -17892,6 +18567,50 @@
             }
         }
     ],
+    "N.Y. Educ. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Educ. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. EDUC. LAW 7701"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Education Law",
+            "variations": {
+                "N.Y. EDUC. LAW": "N.Y. Educ. Law"
+            }
+        }
+    ],
+    "N.Y. Envtl. Conserv. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Envtl. Conserv. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. ENVTL. CONSERV. LAW 49-0303"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Environmental Conservation Law",
+            "variations": {
+                "N.Y. ENVTL. CONSERV. LAW": "N.Y. Envtl. Conserv. Law"
+            }
+        }
+    ],
     "N.Y. Estates, Powers Trusts Law": [
         {
             "cite_type": "state",
@@ -17914,6 +18633,28 @@
             "variations": {
                 "N. Y. Estates, Powers Trusts Law": "N.Y. Estates, Powers Trusts Law",
                 "N.Y. EST. POWERS TRUSTS LAW": "N.Y. Estates, Powers Trusts Law"
+            }
+        }
+    ],
+    "N.Y. Fam. Ct. Act": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Fam. Ct. Act": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. FAM. CT. ACT 652"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Family Court Act",
+            "variations": {
+                "N.Y. FAM. CT. ACT": "N.Y. Fam. Ct. Act"
             }
         }
     ],
@@ -18045,6 +18786,28 @@
             ],
             "name": "Reports of Cases Argued and Determined in the Superior Court of the City of New York",
             "variations": {}
+        }
+    ],
+    "N.Y. Tax Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Tax Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. TAX LAW 471"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Tax Law",
+            "variations": {
+                "N.Y. TAX LAW": "N.Y. Tax Law"
+            }
         }
     ],
     "N.Y.L.J.": [
@@ -18345,6 +19108,28 @@
             "variations": {}
         }
     ],
+    "NRS": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "NRS": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+(\\.\\d+)?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "NRS 104.2401",
+                "NRS 87.060",
+                "NRS 107"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Nevada Statutes: Nevada Revised Statutes Annotated",
+            "variations": {}
+        }
+    ],
     "NV": [
         {
             "cite_type": "neutral",
@@ -18637,6 +19422,29 @@
             ],
             "name": "LexisNexis Nebraska Supreme Court",
             "variations": {}
+        }
+    ],
+    "Neb. Rev. Stat.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Neb. Rev. Stat.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "NEB. REV. STAT. 67-325",
+                "Neb. Rev. Stat. § 49-802"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Nebraska Statutes: Revised Statutes of Nebraska Annotated",
+            "variations": {
+                "NEB. REV. STAT.": "Neb. Rev. Stat."
+            }
         }
     ],
     "Neg. Cas. (CCH)": [
@@ -25522,7 +26330,7 @@
                     "regexes": [
                         "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+(\\.\\d+)?([A-Z])?\\-\\d+([A-Z])?\\-\\d+)"
                     ],
-                    "start": "1950-01-01T00:00:00"
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
@@ -25735,7 +26543,7 @@
                     "regexes": [
                         "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+(\\.\\d+)?\\-\\d+([A-Z])?)"
                     ],
-                    "start": "1950-01-01T00:00:00"
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
