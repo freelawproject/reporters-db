@@ -7,8 +7,8 @@
         "cch_suffix": "(?:$volume_with_digit_suffix )?$full_cite_paragraph_with_suffix",
         "cch_suffix#": "Cite in CCH service format with suffix, like 'Pens. Plan Guide (CCH) P 24014F'",
         "format_neutral": {
-            "": "$volume_year\\s?-$reporter-\\s?$page",
-            "#": "Format neutral cite, like '2000-Ohio-123' or '2014 -Ohio- 566'",
+            "": "$volume_year\\s?-?$reporter-?\\s?$page",
+            "#": "Format neutral cite, like '2000-Ohio-123' or '2014 -Ohio- 566' or '2000 NMCA 69'",
             "3_4": "$volume_year\\s?-$reporter-\\s?$page_3_4",
             "3_4#": "Format neutral cite where the page must be 3 or 4 digits, like '2000-NMSC-123' or '2009 -NMSC- 034'"
         },

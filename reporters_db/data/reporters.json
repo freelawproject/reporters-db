@@ -47,6 +47,23 @@
             }
         }
     ],
+    "A.B.A.J": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "A.B.A.J": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "55 A.B.A.J. 994"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "American Bar Association Journal (ABA)",
+            "variations": {}
+        }
+    ],
     "A.D.": [
         {
             "cite_type": "state",
@@ -547,6 +564,52 @@
             }
         }
     ],
+    "Agency Second": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Agency Second": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page_with_letter",
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "AGENCY SECOND 26",
+                "AGENCY SECOND 14C"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Agency Second Series",
+            "variations": {
+                "AGENCY SECOND": "Agency Second"
+            }
+        }
+    ],
+    "Agency Third": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Agency Third": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "AGENCY THIRD 1.01"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Agency Third Series",
+            "variations": {
+                "AGENCY THIRD": "Agency Third"
+            }
+        }
+    ],
     "Agric. Dec": [
         {
             "cite_type": "federal",
@@ -665,16 +728,22 @@
                 "Ala. Code": {
                     "end": null,
                     "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+\\-\\d+)"
+                        "$volume_nominative ?$reporter $page",
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+([A-Z])?\\-\\d+)",
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+(\\.\\d+)?)"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "ALA. CODE 43-8-294"
+                "ALA. CODE 21",
+                "ALA. CODE 3.85.040",
+                "ALA. CODE 3.85",
+                "ALA. CODE 26-2A-20",
+                "Ala. Code § 8-1-41"
             ],
             "mlz_jurisdiction": [],
-            "name": "Michie’s Alabama Code, 1975 (LexisNexis)",
+            "name": "Alabama Statutes: Code of Alabama",
             "variations": {
                 "ALA. CODE": "Ala. Code"
             }
@@ -1317,6 +1386,27 @@
             },
             "mlz_jurisdiction": [],
             "name": "American Law Times Reports, New Series.",
+            "variations": {}
+        }
+    ],
+    "Announcement": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Announcement": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (P)?\\s?(?P<page>\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Announcement 2004-3",
+                "Announcement P 98-30"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Announcement",
             "variations": {}
         }
     ],
@@ -2046,6 +2136,26 @@
             "variations": {}
         }
     ],
+    "B.U.L. Rev.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "B.U.L. Rev.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume $reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "40 B.U.L. Rev. 349"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Boston University Law Review",
+            "variations": {}
+        }
+    ],
     "BCA": [
         {
             "cite_type": "federal",
@@ -2466,6 +2576,28 @@
             ],
             "name": "LexisNexis Bankruptcy Reporter",
             "variations": {}
+        }
+    ],
+    "Bankr. R.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Bankr. R.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "BANKR. R. 4007"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Bankruptcy Rules",
+            "variations": {
+                "BANKR. R.": "Bankr. R."
+            }
         }
     ],
     "Bankr. Rep (St. Louis B.A.)": [
@@ -3077,6 +3209,26 @@
             }
         }
     ],
+    "Bradf. Surr.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Bradf. Surr.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume $reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "3 Bradf. Surr. 204"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Bradford's Surrogate Reports [NY]",
+            "variations": {}
+        }
+    ],
     "Brayt.": [
         {
             "cite_type": "state",
@@ -3326,6 +3478,26 @@
             },
             "mlz_jurisdiction": [],
             "name": "Business Franchise Guide",
+            "variations": {}
+        }
+    ],
+    "Bus. Law.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Bus. Law.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume $reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "49 Bus. Law. 107"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Business Lawyer",
             "variations": {}
         }
     ],
@@ -4588,14 +4760,15 @@
                 "Cal. Penal Code": {
                     "end": null,
                     "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?$page(\\.\\d+)?"
+                        "$volume_nominative ?$reporter §?\\s?$page([A-Z])?(\\.\\d+)?"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "CAL. PENAL CODE 484",
-                "Cal. Penal Code § 631"
+                "Cal. Penal Code § 631",
+                "CAL. PENAL CODE 532A"
             ],
             "mlz_jurisdiction": [],
             "name": "California Statutes: Deering's Cal. Codes Ann. - Penal Code",
@@ -4659,14 +4832,15 @@
                 "Cal. Rev. & Tax. Code": {
                     "end": null,
                     "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?$page(\\.\\d+)?"
+                        "$volume_nominative ?$reporter §?\\s?$page([A-Z])?(\\.\\d+)?"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "CAL. REV. TAX. CODE 23332",
-                "Cal. Rev. & Tax. Code § 19900"
+                "Cal. Rev. & Tax. Code § 19900",
+                "CAL. REV. TAX. CODE 23701D"
             ],
             "mlz_jurisdiction": [],
             "name": "California Statutes: Deering's Cal. Codes Ann. - Revenue and Taxation Code",
@@ -5757,6 +5931,29 @@
             "variations": {}
         }
     ],
+    "Colo. Rev. Stat.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Colo. Rev. Stat.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+\\-\\d+(\\.\\d+)?\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "COLO. REV. STAT. 13-6-201",
+                "COLO. REV. STAT. 38-33.3-101"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Colorado Statutes: Colorado Revised Statutes",
+            "variations": {
+                "COLO. REV. STAT.": "Colo. Rev. Stat."
+            }
+        }
+    ],
     "Comm. Fut. L. Rep.": [
         {
             "cite_type": "specialty",
@@ -5831,6 +6028,28 @@
             ],
             "name": "Decisions of the Comptroller General of the United States",
             "variations": {}
+        }
+    ],
+    "Conflict of Law Second": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Conflict of Law Second": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "CONFLICT OF LAW SECOND 285"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Conflict of Laws Second Series",
+            "variations": {
+                "CONFLICT OF LAW SECOND": "Conflict of Law Second"
+            }
         }
     ],
     "Cong. Index(CCH)": [
@@ -5932,6 +6151,30 @@
             ],
             "name": "LexisNexis Connecticut Circuit Court",
             "variations": {}
+        }
+    ],
+    "Conn. Gen. Stat.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Conn. Gen. Stat.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+([A-Z])?\\-\\d+([A-Z])?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "CONN. GEN. STAT. 1-43",
+                "CONN. GEN. STAT. 45A-670",
+                "CONN. GEN. STAT. 38A-92A"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Connecticut Statutes: General Statutes of Connecticut",
+            "variations": {
+                "CONN. GEN. STAT.": "Conn. Gen. Stat."
+            }
         }
     ],
     "Conn. L. Rptr.": [
@@ -6134,6 +6377,28 @@
             "variations": {
                 "Cont. Cas. Fed. (CCH)": "Cont. Cas. Fed.",
                 "Cont.Cas.Fed. (CCH)": "Cont. Cas. Fed."
+            }
+        }
+    ],
+    "Contracts Second": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Contracts Second": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "CONTRACTS SECOND 25"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Contracts Second Series",
+            "variations": {
+                "CONTRACTS SECOND": "Contracts Second"
             }
         }
     ],
@@ -6608,6 +6873,31 @@
             ],
             "name": "LexisNexis United States Customs Court",
             "variations": {}
+        }
+    ],
+    "Cust. Dec.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Cust. Dec.": {
+                    "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Cust. Dec. 4838",
+                "447 C.D. 1982",
+                "C.D. 4286"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Customs Decisions",
+            "variations": {
+                "C.D.": "Cust. Dec."
+            }
         }
     ],
     "D. Chip.": [
@@ -8188,13 +8478,14 @@
                 "Exec. Order": {
                     "end": null,
                     "regexes": [
-                        "$volume_nominative ?$reporter No. $page"
+                        "$volume_nominative ?$reporter (No.)?\\s?$page"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "Exec. Order No. 9001"
+                "Exec. Order No. 9001",
+                "Exec. Order 9835"
             ],
             "mlz_jurisdiction": [],
             "name": "Executive Order",
@@ -8831,6 +9122,46 @@
             "variations": {}
         }
     ],
+    "FSA": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "FSA": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "FSA 200012049"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Field Service Advice Memoranda",
+            "variations": {}
+        }
+    ],
+    "FSA LEXIS": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "FSA LEXIS": {
+                    "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1993 FSA LEXIS 72"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Field Service Advice Memoranda LEXIS cite",
+            "variations": {}
+        }
+    ],
     "Fair Empl. Prac. Cas. (BNA)": [
         {
             "cite_type": "specialty",
@@ -8964,6 +9295,26 @@
             },
             "mlz_jurisdiction": [],
             "name": "Federal Carriers Reports",
+            "variations": {}
+        }
+    ],
+    "Fed. Cir. (T)": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Fed. Cir. (T)": {
+                    "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "8 Fed. Cir. (T) 1"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "United States Court of Appeals for the Federal Circuit",
             "variations": {}
         }
     ],
@@ -9798,6 +10149,42 @@
             "variations": {}
         }
     ],
+    "Foreign Relations Law Second": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Foreign Relations Law Second": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Foreign Relations Law Second Series",
+            "variations": {}
+        }
+    ],
+    "Foreign Relations Law Third": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Foreign Relations Law Third": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "FOREIGN RELATIONS LAW THIRD 325"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Foreign Relations Law Third Series",
+            "variations": {
+                "FOREIGN RELATIONS LAW THIRD": "Foreign Relations Law Third"
+            }
+        }
+    ],
     "Foster": [
         {
             "cite_type": "state",
@@ -9859,9 +10246,17 @@
             "editions": {
                 "Fulton County D. Rep.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "(?P<volume>\\d+(\\-\\d+)?) $reporter (?P<page>\\d+[A-Z]?)"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "102-76 Fulton County D. Rep. 19B",
+                "92 Fulton County D. Rep. 1448"
+            ],
             "mlz_jurisdiction": [
                 "us:ga;supreme.court"
             ],
@@ -17757,7 +18152,7 @@
                 "N.J. Stat. Ann.": {
                     "end": null,
                     "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?\\:\\d+\\-\\d+(\\.\\d+)?)"
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?\\:\\d+([A-Z])?\\-\\d+(\\.\\d+)?)"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -17766,7 +18161,8 @@
                 "N.J. STAT. ANN. 48:3-9",
                 "N.J. STAT. ANN. 54:1-35.3",
                 "N.J. Stat. Ann. § 47:3-27",
-                "N.J. STAT. ANN. 12A:7-204"
+                "N.J. STAT. ANN. 12A:7-204",
+                "N.J. STAT. ANN. 17:9A-19"
             ],
             "mlz_jurisdiction": [],
             "name": "New Jersey Annotated Statutes",
@@ -19609,14 +20005,16 @@
                 "NMCA": {
                     "end": null,
                     "regexes": [
-                        "$full_cite_format_neutral_3_4"
+                        "$full_cite_format_neutral_3_4",
+                        "$full_cite_format_neutral"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "2005-NMCA-078",
-                "2000 -NMCA- 048"
+                "2000 -NMCA- 048",
+                "2000 NMCA 69"
             ],
             "mlz_jurisdiction": [
                 "us:nm;court.appeals"
@@ -24519,7 +24917,7 @@
                 "SLIP OP.": {
                     "end": null,
                     "regexes": [
-                        "$volume_nominative ?$reporter (?P<page>\\d+\\-\\d+)"
+                        "$volume_nominative ?$reporter (?P<page>\\d+\\s?\\-\\s?\\d+)"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -24527,7 +24925,9 @@
             "examples": [
                 "SLIP OP. 88-120",
                 "SLIP OP. 94-78",
-                "SLIP OP. 2004-149"
+                "SLIP OP. 2004-149",
+                "SLIP OP. 2017 - 60",
+                "SLIP OP. 17 - 81"
             ],
             "mlz_jurisdiction": [],
             "name": "United States Court of International Trade Slip Opinion Citation",
@@ -27302,7 +27702,7 @@
                 "U.S. CONST. AMEND. 9"
             ],
             "mlz_jurisdiction": [],
-            "name": "U.S. Constitution",
+            "name": "Constitution of The United States of America, USCS",
             "variations": {}
         }
     ],
