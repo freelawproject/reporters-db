@@ -18683,6 +18683,182 @@
             }
         }
     ],
+    "N.Y. Gen. Bus. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Gen. Bus. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. GEN. BUS. LAW 370"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, General Business Law",
+            "variations": {
+                "N.Y. GEN. BUS. LAW": "N.Y. Gen. Bus. Law"
+            }
+        }
+    ],
+    "N.Y. Gen. City Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Gen. City Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. GEN. CITY LAW 35"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, General City Law",
+            "variations": {
+                "N.Y. GEN. CITY LAW": "N.Y. Gen. City Law"
+            }
+        }
+    ],
+    "N.Y. Gen. Constr. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Gen. Constr. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. GEN. CONSTR. LAW 24"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, General Construction Law",
+            "variations": {
+                "N.Y. GEN. CONSTR. LAW": "N.Y. Gen. Constr. Law"
+            }
+        }
+    ],
+    "N.Y. Gen. Mun. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Gen. Mun. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+\\-[A-Z])"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. GEN. MUN. LAW 77-B"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, General Municipal Law",
+            "variations": {
+                "N.Y. GEN. MUN. LAW": "N.Y. Gen. Mun. Law"
+            }
+        }
+    ],
+    "N.Y. Gen. Oblig. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Gen. Oblig. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+\\-\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. GEN. OBLIG. LAW 5-501"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, General Obligations Law",
+            "variations": {
+                "N.Y. GEN. OBLIG. LAW": "N.Y. Gen. Oblig. Law"
+            }
+        }
+    ],
+    "N.Y. High. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. High. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. HIGH. LAW 30"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Highway Law",
+            "variations": {
+                "N.Y. HIGH. LAW": "N.Y. High. Law"
+            }
+        }
+    ],
+    "N.Y. Ins. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Ins. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. INS. LAW 1102"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Insurance Law",
+            "variations": {
+                "N.Y. INS. LAW": "N.Y. Ins. Law"
+            }
+        }
+    ],
+    "N.Y. Jud. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Jud. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. JUD. LAW 495"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Judiciary Law",
+            "variations": {
+                "N.Y. JUD. LAW": "N.Y. Jud. Law"
+            }
+        }
+    ],
     "N.Y. LEXIS": [
         {
             "cite_type": "state",
@@ -18719,6 +18895,72 @@
             }
         }
     ],
+    "N.Y. Lien Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Lien Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. LIEN LAW 183"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Lien Law",
+            "variations": {
+                "N.Y. LIEN LAW": "N.Y. Lien Law"
+            }
+        }
+    ],
+    "N.Y. Limited Liab. Co. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Limited Liab. Co. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. LIMITED LIAB. CO. LAW 601"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Limited Liability Company Law",
+            "variations": {
+                "N.Y. LIMITED LIAB. CO. LAW": "N.Y. Limited Liab. Co. Law"
+            }
+        }
+    ],
+    "N.Y. Mental Hyg. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Mental Hyg. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. MENTAL HYG. LAW 31.02"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Mental Hygiene Law",
+            "variations": {
+                "N.Y. MENTAL HYG. LAW": "N.Y. Mental Hyg. Law"
+            }
+        }
+    ],
     "N.Y. Misc. LEXIS": [
         {
             "cite_type": "state",
@@ -18733,6 +18975,124 @@
             ],
             "name": "LexisNexis New York Miscellaneous Opinions",
             "variations": {}
+        }
+    ],
+    "N.Y. Not-for-Profit Corp. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Not-for-Profit Corp. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. NOT-FOR-PROFIT CORP. LAW 1001"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Not-For-Profit Corporation Law",
+            "variations": {
+                "N.Y. NOT-FOR-PROFIT CORP. LAW": "N.Y. Not-for-Profit Corp. Law"
+            }
+        }
+    ],
+    "N.Y. Partnership Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Partnership Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+\\-\\d+)",
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. PARTNERSHIP LAW 26",
+                "N.Y. PARTNERSHIP LAW 121-101"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Partnership Law",
+            "variations": {
+                "N.Y. PARTNERSHIP LAW": "N.Y. Partnership Law"
+            }
+        }
+    ],
+    "N.Y. Penal Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Penal Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+\\.\\d+)",
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. PENAL LAW 155.35",
+                "N.Y. PENAL LAW 180"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Penal Law",
+            "variations": {
+                "N.Y. PENAL LAW": "N.Y. Penal Law"
+            }
+        }
+    ],
+    "N.Y. Pers. Prop. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Pers. Prop. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+\\-[A-Z])",
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. PERS. PROP. LAW 162",
+                "N.Y. PERS. PROP. LAW 27-A"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Personal Property Law",
+            "variations": {
+                "N.Y. PERS. PROP. LAW": "N.Y. Pers. Prop. Law"
+            }
+        }
+    ],
+    "N.Y. Priv. Hous. Fin. Law": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "N.Y. Priv. Hous. Fin. Law": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>\\d+\\-[A-Z])",
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "N.Y. PRIV. HOUS. FIN. LAW 32",
+                "N.Y. PRIV. HOUS. FIN. LAW 11-A"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "New York Statutes: NY Consolidated Laws Service, Private Housing Finance Law",
+            "variations": {
+                "N.Y. PRIV. HOUS. FIN. LAW": "N.Y. Priv. Hous. Fin. Law"
+            }
         }
     ],
     "N.Y. Proc. Ct. Ass.": [
@@ -25972,6 +26332,103 @@
             "variations": {}
         }
     ],
+    "Tex. Penal Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Penal Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TEX. PENAL CODE 32.43",
+                "Texas Penal Code § 16.02"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Texas Statutes and Codes, Penal Code",
+            "variations": {
+                "TEX. PENAL CODE": "Tex. Penal Code",
+                "Texas Penal Code": "Tex. Penal Code"
+            }
+        }
+    ],
+    "Tex. Prob. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Prob. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?(\\-\\d+)?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TEX. PROB. CODE 242",
+                "TEX. PROB. CODE 286-2",
+                "TEX. PROB. CODE 322A",
+                "Tex. Prob. Code § 243"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Texas Statutes and Codes, Probate Code",
+            "variations": {
+                "TEX. PROB. CODE": "Tex. Prob. Code"
+            }
+        }
+    ],
+    "Tex. Prop. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Prop. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TEX. PROP. CODE 23.001",
+                "Tex. Prop. Code § 113.010"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Texas Statutes and Codes, Property Code",
+            "variations": {
+                "TEX. PROP. CODE": "Tex. Prop. Code"
+            }
+        }
+    ],
+    "Tex. Rev. Civ. Stat.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Rev. Civ. Stat.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?(\\-\\d+(\\s?\\d+\\.\\d+)?(\\.\\d+)?)?)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TEX. REV. CIV. STAT. 11",
+                "TEX. REV. CIV. STAT. 1396-2.28",
+                "TEX. REV. CIV. STAT. 6132A-1 7.01",
+                "TEX. REV. CIV. STAT. 6132B"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Texas Statutes and Codes, Revised Civil Statutes",
+            "variations": {
+                "TEX. REV. CIV. STAT.": "Tex. Rev. Civ. Stat."
+            }
+        }
+    ],
     "Tex. Sup. Ct. J.": [
         {
             "cite_type": "state",
@@ -25987,6 +26444,29 @@
             "name": "Texas Supreme Court Journal",
             "variations": {
                 "Tex. Sup. J.": "Tex. Sup. Ct. J."
+            }
+        }
+    ],
+    "Tex. Tax Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Tex. Tax Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TEX. TAX CODE 171.309",
+                "Tex. Tax Code § 31.01"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Texas Statutes and Codes, Tax Code",
+            "variations": {
+                "TEX. TAX CODE": "Tex. Tax Code"
             }
         }
     ],
@@ -26100,6 +26580,28 @@
             }
         }
     ],
+    "Torts Second": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Torts Second": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TORTS SECOND 674"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Torts Second Series",
+            "variations": {
+                "TORTS SECOND": "Torts Second"
+            }
+        }
+    ],
     "Trade Cas. (CCH)": [
         {
             "cite_type": "specialty",
@@ -26133,11 +26635,15 @@
             "editions": {
                 "Trade Reg. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1914-01-01T00:00:00"
                 }
             },
             "examples": [
-                "2016-1 Trade Reg. Rep. (CCH) P79,503"
+                "2016-1 Trade Reg. Rep. (CCH) P79,503",
+                "5 Trade Reg. Rep. (CCH) 24,007"
             ],
             "mlz_jurisdiction": [],
             "name": "CCH Trade Regulations Reporter",
@@ -26203,11 +26709,17 @@
             "editions": {
                 "Treas. Dec.": {
                     "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Treas. Dec. 4368"
+            ],
             "mlz_jurisdiction": [],
-            "name": "Treasury Decisions Under Customs and Other Laws (U.S.)",
+            "name": "Treasury Decisions Under Customs & Other Laws",
             "variations": {}
         }
     ],
@@ -26226,6 +26738,72 @@
             ],
             "name": "Treasury Decisions Under Internal Revenue Laws",
             "variations": {}
+        }
+    ],
+    "Treas. Reg.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Treas. Reg.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "Treas. Reg. 111"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Treasury Regulations",
+            "variations": {}
+        }
+    ],
+    "Trusts Second": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Trusts Second": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page",
+                        "$volume_nominative ?$reporter $page_with_letter"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TRUSTS SECOND 36",
+                "TRUSTS SECOND 235A"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Trusts Second Series",
+            "variations": {
+                "TRUSTS SECOND": "Trusts Second"
+            }
+        }
+    ],
+    "Trusts Third": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Trusts Third": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "TRUSTS THIRD 89"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Restatement of Trusts Third Series",
+            "variations": {
+                "TRUSTS THIRD": "Trusts Third"
+            }
         }
     ],
     "Tuck. & Cl.": [
@@ -26471,6 +27049,27 @@
                 "us:c;court.appeals.armed.forces"
             ],
             "name": "LexisNexis United States Court of Military Commission Review",
+            "variations": {}
+        }
+    ],
+    "U.S. CONST.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "U.S. CONST.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter (?P<page>AMEND.\\s\\d+)"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "U.S. CONST. AMEND. 13",
+                "U.S. CONST. AMEND. 9"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "U.S. Constitution",
             "variations": {}
         }
     ],
@@ -27112,6 +27711,23 @@
             "variations": {}
         }
     ],
+    "V.I.C.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "V.I.C.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "29 V.I.C. 701"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Virgin Islands Statutes: Virgin Islands Code Annotated",
+            "variations": {}
+        }
+    ],
     "VA. CODE ANN.": [
         {
             "cite_type": "state",
@@ -27539,6 +28155,25 @@
             ],
             "name": "LexisNexis Vermont Supreme Court",
             "variations": {}
+        }
+    ],
+    "Vt. Stat. Ann": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Vt. Stat. Ann": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "12 VT. STAT. ANN. 4714"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Vermont Statutes Annotated",
+            "variations": {
+                "VT. STAT. ANN.": "Vt. Stat. Ann"
+            }
         }
     ],
     "Vt. Super. LEXIS": [
@@ -28325,6 +28960,30 @@
             ],
             "name": "LexisNexis Washington Supreme Court",
             "variations": {}
+        }
+    ],
+    "Wash. Rev. Code": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Wash. Rev. Code": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page",
+                        "$volume_nominative ?$reporter $page_with_letter"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "WASH. REV. CODE 3863",
+                "WASH. REV. CODE 62A"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Washington Statutes: Annotated Revised Code of Washington",
+            "variations": {
+                "WASH. REV. CODE": "Wash. Rev. Code"
+            }
         }
     ],
     "Wash. Terr.": [
