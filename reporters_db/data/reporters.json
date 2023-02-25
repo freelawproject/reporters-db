@@ -47,11 +47,11 @@
             }
         }
     ],
-    "A.B.A.J": [
+    "A.B.A.J.": [
         {
             "cite_type": "specialty",
             "editions": {
-                "A.B.A.J": {
+                "A.B.A.J.": {
                     "end": null,
                     "start": "1750-01-01T00:00:00"
                 }
@@ -971,6 +971,26 @@
             }
         }
     ],
+    "Am. Bank. L.J.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Am. Bank. L.J.": {
+                    "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "45 Am. Bank. L.J. 1"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "American Bankruptcy Law Journal",
+            "variations": {}
+        }
+    ],
     "Am. Dec.": [
         {
             "cite_type": "federal",
@@ -1030,17 +1050,29 @@
                         "$volume $reporter,? p. $page"
                     ],
                     "start": "1829-01-01T00:00:00"
+                },
+                "Am. Jur. 2d": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter ([a-zA-Z ]+) §?\\s?$page",
+                        "$volume ?$reporter \\w+ § $page"
+                    ],
+                    "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "1 Amer. Jur. 441",
                 "40 Amer. Jur., p. 764",
-                "19 Am. Jur. 219"
+                "19 Am. Jur. 219",
+                "AM JUR 2D CONTRACTS 27",
+                "17 Am. Jur. 2d Contracts § 74",
+                "AM JUR 2D COMPOSITION WITH CREDITORS 5"
             ],
             "mlz_jurisdiction": [],
             "name": "American Jurist and Law Magazine",
-            "notes": "",
+            "notes": "Am. Jur. 2d format: Volume number Am. Jur. edition_number Article_title § section number (year_optional).",
             "variations": {
+                "AM JUR 2D": "Am. Jur. 2d",
                 "Amer. Jur.": "Am. Jur."
             }
         }
@@ -1143,6 +1175,26 @@
                 "Am. Law T. Rep. (U. S. Cts.)": "Am. Law T. Rep. U.S. Cts.",
                 "Am. Law T. Rep. U. S. Cts.": "Am. Law T. Rep. U.S. Cts."
             }
+        }
+    ],
+    "Am. Law.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Am. Law.": {
+                    "end": "1908-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
+                    "start": "1893-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "14 Am. Law. 84"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "American Lawyer",
+            "variations": {}
         }
     ],
     "Am. Law. Rec.": [
@@ -3558,6 +3610,26 @@
             }
         }
     ],
+    "C.A.B.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "C.A.B.": {
+                    "end": "1979-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
+                    "start": "1940-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "12 C.A.B. 292"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Civil Aeronautics Authority Reports",
+            "variations": {}
+        }
+    ],
     "C.A.D.": [
         {
             "cite_type": "specialty",
@@ -3651,14 +3723,18 @@
                 "C.F.R.": {
                     "end": null,
                     "regexes": [
-                        "$volume $reporter §?\\s?(?P<page>\\d+\\.\\d+(\\-\\d+)?)"
+                        "$volume $reporter §?\\s?(?P<page>\\d+(\\.|\\-)\\d+[A-Z]?(\\-\\d+)?)",
+                        "$volume $reporter $page"
                     ],
                     "start": "1938-01-01T00:00:00"
                 }
             },
             "examples": [
                 "16 C.F.R. § 444.1",
-                "26 C.F.R. 1.616-1"
+                "26 C.F.R. 1.616-1",
+                "26 C.F.R. 301",
+                "26 C.F.R. 1-61-9",
+                "17 C.F.R. 230.144A"
             ],
             "mlz_jurisdiction": [],
             "name": "Code of Federal Regulations",
