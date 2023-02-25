@@ -12310,17 +12310,20 @@
                 "INTERNAL REVENUE MANUAL (CCH)": {
                     "end": null,
                     "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+\\.\\d+)"
+                        "$volume_nominative ?$reporter (§|Section|SECTION)?\\s?(?P<page>\\d+\\.\\d+\\.\\d+)"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "INTERNAL REVENUE MANUAL (CCH) 5.8.4"
+                "INTERNAL REVENUE MANUAL (CCH) 5.8.4",
+                "INTERNAL REVENUE MANUAL SECTION 9.8.1"
             ],
             "mlz_jurisdiction": [],
             "name": "Internal Revenue Manual (CCH)",
-            "variations": {}
+            "variations": {
+                "INTERNAL REVENUE MANUAL": "INTERNAL REVENUE MANUAL (CCH)"
+            }
         }
     ],
     "IRB LEXIS": [
@@ -13116,29 +13119,6 @@
             ],
             "name": "Interior Decisions",
             "variations": {}
-        }
-    ],
-    "Internal Revenue Manual Section": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Internal Revenue Manual Section": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "INTERNAL REVENUE MANUAL SECTION 9.8.1",
-                "Internal Revenue Manual Section 5.10.1"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Internal Revenue Manual Section",
-            "variations": {
-                "INTERNAL REVENUE MANUAL SECTION": "Internal Revenue Manual Section"
-            }
         }
     ],
     "Iowa": [
