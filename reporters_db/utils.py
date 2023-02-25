@@ -118,6 +118,7 @@ def process_variables(variables):
     - Add optional variants for each key, so {"page": "\d+"} becomes {"page_optional": "(?:\d+ ?)?"}
     - Resolve nested references
     """
+
     # flatten variables and remove comments
     def flatten(d, parent_key=""):
         items = {}
