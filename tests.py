@@ -299,7 +299,6 @@ class ReportersTest(BaseTestCase):
         (2) Does each regex have named <reporter> and <page> matching groups?
         """
         for reporter_abbv, reporter_list, reporter_data in iter_reporters():
-
             # get list of expanded regexes and examples for this reporter
             examples = reporter_data.get("examples", [])
             regexes = []
