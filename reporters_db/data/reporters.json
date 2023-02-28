@@ -18373,28 +18373,6 @@
             "variations": {}
         }
     ],
-    "NRS": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "NRS": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (?P<page>\\d+(\\.\\d+)?)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "NRS 104.2401",
-                "NRS 87.060",
-                "NRS 107"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Nevada Statutes: Nevada Revised Statutes Annotated",
-            "variations": {}
-        }
-    ],
     "NV": [
         {
             "cite_type": "neutral",
@@ -18687,29 +18665,6 @@
             ],
             "name": "LexisNexis Nebraska Supreme Court",
             "variations": {}
-        }
-    ],
-    "Neb. Rev. Stat.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Neb. Rev. Stat.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "NEB. REV. STAT. 67-325",
-                "Neb. Rev. Stat. § 49-802"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Nebraska Statutes: Revised Statutes of Nebraska Annotated",
-            "variations": {
-                "NEB. REV. STAT.": "Neb. Rev. Stat."
-            }
         }
     ],
     "Neg. Cas. (CCH)": [
@@ -19237,31 +19192,6 @@
             ],
             "name": "Oklahoma Neutral Citation (Judicial Ethics Advisory Panel)",
             "variations": {}
-        }
-    ],
-    "OR. REV. STAT.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "OR. REV. STAT.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "OR. REV. STAT. 42.220",
-                "Or. Rev. Stat. § 165.540",
-                "OR Rev Stat § 105.464"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Oregon Revised Statutes",
-            "variations": {
-                "OR Rev Stat": "OR. REV. STAT.",
-                "Or. Rev. Stat.": "OR. REV. STAT."
-            }
         }
     ],
     "OSHA Comp. Guide (CCH)": [
@@ -20015,25 +19945,6 @@
             "variations": {}
         }
     ],
-    "Okla. Stat.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Okla. Stat.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "24 OKLA. STAT. 116"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Oklahoma Statutes",
-            "variations": {
-                "OKLA. STAT.": "Okla. Stat."
-            }
-        }
-    ],
     "Okla. Trib.": [
         {
             "cite_type": "state",
@@ -20529,28 +20440,6 @@
             }
         }
     ],
-    "P.S.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "P.S.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume $reporter (?P<page>\\d+((\\.|\\-)\\d+)?)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "72 P.S. 3403-201",
-                "71 P.S. 81",
-                "58 P.S. 601.201"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Pennsylvania Statutes: Statutes of Pennsylvania",
-            "variations": {}
-        }
-    ],
     "P.U.R. (N.S.)": [
         {
             "cite_type": "specialty",
@@ -20998,29 +20887,6 @@
             ],
             "name": "LexisNexis Pennsylvania Superior Court Unpublished",
             "variations": {}
-        }
-    ],
-    "Pa.C.S.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Pa.C.S.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume $reporter §?\\s?$page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "13 PA.C.S. 8313",
-                "42 Pa.C.S. § 102"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Pennsylvania Statutes: Pennsylvania Consolidated Statutes",
-            "variations": {
-                "PA.C.S.": "Pa.C.S."
-            }
         }
     ],
     "Pac. Law Mag.": [
@@ -21912,29 +21778,6 @@
             ],
             "name": "Rhode Island Decisions",
             "variations": {}
-        }
-    ],
-    "R.I. Gen. Laws": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "R.I. Gen. Laws": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?\\-\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "R.I. GEN. LAWS 28-29-2",
-                "R.I. GEN. LAWS 6A-2-329"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Rhode Island Statutes: General Laws of Rhode Island",
-            "variations": {
-                "R.I. GEN. LAWS": "R.I. Gen. Laws"
-            }
         }
     ],
     "R.I. LEXIS": [
@@ -22944,29 +22787,6 @@
             "name": "South Dakota Reports",
             "variations": {
                 "S.Dak.": "S.D."
-            }
-        }
-    ],
-    "S.D. Codified Laws": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "S.D. Codified Laws": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?\\-\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "S.D. CODIFIED LAWS 21-3-2",
-                "S.D. CODIFIED LAWS 57A-9-302"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "South Dakota Statutes: South Dakota Codified Laws",
-            "variations": {
-                "S.D. CODIFIED LAWS": "S.D. Codified Laws"
             }
         }
     ],
@@ -24763,31 +24583,6 @@
             }
         }
     ],
-    "Tenn. Code Ann.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tenn. Code Ann.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+((\\-\\d+)?(\\-\\d+)?))"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TENN. CODE ANN. 31-4-101",
-                "TENN. CODE ANN. 4008",
-                "TENN. CODE ANN. 35-322",
-                "Tenn. Code Ann. § 4-5-101"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Tennessee Statutes: Tennessee Code Annotated",
-            "variations": {
-                "TENN. CODE ANN.": "Tenn. Code Ann."
-            }
-        }
-    ],
     "Tenn. Crim. App.": [
         {
             "cite_type": "state",
@@ -24919,73 +24714,6 @@
             "variations": {}
         }
     ],
-    "Tex. Bus. & Com. Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. Bus. & Com. Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TEX. BUS. COM. CODE 3.403",
-                "Tex. Bus. & Com. Code § 17.62"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Texas Statutes and Codes, Business and Commerce Code",
-            "variations": {
-                "TEX. BUS. COM. CODE": "Tex. Bus. & Com. Code"
-            }
-        }
-    ],
-    "Tex. Bus. Corp. Act": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. Bus. Corp. Act": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TEX. BUS. CORP. ACT 7.12"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Texas Statutes and Codes, Business Corporation Act",
-            "variations": {
-                "TEX. BUS. CORP. ACT": "Tex. Bus. Corp. Act"
-            }
-        }
-    ],
-    "Tex. Bus. Orgs. Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. Bus. Orgs. Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TEX. BUS. ORGS. CODE 10.254"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Texas Statutes and Codes, Business Organization",
-            "variations": {
-                "TEX. BUS. ORGS. CODE": "Tex. Bus. Orgs. Code"
-            }
-        }
-    ],
     "Tex. Civ. App.": [
         {
             "cite_type": "state",
@@ -25001,29 +24729,6 @@
             "name": "Texas Civil Appeals Reports",
             "variations": {
                 "Tex.Civ.App.": "Tex. Civ. App."
-            }
-        }
-    ],
-    "Tex. Civ. Prac. & Rem. Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. Civ. Prac. & Rem. Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TEX. CIV. PRAC. REM. CODE 129.001",
-                "Tex. Civ. Prac. & Rem. Code § 123.001"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Texas Statutes and Codes, Civil Practice and Remedies Code",
-            "variations": {
-                "TEX. CIV. PRAC. REM. CODE": "Tex. Civ. Prac. & Rem. Code"
             }
         }
     ],
@@ -25125,99 +24830,6 @@
             }
         }
     ],
-    "Tex. Educ. Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. Educ. Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TEX. EDUC. CODE 12.101",
-                "Tex. Educ. Code § 28.0022"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Texas Statutes and Codes, Education Code",
-            "variations": {
-                "TEX. EDUC. CODE": "Tex. Educ. Code"
-            }
-        }
-    ],
-    "Tex. Fam. Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. Fam. Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TEX. FAM. CODE 5.01",
-                "Tex. Fam. Code § 264.203"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Texas Statutes and Codes, Texas Family Code",
-            "variations": {
-                "TEX. FAM. CODE": "Tex. Fam. Code"
-            }
-        }
-    ],
-    "Tex. Gov't Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. Gov't Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TEX. GOVT CODE 311.028",
-                "Tex. Govt. Code. § 551.125"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Texas Statutes and Codes, Government Code",
-            "variations": {
-                "TEX. GOVT CODE": "Tex. Gov't Code",
-                "Tex. Govt. Code.": "Tex. Gov't Code"
-            }
-        }
-    ],
-    "Tex. Ins. Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. Ins. Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TEX. INS. CODE 21.14",
-                "Tex. Ins. Code § 1952.156"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Texas Statutes and Codes, Insurance Code",
-            "variations": {
-                "TEX. INS. CODE": "Tex. Ins. Code"
-            }
-        }
-    ],
     "Tex. L. R.": [
         {
             "cite_type": "state",
@@ -25267,103 +24879,6 @@
             "variations": {}
         }
     ],
-    "Tex. Penal Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. Penal Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TEX. PENAL CODE 32.43",
-                "Texas Penal Code § 16.02"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Texas Statutes and Codes, Penal Code",
-            "variations": {
-                "TEX. PENAL CODE": "Tex. Penal Code",
-                "Texas Penal Code": "Tex. Penal Code"
-            }
-        }
-    ],
-    "Tex. Prob. Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. Prob. Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?(\\-\\d+)?)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TEX. PROB. CODE 242",
-                "TEX. PROB. CODE 286-2",
-                "TEX. PROB. CODE 322A",
-                "Tex. Prob. Code § 243"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Texas Statutes and Codes, Probate Code",
-            "variations": {
-                "TEX. PROB. CODE": "Tex. Prob. Code"
-            }
-        }
-    ],
-    "Tex. Prop. Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. Prop. Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TEX. PROP. CODE 23.001",
-                "Tex. Prop. Code § 113.010"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Texas Statutes and Codes, Property Code",
-            "variations": {
-                "TEX. PROP. CODE": "Tex. Prop. Code"
-            }
-        }
-    ],
-    "Tex. Rev. Civ. Stat.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. Rev. Civ. Stat.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?(\\-\\d+(\\s?\\d+\\.\\d+)?(\\.\\d+)?)?)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TEX. REV. CIV. STAT. 11",
-                "TEX. REV. CIV. STAT. 1396-2.28",
-                "TEX. REV. CIV. STAT. 6132A-1 7.01",
-                "TEX. REV. CIV. STAT. 6132B"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Texas Statutes and Codes, Revised Civil Statutes",
-            "variations": {
-                "TEX. REV. CIV. STAT.": "Tex. Rev. Civ. Stat."
-            }
-        }
-    ],
     "Tex. Sup. Ct. J.": [
         {
             "cite_type": "state",
@@ -25379,29 +24894,6 @@
             "name": "Texas Supreme Court Journal",
             "variations": {
                 "Tex. Sup. J.": "Tex. Sup. Ct. J."
-            }
-        }
-    ],
-    "Tex. Tax Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. Tax Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TEX. TAX CODE 171.309",
-                "Tex. Tax Code § 31.01"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Texas Statutes and Codes, Tax Code",
-            "variations": {
-                "TEX. TAX CODE": "Tex. Tax Code"
             }
         }
     ],

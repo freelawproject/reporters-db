@@ -5296,6 +5296,26 @@
             ]
         }
     ],
+    "NRS": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "NRS 104.2401",
+                "NRS 87.060",
+                "NRS 107"
+            ],
+            "jurisdiction": "Nevada",
+            "name": "Nevada Statutes: Nevada Revised Statutes Annotated",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter (?P<page>\\d+(\\.\\d+)?)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Navajo Nation Code Ann.": [
         {
             "cite_type": "leg_statute",
@@ -5369,16 +5389,19 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Neb. Rev. Stat. § 352.853"
+                "Neb. Rev. Stat. § 352.853",
+                "NEB. REV. STAT. 67-325"
             ],
             "jurisdiction": "Nebraska",
             "name": "Revised Statutes of Nebraska",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "NEB. REV. STAT."
+            ]
         }
     ],
     "Neb. Rev. Stat. Ann.": [
@@ -5726,16 +5749,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Okla. Stat. tit. 425, § 838-00-01"
+                "Okla. Stat. tit. 425, § 838-00-01",
+                "24 OKLA. STAT. 116"
             ],
             "jurisdiction": "Oklahoma",
             "name": "Oklahoma Statutes (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section",
+                "$volume $reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "OKLA. STAT."
+            ]
         }
     ],
     "Okla. Stat. Ann.": [
@@ -5862,16 +5889,19 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Or. Rev. Stat. § 733"
+                "Or. Rev. Stat. § 733",
+                "OR. REV. STAT. 42.220"
             ],
             "jurisdiction": "Oregon",
             "name": "Oregon Revised Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "OR. REV. STAT."
+            ]
         }
     ],
     "Or. Rev. Stat. Ann.": [
@@ -5959,6 +5989,26 @@
             "variations": []
         }
     ],
+    "P.S.": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "72 P.S. 3403-201",
+                "71 P.S. 81",
+                "58 P.S. § 601.201"
+            ],
+            "jurisdiction": "Pennsylvania",
+            "name": "Pennsylvania Statutes: Statutes of Pennsylvania",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume $reporter (?P<page>\\d+((\\.|\\-)\\d+)?)",
+                "$volume $reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Pa. Bull.": [
         {
             "cite_type": "admin_register",
@@ -5998,16 +6048,21 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "1 Pa. Cons. Stat. § 229:08"
+                "1 Pa. Cons. Stat. § 229:08",
+                "13 PA.C.S. 8313",
+                "42 Pa.C.S. § 102"
             ],
             "jurisdiction": "Pennsylvania",
             "name": "Pennsylvania Consolidated Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $reporter § $law_section"
+                "(?P<title>\\d+) $reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "Pa.C.S.",
+                "PA.C.S."
+            ]
         }
     ],
     "Pa. Laws": [
@@ -6176,16 +6231,21 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "0 R.I. Gen. Laws § 56"
+                "0 R.I. Gen. Laws § 56",
+                "R.I. GEN. LAWS 28-29-2",
+                "R.I. GEN. LAWS 6A-2-329"
             ],
             "jurisdiction": "Rhode Island",
             "name": "General Laws of Rhode Island (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<title>\\d+) $reporter § $law_section"
+                "(?P<title>\\d+) $reporter §? ?$law_section",
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "R.I. GEN. LAWS"
+            ]
         }
     ],
     "R.I. Gen. Laws Ann.": [
@@ -6363,16 +6423,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "S.D. Codified Laws § 5"
+                "S.D. Codified Laws § 5",
+                "S.D. CODIFIED LAWS 21-3-2",
+                "S.D. CODIFIED LAWS 57A-9-302"
             ],
             "jurisdiction": "South Dakota",
             "name": "South Dakota Codified Laws (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "S.D. CODIFIED LAWS"
+            ]
         }
     ],
     "S.D. Reg.": [
@@ -6465,16 +6529,21 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Tenn. Code Ann. § 6"
+                "Tenn. Code Ann. § 6",
+                "TENN. CODE ANN. 31-4-101",
+                "TENN. CODE ANN. 4008",
+                "TENN. CODE ANN. 35-322"
             ],
             "jurisdiction": "Tennessee",
             "name": "Tennessee Code Annotated (LexisNexis); West's Tennessee Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "TENN. CODE ANN."
+            ]
         }
     ],
     "Tenn. Code Ann. Adv. Legis. Serv.": [
@@ -6579,6 +6648,47 @@
             "variations": []
         }
     ],
+    "Tex. Bus. & Com. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "TEX. BUS. COM. CODE 3.403",
+                "Tex. Bus. & Com. Code § 17.62"
+            ],
+            "jurisdiction": "Texas",
+            "name": "Texas Statutes and Codes, Business and Commerce Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "TEX. BUS. COM. CODE"
+            ]
+        }
+    ],
+    "Tex. Bus. Corp. Act": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "TEX. BUS. CORP. ACT 7.12"
+            ],
+            "jurisdiction": "Texas",
+            "name": "Texas Statutes and Codes, Business Corporation Act",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "TEX. BUS. CORP. ACT"
+            ]
+        }
+    ],
     "Tex. Bus. Corp. Act Ann.": [
         {
             "cite_type": "leg_statute",
@@ -6594,6 +6704,47 @@
             ],
             "start": null,
             "variations": []
+        }
+    ],
+    "Tex. Bus. Orgs. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "TEX. BUS. ORGS. CODE 10.254"
+            ],
+            "jurisdiction": "Texas",
+            "name": "Texas Statutes and Codes, Business Organization",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "TEX. BUS. ORGS. CODE"
+            ]
+        }
+    ],
+    "Tex. Civ. Prac. & Rem. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "TEX. CIV. PRAC. REM. CODE 129.001",
+                "Tex. Civ. Prac. & Rem. Code § 123.001"
+            ],
+            "jurisdiction": "Texas",
+            "name": "Texas Statutes and Codes, Civil Practice and Remedies Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "TEX. CIV. PRAC. REM. CODE"
+            ]
         }
     ],
     "Tex. Code Ann.": [
@@ -6630,6 +6781,48 @@
             "variations": []
         }
     ],
+    "Tex. Educ. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "TEX. EDUC. CODE 12.101",
+                "Tex. Educ. Code § 28.0022"
+            ],
+            "jurisdiction": "Texas",
+            "name": "Texas Statutes and Codes, Education Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "TEX. EDUC. CODE"
+            ]
+        }
+    ],
+    "Tex. Fam. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "TEX. FAM. CODE 5.01",
+                "Tex. Fam. Code § 264.203"
+            ],
+            "jurisdiction": "Texas",
+            "name": "Texas Statutes and Codes, Texas Family Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "TEX. FAM. CODE"
+            ]
+        }
+    ],
     "Tex. Gen. Laws": [
         {
             "cite_type": "leg_session",
@@ -6645,6 +6838,49 @@
             ],
             "start": null,
             "variations": []
+        }
+    ],
+    "Tex. Gov't Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "TEX. GOVT CODE 311.028",
+                "Tex. Govt. Code. § 551.125"
+            ],
+            "jurisdiction": "Texas",
+            "name": "Texas Statutes and Codes, Government Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "TEX. GOVT CODE",
+                "Tex. Govt. Code."
+            ]
+        }
+    ],
+    "Tex. Ins. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "TEX. INS. CODE 21.14",
+                "Tex. Ins. Code § 1952.156"
+            ],
+            "jurisdiction": "Texas",
+            "name": "Texas Statutes and Codes, Insurance Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "TEX. INS. CODE"
+            ]
         }
     ],
     "Tex. Ins. Code Ann.": [
@@ -6664,6 +6900,51 @@
             "variations": []
         }
     ],
+    "Tex. Penal Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "TEX. PENAL CODE 32.43",
+                "Texas Penal Code § 16.02"
+            ],
+            "jurisdiction": "Texas",
+            "name": "Texas Statutes and Codes, Penal Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "TEX. PENAL CODE",
+                "Texas Penal Code"
+            ]
+        }
+    ],
+    "Tex. Prob. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "TEX. PROB. CODE 242",
+                "TEX. PROB. CODE 286-2",
+                "TEX. PROB. CODE 322A",
+                "Tex. Prob. Code § 243"
+            ],
+            "jurisdiction": "Texas",
+            "name": "Texas Statutes and Codes, Probate Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?(\\-\\d+)?)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "TEX. PROB. CODE"
+            ]
+        }
+    ],
     "Tex. Prob. Code Ann.": [
         {
             "cite_type": "leg_statute",
@@ -6681,6 +6962,27 @@
             "variations": []
         }
     ],
+    "Tex. Prop. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "TEX. PROP. CODE 23.001",
+                "Tex. Prop. Code § 113.010"
+            ],
+            "jurisdiction": "Texas",
+            "name": "Texas Statutes and Codes, Property Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "TEX. PROP. CODE"
+            ]
+        }
+    ],
     "Tex. Reg.": [
         {
             "cite_type": "admin_register",
@@ -6696,6 +6998,29 @@
             ],
             "start": null,
             "variations": []
+        }
+    ],
+    "Tex. Rev. Civ. Stat.": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "TEX. REV. CIV. STAT. 11",
+                "TEX. REV. CIV. STAT. 1396-2.28",
+                "TEX. REV. CIV. STAT. 6132A-1 7.01",
+                "TEX. REV. CIV. STAT. 6132B"
+            ],
+            "jurisdiction": "Texas",
+            "name": "Texas Statutes and Codes, Revised Civil Statutes",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?(\\-\\d+(\\s?\\d+\\.\\d+)?(\\.\\d+)?)?)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "TEX. REV. CIV. STAT."
+            ]
         }
     ],
     "Tex. Rev. Civ. Stat. Ann.": [
@@ -6730,6 +7055,27 @@
             ],
             "start": null,
             "variations": []
+        }
+    ],
+    "Tex. Tax Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "TEX. TAX CODE 171.309",
+                "Tex. Tax Code § 31.01"
+            ],
+            "jurisdiction": "Texas",
+            "name": "Texas Statutes and Codes, Tax Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "TEX. TAX CODE"
+            ]
         }
     ],
     "Treas. Reg.": [
