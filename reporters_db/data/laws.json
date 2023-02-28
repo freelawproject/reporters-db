@@ -4699,6 +4699,166 @@
             ]
         }
     ],
+    "N.Y. Gen. Bus. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. GEN. BUS. LAW 370"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, General Business Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. GEN. BUS. LAW"
+            ]
+        }
+    ],
+    "N.Y. Gen. City Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. GEN. CITY LAW 35"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, General City Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. GEN. CITY LAW"
+            ]
+        }
+    ],
+    "N.Y. Gen. Constr. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. GEN. CONSTR. LAW 24"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, General Construction Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. GEN. CONSTR. LAW"
+            ]
+        }
+    ],
+    "N.Y. Gen. Mun. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. GEN. MUN. LAW 77-B"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, General Municipal Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter (?P<page>\\d+\\-[A-Z])",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. GEN. MUN. LAW"
+            ]
+        }
+    ],
+    "N.Y. Gen. Oblig. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. GEN. OBLIG. LAW 5-501"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, General Obligations Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter (?P<page>\\d+\\-\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. GEN. OBLIG. LAW"
+            ]
+        }
+    ],
+    "N.Y. High. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. HIGH. LAW 30"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Highway Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. HIGH. LAW"
+            ]
+        }
+    ],
+    "N.Y. Ins. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. INS. LAW 1102"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Insurance Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. INS. LAW"
+            ]
+        }
+    ],
+    "N.Y. Jud. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. JUD. LAW 495"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Judiciary Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. JUD. LAW"
+            ]
+        }
+    ],
     "N.Y. Law": [
         {
             "cite_type": "leg_statute",
@@ -4750,6 +4910,236 @@
             "variations": []
         }
     ],
+    "N.Y. Lien Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. LIEN LAW 183"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Lien Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. LIEN LAW"
+            ]
+        }
+    ],
+    "N.Y. Limited Liab. Co. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. LIMITED LIAB. CO. LAW 601"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Limited Liability Company Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. LIMITED LIAB. CO. LAW"
+            ]
+        }
+    ],
+    "N.Y. Mental Hyg. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. MENTAL HYG. LAW 31.02"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Mental Hygiene Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter (?P<page>\\d+\\.\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. MENTAL HYG. LAW"
+            ]
+        }
+    ],
+    "N.Y. Not-for-Profit Corp. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. NOT-FOR-PROFIT CORP. LAW 1001"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Not-For-Profit Corporation Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. NOT-FOR-PROFIT CORP. LAW"
+            ]
+        }
+    ],
+    "N.Y. Partnership Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. PARTNERSHIP LAW 26",
+                "N.Y. PARTNERSHIP LAW 121-101"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Partnership Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter (?P<page>\\d+\\-\\d+)",
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. PARTNERSHIP LAW"
+            ]
+        }
+    ],
+    "N.Y. Penal Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. PENAL LAW 155.35",
+                "N.Y. PENAL LAW 180"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Penal Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter (?P<page>\\d+\\.\\d+)",
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. PENAL LAW"
+            ]
+        }
+    ],
+    "N.Y. Pers. Prop. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. PERS. PROP. LAW 162",
+                "N.Y. PERS. PROP. LAW 27-A"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Personal Property Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter (?P<page>\\d+\\-[A-Z])",
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. PERS. PROP. LAW"
+            ]
+        }
+    ],
+    "N.Y. Priv. Hous. Fin. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. PRIV. HOUS. FIN. LAW 32",
+                "N.Y. PRIV. HOUS. FIN. LAW 11-A"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Private Housing Finance Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter (?P<page>\\d+\\-[A-Z])",
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. PRIV. HOUS. FIN. LAW"
+            ]
+        }
+    ],
+    "N.Y. Real Prop. Acts. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. REAL PROP. ACTS. LAW 801"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Real Property Actions and Proceedings Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. REAL PROP. ACTS. LAW"
+            ]
+        }
+    ],
+    "N.Y. Real Prop. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. REAL PROP. LAW 291",
+                "N.Y. REAL PROP. LAW 291-E"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Real Property Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$volume_nominative ?$reporter (?P<page>\\d+\\-[A-Z])",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. REAL PROP. LAW"
+            ]
+        }
+    ],
+    "N.Y. Real Prop. Tax Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. REAL PROP. TAX LAW 420"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Real Property Tax Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. REAL PROP. TAX LAW"
+            ]
+        }
+    ],
     "N.Y. Reg.": [
         {
             "cite_type": "admin_register",
@@ -4767,6 +5157,46 @@
             "variations": []
         }
     ],
+    "N.Y. Relig. Corp. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. RELIG. CORP. LAW 3"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Religious Corporations Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. RELIG. CORP. LAW"
+            ]
+        }
+    ],
+    "N.Y. Retire. & Soc. Sec. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. RETIRE. SOC. SEC. LAW 18"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Retirement and Social Security Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. RETIRE. SOC. SEC. LAW"
+            ]
+        }
+    ],
     "N.Y. Sess. Laws": [
         {
             "cite_type": "leg_session",
@@ -4782,6 +5212,88 @@
             ],
             "start": null,
             "variations": []
+        }
+    ],
+    "N.Y. Soc. Serv. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. SOC. SERV. LAW 365",
+                "N.Y. SOC. SERV. LAW 365-A"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Social Services Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$volume_nominative ?$reporter (?P<page>\\d+\\-[A-Z])",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. SOC. SERV. LAW"
+            ]
+        }
+    ],
+    "N.Y. Surr. Ct. Proc. Act": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. SURR. CT. PROC. ACT 1404"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Surrogate's Court Procedure Act",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. SURR. CT. PROC. ACT"
+            ]
+        }
+    ],
+    "N.Y. Tax Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. TAX LAW 471"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Tax Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. TAX LAW"
+            ]
+        }
+    ],
+    "N.Y. Veh. & Traf. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. VEH. TRAF. LAW 158"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Vehicle and Traffic Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. VEH. TRAF. LAW"
+            ]
         }
     ],
     "Navajo Nation Code Ann.": [
