@@ -1168,16 +1168,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Colo. Rev. Stat. § 4-070-09"
+                "Colo. Rev. Stat. § 4-070-09",
+                "COLO. REV. STAT. 13-6-201",
+                "COLO. REV. STAT. 38-33.3-101"
             ],
             "jurisdiction": "Colorado",
             "name": "Colorado Revised Statutes (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "COLO. REV. STAT."
+            ]
         }
     ],
     "Colo. Rev. Stat. Ann.": [
@@ -1253,16 +1257,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Conn. Gen. Stat. § 0:899"
+                "Conn. Gen. Stat. § 0:899",
+                "CONN. GEN. STAT. 45A-670",
+                "CONN. GEN. STAT. 38A-92A"
             ],
             "jurisdiction": "Connecticut",
             "name": "General Statutes of Connecticut",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "CONN. GEN. STAT."
+            ]
         }
     ],
     "Conn. Gen. Stat. Ann.": [
@@ -1734,16 +1742,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Fla. Stat. § 8"
+                "Fla. Stat. § 8",
+                "FLA. STAT. 197.502",
+                "FLA. STAT. § 895.03"
             ],
             "jurisdiction": "Florida",
             "name": "Florida Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "FLA. STAT."
+            ]
         }
     ],
     "Fla. Stat. Ann.": [
@@ -1970,16 +1982,19 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Haw. Rev. Stat. § 230:5.265"
+                "Haw. Rev. Stat. § 230:5.265",
+                "HAW. REV. STAT. 516-30"
             ],
             "jurisdiction": "Hawaii",
             "name": "Hawaii Revised Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "HAW. REV. STAT."
+            ]
         }
     ],
     "Haw. Rev. Stat. Ann.": [
@@ -2033,6 +2048,23 @@
             "variations": []
         }
     ],
+    "Hous. Bus. & Tax L.J.": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "7 Hous. Bus. & Tax L.J. 42"
+            ],
+            "jurisdiction": "Hawaii",
+            "name": "Hawaii Statutes: Houston Business and Tax Law Journal",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume $reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Idaho Admin. Bull.": [
         {
             "cite_type": "admin_register",
@@ -2072,16 +2104,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Idaho Code § 54:57-2"
+                "Idaho Code § 54:57-2",
+                "IDAHO CODE 43-1102",
+                "Idaho Code 74-106"
             ],
             "jurisdiction": "Idaho",
             "name": "Idaho Code (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "IDAHO CODE"
+            ]
         }
     ],
     "Idaho Code Ann.": [
@@ -2191,16 +2227,23 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "1 Ill. Comp. Stat. 0 / 462.04"
+                "1 Ill. Comp. Stat. 0 / 462.04",
+                "10 ILL. COMP. STAT. 5/9-1.3",
+                "60 ILL. COMP. STAT. 1/85-10",
+                "760 ILL. COMP. STAT. 5/4.23",
+                "35 ILCS 635/22"
             ],
             "jurisdiction": "Illinois",
             "name": "Illinois Compiled Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "(?P<chapter>\\d+) $reporter (?P<act>\\d+) / $law_section"
+                "(?P<chapter>\\d+) $reporter (?P<act>\\d+) ?/ ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "ILCS",
+                "ILL. COMP. STAT."
+            ]
         }
     ],
     "Ill. Comp. Stat. Ann.": [
@@ -2582,16 +2625,21 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Kan. Stat. Ann. § 4"
+                "Kan. Stat. Ann. § 4",
+                "KAN. STAT. ANN. 59-2291",
+                "Kan. Stat. Ann. § 59-1504",
+                "KAN. STAT. ANN. 56A-201"
             ],
             "jurisdiction": "Kansas",
             "name": "Kansas Statutes Annotated; West's Kansas Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "KAN. STAT. ANN."
+            ]
         }
     ],
     "Ky. Acts": [
@@ -2684,16 +2732,21 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Ky. Rev. Stat. Ann. § 021.48"
+                "Ky. Rev. Stat. Ann. § 021.48",
+                "KY. REV. STAT. ANN. 271.075",
+                "Ky. Rev. Stat. Ann. § 417.240",
+                "KY. REV. STAT. ANN. 26A.300"
             ],
             "jurisdiction": "Kentucky",
             "name": "Baldwin's Kentucky Revised Statutes Annotated (West); Michie's Kentucky Revised Statutes Annotated (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "KY. REV. STAT. ANN."
+            ]
         }
     ],
     "La. Acts": [
@@ -2830,6 +2883,26 @@
             ],
             "start": null,
             "variations": []
+        }
+    ],
+    "La. R.S.": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "LA. R.S. 47:42",
+                "La. R.S. 23:966"
+            ],
+            "jurisdiction": "Louisiana",
+            "name": "Louisiana Revised Statutes",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "LA. R.S."
+            ]
         }
     ],
     "La. Reg.": [
@@ -3189,6 +3262,27 @@
             "variations": []
         }
     ],
+    "Me. Rev. Stat.": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "26 Me. Rev. Stat. § 635",
+                "33 M.R.S. 51"
+            ],
+            "jurisdiction": "Maine",
+            "name": "Maine Revised Statutes",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume $reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "M.R.S.",
+                "Me. Rev. Stat."
+            ]
+        }
+    ],
     "Me. Rev. Stat. Ann.": [
         {
             "cite_type": "leg_statute",
@@ -3432,16 +3526,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Minn. Stat. § 20-72"
+                "Minn. Stat. § 20-72",
+                "MINN. STAT. 573.06",
+                "MINN. STAT. 302A.781"
             ],
             "jurisdiction": "Minnesota",
             "name": "Minnesota Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "MINN. STAT."
+            ]
         }
     ],
     "Minn. Stat. Ann.": [
@@ -3653,16 +3751,21 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Mo. Rev. Stat. § 1.174"
+                "Mo. Rev. Stat. § 1.174",
+                "MO. REV. STAT. 351.120",
+                "Mo. Rev. Stat. § 208.671",
+                "MO. REV. STAT. 400.8-401"
             ],
             "jurisdiction": "Missouri",
             "name": "Missouri Revised Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "MO. REV. STAT."
+            ]
         }
     ],
     "Mont. Admin. R.": [
@@ -3840,16 +3943,22 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "N.C. Gen. Stat. § 50"
+                "N.C. Gen. Stat. § 50",
+                "N.C. GEN. STAT. 128-27",
+                "N.C. GEN. STAT. 39-23.5",
+                "N.C. Gen. Stat. § 127A-195",
+                "N.C. Gen. Stat. § 143-800"
             ],
             "jurisdiction": "North Carolina",
             "name": "General Statutes of North Carolina (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "N.C. GEN. STAT."
+            ]
         }
     ],
     "N.C. Gen. Stat. Ann.": [
@@ -3942,16 +4051,22 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "N.D. Cent. Code § 81-831"
+                "N.D. Cent. Code § 81-831",
+                "N.D. CENT. CODE 6-01-02",
+                "N.D. CENT. CODE 14-05-08.1",
+                "N.D. CENT. CODE 26.1-36-02",
+                "N.D. Cent. Code § 1-01-06"
             ],
             "jurisdiction": "North Dakota",
             "name": "North Dakota Century Code (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "N.D. CENT. CODE"
+            ]
         }
     ],
     "N.D. Cent. Code Adv. Legis. Serv.": [
@@ -4112,16 +4227,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "N.H. Rev. Stat. Ann. § 5:41"
+                "N.H. Rev. Stat. Ann. § 5:41",
+                "N.H. REV. STAT. ANN. 458:17",
+                "N.H. REV. STAT. ANN. 88-A:2"
             ],
             "jurisdiction": "New Hampshire",
             "name": "New Hampshire Revised Statutes Annotated (West); Lexis New Hampshire Revised Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "N.H. REV. STAT. ANN."
+            ]
         }
     ],
     "N.H. Rev. Stat. Ann. Adv. Legis. Serv.": [
@@ -4248,16 +4367,21 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "N.J. Stat. Ann. § 0.21-05"
+                "N.J. Stat. Ann. § 0.21-05",
+                "N.J. STAT. ANN. 12A:7-204",
+                "N.J. STAT. ANN. 17:9A-19",
+                "N.J. STAT. ANN. 48:3-9"
             ],
             "jurisdiction": "New Jersey",
             "name": "New Jersey Statutes Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "N.J. STAT. ANN."
+            ]
         }
     ],
     "N.M. Adv. Legis. Serv.": [
@@ -4350,16 +4474,21 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "N.M. Stat. Ann. § 641"
+                "N.M. Stat. Ann. § 641",
+                "N.M. STAT. ANN. 38-1-3",
+                "N.M. STAT. ANN. 56-10-16A",
+                "N.M. Stat. Ann. § 50-4-36"
             ],
             "jurisdiction": "New Mexico",
             "name": "New Mexico Statutes Annotated 1978 (Conway Greene); West's New Mexico Statutes Annotated; Michie's Annotated Statutes of New Mexico (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "N.M. STAT. ANN."
+            ]
         }
     ],
     "N.Y.": [
@@ -4377,6 +4506,103 @@
             ],
             "start": null,
             "variations": []
+        }
+    ],
+    "N.Y. Banking Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. BANKING LAW 609"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Banking Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. BANKING LAW"
+            ]
+        }
+    ],
+    "N.Y. Bus. Corp. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. BUS. CORP. LAW 1505"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Business Corporation Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. BUS. CORP. LAW"
+            ]
+        }
+    ],
+    "N.Y. C.P.L.R.": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. C.P.L.R. 342"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Civil Practice Law & Rules",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "N.Y. Civ. Rights Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. CIV. RIGHTS LAW 51"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Civil Rights Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. CIV. RIGHTS LAW"
+            ]
+        }
+    ],
+    "N.Y. Civ. Serv. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. CIV. SERV. LAW 210"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Civil Service Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. CIV. SERV. LAW"
+            ]
         }
     ],
     "N.Y. Comp. Codes R. & Regs.": [
@@ -4411,6 +4637,66 @@
             ],
             "start": null,
             "variations": []
+        }
+    ],
+    "N.Y. Crim. Proc. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. CRIM. PROC. LAW 190.25"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Criminal Procedure Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. CRIM. PROC. LAW"
+            ]
+        }
+    ],
+    "N.Y. Educ. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. EDUC. LAW 7701"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Education Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter $page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. EDUC. LAW"
+            ]
+        }
+    ],
+    "N.Y. Envtl. Conserv. Law": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "N.Y. ENVTL. CONSERV. LAW 49-0303"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York Statutes: NY Consolidated Laws Service, Environmental Conservation Law",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. ENVTL. CONSERV. LAW"
+            ]
         }
     ],
     "N.Y. Law": [
