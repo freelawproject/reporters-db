@@ -26138,23 +26138,6 @@
             "variations": {}
         }
     ],
-    "V.I.C.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "V.I.C.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "29 V.I.C. 701"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Virgin Islands Statutes: Virgin Islands Code Annotated",
-            "variations": {}
-        }
-    ],
     "VA. CODE ANN.": [
         {
             "cite_type": "state",
@@ -26584,25 +26567,6 @@
             "variations": {}
         }
     ],
-    "Vt. Stat. Ann": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Vt. Stat. Ann": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "12 VT. STAT. ANN. 4714"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Vermont Statutes Annotated",
-            "variations": {
-                "VT. STAT. ANN.": "Vt. Stat. Ann"
-            }
-        }
-    ],
     "Vt. Super. LEXIS": [
         {
             "cite_type": "state",
@@ -26869,29 +26833,6 @@
             "variations": {}
         }
     ],
-    "WIS. STAT.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "WIS. STAT.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "WIS. STAT. 757.36",
-                "Wis. Stat. § 767.33"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Wisconsin Statutes",
-            "variations": {
-                "Wis. Stat.": "WIS. STAT."
-            }
-        }
-    ],
     "WL": [
         {
             "cite_type": "specialty_west",
@@ -27000,29 +26941,6 @@
             "name": "Wyoming Neutral Citation",
             "variations": {
                 "WYO": "WY"
-            }
-        }
-    ],
-    "WYO. STAT. ANN.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "WYO. STAT. ANN.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "WYO. STAT. ANN. 17-21-103",
-                "Wyo. Stat. Ann. § 1-3-105"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Wyoming Statutes Annotated (LexisNexis)",
-            "variations": {
-                "Wyo. Stat. Ann.": "WYO. STAT. ANN."
             }
         }
     ],
@@ -27387,30 +27305,6 @@
             ],
             "name": "LexisNexis Washington Supreme Court",
             "variations": {}
-        }
-    ],
-    "Wash. Rev. Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Wash. Rev. Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page",
-                        "$volume_nominative ?$reporter $page_with_letter"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "WASH. REV. CODE 3863",
-                "WASH. REV. CODE 62A"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Washington Statutes: Annotated Revised Code of Washington",
-            "variations": {
-                "WASH. REV. CODE": "Wash. Rev. Code"
-            }
         }
     ],
     "Wash. Terr.": [

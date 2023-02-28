@@ -7249,16 +7249,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "V.I. Code Ann. tit. 24, § 183.04:688 1999"
+                "V.I. Code Ann. tit. 24, § 183.04:688 1999",
+                "29 V.I.C. 701"
             ],
             "jurisdiction": "Virgin Islands",
             "name": "Virgin Islands Code Annotated (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples. Indigo Book dates 1962-date.",
             "regexes": [
-                "$reporter tit\\. (?P<title>\\d+), § $law_section $law_year"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section $law_year",
+                "(?P<title>\\d+) $reporter $law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "V.I.C."
+            ]
         }
     ],
     "V.I. Code Ann. Adv.": [
@@ -7538,16 +7542,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Vt. Stat. Ann. tit. 99, § 2"
+                "Vt. Stat. Ann. tit. 99, § 2",
+                "12 VT. STAT. ANN. 4714"
             ],
             "jurisdiction": "Vermont",
             "name": "Vermont Statutes Annotated (LexisNexis); West's Vermont Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section",
+                "(?P<title>\\d+) $reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "VT. STAT. ANN."
+            ]
         }
     ],
     "W. Va. Acts": [
@@ -7725,16 +7733,19 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Wash. Rev. Code § 32:7-703"
+                "Wash. Rev. Code § 32:7-703",
+                "WASH. REV. CODE 62A"
             ],
             "jurisdiction": "Washington",
             "name": "Revised Code of Washington",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "WASH. REV. CODE"
+            ]
         }
     ],
     "Wash. Rev. Code Ann.": [
@@ -7844,16 +7855,19 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Wis. Stat. § 8-431-7"
+                "Wis. Stat. § 8-431-7",
+                "WIS. STAT. 757.36"
             ],
             "jurisdiction": "Wisconsin",
             "name": "Wisconsin Statutes",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "WIS. STAT."
+            ]
         }
     ],
     "Wis. Stat. Ann.": [
@@ -7946,16 +7960,19 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Wyo. Stat. Ann. § 7-505"
+                "Wyo. Stat. Ann. § 7-505",
+                "WYO. STAT. ANN. 17-21-103"
             ],
             "jurisdiction": "Wyoming",
             "name": "Wyoming Statutes Annotated (LexisNexis); West's Wyoming Statutes Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "WYO. STAT. ANN."
+            ]
         }
     ]
 }
