@@ -72,16 +72,19 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Ala. Code § 92.979"
+                "Ala. Code § 92.979",
+                "ALA. CODE 3.85"
             ],
             "jurisdiction": "Alabama",
             "name": "Code of Alabama, 1975 (West); Michie's Alabama Code, 1975 (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "ALA. CODE"
+            ]
         }
     ],
     "Ala. Laws": [
@@ -191,16 +194,19 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Alaska Stat. § 240"
+                "Alaska Stat. § 240",
+                "ALASKA STAT. 09.38.015"
             ],
             "jurisdiction": "Alaska",
             "name": "Alaska Statutes (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "ALASKA STAT."
+            ]
         }
     ],
     "Alaska Stat. Ann.": [
@@ -310,16 +316,19 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Ariz. Rev. Stat. § 495:11"
+                "Ariz. Rev. Stat. § 495:11",
+                "ARIZ. REV. STAT. 25-211A"
             ],
             "jurisdiction": "Arizona",
             "name": "Arizona Revised Statutes (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "ARIZ. REV. STAT."
+            ]
         }
     ],
     "Ariz. Rev. Stat. Ann.": [
@@ -581,6 +590,49 @@
             "variations": []
         }
     ],
+    "Cal. Civ. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. CIV. CODE 2317",
+                "Cal. Civ. Code § 1646"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Civil Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. CIV. CODE"
+            ]
+        }
+    ],
+    "Cal. Civ. Proc. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. CIV. PROC. CODE 1858",
+                "Cal. Civ. Code § 1646",
+                "Cal. Civ. Proc. Code § 1094.5",
+                "CAL. CIV. PROC. CODE 580B"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Code of Civil Procedure",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. CIV. PROC. CODE",
+                "Cal. Civ. Code"
+            ]
+        }
+    ],
     "Cal. Code": [
         {
             "cite_type": "leg_statute",
@@ -615,6 +667,256 @@
             "variations": []
         }
     ],
+    "Cal. Com. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. COM. CODE 3104",
+                "Cal. Com. Code § 3101"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Uniform Commercial Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. COM. CODE",
+                "Cal. Comm. Code"
+            ]
+        }
+    ],
+    "Cal. Corp. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. CORP. CODE 313",
+                "Cal Corp Code § 603"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Corporations Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. CORP. CODE",
+                "Cal Corp Code"
+            ]
+        }
+    ],
+    "Cal. Educ. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. EDUC. CODE 24202",
+                "Cal.Educ.Code § 32064",
+                "Cal. Educ. Code § 94300"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Education Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. EDUC. CODE",
+                "Cal.Educ.Code"
+            ]
+        }
+    ],
+    "Cal. Elec. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "Cal. Elec. Code § 14000",
+                "CAL. ELEC. CODE § 13107"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Election Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. ELEC. CODE"
+            ]
+        }
+    ],
+    "Cal. Evid. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. EVID. CODE 1220",
+                "Cal. Evid. Code § 210"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Evidence Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. EVID. CODE"
+            ]
+        }
+    ],
+    "Cal. Fam. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. FAM. CODE 6501",
+                "Cal. Fam. Code § 760"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Family Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. FAM. CODE"
+            ]
+        }
+    ],
+    "Cal. Fin. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "Cal. Fin. Code § 100002",
+                "CAL. FIN. CODE 1753"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Financial Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. FIN. CODE"
+            ]
+        }
+    ],
+    "Cal. Food & Agric. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "Cal. Food & Agric. Code § 19501",
+                "CAL. FOOD AGRIC. CODE 16522"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Food and Agricultural Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. FOOD AGRIC. CODE"
+            ]
+        }
+    ],
+    "Cal. Gov't Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "Cal. Gov't Code § 87300",
+                "CAL. GOVT CODE 66429"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Government Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. GOVT CODE"
+            ]
+        }
+    ],
+    "Cal. Health & Safety Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. HEALTH SAFETY CODE 1278.5",
+                "CAL. HEALTH SAFETY CODE 33000",
+                "Cal.Health & Safety Code § 105205",
+                "Cal. Health & Safety Code § 119400"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Health and Safety Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. HEALTH SAFETY CODE",
+                "Cal.Health & Safety Code"
+            ]
+        }
+    ],
+    "Cal. Ins. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. INS. CODE 1800",
+                "Cal. Ins. Code § 412",
+                "Cal. Ins. Code § 10110.6"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Insurance Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. INS. CODE"
+            ]
+        }
+    ],
+    "Cal. Lab. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. LAB. CODE 4850",
+                "Cal. Lab. Code § 221",
+                "Cal Lab Code § 6404.5"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Labor Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. LAB. CODE",
+                "Cal Lab Code"
+            ]
+        }
+    ],
     "Cal. Legis. Serv.": [
         {
             "cite_type": "leg_session",
@@ -630,6 +932,69 @@
             ],
             "start": null,
             "variations": []
+        }
+    ],
+    "Cal. Penal Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. PENAL CODE 484",
+                "Cal. Penal Code § 631",
+                "CAL. PENAL CODE 532A"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Penal Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. PENAL CODE"
+            ]
+        }
+    ],
+    "Cal. Prob. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. PROB. CODE 222",
+                "Cal. Prob. Code § 3601"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Probate Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. PROB. CODE"
+            ]
+        }
+    ],
+    "Cal. Pub. Res. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. PUB. RES. CODE 2710",
+                "Cal.Pub.Res.Code § 3008",
+                "Cal. Pub. Res. Code § 21082"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Public Resources Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. PUB. RES. CODE",
+                "Cal.Pub.Res.Code"
+            ]
         }
     ],
     "Cal. Regulatory Notice Reg.": [
@@ -649,6 +1014,27 @@
             "variations": []
         }
     ],
+    "Cal. Rev. & Tax. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. REV. TAX. CODE 23332",
+                "Cal. Rev. & Tax. Code § 19900",
+                "CAL. REV. TAX. CODE 23701D"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Revenue and Taxation Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. REV. TAX. CODE"
+            ]
+        }
+    ],
     "Cal. Stat.": [
         {
             "cite_type": "leg_session",
@@ -664,6 +1050,66 @@
             ],
             "start": null,
             "variations": []
+        }
+    ],
+    "Cal. Unemp. Ins. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. UNEMP. INS. CODE 2626",
+                "Cal. Unemp. Ins. Code § 1252"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Unemployment Insurance Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. UNEMP. INS. CODE"
+            ]
+        }
+    ],
+    "Cal. Veh. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. VEH. CODE 9250",
+                "Cal. Veh. Code § 670"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Vehicle Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. VEH. CODE"
+            ]
+        }
+    ],
+    "Cal. Welf. & Inst. Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "CAL. WELF. INST. CODE 15610.43",
+                "Cal. Welf. & Inst. Code §4502.1"
+            ],
+            "jurisdiction": "California",
+            "name": "California Statutes: Deering's Cal. Codes Ann. - Welfare and Institutions Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. WELF. INST. CODE"
+            ]
         }
     ],
     "Colo. Code Regs.": [
