@@ -1803,29 +1803,6 @@
             "variations": {}
         }
     ],
-    "Ark. Code Ann.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Ark. Code Ann.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "Ark. Code Ann. § 8-2-201",
-                "ARK. CODE ANN. 4-26-715"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Arkansas Code of 1987 Annotated (LexisNexis)",
-            "variations": {
-                "ARK. CODE ANN.": "Ark. Code Ann."
-            }
-        }
-    ],
     "Ark. LEXIS": [
         {
             "cite_type": "state",
@@ -3642,31 +3619,6 @@
             "variations": {}
         }
     ],
-    "C.F.R.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "C.F.R.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume $reporter §?\\s?(?P<page>\\d+(\\.|\\-)\\d+[A-Z]?(\\-\\d+)?)",
-                        "$volume $reporter $page"
-                    ],
-                    "start": "1938-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "16 C.F.R. § 444.1",
-                "26 C.F.R. 1.616-1",
-                "26 C.F.R. 301",
-                "26 C.F.R. 1-61-9",
-                "17 C.F.R. 230.144A"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Code of Federal Regulations",
-            "variations": {}
-        }
-    ],
     "C.I.T.": [
         {
             "cite_type": "specialty",
@@ -3969,30 +3921,6 @@
             "name": "Caines' Reports",
             "variations": {
                 "Cai.R.": "Cai. R."
-            }
-        }
-    ],
-    "Cal Bus & Prof Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Cal Bus & Prof Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?$page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "Cal. Bus. & Prof. Code § 2",
-                "CAL. BUS. PROF. CODE 19565"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "California Business and Professions Code",
-            "variations": {
-                "CAL. BUS. PROF. CODE": "Cal Bus & Prof Code",
-                "Cal. Bus. & Prof. Code": "Cal Bus & Prof Code"
             }
         }
     ],
@@ -6513,28 +6441,6 @@
             "variations": {}
         }
     ],
-    "D.C. Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "D.C. Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "D.C. CODE 16-1358"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "District of Columbia Official Code (LexisNexis)",
-            "variations": {
-                "D.C. CODE": "D.C. Code"
-            }
-        }
-    ],
     "D.C. Super. LEXIS": [
         {
             "cite_type": "state",
@@ -7088,32 +6994,6 @@
                 "Del.Co.": "Del. Co.",
                 "Del.Co.Rep.": "Del. Co.",
                 "Delaware Co. Reports": "Del. Co."
-            }
-        }
-    ],
-    "Del. Code Ann.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Del. Code Ann.": {
-                    "end": null,
-                    "regexes": [
-                        "$full_cite",
-                        "$volume_nominative ?$reporter ((tit.|title) \\d+)?, §?\\s?(?P<page>\\d+(\\([a-zA-Z]\\))?(\\(\\d+\\))?)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "12 DEL. CODE ANN. 3526",
-                "Del. Code Ann. tit. 11, § 1206",
-                "Del. Code Ann. tit. 30, § 1102(a)",
-                "Del. Code Ann. tit. 11, § 2402(c)(4)"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Delaware Code Annotated",
-            "variations": {
-                "DEL. CODE ANN.": "Del. Code Ann."
             }
         }
     ],
@@ -11737,34 +11617,6 @@
             "variations": {}
         }
     ],
-    "IRC": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "IRC": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+)",
-                        "$volume_nominative ?$reporter §?\\s?(SEC.|Sec.|Section|section) (?P<page>\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "I.R.C. § 61",
-                "IRC 1954",
-                "IRC SEC. 71",
-                "IRC Sec. 754",
-                "IRC Section 6661",
-                "IRC section 6661"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Internal Revenue Code",
-            "variations": {
-                "I.R.C.": "IRC"
-            }
-        }
-    ],
     "IRM": [
         {
             "cite_type": "federal",
@@ -12224,30 +12076,6 @@
             }
         }
     ],
-    "Ind. Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Ind. Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-(\\d+)(\\.\\d+)?\\-\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "IND. CODE 32-18-2-14",
-                "Ind. Code § 1-1-2-1",
-                "IND. CODE 24-4.6-1-103"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Indiana Code",
-            "variations": {
-                "IND. CODE": "Ind. Code"
-            }
-        }
-    ],
     "Ind. Dec.": [
         {
             "cite_type": "state",
@@ -12496,30 +12324,6 @@
             ],
             "name": "LexisNexis Iowa Appeals Court",
             "variations": {}
-        }
-    ],
-    "Iowa Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Iowa Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "IOWA CODE 633.238",
-                "Iowa Code § 802.5",
-                "IOWA CODE 486A.101"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Code of Iowa",
-            "variations": {
-                "IOWA CODE": "Iowa Code"
-            }
         }
     ],
     "Iowa Sup. LEXIS": [
@@ -13575,32 +13379,6 @@
             "variations": {}
         }
     ],
-    "La. C.C.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "La. C.C.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (Art.|Article|art.|arts.) (?P<page>\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "La. C.C. Art. 2163",
-                "La. C.C. Article 2404",
-                "La. C.C. art. 2106",
-                "La. C.C. arts. 2402",
-                "La. Civ. Code art. 38"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Louisiana Civil Code",
-            "variations": {
-                "La. Civ. Code": "La. C.C."
-            }
-        }
-    ],
     "La. LEXIS": [
         {
             "cite_type": "state",
@@ -14451,113 +14229,6 @@
             "mlz_jurisdiction": [],
             "name": "Mohegan Tribal Court Reporter",
             "variations": {}
-        }
-    ],
-    "MD. CODE ANN.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "MD. CODE ANN.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                },
-                "MD. CODE ANN., BUS. OCC. PROF.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                },
-                "MD. CODE ANN., COM. LAW": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                },
-                "MD. CODE ANN., CORPS. ASSNS": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                },
-                "MD. CODE ANN., CTS. JUD. PROC.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                },
-                "MD. CODE ANN., EST. TRUSTS": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                },
-                "MD. CODE ANN., FAM. LAW": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                },
-                "MD. CODE ANN., FIN. INST.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                },
-                "MD. CODE ANN., REAL PROP.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                },
-                "MD. CODE ANN., TAX-GEN.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                },
-                "MD. CODE ANN., TRANSP.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (ch.)?\\s?(?P<page>\\d+-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "MD. CODE ANN., CORPS. ASSNS 3-503",
-                "MD. CODE ANN., BUS. OCC. PROF. 17-101",
-                "MD. CODE ANN., COM. LAW 15-209",
-                "MD. CODE ANN., CTS. JUD. PROC. 11-108",
-                "MD. CODE ANN., EST. TRUSTS 8-108",
-                "MD. CODE ANN., FAM. LAW 8-205",
-                "MD. CODE ANN., FIN. INST. 10-102",
-                "MD. CODE ANN., REAL PROP. 10-501",
-                "MD. CODE ANN., TAX-GEN. 10-821",
-                "MD. CODE ANN., TRANSP. 8-324"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "West’s Annotated Code of Maryland",
-            "variations": {
-                "Md. Code Ann., Bus. Occ. & Prof.": "MD. CODE ANN., BUS. OCC. PROF.",
-                "Md. Code Ann., Com. Law": "MD. CODE ANN., COM. LAW",
-                "Md. Code Ann., Corps. & Ass’ns": "MD. CODE ANN., CORPS. ASSNS",
-                "Md. Code Ann., Cts. & Jud. Proc.": "MD. CODE ANN., CTS. JUD. PROC.",
-                "Md. Code Ann., Est. & Trusts": "MD. CODE ANN., EST. TRUSTS",
-                "Md. Code Ann., Fam. Law": "MD. CODE ANN., FAM. LAW",
-                "Md. Code Ann., Fin. Inst.": "MD. CODE ANN., FIN. INST.",
-                "Md. Code Ann., Real Prop.": "MD. CODE ANN., REAL PROP.",
-                "Md. Code Ann., Tax-Gen.": "MD. CODE ANN., TAX-GEN.",
-                "Md. Code Ann., Transp.": "MD. CODE ANN., TRANSP."
-            }
         }
     ],
     "MDBT": [
@@ -16243,29 +15914,6 @@
             "variations": {}
         }
     ],
-    "Miss. Code Ann.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Miss. Code Ann.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+\\-\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "MISS. CODE ANN. 83-17-7",
-                "Miss. Code Ann. § 43-20-1"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Mississippi Code 1972 Annotated (LexisNexis)",
-            "variations": {
-                "MISS. CODE ANN.": "Miss. Code Ann."
-            }
-        }
-    ],
     "Miss. Dec.": [
         {
             "cite_type": "state",
@@ -16416,30 +16064,6 @@
                 "Mont": "Mont.",
                 "Mt.": "Mont.",
                 "State Reptr.": "Mont."
-            }
-        }
-    ],
-    "Mont. Code Ann.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Mont. Code Ann.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative$reporter §?\\s?(?P<page>\\d+\\-\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "MONT. CODE ANN. 15-25-111",
-                "MONT. CODE ANN. § 50-20-401",
-                "Mont. Code Ann. §1-6-105"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Montana Code Annotated",
-            "variations": {
-                "MONT. CODE ANN.": "Mont. Code Ann."
             }
         }
     ],
@@ -17754,51 +17378,6 @@
             }
         }
     ],
-    "N.Y. City Admin. Code": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "N.Y. City Admin. Code": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "N.Y. CITY ADMIN. CODE 25-303",
-                "N.Y. City Admin. Code § 20-279"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "New York City Administrative Code, Charter and Rules - Administrative Code",
-            "variations": {
-                "N.Y. CITY ADMIN. CODE": "N.Y. City Admin. Code"
-            }
-        }
-    ],
-    "N.Y. City Charter": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "N.Y. City Charter": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "N.Y. CITY CHARTER 3020"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "New York City Administrative Code, Charter and Rules - City Charter",
-            "variations": {
-                "N.Y. CITY CHARTER": "N.Y. City Charter"
-            }
-        }
-    ],
     "N.Y. City Ct. Rep.": [
         {
             "cite_type": "state",
@@ -18962,27 +18541,6 @@
             "variations": {}
         }
     ],
-    "O.C.G.A.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "O.C.G.A.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "O.C.G.A. 22-2-62",
-                "O.C.G.A. 24-6-1"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Official Code of Georgia Annotated (LexisNexis)",
-            "variations": {}
-        }
-    ],
     "O.G.": [
         {
             "cite_type": "specialty",
@@ -19089,29 +18647,6 @@
             "mlz_jurisdiction": [],
             "name": "OFCCP Federal Contract Compliance Manual",
             "variations": {}
-        }
-    ],
-    "OHIO REV. CODE ANN.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "OHIO REV. CODE ANN.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "OHIO REV. CODE ANN. 1302.04",
-                "OHIO REV. CODE ANN. 1336.05"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Page’s Ohio Revised Code Annotated (LexisNexis)",
-            "variations": {
-                "Ohio Rev. Code Ann.": "OHIO REV. CODE ANN."
-            }
         }
     ],
     "OK": [
@@ -22648,29 +22183,6 @@
             "variations": {}
         }
     ],
-    "S.C. CODE ANN.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "S.C. CODE ANN.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "S.C. CODE ANN. 38-53-330",
-                "S.C. Code Ann. § 1-1-10"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Code of Laws of South Carolina 1976 Annotated",
-            "variations": {
-                "S.C. Code Ann.": "S.C. CODE ANN."
-            }
-        }
-    ],
     "S.C. Eq.": [
         {
             "cite_type": "state",
@@ -25743,32 +25255,6 @@
             }
         }
     ],
-    "U.S.C.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "U.S.C.": {
-                    "end": null,
-                    "regexes": [
-                        "$full_cite",
-                        "$volume $reporter $page_with_letter"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "28 USC 753",
-                "26 U.S.C. 151",
-                "42 U.S.C. 1395S",
-                "42 U.S.C. 1395PP"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "United States Code",
-            "variations": {
-                "USC": "U.S.C."
-            }
-        }
-    ],
     "U.S.L.W.": [
         {
             "cite_type": "specialty",
@@ -25922,31 +25408,6 @@
                 "Utah App": "UT App",
                 "Utah App.": "UT App",
                 "Utah Ct. App.": "UT App"
-            }
-        }
-    ],
-    "UTAH CODE ANN.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "UTAH CODE ANN.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+(\\.\\d+)?([A-Z])?\\-\\d+([A-Z])?\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "UTAH CODE ANN. 31A-17-402",
-                "UTAH CODE ANN. 48-2A-201",
-                "UTAH CODE ANN. 76-6-405",
-                "Utah Code Ann. § 13-44-201"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Utah Code Annotated (LexisNexis)",
-            "variations": {
-                "Utah Code Ann.": "UTAH CODE ANN."
             }
         }
     ],
@@ -26136,31 +25597,6 @@
             ],
             "name": "LexisNexis Virgin Islands Supreme Court",
             "variations": {}
-        }
-    ],
-    "VA. CODE ANN.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "VA. CODE ANN.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+(\\.\\d+)?\\-\\d+([A-Z])?)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "VA. CODE ANN. 55-81",
-                "Va. Code Ann. § 13-697",
-                "VA. CODE ANN. 54.1-1115",
-                "VA. CODE ANN. 16.1-241A"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Code of Virginia 1950 Annotated (LexisNexis)",
-            "variations": {
-                "Va. Code Ann.": "VA. CODE ANN."
-            }
         }
     ],
     "VT": [
@@ -26599,26 +26035,6 @@
             "variations": {}
         }
     ],
-    "W. VA. CODE": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "W. VA. CODE": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "W. VA. CODE 36-1-3"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "West Virginia Code",
-            "variations": {}
-        }
-    ],
     "W. Va.": [
         {
             "cite_type": "state",
@@ -26773,31 +26189,6 @@
                 "W.W. Harr. Del": "W.W. Harr.",
                 "W.W.H": "W.W. Harr.",
                 "W.W.Harr.": "W.W. Harr."
-            }
-        }
-    ],
-    "WASH. REV. CODE": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "WASH. REV. CODE": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+([A-Z])?\\.\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "WASH. REV. CODE 82.45.060",
-                "WASH. REV. CODE § 5.60.060",
-                "Wash. Rev. Code § 1.04.010",
-                "WASH. REV. CODE 23B.06.400"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Revised Code of Washington",
-            "variations": {
-                "Wash. Rev. Code": "WASH. REV. CODE"
             }
         }
     ],

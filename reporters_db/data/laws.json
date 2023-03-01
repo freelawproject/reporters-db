@@ -404,16 +404,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Ark. Code Ann. § 0:331:5"
+                "Ark. Code Ann. § 0:331:5",
+                "Ark. Code Ann. § 8-2-201",
+                "ARK. CODE ANN. 4-26-715"
             ],
             "jurisdiction": "Arkansas",
             "name": "Arkansas Code of 1987 Annotated (LexisNexis); West's Arkansas Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "ARK. CODE ANN."
+            ]
         }
     ],
     "Ark. Code R.": [
@@ -489,13 +493,16 @@
             "cite_type": "admin_compilation",
             "end": null,
             "examples": [
-                "48 C.F.R. § 38.48"
+                "48 C.F.R. § 38.48",
+                "26 C.F.R. 1-61-9",
+                "17 C.F.R. 230.144A",
+                "26 C.F.R. 1.616-1"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
             "jurisdiction": "United States",
             "name": "Code of Federal Regulations",
             "regexes": [
-                "(?P<chapter>\\d+) $reporter,? § $law_section"
+                "(?P<chapter>\\d+) $reporter,? §? ?$law_section"
             ],
             "start": null,
             "variations": [
@@ -571,6 +578,28 @@
             ],
             "start": null,
             "variations": []
+        }
+    ],
+    "Cal Bus & Prof Code": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "Cal. Bus. & Prof. Code § 2",
+                "CAL. BUS. PROF. CODE 19565"
+            ],
+            "jurisdiction": "California",
+            "name": "California Business and Professions Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?$page",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "CAL. BUS. PROF. CODE",
+                "Cal. Bus. & Prof. Code"
+            ]
         }
     ],
     "Cal. Adv. Legis. Serv.": [
@@ -1380,16 +1409,19 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "D.C. Code § 65.405.2"
+                "D.C. Code § 65.405.2",
+                "D.C. CODE 16-1358"
             ],
             "jurisdiction": "District of Columbia",
             "name": "District of Columbia Official Code (LexisNexis)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "D.C. CODE"
+            ]
         }
     ],
     "D.C. Code Adv. Leg. Serv.": [
@@ -1533,16 +1565,22 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Del. Code Ann. tit. 87, § 6-584:4"
+                "Del. Code Ann. tit. 87, § 6-584:4",
+                "Del. Code Ann. tit. 30, § 1102(a)",
+                "Del. Code Ann. tit. 11, § 2402(c)(4)",
+                "12 DEL. CODE ANN. 3526"
             ],
             "jurisdiction": "Delaware",
             "name": "Delaware Code Annotated (LexisNexis); West's Delaware Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter tit\\. (?P<title>\\d+), § $law_section"
+                "$reporter tit\\. (?P<title>\\d+), § $law_section",
+                "(?P<title>\\d+) $reporter,? §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "DEL. CODE ANN."
+            ]
         }
     ],
     "Del. Code Regs.": [
@@ -1780,16 +1818,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Ga. Code Ann. § 67.508.661"
+                "Ga. Code Ann. § 67.508.661",
+                "O.C.G.A. 22-2-62",
+                "O.C.G.A. 24-6-1"
             ],
             "jurisdiction": "Georgia",
             "name": "Official Code of Georgia Annotated (LexisNexis); West's Code of Georgia Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "O.C.G.A."
+            ]
         }
     ],
     "Ga. Code Ann. Adv. Legis. Serv.": [
@@ -2063,6 +2105,30 @@
             ],
             "start": null,
             "variations": []
+        }
+    ],
+    "IRC": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "I.R.C. § 61",
+                "IRC 1954",
+                "IRC SEC. 71",
+                "IRC Sec. 754",
+                "IRC Section 6661",
+                "IRC section 6661"
+            ],
+            "jurisdiction": "",
+            "name": "Internal Revenue Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §?(SEC.|Sec.|Section|section)? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "I.R.C."
+            ]
         }
     ],
     "Idaho Admin. Bull.": [
@@ -2370,16 +2436,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Ind. Code § 79.443"
+                "Ind. Code § 79.443",
+                "IND. CODE 32-18-2-14",
+                "IND. CODE 24-4.6-6-1"
             ],
             "jurisdiction": "Indiana",
             "name": "Indiana Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "IND. CODE"
+            ]
         }
     ],
     "Ind. Code Ann.": [
@@ -2506,16 +2576,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Iowa Code § 0.780"
+                "Iowa Code § 0.780",
+                "IOWA CODE 633.238",
+                "IOWA CODE 486A.101"
             ],
             "jurisdiction": "Iowa",
             "name": "Code of Iowa",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "IOWA CODE"
+            ]
         }
     ],
     "Iowa Code Ann.": [
@@ -2781,6 +2855,29 @@
             ],
             "start": null,
             "variations": []
+        }
+    ],
+    "La. C.C.": [
+        {
+            "cite_type": "leg_statute",
+            "end": null,
+            "examples": [
+                "La. C.C. Art. 2163",
+                "La. C.C. Article 2404",
+                "La. C.C. art. 2106",
+                "La. C.C. arts. 2402",
+                "La. Civ. Code art. 38"
+            ],
+            "jurisdiction": "Louisiana",
+            "name": "Louisiana Civil Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter (Art.|Article|art.|arts.) $law_section"
+            ],
+            "start": null,
+            "variations": [
+                "La. Civ. Code"
+            ]
         }
     ],
     "La. Child. Code Ann.": [
@@ -3097,16 +3194,28 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Md. Code Ann., Empl. § 8-551"
+                "Md. Code Ann., Empl. § 8-551",
+                "MD. CODE ANN., CORPS. ASSNS 3-503",
+                "MD. CODE ANN., BUS. OCC. PROF. 17-101",
+                "MD. CODE ANN., COM. LAW 15-209",
+                "MD. CODE ANN., CTS. JUD. PROC. 11-108",
+                "MD. CODE ANN., EST. TRUSTS 8-108",
+                "MD. CODE ANN., FAM. LAW 8-205",
+                "MD. CODE ANN., FIN. INST. 10-102",
+                "MD. CODE ANN., REAL PROP. 10-501",
+                "MD. CODE ANN., TAX-GEN. 10-821",
+                "MD. CODE ANN., TRANSP. 8-324"
             ],
             "jurisdiction": "Maryland",
             "name": "Michie's Annotated Code of Maryland (LexisNexis); West's Annotated Code of Maryland",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter, $law_subject § $law_section"
+                "$reporter, $law_subject §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "MD. CODE ANN."
+            ]
         }
     ],
     "Md. Code Ann. Adv. Legis. Serv.": [
@@ -3564,16 +3673,19 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Miss. Code Ann. § 6"
+                "Miss. Code Ann. § 6",
+                "MISS. CODE ANN. 83-17-7"
             ],
             "jurisdiction": "Mississippi",
             "name": "Mississippi Code 1972 Annotated (LexisNexis); West's Annotated Mississippi Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "MISS. CODE ANN."
+            ]
         }
     ],
     "Miss. Code R.": [
@@ -3807,16 +3919,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Mont. Code Ann. § 5"
+                "Mont. Code Ann. § 5",
+                "MONT. CODE ANN. 15-25-111",
+                "MONT. CODE ANN. § 50-20-401"
             ],
             "jurisdiction": "Montana",
             "name": "Montana Code Annotated; West's Montana Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "MONT. CODE ANN."
+            ]
         }
     ],
     "Mont. Laws": [
@@ -4563,6 +4679,46 @@
             ],
             "start": null,
             "variations": []
+        }
+    ],
+    "N.Y. City Admin. Code": [
+        {
+            "cite_type": "admin_compilation",
+            "end": null,
+            "examples": [
+                "N.Y. CITY ADMIN. CODE 25-303",
+                "N.Y. City Admin. Code § 20-279"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York City Administrative Code, Charter and Rules - Administrative Code",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+)",
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. CITY ADMIN. CODE"
+            ]
+        }
+    ],
+    "N.Y. City Charter": [
+        {
+            "cite_type": "admin_compilation",
+            "end": null,
+            "examples": [
+                "N.Y. CITY CHARTER 3020"
+            ],
+            "jurisdiction": "New York",
+            "name": "New York City Administrative Code, Charter and Rules - City Charter",
+            "notes": "Automatically generated.",
+            "regexes": [
+                "$reporter §? ?$law_section"
+            ],
+            "start": null,
+            "variations": [
+                "N.Y. CITY CHARTER"
+            ]
         }
     ],
     "N.Y. Civ. Rights Law": [
@@ -5647,16 +5803,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Ohio Rev. Code Ann. § 34"
+                "Ohio Rev. Code Ann. § 34",
+                "OHIO REV. CODE ANN. 1302.04",
+                "OHIO REV. CODE ANN. 1336.05"
             ],
             "jurisdiction": "Ohio",
             "name": "Page's Ohio Revised Code Annotated (LexisNexis); Baldwin's Ohio Revised Code Annotated (West)",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "OHIO REV. CODE ANN."
+            ]
         }
     ],
     "Okla. Admin. Code": [
@@ -6355,16 +6515,19 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "S.C. Code Ann. § 07-903"
+                "S.C. Code Ann. § 07-903",
+                "S.C. CODE ANN. 38-53-330"
             ],
             "jurisdiction": "South Carolina",
             "name": "Code of Laws of South Carolina 1976 Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "S.C. CODE ANN."
+            ]
         }
     ],
     "S.C. Code Ann. Regs.": [
@@ -7124,12 +7287,14 @@
                 "1 U.S.C. sec. 1",
                 "1 U.S.C. Sections 1-2",
                 "1 USC S. 1-2",
-                "1 U.S. Code §1"
+                "1 U.S. Code §1",
+                "42 U.S.C. 1395S"
             ],
             "jurisdiction": "United States",
             "name": "United States Code; United States Code Annotated; United States Code Service; Gould’s United States Code Unannotated",
             "regexes": [
-                "(?P<title>\\d+)\\s+$reporter\\s+$section_marker\\s*$law_section"
+                "(?P<title>\\d+)\\s+$reporter\\s+$section_marker\\s*$law_section",
+                "(?P<title>\\d+) $reporter §? ?$law_section"
             ],
             "start": null,
             "variations": [
@@ -7198,16 +7363,21 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Utah Code Ann. § 506-41-9"
+                "Utah Code Ann. § 506-41-9",
+                "UTAH CODE ANN. 31A-17-402",
+                "UTAH CODE ANN. 48-2A-201",
+                "UTAH CODE ANN. 76-6-405"
             ],
             "jurisdiction": "Utah",
             "name": "Utah Code Annotated (LexisNexis); West's Utah Code Annotated",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "UTAH CODE ANN."
+            ]
         }
     ],
     "Utah Laws": [
@@ -7406,16 +7576,20 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Va. Code Ann. § 23.1:955"
+                "Va. Code Ann. § 23.1:955",
+                "VA. CODE ANN. 54.1-1115",
+                "VA. CODE ANN. 16.1-241A"
             ],
             "jurisdiction": "Virginia",
             "name": "Code of Virginia 1950 Annotated (LexisNexis); West's Annotated Code of Virginia",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "VA. CODE ANN."
+            ]
         }
     ],
     "Va. Legis. Serv.": [
@@ -7597,16 +7771,19 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "W. Va. Code § 4-829"
+                "W. Va. Code § 4-829",
+                "W. VA. CODE 36-1-3"
             ],
             "jurisdiction": "West Virginia",
             "name": "West Virginia Code",
             "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter §? ?$law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "W. VA. CODE"
+            ]
         }
     ],
     "W. Va. Code Ann.": [
@@ -7734,7 +7911,11 @@
             "end": null,
             "examples": [
                 "Wash. Rev. Code § 32:7-703",
-                "WASH. REV. CODE 62A"
+                "WASH. REV. CODE 62A",
+                "WASH. REV. CODE 82.45.060",
+                "WASH. REV. CODE § 5.60.060",
+                "Wash. Rev. Code § 1.04.010",
+                "WASH. REV. CODE 23B.06.400"
             ],
             "jurisdiction": "Washington",
             "name": "Revised Code of Washington",
