@@ -41,6 +41,7 @@
                 "At.": "A.",
                 "At. Rep.": "A.",
                 "Atl.": "A.",
+                "Atl. (2d)": "A.2d",
                 "Atl. Rep.": "A.",
                 "Atl.2d": "A.2d",
                 "Atl.R.": "A."
@@ -539,77 +540,6 @@
             }
         }
     ],
-    "Agency": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Agency": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page_with_letter",
-                        "$volume_nominative ?$reporter (sec.)?\\s?(?P<page>\\d+([a-z])?)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "RESTATEMENT OF AGENCY 2d",
-                "RESTATEMENT OF AGENCY sec. 226",
-                "RESTATEMENT OF AGENCY 2"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Agency",
-            "variations": {
-                "RESTATEMENT OF AGENCY": "Agency"
-            }
-        }
-    ],
-    "Agency Second": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Agency Second": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page_with_letter",
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "AGENCY SECOND 26",
-                "AGENCY SECOND 14C"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Agency Second Series",
-            "variations": {
-                "AGENCY SECOND": "Agency Second"
-            }
-        }
-    ],
-    "Agency Third": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Agency Third": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "AGENCY THIRD 1.01"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Agency Third Series",
-            "variations": {
-                "AGENCY THIRD": "Agency Third"
-            }
-        }
-    ],
     "Agric. Dec": [
         {
             "cite_type": "federal",
@@ -1000,29 +930,17 @@
                         "$volume $reporter,? p. $page"
                     ],
                     "start": "1829-01-01T00:00:00"
-                },
-                "Am. Jur. 2d": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter ([a-zA-Z ]+) §?\\s?$page",
-                        "$volume ?$reporter \\w+ § $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "1 Amer. Jur. 441",
                 "40 Amer. Jur., p. 764",
-                "19 Am. Jur. 219",
-                "AM JUR 2D CONTRACTS 27",
-                "17 Am. Jur. 2d Contracts § 74",
-                "AM JUR 2D COMPOSITION WITH CREDITORS 5"
+                "19 Am. Jur. 219"
             ],
             "mlz_jurisdiction": [],
             "name": "American Jurist and Law Magazine",
-            "notes": "Am. Jur. 2d format: Volume number Am. Jur. edition_number Article_title § section number (year_optional).",
+            "notes": "",
             "variations": {
-                "AM JUR 2D": "Am. Jur. 2d",
                 "Amer. Jur.": "Am. Jur."
             }
         }
@@ -1237,13 +1155,24 @@
             "editions": {
                 "Am. Ry. Rep.": {
                     "end": "1881-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1873-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Am. Ry. Rep. 530",
+                "9 Am. Ry. Rep. 261",
+                "A.R.R. 3092"
+            ],
             "mlz_jurisdiction": [],
             "name": "American Railway Reports",
             "notes": "",
-            "variations": {}
+            "variations": {
+                "A.R.R.": "Am. Ry. Rep."
+            }
         }
     ],
     "Am. Samoa": [
@@ -1391,27 +1320,6 @@
             "variations": {}
         }
     ],
-    "Announcement": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Announcement": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (P)?\\s?(?P<page>\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "Announcement 2004-3",
-                "Announcement P 98-30"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Announcement",
-            "variations": {}
-        }
-    ],
     "Ant. N.P. Cas.": [
         {
             "cite_type": "state",
@@ -1487,31 +1395,6 @@
             "name": "Appeal Cases, District of Columbia",
             "variations": {
                 "App.D.C.": "App. D.C."
-            }
-        }
-    ],
-    "Appendix U.S.C.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Appendix U.S.C.": {
-                    "end": null,
-                    "regexes": [
-                        "$full_cite",
-                        "$volume $reporter § $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "50 Appendix U.S.C. 541",
-                "28 APPENDIX U.S.C. § 30",
-                "50 APPENDIX U.S.C. 20"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Appendix U.S.C.",
-            "variations": {
-                "APPENDIX U.S.C.": "Appendix U.S.C."
             }
         }
     ],
@@ -2072,7 +1955,10 @@
                 "us:c;tax.court"
             ],
             "name": "Reports of the United States Board of Tax Appeals",
-            "variations": {}
+            "variations": {
+                "B. T. A.": "B.T.A.",
+                "B.T.A": "B.T.A."
+            }
         }
     ],
     "B.T.A.M. (P-H)": [
@@ -2531,28 +2417,6 @@
             ],
             "name": "LexisNexis Bankruptcy Reporter",
             "variations": {}
-        }
-    ],
-    "Bankr. R.": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Bankr. R.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "BANKR. R. 4007"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Bankruptcy Rules",
-            "variations": {
-                "BANKR. R.": "Bankr. R."
-            }
         }
     ],
     "Bankr. Rep (St. Louis B.A.)": [
@@ -3562,6 +3426,10 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1946-1 C. B. 82",
+                "1944 C. B. 318"
+            ],
             "mlz_jurisdiction": [],
             "name": "Cumulative Bulletin",
             "variations": {}
@@ -3982,8 +3850,10 @@
             ],
             "name": "California Reports",
             "variations": {
+                "Cal. (2d)": "Cal. 2d",
                 "Cal. 3d (Spec. Trib. Supp.)": "Cal. 3d Spec. Trib Supp.",
                 "Cal. Rep.": "Cal.",
+                "Cal.(2d)": "Cal. 2d",
                 "Cal.2d": "Cal. 2d",
                 "Cal.3d": "Cal. 3d",
                 "Cal.3d Spec.Trib.Supp.": "Cal. 3d Spec. Trib Supp.",
@@ -5358,6 +5228,29 @@
             "variations": {}
         }
     ],
+    "Colum. L. Rev.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Colum. L. Rev.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume $reporter $page"
+                    ],
+                    "start": "1901-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "29 Columbia Law Review 906",
+                "109 Colum. L. Rev. 1"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Columbia Law Review",
+            "variations": {
+                "Columbia Law Review": "Colum. L. Rev."
+            }
+        }
+    ],
     "Comm. Fut. L. Rep.": [
         {
             "cite_type": "specialty",
@@ -5432,28 +5325,6 @@
             ],
             "name": "Decisions of the Comptroller General of the United States",
             "variations": {}
-        }
-    ],
-    "Conflict of Law Second": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Conflict of Law Second": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "CONFLICT OF LAW SECOND 285"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Conflict of Laws Second Series",
-            "variations": {
-                "CONFLICT OF LAW SECOND": "Conflict of Law Second"
-            }
         }
     ],
     "Cong. Index(CCH)": [
@@ -5760,28 +5631,6 @@
             }
         }
     ],
-    "Contracts Second": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Contracts Second": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "CONTRACTS SECOND 25"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Contracts Second Series",
-            "variations": {
-                "CONTRACTS SECOND": "Contracts Second"
-            }
-        }
-    ],
     "Cooke": [
         {
             "cite_type": "state",
@@ -6069,7 +5918,8 @@
                 "Ct. Cl. R.": "Ct. Cl.",
                 "Ct. Cl. Rep.": "Ct. Cl.",
                 "Ct. Cls. R.": "Ct. Cl.",
-                "Ct.Cl.": "Ct. Cl."
+                "Ct.Cl.": "Ct. Cl.",
+                "Ct.Cls.": "Ct. Cl."
             }
         },
         {
@@ -6318,49 +6168,6 @@
             ],
             "name": "United States District Court for the District of Hawaii",
             "variations": {}
-        }
-    ],
-    "D. Minn. LR": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "D. Minn. LR": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "D. Minn. LR 1960"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "District of Minnesota Local Rules",
-            "variations": {}
-        }
-    ],
-    "D. Nev. LR": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "D. Nev. LR": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (?P<page>\\d+(\\-|\\.)\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "D. Nev. LR 7.4",
-                "D. Nev. L.R. 16-3"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "District of Nevada Local Rules",
-            "variations": {
-                "D. Nev. L.R.": "D. Nev. LR"
-            }
         }
     ],
     "D.A.R.": [
@@ -7803,27 +7610,6 @@
             }
         }
     ],
-    "Exec. Order": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Exec. Order": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (No.)?\\s?$page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "Exec. Order No. 9001",
-                "Exec. Order 9835"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Executive Order",
-            "variations": {}
-        }
-    ],
     "Exempt Org. Rep. (CCH)": [
         {
             "cite_type": "specialty",
@@ -7884,6 +7670,8 @@
                 "F.4th.": "F.4th",
                 "FED": "F.",
                 "Fed.": "F.",
+                "Fed. (2d)": "F.2d",
+                "Fed.(2d)": "F.2d",
                 "Fed.R.": "F.",
                 "Fed.R.2d": "F.2d",
                 "Fed.R.3d": "F.3d",
@@ -8102,7 +7890,9 @@
                 "F.Supp. 3d": "F. Supp. 3d",
                 "F.Supp.2d": "F. Supp. 2d",
                 "F.Supp.3d": "F. Supp. 3d",
-                "FS3d": "F. Supp. 3d"
+                "FS3d": "F. Supp. 3d",
+                "Fed. Supp.": "F. Supp.",
+                "Fed.Supp.": "F. Supp."
             }
         }
     ],
@@ -8731,116 +8521,6 @@
             "variations": {}
         }
     ],
-    "Fed. R. App. P.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Fed. R. App. P.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "FED. R. APP. P. 4"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Federal Rules of Appellate Procedure, USCS",
-            "variations": {
-                "FED. R. APP. P.": "Fed. R. App. P."
-            }
-        }
-    ],
-    "Fed. R. Bankr. P.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Fed. R. Bankr. P.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "FED. R. BANKR. P. 4004"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Federal Rules of Bankruptcy Procedure and Official Bankruptcy Rules, USCS",
-            "variations": {
-                "FED. R. BANKR. P.": "Fed. R. Bankr. P."
-            }
-        }
-    ],
-    "Fed. R. Civ. P.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Fed. R. Civ. P.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "FED. R. CIV. P. 65"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Federal Rules of Civil Procedure, USCS",
-            "variations": {
-                "FED. R. CIV. P.": "Fed. R. Civ. P."
-            }
-        }
-    ],
-    "Fed. R. Crim. P.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Fed. R. Crim. P.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "FED. R. CRIM. P. 6"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Federal Rules of Criminal Procedure, USCS",
-            "variations": {
-                "FED. R. CRIM. P.": "Fed. R. Crim. P."
-            }
-        }
-    ],
-    "Fed. R. Evid": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Fed. R. Evid": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "FED. R. EVID. 702"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Federal Rules of Evidence, USCS",
-            "variations": {
-                "FED. R. EVID.": "Fed. R. Evid"
-            }
-        }
-    ],
     "Fed. R. Serv.": [
         {
             "cite_type": "specialty",
@@ -9071,29 +8751,6 @@
             "mlz_jurisdiction": [],
             "name": "Federal Tax Coordinator Second",
             "variations": {}
-        }
-    ],
-    "Fed. Tax Ct. R.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Fed. Tax Ct. R.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "FED. TAX CT. R. 142",
-                "FED. TAX CT. R. 145"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Rules of Practice and Procedure of the United States Tax Court",
-            "variations": {
-                "FED. TAX CT. R.": "Fed. Tax Ct. R."
-            }
         }
     ],
     "Fed. Tax Guide Rep. (CCH)": [
@@ -9458,42 +9115,6 @@
             "mlz_jurisdiction": [],
             "name": "Food Drug Cosmetic Law Reports",
             "variations": {}
-        }
-    ],
-    "Foreign Relations Law Second": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Foreign Relations Law Second": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Foreign Relations Law Second Series",
-            "variations": {}
-        }
-    ],
-    "Foreign Relations Law Third": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Foreign Relations Law Third": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "FOREIGN RELATIONS LAW THIRD 325"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Foreign Relations Law Third Series",
-            "variations": {
-                "FOREIGN RELATIONS LAW THIRD": "Foreign Relations Law Third"
-            }
         }
     ],
     "Foster": [
@@ -10355,6 +9976,30 @@
             ],
             "name": "Delaware Reports, Harrington",
             "variations": {}
+        }
+    ],
+    "Harv. L. Rev.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Harv. L. Rev.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume $reporter $page"
+                    ],
+                    "start": "1887-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "53 Harvard Law Review 1",
+                "136 Harv. L. Rev. 500"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Harvard Law Review",
+            "variations": {
+                "Harv. Law Rev.": "Harv. L. Rev.",
+                "Harvard Law Review": "Harv. L. Rev."
+            }
         }
     ],
     "Hasb.": [
@@ -11574,29 +11219,6 @@
             }
         }
     ],
-    "INTERNAL REVENUE MANUAL (CCH)": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "INTERNAL REVENUE MANUAL (CCH)": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (§|Section|SECTION)?\\s?(?P<page>\\d+\\.\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "INTERNAL REVENUE MANUAL (CCH) 5.8.4",
-                "INTERNAL REVENUE MANUAL SECTION 9.8.1"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Internal Revenue Manual (CCH)",
-            "variations": {
-                "INTERNAL REVENUE MANUAL": "INTERNAL REVENUE MANUAL (CCH)"
-            }
-        }
-    ],
     "IRB LEXIS": [
         {
             "cite_type": "specialty",
@@ -11615,30 +11237,6 @@
             "mlz_jurisdiction": [],
             "name": "Internal Revenue Bulletin LEXIS cite",
             "variations": {}
-        }
-    ],
-    "IRM": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "IRM": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+\\.\\d+\\.\\d+)",
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+\\.\\d+\\.\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "IRM 5.12.3.12",
-                "IRM 4.10.7.1.2"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Internal Revenue Manual",
-            "variations": {
-                "I.R.M.": "IRM"
-            }
         }
     ],
     "IRS Pos. (CCH)": [
@@ -11945,28 +11543,6 @@
             ],
             "name": "LexisNexis Illinois Supreme Court",
             "variations": {}
-        }
-    ],
-    "Ill. Sup. Ct.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Ill. Sup. Ct.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "ILL. SUP. CT. 756"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Illinois Court Rules - Supreme Court Rules",
-            "variations": {
-                "ILL. SUP. CT.": "Ill. Sup. Ct."
-            }
         }
     ],
     "Immigr. L. Serv. (West)": [
@@ -12643,48 +12219,6 @@
             "variations": {}
         }
     ],
-    "Judgments": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Judgments": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(Sec.|sec.) (?P<page>\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "Judgments sec. 70"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Judgments",
-            "variations": {}
-        }
-    ],
-    "Judgments Second": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Judgments Second": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "JUDGMENTS SECOND 27"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Judgments Second Series",
-            "variations": {
-                "JUDGMENTS SECOND": "Judgments Second"
-            }
-        }
-    ],
     "Juris P.R.": [
         {
             "cite_type": "state",
@@ -12970,29 +12504,6 @@
             ],
             "name": "LexisNexis Kentucky Appeals Court Unpublished",
             "variations": {}
-        }
-    ],
-    "Ky. Const.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Ky. Const.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "Ky. Const. §171",
-                "KY. CONST. 242"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Kentucky Constitution",
-            "variations": {
-                "KY. CONST.": "Ky. Const."
-            }
         }
     ],
     "Ky. L. Rptr.": [
@@ -14651,33 +14162,6 @@
             }
         }
     ],
-    "Mass. Ann. Laws": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Mass. Ann. Laws": {
-                    "end": null,
-                    "regexes": [
-                        "$reporter (?P<volume>\\d+([A-Z])?) (?P<page>\\d+(\\-\\d+)?(\\d+[A-Z])?)",
-                        "$reporter ch. (?P<volume>\\d+\\,) § (?P<page>\\d+(\\-\\d+)?)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "MASS. ANN. LAWS 10 38",
-                "MASS. ANN. LAWS 106 9-102",
-                "Mass. Ann. Laws ch. 106, § 1-101",
-                "MASS. ANN. LAWS 65A 5",
-                "MASS. ANN. LAWS 112 81R"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Annotated Laws of Massachusetts (LexisNexis)",
-            "variations": {
-                "MASS. ANN. LAWS": "Mass. Ann. Laws"
-            }
-        }
-    ],
     "Mass. App. Ct.": [
         {
             "cite_type": "state",
@@ -15495,29 +14979,6 @@
             ],
             "name": "LexisNexis Michigan Supreme Court",
             "variations": {}
-        }
-    ],
-    "Mich. Comp. Laws": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Mich. Comp. Laws": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "MICH. COMP. LAWS 700.712",
-                "Mich. Comp. Laws § 600.5805"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Michigan Compiled Laws (1979)",
-            "variations": {
-                "MICH. COMP. LAWS": "Mich. Comp. Laws"
-            }
         }
     ],
     "Mich. Ct. Cl.": [
@@ -16526,26 +15987,6 @@
             }
         }
     ],
-    "N.D. Ala. Rules": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "N.D. Ala. Rules": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "N.D. Ala. Rules 1973"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "US District Courts N. Dist. Alabama 1990",
-            "variations": {}
-        }
-    ],
     "N.D. App. LEXIS": [
         {
             "cite_type": "state",
@@ -16559,26 +16000,6 @@
                 "us:nd;appeals.court"
             ],
             "name": "LexisNexis North Dakota Appeals Court",
-            "variations": {}
-        }
-    ],
-    "N.D. Ga. LCrR": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "N.D. Ga. LCrR": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "N.D. Ga. LCrR 1981"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "US District Courts N. Dist. Georgia Criminal Local Rules",
             "variations": {}
         }
     ],
@@ -16625,6 +16046,7 @@
             "name": "North Eastern Reporter",
             "variations": {
                 "N. E.": "N.E.",
+                "N. E. (2d)": "N.E.2d",
                 "N. E. 2d": "N.E.2d",
                 "N. E. 3d": "N.E.3d",
                 "N. E.2d": "N.E.2d",
@@ -16783,7 +16205,9 @@
                 "us:nj;supreme.court"
             ],
             "name": "New Jersey Equity Reports",
-            "variations": {}
+            "variations": {
+                "N.J.Eq.": "N.J. Eq."
+            }
         }
     ],
     "N.J. LEXIS": [
@@ -17443,85 +16867,6 @@
             }
         }
     ],
-    "N.Y. Debt. Cred. Law": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "N.Y. Debt. Cred. Law": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?$page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "N.Y. Debt. Cred. Law § 272",
-                "N.Y. Debt. Cred. Law § 276",
-                "N.Y. DEBT, CRED, Law § 151",
-                "N.Y. DEBT. CRED. LAW 273",
-                "N.Y. Debt. & Cred. Law § 273"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "New York Debtor and Creditor Law",
-            "variations": {
-                "N.Y. DEBT, CRED, Law": "N.Y. Debt. Cred. Law",
-                "N.Y. DEBT. CRED. LAW": "N.Y. Debt. Cred. Law",
-                "N.Y. Debt. & Cred. Law": "N.Y. Debt. Cred. Law",
-                "NY Dom Rel Law": "N.Y. Debt. Cred. Law"
-            }
-        }
-    ],
-    "N.Y. Dom. Rel. Law": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "N.Y. Dom. Rel. Law": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?$page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "N.Y. DOM. REL. LAW 81",
-                "NY Dom Rel Law § 234",
-                "N.Y. Dom. Rel. Law § 110"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "New York Domestic Relations Law",
-            "variations": {
-                "N.Y. DOM. REL. LAW": "N.Y. Dom. Rel. Law",
-                "NY Dom Rel Law": "N.Y. Dom. Rel. Law"
-            }
-        }
-    ],
-    "N.Y. Estates, Powers Trusts Law": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "N.Y. Estates, Powers Trusts Law": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\-\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "N.Y. EST. POWERS TRUSTS LAW 11-2.1",
-                "N.Y. EST. POWERS TRUSTS LAW 4-1.1",
-                "N. Y. Estates, Powers Trusts Law § 5-1.4"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "New York Estates, Powers and Trusts Law",
-            "variations": {
-                "N. Y. Estates, Powers Trusts Law": "N.Y. Estates, Powers Trusts Law",
-                "N.Y. EST. POWERS TRUSTS LAW": "N.Y. Estates, Powers Trusts Law"
-            }
-        }
-    ],
     "N.Y. LEXIS": [
         {
             "cite_type": "state",
@@ -17706,9 +17051,12 @@
             ],
             "name": "New York Supplement",
             "variations": {
+                "N. Y. S.": "N.Y.S.",
+                "N. Y. S. (2d)": "N.Y.S.2d",
                 "N. Y. Supp.": "N.Y.S.",
                 "N. Y. Supplement": "N.Y.S.",
                 "N.Y. Supp.": "N.Y.S.",
+                "N.Y.S. (2d)": "N.Y.S.2d",
                 "N.Y.S. 2d": "N.Y.S.2d",
                 "N.Y.S. 3d": "N.Y.S.3d",
                 "NYS": "N.Y.S.",
@@ -19219,6 +18567,7 @@
                 "Oh.N.P.": "Ohio N.P.",
                 "Oh.N.P.(N.S).": "Ohio N.P. (n.s.)",
                 "Ohio N. P. (n.s.)": "Ohio N.P. (n.s.)",
+                "Ohio N.P.(N.S.)": "Ohio N.P. (n.s.)",
                 "Ohio N.P.N.S.": "Ohio N.P. (n.s.)",
                 "Ohio Nisi Prius": "Ohio N.P.",
                 "Ohio Nisi Prius (N. S.)": "Ohio N.P. (n.s.)",
@@ -19549,7 +18898,10 @@
             "href": "http://law.wisc.libguides.com/c.php?g=125247&p=820190",
             "mlz_jurisdiction": [],
             "name": "Official Opinions of the Attorneys General of the United States",
-            "variations": {}
+            "variations": {
+                "Op. Atty. Gen.": "Op. Att'y Gen.",
+                "Op.Atty.Gen.": "Op. Att'y Gen."
+            }
         }
     ],
     "Op. O.L.C.": [
@@ -19804,6 +19156,7 @@
                 "Pac. (2d).": "P.2d",
                 "Pac. 2d": "P.2d",
                 "Pac. Rep.": "P.",
+                "Pac.(2d)": "P.2d",
                 "Pac.2d": "P.2d",
                 "Pac.R.": "P.",
                 "Pac.Rep.": "P.",
@@ -20019,29 +19372,6 @@
                 "us:pa;supreme.court"
             ],
             "name": "Pennsylvania Neutral Citation",
-            "variations": {}
-        }
-    ],
-    "PLR": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "PLR": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page",
-                        "$volume_nominative ?$reporter $page_with_letter"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "PLR 198204056",
-                "PLR 199852037",
-                "PLR 196612201590A"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Private Letter Ruling / Technical Advice Memoranda",
             "variations": {}
         }
     ],
@@ -21196,54 +20526,6 @@
             "variations": {}
         }
     ],
-    "Prop. Treas. Reg.": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Prop. Treas. Reg.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+([A-Z])?\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "PROP. TREAS. REG. 1.465-8",
-                "PROP. TREAS. REG. 1.1234A-1",
-                "Prop. Treas. Reg. § 1.704-1"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "LexisNexis Proposed Treasury Regulations",
-            "variations": {
-                "PROP. TREAS. REG.": "Prop. Treas. Reg."
-            }
-        }
-    ],
-    "Property Third Servitudes": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Property Third Servitudes": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\.\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "PROPERTY THIRD SERVITUDES 4.11",
-                "Property Third (Servitudes) § 7.16"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Property Third Series (Servitudes)",
-            "variations": {
-                "PROPERTY THIRD SERVITUDES": "Property Third Servitudes",
-                "Property Third (Servitudes)": "Property Third Servitudes"
-            }
-        }
-    ],
     "Pub. Lands Dec.": [
         {
             "cite_type": "federal",
@@ -21570,113 +20852,6 @@
             "variations": {
                 "Reporter.": "Reporter,"
             }
-        }
-    ],
-    "Restatement of Property": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Restatement of Property": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "RESTATEMENT OF PROPERTY 236"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Property",
-            "variations": {
-                "RESTATEMENT OF PROPERTY": "Restatement of Property"
-            }
-        }
-    ],
-    "Restatement of Security": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Restatement of Security": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "RESTATEMENT OF SECURITY 1"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Security",
-            "variations": {
-                "RESTATEMENT OF SECURITY": "Restatement of Security"
-            }
-        }
-    ],
-    "Restitution": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Restitution": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "RESTATEMENT OF RESTITUTION 49"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Restitution",
-            "variations": {
-                "RESTATEMENT OF RESTITUTION": "Restitution"
-            }
-        }
-    ],
-    "Rev. Proc.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Rev. Proc.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (?P<page>\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "Rev. Proc. 97-27"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Revenue Procedures",
-            "variations": {}
-        }
-    ],
-    "Rev. Rul.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Rev. Rul.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (?P<page>\\d+\\-\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "Rev. Rul. 2003-7",
-                "Rev. Rul. 1970-86"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Revenue Rulings",
-            "variations": {}
         }
     ],
     "Rice": [
@@ -22300,26 +21475,6 @@
             "variations": {
                 "S.Dak.": "S.D."
             }
-        }
-    ],
-    "S.D. Ind.": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "S.D. Ind.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "S.D. Ind. 1963"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "US Bankruptcy Court S. Dist. Indiana Local Bankruptcy Rules",
-            "variations": {}
         }
     ],
     "S.D. LEXIS": [
@@ -23402,29 +22557,6 @@
             }
         }
     ],
-    "Sup. Ct. R": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Sup. Ct. R": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter (?P<page>\\d+(\\.\\d+)?)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "SUP. CT. R. 5",
-                "SUP. CT. R. 13.1"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Rules of the Supreme Court of the United States, USCS",
-            "variations": {
-                "SUP. CT. R.": "Sup. Ct. R"
-            }
-        }
-    ],
     "Super. Ct. (R.I.)": [
         {
             "cite_type": "state",
@@ -23711,7 +22843,9 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Treasury Decisions",
-            "variations": {}
+            "variations": {
+                "Treasury Decision": "T.D."
+            }
         }
     ],
     "TN WC": [
@@ -23901,6 +23035,25 @@
             ],
             "name": "Lexis Tax Court Summary Decisions",
             "variations": {}
+        }
+    ],
+    "Tax Law.": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "Tax Law.": {
+                    "end": null,
+                    "start": "1967-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "27 Tax Lawyer, 503"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Tax Lawyer",
+            "variations": {
+                "Tax Lawyer": "Tax Law."
+            }
         }
     ],
     "Tax Treaties (CCH)": [
@@ -24244,29 +23397,6 @@
             }
         }
     ],
-    "Tex. Const.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tex. Const.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+\\s\\d+)"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TEX. CONST. 16 15"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Texas Constitution",
-            "notes": "TEX. CONST. article - section",
-            "variations": {
-                "TEX. CONST.": "Tex. Const."
-            }
-        }
-    ],
     "Tex. Crim.": [
         {
             "cite_type": "state",
@@ -24519,28 +23649,6 @@
             }
         }
     ],
-    "Torts Second": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Torts Second": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TORTS SECOND 674"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Torts Second Series",
-            "variations": {
-                "TORTS SECOND": "Torts Second"
-            }
-        }
-    ],
     "Trade Cas. (CCH)": [
         {
             "cite_type": "specialty",
@@ -24677,72 +23785,6 @@
             ],
             "name": "Treasury Decisions Under Internal Revenue Laws",
             "variations": {}
-        }
-    ],
-    "Treas. Reg.": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Treas. Reg.": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "Treas. Reg. 111"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Treasury Regulations",
-            "variations": {}
-        }
-    ],
-    "Trusts Second": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Trusts Second": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page",
-                        "$volume_nominative ?$reporter $page_with_letter"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TRUSTS SECOND 36",
-                "TRUSTS SECOND 235A"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Trusts Second Series",
-            "variations": {
-                "TRUSTS SECOND": "Trusts Second"
-            }
-        }
-    ],
-    "Trusts Third": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Trusts Third": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter $page"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "TRUSTS THIRD 89"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Restatement of Trusts Third Series",
-            "variations": {
-                "TRUSTS THIRD": "Trusts Third"
-            }
         }
     ],
     "Tuck. & Cl.": [
@@ -25349,27 +24391,6 @@
             "variations": {
                 "U.S.C.M.A.": "USCMA"
             }
-        }
-    ],
-    "USSG": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "USSG": {
-                    "end": null,
-                    "regexes": [
-                        "$volume_nominative ?$reporter §?\\s?(?P<page>\\d+[A-Z]\\d+(\\.\\d+))"
-                    ],
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "USSG § 2D1.1",
-                "USSG 2T4.1"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "United States Sentencing Guidelines",
-            "variations": {}
         }
     ],
     "UT": [
@@ -27057,26 +26078,6 @@
                 "Mass.(Will.)": "Will.",
                 "Will.Mass.": "Will.",
                 "Williams": "Will."
-            }
-        }
-    ],
-    "Williams & Meyers, Oil and Gas Law": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Williams & Meyers, Oil and Gas Law": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "WILLIAMS MEYERS, OIL AND GAS LAW 440",
-                "WILLIAMS MEYERS, OIL AND GAS LAW 418"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Williams & Meyers, Oil and Gas Law (LexisNexis)",
-            "variations": {
-                "WILLIAMS MEYERS, OIL AND GAS LAW": "Williams & Meyers, Oil and Gas Law"
             }
         }
     ],
