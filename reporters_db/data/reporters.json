@@ -1977,11 +1977,11 @@
             "variations": {}
         }
     ],
-    "B.U.L. Rev.": [
+    "B.U. L. Rev.": [
         {
             "cite_type": "specialty",
             "editions": {
-                "B.U.L. Rev.": {
+                "B.U. L. Rev.": {
                     "end": null,
                     "regexes": [
                         "$volume $reporter $page"
@@ -1994,7 +1994,9 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Boston University Law Review",
-            "variations": {}
+            "variations": {
+                "B.U.L. Rev.": "B.U. L. Rev."
+            }
         }
     ],
     "BCA": [
