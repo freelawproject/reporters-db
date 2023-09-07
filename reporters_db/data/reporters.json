@@ -2169,7 +2169,7 @@
                 }
             },
             "examples": [
-                "93-1 BCA \u00b6 25,508"
+                "93-1 BCA ¶ 25,508"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
             "mlz_jurisdiction": [
@@ -2486,8 +2486,8 @@
             "examples": [
                 "Bankr. L. Rep. P12,345",
                 "Bankr. L. Rep. P 80679",
-                "Bankr. L. Rep. (CCH) \u00b6 67,488",
-                "Bankr. L. Rep. (C.C.H.) \u00b667,049"
+                "Bankr. L. Rep. (CCH) ¶ 67,488",
+                "Bankr. L. Rep. (C.C.H.) ¶67,049"
             ],
             "mlz_jurisdiction": [],
             "name": "Bankruptcy Law Reporter",
@@ -2727,7 +2727,7 @@
             "examples": [
                 "Bayard's Notebook, 235",
                 "1 Bayard's Notebook, 235",
-                "Bayard\u2019s Notebook, 235"
+                "Bayard’s Notebook, 235"
             ],
             "mlz_jurisdiction": [
                 "us:de;"
@@ -2735,7 +2735,7 @@
             "name": "Bayard's Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
             "variations": {
-                "Bayard\u2019s Notebook": "Bayard's Notebook"
+                "Bayard’s Notebook": "Bayard's Notebook"
             }
         }
     ],
@@ -3526,7 +3526,7 @@
             "name": "The Trial of Col. Aaron Burr on an Indictment for Treason",
             "notes": "The Trial of Col. Aaron Burr On an Indictment for Treason: Before the Circuit Court of the United States, Held in Richmond, (Virginia), May Term, 1807 / by T. Carpenter.",
             "variations": {
-                "Burr\u2019s Trial": "Burr's Trial"
+                "Burr’s Trial": "Burr's Trial"
             }
         }
     ],
@@ -3765,7 +3765,7 @@
                 }
             },
             "examples": [
-                "CCH OSHD \u00b6 33123"
+                "CCH OSHD ¶ 33123"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
             "mlz_jurisdiction": [],
@@ -4565,7 +4565,7 @@
             "mlz_jurisdiction": [],
             "name": "Carpenter's Report of Burr's Trial",
             "variations": {
-                "Carpenter\u2019s Report of Burr\u2019s Trial": "Carpenter's Report of Burr's Trial"
+                "Carpenter’s Report of Burr’s Trial": "Carpenter's Report of Burr's Trial"
             }
         }
     ],
@@ -4701,7 +4701,7 @@
             "mlz_jurisdiction": [],
             "name": "Chase's Trial. Append",
             "variations": {
-                "Chase\u2019s Trial. Append.": "Chase's Trial. Append."
+                "Chase’s Trial. Append.": "Chase's Trial. Append."
             }
         }
     ],
@@ -5047,7 +5047,7 @@
             "examples": [
                 "Clayton's Notebook, 235",
                 "1 Clayton's Notebook, 235",
-                "Clayton\u2019s Notebook, 235"
+                "Clayton’s Notebook, 235"
             ],
             "mlz_jurisdiction": [
                 "us:de;"
@@ -5055,7 +5055,7 @@
             "name": "Clayton's Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
             "variations": {
-                "Clayton\u2019s Notebook": "Clayton's Notebook"
+                "Clayton’s Notebook": "Clayton's Notebook"
             }
         }
     ],
@@ -5894,13 +5894,13 @@
                 }
             },
             "examples": [
-                "Coombs\u2019 Trial of Aaron Burr. 1"
+                "Coombs’ Trial of Aaron Burr. 1"
             ],
             "mlz_jurisdiction": [],
             "name": "The trial of Aaron Burr for high treason",
             "notes": "The trial of Aaron Burr for high treason : in the Circuit Court of the United States for the district of Virginia, summer term, 1807 : comprising all the evidence and the opinions of the court upon all motions made in the various stages of the case, with abstracts of arguments of counsel : compiled from authentic reports made during the progress of the trial : to which is added an account of the subsequent proceedings against Burr, Blennerhassett, and Smith, in the same court : with notes by the compiler on the law of treason, as applicable to the existing rebellion : prefaced by a brief historical sketch of Burr's Western expedition in 1806 / by J.J. Coombs.",
             "variations": {
-                "Coombs\u2019 Trial of Aaron Burr.": "Coombs' Trial of Aaron Burr"
+                "Coombs’ Trial of Aaron Burr.": "Coombs' Trial of Aaron Burr"
             }
         }
     ],
@@ -6870,7 +6870,7 @@
                 }
             },
             "examples": [
-                "1885 Dec. Comm\u2019r Pat. 279"
+                "1885 Dec. Comm’r Pat. 279"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
             "mlz_jurisdiction": [
@@ -7691,8 +7691,8 @@
             "examples": [
                 "42 Empl. Prac. Dec. (CCH) par. 36,973",
                 "65 Empl. Prac. Dec. (CCH) P 43,243",
-                "23 Empl. Prac. Dec. (CCH) \u00b630986",
-                "53 Empl Prac Dec [CCH] \u00b6 39,911"
+                "23 Empl. Prac. Dec. (CCH) ¶30986",
+                "53 Empl Prac Dec [CCH] ¶ 39,911"
             ],
             "mlz_jurisdiction": [
                 "us:c2;court.appeals"
@@ -8155,10 +8155,10 @@
             "variations": {
                 "F. App'x.": "F. App'x",
                 "F. Appx.": "F. App'x",
-                "F. App\u2019x": "F. App'x",
+                "F. App’x": "F. App'x",
                 "F.App'x": "F. App'x",
                 "F.App'x.": "F. App'x",
-                "F.App\u2019x.": "F. App'x"
+                "F.App’x.": "F. App'x"
             }
         }
     ],
@@ -8841,7 +8841,7 @@
                 }
             },
             "examples": [
-                "141 FERC \u00b6 61,049"
+                "141 FERC ¶ 61,049"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
             "mlz_jurisdiction": [
@@ -8975,7 +8975,7 @@
                 }
             },
             "examples": [
-                "66 F. App\u2019x 164"
+                "66 F. App’x 164"
             ],
             "mlz_jurisdiction": [
                 "us:c1;court.appeals",
@@ -8994,7 +8994,7 @@
             "name": "West's Federal Appendix",
             "notes": "https://en.wikipedia.org/wiki/Federal_Appendix, Relatively new published book.",
             "variations": {
-                "F. App\u2019x": "Fed. Appx.",
+                "F. App’x": "Fed. Appx.",
                 "Fed. App'x": "Fed. Appx.",
                 "Fed.App'x": "Fed. Appx.",
                 "Fed.Appx.": "Fed. Appx."
@@ -9358,8 +9358,8 @@
             },
             "examples": [
                 "Fed. Sec. L. Rep. (CCH) par. 78,056",
-                "Fed. Sec. L. Rep. (CCH) \u00b6 77,526",
-                "Fed Sec L Rep (CCH) \u00b6 80,715"
+                "Fed. Sec. L. Rep. (CCH) ¶ 77,526",
+                "Fed Sec L Rep (CCH) ¶ 80,715"
             ],
             "mlz_jurisdiction": [],
             "name": "Federal Securities Law Reporter (CCH)",
@@ -11078,7 +11078,7 @@
             "name": "Hilles Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
             "variations": {
-                "Hilles\u2019 Notebook": "Hilles' Notebook"
+                "Hilles’ Notebook": "Hilles' Notebook"
             }
         }
     ],
@@ -11670,7 +11670,7 @@
             "examples": [
                 "27 IN Dec. 782",
                 "10 I&NDec. 613",
-                "12 I&N Dec.432"
+                "12 I&N Dec. 432"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
             "mlz_jurisdiction": [
@@ -11679,11 +11679,11 @@
             ],
             "name": "Administrative Decisions Under Immigration and Nationality Laws",
             "variations": {
+                "I & N Dec.": "I. & N. Dec.",
                 "I&N": "I. & N. Dec.",
                 "I&N Dec.": "I. & N. Dec.",
                 "I&NDec.": "I. & N. Dec.",
-                "IN Dec.": "I. & N. Dec.",
-                "I & N Dec.": "I. & N. Dec."
+                "IN Dec.": "I. & N. Dec."
             }
         }
     ],
@@ -16044,7 +16044,7 @@
             },
             "examples": [
                 "Miller's Notebook, 179",
-                "Miller\u2019s Notebook, 179"
+                "Miller’s Notebook, 179"
             ],
             "mlz_jurisdiction": [
                 "us:de;"
@@ -16052,7 +16052,7 @@
             "name": "Miller's Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
             "variations": {
-                "Miller\u2019s Notebook": "Miller's Notebook"
+                "Miller’s Notebook": "Miller's Notebook"
             }
         }
     ],
@@ -19338,8 +19338,8 @@
             ],
             "name": "Ohio Neutral Citation",
             "variations": {
-                "OHIO": "Ohio",
-                "OH": "Ohio"
+                "OH": "Ohio",
+                "OHIO": "Ohio"
             }
         }
     ],
@@ -22096,8 +22096,8 @@
                 }
             },
             "examples": [
-                "Read\u2019s Notebook, 235",
-                "72 Read\u2019s Notebook, 8"
+                "Read’s Notebook, 235",
+                "72 Read’s Notebook, 8"
             ],
             "mlz_jurisdiction": [
                 "us:de;"
@@ -22105,7 +22105,7 @@
             "name": "Read's Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
             "variations": {
-                "Read\u2019s Notebook": "Read's Notebook"
+                "Read’s Notebook": "Read's Notebook"
             }
         }
     ],
@@ -22386,11 +22386,11 @@
                 "Ridgely's Notebook V, 362",
                 "Ridgely's Notebook III, 5",
                 "Ridgely's Notebook II, 180",
-                "Ridgely\u2019s Notebook I, 244",
+                "Ridgely’s Notebook I, 244",
                 "Ridgely's Notebook I, 244",
-                "Ridgely\u2019s Notebook IV, 33",
-                "Ridgely\u2019s Notebook III, 33",
-                "Ridgely\u2019s Notebook V, 362"
+                "Ridgely’s Notebook IV, 33",
+                "Ridgely’s Notebook III, 33",
+                "Ridgely’s Notebook V, 362"
             ],
             "mlz_jurisdiction": [
                 "us:de;"
@@ -22399,11 +22399,11 @@
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
             "variations": {
                 "Ridgely's Notebook I": "Ridgely's Notebook",
-                "Ridgely\u2019s Notebook I": "Ridgely's Notebook",
-                "Ridgely\u2019s Notebook II": "Ridgely's Notebook II",
-                "Ridgely\u2019s Notebook III": "Ridgely's Notebook III",
-                "Ridgely\u2019s Notebook IV": "Ridgely's Notebook IV",
-                "Ridgely\u2019s Notebook V": "Ridgely's Notebook V"
+                "Ridgely’s Notebook I": "Ridgely's Notebook",
+                "Ridgely’s Notebook II": "Ridgely's Notebook II",
+                "Ridgely’s Notebook III": "Ridgely's Notebook III",
+                "Ridgely’s Notebook IV": "Ridgely's Notebook IV",
+                "Ridgely’s Notebook V": "Ridgely's Notebook V"
             }
         }
     ],
@@ -22589,7 +22589,7 @@
             "mlz_jurisdiction": [],
             "name": "Robertson's Report of the Trial of Aaron Burr",
             "variations": {
-                "Robertson\u2019s Report of the Trial of Aaron Burr.": "Robertson's Report of the Trial of Aaron Burr."
+                "Robertson’s Report of the Trial of Aaron Burr.": "Robertson's Report of the Trial of Aaron Burr."
             }
         }
     ],
@@ -22616,7 +22616,7 @@
             "name": "Rodney's Notes",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
             "variations": {
-                "Rodney\u2019s Notes": "Rodney's Notes"
+                "Rodney’s Notes": "Rodney's Notes"
             }
         }
     ],
@@ -24283,7 +24283,7 @@
                 }
             },
             "examples": [
-                "T.C.M. (RIA) \u00b6 95,342",
+                "T.C.M. (RIA) ¶ 95,342",
                 "T.C.M. (RIA) 92736",
                 "T.C.M. (RIA) 2004-279"
             ],
@@ -25101,9 +25101,9 @@
             },
             "examples": [
                 "1982-1 Trade Cas. (CCH) par. 64,689",
-                "1940-1943 Trade Cas. (CCH) \u00b6 56,104",
-                "1975 Trade Cas. (CCH) \u00b6 60,219",
-                "1974-2 Trade Cas. (CCH) \u00b6 75,282"
+                "1940-1943 Trade Cas. (CCH) ¶ 56,104",
+                "1975 Trade Cas. (CCH) ¶ 60,219",
+                "1974-2 Trade Cas. (CCH) ¶ 75,282"
             ],
             "href": "http://w3.nexis.com/sources/scripts/info.pl?168025",
             "mlz_jurisdiction": [],
@@ -25860,11 +25860,11 @@
                 }
             },
             "examples": [
-                "CCH Unemployment Ins. Rep. \u00b6 15,419",
+                "CCH Unemployment Ins. Rep. ¶ 15,419",
                 "1 CCH Unemployment Ins. Rep. para. 14,387",
                 "8 CCH, Unemployment Ins. Rep. W. Va. par. 8090",
                 "1A CCH, Unemployment Ins. Rep. (Ala.) par. 1950.74",
-                "4 CCH Unemployment Ins. Rep., Me. \u00b6 1995.05"
+                "4 CCH Unemployment Ins. Rep., Me. ¶ 1995.05"
             ],
             "mlz_jurisdiction": [],
             "name": "Unemployment Insurance Reports (CCH)",
@@ -27316,9 +27316,9 @@
                 }
             },
             "examples": [
-                "Wells\u2019 Notebook, 365",
-                "Wells\u2019 Notebook, 356a",
-                "1 Wells\u2019 Notebook, 365"
+                "Wells’ Notebook, 365",
+                "Wells' Notebook, 356a",
+                "1 Wells' Notebook, 365"
             ],
             "mlz_jurisdiction": [
                 "us:de;"
@@ -27326,7 +27326,7 @@
             "name": "Wells' Notebook",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
             "variations": {
-                "Wells\u2019 Notebook": "Wells' Notebook"
+                "Wells’ Notebook": "Wells' Notebook"
             }
         }
     ],
@@ -27474,7 +27474,7 @@
                 "us;supreme.court"
             ],
             "name": "Wheaton's Supreme Court Reports",
-            "notes": "Note that Wheaton was not a Free Law advocate. From Georgia v. Public.Resources.Org (SCOTUS, 2020, internal citations omitted): \"In this Court\u2019s first copyright case, Wheaton v. Peters, the Court\u2019s third Reporter of Decisions, Wheaton, sued the fourth, Peters, unsuccessfully asserting a copyright interest in the Justices\u2019 opinions. In Wheaton\u2019s view, the opinions 'must have belonged to some one' because 'they were new, original,' and much more 'elaborate' than law or custom required. Wheaton argued that the Justices were the authors and had assigned their ownership interests to him through a tacit 'gift.'\"",
+            "notes": "Note that Wheaton was not a Free Law advocate. From Georgia v. Public.Resources.Org (SCOTUS, 2020, internal citations omitted): \"In this Court’s first copyright case, Wheaton v. Peters, the Court’s third Reporter of Decisions, Wheaton, sued the fourth, Peters, unsuccessfully asserting a copyright interest in the Justices’ opinions. In Wheaton’s view, the opinions 'must have belonged to some one' because 'they were new, original,' and much more 'elaborate' than law or custom required. Wheaton argued that the Justices were the authors and had assigned their ownership interests to him through a tacit 'gift.'\"",
             "variations": {
                 "Wheat. Rep.": "Wheat.",
                 "Wheaton": "Wheat.",
@@ -27673,7 +27673,7 @@
             },
             "examples": [
                 "Wilson's Red Book, 179",
-                "Wilson\u2019s Red Book, 179"
+                "Wilson’s Red Book, 179"
             ],
             "mlz_jurisdiction": [
                 "us:de;"
@@ -27681,7 +27681,7 @@
             "name": "Wilson's Red Book",
             "notes": "Dates are rough, but wide, estimated from a series called Delaware Cases, which had these dates. See: http://www.worldcat.org/oclc/2882722",
             "variations": {
-                "Wilson\u2019s Red Book": "Wilson's Red Book"
+                "Wilson’s Red Book": "Wilson's Red Book"
             }
         }
     ],
