@@ -348,15 +348,15 @@
             },
             "mlz_jurisdiction": [
                 "us:ga;supreme.court",
-                "us:ca:d;circuit.court",
-                "us:ga:nd;circuit.court",
-                "us:mi:ed;circuit.court",
-                "us:ms:sd;circuit.court",
-                "us:mo:d;circuit.court",
-                "us:ne:d;circuit.court",
-                "us:or:d;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:wi:d;circuit.court"
+                "us:ca.d;circuit.court",
+                "us:ga.nd;circuit.court",
+                "us:mi.ed;circuit.court",
+                "us:ms.sd;circuit.court",
+                "us:mo.d;circuit.court",
+                "us:ne.d;circuit.court",
+                "us:or.d;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:wi.d;circuit.court"
             ],
             "name": "Abbott, United States Circuit and District Court Reports",
             "variations": {
@@ -425,9 +425,9 @@
                 "us:ny;surrogates.court",
                 "us:fed;district.court",
                 "us;circuit.court",
-                "us:ny:ed;circuit.court",
-                "us:ny:nd;circuit.court",
-                "us:ny:sd;circuit.court",
+                "us:ny.ed;circuit.court",
+                "us:ny.nd;circuit.court",
+                "us:ny.sd;circuit.court",
                 "us:ny;court.general.sessions",
                 "us:ny;commission.appeals",
                 "us:ny;court.arbitration.chamber.commerce",
@@ -813,14 +813,14 @@
                 "us:c1:ma.d;district.court",
                 "us:c2:ny.nd;district.court",
                 "us:c5:tx.ed;district.court",
-                "us:ma:d;circuit.court",
-                "us:mi:ed;circuit.court",
-                "us:mo:ed;circuit.court",
-                "us:ny:ed;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:pa:wd;circuit.court",
-                "us:wi:ed;circuit.court"
+                "us:ma.d;circuit.court",
+                "us:mi.ed;circuit.court",
+                "us:mo.ed;circuit.court",
+                "us:ny.ed;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:pa.wd;circuit.court",
+                "us:wi.ed;circuit.court"
             ],
             "name": "Albany Law Journal",
             "variations": {}
@@ -1016,16 +1016,16 @@
                 "us:c4:sc.ed;district.court",
                 "us:de.d;circuit.court",
                 "us:c7:wi.d;district.court",
-                "us:al:sd;circuit.court",
-                "us:la:ed;circuit.court",
-                "us:md:d;circuit.court",
-                "us:mo:ed;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:ri:d;circuit.court",
-                "us:wv:d;circuit.court",
+                "us:al.sd;circuit.court",
+                "us:la.ed;circuit.court",
+                "us:md.d;circuit.court",
+                "us:mo.ed;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:ri.d;circuit.court",
+                "us:wv.d;circuit.court",
                 "us:la:terr;provisional.court"
             ],
             "name": "American Law Register",
@@ -1123,10 +1123,10 @@
             "mlz_jurisdiction": [
                 "us:c9:ca.d;district.court",
                 "us:c6:oh.nd;district.court",
-                "us:il:nd;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:va:ed;circuit.court"
+                "us:il.nd;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:va.ed;circuit.court"
             ],
             "name": "American Law Record",
             "publisher": "Bloch & Co",
@@ -2313,8 +2313,8 @@
                 "Baldw. 196"
             ],
             "mlz_jurisdiction": [
-                "us:pa:ed;circuit.court",
-                "us:pa:d;circuit.court"
+                "us:pa.ed;circuit.court",
+                "us:pa.d;circuit.court"
             ],
             "name": "Baldwin's United States Circuit Court Reports",
             "notes": "Reporter does not appear to have a volume as part of citation",
@@ -2378,31 +2378,31 @@
                 "us:c2:ny.sd;district.court",
                 "us:c9:or.d;district.court",
                 "us;circuit.court",
-                "us:ca:d;circuit.court",
-                "us:ct:d;circuit.court",
-                "us:il:d;circuit.court",
-                "us:il:nd;circuit.court",
-                "us:me:d;circuit.court",
-                "us:md:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:mi:ed;circuit.court",
-                "us:mi:wd;circuit.court",
-                "us:mn:d;circuit.court",
-                "us:mo:ed;circuit.court",
-                "us:nv:d;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:ny:ed;circuit.court",
-                "us:ny:nd;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:pa:wd;circuit.court",
-                "us:ri:d;circuit.court",
-                "us:tn:ed;circuit.court",
-                "us:va:ed;circuit.court",
-                "us:wi:ed;circuit.court"
+                "us:ca.d;circuit.court",
+                "us:ct.d;circuit.court",
+                "us:il.d;circuit.court",
+                "us:il.nd;circuit.court",
+                "us:me.d;circuit.court",
+                "us:md.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:mi.ed;circuit.court",
+                "us:mi.wd;circuit.court",
+                "us:mn.d;circuit.court",
+                "us:mo.ed;circuit.court",
+                "us:nv.d;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:ny.ed;circuit.court",
+                "us:ny.nd;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:pa.wd;circuit.court",
+                "us:ri.d;circuit.court",
+                "us:tn.ed;circuit.court",
+                "us:va.ed;circuit.court",
+                "us:wi.ed;circuit.court"
             ],
             "name": "Banning & Arden's Patent Reports (US)",
             "variations": {}
@@ -2813,8 +2813,8 @@
                 "us:c2:ny.nd;district.court",
                 "us:c2:ny.sd;district.court",
                 "us:c2:vt.d;district.court",
-                "us:ny:ed;circuit.court",
-                "us:ny:sd;circuit.court"
+                "us:ny.ed;circuit.court",
+                "us:ny.sd;circuit.court"
             ],
             "name": "Benedict United States District Reports",
             "variations": {
@@ -2847,8 +2847,8 @@
             },
             "mlz_jurisdiction": [
                 "us:c2:ny.sd;district.court",
-                "us:ny:sd;circuit.court",
-                "us:pa:ed;circuit.court"
+                "us:ny.sd;circuit.court",
+                "us:pa.ed;circuit.court"
             ],
             "name": "Reports of Cases Argued and Determined in the District Court of the United States for the Southern District of New York",
             "variations": {
@@ -2980,17 +2980,17 @@
                 "us:c6:mi.ed;district.court",
                 "us:c7:wi.d;district.court",
                 "us;circuit.court",
-                "us:il:d;circuit.court",
-                "us:il:nd;circuit.court",
-                "us:il:sd;circuit.court",
-                "us:in:d;circuit.court",
-                "us:mi:ed;circuit.court",
-                "us:mi:d;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:wi:ed;circuit.court",
-                "us:wi:wd;circuit.court",
-                "us:wi:d;circuit.court"
+                "us:il.d;circuit.court",
+                "us:il.nd;circuit.court",
+                "us:il.sd;circuit.court",
+                "us:in.d;circuit.court",
+                "us:mi.ed;circuit.court",
+                "us:mi.d;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:wi.ed;circuit.court",
+                "us:wi.wd;circuit.court",
+                "us:wi.d;circuit.court"
             ],
             "name": "Bissell's United States Circuit Court Reports",
             "variations": {
@@ -3070,14 +3070,14 @@
                 "us:c2:ny.nd;district.court",
                 "us:c2:ny.sd;district.court",
                 "us;circuit.court",
-                "us:ct:d;circuit.court",
-                "us:ny:d;circuit.court",
-                "us:ny:ed;circuit.court",
-                "us:ny:nd;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:ri:d;circuit.court",
-                "us:vt:d;circuit.court"
+                "us:ct.d;circuit.court",
+                "us:ny.d;circuit.court",
+                "us:ny.ed;circuit.court",
+                "us:ny.nd;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:ri.d;circuit.court",
+                "us:vt.d;circuit.court"
             ],
             "name": "Blatchford's United States Circuit Court Reports",
             "variations": {
@@ -3204,7 +3204,7 @@
                 "us:c6:oh.sd;district.court",
                 "us:c6:oh.d;district.court",
                 "us;circuit.court",
-                "us:oh:sd;circuit.court"
+                "us:oh.sd;circuit.court"
             ],
             "name": "Bond's United States (US) Circuit Reports",
             "variations": {
@@ -3370,9 +3370,9 @@
             },
             "mlz_jurisdiction": [
                 "us:nc.d;circuit.court",
-                "us:va:d;circuit.court",
-                "us:va:ed;circuit.court",
-                "us:va:wd;circuit.court"
+                "us:va.d;circuit.court",
+                "us:va.ed;circuit.court",
+                "us:va.wd;circuit.court"
             ],
             "name": "Brockenbrough's Marshall's Decisions, United States Circuit Court",
             "variations": {
@@ -3451,18 +3451,18 @@
             "mlz_jurisdiction": [
                 "us:nc.d;circuit.court",
                 "us:tn.d;circuit.court",
-                "us:ct:d;circuit.court",
-                "us:me:d;circuit.court",
-                "us:md:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:ny:d;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:ri:d;circuit.court",
-                "us:sc:d;circuit.court",
-                "us:tn:wd;circuit.court",
-                "us:dc:d;circuit.court"
+                "us:ct.d;circuit.court",
+                "us:me.d;circuit.court",
+                "us:md.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:ny.d;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:ri.d;circuit.court",
+                "us:sc.d;circuit.court",
+                "us:tn.wd;circuit.court",
+                "us:dc.d;circuit.court"
             ],
             "name": "Brunner's Collected Cases (US)",
             "variations": {
@@ -4539,7 +4539,7 @@
                 "us:de.d;circuit.court",
                 "us:nc.d;circuit.court",
                 "us:c2:ny.d;district.court",
-                "us:md:d;circuit.court"
+                "us:md.d;circuit.court"
             ],
             "name": "Carolina Law Repository",
             "variations": {
@@ -4601,16 +4601,16 @@
             ],
             "mlz_jurisdiction": [
                 "us:c8:mo.ed;district.court",
-                "us:ar:ed;circuit.court",
-                "us:ia:d;circuit.court",
-                "us:ks:d;circuit.court",
-                "us:ms:nd;circuit.court",
-                "us:ms:sd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:tn:wd;circuit.court",
-                "us:tx:ed;circuit.court",
-                "us:tx:wd;circuit.court"
+                "us:ar.ed;circuit.court",
+                "us:ia.d;circuit.court",
+                "us:ks.d;circuit.court",
+                "us:ms.nd;circuit.court",
+                "us:ms.sd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:tn.wd;circuit.court",
+                "us:tx.ed;circuit.court",
+                "us:tx.wd;circuit.court"
             ],
             "name": "Central Law Journal",
             "variations": {
@@ -4835,38 +4835,38 @@
                 "us:c7:wi.ed;district.court",
                 "us:tn.d;circuit.court",
                 "us:fed;district.court",
-                "us:fl:nd;circuit.court",
+                "us:fl.nd;circuit.court",
                 "us:c5:la.d;district.court",
                 "us:c4:va.d;district.court",
                 "us:c9:wa.d;district.court",
                 "us:c7:wi.d;district.court",
                 "us;circuit.court",
-                "us:al:sd;circuit.court",
-                "us:il:nd;circuit.court",
-                "us:il:sd;circuit.court",
-                "us:in:d;circuit.court",
-                "us:ia:d;circuit.court",
-                "us:la:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:mi:ed;circuit.court",
-                "us:mi:wd;circuit.court",
-                "us:mn:d;circuit.court",
-                "us:ms:sd;circuit.court",
-                "us:mo:ed;circuit.court",
-                "us:mo:wd;circuit.court",
-                "us:ne:d;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:nc:wd;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:oh:d;circuit.court",
-                "us:or:d;circuit.court",
-                "us:pa:wd;circuit.court",
-                "us:ri:d;circuit.court",
-                "us:tn:wd;circuit.court",
-                "us:wi:ed;circuit.court",
-                "us:wi:wd;circuit.court"
+                "us:al.sd;circuit.court",
+                "us:il.nd;circuit.court",
+                "us:il.sd;circuit.court",
+                "us:in.d;circuit.court",
+                "us:ia.d;circuit.court",
+                "us:la.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:mi.ed;circuit.court",
+                "us:mi.wd;circuit.court",
+                "us:mn.d;circuit.court",
+                "us:ms.sd;circuit.court",
+                "us:mo.ed;circuit.court",
+                "us:mo.wd;circuit.court",
+                "us:ne.d;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:nc.wd;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:oh.d;circuit.court",
+                "us:or.d;circuit.court",
+                "us:pa.wd;circuit.court",
+                "us:ri.d;circuit.court",
+                "us:tn.wd;circuit.court",
+                "us:wi.ed;circuit.court",
+                "us:wi.wd;circuit.court"
             ],
             "name": "Chicago Legal News (1868-1925) (Illinois)",
             "variations": {
@@ -4899,7 +4899,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:pa:d;circuit.court"
+                "us:pa.d;circuit.court"
             ],
             "name": "Chitty's Criminal Law",
             "variations": {
@@ -4933,12 +4933,12 @@
                 "us:c6:oh.nd;district.court",
                 "us:c6:oh.sd;district.court",
                 "us;circuit.court",
-                "us:in:d;circuit.court",
-                "us:ny:ed;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:oh:d;circuit.court",
-                "us:pa:wd;circuit.court"
+                "us:in.d;circuit.court",
+                "us:ny.ed;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:oh.d;circuit.court",
+                "us:pa.wd;circuit.court"
             ],
             "name": "Cincinnati Law Bulletin",
             "variations": {
@@ -4982,7 +4982,7 @@
             },
             "mlz_jurisdiction": [
                 "us:ny;supreme.court",
-                "us:ny:d;circuit.court"
+                "us:ny.d;circuit.court"
             ],
             "name": "City Hall Recorder (N.Y.)",
             "variations": {
@@ -5070,11 +5070,11 @@
             },
             "mlz_jurisdiction": [
                 "us;circuit.court",
-                "us:me:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:ri:d;circuit.court",
-                "us:dc:d;circuit.court"
+                "us:me.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:ri.d;circuit.court",
+                "us:dc.d;circuit.court"
             ],
             "name": "Clifford's United States (US) Circuit Court Reports",
             "variations": {}
@@ -5114,7 +5114,7 @@
             },
             "mlz_jurisdiction": [
                 "us:c8:ia.d;district.court",
-                "us:la:d;circuit.court"
+                "us:la.d;circuit.court"
             ],
             "name": "Code Reporter (NY)",
             "variations": {}
@@ -5409,12 +5409,12 @@
                 "us:fed;surveyor",
                 "us:fed;district.court",
                 "us;circuit.court",
-                "us:co:d;circuit.court",
-                "us:ia:sd;circuit.court",
-                "us:mn:d;circuit.court",
-                "us:mo:ed;circuit.court",
-                "us:mo:wd;circuit.court",
-                "us:ny:sd;circuit.court",
+                "us:co.d;circuit.court",
+                "us:ia.sd;circuit.court",
+                "us:mn.d;circuit.court",
+                "us:mo.ed;circuit.court",
+                "us:mo.wd;circuit.court",
+                "us:ny.sd;circuit.court",
                 "us:ca;appellate.division.superior.court",
                 "us:co;superior.court",
                 "us:co;register.receiver.court",
@@ -5564,8 +5564,8 @@
                 "us:ct;supreme.court",
                 "us:c2:ct.d;district.court",
                 "us:ct;superior.court",
-                "us:ct:d;circuit.court",
-                "us:ky:d;circuit.court"
+                "us:ct.d;circuit.court",
+                "us:ky.d;circuit.court"
             ],
             "name": "Connecticut Reports",
             "variations": {
@@ -6044,12 +6044,12 @@
                 "us;supreme.court",
                 "us:c0:dc.d;district.court",
                 "us:c3:pa.d;district.court",
-                "us:ct:d;circuit.court",
-                "us:me:d;circuit.court",
-                "us:ny:nd;circuit.court",
-                "us:sc:d;circuit.court",
-                "us:va:d;circuit.court",
-                "us:dc:d;circuit.court"
+                "us:ct.d;circuit.court",
+                "us:me.d;circuit.court",
+                "us:ny.nd;circuit.court",
+                "us:sc.d;circuit.court",
+                "us:va.d;circuit.court",
+                "us:dc.d;circuit.court"
             ],
             "name": "Cranch's Supreme Court Reports",
             "variations": {
@@ -6225,10 +6225,10 @@
             },
             "mlz_jurisdiction": [
                 "us;circuit.court",
-                "us:me:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:ri:d;circuit.court"
+                "us:me.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:ri.d;circuit.court"
             ],
             "name": "Curtis' United States (US) Circuit Court Decisions",
             "variations": {
@@ -6394,7 +6394,7 @@
             "mlz_jurisdiction": [
                 "us:dc;court.appeals",
                 "us:c0:dc.d;district.court",
-                "us:dc:d;circuit.court"
+                "us:dc.d;circuit.court"
             ],
             "name": "District of Columbia Reports",
             "variations": {}
@@ -6644,8 +6644,8 @@
                 "us:c3:pa.d;district.court",
                 "us:c4:sc.d;district.court",
                 "us:pa;supreme.court",
-                "us:pa:ed;circuit.court",
-                "us:pa:d;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:pa.d;circuit.court",
                 "us:pa;court.common.pleas",
                 "us:pa;court.oyer.terminer"
             ],
@@ -6791,7 +6791,7 @@
             "mlz_jurisdiction": [
                 "us:ct;supreme.court",
                 "us:ct;superior.court",
-                "us:ct:d;circuit.court"
+                "us:ct.d;circuit.court"
             ],
             "name": "Day's Connecticut Reports",
             "variations": {
@@ -6809,7 +6809,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:ct:d;circuit.court"
+                "us:ct.d;circuit.court"
             ],
             "name": "Day's Reports (Connecticut)",
             "variations": {}
@@ -6832,9 +6832,9 @@
             ],
             "mlz_jurisdiction": [
                 "us:c9:or.d;district.court",
-                "us:ca:d;circuit.court",
-                "us:ca:nd;circuit.court",
-                "us:or:d;circuit.court"
+                "us:ca.d;circuit.court",
+                "us:ca.nd;circuit.court",
+                "us:or.d;circuit.court"
             ],
             "name": "Deady's Circuit & District Court Reports",
             "variations": {
@@ -7274,20 +7274,20 @@
                 "us:c10:co.d;district.court",
                 "us:c8:mn.d;district.court",
                 "us;circuit.court",
-                "us:ar:d;circuit.court",
-                "us:ar:ed;circuit.court",
-                "us:ar:wd;circuit.court",
-                "us:co:d;circuit.court",
-                "us:ia:nd;circuit.court",
-                "us:ia:d;circuit.court",
-                "us:ks:d;circuit.court",
-                "us:ky:d;circuit.court",
-                "us:mn:d;circuit.court",
-                "us:mo:ed;circuit.court",
-                "us:mo:d;circuit.court",
-                "us:mo:wd;circuit.court",
-                "us:ne:d;circuit.court",
-                "us:oh:d;circuit.court"
+                "us:ar.d;circuit.court",
+                "us:ar.ed;circuit.court",
+                "us:ar.wd;circuit.court",
+                "us:co.d;circuit.court",
+                "us:ia.nd;circuit.court",
+                "us:ia.d;circuit.court",
+                "us:ks.d;circuit.court",
+                "us:ky.d;circuit.court",
+                "us:mn.d;circuit.court",
+                "us:mo.ed;circuit.court",
+                "us:mo.d;circuit.court",
+                "us:mo.wd;circuit.court",
+                "us:ne.d;circuit.court",
+                "us:oh.d;circuit.court"
             ],
             "name": "Dillon's United States (US) Circuit Court Reports",
             "variations": {
@@ -7990,8 +7990,8 @@
                 "us:c11:al:d;district.court",
                 "us:c8:ar.d;district.court",
                 "us:c11:fl.d;district.court",
-                "us:fl:nd;circuit.court",
-                "us:fl:sd;circuit.court",
+                "us:fl.nd;circuit.court",
+                "us:fl.sd;circuit.court",
                 "us:c11:ga.d;district.court",
                 "us:c8:ia.d;district.court",
                 "us:c6:ky.d;district.court",
@@ -8006,96 +8006,96 @@
                 "us:c9:wa.d;district.court",
                 "us:c4:wv.d;district.court",
                 "us;circuit.court",
-                "us:al:d;circuit.court",
-                "us:al:md;circuit.court",
-                "us:al:nd;circuit.court",
-                "us:al:sd;circuit.court",
-                "us:ar:d;circuit.court",
-                "us:ar:ed;circuit.court",
-                "us:ar:wd;circuit.court",
-                "us:ca:d;circuit.court",
-                "us:ca:nd;circuit.court",
-                "us:ca:sd;circuit.court",
-                "us:co:d;circuit.court",
-                "us:ct:d;circuit.court",
-                "us:ga:d;circuit.court",
-                "us:ga:nd;circuit.court",
-                "us:ga:sd;circuit.court",
-                "us:id:d;circuit.court",
-                "us:il:d;circuit.court",
-                "us:il:ed;circuit.court",
-                "us:il:nd;circuit.court",
-                "us:il:sd;circuit.court",
-                "us:in:d;circuit.court",
-                "us:ia:nd;circuit.court",
-                "us:ia:sd;circuit.court",
-                "us:ia:d;circuit.court",
-                "us:ks:d;circuit.court",
-                "us:ky:d;circuit.court",
-                "us:ky:wd;circuit.court",
-                "us:la:ed;circuit.court",
-                "us:la:d;circuit.court",
-                "us:me:d;circuit.court",
-                "us:md:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:mi:ed;circuit.court",
-                "us:mi:wd;circuit.court",
-                "us:mi:d;circuit.court",
-                "us:mn:d;circuit.court",
-                "us:ms:nd;circuit.court",
-                "us:ms:sd;circuit.court",
-                "us:mo:ed;circuit.court",
-                "us:mo:d;circuit.court",
-                "us:mo:wd;circuit.court",
-                "us:mt:d;circuit.court",
-                "us:ne:d;circuit.court",
-                "us:nv:d;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:ny:d;circuit.court",
-                "us:ny:ed;circuit.court",
-                "us:ny:nd;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:ny:wd;circuit.court",
-                "us:nc:ed;circuit.court",
-                "us:nc:wd;circuit.court",
-                "us:nd:d;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:oh:d;circuit.court",
-                "us:ok:ed;circuit.court",
-                "us:ok:wd;circuit.court",
-                "us:ok:d;circuit.court",
-                "us:or:d;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:pa:md;circuit.court",
-                "us:pa:d;circuit.court",
-                "us:pa:wd;circuit.court",
-                "us:ri:d;circuit.court",
-                "us:sc:d;circuit.court",
-                "us:sc:ed;circuit.court",
+                "us:al.d;circuit.court",
+                "us:al.md;circuit.court",
+                "us:al.nd;circuit.court",
+                "us:al.sd;circuit.court",
+                "us:ar.d;circuit.court",
+                "us:ar.ed;circuit.court",
+                "us:ar.wd;circuit.court",
+                "us:ca.d;circuit.court",
+                "us:ca.nd;circuit.court",
+                "us:ca.sd;circuit.court",
+                "us:co.d;circuit.court",
+                "us:ct.d;circuit.court",
+                "us:ga.d;circuit.court",
+                "us:ga.nd;circuit.court",
+                "us:ga.sd;circuit.court",
+                "us:id.d;circuit.court",
+                "us:il.d;circuit.court",
+                "us:il.ed;circuit.court",
+                "us:il.nd;circuit.court",
+                "us:il.sd;circuit.court",
+                "us:in.d;circuit.court",
+                "us:ia.nd;circuit.court",
+                "us:ia.sd;circuit.court",
+                "us:ia.d;circuit.court",
+                "us:ks.d;circuit.court",
+                "us:ky.d;circuit.court",
+                "us:ky.wd;circuit.court",
+                "us:la.ed;circuit.court",
+                "us:la.d;circuit.court",
+                "us:me.d;circuit.court",
+                "us:md.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:mi.ed;circuit.court",
+                "us:mi.wd;circuit.court",
+                "us:mi.d;circuit.court",
+                "us:mn.d;circuit.court",
+                "us:ms.nd;circuit.court",
+                "us:ms.sd;circuit.court",
+                "us:mo.ed;circuit.court",
+                "us:mo.d;circuit.court",
+                "us:mo.wd;circuit.court",
+                "us:mt.d;circuit.court",
+                "us:ne.d;circuit.court",
+                "us:nv.d;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:ny.d;circuit.court",
+                "us:ny.ed;circuit.court",
+                "us:ny.nd;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:ny.wd;circuit.court",
+                "us:nc.ed;circuit.court",
+                "us:nc.wd;circuit.court",
+                "us:nd.d;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:oh.d;circuit.court",
+                "us:ok.ed;circuit.court",
+                "us:ok.wd;circuit.court",
+                "us:ok.d;circuit.court",
+                "us:or.d;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:pa.md;circuit.court",
+                "us:pa.d;circuit.court",
+                "us:pa.wd;circuit.court",
+                "us:ri.d;circuit.court",
+                "us:sc.d;circuit.court",
+                "us:sc.ed;circuit.court",
                 "us:d:sd;circuit.court",
-                "us:tn:ed;circuit.court",
-                "us:tn:md;circuit.court",
-                "us:tn:wd;circuit.court",
-                "us:tx:d;circuit.court",
-                "us:tx:ed;circuit.court",
-                "us:tx:wd;circuit.court",
-                "us:ut:d;circuit.court",
-                "us:vt:d;circuit.court",
-                "us:va:d;circuit.court",
-                "us:va:ed;circuit.court",
-                "us:va:wd;circuit.court",
-                "us:wa:ed;circuit.court",
-                "us:wa:d;circuit.court",
-                "us:wa:wd;circuit.court",
-                "us:dc:d;circuit.court",
-                "us:wv:nd;circuit.court",
-                "us:wv:d;circuit.court",
-                "us:wi:ed;circuit.court",
-                "us:wi:wd;circuit.court",
-                "us:wi:d;circuit.court",
-                "us:wy:d;circuit.court",
+                "us:tn.ed;circuit.court",
+                "us:tn.md;circuit.court",
+                "us:tn.wd;circuit.court",
+                "us:tx.d;circuit.court",
+                "us:tx.ed;circuit.court",
+                "us:tx.wd;circuit.court",
+                "us:ut.d;circuit.court",
+                "us:vt.d;circuit.court",
+                "us:va.d;circuit.court",
+                "us:va.ed;circuit.court",
+                "us:va.wd;circuit.court",
+                "us:wa.ed;circuit.court",
+                "us:wa.d;circuit.court",
+                "us:wa.wd;circuit.court",
+                "us:dc.d;circuit.court",
+                "us:wv.nd;circuit.court",
+                "us:wv.d;circuit.court",
+                "us:wi.ed;circuit.court",
+                "us:wi.wd;circuit.court",
+                "us:wi.d;circuit.court",
+                "us:wy.d;circuit.court",
                 "us:ny;superior.court",
                 "us:fed:c2;judicial.council",
                 "us:fed:c5;judicial.council",
@@ -8274,8 +8274,8 @@
                 "us:c11:al:d;district.court",
                 "us:c8:ar.d;district.court",
                 "us:c11:fl.d;district.court",
-                "us:fl:nd;circuit.court",
-                "us:fl:sd;circuit.court",
+                "us:fl.nd;circuit.court",
+                "us:fl.sd;circuit.court",
                 "us:c11:fl;sd;superior.court",
                 "us:c11:ga.d;district.court",
                 "us:c8:ia.d;district.court",
@@ -8292,81 +8292,81 @@
                 "us:c4:wv.d;district.court",
                 "us:c7:wi.d;district.court",
                 "us;circuit.court",
-                "us:al:d;circuit.court",
-                "us:al:md;circuit.court",
-                "us:al:nd;circuit.court",
-                "us:al:sd;circuit.court",
-                "us:ar:d;circuit.court",
-                "us:ar:ed;circuit.court",
-                "us:ar:wd;circuit.court",
-                "us:ca:d;circuit.court",
-                "us:ca:nd;circuit.court",
-                "us:ca:sd;circuit.court",
-                "us:co:d;circuit.court",
-                "us:ct:d;circuit.court",
-                "us:ga:d;circuit.court",
-                "us:ga:nd;circuit.court",
-                "us:ga:sd;circuit.court",
-                "us:il:d;circuit.court",
-                "us:il:ed;circuit.court",
-                "us:il:nd;circuit.court",
-                "us:il:sd;circuit.court",
-                "us:in:d;circuit.court",
-                "us:ia:nd;circuit.court",
-                "us:ia:sd;circuit.court",
-                "us:ia:d;circuit.court",
-                "us:ks:d;circuit.court",
-                "us:ky:d;circuit.court",
-                "us:la:ed;circuit.court",
-                "us:la:d;circuit.court",
-                "us:me:d;circuit.court",
-                "us:md:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:mi:ed;circuit.court",
-                "us:mi:wd;circuit.court",
-                "us:mi:d;circuit.court",
-                "us:mn:d;circuit.court",
-                "us:ms:nd;circuit.court",
-                "us:ms:sd;circuit.court",
-                "us:mo:ed;circuit.court",
-                "us:mo:d;circuit.court",
-                "us:mo:wd;circuit.court",
-                "us:ne:d;circuit.court",
-                "us:nv:d;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:ny:d;circuit.court",
-                "us:ny:ed;circuit.court",
-                "us:ny:nd;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:ny:wd;circuit.court",
-                "us:nc:ed;circuit.court",
-                "us:nc:wd;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:oh:d;circuit.court",
-                "us:or:d;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:pa:d;circuit.court",
-                "us:pa:wd;circuit.court",
-                "us:ri:d;circuit.court",
-                "us:sc:d;circuit.court",
-                "us:sc:ed;circuit.court",
-                "us:tn:ed;circuit.court",
-                "us:tn:md;circuit.court",
-                "us:tn:wd;circuit.court",
-                "us:tx:d;circuit.court",
-                "us:tx:ed;circuit.court",
-                "us:tx:wd;circuit.court",
-                "us:vt:d;circuit.court",
-                "us:va:d;circuit.court",
-                "us:va:ed;circuit.court",
-                "us:va:wd;circuit.court",
-                "us:dc:d;circuit.court",
-                "us:wv:d;circuit.court",
-                "us:wi:ed;circuit.court",
-                "us:wi:wd;circuit.court",
-                "us:wi:d;circuit.court",
+                "us:al.d;circuit.court",
+                "us:al.md;circuit.court",
+                "us:al.nd;circuit.court",
+                "us:al.sd;circuit.court",
+                "us:ar.d;circuit.court",
+                "us:ar.ed;circuit.court",
+                "us:ar.wd;circuit.court",
+                "us:ca.d;circuit.court",
+                "us:ca.nd;circuit.court",
+                "us:ca.sd;circuit.court",
+                "us:co.d;circuit.court",
+                "us:ct.d;circuit.court",
+                "us:ga.d;circuit.court",
+                "us:ga.nd;circuit.court",
+                "us:ga.sd;circuit.court",
+                "us:il.d;circuit.court",
+                "us:il.ed;circuit.court",
+                "us:il.nd;circuit.court",
+                "us:il.sd;circuit.court",
+                "us:in.d;circuit.court",
+                "us:ia.nd;circuit.court",
+                "us:ia.sd;circuit.court",
+                "us:ia.d;circuit.court",
+                "us:ks.d;circuit.court",
+                "us:ky.d;circuit.court",
+                "us:la.ed;circuit.court",
+                "us:la.d;circuit.court",
+                "us:me.d;circuit.court",
+                "us:md.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:mi.ed;circuit.court",
+                "us:mi.wd;circuit.court",
+                "us:mi.d;circuit.court",
+                "us:mn.d;circuit.court",
+                "us:ms.nd;circuit.court",
+                "us:ms.sd;circuit.court",
+                "us:mo.ed;circuit.court",
+                "us:mo.d;circuit.court",
+                "us:mo.wd;circuit.court",
+                "us:ne.d;circuit.court",
+                "us:nv.d;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:ny.d;circuit.court",
+                "us:ny.ed;circuit.court",
+                "us:ny.nd;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:ny.wd;circuit.court",
+                "us:nc.ed;circuit.court",
+                "us:nc.wd;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:oh.d;circuit.court",
+                "us:or.d;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:pa.d;circuit.court",
+                "us:pa.wd;circuit.court",
+                "us:ri.d;circuit.court",
+                "us:sc.d;circuit.court",
+                "us:sc.ed;circuit.court",
+                "us:tn.ed;circuit.court",
+                "us:tn.md;circuit.court",
+                "us:tn.wd;circuit.court",
+                "us:tx.d;circuit.court",
+                "us:tx.ed;circuit.court",
+                "us:tx.wd;circuit.court",
+                "us:vt.d;circuit.court",
+                "us:va.d;circuit.court",
+                "us:va.ed;circuit.court",
+                "us:va.wd;circuit.court",
+                "us:dc.d;circuit.court",
+                "us:wv.d;circuit.court",
+                "us:wi.ed;circuit.court",
+                "us:wi.wd;circuit.court",
+                "us:wi.d;circuit.court",
                 "us:dc;criminal.court",
                 "us:dc;orphan.court",
                 "us:la:terr;provisional.court",
@@ -8549,18 +8549,18 @@
                 "us:c9:wa.d;district.court",
                 "us:c4:wv.d;district.court",
                 "us;circuit.court",
-                "us:ar:ed;circuit.court",
-                "us:ar:wd;circuit.court",
-                "us:ca:d;circuit.court",
-                "us:ca:nd;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:mi:wd;circuit.court",
-                "us:mo:ed;circuit.court",
-                "us:mo:wd;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:ok:d;circuit.court",
-                "us:va:d;circuit.court",
-                "us:va:wd;circuit.court",
+                "us:ar.ed;circuit.court",
+                "us:ar.wd;circuit.court",
+                "us:ca.d;circuit.court",
+                "us:ca.nd;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:mi.wd;circuit.court",
+                "us:mo.ed;circuit.court",
+                "us:mo.wd;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:ok.d;circuit.court",
+                "us:va.d;circuit.court",
+                "us:va.wd;circuit.court",
                 "us:vi;supreme.court"
             ],
             "name": "Federal Supplement",
@@ -8751,8 +8751,8 @@
                 "us:c5:tx.d;district.court",
                 "us:c4:wv.d;district.court",
                 "us:c7:wi.d;district.court",
-                "us:ca:nd;circuit.court",
-                "us:mo:ed;circuit.court"
+                "us:ca.nd;circuit.court",
+                "us:mo.ed;circuit.court"
             ],
             "name": "Federal Rules Decisions",
             "variations": {}
@@ -9447,32 +9447,32 @@
                 "us:c6:oh.sd;district.court",
                 "us:dc;court.appeals",
                 "us;circuit.court",
-                "us:al:sd;circuit.court",
-                "us:ca:d;circuit.court",
-                "us:ct:d;circuit.court",
-                "us:il:nd;circuit.court",
-                "us:in:d;circuit.court",
-                "us:ky:d;circuit.court",
-                "us:la:d;circuit.court",
-                "us:me:d;circuit.court",
-                "us:md:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:mi:ed;circuit.court",
-                "us:mo:ed;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:ny:ed;circuit.court",
-                "us:ny:nd;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:oh:d;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:pa:d;circuit.court",
-                "us:pa:wd;circuit.court",
-                "us:ri:d;circuit.court",
-                "us:sc:d;circuit.court",
-                "us:wi:ed;circuit.court"
+                "us:al.sd;circuit.court",
+                "us:ca.d;circuit.court",
+                "us:ct.d;circuit.court",
+                "us:il.nd;circuit.court",
+                "us:in.d;circuit.court",
+                "us:ky.d;circuit.court",
+                "us:la.d;circuit.court",
+                "us:me.d;circuit.court",
+                "us:md.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:mi.ed;circuit.court",
+                "us:mo.ed;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:ny.ed;circuit.court",
+                "us:ny.nd;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:oh.d;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:pa.d;circuit.court",
+                "us:pa.wd;circuit.court",
+                "us:ri.d;circuit.court",
+                "us:sc.d;circuit.court",
+                "us:wi.ed;circuit.court"
             ],
             "name": "Fisher's United States (US) Patent Cases",
             "variations": {}
@@ -9488,8 +9488,8 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:mi:d;circuit.court",
-                "us:oh:d;circuit.court"
+                "us:mi.d;circuit.court",
+                "us:oh.d;circuit.court"
             ],
             "name": "Fisher's United States Patent Reports",
             "variations": {}
@@ -9720,15 +9720,15 @@
                 "us:c6:ky.d;district.court",
                 "us:c6:mi.d;district.court",
                 "us;circuit.court",
-                "us:ky:d;circuit.court",
-                "us:mi:ed;circuit.court",
-                "us:mi:wd;circuit.court",
-                "us:mi:d;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:tn:ed;circuit.court",
-                "us:tn:md;circuit.court",
-                "us:tn:wd;circuit.court"
+                "us:ky.d;circuit.court",
+                "us:mi.ed;circuit.court",
+                "us:mi.wd;circuit.court",
+                "us:mi.d;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:tn.ed;circuit.court",
+                "us:tn.md;circuit.court",
+                "us:tn.wd;circuit.court"
             ],
             "name": "Flippin's Circuit Court Reports (U.S.)",
             "variations": {
@@ -9870,7 +9870,7 @@
                 "us:c11:ga.sd;district.court",
                 "us:ga;court.appeals",
                 "us:va;supreme.court",
-                "us:il:nd;circuit.court",
+                "us:il.nd;circuit.court",
                 "us:ga;superior.court"
             ],
             "name": "Georgia Reports",
@@ -9960,9 +9960,9 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:ma:d;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:ri:d;circuit.court"
+                "us:ma.d;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:ri.d;circuit.court"
             ],
             "name": "Gallison's Reports, United States Circuit Courts",
             "variations": {
@@ -10353,7 +10353,7 @@
             "mlz_jurisdiction": [
                 "us:md;court.appeals",
                 "us:md;supreme.court",
-                "us:md:d;circuit.court",
+                "us:md.d;circuit.court",
                 "us:ny;court.oyer.terminer",
                 "us:ny;court.chancery",
                 "us:va;general.court"
@@ -10423,7 +10423,7 @@
             ],
             "mlz_jurisdiction": [
                 "us:c5:ms.d;district.court",
-                "us:pa:d;circuit.court"
+                "us:pa.d;circuit.court"
             ],
             "name": "Hall's Law Journal",
             "notes": "Also known as American Law Journal, Hall's (Amer. Law J.)",
@@ -10630,8 +10630,8 @@
             ],
             "mlz_jurisdiction": [
                 "us:c1:me.d;district.court",
-                "us:me:d;circuit.court",
-                "us:ma:d;circuit.court"
+                "us:me.d;circuit.court",
+                "us:ma.d;circuit.court"
             ],
             "name": "Haskell's Reports for U.S. Courts in Maine (Fox's Decisions)",
             "variations": {}
@@ -10829,8 +10829,8 @@
             ],
             "mlz_jurisdiction": [
                 "us:dc;circuit.court",
-                "us:ca:d;circuit.court",
-                "us:dc:d;circuit.court",
+                "us:ca.d;circuit.court",
+                "us:dc.d;circuit.court",
                 "us:dc;criminal.court",
                 "us:dc;orphan.court"
             ],
@@ -10862,7 +10862,7 @@
             ],
             "mlz_jurisdiction": [
                 "us;circuit.court",
-                "us:pa:ed;circuit.court"
+                "us:pa.ed;circuit.court"
             ],
             "name": "Hazard's Pennsylvania Register",
             "variations": {}
@@ -10943,7 +10943,7 @@
             ],
             "mlz_jurisdiction": [
                 "us:ar;supreme.court",
-                "us:ar:d;circuit.court"
+                "us:ar.d;circuit.court"
             ],
             "name": "Hempstead (AR)",
             "notes": "Territory of Arkansas reporter without a volume",
@@ -11210,9 +11210,9 @@
             ],
             "mlz_jurisdiction": [
                 "us;circuit.court",
-                "us:me:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:ri:d;circuit.court"
+                "us:me.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:ri.d;circuit.court"
             ],
             "name": "Holmes Circuit Court Reports (US)",
             "variations": {}
@@ -11318,7 +11318,7 @@
             },
             "mlz_jurisdiction": [
                 "us;supreme.court",
-                "us:mo:d;circuit.court"
+                "us:mo.d;circuit.court"
             ],
             "name": "Howard's Supreme Court Reports",
             "variations": {
@@ -11355,7 +11355,7 @@
             "mlz_jurisdiction": [
                 "us:c6:mi.ed;district.court",
                 "us:ny;supreme.court",
-                "us:mi:ed;circuit.court",
+                "us:mi.ed;circuit.court",
                 "us:fl:c14;circuit.court",
                 "us:ky;circuit.court",
                 "us:mi:det;superior.court",
@@ -11490,7 +11490,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:va:ed;circuit.court",
+                "us:va.ed;circuit.court",
                 "us:va;circuit.court"
             ],
             "name": "Howison's Criminal Trials",
@@ -11529,17 +11529,17 @@
                 "us:c4:nc.d;district.court",
                 "us:c4:wv.d;district.court",
                 "us:c7:wi.d;district.court",
-                "us:md:d;circuit.court",
-                "us:ny:ed;circuit.court",
-                "us:nc:ed;circuit.court",
-                "us:nc:wd;circuit.court",
-                "us:sc:d;circuit.court",
-                "us:sc:ed;circuit.court",
-                "us:va:d;circuit.court",
-                "us:va:ed;circuit.court",
-                "us:va:wd;circuit.court",
-                "us:dc:d;circuit.court",
-                "us:wv:d;circuit.court"
+                "us:md.d;circuit.court",
+                "us:ny.ed;circuit.court",
+                "us:nc.ed;circuit.court",
+                "us:nc.wd;circuit.court",
+                "us:sc.d;circuit.court",
+                "us:sc.ed;circuit.court",
+                "us:va.d;circuit.court",
+                "us:va.ed;circuit.court",
+                "us:va.wd;circuit.court",
+                "us:dc.d;circuit.court",
+                "us:wv.d;circuit.court"
             ],
             "name": "Kentucky Reports, Hughes",
             "variations": {
@@ -11634,18 +11634,18 @@
                 "us:fed;district.court",
                 "us:c5:la.d;district.court",
                 "us:c2:ny.d;district.court",
-                "us:il:d;circuit.court",
-                "us:la:ed;circuit.court",
-                "us:md:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:ms:sd;circuit.court",
-                "us:ny:d;circuit.court",
-                "us:ny:nd;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:d;circuit.court",
-                "us:ri:d;circuit.court",
-                "us:sc:d;circuit.court"
+                "us:il.d;circuit.court",
+                "us:la.ed;circuit.court",
+                "us:md.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:ms.sd;circuit.court",
+                "us:ny.d;circuit.court",
+                "us:ny.nd;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.d;circuit.court",
+                "us:ri.d;circuit.court",
+                "us:sc.d;circuit.court"
             ],
             "name": "Hunt's Merchant's Magazine, New York",
             "variations": {
@@ -12474,17 +12474,17 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:ca:d;circuit.court",
-                "us:il:nd;circuit.court",
-                "us:ia:d;circuit.court",
-                "us:la:d;circuit.court",
-                "us:ms:sd;circuit.court",
-                "us:ne:d;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:nc:ed;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:pa:ed;circuit.court"
+                "us:ca.d;circuit.court",
+                "us:il.nd;circuit.court",
+                "us:ia.d;circuit.court",
+                "us:la.d;circuit.court",
+                "us:ms.sd;circuit.court",
+                "us:ne.d;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:nc.ed;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:pa.ed;circuit.court"
             ],
             "name": "Insurance Law Journal",
             "variations": {
@@ -12564,7 +12564,7 @@
                 "us:nc.d;circuit.court",
                 "us:tn.d;circuit.court",
                 "us:fed;district.court",
-                "us:fl:nd;circuit.court",
+                "us:fl.nd;circuit.court",
                 "us:c11:ga.d;district.court",
                 "us:c8:ia.d;district.court",
                 "us:c6:ky.d;district.court",
@@ -12574,46 +12574,46 @@
                 "us:c4:nc.d;district.court",
                 "us:c7:wi.d;district.court",
                 "us;circuit.court",
-                "us:al:sd;circuit.court",
-                "us:ar:ed;circuit.court",
-                "us:ga:nd;circuit.court",
-                "us:ga:sd;circuit.court",
-                "us:il:d;circuit.court",
-                "us:il:nd;circuit.court",
-                "us:in:d;circuit.court",
-                "us:ia:d;circuit.court",
-                "us:ky:d;circuit.court",
-                "us:la:d;circuit.court",
-                "us:md:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:mi:ed;circuit.court",
-                "us:mi:wd;circuit.court",
-                "us:mn:d;circuit.court",
-                "us:ms:sd;circuit.court",
-                "us:mo:ed;circuit.court",
-                "us:mo:d;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:ny:ed;circuit.court",
-                "us:ny:nd;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:ny:wd;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:oh:d;circuit.court",
-                "us:or:d;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:pa:wd;circuit.court",
-                "us:ri:d;circuit.court",
-                "us:sc:d;circuit.court",
-                "us:tn:ed;circuit.court",
-                "us:tn:md;circuit.court",
-                "us:tn:wd;circuit.court",
-                "us:va:ed;circuit.court",
-                "us:va:wd;circuit.court",
-                "us:wv:d;circuit.court",
-                "us:wi:ed;circuit.court",
-                "us:wi:wd;circuit.court"
+                "us:al.sd;circuit.court",
+                "us:ar.ed;circuit.court",
+                "us:ga.nd;circuit.court",
+                "us:ga.sd;circuit.court",
+                "us:il.d;circuit.court",
+                "us:il.nd;circuit.court",
+                "us:in.d;circuit.court",
+                "us:ia.d;circuit.court",
+                "us:ky.d;circuit.court",
+                "us:la.d;circuit.court",
+                "us:md.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:mi.ed;circuit.court",
+                "us:mi.wd;circuit.court",
+                "us:mn.d;circuit.court",
+                "us:ms.sd;circuit.court",
+                "us:mo.ed;circuit.court",
+                "us:mo.d;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:ny.ed;circuit.court",
+                "us:ny.nd;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:ny.wd;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:oh.d;circuit.court",
+                "us:or.d;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:pa.wd;circuit.court",
+                "us:ri.d;circuit.court",
+                "us:sc.d;circuit.court",
+                "us:tn.ed;circuit.court",
+                "us:tn.md;circuit.court",
+                "us:tn.wd;circuit.court",
+                "us:va.ed;circuit.court",
+                "us:va.wd;circuit.court",
+                "us:wv.d;circuit.court",
+                "us:wi.ed;circuit.court",
+                "us:wi.wd;circuit.court"
             ],
             "name": "Internal Revenue Record",
             "variations": {
@@ -12968,9 +12968,9 @@
                 "us:ny;supreme.court",
                 "us:c2:ny.ed;district.court",
                 "us:c3:pa.ed;district.court",
-                "us:ma:d;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:pa:ed;circuit.court"
+                "us:ma.d;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:pa.ed;circuit.court"
             ],
             "name": "Journal of the Franklin Institute",
             "variations": {}
@@ -13042,7 +13042,7 @@
                 "us:id;supreme.court",
                 "us:ks;court.appeals",
                 "us:nd;supreme.court",
-                "us:ks:d;circuit.court"
+                "us:ks.d;circuit.court"
             ],
             "name": "Kansas Reports",
             "variations": {
@@ -14061,23 +14061,23 @@
                 "us:c4:va.wd;district.court",
                 "us:c6:mi.d;district.court",
                 "us:c2:ny.d;district.court",
-                "us:ct:d;circuit.court",
-                "us:ga:d;circuit.court",
-                "us:il:d;circuit.court",
-                "us:me:d;circuit.court",
-                "us:md:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:mo:d;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:d;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:ri:d;circuit.court",
-                "us:sc:d;circuit.court",
-                "us:va:ed;circuit.court",
-                "us:va:wd;circuit.court",
-                "us:dc:d;circuit.court"
+                "us:ct.d;circuit.court",
+                "us:ga.d;circuit.court",
+                "us:il.d;circuit.court",
+                "us:me.d;circuit.court",
+                "us:md.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:mo.d;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.d;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:ri.d;circuit.court",
+                "us:sc.d;circuit.court",
+                "us:va.ed;circuit.court",
+                "us:va.wd;circuit.court",
+                "us:dc.d;circuit.court"
             ],
             "name": "Monthly Law Reporter, Boston Mass.",
             "variations": {
@@ -14171,21 +14171,21 @@
                 "us:c3:pa.wd;district.court",
                 "us:c3:pa.d;district.court",
                 "us:de.d;circuit.court",
-                "us:fl:nd;circuit.court",
+                "us:fl.nd;circuit.court",
                 "us;circuit.court",
-                "us:il:ed;circuit.court",
-                "us:md:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:mi:d;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:ny:d;circuit.court",
-                "us:ny:ed;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:pa:wd;circuit.court",
-                "us:va:d;circuit.court",
-                "us:va:ed;circuit.court",
-                "us:dc:d;circuit.court"
+                "us:il.ed;circuit.court",
+                "us:md.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:mi.d;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:ny.d;circuit.court",
+                "us:ny.ed;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:pa.wd;circuit.court",
+                "us:va.d;circuit.court",
+                "us:va.ed;circuit.court",
+                "us:dc.d;circuit.court"
             ],
             "name": "Philadelphia Legal Intelligencer, Pa.",
             "variations": {
@@ -14213,7 +14213,7 @@
             "mlz_jurisdiction": [
                 "us:pa;supreme.court",
                 "us:c6:mi.ed;district.court",
-                "us:mi:wd;circuit.court"
+                "us:mi.wd;circuit.court"
             ],
             "name": "Legal Opinions",
             "variations": {
@@ -14252,9 +14252,9 @@
                 "us:c3:de.d;district.court",
                 "us:c6:mi.wd;district.court",
                 "us:c5:ms.sd;district.court",
-                "us:pa:ed;circuit.court",
-                "us:ri:d;circuit.court",
-                "us:va:d;circuit.court"
+                "us:pa.ed;circuit.court",
+                "us:ri.d;circuit.court",
+                "us:va.d;circuit.court"
             ],
             "name": "Legal Gazette",
             "variations": {
@@ -14457,7 +14457,7 @@
             },
             "mlz_jurisdiction": [
                 "us:c1:ma.d;district.court",
-                "us:ma:d;circuit.court"
+                "us:ma.d;circuit.court"
             ],
             "name": "Lowell's District Court Reports (US Mass. Dist.)",
             "variations": {
@@ -14750,7 +14750,7 @@
             ],
             "mlz_jurisdiction": [
                 "us:dc;court.appeals",
-                "us:dc:d;circuit.court"
+                "us:dc.d;circuit.court"
             ],
             "name": "Reports of cases arising upon applications for letters-patent for inventions determined in the Circuit and Supreme Court of the District of Columbia (MacArthur's Patent Cases)",
             "variations": {
@@ -14961,10 +14961,10 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:me:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:ri:d;circuit.court"
+                "us:me.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:ri.d;circuit.court"
             ],
             "name": "Mason's United States (US) Circuit Court Reports",
             "variations": {
@@ -15000,7 +15000,7 @@
                 "us:ma;supreme.court",
                 "us:ma;supreme.judicial.court",
                 "us:ma;court.appeals",
-                "us:ma:d;circuit.court"
+                "us:ma.d;circuit.court"
             ],
             "name": "Massachusetts Reports",
             "variations": {
@@ -15235,7 +15235,7 @@
                 "us:ma;superior.court",
                 "us:ma;district.court",
                 "us:ma;land.court",
-                "us:ma:d;circuit.court",
+                "us:ma.d;circuit.court",
                 "us:ma;district.court.appellate.division",
                 "us:ma:d:boston;district.court",
                 "us:ma;housing.court",
@@ -15257,9 +15257,9 @@
             },
             "mlz_jurisdiction": [
                 "us;circuit.court",
-                "us:ca:d;circuit.court",
-                "us:ca:nd;circuit.court",
-                "us:ca:sd;circuit.court"
+                "us:ca.d;circuit.court",
+                "us:ca.nd;circuit.court",
+                "us:ca.sd;circuit.court"
             ],
             "name": "McAllister's Circuit Court Reports (U.S.)",
             "variations": {
@@ -15365,10 +15365,10 @@
             ],
             "mlz_jurisdiction": [
                 "us;circuit.court",
-                "us:co:d;circuit.court",
-                "us:ia:d;circuit.court",
-                "us:ks:d;circuit.court",
-                "us:mn:d;circuit.court"
+                "us:co.d;circuit.court",
+                "us:ia.d;circuit.court",
+                "us:ks.d;circuit.court",
+                "us:mn.d;circuit.court"
             ],
             "name": "McCrary's Circuit Court Reports",
             "variations": {
@@ -15432,15 +15432,15 @@
                 "us:tn.d;circuit.court",
                 "us:c6:mi.d;district.court",
                 "us;circuit.court",
-                "us:il:d;circuit.court",
-                "us:il:nd;circuit.court",
-                "us:in:d;circuit.court",
-                "us:ky:d;circuit.court",
-                "us:mi:d;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:oh:d;circuit.court",
-                "us:tn:wd;circuit.court"
+                "us:il.d;circuit.court",
+                "us:il.nd;circuit.court",
+                "us:in.d;circuit.court",
+                "us:ky.d;circuit.court",
+                "us:mi.d;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:oh.d;circuit.court",
+                "us:tn.wd;circuit.court"
             ],
             "name": "McLean's United States (US) Circuit Court Reports",
             "variations": {
@@ -16572,7 +16572,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:co:d;circuit.court"
+                "us:co.d;circuit.court"
             ],
             "name": "Morrison's Mining Reports",
             "variations": {
@@ -16840,7 +16840,7 @@
                 "gb:england;kb",
                 "us:fed;district.court",
                 "us:c2:ny.d;district.court",
-                "us:md:d;circuit.court"
+                "us:md.d;circuit.court"
             ],
             "name": "North Carolina Reports",
             "variations": {
@@ -17204,7 +17204,7 @@
             "mlz_jurisdiction": [
                 "us:nj;supreme.court",
                 "us:c3:nj.d;district.court",
-                "us:nj:d;circuit.court"
+                "us:nj.d;circuit.court"
             ],
             "name": "New Jersey Law Journal",
             "variations": {
@@ -17686,7 +17686,7 @@
                 "us:nm;court.appeals",
                 "us:nd;court.appeals",
                 "us:wi;court.appeals",
-                "us:mn:d;circuit.court",
+                "us:mn.d;circuit.court",
                 "us:terr:dakota;supreme.court"
             ],
             "name": "North Western Reporter",
@@ -17966,11 +17966,11 @@
                 "us:c2:ny.sd;district.court",
                 "us:c6:tn.d;district.court",
                 "us:c8:mo.d;district.court",
-                "us:ct:d;circuit.court",
-                "us:me:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:ri:d;circuit.court"
+                "us:ct.d;circuit.court",
+                "us:me.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:ri.d;circuit.court"
             ],
             "name": "New York Legal Observer (N.Y.)",
             "variations": {
@@ -18626,40 +18626,40 @@
                 "us:c4:va.d;district.court",
                 "us:c7:wi.d;district.court",
                 "us;circuit.court",
-                "us:al:d;circuit.court",
-                "us:co:d;circuit.court",
-                "us:il:d;circuit.court",
-                "us:il:nd;circuit.court",
-                "us:il:sd;circuit.court",
-                "us:ia:d;circuit.court",
-                "us:la:d;circuit.court",
-                "us:md:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:mi:ed;circuit.court",
-                "us:mi:wd;circuit.court",
-                "us:mi:d;circuit.court",
-                "us:mn:d;circuit.court",
-                "us:ms:sd;circuit.court",
-                "us:mo:ed;circuit.court",
-                "us:mo:wd;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:ny:d;circuit.court",
-                "us:ny:nd;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:or:d;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:pa:wd;circuit.court",
-                "us:ri:d;circuit.court",
-                "us:sc:d;circuit.court",
-                "us:tn:md;circuit.court",
-                "us:tx:d;circuit.court",
-                "us:tx:ed;circuit.court",
-                "us:vt:d;circuit.court",
-                "us:va:d;circuit.court",
-                "us:va:ed;circuit.court",
-                "us:dc:d;circuit.court"
+                "us:al.d;circuit.court",
+                "us:co.d;circuit.court",
+                "us:il.d;circuit.court",
+                "us:il.nd;circuit.court",
+                "us:il.sd;circuit.court",
+                "us:ia.d;circuit.court",
+                "us:la.d;circuit.court",
+                "us:md.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:mi.ed;circuit.court",
+                "us:mi.wd;circuit.court",
+                "us:mi.d;circuit.court",
+                "us:mn.d;circuit.court",
+                "us:ms.sd;circuit.court",
+                "us:mo.ed;circuit.court",
+                "us:mo.wd;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:ny.d;circuit.court",
+                "us:ny.nd;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:or.d;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:pa.wd;circuit.court",
+                "us:ri.d;circuit.court",
+                "us:sc.d;circuit.court",
+                "us:tn.md;circuit.court",
+                "us:tx.d;circuit.court",
+                "us:tx.ed;circuit.court",
+                "us:vt.d;circuit.court",
+                "us:va.d;circuit.court",
+                "us:va.ed;circuit.court",
+                "us:dc.d;circuit.court"
             ],
             "name": "National Bankruptcy Register Reports (U.S.)",
             "variations": {
@@ -18934,7 +18934,7 @@
                 "2 Niles' Reg. 216"
             ],
             "mlz_jurisdiction": [
-                "us:sc:ed;circuit.court"
+                "us:sc.ed;circuit.court"
             ],
             "name": "Niles' Weekly Register",
             "variations": {
@@ -19056,25 +19056,25 @@
             "mlz_jurisdiction": [
                 "us;supreme.court",
                 "us;circuit.court",
-                "us:ca:d;circuit.court",
-                "us:il:nd;circuit.court",
-                "us:il:sd;circuit.court",
-                "us:in:d;circuit.court",
-                "us:ky:d;circuit.court",
-                "us:me:d;circuit.court",
-                "us:md:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:mi:ed;circuit.court",
-                "us:mo:ed;circuit.court",
-                "us:mo:wd;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:ny:d;circuit.court",
-                "us:ny:ed;circuit.court",
-                "us:ny:nd;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:pa:d;circuit.court"
+                "us:ca.d;circuit.court",
+                "us:il.nd;circuit.court",
+                "us:il.sd;circuit.court",
+                "us:in.d;circuit.court",
+                "us:ky.d;circuit.court",
+                "us:me.d;circuit.court",
+                "us:md.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:mi.ed;circuit.court",
+                "us:mo.ed;circuit.court",
+                "us:mo.wd;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:ny.d;circuit.court",
+                "us:ny.ed;circuit.court",
+                "us:ny.nd;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:pa.d;circuit.court"
             ],
             "name": "Official Gazette, United States Patent Office (Washington, D.C.)",
             "variations": {
@@ -20504,7 +20504,7 @@
             },
             "mlz_jurisdiction": [
                 "us:c9:ca.d;district.court",
-                "us:ca:d;circuit.court"
+                "us:ca.d;circuit.court"
             ],
             "name": "Pacific Law Reporter",
             "variations": {
@@ -21099,8 +21099,8 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:il:nd;circuit.court",
-                "us:nv:d;circuit.court"
+                "us:il.nd;circuit.court",
+                "us:nv.d;circuit.court"
             ],
             "name": "Pacific Law Magazine",
             "variations": {
@@ -21145,16 +21145,16 @@
                 "us:c2;court.appeals",
                 "us:c2:ny.sd;district.court",
                 "us;circuit.court",
-                "us:ct:d;circuit.court",
-                "us:me:d;circuit.court",
-                "us:ny:d;circuit.court",
-                "us:ny:nd;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:ri:d;circuit.court",
-                "us:vt:d;circuit.court",
-                "us:va:d;circuit.court",
-                "us:dc:d;circuit.court"
+                "us:ct.d;circuit.court",
+                "us:me.d;circuit.court",
+                "us:ny.d;circuit.court",
+                "us:ny.nd;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:ri.d;circuit.court",
+                "us:vt.d;circuit.court",
+                "us:va.d;circuit.court",
+                "us:dc.d;circuit.court"
             ],
             "name": "Paine's United States (US) Circuit Court Reports",
             "variations": {
@@ -21353,7 +21353,7 @@
                 "us:pa;supreme.court",
                 "us:c3:pa.ed;district.court",
                 "us;circuit.court",
-                "us:pa:ed;circuit.court"
+                "us:pa.ed;circuit.court"
             ],
             "name": "Pennsylvania Law Journal",
             "variations": {
@@ -21508,8 +21508,8 @@
             },
             "mlz_jurisdiction": [
                 "us;supreme.court",
-                "us:pa:ed;circuit.court",
-                "us:sc:d;circuit.court"
+                "us:pa.ed;circuit.court",
+                "us:sc.d;circuit.court"
             ],
             "name": "Peters' Supreme Court Reports",
             "variations": {
@@ -21549,8 +21549,8 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:nj:d;circuit.court",
-                "us:pa:d;circuit.court"
+                "us:nj.d;circuit.court",
+                "us:pa.d;circuit.court"
             ],
             "name": "Peters' United States Circuit Court Reports",
             "variations": {
@@ -21635,8 +21635,8 @@
             "mlz_jurisdiction": [
                 "us:pa;supreme.court",
                 "us:c3:pa.ed;district.court",
-                "us:ga:d;circuit.court",
-                "us:pa:ed;circuit.court"
+                "us:ga.d;circuit.court",
+                "us:pa.ed;circuit.court"
             ],
             "name": "Philadelphia Reports",
             "variations": {
@@ -21757,18 +21757,18 @@
                 "us:tn.d;circuit.court",
                 "us:c2:ny.d;district.court",
                 "us;circuit.court",
-                "us:al:nd;circuit.court",
-                "us:in:d;circuit.court",
-                "us:md:d;circuit.court",
-                "us:mi:ed;circuit.court",
-                "us:mo:ed;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:pa:d;circuit.court",
-                "us:pa:wd;circuit.court",
-                "us:dc:d;circuit.court",
+                "us:al.nd;circuit.court",
+                "us:in.d;circuit.court",
+                "us:md.d;circuit.court",
+                "us:mi.ed;circuit.court",
+                "us:mo.ed;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:pa.d;circuit.court",
+                "us:pa.wd;circuit.court",
+                "us:dc.d;circuit.court",
                 "us:terr:dakota;supreme.court"
             ],
             "name": "Pittsburgh Legal Journal",
@@ -22223,19 +22223,19 @@
             },
             "mlz_jurisdiction": [
                 "us:de.d;circuit.court",
-                "us:al:d;circuit.court",
-                "us:ca:d;circuit.court",
-                "us:co:d;circuit.court",
-                "us:il:nd;circuit.court",
-                "us:in:d;circuit.court",
-                "us:mn:d;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:ny:sd;circuit.court",
-                "us:oh:nd;circuit.court",
-                "us:oh:sd;circuit.court",
-                "us:or:d;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:vt:d;circuit.court"
+                "us:al.d;circuit.court",
+                "us:ca.d;circuit.court",
+                "us:co.d;circuit.court",
+                "us:il.nd;circuit.court",
+                "us:in.d;circuit.court",
+                "us:mn.d;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:ny.sd;circuit.court",
+                "us:oh.nd;circuit.court",
+                "us:oh.sd;circuit.court",
+                "us:or.d;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:vt.d;circuit.court"
             ],
             "name": "Reporter. (Continuation of Law and Equity Reporter and of American Law Times Reports, New Series.)",
             "variations": {
@@ -23266,13 +23266,13 @@
                 "us:c9:nv.d;district.court",
                 "us:c9:or.d;district.court",
                 "us;circuit.court",
-                "us:ca:d;circuit.court",
-                "us:ca:nd;circuit.court",
-                "us:ca:sd;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:nv:d;circuit.court",
-                "us:or:d;circuit.court",
-                "us:dc:d;circuit.court"
+                "us:ca.d;circuit.court",
+                "us:ca.nd;circuit.court",
+                "us:ca.sd;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:nv.d;circuit.court",
+                "us:or.d;circuit.court",
+                "us:dc.d;circuit.court"
             ],
             "name": "Sawyer's U.S. Circuit Court Reports",
             "variations": {
@@ -23781,7 +23781,7 @@
             "mlz_jurisdiction": [
                 "us:c11:fl.sd;district.court",
                 "us:c1:ma.d;district.court",
-                "us:ma:d;circuit.court"
+                "us:ma.d;circuit.court"
             ],
             "name": "Sprague's United States (US) District Ct. (Admiralty) Decisions",
             "variations": {
@@ -23953,10 +23953,10 @@
             "mlz_jurisdiction": [
                 "us:c1:me.d;district.court",
                 "us;circuit.court",
-                "us:me:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:ri:d;circuit.court"
+                "us:me.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:ri.d;circuit.court"
             ],
             "name": "Story's United States Circuit Court Reports",
             "variations": {
@@ -24016,10 +24016,10 @@
                 "us:c1:me.d;district.court",
                 "us:c1:ma.d;district.court",
                 "us;circuit.court",
-                "us:me:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:ri:d;circuit.court"
+                "us:me.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:ri.d;circuit.court"
             ],
             "name": "Sumner's United States (US) Circuit Court Reports",
             "variations": {
@@ -24378,7 +24378,7 @@
                 "1 Taney, 440"
             ],
             "mlz_jurisdiction": [
-                "us:md:d;circuit.court"
+                "us:md.d;circuit.court"
             ],
             "name": "Taney's United States (US) Circuit Court Reports",
             "variations": {
@@ -25381,8 +25381,8 @@
                 "us:ny;supreme.court",
                 "us:pa;supreme.court",
                 "us;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:pa:d;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:pa.d;circuit.court",
                 "us:nh;privy.council",
                 "us:pa;court.common.pleas",
                 "us:pa;court.oyer.terminer",
@@ -25640,8 +25640,8 @@
                 "1 U. S. Law Int. (1829) 22"
             ],
             "mlz_jurisdiction": [
-                "us:ga:d;circuit.court",
-                "us:pa:ed;circuit.court"
+                "us:ga.d;circuit.court",
+                "us:pa.ed;circuit.court"
             ],
             "name": "United States Law Intelligencer and Review (Providence and Philadelphia)",
             "variations": {
@@ -26071,7 +26071,7 @@
                 "us:va;court.appeals",
                 "us:fed;court.military.appeals",
                 "us:fed;district.court",
-                "us:va:d;circuit.court",
+                "us:va.d;circuit.court",
                 "us:ny;court.chancery",
                 "us:va;general.court",
                 "us:va;chancery.court"
@@ -26471,7 +26471,7 @@
                 "us;supreme.court",
                 "us:c4;court.appeals",
                 "us:c4:wv.nd;district.court",
-                "us:wv:d;circuit.court"
+                "us:wv.d;circuit.court"
             ],
             "name": "West Virginia Reports",
             "variations": {
@@ -26539,12 +26539,12 @@
                 "7 West. Law J. 431"
             ],
             "mlz_jurisdiction": [
-                "us:ar:d;circuit.court",
-                "us:il:d;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:ny:d;circuit.court",
-                "us:oh:d;circuit.court",
-                "us:pa:ed;circuit.court"
+                "us:ar.d;circuit.court",
+                "us:il.d;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:ny.d;circuit.court",
+                "us:oh.d;circuit.court",
+                "us:pa.ed;circuit.court"
             ],
             "name": "Western Law Journal (OH)",
             "variations": {
@@ -26571,8 +26571,8 @@
                 "1 West. Law Month. (1859,) 53"
             ],
             "mlz_jurisdiction": [
-                "us:oh:nd;circuit.court",
-                "us:oh:sd;circuit.court"
+                "us:oh.nd;circuit.court",
+                "us:oh.sd;circuit.court"
             ],
             "name": "Western Law Monthly (OH)",
             "variations": {
@@ -26599,11 +26599,11 @@
                 "us:c3:pa.d;district.court",
                 "us:de.d;circuit.court",
                 "us;circuit.court",
-                "us:mo:d;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:pa:d;circuit.court",
-                "us:pa:wd;circuit.court"
+                "us:mo.d;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:pa.d;circuit.court",
+                "us:pa.wd;circuit.court"
             ],
             "name": "Weekly Notes of Cases",
             "notes": "Estimated date range",
@@ -26949,11 +26949,11 @@
                 "us:c3:pa.ed;district.court",
                 "us:de.d;circuit.court",
                 "us;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:pa:d;circuit.court",
-                "us:pa:wd;circuit.court"
+                "us:ma.d;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:pa.d;circuit.court",
+                "us:pa.wd;circuit.court"
             ],
             "name": "Wallace, Jr.'s Reports of Cases Determined in the Circuit Court of the United States for the Third Circuit",
             "variations": {
@@ -27005,8 +27005,8 @@
             "mlz_jurisdiction": [
                 "us:c1:me.d;district.court",
                 "us:c1:ma.d;district.court",
-                "us:me:d;circuit.court",
-                "us:ma:d;circuit.court"
+                "us:me.d;circuit.court",
+                "us:ma.d;circuit.court"
             ],
             "name": "Ware's United States (US) District Court Reports",
             "variations": {
@@ -27024,7 +27024,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:pa:d;circuit.court",
+                "us:pa.d;circuit.court",
                 "us:va;supreme.court",
                 "us:wa;supreme.court"
             ],
@@ -27121,10 +27121,10 @@
                 "us:c3:pa.ed;district.court",
                 "us:c3:pa.d;district.court",
                 "us;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:pa:ed;circuit.court",
-                "us:pa:d;circuit.court",
-                "us:dc:d;circuit.court"
+                "us:nj.d;circuit.court",
+                "us:pa.ed;circuit.court",
+                "us:pa.d;circuit.court",
+                "us:dc.d;circuit.court"
             ],
             "name": "Washington's United States (US) Circuit Court Reports",
             "variations": {
@@ -27273,8 +27273,8 @@
             },
             "mlz_jurisdiction": [
                 "us:oh;supreme.court",
-                "us:in:d;circuit.court",
-                "us:oh:sd;circuit.court"
+                "us:in.d;circuit.court",
+                "us:oh.sd;circuit.court"
             ],
             "name": "Weekly Law Gazette (Ohio)",
             "variations": {
@@ -27386,12 +27386,12 @@
                 "us:c1:ma.d;district.court",
                 "us:c8:mn.d;district.court",
                 "us:c8:mo.ed;district.court",
-                "us:ia:d;circuit.court",
-                "us:mn:d;circuit.court",
-                "us:mo:ed;circuit.court",
-                "us:mo:d;circuit.court",
-                "us:ne:d;circuit.court",
-                "us:pa:wd;circuit.court"
+                "us:ia.d;circuit.court",
+                "us:mn.d;circuit.court",
+                "us:mo.ed;circuit.court",
+                "us:mo.d;circuit.court",
+                "us:ne.d;circuit.court",
+                "us:pa.wd;circuit.court"
             ],
             "name": "Western Jurist (Des Moines, Iowa)",
             "variations": {}
@@ -27507,9 +27507,9 @@
                 "us:fed;district.court",
                 "us;circuit.court",
                 "us:ms:terr;circuit.court",
-                "us:nj:d;circuit.court",
-                "us:ny:d;circuit.court",
-                "us:pa:d;circuit.court",
+                "us:nj.d;circuit.court",
+                "us:ny.d;circuit.court",
+                "us:pa.d;circuit.court",
                 "us:ga;court.oyer.terminer",
                 "us:in;circuit.court",
                 "us:la;superior.court",
@@ -27726,7 +27726,7 @@
                 "us:wi;supreme.court",
                 "us:c2:ny.sd;district.court",
                 "us:wi;court.appeals",
-                "us:wi:d;circuit.court"
+                "us:wi.d;circuit.court"
             ],
             "name": "Wisconsin Reports",
             "variations": {
@@ -27796,7 +27796,7 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:or:d;circuit.court"
+                "us:or.d;circuit.court"
             ],
             "name": "New York Weekly Digest",
             "variations": {
@@ -27814,10 +27814,10 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:me:d;circuit.court",
-                "us:ma:d;circuit.court",
-                "us:nh:d;circuit.court",
-                "us:ri:d;circuit.court"
+                "us:me.d;circuit.court",
+                "us:ma.d;circuit.court",
+                "us:nh.d;circuit.court",
+                "us:ri.d;circuit.court"
             ],
             "name": "Woodbury & Minot's United States Circuit Court Reports",
             "variations": {
@@ -27835,21 +27835,21 @@
                 }
             },
             "mlz_jurisdiction": [
-                "us:fl:nd;circuit.court",
+                "us:fl.nd;circuit.court",
                 "us;circuit.court",
-                "us:al:md;circuit.court",
-                "us:al:nd;circuit.court",
-                "us:al:sd;circuit.court",
-                "us:ga:d;circuit.court",
-                "us:ga:nd;circuit.court",
-                "us:ga:sd;circuit.court",
-                "us:la:ed;circuit.court",
-                "us:la:d;circuit.court",
-                "us:ms:nd;circuit.court",
-                "us:ms:sd;circuit.court",
-                "us:pa:d;circuit.court",
-                "us:tx:ed;circuit.court",
-                "us:tx:wd;circuit.court"
+                "us:al.md;circuit.court",
+                "us:al.nd;circuit.court",
+                "us:al.sd;circuit.court",
+                "us:ga.d;circuit.court",
+                "us:ga.nd;circuit.court",
+                "us:ga.sd;circuit.court",
+                "us:la.ed;circuit.court",
+                "us:la.d;circuit.court",
+                "us:ms.nd;circuit.court",
+                "us:ms.sd;circuit.court",
+                "us:pa.d;circuit.court",
+                "us:tx.ed;circuit.court",
+                "us:tx.wd;circuit.court"
             ],
             "name": "Woods' United States Circuit Court Reports",
             "variations": {
@@ -27877,10 +27877,10 @@
             ],
             "mlz_jurisdiction": [
                 "us;circuit.court",
-                "us:ia:d;circuit.court",
-                "us:ks:d;circuit.court",
-                "us:mn:d;circuit.court",
-                "us:ne:d;circuit.court"
+                "us:ia.d;circuit.court",
+                "us:ks.d;circuit.court",
+                "us:mn.d;circuit.court",
+                "us:ne.d;circuit.court"
             ],
             "name": "Woolworth's United States Circuit Court Reports",
             "variations": {
