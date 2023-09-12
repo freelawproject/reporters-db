@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.36 (2022-01-11): Cleanup Maine citations
+ - 3.2.37 (2022-01-11): Added many mlz_jurisdictions
 
 ## Past Versions
+
+ - 3.2.36 (2022-01-11): Cleanup Maine citations
 
  - 3.2.35 (2022-12-12): Add more reporters and variations
 
