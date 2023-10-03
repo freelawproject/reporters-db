@@ -134,12 +134,12 @@ class BaseTestCase(TestCase):
                     self.assertIn(
                         "reporter",
                         m.groupdict(),
-                        "<reporter> group missing in regex %s" % regex,
+                        f"<reporter> group missing in regex {regex}",
                     )
                     self.assertIn(
                         "page",
                         m.groupdict(),
-                        "<page> group missing in regex %s" % regex,
+                        f"<page> group missing in regex {regex}",
                     )
                     continue
 
@@ -163,7 +163,7 @@ class BaseTestCase(TestCase):
                     tofile="expected.json",
                 )
                 self.fail(
-                    ("%s needs reformatting. " % self.json_name)
+                    f"{self.json_name} needs reformatting. "
                     + "Run with env var FIX_JSON=1 to update the file automatically. "
                     + "Diff of actual vs. expected:\n"
                     + "\n".join(diff)
@@ -201,7 +201,7 @@ class BaseTestCase(TestCase):
     def check_whitespace(self, obj):
         for s in emit_strings(obj):
             self.assertEqual(
-                s.strip(), s, msg="Field needs whitespace stripped: '%s'" % s
+                s.strip(), s, msg=f"Field needs whitespace stripped: '{s}'"
             )
             non_space_whitespace = any(w != " " for w in re.findall(r"\s+", s))
             self.assertFalse(
@@ -227,7 +227,7 @@ class ReportersTest(BaseTestCase):
             self.assertIn(
                 reporter_abbv,
                 reporter_data["editions"],
-                msg="Could not find edition for key: %s" % reporter_abbv,
+                msg=f"Could not find edition for key: {reporter_abbv}",
             )
 
     def test_for_variations_mapping_to_bad_keys(self):
@@ -268,7 +268,7 @@ class ReportersTest(BaseTestCase):
             self.assertIn(
                 reporter_data["cite_type"],
                 VALID_CITE_TYPES,
-                "%s did not have a valid cite_type value" % reporter_abbv,
+                f"{reporter_abbv} did not have a valid cite_type value",
             )
 
     def test_no_variation_is_same_as_key(self):
