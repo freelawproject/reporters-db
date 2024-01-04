@@ -16215,9 +16215,17 @@
                 },
                 "Misc. 3d": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter (?P<page>\\d+\\(A\\))"
+                    ],
                     "start": "2004-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "81 Misc 3d 1211(A)",
+                "81 Misc 3d 1211"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals",
                 "us:fl;supreme.court",
@@ -18421,18 +18429,39 @@
             "editions": {
                 "NY Slip Op": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter (?P<page>\\d+\\(U\\))"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2023 NY Slip Op 51350",
+                "2023 NYSlipOp 51350",
+                "2023 NYSlipOp 51350(U)"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals",
-                "us:ny;appellate.division.supreme.court"
+                "us:ny;appellate.division.supreme.court",
+                "us:ny;appellate.term.supreme.court",
+                "us:ny;supreme.court",
+                "us:ny;district.court",
+                "us:ny:nyc;civil.court",
+                "us:ny:nyc;criminal.court",
+                "us:ny;county.court",
+                "us:ny;justice.court",
+                "us:ny;city.court",
+                "us:ny;court.claims",
+                "us:ny;family.court",
+                "us:ny;surrogates.court"
             ],
             "name": "New York Slip Opinion",
             "variations": {
                 "N.Y. Slip Op": "NY Slip Op",
                 "N.Y. Slip Op.": "NY Slip Op",
-                "NY Slip Op.": "NY Slip Op"
+                "NY Slip Op.": "NY Slip Op",
+                "NYSlipOp": "NY Slip Op"
             }
         }
     ],
