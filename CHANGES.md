@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.37 (2022-01-11): Added many mlz_jurisdictions
+ - 3.2.38 (2024-01-04): Update NY Reporters
 
 ## Past Versions
+
+ - 3.2.37 (2022-01-11): Added many mlz_jurisdictions
 
  - 3.2.36 (2022-01-11): Cleanup Maine citations
 
