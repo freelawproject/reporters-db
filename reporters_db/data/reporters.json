@@ -20237,6 +20237,27 @@
             }
         }
     ],
+    "Ops.Cal.Atty.Gen.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Ops.Cal.Atty.Gen.": {
+                    "end": null,
+                    "start": null
+                }
+            },
+            "examples": [
+                "106 Ops.Cal.Atty.Gen. 1"
+            ],
+            "mlz_jurisdiction": [
+                "us:ca;attorney.general"
+            ],
+            "name": "Opinions of the California Attorney General",
+            "variations": {
+                "Ops. Cal. Atty. Gen.": "Ops.Cal.Atty.Gen."
+            }
+        }
+    ],
     "Or.": [
         {
             "cite_type": "state",
