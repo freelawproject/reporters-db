@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.38 (2024-01-04): Update NY Reporters
+ - 3.2.39 (2024-01-25): Add Cal AG reporter
 
 ## Past Versions
+
+ - 3.2.38 (2024-01-04): Update NY Reporters
 
  - 3.2.37 (2022-01-11): Added many mlz_jurisdictions
 
