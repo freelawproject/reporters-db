@@ -18873,7 +18873,9 @@
                 "us:nv;supreme.court"
             ],
             "name": "Nevada Advanced Opinion",
-            "variations": {}
+            "variations": {
+                "Nev., Advance Opinion": "Nev. Adv. Op. No."
+            }
         }
     ],
     "Nev. Adv. Rep.": [
