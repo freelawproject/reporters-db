@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.39 (2024-01-25): Add Cal AG reporter
+ - 3.2.40 (2024-01-26): Update Nevada Advance Opinion variations
 
 ## Past Versions
+
+ - 3.2.39 (2024-01-25): Add Cal AG reporter
 
  - 3.2.38 (2024-01-04): Update NY Reporters
 
