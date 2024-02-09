@@ -26033,6 +26033,10 @@
                     "start": "1917-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2021 V.I. 25",
+                "2022 VI 1"
+            ],
             "mlz_jurisdiction": [
                 "us:c3:vi.d;district.court",
                 "us;supreme.court",
@@ -26045,7 +26049,9 @@
                 "us:vi;police.court"
             ],
             "name": "Virgin Islands Reports",
-            "variations": {}
+            "variations": {
+                "VI": "V.I."
+            }
         }
     ],
     "V.I. LEXIS": [

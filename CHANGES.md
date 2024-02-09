@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.40 (2024-01-26): Update Nevada Advance Opinion variations
+ - 3.2.41 (2024-02-09): Add VI variation to V.I. (Virgin Islands)
 
 ## Past Versions
+
+ - 3.2.40 (2024-01-26): Update Nevada Advance Opinion variations
 
  - 3.2.39 (2024-01-25): Add Cal AG reporter
 
