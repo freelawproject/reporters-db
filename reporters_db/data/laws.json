@@ -5542,8 +5542,7 @@
             "jurisdiction": "United States",
             "name": "United States Code; United States Code Annotated; United States Code Service; Gould’s United States Code Unannotated",
             "regexes": [
-                "(?P<title>\\d+),?\\s+$reporter,?\\s+$section_marker\\s*$law_section",
-                "(?P<title>\\d+),?\\s+$reporter,?\\s+$section_marker\\s*$law_sections"
+                "(?P<title>\\d+),?\\s+$reporter,?\\s+$section_marker\\s*$law_section"
             ],
             "start": null,
             "variations": [
