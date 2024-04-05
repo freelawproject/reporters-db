@@ -5534,12 +5534,15 @@
                 "1 U.S.C. sec. 1",
                 "1 U.S.C. Sections 1-2",
                 "1 USC S. 1-2",
-                "1 U.S. Code §1"
+                "1 U.S. Code §1",
+                "21, United States Code, Section 853",
+                "18, United States Code, Section 3500",
+                "18, United States Code, Section 981(a)(l)(C)"
             ],
             "jurisdiction": "United States",
             "name": "United States Code; United States Code Annotated; United States Code Service; Gould’s United States Code Unannotated",
             "regexes": [
-                "(?P<title>\\d+)\\s+$reporter\\s+$section_marker\\s*$law_section"
+                "(?P<title>\\d+),?\\s+$reporter,?\\s+$section_marker\\s*$law_section"
             ],
             "start": null,
             "variations": [
@@ -5548,7 +5551,8 @@
                 "U.S.C.A.",
                 "U.S.C.S.",
                 "U.S.C.U.",
-                "U.S. Code"
+                "U.S. Code",
+                "United States Code"
             ]
         }
     ],
