@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.41 (2024-02-09): Add VI variation to V.I. (Virgin Islands)
+ - 3.2.42 (2024-04-05): Update variations for US Code
 
 ## Past Versions
+
+ - 3.2.41 (2024-02-09): Add VI variation to V.I. (Virgin Islands)
 
  - 3.2.40 (2024-01-26): Update Nevada Advance Opinion variations
 
