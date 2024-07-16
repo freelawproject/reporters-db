@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.42 (2024-04-05): Update variations for US Code
+ - 3.2.43 (2024-07-16): Add variations for a handful of reporters
 
 ## Past Versions
+
+ - 3.2.42 (2024-04-05): Update variations for US Code
 
  - 3.2.41 (2024-02-09): Add VI variation to V.I. (Virgin Islands)
 
