@@ -2487,7 +2487,8 @@
                 "Bankr. L. Rep. P12,345",
                 "Bankr. L. Rep. P 80679",
                 "Bankr. L. Rep. (CCH) ¶ 67,488",
-                "Bankr. L. Rep. (C.C.H.) ¶67,049"
+                "Bankr. L. Rep. (C.C.H.) ¶67,049",
+                "Bankr. L. Rep. P68,209"
             ],
             "mlz_jurisdiction": [],
             "name": "Bankruptcy Law Reporter",
@@ -2769,7 +2770,8 @@
                 }
             },
             "examples": [
-                "Bee, 120"
+                "Bee, 120",
+                "Bee 196"
             ],
             "mlz_jurisdiction": [
                 "us;supreme.court",
@@ -6020,7 +6022,8 @@
             "examples": [
                 "Crabbe, 138",
                 "Crabbe, 66",
-                "Crabbe, 2"
+                "Crabbe, 2",
+                "Crabbe 525"
             ],
             "mlz_jurisdiction": [
                 "us:c3:pa.ed;district.court"
@@ -9359,7 +9362,8 @@
             "examples": [
                 "Fed. Sec. L. Rep. (CCH) par. 78,056",
                 "Fed. Sec. L. Rep. (CCH) ¶ 77,526",
-                "Fed Sec L Rep (CCH) ¶ 80,715"
+                "Fed Sec L Rep (CCH) ¶ 80,715",
+                "Fed. Sec. L. Rep. (CCH) P97,410"
             ],
             "mlz_jurisdiction": [],
             "name": "Federal Securities Law Reporter (CCH)",
@@ -9592,6 +9596,40 @@
             "mlz_jurisdiction": [],
             "name": "Florida (FL) Law Weekly Federal, Bankruptcy Court",
             "variations": {}
+        }
+    ],
+    "Fla. L. Weekly Fed. C": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fla. L. Weekly Fed. C": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Florida (FL) Law Weekly Federal, Circuit Court",
+            "variations": {}
+        }
+    ],
+    "Fla. L. Weekly Fed. D": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Fla. L. Weekly Fed. D": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "20 Fla. L. Weekly D2629",
+                "25 Fla. L. Weekly Fed. D 107"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Florida (FL) Law Weekly Federal, District Court",
+            "variations": {
+                "Fla. L. Weekly D": "Fla. L. Weekly Fed. D"
+            }
         }
     ],
     "Fla. L. Weekly Fed. S": [
@@ -13856,11 +13894,15 @@
             "editions": {
                 "Lab. Cas. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$volume $reporter $paragraph_marker_optional$page_with_commas(A)?"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "140 Lab. Cas. (CCH) P58,886A"
+                "140 Lab. Cas. (CCH) P58,886A",
+                "153 Lab. Cas. (CCH) P 60,267"
             ],
             "mlz_jurisdiction": [],
             "name": "Labor Cases",
@@ -18344,13 +18386,15 @@
                 "NMCA": {
                     "end": null,
                     "regexes": [
-                        "$full_cite_format_neutral_3_4"
+                        "$full_cite_format_neutral_3_4",
+                        "$volume_year\\s-$reporter-\\s$page"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "2005-NMCA-078"
+                "2005-NMCA-078",
+                "2005 -NMCA- 078"
             ],
             "mlz_jurisdiction": [
                 "us:nm;court.appeals",
@@ -18391,13 +18435,15 @@
                 "NMSC": {
                     "end": null,
                     "regexes": [
-                        "$full_cite_format_neutral_3_4"
+                        "$full_cite_format_neutral_3_4",
+                        "$volume_year\\s-$reporter-\\s$page"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "2010-NMSC-007"
+                "2010-NMSC-007",
+                "1973 -NMSC- 083"
             ],
             "mlz_jurisdiction": [
                 "us:nm;supreme.court",
@@ -19354,7 +19400,8 @@
                     "end": null,
                     "regexes": [
                         "$full_cite_format_neutral",
-                        "$volume_year $reporter $page"
+                        "$volume_year $reporter $page",
+                        "$volume_year\\s-$reporter-\\s$page"
                     ],
                     "start": "2002-01-01T00:00:00"
                 }
@@ -19362,7 +19409,8 @@
             "examples": [
                 "2017-Ohio-5699",
                 "2016 Ohio 2813",
-                "2010 OH 4907"
+                "2010 OH 4907",
+                "2017 -Ohio- 2951"
             ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court"
@@ -23750,6 +23798,25 @@
             "variations": {}
         }
     ],
+    "Soc. Sec. Rep. Serv.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Soc. Sec. Rep. Serv.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "6 Soc.Sec.Rep.Serv. 321"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Social Security Reporter",
+            "variations": {
+                "Soc.Sec.Rep.Serv": "Soc. Sec. Rep. Serv."
+            }
+        }
+    ],
     "Som. L.J.": [
         {
             "cite_type": "state",
@@ -25155,7 +25222,8 @@
                 "1982-1 Trade Cas. (CCH) par. 64,689",
                 "1940-1943 Trade Cas. (CCH) ¶ 56,104",
                 "1975 Trade Cas. (CCH) ¶ 60,219",
-                "1974-2 Trade Cas. (CCH) ¶ 75,282"
+                "1974-2 Trade Cas. (CCH) ¶ 75,282",
+                "1986-1 Trade Cas. (CCH) P66,984"
             ],
             "href": "http://w3.nexis.com/sources/scripts/info.pl?168025",
             "mlz_jurisdiction": [],
@@ -25916,7 +25984,8 @@
                 "1 CCH Unemployment Ins. Rep. para. 14,387",
                 "8 CCH, Unemployment Ins. Rep. W. Va. par. 8090",
                 "1A CCH, Unemployment Ins. Rep. (Ala.) par. 1950.74",
-                "4 CCH Unemployment Ins. Rep., Me. ¶ 1995.05"
+                "4 CCH Unemployment Ins. Rep., Me. ¶ 1995.05",
+                "Unemployment Ins. Rep. P9025"
             ],
             "mlz_jurisdiction": [],
             "name": "Unemployment Insurance Reports (CCH)",
