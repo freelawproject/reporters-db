@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.43 (2024-07-16): Add variations for a handful of reporters
+ - 3.2.44 (2024-08-23): Add NH Neutral Citation
 
 ## Past Versions
+
+ - 3.2.43 (2024-07-16): Add variations for a handful of reporters
 
  - 3.2.42 (2024-04-05): Update variations for US Code
 
