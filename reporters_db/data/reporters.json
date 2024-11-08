@@ -316,7 +316,7 @@
             },
             "href": "http://www.awcc.state.ar.us/index.html",
             "mlz_jurisdiction": [],
-            "name": "Arkansas Neutral Citation (Workers Compensation Commission",
+            "name": "Arkansas Neutral Citation (Workers Compensation Commission)",
             "notes": "The commission has no rule to use these citations, but the Arksansas reporter generates the citations anyway, and they wind up in Lexis that way.",
             "variations": {}
         }
@@ -3820,6 +3820,23 @@
             "variations": {}
         }
     ],
+    "CJ C.A.R.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "CJ C.A.R.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1999 CJ C.A.R. 4982"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Criminal Justice Cases and Annotated Reports",
+            "variations": {}
+        }
+    ],
     "CMA LEXIS": [
         {
             "cite_type": "specialty",
@@ -4450,6 +4467,23 @@
                 "Cal.Unrep.": "Cal. Unrep.",
                 "Cal.Unrep.Cas.": "Cal. Unrep."
             }
+        }
+    ],
+    "Cal. WCC": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Cal. WCC": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "2 Cal. WCC 1205"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "California Workers' Compensation Cases",
+            "variations": {}
         }
     ],
     "Call": [
@@ -5931,6 +5965,9 @@
             "editions": {
                 "Copyright L. Dec. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -8144,9 +8181,17 @@
             "editions": {
                 "F. App'x": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter,? $page_with_letter"
+                    ],
                     "start": "2001-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2004 Fed.App. 0437P",
+                "409 Fed. App'x 277"
+            ],
             "mlz_jurisdiction": [
                 "us:c10;court.appeals",
                 "us:c11;court.appeals",
@@ -8172,8 +8217,9 @@
                 "F.App'x": "F. App'x",
                 "F.App'x.": "F. App'x",
                 "F.App’x.": "F. App'x",
-                "Fed.App.": "F. App'x",
-                "Fed. App.": "F. App'x"
+                "Fed. App'x": "F. App'x",
+                "Fed. App.": "F. App'x",
+                "Fed.App.": "F. App'x"
             }
         }
     ],
@@ -15807,11 +15853,15 @@
             "editions": {
                 "Medicare & Medicaid Guide (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "Med & Med GD (CCH) P 301,883"
+                "Med & Med GD (CCH) P 301,883",
+                "Med & Med GD (CCH) P 121929"
             ],
             "mlz_jurisdiction": [],
             "name": "Medicare and Medicaid Guide",
@@ -18384,13 +18434,17 @@
             "editions": {
                 "NDLR": {
                     "end": null,
+                    "regexes": [
+                        "$volume $reporter $paragraph_marker_optional$page_with_commas"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
-            "mlz_jurisdiction": [],
             "examples": [
-                "29 NDLR P 127"
+                "29 NDLR P 127",
+                "43 NDLR P 87"
             ],
+            "mlz_jurisdiction": [],
             "name": "National Disability Law Repoter",
             "variations": {
                 "NDLR (LRP)": "NDLR",
@@ -19123,11 +19177,15 @@
             "editions": {
                 "Nuclear Reg. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "Nuclear Reg. Rep. P 20,683"
+                "Nuclear Reg. Rep. P 20,683",
+                "Nuclear Reg. Rep. P 23998U"
             ],
             "mlz_jurisdiction": [],
             "name": "Nuclear Regulation Reports",
@@ -21619,6 +21677,9 @@
             "editions": {
                 "Pens. Plan Guide (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -22043,6 +22104,9 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Prod.Liab.Rep. (CCH) P 16,708"
+            ],
             "mlz_jurisdiction": [],
             "name": "Products Liability Reports",
             "variations": {
@@ -22174,17 +22238,22 @@
             "editions": {
                 "RICO Bus. Disp. Guide (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$reporter $paragraph_marker_optional$page_with_commas"
+                    ],
                     "start": "1970-01-01T00:00:00"
                 }
             },
-            "example": [
-                "RICO Bus.Disp.Guide 11,151"
+            "examples": [
+                "RICO Bus.Disp.Guide 11,151",
+                "R.I.C.O. Bus. Disp. Guide (CCH) P 9217"
             ],
             "mlz_jurisdiction": [],
             "name": "RICO Business Disputes Guide (Commerce Clearing House)",
             "variations": {
+                "R.I.C.O. Bus. Disp. Guide (CCH)": "RICO Bus. Disp. Guide (CCH)",
                 "RICO Bus. Disp. Guide": "RICO Bus. Disp. Guide (CCH)",
-                "RICO Bus.Disp.Guide ": "RICO Bus. Disp. Guide (CCH)"
+                "RICO Bus.Disp.Guide": "RICO Bus. Disp. Guide (CCH)"
             }
         }
     ],
@@ -26049,6 +26118,8 @@
                 "Unemployment Ins. Rep.": {
                     "end": null,
                     "regexes": [
+                        "$full_cite_cch",
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix",
                         "$volume_with_alpha_suffix_optional$reporter,? (?P<jurisdiction>\\(?[A-Z][a-zA-Z .]+\\)? )?$paragraph_marker_optional$page_with_commas_or_periods"
                     ],
                     "start": "1750-01-01T00:00:00"
@@ -26068,6 +26139,7 @@
                 "CCH Unemployment Ins. Rep.": "Unemployment Ins. Rep.",
                 "CCH, Unemployment Ins. Rep.": "Unemployment Ins. Rep.",
                 "Unempl. Ins. Rep. (CCH)": "Unemployment Ins. Rep.",
+                "Unempl.Ins.Rep. (CCH)": "Unemployment Ins. Rep.",
                 "Unemployment Ins. Rep. (CCH)": "Unemployment Ins. Rep."
             }
         }
@@ -26160,6 +26232,10 @@
             "editions": {
                 "Util. L. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch",
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
