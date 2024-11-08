@@ -933,11 +933,16 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "18 A.D. Cases 651"
+            ],
             "mlz_jurisdiction": [
                 "us:c;tax.court"
             ],
             "name": "Americans with Disabilities Cases (BNA)",
-            "variations": {}
+            "variations": {
+                "A.D. Cases": "Am. Disabilities Cas. (BNA)"
+            }
         }
     ],
     "Am. Disabilities Dec.": [
@@ -5929,9 +5934,14 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2009 Copr.L.Dec. P 29,896"
+            ],
             "mlz_jurisdiction": [],
             "name": "Copyright Law Decisions",
-            "variations": {}
+            "variations": {
+                "Copr.L.Dec.": "Copyright L. Dec. (CCH)"
+            }
         }
     ],
     "Copyright L. Rep. (CCH)": [
@@ -8161,7 +8171,9 @@
                 "F. App’x": "F. App'x",
                 "F.App'x": "F. App'x",
                 "F.App'x.": "F. App'x",
-                "F.App’x.": "F. App'x"
+                "F.App’x.": "F. App'x",
+                "Fed.App.": "F. App'x",
+                "Fed. App.": "F. App'x"
             }
         }
     ],
@@ -11755,13 +11767,17 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "21 IER Cases 1326"
+            ],
             "mlz_jurisdiction": [],
             "name": "Individual Employment Rights Cases",
             "notes": "Bloomberg reporter",
             "variations": {
                 "BNA IER CAS": "I.E.R. Cas. (BNA)",
                 "I.E.R.": "I.E.R. Cas. (BNA)",
-                "I.E.R. Cas.": "I.E.R. Cas. (BNA)"
+                "I.E.R. Cas.": "I.E.R. Cas. (BNA)",
+                "IER Cases": "I.E.R. Cas. (BNA)"
             }
         }
     ],
@@ -13895,7 +13911,8 @@
                 "Lab. Cas. (CCH)": {
                     "end": null,
                     "regexes": [
-                        "$volume $reporter $paragraph_marker_optional$page_with_commas(A)?"
+                        "$volume $reporter $paragraph_marker_optional$page_with_commas(A)?",
+                        "$full_cite_cch"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -13906,7 +13923,9 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Labor Cases",
-            "variations": {}
+            "variations": {
+                "Lab.Cas.": "Lab. Cas. (CCH)"
+            }
         }
     ],
     "Lab. L. Rep. (CCH)": [
@@ -15791,9 +15810,14 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Med & Med GD (CCH) P 301,883"
+            ],
             "mlz_jurisdiction": [],
             "name": "Medicare and Medicaid Guide",
-            "variations": {}
+            "variations": {
+                "Med & Med GD (CCH)": "Medicare & Medicaid Guide (CCH)"
+            }
         }
     ],
     "Meigs": [
@@ -18364,6 +18388,9 @@
                 }
             },
             "mlz_jurisdiction": [],
+            "examples": [
+                "29 NDLR P 127"
+            ],
             "name": "National Disability Law Repoter",
             "variations": {
                 "NDLR (LRP)": "NDLR",
@@ -19099,9 +19126,14 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Nuclear Reg. Rep. P 20,683"
+            ],
             "mlz_jurisdiction": [],
             "name": "Nuclear Regulation Reports",
-            "variations": {}
+            "variations": {
+                "Nuclear Reg. Rep.": "Nuclear Reg. Rep. (CCH)"
+            }
         }
     ],
     "O. Supp.": [
@@ -21590,6 +21622,9 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Pens. Plan Guide (CCH) P 24002Z"
+            ],
             "mlz_jurisdiction": [],
             "name": "Pension Plan Guide",
             "variations": {}
@@ -22002,12 +22037,17 @@
             "editions": {
                 "Prod. Liab. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [],
             "name": "Products Liability Reports",
-            "variations": {}
+            "variations": {
+                "Prod.Liab.Rep. (CCH)": "Prod. Liab. Rep. (CCH)"
+            }
         }
     ],
     "Prod. Safety & Liab. Rep. (BNA)": [
@@ -22137,10 +22177,14 @@
                     "start": "1970-01-01T00:00:00"
                 }
             },
+            "example": [
+                "RICO Bus.Disp.Guide 11,151"
+            ],
             "mlz_jurisdiction": [],
             "name": "RICO Business Disputes Guide (Commerce Clearing House)",
             "variations": {
-                "RICO Bus. Disp. Guide": "RICO Bus. Disp. Guide (CCH)"
+                "RICO Bus. Disp. Guide": "RICO Bus. Disp. Guide (CCH)",
+                "RICO Bus.Disp.Guide ": "RICO Bus. Disp. Guide (CCH)"
             }
         }
     ],
@@ -25583,7 +25627,9 @@
                 "us:c0:dc.d;district.court"
             ],
             "name": "United States Court of Appeals Reports",
-            "variations": {}
+            "variations": {
+                "U.S.App.D.C.": "U.S. App. D.C."
+            }
         }
     ],
     "U.S. App. LEXIS": [
@@ -25809,13 +25855,16 @@
             },
             "examples": [
                 "57-2 U.S. Tax Cas. (CCH) P9816",
-                "2001-1 U.S. Tax Cas. (CCH) P54,209"
+                "2001-1 U.S. Tax Cas. (CCH) P54,209",
+                "2010-1 USTC P 50,213"
             ],
             "mlz_jurisdiction": [
                 "us:c;tax.court"
             ],
             "name": "United States (US) Tax Cases (CCH)",
-            "variations": {}
+            "variations": {
+                "USTC": "U.S. Tax Cas. (CCH)"
+            }
         }
     ],
     "U.S. Tax Ct. LEXIS": [
@@ -26114,9 +26163,14 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Util. L. Rep. P 14,520"
+            ],
             "mlz_jurisdiction": [],
             "name": "Utilities Law Reports",
-            "variations": {}
+            "variations": {
+                "Util. L. Rep.": "Util. L. Rep. (CCH)"
+            }
         }
     ],
     "V.I.": [
