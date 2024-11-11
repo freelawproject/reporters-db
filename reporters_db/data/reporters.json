@@ -870,6 +870,11 @@
                     "start": "1904-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "11 Am. Ann. Cas. 198",
+                "Am.Ann.Cas. 1916C, 1093",
+                "Am.Ann.Cas. 1916E,157"
+            ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court",
                 "us:in;supreme.court",
@@ -1476,14 +1481,17 @@
             },
             "examples": [
                 "44 App. D.C. 154b",
-                "48 App. D.C. 606"
+                "48 App. D.C. 606",
+                "72 App.D.C. 155"
             ],
             "mlz_jurisdiction": [
                 "us:dc;court.appeals",
                 "us:c0;court.appeals"
             ],
             "name": "Appeal Cases, District of Columbia",
-            "variations": {}
+            "variations": {
+                "App.D.C.": "App. D.C."
+            }
         }
     ],
     "Ariz.": [
@@ -3153,12 +3161,24 @@
             "editions": {
                 "Blue Sky L. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch",
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 BLUE SKY L. REP. (CCH) 14,505",
+                "Blue Sky L. Rep. P 71,399",
+                "1 Blue Sky L. Rep. (CCH) ¶ 5500"
+            ],
             "mlz_jurisdiction": [],
             "name": "Blue Sky Law Reports",
-            "variations": {}
+            "variations": {
+                "BLUE SKY L. REP. (CCH)": "Blue Sky L. Rep. (CCH)",
+                "Blue Sky L. Rep.": "Blue Sky L. Rep. (CCH)"
+            }
         }
     ],
     "Blume Sup. Ct. Trans.": [
@@ -5063,13 +5083,19 @@
                     "start": "1983-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "15 Cl.Ct. 212",
+                "11 Cl. Ct. 34"
+            ],
             "mlz_jurisdiction": [
                 "us:c;court.claims",
                 "us;supreme.court",
                 "us:c;court.appeals.federal.circuit"
             ],
             "name": "United States Claims Court Reporter",
-            "variations": {}
+            "variations": {
+                "Cl.Ct.": "Cl. Ct."
+            }
         }
     ],
     "Clayton's Notebook": [
@@ -7121,12 +7147,18 @@
                     "start": "1879-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "6 Dem.Surr. 478",
+                "1 Dem. Sur. 486"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals",
                 "us:ny;surrogates.court"
             ],
             "name": "Demarest's Surrogate's Reports",
-            "variations": {}
+            "variations": {
+                "Dem.Surr.": "Dem. Sur."
+            }
         }
     ],
     "Dem. Surr.": [
@@ -9634,6 +9666,9 @@
                     "start": "1978-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "10 Fla. L. Weekly 2563"
+            ],
             "mlz_jurisdiction": [
                 "us:fl;supreme.court",
                 "us:c11;court.appeals"
@@ -9676,6 +9711,9 @@
             "editions": {
                 "Fla. L. Weekly Fed. D": {
                     "end": null,
+                    "regexes": [
+                        "$volume $reporter,? D?(?P<page>\\d+)"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -9686,7 +9724,7 @@
             "mlz_jurisdiction": [],
             "name": "Florida (FL) Law Weekly Federal, District Court",
             "variations": {
-                "Fla. L. Weekly D": "Fla. L. Weekly Fed. D"
+                "Fla. L. Weekly": "Fla. L. Weekly Fed. D"
             }
         }
     ],
@@ -9696,14 +9734,23 @@
             "editions": {
                 "Fla. L. Weekly Fed. S": {
                     "end": null,
+                    "regexes": [
+                        "$volume $reporter,? S?(?P<page>\\d+)"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "42 Fla. L. Weekly S827",
+                "28 Fla. L. Weekly Fed. S 1071"
+            ],
             "mlz_jurisdiction": [
                 "us;supreme.court"
             ],
             "name": "Florida (FL) Law Weekly Federal, Supreme Court",
-            "variations": {}
+            "variations": {
+                "Fla. L. Weekly": "Fla. L. Weekly Fed. S"
+            }
         }
     ],
     "Fla. L. Weekly Supp.": [
@@ -13529,6 +13576,11 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "40 L.R.A. 437",
+                "L.R.A. 1915A, 601",
+                "L.R.A. 1918F,891"
+            ],
             "mlz_jurisdiction": [],
             "name": "Lawyers' Reports Annotated",
             "notes": "N.S. stands for new series",
@@ -14728,14 +14780,15 @@
                 "ME": {
                     "end": null,
                     "regexes": [
-                        "(?P<volume>20\\d{2}) $reporter $page"
+                        "(?P<volume>(19|20)\\d{2}) $reporter $page"
                     ],
                     "start": "1996-01-01T00:00:00"
                 }
             },
             "examples": [
                 "2022 ME 123",
-                "2012 Me. 123"
+                "2012 Me. 123",
+                "1997 ME 205"
             ],
             "mlz_jurisdiction": [
                 "us:me;supreme.judicial.court"
@@ -16489,6 +16542,10 @@
                     "start": "1876-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "201 Mo.App. 523",
+                "156 Mo. App. 18"
+            ],
             "mlz_jurisdiction": [
                 "us:mo;supreme.court",
                 "us:ks;court.appeals",
@@ -16496,6 +16553,7 @@
             ],
             "name": "Missouri Appeals Reports",
             "variations": {
+                "Mo.App.": "Mo. App.",
                 "Mo.App.Rep.": "Mo. App."
             }
         }
@@ -18519,13 +18577,15 @@
                 "NMCERT": {
                     "end": null,
                     "regexes": [
-                        "$full_cite_format_neutral_3_4"
+                        "$full_cite_format_neutral_3_4",
+                        "$volume_year\\s-$reporter-\\s$page"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "2010-NMCERT-001"
+                "2010-NMCERT-001",
+                "2008 -NMCERT- 012"
             ],
             "mlz_jurisdiction": [
                 "us:nm;supreme.court"
@@ -19022,11 +19082,16 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "132 Nev. Adv. Op. 69",
+                "140 Nev. Adv. Op. No. 70"
+            ],
             "mlz_jurisdiction": [
                 "us:nv;supreme.court"
             ],
             "name": "Nevada Advanced Opinion",
             "variations": {
+                "Nev. Adv. Op.": "Nev. Adv. Op. No.",
                 "Nev., Advance Opinion": "Nev. Adv. Op. No."
             }
         }
@@ -19322,6 +19387,9 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "O.S.U. 844"
+            ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court"
             ],
