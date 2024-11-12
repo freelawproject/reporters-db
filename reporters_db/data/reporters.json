@@ -495,6 +495,26 @@
             }
         }
     ],
+    "Abbotts": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Abbotts": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Abbotts 112",
+                "9 Abbotts 618",
+                "12 Abbotts 34"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Abbott's Reports",
+            "notes": "This series covered important New York state court cases and included several variations like Abbott's Practice Reports and Abbott's New Cases, focusing on procedural and substantive decisions within New York’s legal system.",
+            "variations": {}
+        }
+    ],
     "Accom. Disabilities Dec. (CCH)": [
         {
             "cite_type": "specialty",
@@ -4870,7 +4890,8 @@
             },
             "examples": [
                 "10 Chi. Leg. News (1878) 353",
-                "3 Chi. Leg. News, 260"
+                "3 Chi. Leg. News, 260",
+                "10 Chi.Leg.N. 41"
             ],
             "mlz_jurisdiction": [
                 "us:c7:il.nd;district.court",
@@ -4932,7 +4953,8 @@
             "name": "Chicago Legal News (1868-1925) (Illinois)",
             "variations": {
                 "Chi Leg. News": "Chi. Leg. News",
-                "Chi. Leg. News.": "Chi. Leg. News"
+                "Chi. Leg. News.": "Chi. Leg. News",
+                "Chi.Leg.N.": "Chi. Leg. News"
             }
         }
     ],
@@ -5542,9 +5564,17 @@
             "editions": {
                 "Comm. Fut. L. Rep.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch",
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Comm. Fut. L. Rep. P 33,470",
+                "Comm. Fut. L. Rep. (CCH) 26,653"
+            ],
             "mlz_jurisdiction": [],
             "name": "Commodity Futures Law Reporter (CCH)",
             "variations": {
@@ -5830,6 +5860,22 @@
             "name": "Connecticut Supplement",
             "variations": {
                 "Conn.Supp.": "Conn. Supp."
+            }
+        }
+    ],
+    "Conn. Surr.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Conn. Surr.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Connecticut Surrogate Reports",
+            "variations": {
+                "Conn.Surr.": "Conn. Surr."
             }
         }
     ],
@@ -6523,6 +6569,23 @@
                 "us:dc;superior.court"
             ],
             "name": "LexisNexis Washington D.C. Superior Court",
+            "variations": {}
+        }
+    ],
+    "DJCAR": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "DJCAR": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "2001 DJCAR 4557"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Daily Journal of California Reports",
             "variations": {}
         }
     ],
@@ -7840,12 +7903,22 @@
             "editions": {
                 "Energy Mgmt. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch",
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Energy Mgt. P 26,605",
+                "4 Energy Mgmt. (CCH) ¶ 26,405"
+            ],
             "mlz_jurisdiction": [],
             "name": "Energy Management & Federal Energy Guidelines",
-            "variations": {}
+            "variations": {
+                "Energy Mgt.": "Energy Mgmt. (CCH)"
+            }
         }
     ],
     "Env't Rep. (BNA)": [
@@ -8888,6 +8961,23 @@
             "variations": {}
         }
     ],
+    "FCDR": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "FCDR": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "12 FCDR 3667"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Florida Cases Daily Report",
+            "variations": {}
+        }
+    ],
     "FED App.": [
         {
             "cite_type": "federal",
@@ -9475,7 +9565,8 @@
             "mlz_jurisdiction": [],
             "name": "Federal Sentencing Reporter",
             "variations": {
-                "Fed. Sent. R.": "Fed. Sent'g Rep"
+                "Fed. Sent. R.": "Fed. Sent'g Rep",
+                "Fed.Sent.R.": "Fed. Sent'g Rep"
             }
         }
     ],
@@ -14394,7 +14485,8 @@
             ],
             "name": "Legal Record Reports (1-2 Schuykill Co. (Pa.)",
             "variations": {
-                "Leg. Rec.": "Leg. Rec. Rep."
+                "Leg. Rec.": "Leg. Rec. Rep.",
+                "Leg.Rec.": "Leg. Rec. Rep."
             }
         }
     ],
@@ -18087,6 +18179,7 @@
             ],
             "name": "New York Civil Procedure Reports",
             "variations": {
+                "Civ. Proc. N.S.": "N.Y. Civ. Proc. R.",
                 "Civ. Proc. R.": "N.Y. Civ. Proc. R.",
                 "Civil Proc. R.": "N.Y. Civ. Proc. R.",
                 "N.Y. Civ. Proc. Rep.": "N.Y. Civ. Proc. R.",
@@ -22157,7 +22250,9 @@
                 "us:ny;surrogates.court"
             ],
             "name": "Power's Surrogate's Reports",
-            "variations": {}
+            "variations": {
+                "Power": "Pow. Surr."
+            }
         }
     ],
     "Prod. Liab. Rep. (CCH)": [
@@ -23743,7 +23838,8 @@
             ],
             "name": "Shannon's Tennessee Cases",
             "variations": {
-                "Tenn. Cas.": "Shan. Cas."
+                "Tenn. Cas.": "Shan. Cas.",
+                "Tenn.Cas.": "Shan. Cas."
             }
         }
     ],
