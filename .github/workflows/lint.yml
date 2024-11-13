@@ -13,3 +13,5 @@ jobs:
           python-version: "3.8"
       - name: Black Code Formatter
         uses: psf/black@stable
+        with:
+          version: "22.8.0"

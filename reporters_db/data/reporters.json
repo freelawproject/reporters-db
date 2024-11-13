@@ -316,7 +316,7 @@
             },
             "href": "http://www.awcc.state.ar.us/index.html",
             "mlz_jurisdiction": [],
-            "name": "Arkansas Neutral Citation (Workers Compensation Commission",
+            "name": "Arkansas Neutral Citation (Workers Compensation Commission)",
             "notes": "The commission has no rule to use these citations, but the Arksansas reporter generates the citations anyway, and they wind up in Lexis that way.",
             "variations": {}
         }
@@ -495,6 +495,26 @@
             }
         }
     ],
+    "Abbotts": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Abbotts": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1 Abbotts 112",
+                "9 Abbotts 618",
+                "12 Abbotts 34"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Abbott's Reports",
+            "notes": "This series covered important New York state court cases and included several variations like Abbott's Practice Reports and Abbott's New Cases, focusing on procedural and substantive decisions within New York’s legal system.",
+            "variations": {}
+        }
+    ],
     "Accom. Disabilities Dec. (CCH)": [
         {
             "cite_type": "specialty",
@@ -516,11 +536,14 @@
             "editions": {
                 "Add.": {
                     "end": "1799-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1791-01-01T00:00:00"
                 }
             },
             "examples": [
-                "Graham v. Goudy, Add. 55"
+                "Add. 55"
             ],
             "mlz_jurisdiction": [
                 "us:pa;supreme.court",
@@ -568,24 +591,26 @@
             }
         }
     ],
-    "Agric. Dec": [
+    "Agric. Dec.": [
         {
             "cite_type": "federal",
             "editions": {
-                "Agric. Dec": {
+                "Agric. Dec.": {
                     "end": null,
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "55 Agric Dec. 1121"
+                "55 Agric. Dec 1121"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
             "mlz_jurisdiction": [
                 "us;federal"
             ],
             "name": "Agriculture Decisions",
-            "variations": {}
+            "variations": {
+                "Agric. Dec": "Agric. Dec."
+            }
         }
     ],
     "Aik.": [
@@ -867,9 +892,18 @@
             "editions": {
                 "Am. Ann. Cas.": {
                     "end": "1912-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$reporter (?P<volume>19\\d+[A-F]),\\s?(?P<page>\\d+)"
+                    ],
                     "start": "1904-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "11 Am. Ann. Cas. 198",
+                "Am.Ann.Cas. 1916C, 1093",
+                "Am.Ann.Cas. 1916E,157"
+            ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court",
                 "us:in;supreme.court",
@@ -933,11 +967,16 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "18 A.D. Cases 651"
+            ],
             "mlz_jurisdiction": [
                 "us:c;tax.court"
             ],
             "name": "Americans with Disabilities Cases (BNA)",
-            "variations": {}
+            "variations": {
+                "A.D. Cases": "Am. Disabilities Cas. (BNA)"
+            }
         }
     ],
     "Am. Disabilities Dec.": [
@@ -994,12 +1033,16 @@
                 },
                 "Am. Law Reg. (N.S.)": {
                     "end": "1878-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1862-01-01T00:00:00"
                 }
             },
             "examples": [
                 "9 Am. Law Reg. 661",
-                "5 Am. Law Reg. (1857) 280"
+                "5 Am. Law Reg. (1857) 280",
+                "1 Am. Law Reg. (N.S.) 1"
             ],
             "mlz_jurisdiction": [
                 "us:pa;supreme.court",
@@ -1471,14 +1514,17 @@
             },
             "examples": [
                 "44 App. D.C. 154b",
-                "48 App. D.C. 606"
+                "48 App. D.C. 606",
+                "72 App.D.C. 155"
             ],
             "mlz_jurisdiction": [
                 "us:dc;court.appeals",
                 "us:c0;court.appeals"
             ],
             "name": "Appeal Cases, District of Columbia",
-            "variations": {}
+            "variations": {
+                "App.D.C.": "App. D.C."
+            }
         }
     ],
     "Ariz.": [
@@ -2306,6 +2352,9 @@
             "editions": {
                 "Baldw.": {
                     "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -3148,12 +3197,24 @@
             "editions": {
                 "Blue Sky L. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch",
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 BLUE SKY L. REP. (CCH) 14,505",
+                "Blue Sky L. Rep. P 71,399",
+                "1 Blue Sky L. Rep. (CCH) ¶ 5500"
+            ],
             "mlz_jurisdiction": [],
             "name": "Blue Sky Law Reports",
-            "variations": {}
+            "variations": {
+                "BLUE SKY L. REP. (CCH)": "Blue Sky L. Rep. (CCH)",
+                "Blue Sky L. Rep.": "Blue Sky L. Rep. (CCH)"
+            }
         }
     ],
     "Blume Sup. Ct. Trans.": [
@@ -3815,6 +3876,23 @@
             "variations": {}
         }
     ],
+    "CJ C.A.R.": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "CJ C.A.R.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1999 CJ C.A.R. 4982"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Criminal Justice Cases and Annotated Reports",
+            "variations": {}
+        }
+    ],
     "CMA LEXIS": [
         {
             "cite_type": "specialty",
@@ -4447,6 +4525,23 @@
             }
         }
     ],
+    "Cal. WCC": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "Cal. WCC": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "2 Cal. WCC 1205"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "California Workers' Compensation Cases",
+            "variations": {}
+        }
+    ],
     "Call": [
         {
             "cite_type": "state",
@@ -4694,6 +4789,9 @@
             "editions": {
                 "Chase's Trial. Append.": {
                     "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -4811,7 +4909,8 @@
             },
             "examples": [
                 "10 Chi. Leg. News (1878) 353",
-                "3 Chi. Leg. News, 260"
+                "3 Chi. Leg. News, 260",
+                "10 Chi.Leg.N. 41"
             ],
             "mlz_jurisdiction": [
                 "us:c7:il.nd;district.court",
@@ -4873,7 +4972,8 @@
             "name": "Chicago Legal News (1868-1925) (Illinois)",
             "variations": {
                 "Chi Leg. News": "Chi. Leg. News",
-                "Chi. Leg. News.": "Chi. Leg. News"
+                "Chi. Leg. News.": "Chi. Leg. News",
+                "Chi.Leg.N.": "Chi. Leg. News"
             }
         }
     ],
@@ -5024,13 +5124,19 @@
                     "start": "1983-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "15 Cl.Ct. 212",
+                "11 Cl. Ct. 34"
+            ],
             "mlz_jurisdiction": [
                 "us:c;court.claims",
                 "us;supreme.court",
                 "us:c;court.appeals.federal.circuit"
             ],
             "name": "United States Claims Court Reporter",
-            "variations": {}
+            "variations": {
+                "Cl.Ct.": "Cl. Ct."
+            }
         }
     ],
     "Clayton's Notebook": [
@@ -5477,9 +5583,17 @@
             "editions": {
                 "Comm. Fut. L. Rep.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch",
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Comm. Fut. L. Rep. P 33,470",
+                "Comm. Fut. L. Rep. (CCH) 26,653"
+            ],
             "mlz_jurisdiction": [],
             "name": "Commodity Futures Law Reporter (CCH)",
             "variations": {
@@ -5768,6 +5882,22 @@
             }
         }
     ],
+    "Conn. Surr.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Conn. Surr.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Connecticut Surrogate Reports",
+            "variations": {
+                "Conn.Surr.": "Conn. Surr."
+            }
+        }
+    ],
     "Connoly": [
         {
             "cite_type": "state",
@@ -5926,12 +6056,20 @@
             "editions": {
                 "Copyright L. Dec. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2009 Copr.L.Dec. P 29,896"
+            ],
             "mlz_jurisdiction": [],
             "name": "Copyright Law Decisions",
-            "variations": {}
+            "variations": {
+                "Copr.L.Dec.": "Copyright L. Dec. (CCH)"
+            }
         }
     ],
     "Copyright L. Rep. (CCH)": [
@@ -6453,6 +6591,23 @@
             "variations": {}
         }
     ],
+    "DJCAR": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "DJCAR": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "2001 DJCAR 4557"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Daily Journal of California Reports",
+            "variations": {}
+        }
+    ],
     "DNH": [
         {
             "cite_type": "federal",
@@ -6880,7 +7035,9 @@
                 "us;federal"
             ],
             "name": "Decisions of the Commissioner of Patents",
-            "variations": {}
+            "variations": {
+                "Dec. Comm’r Pat.": "Dec. Comm'r Pat."
+            }
         }
     ],
     "Del.": [
@@ -7074,12 +7231,18 @@
                     "start": "1879-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "6 Dem.Surr. 478",
+                "1 Dem. Sur. 486"
+            ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals",
                 "us:ny;surrogates.court"
             ],
             "name": "Demarest's Surrogate's Reports",
-            "variations": {}
+            "variations": {
+                "Dem.Surr.": "Dem. Sur."
+            }
         }
     ],
     "Dem. Surr.": [
@@ -7761,12 +7924,22 @@
             "editions": {
                 "Energy Mgmt. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch",
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Energy Mgt. P 26,605",
+                "4 Energy Mgmt. (CCH) ¶ 26,405"
+            ],
             "mlz_jurisdiction": [],
             "name": "Energy Management & Federal Energy Guidelines",
-            "variations": {}
+            "variations": {
+                "Energy Mgt.": "Energy Mgmt. (CCH)"
+            }
         }
     ],
     "Env't Rep. (BNA)": [
@@ -8134,9 +8307,17 @@
             "editions": {
                 "F. App'x": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter,? $page_with_letter"
+                    ],
                     "start": "2001-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2004 Fed.App. 0437P",
+                "409 Fed. App'x 277"
+            ],
             "mlz_jurisdiction": [
                 "us:c10;court.appeals",
                 "us:c11;court.appeals",
@@ -8161,7 +8342,10 @@
                 "F. App’x": "F. App'x",
                 "F.App'x": "F. App'x",
                 "F.App'x.": "F. App'x",
-                "F.App’x.": "F. App'x"
+                "F.App’x.": "F. App'x",
+                "Fed. App'x": "F. App'x",
+                "Fed. App.": "F. App'x",
+                "Fed.App.": "F. App'x"
             }
         }
     ],
@@ -8798,6 +8982,23 @@
             "variations": {}
         }
     ],
+    "FCDR": [
+        {
+            "cite_type": "specialty",
+            "editions": {
+                "FCDR": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "12 FCDR 3667"
+            ],
+            "mlz_jurisdiction": [],
+            "name": "Florida Cases Daily Report",
+            "variations": {}
+        }
+    ],
     "FED App.": [
         {
             "cite_type": "federal",
@@ -9040,6 +9241,9 @@
             "editions": {
                 "Fed. Carr. Cas. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1936-01-01T00:00:00"
                 }
             },
@@ -9385,7 +9589,8 @@
             "mlz_jurisdiction": [],
             "name": "Federal Sentencing Reporter",
             "variations": {
-                "Fed. Sent. R.": "Fed. Sent'g Rep"
+                "Fed. Sent. R.": "Fed. Sent'g Rep",
+                "Fed.Sent.R.": "Fed. Sent'g Rep"
             }
         }
     ],
@@ -9576,6 +9781,9 @@
                     "start": "1978-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "10 Fla. L. Weekly 2563"
+            ],
             "mlz_jurisdiction": [
                 "us:fl;supreme.court",
                 "us:c11;court.appeals"
@@ -9618,6 +9826,9 @@
             "editions": {
                 "Fla. L. Weekly Fed. D": {
                     "end": null,
+                    "regexes": [
+                        "$volume $reporter,? D?(?P<page>\\d+)"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -9628,7 +9839,7 @@
             "mlz_jurisdiction": [],
             "name": "Florida (FL) Law Weekly Federal, District Court",
             "variations": {
-                "Fla. L. Weekly D": "Fla. L. Weekly Fed. D"
+                "Fla. L. Weekly": "Fla. L. Weekly Fed. D"
             }
         }
     ],
@@ -9638,14 +9849,23 @@
             "editions": {
                 "Fla. L. Weekly Fed. S": {
                     "end": null,
+                    "regexes": [
+                        "$volume $reporter,? S?(?P<page>\\d+)"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "42 Fla. L. Weekly S827",
+                "28 Fla. L. Weekly Fed. S 1071"
+            ],
             "mlz_jurisdiction": [
                 "us;supreme.court"
             ],
             "name": "Florida (FL) Law Weekly Federal, Supreme Court",
-            "variations": {}
+            "variations": {
+                "Fla. L. Weekly": "Fla. L. Weekly Fed. S"
+            }
         }
     ],
     "Fla. L. Weekly Supp.": [
@@ -11755,13 +11975,17 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "21 IER Cases 1326"
+            ],
             "mlz_jurisdiction": [],
             "name": "Individual Employment Rights Cases",
             "notes": "Bloomberg reporter",
             "variations": {
                 "BNA IER CAS": "I.E.R. Cas. (BNA)",
                 "I.E.R.": "I.E.R. Cas. (BNA)",
-                "I.E.R. Cas.": "I.E.R. Cas. (BNA)"
+                "I.E.R. Cas.": "I.E.R. Cas. (BNA)",
+                "IER Cases": "I.E.R. Cas. (BNA)"
             }
         }
     ],
@@ -12060,13 +12284,17 @@
                 },
                 "Ill. 2d": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1849-01-01T00:00:00"
                 }
             },
             "examples": [
                 "1 Ill. 1",
                 "6 Ill. (1 Gilm.) 456",
-                "1 Ill. (Breese) 456"
+                "1 Ill. (Breese) 456",
+                "694 Ill. 2d 217"
             ],
             "mlz_jurisdiction": [
                 "us:il;supreme.court",
@@ -13454,26 +13682,44 @@
             }
         }
     ],
+    "L.R.A (N.S.)": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "L.R.A (N.S.)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Lawyers' Reports Annotated New Series",
+            "notes": "N.S. stands for new series",
+            "variations": {
+                "L.R.A.N.S.": "L.R.A (N.S.)"
+            }
+        }
+    ],
     "L.R.A.": [
         {
             "cite_type": "federal",
             "editions": {
                 "L.R.A.": {
                     "end": null,
-                    "start": "1750-01-01T00:00:00"
-                },
-                "L.R.A.N.S.": {
-                    "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$reporter (?P<volume>1[789]\\d{2}[A-F]?),? ?(?P<page>\\d{1,4})"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "40 L.R.A. 437",
+                "L.R.A. 1915A, 601",
+                "L.R.A. 1918F,891"
+            ],
             "mlz_jurisdiction": [],
             "name": "Lawyers' Reports Annotated",
-            "notes": "N.S. stands for new series",
-            "variations": {
-                "L. R. A.,": "L.R.A.",
-                "L.R.A (N.S.)": "L.R.A.N.S."
-            }
+            "variations": {}
         }
     ],
     "L.R.R.M. (BNA)": [
@@ -13895,7 +14141,8 @@
                 "Lab. Cas. (CCH)": {
                     "end": null,
                     "regexes": [
-                        "$volume $reporter $paragraph_marker_optional$page_with_commas(A)?"
+                        "$volume $reporter $paragraph_marker_optional$page_with_commas(A)?",
+                        "$full_cite_cch"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -13906,7 +14153,9 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Labor Cases",
-            "variations": {}
+            "variations": {
+                "Lab.Cas.": "Lab. Cas. (CCH)"
+            }
         }
     ],
     "Lab. L. Rep. (CCH)": [
@@ -14277,7 +14526,8 @@
             ],
             "name": "Legal Record Reports (1-2 Schuykill Co. (Pa.)",
             "variations": {
-                "Leg. Rec.": "Leg. Rec. Rep."
+                "Leg. Rec.": "Leg. Rec. Rep.",
+                "Leg.Rec.": "Leg. Rec. Rep."
             }
         }
     ],
@@ -14663,14 +14913,15 @@
                 "ME": {
                     "end": null,
                     "regexes": [
-                        "(?P<volume>20\\d{2}) $reporter $page"
+                        "(?P<volume>(19|20)\\d{2}) $reporter $page"
                     ],
                     "start": "1996-01-01T00:00:00"
                 }
             },
             "examples": [
                 "2022 ME 123",
-                "2012 Me. 123"
+                "2012 Me. 123",
+                "1997 ME 205"
             ],
             "mlz_jurisdiction": [
                 "us:me;supreme.judicial.court"
@@ -15317,11 +15568,14 @@
             "editions": {
                 "McCahon": {
                     "end": "1868-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter, $page"
+                    ],
                     "start": "1858-01-01T00:00:00"
                 }
             },
             "examples": [
-                "McCahon 206"
+                "McCahon, 206"
             ],
             "mlz_jurisdiction": [
                 "us:ks;supreme.court"
@@ -15788,12 +16042,21 @@
             "editions": {
                 "Medicare & Medicaid Guide (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Med & Med GD (CCH) P 301,883",
+                "Med & Med GD (CCH) P 121929"
+            ],
             "mlz_jurisdiction": [],
             "name": "Medicare and Medicaid Guide",
-            "variations": {}
+            "variations": {
+                "Med & Med GD (CCH)": "Medicare & Medicaid Guide (CCH)"
+            }
         }
     ],
     "Meigs": [
@@ -16249,10 +16512,16 @@
             "editions": {
                 "Misc.": {
                     "end": "1955-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1892-01-01T00:00:00"
                 },
                 "Misc. 2d": {
                     "end": "2004-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1955-01-01T00:00:00"
                 },
                 "Misc. 3d": {
@@ -16266,7 +16535,9 @@
             },
             "examples": [
                 "81 Misc 3d 1211(A)",
-                "81 Misc 3d 1211"
+                "81 Misc 3d 1211",
+                "2 Misc Rep. 9",
+                "62 Misc.2d 21"
             ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals",
@@ -16415,6 +16686,10 @@
                     "start": "1876-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "201 Mo.App. 523",
+                "156 Mo. App. 18"
+            ],
             "mlz_jurisdiction": [
                 "us:mo;supreme.court",
                 "us:ks;court.appeals",
@@ -16422,6 +16697,7 @@
             ],
             "name": "Missouri Appeals Reports",
             "variations": {
+                "Mo.App.": "Mo. App.",
                 "Mo.App.Rep.": "Mo. App."
             }
         }
@@ -17955,6 +18231,7 @@
             ],
             "name": "New York Civil Procedure Reports",
             "variations": {
+                "Civ. Proc. N.S.": "N.Y. Civ. Proc. R.",
                 "Civ. Proc. R.": "N.Y. Civ. Proc. R.",
                 "Civil Proc. R.": "N.Y. Civ. Proc. R.",
                 "N.Y. Civ. Proc. Rep.": "N.Y. Civ. Proc. R.",
@@ -18192,6 +18469,9 @@
             "editions": {
                 "N.Y.S.": {
                     "end": "1937-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1888-01-01T00:00:00"
                 },
                 "N.Y.S.2d": {
@@ -18204,12 +18484,17 @@
                 },
                 "N.Y.S.3d": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1938-01-01T00:00:00"
                 }
             },
             "examples": [
                 "64 NYS2d 1",
-                "1 NYS2d 1f"
+                "1 NYS2d 1f",
+                "53 New York Supp. 67",
+                "1 N.Y.S. 3d 3"
             ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals",
@@ -18360,9 +18645,16 @@
             "editions": {
                 "NDLR": {
                     "end": null,
+                    "regexes": [
+                        "$volume $reporter $paragraph_marker_optional$page_with_commas"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "29 NDLR P 127",
+                "43 NDLR P 87"
+            ],
             "mlz_jurisdiction": [],
             "name": "National Disability Law Repoter",
             "variations": {
@@ -18438,13 +18730,15 @@
                 "NMCERT": {
                     "end": null,
                     "regexes": [
-                        "$full_cite_format_neutral_3_4"
+                        "$full_cite_format_neutral_3_4",
+                        "$volume_year\\s-$reporter-\\s$page"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "2010-NMCERT-001"
+                "2010-NMCERT-001",
+                "2008 -NMCERT- 012"
             ],
             "mlz_jurisdiction": [
                 "us:nm;supreme.court"
@@ -18941,11 +19235,16 @@
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "132 Nev. Adv. Op. 69",
+                "140 Nev. Adv. Op. No. 70"
+            ],
             "mlz_jurisdiction": [
                 "us:nv;supreme.court"
             ],
             "name": "Nevada Advanced Opinion",
             "variations": {
+                "Nev. Adv. Op.": "Nev. Adv. Op. No.",
                 "Nev., Advance Opinion": "Nev. Adv. Op. No."
             }
         }
@@ -19096,12 +19395,21 @@
             "editions": {
                 "Nuclear Reg. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Nuclear Reg. Rep. P 20,683",
+                "Nuclear Reg. Rep. P 23998U"
+            ],
             "mlz_jurisdiction": [],
             "name": "Nuclear Regulation Reports",
-            "variations": {}
+            "variations": {
+                "Nuclear Reg. Rep.": "Nuclear Reg. Rep. (CCH)"
+            }
         }
     ],
     "O. Supp.": [
@@ -19229,9 +19537,17 @@
             "editions": {
                 "O.S.U.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "O.S.U. 844",
+                "1 O.S.U. 1"
+            ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court"
             ],
@@ -19591,7 +19907,8 @@
                 }
             },
             "examples": [
-                "17 Ohio C.C. (n.s) 289"
+                "17 Ohio C.C. 289",
+                "17 Ohio C.C. (n.s.) 289"
             ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court",
@@ -21587,9 +21904,15 @@
             "editions": {
                 "Pens. Plan Guide (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Pens. Plan Guide (CCH) P 24002Z"
+            ],
             "mlz_jurisdiction": [],
             "name": "Pension Plan Guide",
             "variations": {}
@@ -21993,7 +22316,9 @@
                 "us:ny;surrogates.court"
             ],
             "name": "Power's Surrogate's Reports",
-            "variations": {}
+            "variations": {
+                "Power": "Pow. Surr."
+            }
         }
     ],
     "Prod. Liab. Rep. (CCH)": [
@@ -22002,12 +22327,20 @@
             "editions": {
                 "Prod. Liab. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Prod.Liab.Rep. (CCH) P 16,708"
+            ],
             "mlz_jurisdiction": [],
             "name": "Products Liability Reports",
-            "variations": {}
+            "variations": {
+                "Prod.Liab.Rep. (CCH)": "Prod. Liab. Rep. (CCH)"
+            }
         }
     ],
     "Prod. Safety & Liab. Rep. (BNA)": [
@@ -22134,13 +22467,22 @@
             "editions": {
                 "RICO Bus. Disp. Guide (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$reporter $paragraph_marker_optional$page_with_commas"
+                    ],
                     "start": "1970-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "RICO Bus.Disp.Guide 11,151",
+                "R.I.C.O. Bus. Disp. Guide (CCH) P 9217"
+            ],
             "mlz_jurisdiction": [],
             "name": "RICO Business Disputes Guide (Commerce Clearing House)",
             "variations": {
-                "RICO Bus. Disp. Guide": "RICO Bus. Disp. Guide (CCH)"
+                "R.I.C.O. Bus. Disp. Guide (CCH)": "RICO Bus. Disp. Guide (CCH)",
+                "RICO Bus. Disp. Guide": "RICO Bus. Disp. Guide (CCH)",
+                "RICO Bus.Disp.Guide": "RICO Bus. Disp. Guide (CCH)"
             }
         }
     ],
@@ -23110,6 +23452,9 @@
             "editions": {
                 "S.W.": {
                     "end": "1928-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1886-01-01T00:00:00"
                 },
                 "S.W.2d": {
@@ -23135,7 +23480,8 @@
                 "47 S. W. 2d XI",
                 "47 SW 3d 1",
                 "7 S.W. 3d LII",
-                "7 S.W. 3d iv"
+                "7 S.W. 3d iv",
+                "23 S.W. 215"
             ],
             "mlz_jurisdiction": [
                 "us:ar;supreme.court",
@@ -23562,7 +23908,8 @@
             ],
             "name": "Shannon's Tennessee Cases",
             "variations": {
-                "Tenn. Cas.": "Shan. Cas."
+                "Tenn. Cas.": "Shan. Cas.",
+                "Tenn.Cas.": "Shan. Cas."
             }
         }
     ],
@@ -23738,10 +24085,16 @@
             "editions": {
                 "So.": {
                     "end": "1941-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1886-01-01T00:00:00"
                 },
                 "So. 2d": {
                     "end": "2008-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1941-01-01T00:00:00"
                 },
                 "So. 3d": {
@@ -23754,6 +24107,9 @@
                 }
             },
             "examples": [
+                "1 So. 2d 2",
+                "1 So. 2",
+                "67 So.3d 2",
                 "67 So.3d 2",
                 "90 So.3d LII"
             ],
@@ -23839,7 +24195,8 @@
             "mlz_jurisdiction": [],
             "name": "Social Security Reporter",
             "variations": {
-                "Soc.Sec.Rep.Serv": "Soc. Sec. Rep. Serv."
+                "Soc.Sec.Rep.Serv": "Soc. Sec. Rep. Serv.",
+                "Soc.Sec.Rep.Serv.": "Soc. Sec. Rep. Serv."
             }
         }
     ],
@@ -25266,6 +25623,9 @@
             "editions": {
                 "Trade Reg. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1914-01-01T00:00:00"
                 }
             },
@@ -25583,7 +25943,9 @@
                 "us:c0:dc.d;district.court"
             ],
             "name": "United States Court of Appeals Reports",
-            "variations": {}
+            "variations": {
+                "U.S.App.D.C.": "U.S. App. D.C."
+            }
         }
     ],
     "U.S. App. LEXIS": [
@@ -25809,13 +26171,16 @@
             },
             "examples": [
                 "57-2 U.S. Tax Cas. (CCH) P9816",
-                "2001-1 U.S. Tax Cas. (CCH) P54,209"
+                "2001-1 U.S. Tax Cas. (CCH) P54,209",
+                "2010-1 USTC P 50,213"
             ],
             "mlz_jurisdiction": [
                 "us:c;tax.court"
             ],
             "name": "United States (US) Tax Cases (CCH)",
-            "variations": {}
+            "variations": {
+                "USTC": "U.S. Tax Cas. (CCH)"
+            }
         }
     ],
     "U.S. Tax Ct. LEXIS": [
@@ -26000,6 +26365,8 @@
                 "Unemployment Ins. Rep.": {
                     "end": null,
                     "regexes": [
+                        "$full_cite_cch",
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix",
                         "$volume_with_alpha_suffix_optional$reporter,? (?P<jurisdiction>\\(?[A-Z][a-zA-Z .]+\\)? )?$paragraph_marker_optional$page_with_commas_or_periods"
                     ],
                     "start": "1750-01-01T00:00:00"
@@ -26019,6 +26386,7 @@
                 "CCH Unemployment Ins. Rep.": "Unemployment Ins. Rep.",
                 "CCH, Unemployment Ins. Rep.": "Unemployment Ins. Rep.",
                 "Unempl. Ins. Rep. (CCH)": "Unemployment Ins. Rep.",
+                "Unempl.Ins.Rep. (CCH)": "Unemployment Ins. Rep.",
                 "Unemployment Ins. Rep. (CCH)": "Unemployment Ins. Rep."
             }
         }
@@ -26111,12 +26479,21 @@
             "editions": {
                 "Util. L. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch",
+                        "$reporter $paragraph_marker_optional$page_with_commas_and_suffix"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Util. L. Rep. P 14,520"
+            ],
             "mlz_jurisdiction": [],
             "name": "Utilities Law Reports",
-            "variations": {}
+            "variations": {
+                "Util. L. Rep.": "Util. L. Rep. (CCH)"
+            }
         }
     ],
     "V.I.": [
@@ -27860,6 +28237,9 @@
             "editions": {
                 "Wis.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1853-01-01T00:00:00"
                 },
                 "Wis. 2d": {
@@ -27873,7 +28253,8 @@
             },
             "examples": [
                 "71 Wis. 2d 497a",
-                "211 Wis. 2d 1"
+                "211 Wis. 2d 1",
+                "211 Wis. 1"
             ],
             "mlz_jurisdiction": [
                 "us:wi;supreme.court",
