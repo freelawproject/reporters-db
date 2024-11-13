@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.44 (2024-08-23): Add NH Neutral Citation
+ - 3.2.45 (2024-11-13): Update reporters and regexes for many reporters
 
 ## Past Versions
+
+ - 3.2.44 (2024-08-23): Add NH Neutral Citation
 
  - 3.2.43 (2024-07-16): Add variations for a handful of reporters
 
