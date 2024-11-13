@@ -536,11 +536,14 @@
             "editions": {
                 "Add.": {
                     "end": "1799-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1791-01-01T00:00:00"
                 }
             },
             "examples": [
-                "Graham v. Goudy, Add. 55"
+                "Add. 55"
             ],
             "mlz_jurisdiction": [
                 "us:pa;supreme.court",
@@ -588,24 +591,26 @@
             }
         }
     ],
-    "Agric. Dec": [
+    "Agric. Dec.": [
         {
             "cite_type": "federal",
             "editions": {
-                "Agric. Dec": {
+                "Agric. Dec.": {
                     "end": null,
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "55 Agric Dec. 1121"
+                "55 Agric. Dec 1121"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
             "mlz_jurisdiction": [
                 "us;federal"
             ],
             "name": "Agriculture Decisions",
-            "variations": {}
+            "variations": {
+                "Agric. Dec": "Agric. Dec."
+            }
         }
     ],
     "Aik.": [
@@ -887,6 +892,10 @@
             "editions": {
                 "Am. Ann. Cas.": {
                     "end": "1912-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite",
+                        "$reporter (?P<volume>19\\d+[A-F]),\\s?(?P<page>\\d+)"
+                    ],
                     "start": "1904-01-01T00:00:00"
                 }
             },
@@ -1024,12 +1033,16 @@
                 },
                 "Am. Law Reg. (N.S.)": {
                     "end": "1878-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1862-01-01T00:00:00"
                 }
             },
             "examples": [
                 "9 Am. Law Reg. 661",
-                "5 Am. Law Reg. (1857) 280"
+                "5 Am. Law Reg. (1857) 280",
+                "1 Am. Law Reg. (N.S.) 1"
             ],
             "mlz_jurisdiction": [
                 "us:pa;supreme.court",
@@ -2339,6 +2352,9 @@
             "editions": {
                 "Baldw.": {
                     "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -4773,6 +4789,9 @@
             "editions": {
                 "Chase's Trial. Append.": {
                     "end": null,
+                    "regexes": [
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -7016,7 +7035,9 @@
                 "us;federal"
             ],
             "name": "Decisions of the Commissioner of Patents",
-            "variations": {}
+            "variations": {
+                "Dec. Comm’r Pat.": "Dec. Comm'r Pat."
+            }
         }
     ],
     "Del.": [
@@ -9220,6 +9241,9 @@
             "editions": {
                 "Fed. Carr. Cas. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1936-01-01T00:00:00"
                 }
             },
@@ -12260,13 +12284,17 @@
                 },
                 "Ill. 2d": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1849-01-01T00:00:00"
                 }
             },
             "examples": [
                 "1 Ill. 1",
                 "6 Ill. (1 Gilm.) 456",
-                "1 Ill. (Breese) 456"
+                "1 Ill. (Breese) 456",
+                "694 Ill. 2d 217"
             ],
             "mlz_jurisdiction": [
                 "us:il;supreme.court",
@@ -13654,16 +13682,33 @@
             }
         }
     ],
+    "L.R.A (N.S.)": [
+        {
+            "cite_type": "federal",
+            "editions": {
+                "L.R.A (N.S.)": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [],
+            "name": "Lawyers' Reports Annotated New Series",
+            "notes": "N.S. stands for new series",
+            "variations": {
+                "L.R.A.N.S.": "L.R.A (N.S.)"
+            }
+        }
+    ],
     "L.R.A.": [
         {
             "cite_type": "federal",
             "editions": {
                 "L.R.A.": {
                     "end": null,
-                    "start": "1750-01-01T00:00:00"
-                },
-                "L.R.A.N.S.": {
-                    "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$reporter (?P<volume>1[789]\\d{2}[A-F]?),? ?(?P<page>\\d{1,4})"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
@@ -13674,11 +13719,7 @@
             ],
             "mlz_jurisdiction": [],
             "name": "Lawyers' Reports Annotated",
-            "notes": "N.S. stands for new series",
-            "variations": {
-                "L. R. A.,": "L.R.A.",
-                "L.R.A (N.S.)": "L.R.A.N.S."
-            }
+            "variations": {}
         }
     ],
     "L.R.R.M. (BNA)": [
@@ -15527,11 +15568,14 @@
             "editions": {
                 "McCahon": {
                     "end": "1868-12-31T00:00:00",
+                    "regexes": [
+                        "$volume_nominative ?$reporter, $page"
+                    ],
                     "start": "1858-01-01T00:00:00"
                 }
             },
             "examples": [
-                "McCahon 206"
+                "McCahon, 206"
             ],
             "mlz_jurisdiction": [
                 "us:ks;supreme.court"
@@ -16468,10 +16512,16 @@
             "editions": {
                 "Misc.": {
                     "end": "1955-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1892-01-01T00:00:00"
                 },
                 "Misc. 2d": {
                     "end": "2004-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1955-01-01T00:00:00"
                 },
                 "Misc. 3d": {
@@ -16485,7 +16535,9 @@
             },
             "examples": [
                 "81 Misc 3d 1211(A)",
-                "81 Misc 3d 1211"
+                "81 Misc 3d 1211",
+                "2 Misc Rep. 9",
+                "62 Misc.2d 21"
             ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals",
@@ -18417,6 +18469,9 @@
             "editions": {
                 "N.Y.S.": {
                     "end": "1937-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1888-01-01T00:00:00"
                 },
                 "N.Y.S.2d": {
@@ -18429,12 +18484,17 @@
                 },
                 "N.Y.S.3d": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1938-01-01T00:00:00"
                 }
             },
             "examples": [
                 "64 NYS2d 1",
-                "1 NYS2d 1f"
+                "1 NYS2d 1f",
+                "53 New York Supp. 67",
+                "1 N.Y.S. 3d 3"
             ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals",
@@ -19477,11 +19537,16 @@
             "editions": {
                 "O.S.U.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume_nominative ?$reporter $page"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
-                "O.S.U. 844"
+                "O.S.U. 844",
+                "1 O.S.U. 1"
             ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court"
@@ -19842,7 +19907,8 @@
                 }
             },
             "examples": [
-                "17 Ohio C.C. (n.s) 289"
+                "17 Ohio C.C. 289",
+                "17 Ohio C.C. (n.s.) 289"
             ],
             "mlz_jurisdiction": [
                 "us:oh;supreme.court",
@@ -23386,6 +23452,9 @@
             "editions": {
                 "S.W.": {
                     "end": "1928-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1886-01-01T00:00:00"
                 },
                 "S.W.2d": {
@@ -23411,7 +23480,8 @@
                 "47 S. W. 2d XI",
                 "47 SW 3d 1",
                 "7 S.W. 3d LII",
-                "7 S.W. 3d iv"
+                "7 S.W. 3d iv",
+                "23 S.W. 215"
             ],
             "mlz_jurisdiction": [
                 "us:ar;supreme.court",
@@ -24015,10 +24085,16 @@
             "editions": {
                 "So.": {
                     "end": "1941-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1886-01-01T00:00:00"
                 },
                 "So. 2d": {
                     "end": "2008-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1941-01-01T00:00:00"
                 },
                 "So. 3d": {
@@ -24031,6 +24107,9 @@
                 }
             },
             "examples": [
+                "1 So. 2d 2",
+                "1 So. 2",
+                "67 So.3d 2",
                 "67 So.3d 2",
                 "90 So.3d LII"
             ],
@@ -24116,7 +24195,8 @@
             "mlz_jurisdiction": [],
             "name": "Social Security Reporter",
             "variations": {
-                "Soc.Sec.Rep.Serv": "Soc. Sec. Rep. Serv."
+                "Soc.Sec.Rep.Serv": "Soc. Sec. Rep. Serv.",
+                "Soc.Sec.Rep.Serv.": "Soc. Sec. Rep. Serv."
             }
         }
     ],
@@ -25543,6 +25623,9 @@
             "editions": {
                 "Trade Reg. Rep. (CCH)": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite_cch"
+                    ],
                     "start": "1914-01-01T00:00:00"
                 }
             },
@@ -28154,6 +28237,9 @@
             "editions": {
                 "Wis.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "1853-01-01T00:00:00"
                 },
                 "Wis. 2d": {
@@ -28167,7 +28253,8 @@
             },
             "examples": [
                 "71 Wis. 2d 497a",
-                "211 Wis. 2d 1"
+                "211 Wis. 2d 1",
+                "211 Wis. 1"
             ],
             "mlz_jurisdiction": [
                 "us:wi;supreme.court",
