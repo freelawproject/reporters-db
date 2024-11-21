@@ -21479,10 +21479,18 @@
             "cite_type": "state",
             "editions": {
                 "Pa. Super.": {
-                    "end": null,
+                    "end": "1998-12-31T00:00:00",
+                    "regexes": [
+                        "(?P<volume>\\d{1,3}) $reporter $page"
+                    ],
                     "start": "1895-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1 Pa. Super. 77",
+                "319 Pa. Super. 77",
+                "7 Pa. Super 70"
+            ],
             "mlz_jurisdiction": [
                 "us:pa;supreme.court",
                 "us:pa;superior.court",
@@ -21497,6 +21505,29 @@
                 "Pa.S.": "Pa. Super.",
                 "Pa.Super.": "Pa. Super.",
                 "Pa.Super.Ct.": "Pa. Super."
+            }
+        },
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "Pa. Super.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_year $reporter $page"
+                    ],
+                    "start": "1999-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "1999 Pa. Super. 1",
+                "2015 Pa. Super. 2"
+            ],
+            "mlz_jurisdiction": [
+                "us:pa;superior.court"
+            ],
+            "name": "Pennsylvania Superior Court Neutral Citation",
+            "variations": {
+                "PA Super": "Pa. Super."
             }
         }
     ],
