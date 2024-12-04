@@ -24211,26 +24211,6 @@
             "variations": {}
         }
     ],
-    "Soc. Sec. Rep. Serv.": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "Soc. Sec. Rep. Serv.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "6 Soc.Sec.Rep.Serv. 321"
-            ],
-            "mlz_jurisdiction": [],
-            "name": "Social Security Reporter",
-            "variations": {
-                "Soc.Sec.Rep.Serv": "Soc. Sec. Rep. Serv.",
-                "Soc.Sec.Rep.Serv.": "Soc. Sec. Rep. Serv."
-            }
-        }
-    ],
     "Som. L.J.": [
         {
             "cite_type": "state",
