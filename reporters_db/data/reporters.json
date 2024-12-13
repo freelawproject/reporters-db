@@ -1860,6 +1860,10 @@
             "editions": {
                 "Auto. Cas.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$full_cite_cch"
+                    ],
                     "start": "1895-01-01T00:00:00"
                 },
                 "Auto. Cas.2d": {
@@ -1867,6 +1871,10 @@
                     "start": "1895-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "1972 Auto. Cas. (CCH) P7530",
+                "612 Auto. Cas. 3"
+            ],
             "mlz_jurisdiction": [],
             "name": "Automobile Cases (CCH)",
             "variations": {
