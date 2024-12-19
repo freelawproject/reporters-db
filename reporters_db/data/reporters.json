@@ -6530,7 +6530,7 @@
                     "end": "1893-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>MacArth\\. & M\\.|Tuck\\. & Cl\\.|MacArth\\.|Mackey|Cranch)\\) $page"
+                        "$volume $reporter \\((?:(?P<parallel_volume>\\d{1,2}) )?(?P<reporter_nominative>MacArth\\. & M\\.|Tuck\\. & Cl\\.|MacArth\\.|Mackey|Cranch)\\) $page"
                     ],
                     "start": "1801-01-01T00:00:00"
                 }
@@ -7056,7 +7056,7 @@
                     "end": "1966-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Marv\\.|Penne\\.|Harr\\.|Boyce|Houst\\.)\\) $page"
+                        "$volume $reporter \\((?:(?P<parallel_volume>\\d{1,2}) )?(?P<reporter_nominative>Marv\\.|Penne\\.|Harr\\.|Boyce|Houst\\.)\\) $page"
                     ],
                     "start": "1920-01-01T00:00:00"
                 }
@@ -12286,7 +12286,7 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Scam\\.|Breese|Gilm\\.)\\) $page"
+                        "$volume $reporter \\((?:(?P<parallel_volume>\\d{1,2}) )?(?P<reporter_nominative>Scam\\.|Breese|Gilm\\.)\\) $page"
                     ],
                     "start": "1849-01-01T00:00:00"
                 },
@@ -13496,7 +13496,7 @@
                     "end": "1951-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Bush|Duv\\.|Met\\.|B\\. Mon\\.|Dana|J\\.J\\. Marsh\\.|T\\.B\\. Mon\\.|Litt\\.|Litt\\. Sel\\. Cas\\.|A\\.K\\. Marsh\\.|Bibb|Hard\\.|Sneed|Hughes)\\) $page"
+                        "$volume $reporter \\((?:(?P<parallel_volume>\\d{1,2}) )?(?P<reporter_nominative>Bush|Duv\\.|Met\\.|B\\. Mon\\.|Dana|J\\.J\\. Marsh\\.|T\\.B\\. Mon\\.|Litt\\.|Litt\\. Sel\\. Cas\\.|A\\.K\\. Marsh\\.|Bibb|Hard\\.|Sneed|Hughes)\\) $page"
                     ],
                     "start": "1879-01-01T00:00:00"
                 }
@@ -15287,7 +15287,7 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Allen|Gray|Cush\\.|Met\\.|Pick\\.|Tyng|Will\\.)\\) $page"
+                        "$volume $reporter \\((?:(?P<parallel_volume>\\d{1,2}) )?(?P<reporter_nominative>Allen|Gray|Cush\\.|Met\\.|Pick\\.|Tyng|Will\\.)\\) $page"
                     ],
                     "start": "1867-01-01T00:00:00"
                 }
@@ -16594,7 +16594,7 @@
                     "end": "1966-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>S\\. & M\\.|Howard|Walker)\\) $page",
+                        "$volume $reporter \\((?:(?P<parallel_volume>\\d{1,2}) )?(?P<reporter_nominative>S\\. & M\\.|Howard|Walker)\\) $page",
                         "$volume $reporter,? p. $page"
                     ],
                     "start": "1851-01-01T00:00:00"
@@ -17151,8 +17151,8 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Phil\\. Eq\\.|Phil\\.|Win\\.|Jones Eq\\.|Jones|Busb\\. Eq\\.|Busb\\.|Ired\\. Eq\\.|Ired\\.|Dev\\. & Bat\\. Eq\\.|Dev\\. Eq\\.|Dev\\.|Hawks|Mur\\.|Taylor|Car\\. L\\. Rep\\.|Hayw\\.|Cam\\. & Nor\\.|Tay\\.|Mart\\.)\\) $page",
-                        "$volume $reporter \\((?P<volume_nominative>3 & 4) (?P<reporter_nominative>Dev\\. & Bat\\.)\\) $page"
+                        "$volume $reporter \\((?:(?P<parallel_volume>\\d{1,2}) )?(?P<reporter_nominative>Phil\\. Eq\\.|Phil\\.|Win\\.|Jones Eq\\.|Jones|Busb\\. Eq\\.|Busb\\.|Ired\\. Eq\\.|Ired\\.|Dev\\. & Bat\\. Eq\\.|Dev\\. Eq\\.|Dev\\.|Hawks|Mur\\.|Taylor|Car\\. L\\. Rep\\.|Hayw\\.|Cam\\. & Nor\\.|Tay\\.|Mart\\.)\\) $page",
+                        "$volume $reporter \\((?P<parallel_volume>3 & 4) (?P<reporter_nominative>Dev\\. & Bat\\.)\\) $page"
                     ],
                     "start": "1868-01-01T00:00:00"
                 }
@@ -23290,7 +23290,7 @@
                     "end": "1868-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Rich\\. Eq\\.|Strob\\. Eq\\.|Speers Eq\\.|McMul\\. Eq\\.|Chev\\. Eq\\.|Rice Eq\\.|Dud\\. Eq\\.|Ril\\. Eq\\.|Hill Eq\\.|Rich\\. Cas\\.|Bail\\. Eq\\.|McCord Eq\\.|Harp\\. Eq\\.|Des\\. Eq\\.)\\) $page"
+                        "$volume $reporter \\((?:(?P<parallel_volume>\\d{1,2}) )?(?P<reporter_nominative>Rich\\. Eq\\.|Strob\\. Eq\\.|Speers Eq\\.|McMul\\. Eq\\.|Chev\\. Eq\\.|Rice Eq\\.|Dud\\. Eq\\.|Ril\\. Eq\\.|Hill Eq\\.|Rich\\. Cas\\.|Bail\\. Eq\\.|McCord Eq\\.|Harp\\. Eq\\.|Des\\. Eq\\.)\\) $page"
                     ],
                     "start": "1784-01-01T00:00:00"
                 }
@@ -23365,7 +23365,7 @@
                     "end": "1868-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Rich\\.|Strob\\.|Speers|McMul\\.|Chev\\.|Rice|Dud\\.|Ril\\.|Hill|Bail\\.|Harp\\.|McCord|Nott & McC\\.|Mill|Tread\\.|Brev\\.|Bay)\\) $page"
+                        "$volume $reporter \\((?:(?P<parallel_volume>\\d{1,2}) )?(?P<reporter_nominative>Rich\\.|Strob\\.|Speers|McMul\\.|Chev\\.|Rice|Dud\\.|Ril\\.|Hill|Bail\\.|Harp\\.|McCord|Nott & McC\\.|Mill|Tread\\.|Brev\\.|Bay)\\) $page"
                     ],
                     "start": "1783-01-01T00:00:00"
                 }
@@ -25096,7 +25096,7 @@
                     "end": "1971-12-31T00:00:00",
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Heisk\\.|Cold\\.|Head|Sneed|Swan|Hum\\.|Meigs|Yer\\.|Mart\\. & Yer\\.|Peck|Hayw\\.|Cooke|Overt\\.)\\) $page"
+                        "$volume $reporter \\((?:(?P<parallel_volume>\\d{1,2}) )?(?P<reporter_nominative>Heisk\\.|Cold\\.|Head|Sneed|Swan|Hum\\.|Meigs|Yer\\.|Mart\\. & Yer\\.|Peck|Hayw\\.|Cooke|Overt\\.)\\) $page"
                     ],
                     "start": "1870-01-01T00:00:00"
                 }
@@ -25883,7 +25883,7 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter\\s*\\($volume_nominative(?P<reporter_nominative>Black|Cranch|Pet.|Wall.|How.|Wheat.|Dall.)\\) $page"
+                        "$volume $reporter\\s*\\((?:(?P<parallel_volume>\\d{1,2}) )?(?P<reporter_nominative>Black|Cranch|Pet.|Wall.|How.|Wheat.|Dall.)\\) $page"
                     ],
                     "start": "1875-01-01T00:00:00"
                 }
@@ -26602,7 +26602,7 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\($volume_nominative(?P<reporter_nominative>Gratt\\.|Rob\\.|Leigh|Rand\\.|Gilmer|Munf\\.|Hen\\. & M\\.|Call|Va\\. Cas\\.|Wash\\.)\\) $page"
+                        "$volume $reporter \\((?:(?P<parallel_volume>\\d{1,2}) )?(?P<reporter_nominative>Gratt\\.|Rob\\.|Leigh|Rand\\.|Gilmer|Munf\\.|Hen\\. & M\\.|Call|Va\\. Cas\\.|Wash\\.)\\) $page"
                     ],
                     "start": "1880-01-01T00:00:00"
                 }
