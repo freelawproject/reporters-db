@@ -10075,9 +10075,17 @@
             "editions": {
                 "Fulton County D. Rep.": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$$volume_with_digit_suffix $reporter $page_with_letter"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "102-56 Fulton County D. Rep. 16B",
+                "96 Fulton County D. Rep. 1243"
+            ],
             "mlz_jurisdiction": [
                 "us:ga;supreme.court"
             ],
