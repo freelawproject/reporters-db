@@ -6868,7 +6868,8 @@
                 }
             },
             "examples": [
-                "Dallam 504"
+                "Dallam 504",
+                "Dallam, 597"
             ],
             "mlz_jurisdiction": [
                 "us:tx;supreme.court"
@@ -15599,13 +15600,14 @@
                 "McCahon": {
                     "end": "1868-12-31T00:00:00",
                     "regexes": [
-                        "$volume_nominative ?$reporter, $page"
+                        "$full_cite_single_volume"
                     ],
                     "start": "1858-01-01T00:00:00"
                 }
             },
             "examples": [
-                "McCahon, 206"
+                "McCahon, 206",
+                "McCahon 166"
             ],
             "mlz_jurisdiction": [
                 "us:ks;supreme.court"
