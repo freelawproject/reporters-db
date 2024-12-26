@@ -14717,16 +14717,25 @@
             "editions": {
                 "Litt. Sel. Cas.": {
                     "end": "1821-12-31T00:00:00",
+                    "regexes": [
+                        "$full_cite_single_volume"
+                    ],
                     "start": "1795-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "Litt. Sel. Cas. 119",
+                "Litt. Sel. Cas. (Ky.) 505",
+                "1 Litt. Sel. Cas., 388"
+            ],
             "mlz_jurisdiction": [
                 "us:ky;supreme.court"
             ],
             "name": "Kentucky Reports, Littell's Selected Cases",
             "variations": {
                 "Ky.(Lit.Sel.Cas.)": "Litt. Sel. Cas.",
-                "Lit.Sel.Ca.": "Litt. Sel. Cas."
+                "Lit.Sel.Ca.": "Litt. Sel. Cas.",
+                "Litt. Sel. Cas. (Ky.)": "Litt. Sel. Cas."
             }
         }
     ],
