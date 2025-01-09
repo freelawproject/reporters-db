@@ -25553,7 +25553,7 @@
                 "Thompson": {
                     "end": null,
                     "regexes": [
-                        "(?:(?P<volume>1) )?$reporter, (?P<page>\\d{1,3})",
+                        "$volume_nominative ?$reporter, $page",
                         "$full_cite"
                     ],
                     "start": "1750-01-01T00:00:00"
