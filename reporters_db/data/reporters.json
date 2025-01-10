@@ -8350,10 +8350,15 @@
                 "F. App’x": "F. App'x",
                 "F.App'x": "F. App'x",
                 "F.App'x.": "F. App'x",
+                "F.Appx.": "F. App'x",
                 "F.App’x.": "F. App'x",
                 "Fed. App'x": "F. App'x",
                 "Fed. App.": "F. App'x",
-                "Fed.App.": "F. App'x"
+                "Fed. Appx": "F. App'x",
+                "Fed. Appx.": "F. App'x",
+                "Fed.App'x": "F. App'x",
+                "Fed.App.": "F. App'x",
+                "Fed.Appx.": "F. App'x"
             }
         }
     ],
@@ -9175,42 +9180,6 @@
             "mlz_jurisdiction": [],
             "name": "Family Law Tax Guide",
             "variations": {}
-        }
-    ],
-    "Fed. Appx.": [
-        {
-            "cite_type": "federal",
-            "editions": {
-                "Fed. Appx.": {
-                    "end": null,
-                    "start": "2001-01-01T00:00:00"
-                }
-            },
-            "examples": [
-                "66 F. App’x 164"
-            ],
-            "mlz_jurisdiction": [
-                "us:c1;court.appeals",
-                "us:c2;court.appeals",
-                "us:c3;court.appeals",
-                "us:c4;court.appeals",
-                "us:c5;court.appeals",
-                "us:c6;court.appeals",
-                "us:c7;court.appeals",
-                "us:c8;court.appeals",
-                "us:c9;court.appeals",
-                "us:c10;court.appeals",
-                "us:c11;court.appeals",
-                "us:c;court.appeals.federal.circuit"
-            ],
-            "name": "West's Federal Appendix",
-            "notes": "https://en.wikipedia.org/wiki/Federal_Appendix, Relatively new published book.",
-            "variations": {
-                "F. App’x": "Fed. Appx.",
-                "Fed. App'x": "Fed. Appx.",
-                "Fed.App'x": "Fed. Appx.",
-                "Fed.Appx.": "Fed. Appx."
-            }
         }
     ],
     "Fed. Audit Guide (CCH)": [
