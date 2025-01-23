@@ -4,13 +4,14 @@
 
 Gains and Losses
 ---------
-There were 0 gains and 0 losses.
+There were 1 gains and 0 losses.
 
 <details>
 <summary>Click here to see details.</summary>
 
-|     id     |  Gain  |  Loss  |
-| ---------- | ------ | ------ |
+|     id     |   Gain   |  Loss  |
+| ---------- | -------- | ------ |
+|  3834486   | Gil. 127 |        |
 
 
 </details>
