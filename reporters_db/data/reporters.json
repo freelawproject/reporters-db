@@ -10078,7 +10078,7 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$$volume_with_digit_suffix $reporter $page_with_letter"
+                        "$volume_with_digit_suffix $reporter $page_with_letter"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
