@@ -24,7 +24,7 @@
             "with_suffix": "$reporter $paragraph_marker_optional$page_with_commas_and_suffix",
             "with_suffix#": "Paragraph cite with optional alpha character appended"
         },
-        "single_volume": "(?:(?P<volume>1) )?$reporter $page",
+        "single_volume": "(?:(?P<volume>1) )?$reporter,? $page",
         "year_included": {
             "": "$volume $reporter \\((?P<year>1[789]\\d{2}|20\\d{2}),?\\) $page",
             "#": "Citation that includes the volume year after the reporter '14 Haz. Reg. Pa. (1834) 10'"
