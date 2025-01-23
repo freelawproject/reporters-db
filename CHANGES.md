@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.46 (2024-12-04): Update reporter.json
+ - 3.2.47 (2024-01-10): Update reporter.json
 
 ## Past Versions
+
+ - 3.2.46 (2024-12-04): Update reporter.json
 
  - 3.2.45 (2024-11-13): Update reporters and regexes for many reporters
 
