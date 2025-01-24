@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.48 (2024-01-10): Update reporter.json and regexes.json
+ - 3.2.49 (2024-01-24): Update pypi github action workflow
 
 ## Past Versions
+
+ - 3.2.48 (2024-01-10): Update reporter.json and regexes.json
 
  - 3.2.47 (2024-01-10): Update reporter.json
 
