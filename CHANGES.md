@@ -16,13 +16,15 @@
 
 ## Current Version
 
- - 3.2.49 (2024-01-24): Update pypi github action workflow
+ - 3.2.50 (2025-02-04): Update NY2d and NY3d
 
 ## Past Versions
 
- - 3.2.48 (2024-01-10): Update reporter.json and regexes.json
+ - 3.2.49 (2025-01-24): Update pypi github action workflow
 
- - 3.2.47 (2024-01-10): Update reporter.json
+ - 3.2.48 (2025-01-10): Update reporter.json and regexes.json
+
+ - 3.2.47 (2025-01-10): Update reporter.json
 
  - 3.2.46 (2024-12-04): Update reporter.json
 
