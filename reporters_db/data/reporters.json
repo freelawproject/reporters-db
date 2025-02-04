@@ -18112,7 +18112,8 @@
                 "6 N.Y. 510b",
                 "13 N.Y. 215b",
                 "7 N.Y.3d 428",
-                "7 N.Y.3d 428e"
+                "7 N.Y.3d 428e",
+                "78 NY2d 364"
             ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals",
@@ -18131,6 +18132,8 @@
                 "N.Y. 2d": "N.Y.2d",
                 "N.Y. 3d": "N.Y.3d",
                 "NY 2d": "N.Y.2d",
+                "NY2d": "N.Y.2d",
+                "NY3d": "N.Y.3d",
                 "NY 3d": "N.Y.3d"
             }
         }
