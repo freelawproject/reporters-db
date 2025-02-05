@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.50 (2025-02-04): Update NY2d and NY3d
+ - 3.2.51 (2025-02-05): Update A2d A3d
 
 ## Past Versions
+
+ - 3.2.50 (2025-02-04): Update NY2d and NY3d
 
  - 3.2.49 (2025-01-24): Update pypi github action workflow
 
