@@ -97,7 +97,9 @@
             "variations": {
                 "A.D. 2d": "A.D.2d",
                 "A.D. 3d": "A.D.3d",
+                "AD2d": "A.D.2d",
                 "AD 2d": "A.D.2d",
+                "AD3d": "A.D.3d",
                 "AD 3d": "A.D.3d",
                 "Ap.": "A.D.",
                 "Ap.2d.": "A.D.2d",
