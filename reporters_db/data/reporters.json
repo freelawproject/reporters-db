@@ -8308,6 +8308,7 @@
                 "F.2d.": "F.2d",
                 "F.3d.": "F.3d",
                 "F.4th.": "F.4th",
+                "F3d.": "F.3d",
                 "Fed.": "F.",
                 "Fed.R.": "F.",
                 "Fed.R.2d": "F.2d",
@@ -8776,6 +8777,8 @@
             ],
             "name": "Federal Supplement",
             "variations": {
+                "F Supp 2d": "F. Supp. 2d",
+                "F Supp.": "F. Supp.",
                 "F. Supp": "F. Supp.",
                 "F. Supp.2d": "F. Supp. 2d",
                 "F.Supp.": "F. Supp.",
@@ -28293,6 +28296,7 @@
                 "W.": "Wis.",
                 "W.2d": "Wis. 2d",
                 "W.R.": "Wis.",
+                "Wis 2d": "Wis. 2d",
                 "Wis. Rep.": "Wis.",
                 "Wis.2d": "Wis. 2d"
             }
