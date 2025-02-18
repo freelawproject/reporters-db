@@ -103,6 +103,7 @@
                 "AD3d": "A.D.3d",
                 "Ap.": "A.D.",
                 "Ap.2d.": "A.D.2d",
+                "App Div": "A.D.",
                 "App Div.": "A.D.",
                 "App. Div": "A.D.",
                 "App. Div.": "A.D.",
@@ -3020,6 +3021,7 @@
             "variations": {
                 "Bin.": "Binn.",
                 "Bin. Rep.": "Binn.",
+                "Binn [Pa]": "Binn.",
                 "Binn. Rep.": "Binn.",
                 "Binn.(Pa.)": "Binn."
             }
@@ -8301,6 +8303,7 @@
             "name": "Federal Reporter",
             "notes": "F.4th was first noted on 2021-06-30, but we don't yet know the last F.3d case nor the first F.4th case. Once 4th is published, we can check.",
             "variations": {
+                "F 2d": "F.2d",
                 "F. 2d": "F.2d",
                 "F. 3d": "F.3d",
                 "F. 4th": "F.4th",
@@ -8308,6 +8311,8 @@
                 "F.2d.": "F.2d",
                 "F.3d.": "F.3d",
                 "F.4th.": "F.4th",
+                "F3d": "F.3d",
+                "F3d.": "F.3d",
                 "Fed.": "F.",
                 "Fed.R.": "F.",
                 "Fed.R.2d": "F.2d",
@@ -8363,6 +8368,7 @@
                 "F.App'x.": "F. App'x",
                 "F.Appx.": "F. App'x",
                 "F.App’x.": "F. App'x",
+                "Fed Appx": "F. App'x",
                 "Fed. App'x": "F. App'x",
                 "Fed. App.": "F. App'x",
                 "Fed. Appx": "F. App'x",
@@ -8776,6 +8782,9 @@
             ],
             "name": "Federal Supplement",
             "variations": {
+                "F Supp": "F. Supp.",
+                "F Supp 2d": "F. Supp. 2d",
+                "F Supp.": "F. Supp.",
                 "F. Supp": "F. Supp.",
                 "F. Supp.2d": "F. Supp. 2d",
                 "F.Supp.": "F. Supp.",
@@ -18133,6 +18142,7 @@
                 "N.Y. (N.Y.S.)": "N.Y.",
                 "N.Y. 2d": "N.Y.2d",
                 "N.Y. 3d": "N.Y.3d",
+                "NY": "N.Y.",
                 "NY 2d": "N.Y.2d",
                 "NY 3d": "N.Y.3d",
                 "NY2d": "N.Y.2d",
@@ -28293,6 +28303,7 @@
                 "W.": "Wis.",
                 "W.2d": "Wis. 2d",
                 "W.R.": "Wis.",
+                "Wis 2d": "Wis. 2d",
                 "Wis. Rep.": "Wis.",
                 "Wis.2d": "Wis. 2d"
             }
