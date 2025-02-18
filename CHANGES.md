@@ -16,9 +16,11 @@
 
 ## Current Version
 
- - 3.2.51 (2025-02-05): Update A2d A3d
+ - 3.2.52 (2025-02-18): Add handful of variations found in NY
 
 ## Past Versions
+
+ - 3.2.51 (2025-02-05): Update A2d A3d
 
  - 3.2.50 (2025-02-04): Update NY2d and NY3d
 
