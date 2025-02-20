@@ -97,6 +97,7 @@
             "variations": {
                 "A.D. 2d": "A.D.2d",
                 "A.D. 3d": "A.D.3d",
+                "AD": "A.D.",
                 "AD 2d": "A.D.2d",
                 "AD 3d": "A.D.3d",
                 "AD2d": "A.D.2d",
@@ -13686,6 +13687,8 @@
                 "L.Ed.(U.S.)": "L. Ed.",
                 "L.Ed.2d": "L. Ed. 2d",
                 "LAW ED": "L. Ed.",
+                "LEd": "L. Ed.",
+                "LEd2d": "L. Ed. 2d",
                 "Law.Ed.": "L. Ed.",
                 "U.S.L.Ed.": "L. Ed.",
                 "U.S.L.Ed.2d": "L. Ed. 2d",
@@ -16534,14 +16537,16 @@
                 "Misc.": {
                     "end": "1955-12-31T00:00:00",
                     "regexes": [
-                        "$full_cite"
+                        "$full_cite",
+                        "$volume $reporter (?P<page>\\d+[\\[(]A[)\\]])"
                     ],
                     "start": "1892-01-01T00:00:00"
                 },
                 "Misc. 2d": {
                     "end": "2004-12-31T00:00:00",
                     "regexes": [
-                        "$full_cite"
+                        "$full_cite",
+                        "$volume $reporter (?P<page>\\d+[\\[(]A[)\\]])"
                     ],
                     "start": "1955-01-01T00:00:00"
                 },
@@ -16549,13 +16554,16 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter (?P<page>\\d+\\(A\\))"
+                        "$volume $reporter (?P<page>\\d+[\\[(]A[)\\]])"
                     ],
                     "start": "2004-01-01T00:00:00"
                 }
             },
             "examples": [
+                "81 Misc 1211(A)",
                 "81 Misc 3d 1211(A)",
+                "81 Misc 3d 1211[A]",
+                "81 Misc 2d 1211[A]",
                 "81 Misc 3d 1211",
                 "2 Misc Rep. 9",
                 "62 Misc.2d 21"
@@ -18188,7 +18196,9 @@
                 "us:ny;court.appeals"
             ],
             "name": "LexisNexis New York Supreme Court Appellate Division",
-            "variations": {}
+            "variations": {
+                "NY App Div LEXIS": "N.Y. App. Div. LEXIS"
+            }
         }
     ],
     "N.Y. Ch. Ann.": [
@@ -18371,7 +18381,9 @@
                 "us:ny;court.appeals"
             ],
             "name": "LexisNexis New York Miscellaneous Opinions",
-            "variations": {}
+            "variations": {
+                "NY Misc LEXIS": "N.Y. Misc. LEXIS"
+            }
         }
     ],
     "N.Y. Proc. Ct. Ass.": [
@@ -18822,7 +18834,7 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter (?P<page>\\d+\\(U\\))"
+                        "$volume $reporter (?P<page>\\d+[\\[(]U[)\\]])"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
@@ -18830,7 +18842,8 @@
             "examples": [
                 "2023 NY Slip Op 51350",
                 "2023 NYSlipOp 51350",
-                "2023 NYSlipOp 51350(U)"
+                "2023 NYSlipOp 51350(U)",
+                "2024 NY Slip Op 51192[U]"
             ],
             "mlz_jurisdiction": [
                 "us:ny;court.appeals",
@@ -23236,6 +23249,7 @@
                 "S.C.": "S. Ct.",
                 "S.Ct": "S. Ct.",
                 "S.Ct.": "S. Ct.",
+                "SCt": "S. Ct.",
                 "Sup.Ct.": "S. Ct.",
                 "Sup.Ct.Rep.": "S. Ct.",
                 "Supr.Ct.Rep.": "S. Ct."
@@ -26146,7 +26160,9 @@
                 "us:c9:wa.ed;district.court"
             ],
             "name": "LexisNexis U.S. District Court Citation",
-            "variations": {}
+            "variations": {
+                "US Dist LEXIS": "U.S. Dist. LEXIS"
+            }
         }
     ],
     "U.S. LEXIS": [

@@ -13,6 +13,7 @@
 ## Upcoming Changes
 
  - Add workflow to check for new entries in CHANGES.md file
+ - Add Changes to NY variations
 
 ## Current Version
 
