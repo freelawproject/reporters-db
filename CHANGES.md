@@ -17,9 +17,11 @@
 
 ## Current Version
 
- - 3.2.52 (2025-02-18): Add handful of variations found in NY
-
+- 3.2.53 (2025-02-20): Add page variations for NY Slip Op and NY Misc 3d
+ 
 ## Past Versions
+
+ - 3.2.52 (2025-02-18): Add handful of variations found in NY
 
  - 3.2.51 (2025-02-05): Update A2d A3d
 
