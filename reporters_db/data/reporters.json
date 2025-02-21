@@ -23207,15 +23207,14 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter \\(\\d{4}\\) $page",
-                        "$volume $reporter $page \\(\\d{4}\\)"
+                        "$full_cite_year_included"
                     ],
                     "start": "1882-01-01T00:00:00"
                 }
             },
             "examples": [
                 "40 S. Ct. 22",
-                "136 S. Ct. 2272 (2016)",
+                "136 S.Ct. 2272",
                 "126 S. Ct. (2006) 1910"
             ],
             "mlz_jurisdiction": [
