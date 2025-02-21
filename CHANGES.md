@@ -12,14 +12,21 @@
 
 ## Upcoming Changes
 
- - Add workflow to check for new entries in CHANGES.md file
- - Add Changes to NY variations
+ - None
 
 ## Current Version
 
-- 3.2.53 (2025-02-20): Add page variations for NY Slip Op and NY Misc 3d
+- 3.2.54 (2025-02-21)
+
+Changes: 
+
+- Add workflow to check for new entries in CHANGES.md file 
+- Update S.Ct. Regexes
+- Add Changes to NY variations
  
 ## Past Versions
+
+ - 3.2.53 (2025-02-20): Add page variations for NY Slip Op and NY Misc 3d
 
  - 3.2.52 (2025-02-18): Add handful of variations found in NY
 
