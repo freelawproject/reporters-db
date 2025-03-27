@@ -12,7 +12,7 @@
 
 ## Upcoming Changes
 
- - None
+ - Standardize nominative reporters regex group names
 
 ## Current Version
 
