@@ -12,7 +12,7 @@
 
 ## Upcoming Changes
 
- - None
+ - Add variation to Montana Neutral Citation
 
 ## Current Version
 
