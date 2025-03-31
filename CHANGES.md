@@ -12,18 +12,18 @@
 
 ## Upcoming Changes
 
- - None
+ - Add variation to Montana Neutral Citation
 
 ## Current Version
 
 - 3.2.54 (2025-02-21)
 
-Changes: 
+Changes:
 
-- Add workflow to check for new entries in CHANGES.md file 
+- Add workflow to check for new entries in CHANGES.md file
 - Update S.Ct. Regexes
 - Add Changes to NY variations
- 
+
 ## Past Versions
 
  - 3.2.53 (2025-02-20): Add page variations for NY Slip Op and NY Misc 3d
