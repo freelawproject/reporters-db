@@ -15028,19 +15028,21 @@
                     "end": null,
                     "regexes": [
                         "$full_cite",
-                        "$volume $reporter (?P<page>\\d+[N]?)"
+                        "$volume $reporter (?P<page>\\d+[AN]?)"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "108 MT 1",
-                "108 MT 23N"
+                "108 MT 23N",
+                "2021 MT 172A"
             ],
             "mlz_jurisdiction": [
                 "us:mt;supreme.court"
             ],
             "name": "Montana Neutral Citation",
+            "notes": "'A' means the opinion was amended (corrected), and 'N' means it's a noncitable memorandum opinion not usable as precedent.",
             "variations": {
                 "Mt": "MT",
                 "mt": "MT"
