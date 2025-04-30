@@ -13,6 +13,7 @@
 ## Upcoming Changes
 
  - Add variation to Montana Neutral Citation
+ - Standardize nominative reporters regex group names
 
 ## Current Version
 
