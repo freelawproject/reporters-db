@@ -40,15 +40,12 @@ def make_editions_dict(editions):
     """
     d = {}
     nums = ["1", "2", "3", "4", "5", "6"]
-    num_counter = 0
-    for k, date_dict in editions.items():
+    for num_counter, (k, date_dict) in enumerate(editions.items()):
         d[f"edition{nums[num_counter]}"] = k
         if date_dict["start"] is not None:
             d[f"start_e{nums[num_counter]}"] = date_dict["start"].isoformat()
         if date_dict["end"] is not None:
             d[f"end_e{nums[num_counter]}"] = date_dict["end"].isoformat()
-
-        num_counter += 1
 
     return d
 
