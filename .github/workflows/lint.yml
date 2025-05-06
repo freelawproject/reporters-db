@@ -11,7 +11,5 @@ jobs:
         with:
           # Once codebase is updated, this can easily be changed to any specific version.
           python-version: "3.8"
-      - name: Black Code Formatter
-        uses: psf/black@stable
-        with:
-          version: "22.8.0"
+
+      - uses: pre-commit/action@v3.0.0

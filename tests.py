@@ -58,7 +58,7 @@ def iter_reporters():
 
 
 def iter_editions():
-    for reporter_abbv, reporter_list, reporter_data in iter_reporters():
+    for _reporter_abbv, _reporter_list, reporter_data in iter_reporters():
         yield from reporter_data["editions"].items()
 
 
@@ -105,16 +105,10 @@ class BaseTestCase(TestCase):
                 except ImportError:
                     candidate = "Run 'pip install exrex' to generate a candidate example"
                 self.fail(
-                    "No match in 'examples' for custom regex '%s'.\n"
-                    "Expanded regex: %s.\n"
-                    "Provided examples: %s.\n"
-                    "%s"
-                    % (
-                        regex_template,
-                        regex,
-                        examples,
-                        candidate,
-                    )
+                    f"No match in 'examples' for custom regex {regex_template!r}.\n"
+                    f"Expanded regex: {regex}.\n"
+                    f"Provided examples: {examples}.\n"
+                    f"{candidate}"
                 )
 
         # check that each example is matched by at least one regex
@@ -122,13 +116,12 @@ class BaseTestCase(TestCase):
             set(examples),
             matched_examples,
             "Not all examples matched. If custom regexes are provided, all examples should match."
-            "Unmatched examples: %s. Regexes tried: %s"
-            % (set(examples) - matched_examples, regexes),
+            f"Unmatched examples: {set(examples) - matched_examples}. Regexes tried: {regexes}",
         )
 
     def check_for_matching_groups(self, regexes, examples):
         """Check that each regex has named <reporter> and <page> matching groups."""
-        for regex_template, regex in regexes:
+        for _regex_template, regex in regexes:
             for example in examples:
                 if m := re.match(regex + "$", example):
                     self.assertIn(
@@ -223,7 +216,7 @@ class ReportersTest(BaseTestCase):
 
     def test_any_keys_missing_editions(self):
         """Have we added any new reporters that lack a matching edition?"""
-        for reporter_abbv, reporter_list, reporter_data in iter_reporters():
+        for reporter_abbv, _reporter_list, reporter_data in iter_reporters():
             self.assertIn(
                 reporter_abbv,
                 reporter_data["editions"],
@@ -239,8 +232,7 @@ class ReportersTest(BaseTestCase):
                 self.assertIn(
                     EDITIONS[variation],
                     REPORTERS.keys(),
-                    msg="Could not map variation to a valid reporter: %s"
-                    % variation,
+                    msg=f"Could not map variation to a valid reporter: {variation}",
                 )
 
     def test_basic_names_to_editions(self):
@@ -259,12 +251,12 @@ class ReportersTest(BaseTestCase):
     def test_dates(self):
         """Do we properly make the ISO-8601 date strings into Python dates?"""
         # for reporter_abbv, reporter_list, reporter_data in iter_reporters():
-        for edition_name, edition in iter_editions():
+        for _edition_name, edition in iter_editions():
             self.check_dates(edition["start"], edition["end"])
 
     def test_all_reporters_have_valid_cite_type(self):
         """Do all reporters have valid cite_type values?"""
-        for reporter_abbv, reporter_list, reporter_data in iter_reporters():
+        for reporter_abbv, _reporter_list, reporter_data in iter_reporters():
             self.assertIn(
                 reporter_data["cite_type"],
                 VALID_CITE_TYPES,
@@ -280,13 +272,13 @@ class ReportersTest(BaseTestCase):
                 self.assertNotEqual(
                     variation,
                     key,
-                    "The variation '%s' is identical to the key it's supposed "
-                    "to be a variation of." % variation,
+                    f"The variation '{variation}' is identical to the key it's supposed "
+                    "to be a variation of.",
                 )
 
     def test_fields_tidy(self):
         """Check that fields don't have unexpected characters or whitespace."""
-        for reporter_abbv, reporter_list, reporter_data in iter_reporters():
+        for reporter_abbv, _reporter_list, reporter_data in iter_reporters():
             self.check_ascii(reporter_abbv)
             self.check_ascii(list(reporter_data["editions"].keys()))
             self.check_ascii(reporter_data["variations"])
@@ -298,7 +290,7 @@ class ReportersTest(BaseTestCase):
         (1) Do custom regexes and examples match up?
         (2) Does each regex have named <reporter> and <page> matching groups?
         """
-        for reporter_abbv, reporter_list, reporter_data in iter_reporters():
+        for reporter_abbv, _reporter_list, reporter_data in iter_reporters():
             # get list of expanded regexes and examples for this reporter
             examples = reporter_data.get("examples", [])
             regexes = []
@@ -315,8 +307,7 @@ class ReportersTest(BaseTestCase):
                         regex_template, REGEX_VARIABLES
                     )
                     regex = Template(regex).safe_substitute(
-                        edition="(?:%s)"
-                        % "|".join(re.escape(e) for e in edition_strings)
+                        edition=f"(?:{'|'.join(re.escape(e) for e in edition_strings)})"
                     )
                     regexes.append((regex_template, regex))
 
@@ -353,20 +344,19 @@ class LawsTest(BaseTestCase):
             for regex_template in law["regexes"]:
                 regex = recursive_substitute(regex_template, REGEX_VARIABLES)
                 regex = Template(regex).safe_substitute(
-                    edition="(?:%s)"
-                    % "|".join(re.escape(e) for e in series_strings)
+                    edition=f"(?:{'|'.join(re.escape(e) for e in series_strings)})"
                 )
                 regexes.append((regex_template, regex))
             with self.subTest("Check law regexes", name=law["name"]):
                 self.check_regexes(regexes, law["examples"])
 
     def test_dates(self):
-        for law_key, law in self.iter_laws():
+        for _law_key, law in self.iter_laws():
             self.check_dates(law["start"], law["end"])
 
     def test_fields_tidy(self):
         """Check that fields don't have unexpected characters or whitespace."""
-        for law_key, law in self.iter_laws():
+        for _law_key, law in self.iter_laws():
             self.check_ascii(law["regexes"])
             self.check_ascii(law["examples"])
 
@@ -385,7 +375,7 @@ class JournalsTest(BaseTestCase):
 
     def test_regexes(self):
         """Do custom regexes and examples match up?"""
-        for journal_key, journal in self.iter_journals():
+        for _journal_key, journal in self.iter_journals():
             regexes = [
                 (
                     regex_template,
@@ -397,7 +387,7 @@ class JournalsTest(BaseTestCase):
                 self.check_regexes(regexes, journal.get("examples", []))
 
     def test_dates(self):
-        for journal_key, journal in self.iter_journals():
+        for _journal_key, journal in self.iter_journals():
             self.check_dates(journal["start"], journal["end"])
 
     def test_fields_tidy(self):

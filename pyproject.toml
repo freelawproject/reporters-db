@@ -1,3 +1,38 @@
-[tool.black]
+[project]
+name = "reporters-db"
+version = "1"
+description = "reporters-db"
+requires-python = ">=3.9"
+
+[tool.ruff]
 line-length = 79
-include = '''.*\.pyi?$'''
+lint.select = [
+  # flake8-bugbear
+  "B",
+  # flake8-comprehensions
+  "C4",
+  # pycodestyle
+  "E",
+  # Pyflakes errors
+  "F",
+  # isort
+  "I",
+  # flake8-simplify
+  "SIM",
+  # flake8-tidy-imports
+  "TID",
+  # pyupgrade
+  "UP",
+  # Pyflakes warnings
+  "W",
+]
+lint.ignore = [
+  # flake8-bugbear opinionated rules
+  "B9",
+  # line-too-long
+  "E501",
+  # suppressible-exception
+  "SIM105",
+  # if-else-block-instead-of-if-exp
+  "SIM108",
+]

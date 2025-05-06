@@ -17,7 +17,7 @@ def suck_out_variations_only(reporters):
     reporters that it could be possibly referring to.
     """
     variations_out = {}
-    for reporter_key, data_list in reporters.items():
+    for _reporter_key, data_list in reporters.items():
         # For each reporter key...
         for data in data_list:
             # For each book it maps to...
@@ -52,7 +52,7 @@ def suck_out_editions(reporters):
         # For each reporter key...
         for data in data_list:
             # For each book it maps to...
-            for edition_key, edition_value in data["editions"].items():
+            for edition_key, _edition_value in data["editions"].items():
                 try:
                     editions_out[edition_key]
                 except KeyError:
@@ -74,11 +74,11 @@ def suck_out_formats(reporters):
     In other words, this lets you go from an edition match to its parent key.
     """
     formats_out = {}
-    for reporter_key, data_list in reporters.items():
+    for _reporter_key, data_list in reporters.items():
         # For each reporter key...
         for data in data_list:
             # Map the cite_format if it exists
-            for edition_key, edition_value in data["editions"].items():
+            for edition_key, _edition_value in data["editions"].items():
                 try:
                     formats_out[edition_key] = data["cite_format"]
                 except KeyError:
@@ -99,12 +99,13 @@ def names_to_abbreviations(reporters):
     Note that the abbreviations are sorted by start date.
     """
     names = {}
-    for reporter_key, data_list in reporters.items():
+    for _reporter_key, data_list in reporters.items():
         for data in data_list:
             abbrevs = data["editions"].keys()
             # Sort abbreviations by start date of the edition
-            sort_func = lambda x: str(data["editions"][x]["start"]) + x
-            abbrevs = sorted(abbrevs, key=sort_func)
+            abbrevs = sorted(
+                abbrevs, key=lambda x: str(data["editions"][x]["start"]) + x
+            )
             names[data["name"]] = abbrevs
     sorted_names = OrderedDict(sorted(names.items(), key=lambda t: t[0]))
     return sorted_names
@@ -153,7 +154,7 @@ def recursive_substitute(template, variables, max_depth=100):
     Infinite loops will raise a ValueError after max_depth loops.
     """
     old_val = template
-    for i in range(max_depth):
+    for _ in range(max_depth):
         new_val = Template(old_val).safe_substitute(variables)
         if new_val == old_val:
             break
