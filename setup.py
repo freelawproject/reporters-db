@@ -8,10 +8,6 @@ AUTHOR = "Mike Lissner"
 EMAIL = "mike@free.law"
 HERE = os.path.abspath(os.path.dirname(__file__))
 
-reqs_path = f"{HERE}/requirements.txt"
-with open(reqs_path) as reqs_file:
-    reqs = reqs_file.read().splitlines()
-
 
 def read(*parts):
     """
@@ -56,7 +52,6 @@ setup(
         "Programming Language :: Python :: Implementation :: PyPy",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    install_requires=reqs,
     tests_require=["jsonschema==4.3.2"],
     test_suite="tests",
 )

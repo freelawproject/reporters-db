@@ -14,6 +14,7 @@
 
  - Add variation to Montana Neutral Citation
  - Standardize nominative reporters regex group names
+ - Drop `six` dependency
 
 ## Current Version
 
@@ -154,12 +155,3 @@ Changes:
 
  - 1.0: Has all common Blue Book reporters, with their variations from
    the Cardiff database.
-
-
-
-
-
-
-
-
-
