@@ -6,14 +6,18 @@ on:
     branches:
       - main
 
+concurrency:
+  group: ${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
 jobs:
   black:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2-beta
-      - uses: actions/setup-python@v2
-        with:
-          # Once codebase is updated, this can easily be changed to any specific version.
-          python-version: "3.8"
+      - uses: actions/checkout@v4
 
-      - uses: pre-commit/action@v3.0.0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - uses: pre-commit/action@v3.0.1

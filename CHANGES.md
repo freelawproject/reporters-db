@@ -15,6 +15,7 @@
  - Add variation to Montana Neutral Citation
  - Standardize nominative reporters regex group names
  - Drop `six` dependency
+ - Support Python 3.13
 
 ## Current Version
 
