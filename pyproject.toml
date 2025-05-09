@@ -36,6 +36,11 @@ classifiers = [
 ]
 urls.Repository = "https://github.com/freelawproject/reporters-db"
 
+[dependency-groups]
+test = [
+  "jsonschema",
+]
+
 [tool.setuptools]
 packages = [ "reporters_db" ]
 
