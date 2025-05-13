@@ -1,8 +1,46 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools",
+]
+
 [project]
 name = "reporters-db"
-version = "1"
-description = "reporters-db"
+version = "3.2.54"
+description = "Database of Court Reporters"
+readme = "README.rst"
+keywords = [ "legal", "reporters" ]
+license = "BSD-2-Clause"
+license-files = [ "LICENSE" ]
+authors = [
+  { name = "Mike Lissner", email = "mike@free.law" },
+]
 requires-python = ">=3.9"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+urls.Repository = "https://github.com/freelawproject/reporters-db"
+
+[dependency-groups]
+test = [
+  "jsonschema",
+]
+
+[tool.setuptools]
+packages = [ "reporters_db" ]
 
 [tool.ruff]
 line-length = 79
