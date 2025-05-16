@@ -16,6 +16,8 @@
  - Standardize nominative reporters regex group names
  - Drop `six` dependency
  - Support Python 3.13
+ - Remove repeated reporter `C.I.T.` and add it as a variation of `Ct. Int'l Trade`
+ - Move variation `M.,` to correct reporter `Mich.`
 
 ## Current Version
 
