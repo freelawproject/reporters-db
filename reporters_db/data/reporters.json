@@ -25100,7 +25100,8 @@
                 "us:la;supreme.court",
                 "us:la;court.appeals"
             ],
-            "name": "Louisiana Court of Appeals Reports, Teisser",
+            "name": "Louisiana Court of Appeals Reports, Teissier",
+            "notes": "Author: Fernand F. Teissier",
             "variations": {
                 "La.App.(Orleans)": "Teiss.",
                 "Teissier": "Teiss."
@@ -25590,22 +25591,6 @@
                 "Thomp. Cas.": "Thompson",
                 "Unrep. Tenn. Cas.": "Thompson"
             }
-        }
-    ],
-    "Tiess.": [
-        {
-            "cite_type": "state",
-            "editions": {
-                "Tiess.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [
-                "us:la;court.appeals"
-            ],
-            "name": "Decisions, Court of Appeal, parish of Orleans (Teissier)",
-            "variations": {}
         }
     ],
     "Tiffany": [
@@ -28171,6 +28156,7 @@
                 "us:tx;court.appeals"
             ],
             "name": "Condensed Reports of Decisions in Civil Causes in the Court of Appeals of Texas (Willson)",
+            "notes": "Author: Sam A. Willson",
             "variations": {
                 "Willson Rep.": "Willson"
             }
@@ -28191,6 +28177,7 @@
                 "us:in;superior.court"
             ],
             "name": "Wilson's Reports (1-3 Oregon)",
+            "notes": "Author: Oliver M. Wilson",
             "variations": {
                 "Wils. Oreg.": "Wilson"
             }
