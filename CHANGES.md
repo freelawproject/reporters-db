@@ -19,7 +19,7 @@
 
 ## Current Version
 
-- 3.2.54 (2025-02-21)
+- 3.2.55 (2025-05-21)
 
 Changes:
 
@@ -28,6 +28,8 @@ Changes:
 - Add Changes to NY variations
 
 ## Past Versions
+
+ - 3.2.54 (2025-03-01):  Add "P3d" abbreviation to reporters.json
 
  - 3.2.53 (2025-02-20): Add page variations for NY Slip Op and NY Misc 3d
 
