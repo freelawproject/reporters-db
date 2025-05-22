@@ -19,17 +19,16 @@
 
 ## Current Version
 
-- 3.2.55 (2025-05-21)
+- 3.2.54 (2025-02-21)
 
 Changes:
 
 - Add workflow to check for new entries in CHANGES.md file
 - Update S.Ct. Regexes
 - Add Changes to NY variations
+- Add "P3d" abbreviation to reporters.json
 
 ## Past Versions
-
- - 3.2.54 (2025-03-01):  Add "P3d" abbreviation to reporters.json
 
  - 3.2.53 (2025-02-20): Add page variations for NY Slip Op and NY Misc 3d
 
