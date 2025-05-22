@@ -26,6 +26,7 @@ Changes:
 - Add workflow to check for new entries in CHANGES.md file
 - Update S.Ct. Regexes
 - Add Changes to NY variations
+- Add "P3d" abbreviation to reporters.json
 
 ## Past Versions
 
