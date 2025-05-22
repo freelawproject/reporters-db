@@ -12,12 +12,14 @@
 
 ## Upcoming Changes
 
+## Current Version
+
+- 3.2.55 (2025-02-22)
+
  - Add variation to Montana Neutral Citation
  - Standardize nominative reporters regex group names
  - Drop `six` dependency
  - Support Python 3.13
-
-## Current Version
 
 - 3.2.54 (2025-02-21)
 
