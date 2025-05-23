@@ -19,14 +19,15 @@
 
 ## Current Version
 
-- 3.2.54 (2025-02-21)
+- 3.2.55 (2025-02-23)
 
 Changes:
 
 - Add workflow to check for new entries in CHANGES.md file
 - Update S.Ct. Regexes
 - Add Changes to NY variations
-- Add "P3d" abbreviation to reporters.json
+- Add "P3d" abbreviation to reporters.json #224
+
 
 ## Past Versions
 
