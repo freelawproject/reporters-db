@@ -12,24 +12,30 @@
 
 ## Upcoming Changes
 
+ -  
+
+## Current Version
+
+- 3.2.55 (2025-05-23)
+
+Changes:
+
  - Add variation to Montana Neutral Citation
  - Standardize nominative reporters regex group names
  - Drop `six` dependency
  - Support Python 3.13
+ - Add "P3d" abbreviation to reporters.json #224
 
-## Current Version
 
-- 3.2.55 (2025-02-23)
+## Past Versions
+
+- 3.2.54 (2025-02-21)
 
 Changes:
 
 - Add workflow to check for new entries in CHANGES.md file
 - Update S.Ct. Regexes
 - Add Changes to NY variations
-- Add "P3d" abbreviation to reporters.json #224
-
-
-## Past Versions
 
  - 3.2.53 (2025-02-20): Add page variations for NY Slip Op and NY Misc 3d
 
