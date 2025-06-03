@@ -3755,20 +3755,6 @@
             "variations": {}
         }
     ],
-    "C.I.T.": [
-        {
-            "cite_type": "specialty",
-            "editions": {
-                "C.I.T.": {
-                    "end": null,
-                    "start": "1750-01-01T00:00:00"
-                }
-            },
-            "mlz_jurisdiction": [],
-            "name": "Court of International Trade Reports",
-            "variations": {}
-        }
-    ],
     "C.M.A.": [
         {
             "cite_type": "specialty",
@@ -6346,7 +6332,7 @@
     ],
     "Ct. Int'l Trade": [
         {
-            "cite_type": "federal",
+            "cite_type": "specialty",
             "editions": {
                 "Ct. Int'l Trade": {
                     "end": null,
@@ -6358,6 +6344,7 @@
             ],
             "name": "Court of International Trade Reports",
             "variations": {
+                "C.I.T.": "Ct. Int'l Trade",
                 "Ct.Int'l Trade": "Ct. Int'l Trade"
             }
         }
@@ -15732,7 +15719,6 @@
             "name": "McGrath's Mandamus Cases (Michigan)",
             "notes": "Also known as 'Mandamus cases decided in the Supreme court of Michigan'",
             "variations": {
-                "M.,": "McGrath",
                 "McGrdath": "McGrath"
             }
         }
@@ -16167,6 +16153,7 @@
             ],
             "name": "Michigan Reports",
             "variations": {
+                "M.": "Mich.",
                 "Mich": "Mich.",
                 "Mich. Rep.": "Mich."
             }
@@ -25114,7 +25101,8 @@
                 "us:la;supreme.court",
                 "us:la;court.appeals"
             ],
-            "name": "Louisiana Court of Appeals Reports, Teisser",
+            "name": "Louisiana Court of Appeals Reports, Teissier",
+            "notes": "Author: Fernand F. Teissier",
             "variations": {
                 "La.App.(Orleans)": "Teiss.",
                 "Teissier": "Teiss."
@@ -28185,6 +28173,7 @@
                 "us:tx;court.appeals"
             ],
             "name": "Condensed Reports of Decisions in Civil Causes in the Court of Appeals of Texas (Willson)",
+            "notes": "Author: Sam A. Willson",
             "variations": {
                 "Willson Rep.": "Willson"
             }
@@ -28205,6 +28194,7 @@
                 "us:in;superior.court"
             ],
             "name": "Wilson's Reports (1-3 Oregon)",
+            "notes": "Author: Oliver M. Wilson",
             "variations": {
                 "Wils. Oreg.": "Wilson"
             }
