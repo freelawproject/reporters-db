@@ -12,14 +12,23 @@
 
 ## Upcoming Changes
 
+ - Remove repeated reporter `C.I.T.` and add it as a variation of `Ct. Int'l Trade`
+ - Move variation `M.` to correct reporter `Mich.`
+
+## Current Version
+
+- 3.2.56 (2025-05-23)
+
+Changes:
+
  - Add variation to Montana Neutral Citation
  - Standardize nominative reporters regex group names
  - Drop `six` dependency
  - Support Python 3.13
- - Remove repeated reporter `C.I.T.` and add it as a variation of `Ct. Int'l Trade`
- - Move variation `M.,` to correct reporter `Mich.`
+ - Add "P3d" abbreviation to reporters.json #224
 
-## Current Version
+
+## Past Versions
 
 - 3.2.54 (2025-02-21)
 
@@ -28,8 +37,6 @@ Changes:
 - Add workflow to check for new entries in CHANGES.md file
 - Update S.Ct. Regexes
 - Add Changes to NY variations
-
-## Past Versions
 
  - 3.2.53 (2025-02-20): Add page variations for NY Slip Op and NY Misc 3d
 
