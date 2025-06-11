@@ -12,7 +12,8 @@
 
 ## Upcoming Changes
 
- -  
+ - Remove repeated reporter `C.I.T.` and add it as a variation of `Ct. Int'l Trade`
+ - Move variation `M.` to correct reporter `Mich.`
 
 ## Current Version
 
