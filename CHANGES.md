@@ -12,11 +12,19 @@
 
 ## Upcoming Changes
 
+
+## Current Version
+
+- 3.2.57 (2025-07-27)
+
+Changes:
+
  - Remove repeated reporter `C.I.T.` and add it as a variation of `Ct. Int'l Trade`
  - Move variation `M.` to correct reporter `Mich.`
  - Update Volume regex
 
-## Current Version
+
+## Past Versions
 
 - 3.2.56 (2025-05-23)
 
@@ -28,8 +36,6 @@ Changes:
  - Support Python 3.13
  - Add "P3d" abbreviation to reporters.json #224
 
-
-## Past Versions
 
 - 3.2.54 (2025-02-21)
 
