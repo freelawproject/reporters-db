@@ -68,7 +68,7 @@
     },
     "section_marker": "((§§?)|([Ss]((ec)(tion)?)?s?\\.?))",
     "volume": {
-        "": "(?P<volume>\\d+)",
+        "": "(?P<volume>[1-9]\\d*)",
         "#": "Standard volume number",
         "nominative": "(?:(?P<volume>\\d{1,2}) )?",
         "nominative#": "Nominative volume number embedded in an official cite; made optional for single-volume nominatives",
