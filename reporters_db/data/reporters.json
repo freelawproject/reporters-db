@@ -25369,23 +25369,27 @@
     ],
     "Tex. Bus.": [
         {
-            "cite_type": "state",
+            "cite_type": "neutral",
             "editions": {
                 "Tex. Bus.": {
                     "end": null,
-                    "start": "1891-01-01T00:00:00",
                     "regexes": [
                         "$volume_year $reporter $page"
-                    ]
+                    ],
+                    "start": "2024-10-30T00:00:00"
                 }
             },
             "examples": [
-                "2025 Tex. Bus. 28"
+                "2025 Tex. Bus. 28",
+                "2025 Tex. Bus. Ct. 18"
             ],
             "mlz_jurisdiction": [
                 "us:tx;business.court"
             ],
             "name": "Texas Business Nuetral citation",
+            "variations": {
+                "Tex. Bus. Ct.": "Tex. Bus."
+            }
         }
     ],
     "Tex. Civ. App.": [
