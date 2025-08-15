@@ -25367,6 +25367,31 @@
             "variations": {}
         }
     ],
+    "Tex. Bus.": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "Tex. Bus.": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_year $reporter $page"
+                    ],
+                    "start": "2024-10-30T00:00:00"
+                }
+            },
+            "examples": [
+                "2025 Tex. Bus. 28",
+                "2025 Tex. Bus. Ct. 18"
+            ],
+            "mlz_jurisdiction": [
+                "us:tx;business.court"
+            ],
+            "name": "Texas Business Court",
+            "variations": {
+                "Tex. Bus. Ct.": "Tex. Bus."
+            }
+        }
+    ],
     "Tex. Civ. App.": [
         {
             "cite_type": "state",
