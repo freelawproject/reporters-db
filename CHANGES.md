@@ -11,10 +11,18 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
-- add Texas business court reporter #231
+
 
 
 ## Current Version
+
+- 3.2.58 (2025-08-27)
+
+Changes:
+
+- add Texas business court reporter #231
+
+## Past Versions
 
 - 3.2.57 (2025-07-27)
 
@@ -23,9 +31,6 @@ Changes:
  - Remove repeated reporter `C.I.T.` and add it as a variation of `Ct. Int'l Trade`
  - Move variation `M.` to correct reporter `Mich.`
  - Update Volume regex
-
-
-## Past Versions
 
 - 3.2.56 (2025-05-23)
 
