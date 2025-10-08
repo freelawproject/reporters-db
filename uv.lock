@@ -54,7 +54,7 @@ wheels = [
 
 [[package]]
 name = "reporters-db"
-version = "3.2.58"
+version = "3.2.59"
 source = { editable = "." }
 
 [package.dev-dependencies]

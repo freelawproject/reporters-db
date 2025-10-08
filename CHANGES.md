@@ -12,22 +12,22 @@
 
 ## Upcoming Changes
 
+
+## Current Version
+
 - 3.2.59 (2025-10-08)
 
 Changes:
 
-- Add regex and examples to DNH #235
+ - Add regex and examples to DNH #235
 
-
-## Current Version
+## Past Versions
 
 - 3.2.58 (2025-08-27)
 
 Changes:
 
-- add Texas business court reporter #231
-
-## Past Versions
+ - add Texas business court reporter #231
 
 - 3.2.57 (2025-07-27)
 
