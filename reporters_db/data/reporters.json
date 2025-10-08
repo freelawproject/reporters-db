@@ -6622,9 +6622,18 @@
             "editions": {
                 "DNH": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite",
+                        "$volume $reporter,? $page_with_letter"
+                    ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "2021 DNH 138P",
+                "2001 DNH 005X",
+                "2025 DNH 052"
+            ],
             "mlz_jurisdiction": [
                 "us:c1:nh.d;district.court",
                 "us:c1:ri.d;district.court"
