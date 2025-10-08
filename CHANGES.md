@@ -12,6 +12,11 @@
 
 ## Upcoming Changes
 
+- 3.2.59 (2025-10-08)
+
+Changes:
+
+- Add regex and examples to DNH #235
 
 
 ## Current Version
