@@ -12,12 +12,16 @@
 
 ## Upcoming Changes
 
+
+## Current Version
+
+- 3.2.60 (2025-10-20) 
+
 Changes:
 
  - Add NW3d series
 
-
-## Current Version
+## Past Versions
 
 - 3.2.59 (2025-10-08)
 
@@ -25,7 +29,6 @@ Changes:
 
  - Add regex and examples to DNH #235
 
-## Past Versions
 
 - 3.2.58 (2025-08-27)
 
