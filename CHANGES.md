@@ -12,6 +12,10 @@
 
 ## Upcoming Changes
 
+Changes:
+
+ - Add NW3d series
+
 
 ## Current Version
 
