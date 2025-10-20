@@ -18043,8 +18043,12 @@
                     "start": "1880-01-01T00:00:00"
                 },
                 "N.W.2d": {
-                    "end": null,
+                    "end": "2023-12-31T00:00:00",
                     "start": "1942-01-01T00:00:00"
+                },
+                "N.W.3d": {
+                    "end": null,
+                    "start": "2024-01-01T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -18088,6 +18092,7 @@
                 "NW.2d": "N.W.2d",
                 "NW2D": "N.W.2d",
                 "NW2d": "N.W.2d",
+                "NW3d": "N.W.3d",
                 "No.West Rep.": "N.W.",
                 "Northw.Rep.": "N.W."
             }
