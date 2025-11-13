@@ -27655,8 +27655,12 @@
                     "start": "1889-01-01T00:00:00"
                 },
                 "Wash. 2d": {
-                    "end": null,
+                    "end": "2023-02-19T00:00:00",
                     "start": "1889-01-01T00:00:00"
+                },
+                "Wash. 3d": {
+                    "end": null,
+                    "start": "2023-02-19T00:00:00"
                 }
             },
             "mlz_jurisdiction": [
@@ -27670,6 +27674,7 @@
                 "WASH": "Wash.",
                 "Wa.": "Wash.",
                 "Wa.2d": "Wash. 2d",
+                "Wa.3d": "Wash. 3d",
                 "Wash. Rep.": "Wash.",
                 "Wash.2d": "Wash. 2d",
                 "Wash.St.": "Wash.",
