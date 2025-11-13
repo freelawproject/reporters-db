@@ -11,6 +11,7 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
+ - Add Wash. 3d reporter
 
 
 ## Current Version
