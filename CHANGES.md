@@ -11,10 +11,16 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
- - Add Wash. 3d reporter
 
 
 ## Current Version
+- 3.2.62 (2025-11-21)
+
+Changes:
+
+  - Add Wash. 3d reporter
+
+## Past Versions
 
 - 3.2.61 (2025-10-20)
 
@@ -22,7 +28,6 @@ Changes:
 
  - Add NW3d series
 
-## Past Versions
 
 - 3.2.59 (2025-10-08)
 
