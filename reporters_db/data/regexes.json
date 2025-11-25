@@ -11,7 +11,7 @@
             "3_4#": "Format neutral cite where the page must be 3 or 4 digits, like '2000-NMSC-123'"
         },
         "illinois_neutral": {
-            "": "$volume_year $reporter (?P<page>\\d{6}(?:-[A-Z]|WC)?)",
+            "": "$volume_year $reporter (?P<page>\\d{5,6}(?:-[A-Z]|WC)?)",
             "#": "Illinois format-neutral cite with an optional -letter in page number."
         },
         "louisiana": {

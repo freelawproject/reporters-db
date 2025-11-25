@@ -52,6 +52,7 @@
                 "A,2d": "A.2d",
                 "A. 2d": "A.2d",
                 "A. 3d": "A.3d",
+                "A.3d.": "A.3d",
                 "A.2d.": "A.2d",
                 "A.R.": "A.",
                 "A.Rep.": "A.",
@@ -1676,6 +1677,22 @@
             "variations": {}
         }
     ],
+    "Arizona Cases Digest": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Arizona Cases Digest": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:az;supreme.court"
+            ],
+            "name": "Arizona Cases Digest",
+            "variations": {}
+        }
+    ],
     "Ark.": [
         {
             "cite_type": "neutral",
@@ -1790,7 +1807,8 @@
             "name": "Arkansas Appellate Reports",
             "variations": {
                 "Ak. App.": "Ark. App.",
-                "Ark.App.": "Ark. App."
+                "Ark.App.": "Ark. App.",
+                "Ark App": "Ark. App."
             }
         },
         {
@@ -5692,7 +5710,8 @@
             ],
             "name": "Connecticut Reports",
             "variations": {
-                "Conn. Rep.": "Conn."
+                "Conn. Rep.": "Conn.",
+                "Conn": "Conn."
             }
         }
     ],
@@ -8308,6 +8327,7 @@
                 "F.2d.": "F.2d",
                 "F.3d.": "F.3d",
                 "F.4th.": "F.4th",
+                "F.4 th": "F.4th",
                 "F3d": "F.3d",
                 "F3d.": "F.3d",
                 "Fed.": "F.",
@@ -8789,7 +8809,8 @@
                 "F.Supp. 3d": "F. Supp. 3d",
                 "F.Supp.2d": "F. Supp. 2d",
                 "F.Supp.3d": "F. Supp. 3d",
-                "FS3d": "F. Supp. 3d"
+                "FS3d": "F. Supp. 3d",
+                "FSupp3d": "F. Supp. 3d"
             }
         }
     ],
@@ -10937,7 +10958,8 @@
                 "Haw. Rep.": "Haw.",
                 "Hawai'i": "Haw.",
                 "Hawaii": "Haw.",
-                "Hawaii Rep.": "Haw."
+                "Hawaii Rep.": "Haw.",
+                "Hawai‘i": "Haw."
             }
         }
     ],
@@ -18745,14 +18767,16 @@
                     "end": null,
                     "regexes": [
                         "$full_cite_format_neutral_3_4",
-                        "$volume_year\\s-$reporter-\\s$page"
+                        "$volume_year\\s-$reporter-\\s$page",
+                        "$volume_year $reporter $page"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "2005-NMCA-078",
-                "2005 -NMCA- 078"
+                "2005 -NMCA- 078",
+                "2024 NMCA 30"
             ],
             "mlz_jurisdiction": [
                 "us:nm;court.appeals",
@@ -20911,6 +20935,7 @@
                 "P": "P.",
                 "P 2d": "P.2d",
                 "P 3d": "P.3d",
+                "P.3d.": "P.3d",
                 "P [2d]": "P.2d",
                 "P. (2d)": "P.2d",
                 "P. 2d": "P.2d",
@@ -27036,6 +27061,24 @@
             "variations": {}
         }
     ],
+        "Vt. Super.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Vt. Super.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:vt;superior.court"
+            ],
+            "name": "LexisNexis Vermont Superior Court",
+            "variations": {
+                "Vt Super": "Vt. Super."
+            }
+        }
+    ],
     "Vt. Super. LEXIS": [
         {
             "cite_type": "state",
@@ -27049,7 +27092,6 @@
                 "us:vt;superior.court"
             ],
             "name": "LexisNexis Vermont Superior Court",
-            "variations": {}
         }
     ],
     "Vt. Unpub. LEXIS": [
@@ -27280,7 +27322,9 @@
                 "us:wi;supreme.court"
             ],
             "name": "Wisconsin Neutral Citation",
-            "variations": {}
+            "variations": {
+                "WI.App.": "WI App"
+            }
         }
     ],
     "WL": [
@@ -27681,7 +27725,8 @@
                 "Wn": "Wash.",
                 "Wn.": "Wash.",
                 "Wn. 2d": "Wash. 2d",
-                "Wn.2d": "Wash. 2d"
+                "Wn.2d": "Wash. 2d",
+                "Wn.3d": "Wash. 3d"
             }
         }
     ],
@@ -27692,7 +27737,12 @@
                 "Wash. App.": {
                     "end": null,
                     "start": "1969-01-01T00:00:00"
+                },
+                "Wash. App. 2d": {
+                    "end": null,
+                    "start": "1969-01-01T00:00:00"
                 }
+
             },
             "mlz_jurisdiction": [
                 "us:wa;supreme.court",
@@ -27704,7 +27754,8 @@
                 "Wa.A.": "Wash. App.",
                 "Wash.App.": "Wash. App.",
                 "Wn. App.": "Wash. App.",
-                "Wn.App.": "Wash. App."
+                "Wn.App.": "Wash. App.",
+                "Wash.App.2d": "Wash. App. 2d"
             }
         }
     ],
