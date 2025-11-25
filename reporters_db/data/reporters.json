@@ -52,8 +52,8 @@
                 "A,2d": "A.2d",
                 "A. 2d": "A.2d",
                 "A. 3d": "A.3d",
-                "A.3d.": "A.3d",
                 "A.2d.": "A.2d",
+                "A.3d.": "A.3d",
                 "A.R.": "A.",
                 "A.Rep.": "A.",
                 "A2d": "A.2d",
@@ -1807,8 +1807,8 @@
             "name": "Arkansas Appellate Reports",
             "variations": {
                 "Ak. App.": "Ark. App.",
-                "Ark.App.": "Ark. App.",
-                "Ark App": "Ark. App."
+                "Ark App": "Ark. App.",
+                "Ark.App.": "Ark. App."
             }
         },
         {
@@ -5710,8 +5710,8 @@
             ],
             "name": "Connecticut Reports",
             "variations": {
-                "Conn. Rep.": "Conn.",
-                "Conn": "Conn."
+                "Conn": "Conn.",
+                "Conn. Rep.": "Conn."
             }
         }
     ],
@@ -8326,8 +8326,8 @@
                 "F.(2d)": "F.2d",
                 "F.2d.": "F.2d",
                 "F.3d.": "F.3d",
-                "F.4th.": "F.4th",
                 "F.4 th": "F.4th",
+                "F.4th.": "F.4th",
                 "F3d": "F.3d",
                 "F3d.": "F.3d",
                 "Fed.": "F.",
@@ -10958,8 +10958,7 @@
                 "Haw. Rep.": "Haw.",
                 "Hawai'i": "Haw.",
                 "Hawaii": "Haw.",
-                "Hawaii Rep.": "Haw.",
-                "Hawai‘i": "Haw."
+                "Hawaii Rep.": "Haw."
             }
         }
     ],
@@ -20935,7 +20934,6 @@
                 "P": "P.",
                 "P 2d": "P.2d",
                 "P 3d": "P.3d",
-                "P.3d.": "P.3d",
                 "P [2d]": "P.2d",
                 "P. (2d)": "P.2d",
                 "P. 2d": "P.2d",
@@ -20949,6 +20947,7 @@
                 "P.2 d": "P.2d",
                 "P.2d.": "P.2d",
                 "P.3": "P.3d",
+                "P.3d.": "P.3d",
                 "P.R.": "P.",
                 "P.[2d]": "P.2d",
                 "P2.d": "P.2d",
@@ -27061,7 +27060,7 @@
             "variations": {}
         }
     ],
-        "Vt. Super.": [
+    "Vt. Super.": [
         {
             "cite_type": "state",
             "editions": {
@@ -27092,6 +27091,7 @@
                 "us:vt;superior.court"
             ],
             "name": "LexisNexis Vermont Superior Court",
+            "variations": {}
         }
     ],
     "Vt. Unpub. LEXIS": [
@@ -27742,8 +27742,10 @@
                     "end": null,
                     "start": "1969-01-01T00:00:00"
                 }
-
             },
+            "examples": [
+                "13 Wash.App.2d 185"
+            ],
             "mlz_jurisdiction": [
                 "us:wa;supreme.court",
                 "us:wa;court.appeals"
@@ -27753,9 +27755,9 @@
                 "W.App.": "Wash. App.",
                 "Wa.A.": "Wash. App.",
                 "Wash.App.": "Wash. App.",
+                "Wash.App.2d": "Wash. App. 2d",
                 "Wn. App.": "Wash. App.",
-                "Wn.App.": "Wash. App.",
-                "Wash.App.2d": "Wash. App. 2d"
+                "Wn.App.": "Wash. App."
             }
         }
     ],
