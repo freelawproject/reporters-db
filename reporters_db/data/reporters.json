@@ -8632,9 +8632,15 @@
                 },
                 "F. Supp. 3d": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "2014-03-04T00:00:00"
                 }
             },
+            "examples": [
+                "526 F.Supp.3d. 95"
+            ],
             "mlz_jurisdiction": [
                 "us:c0:dc.d;district.court",
                 "us:c10:co.d;district.court",
@@ -8811,6 +8817,7 @@
                 "F.Supp. 3d": "F. Supp. 3d",
                 "F.Supp.2d": "F. Supp. 2d",
                 "F.Supp.3d": "F. Supp. 3d",
+                "F.Supp.3d.": "F. Supp. 3d",
                 "FS3d": "F. Supp. 3d",
                 "FSupp3d": "F. Supp. 3d"
             }
@@ -17417,7 +17424,8 @@
             "variations": {
                 "N. H. Rep.": "N.H.",
                 "N.H. Rep.": "N.H.",
-                "N.H.R.": "N.H."
+                "N.H.R.": "N.H.",
+                "N.H": "N.H."
             }
         },
         {
@@ -19314,7 +19322,8 @@
                 "Nev. Adv. Op.": "Nev. Adv. Op. No.",
                 "Nev., Adv. Op.": "Nev. Adv. Op. No.",
                 "Nev., Advance Opinion": "Nev. Adv. Op. No.",
-                "Nev.Adv.Op.": "Nev. Adv. Op. No."
+                "Nev.Adv.Op.": "Nev. Adv. Op. No.",
+                "Nev.Ad.Op.": "Nev. Adv. Op. No."
             }
         }
     ],
@@ -27766,6 +27775,7 @@
                 "Wa.A.": "Wash. App.",
                 "Wash.App.": "Wash. App.",
                 "Wash.App.2d": "Wash. App. 2d",
+                "Wn. App. 2d": "Wash. App. 2d",
                 "Wn. App.": "Wash. App.",
                 "Wn.App.": "Wash. App."
             }
