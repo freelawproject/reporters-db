@@ -12,7 +12,7 @@
 
 ## Upcoming Changes
 
-   - 
+   -
 
 ## Current Version
 
