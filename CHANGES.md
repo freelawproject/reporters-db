@@ -12,6 +12,9 @@
 
 ## Upcoming Changes
  - Add Wash. 3d reporter
+ - Add Wash App 2d 
+ - Add Arizona Digest
+ - Add variations
 
 
 ## Current Version
