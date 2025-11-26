@@ -53,6 +53,7 @@
                 "A. 2d": "A.2d",
                 "A. 3d": "A.3d",
                 "A.2d.": "A.2d",
+                "A.3d.": "A.3d",
                 "A.R.": "A.",
                 "A.Rep.": "A.",
                 "A2d": "A.2d",
@@ -1676,6 +1677,22 @@
             "variations": {}
         }
     ],
+    "Arizona Cases Digest": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Arizona Cases Digest": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:az;supreme.court"
+            ],
+            "name": "Arizona Cases Digest",
+            "variations": {}
+        }
+    ],
     "Ark.": [
         {
             "cite_type": "neutral",
@@ -1790,6 +1807,7 @@
             "name": "Arkansas Appellate Reports",
             "variations": {
                 "Ak. App.": "Ark. App.",
+                "Ark App": "Ark. App.",
                 "Ark.App.": "Ark. App."
             }
         },
@@ -5692,6 +5710,7 @@
             ],
             "name": "Connecticut Reports",
             "variations": {
+                "Conn": "Conn.",
                 "Conn. Rep.": "Conn."
             }
         }
@@ -8307,9 +8326,11 @@
                 "F.(2d)": "F.2d",
                 "F.2d.": "F.2d",
                 "F.3d.": "F.3d",
+                "F.4 th": "F.4th",
                 "F.4th.": "F.4th",
                 "F3d": "F.3d",
                 "F3d.": "F.3d",
+                "F4th": "F.4th",
                 "Fed.": "F.",
                 "Fed.R.": "F.",
                 "Fed.R.2d": "F.2d",
@@ -8611,9 +8632,15 @@
                 },
                 "F. Supp. 3d": {
                     "end": null,
+                    "regexes": [
+                        "$full_cite"
+                    ],
                     "start": "2014-03-04T00:00:00"
                 }
             },
+            "examples": [
+                "526 F.Supp.3d. 95"
+            ],
             "mlz_jurisdiction": [
                 "us:c0:dc.d;district.court",
                 "us:c10:co.d;district.court",
@@ -8786,10 +8813,13 @@
                 "F. Supp.2d": "F. Supp. 2d",
                 "F.Supp.": "F. Supp.",
                 "F.Supp. 2d": "F. Supp. 2d",
+                "F.Supp. 3D": "F. Supp. 3d",
                 "F.Supp. 3d": "F. Supp. 3d",
                 "F.Supp.2d": "F. Supp. 2d",
                 "F.Supp.3d": "F. Supp. 3d",
-                "FS3d": "F. Supp. 3d"
+                "F.Supp.3d.": "F. Supp. 3d",
+                "FS3d": "F. Supp. 3d",
+                "FSupp3d": "F. Supp. 3d"
             }
         }
     ],
@@ -12190,6 +12220,7 @@
             ],
             "name": "Illlinois Neutral Citation",
             "variations": {
+                "IL App (5 th)": "IL App (5th)",
                 "IL App. (5th)": "IL App (5th)",
                 "Il App (5th)": "IL App (5th)",
                 "Il App. (5th)": "IL App (5th)"
@@ -17392,6 +17423,7 @@
             "name": "New Hampshire Reports",
             "variations": {
                 "N. H. Rep.": "N.H.",
+                "N.H": "N.H.",
                 "N.H. Rep.": "N.H.",
                 "N.H.R.": "N.H."
             }
@@ -18745,14 +18777,16 @@
                     "end": null,
                     "regexes": [
                         "$full_cite_format_neutral_3_4",
-                        "$volume_year\\s-$reporter-\\s$page"
+                        "$volume_year\\s-$reporter-\\s$page",
+                        "$volume_year $reporter $page"
                     ],
                     "start": "1750-01-01T00:00:00"
                 }
             },
             "examples": [
                 "2005-NMCA-078",
-                "2005 -NMCA- 078"
+                "2005 -NMCA- 078",
+                "2024 NMCA 30"
             ],
             "mlz_jurisdiction": [
                 "us:nm;court.appeals",
@@ -19286,7 +19320,10 @@
             "name": "Nevada Advanced Opinion",
             "variations": {
                 "Nev. Adv. Op.": "Nev. Adv. Op. No.",
-                "Nev., Advance Opinion": "Nev. Adv. Op. No."
+                "Nev., Adv. Op.": "Nev. Adv. Op. No.",
+                "Nev., Advance Opinion": "Nev. Adv. Op. No.",
+                "Nev.Ad.Op.": "Nev. Adv. Op. No.",
+                "Nev.Adv.Op.": "Nev. Adv. Op. No."
             }
         }
     ],
@@ -20402,6 +20439,7 @@
                 "Ohio St. Rep.": "Ohio St.",
                 "Ohio St.2d": "Ohio St. 2d",
                 "Ohio St.3d": "Ohio St. 3d",
+                "Ohio St.3d.": "Ohio St. 3d",
                 "Ohio State": "Ohio St."
             }
         }
@@ -20736,6 +20774,7 @@
             "name": "Oregon Reports, Court of Appeals",
             "variations": {
                 "Or App": "Or. App.",
+                "Or App.": "Or. App.",
                 "Or.A.": "Or. App.",
                 "Or.App.": "Or. App.",
                 "Ore. App.": "Or. App."
@@ -20924,10 +20963,12 @@
                 "P.2 d": "P.2d",
                 "P.2d.": "P.2d",
                 "P.3": "P.3d",
+                "P.3d.": "P.3d",
                 "P.R.": "P.",
                 "P.[2d]": "P.2d",
                 "P2.d": "P.2d",
                 "P2d": "P.2d",
+                "P3.d": "P.3d",
                 "P3d": "P.3d",
                 "PaC.": "P.",
                 "Pac": "P.",
@@ -23598,6 +23639,7 @@
                 "S.W. 3d": "S.W.3d",
                 "S.W. Rep.": "S.W.",
                 "S.W. Series": "S.W.",
+                "S.W.3d.": "S.W.3d",
                 "SW": "S.W.",
                 "SW 2d": "S.W.2d",
                 "SW 3d": "S.W.3d",
@@ -27036,6 +27078,24 @@
             "variations": {}
         }
     ],
+    "Vt. Super.": [
+        {
+            "cite_type": "state",
+            "editions": {
+                "Vt. Super.": {
+                    "end": null,
+                    "start": "1750-01-01T00:00:00"
+                }
+            },
+            "mlz_jurisdiction": [
+                "us:vt;superior.court"
+            ],
+            "name": "LexisNexis Vermont Superior Court",
+            "variations": {
+                "Vt Super": "Vt. Super."
+            }
+        }
+    ],
     "Vt. Super. LEXIS": [
         {
             "cite_type": "state",
@@ -27280,7 +27340,9 @@
                 "us:wi;supreme.court"
             ],
             "name": "Wisconsin Neutral Citation",
-            "variations": {}
+            "variations": {
+                "WI.App.": "WI App"
+            }
         }
     ],
     "WL": [
@@ -27677,11 +27739,13 @@
                 "Wa.3d": "Wash. 3d",
                 "Wash. Rep.": "Wash.",
                 "Wash.2d": "Wash. 2d",
+                "Wash.3d": "Wash. 3d",
                 "Wash.St.": "Wash.",
                 "Wn": "Wash.",
                 "Wn.": "Wash.",
                 "Wn. 2d": "Wash. 2d",
-                "Wn.2d": "Wash. 2d"
+                "Wn.2d": "Wash. 2d",
+                "Wn.3d": "Wash. 3d"
             }
         }
     ],
@@ -27692,8 +27756,15 @@
                 "Wash. App.": {
                     "end": null,
                     "start": "1969-01-01T00:00:00"
+                },
+                "Wash. App. 2d": {
+                    "end": null,
+                    "start": "1969-01-01T00:00:00"
                 }
             },
+            "examples": [
+                "13 Wash.App.2d 185"
+            ],
             "mlz_jurisdiction": [
                 "us:wa;supreme.court",
                 "us:wa;court.appeals"
@@ -27703,7 +27774,9 @@
                 "W.App.": "Wash. App.",
                 "Wa.A.": "Wash. App.",
                 "Wash.App.": "Wash. App.",
+                "Wash.App.2d": "Wash. App. 2d",
                 "Wn. App.": "Wash. App.",
+                "Wn. App. 2d": "Wash. App. 2d",
                 "Wn.App.": "Wash. App."
             }
         }
