@@ -11,20 +11,27 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
- - Add Wash. 3d reporter
- - Add Wash App 2d
- - Add Arizona Digest
- - Add variations
 
+   -
 
 ## Current Version
+
+   - 3.2.63 (2025-11-26)
+
+Changes:
+
+  - Add Wash. App 2d
+  - Add Arizona Digest
+  - Update variations
+
+## Past Versions
+
 - 3.2.62 (2025-11-21)
 
 Changes:
 
   - Add Wash. 3d reporter
 
-## Past Versions
 
 - 3.2.61 (2025-10-20)
 
