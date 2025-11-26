@@ -17423,9 +17423,9 @@
             "name": "New Hampshire Reports",
             "variations": {
                 "N. H. Rep.": "N.H.",
+                "N.H": "N.H.",
                 "N.H. Rep.": "N.H.",
-                "N.H.R.": "N.H.",
-                "N.H": "N.H."
+                "N.H.R.": "N.H."
             }
         },
         {
@@ -19322,8 +19322,8 @@
                 "Nev. Adv. Op.": "Nev. Adv. Op. No.",
                 "Nev., Adv. Op.": "Nev. Adv. Op. No.",
                 "Nev., Advance Opinion": "Nev. Adv. Op. No.",
-                "Nev.Adv.Op.": "Nev. Adv. Op. No.",
-                "Nev.Ad.Op.": "Nev. Adv. Op. No."
+                "Nev.Ad.Op.": "Nev. Adv. Op. No.",
+                "Nev.Adv.Op.": "Nev. Adv. Op. No."
             }
         }
     ],
@@ -27775,8 +27775,8 @@
                 "Wa.A.": "Wash. App.",
                 "Wash.App.": "Wash. App.",
                 "Wash.App.2d": "Wash. App. 2d",
-                "Wn. App. 2d": "Wash. App. 2d",
                 "Wn. App.": "Wash. App.",
+                "Wn. App. 2d": "Wash. App. 2d",
                 "Wn.App.": "Wash. App."
             }
         }
