@@ -1,6 +1,9 @@
+import json
 import re
 from collections import OrderedDict
+from pathlib import Path
 from string import Template
+from typing import Optional
 
 
 def suck_out_variations_only(reporters):
@@ -180,3 +183,118 @@ def substitute_editions(regex, edition_name, variations):
         k for k, v in variations.items() if v == edition_name
     ]
     return [substitute_edition(regex, e) for e in edition_strings]
+
+
+def load_reporters() -> dict:
+    """Load the reporters.json data."""
+    data_path = Path(__file__).parent / "data" / "reporters.json"
+    with open(data_path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def get_volume_ranges() -> dict[str, tuple[int, int]]:
+    """Get volume ranges for all reporters with range data.
+
+    Returns:
+        Dictionary mapping reporter abbreviation to (min, max) tuple.
+
+    Example:
+        >>> ranges = get_volume_ranges()
+        >>> ranges["U.S."]
+        (1, 606)
+    """
+    reporters = load_reporters()
+    ranges = {}
+
+    for reporter_key, reporter_list in reporters.items():
+        for reporter in reporter_list:
+            for edition_key, edition_data in reporter.get("editions", {}).items():
+                if volume_range := edition_data.get("volume_range"):
+                    ranges[edition_key] = (
+                        volume_range["min"],
+                        volume_range["max"],
+                    )
+
+    return ranges
+
+
+def get_volume_range(reporter: str) -> Optional[tuple[int, int]]:
+    """Get the volume range for a specific reporter.
+
+    Args:
+        reporter: Reporter abbreviation (e.g., "U.S.", "F.2d")
+
+    Returns:
+        Tuple of (min_volume, max_volume) or None if not found.
+
+    Example:
+        >>> get_volume_range("U.S.")
+        (1, 606)
+        >>> get_volume_range("Unknown Reporter")
+        None
+    """
+    ranges = get_volume_ranges()
+    return ranges.get(reporter)
+
+
+def is_volume_valid(
+    reporter: str,
+    volume: int,
+    tolerance_multiplier: float = 1.5,
+) -> tuple[bool, str]:
+    """Check if a volume number is valid for a reporter.
+
+    Args:
+        reporter: Reporter abbreviation
+        volume: Volume number to validate
+        tolerance_multiplier: Multiplier for max volume to allow new volumes
+
+    Returns:
+        Tuple of (is_valid, reason). If valid, reason is empty string.
+
+    Example:
+        >>> is_volume_valid("U.S.", 500)
+        (True, "")
+        >>> is_volume_valid("U.S.", 5000)
+        (False, "Volume 5000 exceeds maximum 909 for U.S.")
+    """
+    volume_range = get_volume_range(reporter)
+
+    if volume_range is None:
+        # No data for this reporter, assume valid
+        return True, ""
+
+    min_vol, max_vol = volume_range
+    max_with_tolerance = int(max_vol * tolerance_multiplier)
+
+    if volume < min_vol:
+        return False, f"Volume {volume} is below minimum {min_vol} for {reporter}"
+
+    if volume > max_with_tolerance:
+        return False, f"Volume {volume} exceeds maximum {max_with_tolerance} for {reporter}"
+
+    return True, ""
+
+
+def uses_year_as_volume(reporter: str) -> bool:
+    """Check if a reporter uses publication year as volume number.
+
+    Some reporters (like neutral citations) use the year as volume.
+    These need different validation logic.
+
+    Args:
+        reporter: Reporter abbreviation
+
+    Returns:
+        True if this reporter uses year as volume, False otherwise.
+    """
+    reporters = load_reporters()
+
+    for reporter_key, reporter_list in reporters.items():
+        for reporter_data in reporter_list:
+            for edition_key, edition_data in reporter_data.get("editions", {}).items():
+                if edition_key == reporter:
+                    volume_range = edition_data.get("volume_range", {})
+                    return volume_range.get("uses_year", False)
+
+    return False

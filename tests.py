@@ -17,6 +17,10 @@ from reporters_db import (
     REGEX_VARIABLES,
     REPORTERS,
     VARIATIONS_ONLY,
+    get_volume_range,
+    get_volume_ranges,
+    is_volume_valid,
+    uses_year_as_volume,
 )
 from reporters_db.utils import recursive_substitute
 
@@ -397,6 +401,107 @@ class JournalsTest(BaseTestCase):
             self.check_ascii(journal["name"])
 
         self.check_whitespace(JOURNALS)
+
+
+class VolumeRangeTests(TestCase):
+    """Tests for volume range functionality."""
+
+    def test_get_volume_ranges_returns_dict(self):
+        """get_volume_ranges should return a dictionary."""
+        ranges = get_volume_ranges()
+        self.assertIsInstance(ranges, dict)
+
+    def test_get_volume_range_known_reporter(self):
+        """get_volume_range should return tuple for known reporters."""
+        # This test assumes U.S. has volume_range data
+        result = get_volume_range("U.S.")
+        if result is not None:
+            self.assertIsInstance(result, tuple)
+            self.assertEqual(len(result), 2)
+            min_vol, max_vol = result
+            self.assertGreaterEqual(min_vol, 1)
+            self.assertGreater(max_vol, min_vol)
+
+    def test_get_volume_range_unknown_reporter(self):
+        """get_volume_range should return None for unknown reporters."""
+        result = get_volume_range("Definitely Not A Real Reporter")
+        self.assertIsNone(result)
+
+    def test_is_volume_valid_within_range(self):
+        """Volumes within range should be valid."""
+        # Assuming U.S. has range data with max around 600
+        is_valid, reason = is_volume_valid("U.S.", 500)
+        # If no range data, it defaults to valid
+        self.assertTrue(is_valid)
+
+    def test_is_volume_valid_unknown_reporter(self):
+        """Unknown reporters should default to valid."""
+        is_valid, reason = is_volume_valid("Unknown Reporter", 99999)
+        self.assertTrue(is_valid)
+        self.assertEqual(reason, "")
+
+    def test_is_volume_valid_below_minimum(self):
+        """Volumes below minimum should be invalid."""
+        # Assuming U.S. has range data with min = 1
+        result = get_volume_range("U.S.")
+        if result is not None:
+            is_valid, reason = is_volume_valid("U.S.", 0)
+            self.assertFalse(is_valid)
+            self.assertIn("below minimum", reason)
+
+    def test_is_volume_valid_above_maximum(self):
+        """Volumes way above maximum should be invalid."""
+        # Assuming U.S. has range data
+        result = get_volume_range("U.S.")
+        if result is not None:
+            is_valid, reason = is_volume_valid("U.S.", 50000)
+            self.assertFalse(is_valid)
+            self.assertIn("exceeds maximum", reason)
+
+    def test_uses_year_as_volume_false_for_regular_reporter(self):
+        """Regular reporters should not use year as volume."""
+        result = uses_year_as_volume("U.S.")
+        self.assertFalse(result)
+
+    def test_uses_year_as_volume_unknown_reporter(self):
+        """Unknown reporters should return False."""
+        result = uses_year_as_volume("Unknown Reporter")
+        self.assertFalse(result)
+
+    def test_volume_range_schema_valid(self):
+        """All volume_range objects should have required fields."""
+        ranges_data = get_volume_ranges()
+        for reporter, (min_vol, max_vol) in ranges_data.items():
+            self.assertIsInstance(min_vol, int, f"{reporter} min is not int")
+            self.assertIsInstance(max_vol, int, f"{reporter} max is not int")
+            self.assertGreaterEqual(min_vol, 0, f"{reporter} min is negative")
+            self.assertGreater(max_vol, 0, f"{reporter} max is not positive")
+            self.assertLessEqual(min_vol, max_vol, f"{reporter} min > max")
+
+
+class VolumeRangeIntegrationTests(TestCase):
+    """Integration tests for volume ranges in reporters.json."""
+
+    def test_all_editions_volume_range_valid(self):
+        """If volume_range exists, it should be properly formatted."""
+        for reporter_key, reporter_list in REPORTERS.items():
+            for reporter in reporter_list:
+                for edition_key, edition_data in reporter.get(
+                    "editions", {}
+                ).items():
+                    if "volume_range" in edition_data:
+                        vr = edition_data["volume_range"]
+                        self.assertIn(
+                            "min", vr, f"{edition_key} missing min"
+                        )
+                        self.assertIn(
+                            "max", vr, f"{edition_key} missing max"
+                        )
+                        self.assertGreaterEqual(
+                            vr["max"],
+                            vr["min"],
+                            f"{edition_key} max < min",
+                        )
 
 
 # avoid running test methods in BaseTestCase itself

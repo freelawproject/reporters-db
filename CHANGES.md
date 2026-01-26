@@ -12,6 +12,7 @@
 
 ## Upcoming Changes
 
+  - Add volume range metadata for reporters #245
 
 ## Current Version
 - 3.2.62 (2025-11-21)
