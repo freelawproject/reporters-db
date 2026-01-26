@@ -3,11 +3,23 @@ import json
 import os
 
 from .utils import (
+    get_volume_range as get_volume_range,
+)
+from .utils import (
+    get_volume_ranges as get_volume_ranges,
+)
+from .utils import (
+    is_volume_valid as is_volume_valid,
+)
+from .utils import (
     names_to_abbreviations,
     process_variables,
     suck_out_editions,
     suck_out_formats,
     suck_out_variations_only,
+)
+from .utils import (
+    uses_year_as_volume as uses_year_as_volume,
 )
 
 

@@ -15,7 +15,7 @@
  - Add Wash App 2d
  - Add Arizona Digest
  - Add variations
-
+ - Add volume range metadata for reporters #245
 
 ## Current Version
 - 3.2.62 (2025-11-21)
