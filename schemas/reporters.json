@@ -40,6 +40,32 @@
                                                 "string",
                                                 "null"
                                             ]
+                                        },
+                                        "volume_range": {
+                                            "type": "object",
+                                            "description": "Known volume range for this edition",
+                                            "properties": {
+                                                "min": {
+                                                    "type": "integer",
+                                                    "description": "Minimum known volume number",
+                                                    "minimum": 0
+                                                },
+                                                "max": {
+                                                    "type": "integer",
+                                                    "description": "Maximum known volume number as of last update"
+                                                },
+                                                "uses_year": {
+                                                    "type": "boolean",
+                                                    "default": false,
+                                                    "description": "True if this reporter uses publication year as volume"
+                                                },
+                                                "last_updated": {
+                                                    "type": "string",
+                                                    "format": "date",
+                                                    "description": "Date when max was last verified"
+                                                }
+                                            },
+                                            "required": ["min", "max"]
                                         }
                                     },
                                     "required": [

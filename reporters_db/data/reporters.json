@@ -25987,7 +25987,12 @@
                         "$full_cite",
                         "$volume $reporter\\s*\\((?:(?P<volume_nominative>\\d{1,2}) )?(?P<reporter_nominative>Black|Cranch|Pet.|Wall.|How.|Wheat.|Dall.)\\) $page"
                     ],
-                    "start": "1875-01-01T00:00:00"
+                    "start": "1875-01-01T00:00:00",
+                    "volume_range": {
+                        "last_updated": "2025-10-14",
+                        "max": 607,
+                        "min": 1
+                    }
                 }
             },
             "examples": [

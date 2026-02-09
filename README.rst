@@ -105,6 +105,42 @@ A few specialized reporter-related variables are:
 
 - ``NAMES_TO_EDITIONS`` — A simple dict to map the name of a reporter back to its canonilcal abbreviations. For example, ``Atlantic Reporter`` maps to ``['A.', 'A.2d']``.
 
+Volume Range Functions
+----------------------
+
+The following utility functions are available for validating citation volumes:
+
+- ``get_volume_ranges()`` — Returns a dict mapping reporter abbreviations to ``(min, max)`` tuples for all reporters with volume range data.
+
+- ``get_volume_range(reporter)`` — Returns a ``(min, max)`` tuple for a specific reporter, or ``None`` if not found.
+
+- ``is_volume_valid(reporter, volume, tolerance_multiplier=1.5)`` — Returns a tuple of ``(is_valid, reason)`` indicating whether a volume number is valid for a reporter.
+
+- ``uses_year_as_volume(reporter)`` — Returns ``True`` if the reporter uses publication year as volume number (common for neutral citations).
+
+Example usage::
+
+    from reporters_db import get_volume_range, is_volume_valid
+
+    # Get range for a reporter
+    min_vol, max_vol = get_volume_range("U.S.")
+    print(f"U.S. Reports: volumes {min_vol} to {max_vol}")
+
+    # Validate a volume
+    is_valid, reason = is_volume_valid("U.S.", 500)
+    if not is_valid:
+        print(f"Invalid: {reason}")
+
+Volume Range Fields
+~~~~~~~~~~~~~~~~~~~
+
+The ``volume_range`` object in edition data contains:
+
+- ``min``: Minimum known volume number
+- ``max``: Maximum known volume number (as of last update)
+- ``uses_year``: True if this reporter uses publication year as volume (optional)
+- ``last_updated``: Date when the max was last verified (optional)
+
 CSV
 ===
 
