@@ -25989,8 +25989,8 @@
                     ],
                     "start": "1875-01-01T00:00:00",
                     "volume_range": {
-                        "last_updated": "2025-01-01",
-                        "max": 606,
+                        "last_updated": "2025-10-14",
+                        "max": 607,
                         "min": 1
                     }
                 }
