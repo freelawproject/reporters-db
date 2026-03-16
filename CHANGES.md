@@ -15,6 +15,7 @@
  - Add Wash App 2d
  - Add Arizona Digest
  - Add variations
+ - Update United States Patents Quarterly with a pattern observed in USPTO and the reporter's own usage
 
 
 ## Current Version
