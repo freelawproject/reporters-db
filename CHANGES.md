@@ -11,21 +11,27 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
+ -
+
+
+## Current Version
+- 3.2.64 (2026-03-25)
+
+Changes:
+
  - Add Wash. 3d reporter
  - Add Wash App 2d
  - Add Arizona Digest
  - Add variations
  - Update United States Patents Quarterly with a pattern observed in USPTO and the reporter's own usage
 
+## Past Versions
 
-## Current Version
 - 3.2.62 (2025-11-21)
 
 Changes:
 
   - Add Wash. 3d reporter
-
-## Past Versions
 
 - 3.2.61 (2025-10-20)
 
