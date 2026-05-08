@@ -11,7 +11,7 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
- -
+ - Add Virgin Islands Superior Court neutral citation reporter (VI Super) (#252)
 
 
 ## Current Version
