@@ -26682,6 +26682,35 @@
             "variations": {}
         }
     ],
+    "VI Super": [
+        {
+            "cite_type": "neutral",
+            "editions": {
+                "VI Super": {
+                    "end": null,
+                    "regexes": [
+                        "$volume_year $reporter (?P<page>\\d{1,4}(?: ?[PU])?)"
+                    ],
+                    "start": "2019-01-01T00:00:00"
+                }
+            },
+            "examples": [
+                "2023 VI Super 70P",
+                "2023 VI Super 73U",
+                "2023 VI Super 70 P",
+                "2023 VI Super 73"
+            ],
+            "mlz_jurisdiction": [
+                "us:vi;superior.court"
+            ],
+            "name": "Virgin Islands Superior Court Neutral Citation",
+            "variations": {
+                "V.I. Super": "VI Super",
+                "V.I. Super.": "VI Super",
+                "VI Super.": "VI Super"
+            }
+        }
+    ],
     "VT": [
         {
             "cite_type": "neutral",
