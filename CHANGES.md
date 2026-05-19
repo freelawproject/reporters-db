@@ -11,10 +11,18 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
- - Add Virgin Islands Superior Court neutral citation reporter (VI Super) (#252)
+ -
 
 
 ## Current Version
+- 3.2.65 (2026-05-19)
+
+Changes:
+
+ - Add Virgin Islands Superior Court neutral citation reporter (VI Super) (#252)
+
+## Past Versions
+
 - 3.2.64 (2026-03-25)
 
 Changes:
@@ -24,8 +32,6 @@ Changes:
  - Add Arizona Digest
  - Add variations
  - Update United States Patents Quarterly with a pattern observed in USPTO and the reporter's own usage
-
-## Past Versions
 
 - 3.2.62 (2025-11-21)
 
