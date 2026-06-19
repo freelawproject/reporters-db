@@ -11,7 +11,7 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
- -
+ - Add "I&N Dec" variation and example to I. & N. Dec. reporter (#257)
 
 
 ## Current Version
