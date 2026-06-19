@@ -11,7 +11,7 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
- -
+ - Add no-trailing-period "App. Div. 2d"/"App. Div. 3d" variations to A.D. reporter (#258)
 
 
 ## Current Version
