@@ -11,7 +11,7 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
- - Add "Cal.3rd" variation to California Reports third series ("Cal. 3d") (#262)
+ - Add "Cal.3rd" and "Cal.2nd" variations to California Reports ("Cal. 3d", "Cal. 2d") (#262)
 
 
 ## Current Version
