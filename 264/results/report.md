@@ -12,8 +12,8 @@ There were 3 gains and 0 losses.
 |     id     |        Gain        |  Loss  |
 | ---------- | ------------------ | ------ |
 |  1431414   | 58 App.Div.2d 620  |        |
-|  1431414   | 42 App. Div.2d 544 |        |
 |  1431414   | 42 App.Div.2d 544  |        |
+|  1431414   | 42 App. Div.2d 544 |        |
 
 
 </details>
