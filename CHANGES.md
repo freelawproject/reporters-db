@@ -11,7 +11,7 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
- -
+ - Add unspaced "USPQ2d (BNA)" and bracketed "[BNA]" variations to U.S.P.Q. (BNA) reporter (#248)
 
 
 ## Current Version
