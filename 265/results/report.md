@@ -6,6 +6,8 @@ Gains and Losses
 ---------
 There were 0 gains and 0 losses.
 
+Total citations found: base **15992**, PR **15992** (net **+0**).
+
 <details>
 <summary>Click here to see details.</summary>
 
@@ -26,6 +28,6 @@ Time Chart
 Generated Files
 ---------
 
-[Branch 1 Output](https://raw.githubusercontent.com/freelawproject/reporters-db/artifacts/265/results/original.json)
-[Branch 2 Output](https://raw.githubusercontent.com/freelawproject/reporters-db/artifacts/265/results/update.json)
+[Base (main) Output](https://raw.githubusercontent.com/freelawproject/reporters-db/artifacts/265/results/original.json)
+[PR Output](https://raw.githubusercontent.com/freelawproject/reporters-db/artifacts/265/results/update.json)
 [Full Output CSV ](https://raw.githubusercontent.com/freelawproject/reporters-db/artifacts/265/results/output.csv)
