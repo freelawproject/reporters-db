@@ -11,6 +11,7 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
+ - Add "I&N Dec" variation and example to I. & N. Dec. reporter (#257)
  - Add no-trailing-period "App. Div. 2d"/"App. Div. 3d" variations to A.D. reporter (#258)
 
 
