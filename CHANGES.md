@@ -11,6 +11,9 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
+ - Add "I&N Dec" variation and example to I. & N. Dec. reporter (#257)
+ - Add no-trailing-period "App. Div. 2d"/"App. Div. 3d" variations to A.D. reporter (#258)
+ - Add "Cal.3rd" and "Cal.2nd" variations to California Reports ("Cal. 3d", "Cal. 2d") (#262)
  - Add unspaced "USPQ2d (BNA)" and bracketed "[BNA]" variations to U.S.P.Q. (BNA) reporter (#248)
 
 
