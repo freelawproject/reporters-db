@@ -109,7 +109,9 @@
                 "App Div.": "A.D.",
                 "App. Div": "A.D.",
                 "App. Div.": "A.D.",
+                "App. Div. 2d": "A.D.2d",
                 "App. Div. 2d.": "A.D.2d",
+                "App. Div. 3d": "A.D.3d",
                 "App. Div. 3d.": "A.D.3d",
                 "App. Div. Rep.": "A.D.",
                 "App.Div.": "A.D.",
@@ -11968,7 +11970,8 @@
             "examples": [
                 "27 IN Dec. 782",
                 "10 I&NDec. 613",
-                "12 I&N Dec. 432"
+                "12 I&N Dec. 432",
+                "29 I&N Dec 672"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
             "mlz_jurisdiction": [
@@ -11979,6 +11982,7 @@
             "variations": {
                 "I & N Dec.": "I. & N. Dec.",
                 "I&N": "I. & N. Dec.",
+                "I&N Dec": "I. & N. Dec.",
                 "I&N Dec.": "I. & N. Dec.",
                 "I&NDec.": "I. & N. Dec.",
                 "IN Dec.": "I. & N. Dec."
