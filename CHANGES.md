@@ -11,7 +11,15 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
- -
+ - Add "KRS", "K.R.S." and "Ky. Rev. Stat." variations, real examples, and a
+   section regex covering letter chapters ("KRS 13A.130") and subtitle-dash
+   sections ("KRS 224.40-100") to Ky. Rev. Stat. Ann.
+ - Add "IC" and "I.C." variations, real examples, and a section regex covering
+   decimal segments ("IC 6-1.1-10-29.5") to Ind. Code and Ind. Code Ann. The
+   Indiana section regex requires all four segments, since "I.C." is also the
+   Idaho Code abbreviation and Idaho sections are shorter
+ - Make the section marker optional for the Kentucky and Indiana statutes, so
+   the dominant unmarked forms ("KRS 342.121", "IC 31-15-7-4") are recognized
 
 
 ## Current Version
