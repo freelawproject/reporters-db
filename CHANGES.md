@@ -11,7 +11,7 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
- -
+ - Add a PR template with an AI Disclosure section
 
 
 ## Current Version
