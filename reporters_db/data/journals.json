@@ -350,6 +350,18 @@
             "variations": []
         }
     ],
+    "Am. L. Rev.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "American Law Review",
+            "notes": "American law journal published 1866–1929 by Little, Brown, Boston",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Am. Rev. Int'l Arb.": [
         {
             "cite_type": "journal",
@@ -434,6 +446,18 @@
             "variations": []
         }
     ],
+    "Animal L.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Animal Law",
+            "notes": "Published by Lewis & Clark Law School",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Ann. Rev. Banking & Fin. L.": [
         {
             "cite_type": "journal",
@@ -513,6 +537,18 @@
             "examples": [],
             "name": "Antitrust & Trade Regulation Report",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Antitrust L.J.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Antitrust Law Journal",
+            "notes": "Published by the American Bar Association, Section of Antitrust Law",
             "regexes": [],
             "start": null,
             "variations": []
@@ -818,6 +854,18 @@
             "variations": []
         }
     ],
+    "Barry L. Rev.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Barry Law Review",
+            "notes": "Published by Barry University School of Law, Orlando",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Baylor L. Rev.": [
         {
             "cite_type": "journal",
@@ -938,6 +986,18 @@
             "variations": []
         }
     ],
+    "Brook. J. Corp. Fin. & Com. L.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Brooklyn Journal of Corporate, Financial & Commercial Law",
+            "notes": "Published by Brooklyn Law School",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Brook. J. Int'l L.": [
         {
             "cite_type": "journal",
@@ -1041,6 +1101,18 @@
             "examples": [],
             "name": "Business Law Journal",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "CUNY L. Rev.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "CUNY Law Review",
+            "notes": "Published by CUNY School of Law",
             "regexes": [],
             "start": null,
             "variations": []
@@ -1358,6 +1430,18 @@
             "variations": []
         }
     ],
+    "Charleston L. Rev.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Charleston Law Review",
+            "notes": "Published by Charleston School of Law",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Chi. J. Int'l L.": [
         {
             "cite_type": "journal",
@@ -1623,6 +1707,18 @@
             "variations": []
         }
     ],
+    "Colum. L. Rev. Sidebar": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Columbia Law Review Sidebar",
+            "notes": "Online companion to the Columbia Law Review, Columbia Law School",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Colum. Sci. & Tech. L. Rev.": [
         {
             "cite_type": "journal",
@@ -1858,6 +1954,18 @@
             "examples": [],
             "name": "Cornell Law Review",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Cornell L.Q.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Cornell Law Quarterly",
+            "notes": "Published by Cornell Law School; renamed Cornell Law Review 1967",
             "regexes": [],
             "start": null,
             "variations": []
@@ -2114,6 +2222,18 @@
             "variations": []
         }
     ],
+    "Denv. L. Rev.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Denver Law Review",
+            "notes": "Published by University of Denver Sturm College of Law",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Denv. U. L. Rev.": [
         {
             "cite_type": "journal",
@@ -2337,6 +2457,18 @@
             "examples": [],
             "name": "Elder Law Journal",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Election L.J.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Election Law Journal",
+            "notes": "Published by Mary Ann Liebert, Inc. publishers",
             "regexes": [],
             "start": null,
             "variations": []
@@ -2577,6 +2709,18 @@
             "examples": [],
             "name": "Florida Bar Journal",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Fla. Coastal L. Rev.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Florida Coastal Law Review",
+            "notes": "Published by Florida Coastal School of Law (closed 2021)",
             "regexes": [],
             "start": null,
             "variations": []
@@ -2870,6 +3014,18 @@
             "variations": []
         }
     ],
+    "Geo. L. Tech. Rev.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Georgetown Law Technology Review",
+            "notes": "Published by Georgetown University Law Center",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Geo. L.J.": [
         {
             "cite_type": "journal",
@@ -3062,6 +3218,18 @@
             "variations": []
         }
     ],
+    "Harv. BlackLetter L.J.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Harvard BlackLetter Law Journal",
+            "notes": "Published by Harvard Law School",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Harv. C.R.-C.L. L. Rev.": [
         {
             "cite_type": "journal",
@@ -3194,6 +3362,18 @@
             "variations": []
         }
     ],
+    "Harv. L. Rev. F.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Harvard Law Review Forum",
+            "notes": "Online companion to the Harvard Law Review, Harvard Law School",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Harv. Latino L. Rev.": [
         {
             "cite_type": "journal",
@@ -3225,6 +3405,18 @@
             "examples": [],
             "name": "Harvard Women's Law Journal",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Hastings Bus. L.J.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Hastings Business Law Journal",
+            "notes": "Published by UC Hastings College of the Law",
             "regexes": [],
             "start": null,
             "variations": []
@@ -3513,6 +3705,18 @@
             "examples": [],
             "name": "In the Public Interest",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Ind. Health L. Rev.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Indiana Health Law Review",
+            "notes": "Published by Indiana University McKinney School of Law",
             "regexes": [],
             "start": null,
             "variations": []
@@ -3962,6 +4166,18 @@
             "variations": []
         }
     ],
+    "J. Empirical Legal Stud.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Journal of Empirical Legal Studies",
+            "notes": "Published by Cornell Law School and Wiley-Blackwell",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "J. Energy Nat. Resources & Envtl. L.": [
         {
             "cite_type": "journal",
@@ -4166,6 +4382,18 @@
             "variations": []
         }
     ],
+    "J. Legal Analysis": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Journal of Legal Analysis",
+            "notes": "Published by Oxford University Press for Harvard's Olin Center",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "J. Legal Educ.": [
         {
             "cite_type": "journal",
@@ -4262,6 +4490,18 @@
             "variations": []
         }
     ],
+    "J. Marshall Rev. Intell. Prop. L.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "John Marshall Review of Intellectual Property Law",
+            "notes": "Published by John Marshall Law School, Chicago (now UIC)",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "J. Med. & L.": [
         {
             "cite_type": "journal",
@@ -4281,6 +4521,18 @@
             "examples": [],
             "name": "Journal of Mineral Law & Policy",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "J. Nat'l Sec. L. & Pol'y": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Journal of National Security Law & Policy",
+            "notes": "Published by Georgetown Law and Syracuse University",
             "regexes": [],
             "start": null,
             "variations": []
@@ -4562,6 +4814,18 @@
             "variations": []
         }
     ],
+    "J.L. Econ. & Pol'y": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Journal of Law, Economics & Policy",
+            "notes": "Published by George Mason University, Antonin Scalia Law School",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "J.L. Med. & Ethics": [
         {
             "cite_type": "journal",
@@ -4617,6 +4881,18 @@
             "examples": [],
             "name": "Judges Journal",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Judicature": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Judicature",
+            "notes": "Published by Duke Law's Bolch Judicial Institute (formerly American Judicature Society)",
             "regexes": [],
             "start": null,
             "variations": []
@@ -4689,6 +4965,18 @@
             "examples": [],
             "name": "Kansas Journal of Law and Public Policy",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Kan. L. Rev.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Kansas Law Review",
+            "notes": "Published by University of Kansas School of Law",
             "regexes": [],
             "start": null,
             "variations": []
@@ -5277,6 +5565,18 @@
             "examples": [],
             "name": "Michigan Law Review",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Mich. L. Rev. First Impressions": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Michigan Law Review First Impressions",
+            "notes": "Online companion to the Michigan Law Review, University of Michigan",
             "regexes": [],
             "start": null,
             "variations": []
@@ -6051,6 +6351,18 @@
             "variations": []
         }
     ],
+    "Nw. J.L. & Soc. Pol'y": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Northwestern Journal of Law and Social Policy",
+            "notes": "Published by Northwestern University Pritzker School of Law",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Nw. U. L. Rev.": [
         {
             "cite_type": "journal",
@@ -6058,6 +6370,18 @@
             "examples": [],
             "name": "Northwestern University Law Review",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Nw. U. L. Rev. Colloquy": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Northwestern University Law Review Colloquy",
+            "notes": "Online companion to the Northwestern University Law Review",
             "regexes": [],
             "start": null,
             "variations": []
@@ -6231,6 +6555,18 @@
             "variations": []
         }
     ],
+    "Oxford J. Legal Stud.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Oxford Journal of Legal Studies",
+            "notes": "Published by Oxford University Press (UK)",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Pac. L.J.": [
         {
             "cite_type": "journal",
@@ -6358,6 +6694,18 @@
             "examples": [],
             "name": "Pepperdine Law Review",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Pierce L. Rev.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Pierce Law Review",
+            "notes": "Published by Franklin Pierce Law Center (now UNH Franklin Pierce)",
             "regexes": [],
             "start": null,
             "variations": []
@@ -6627,6 +6975,18 @@
             "variations": []
         }
     ],
+    "Rev. Banking & Fin. L.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Review of Banking & Financial Law",
+            "notes": "Published by Boston University School of Law",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Rev. Der. P.R.": [
         {
             "cite_type": "journal",
@@ -6793,6 +7153,18 @@
             "variations": []
         }
     ],
+    "Rutgers U. L. Rev.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Rutgers University Law Review",
+            "notes": "Published by Rutgers Law School",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Rutgers-Cam. L.J.": [
         {
             "cite_type": "journal",
@@ -6920,6 +7292,18 @@
             "examples": [],
             "name": "Southern Methodist University Law Review",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "San Diego Int'l L.J.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "San Diego International Law Journal",
+            "notes": "Published by University of San Diego School of Law",
             "regexes": [],
             "start": null,
             "variations": []
@@ -7336,6 +7720,18 @@
             "variations": []
         }
     ],
+    "Stan. L. Rev. Online": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Stanford Law Review Online",
+            "notes": "Online companion to the Stanford Law Review, Stanford Law School",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Stan. Tech. L. Rev.": [
         {
             "cite_type": "journal",
@@ -7703,6 +8099,18 @@
             "examples": [],
             "name": "Tennessee Law Review",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Tex. A&M L. Rev.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Texas A&M Law Review",
+            "notes": "Published by Texas A&M University School of Law",
             "regexes": [],
             "start": null,
             "variations": []
@@ -8321,6 +8729,18 @@
             "variations": []
         }
     ],
+    "U. Louisville L. Rev.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "University of Louisville Law Review",
+            "notes": "Published by University of Louisville Brandeis School of Law",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "U. Md. L.J. Race Religion Gender & Class": [
         {
             "cite_type": "journal",
@@ -8489,6 +8909,30 @@
             "variations": []
         }
     ],
+    "U. Pa. L. Rev. Online": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "University of Pennsylvania Law Review Online",
+            "notes": "Online companion to the University of Pennsylvania Law Review",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "U. Pa. L. Rev. PENNumbra": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "University of Pennsylvania Law Review PENNumbra",
+            "notes": "Online companion to the University of Pennsylvania Law Review",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "U. Pitt. L. Rev.": [
         {
             "cite_type": "journal",
@@ -8592,6 +9036,18 @@
             "examples": [],
             "name": "University of California at Davis Law Review",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "U.C. Irvine L. Rev.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "UC Irvine Law Review",
+            "notes": "Published by UC Irvine School of Law",
             "regexes": [],
             "start": null,
             "variations": []
@@ -8724,6 +9180,18 @@
             "examples": [],
             "name": "UCLA Law Review",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "UCLA L. Rev. Discourse": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "UCLA Law Review Discourse",
+            "notes": "Online companion to the UCLA Law Review, UCLA School of Law",
             "regexes": [],
             "start": null,
             "variations": []
@@ -8897,6 +9365,18 @@
             "variations": []
         }
     ],
+    "Va. L. Rev. In Brief": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Virginia Law Review In Brief",
+            "notes": "Online companion to the Virginia Law Review, University of Virginia",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
     "Va. L.L. & Tech.": [
         {
             "cite_type": "journal",
@@ -8976,6 +9456,18 @@
             "examples": [],
             "name": "Vanderbilt Law Review",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Vand. L. Rev. En Banc": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Vanderbilt Law Review En Banc",
+            "notes": "Online companion to the Vanderbilt Law Review, Vanderbilt Law School",
             "regexes": [],
             "start": null,
             "variations": []
@@ -9120,6 +9612,18 @@
             "examples": [],
             "name": "Washington and Lee Law Review",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Wash. & Lee L. Rev. Online": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Washington and Lee Law Review Online",
+            "notes": "Online companion to the Washington and Lee Law Review",
             "regexes": [],
             "start": null,
             "variations": []
@@ -9300,6 +9804,18 @@
             "examples": [],
             "name": "Widener Law Symposium Journal",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Widener L.J.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Widener Law Journal",
+            "notes": "Published by Widener University School of Law, Harrisburg",
             "regexes": [],
             "start": null,
             "variations": []
@@ -9576,6 +10092,42 @@
             "examples": [],
             "name": "Yale Law Journal",
             "notes": "Automatically generated.",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Yale L.J. Online": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Yale Law Journal Online",
+            "notes": "Online companion to the Yale Law Journal, Yale Law School",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Yale L.J. Pocket Part": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Yale Law Journal Pocket Part",
+            "notes": "Online companion to the Yale Law Journal, Yale Law School",
+            "regexes": [],
+            "start": null,
+            "variations": []
+        }
+    ],
+    "Yale L.J.F.": [
+        {
+            "cite_type": "journal",
+            "end": null,
+            "examples": [],
+            "name": "Yale Law Journal Forum",
+            "notes": "Online companion to the Yale Law Journal; renamed from Yale L.J. Online",
             "regexes": [],
             "start": null,
             "variations": []
