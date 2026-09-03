@@ -6139,16 +6139,21 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Wash. Rev. Code § 32:7-703"
+                "Wash. Rev. Code § 26.27.221",
+                "RCW 26.27.221",
+                "RCW 7.105.225"
             ],
             "jurisdiction": "Washington",
             "name": "Revised Code of Washington",
-            "notes": "Automatically generated. Remove this message if replacing with real examples.",
+            "notes": "Washington practitioners cite RCW title.chapter.section with no section sign (GR 14 Style Sheet: 'RCW 9.73.020' never 'Wash. Rev. Code'). Adding the RCW variation is what lets eyecite see those cites.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter § $law_section",
+                "$reporter $law_section"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "RCW"
+            ]
         }
     ],
     "Wash. Rev. Code Ann.": [
