@@ -12,6 +12,7 @@
 
 ## Upcoming Changes
  - Add a PR template with an AI Disclosure section
+ - Add "RCW" as a variation of Wash. Rev. Code, plus a no-section-sign regex and real RCW examples. Washington practitioners cite `RCW 26.27.221` (GR 14 Style Sheet forbids `Wash. Rev. Code`); eyecite currently returns nothing for those cites because `variations` is empty and the only regex requires `§`.
 
 
 ## Current Version
