@@ -480,7 +480,8 @@
             "cite_type": "admin_compilation",
             "end": null,
             "examples": [
-                "48 C.F.R. § 38.48"
+                "48 C.F.R. § 38.48",
+                "17 C.F.R. § 240.10b-5"
             ],
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
             "jurisdiction": "United States",
@@ -5537,7 +5538,15 @@
                 "1 U.S. Code §1",
                 "21, United States Code, Section 853",
                 "18, United States Code, Section 3500",
-                "18, United States Code, Section 981(a)(l)(C)"
+                "18, United States Code, Section 981(a)(l)(C)",
+                "18 U.S.C. § 1028A",
+                "17 U.S.C. § 106A",
+                "15 U.S.C. § 78j",
+                "42 U.S.C. § 2000e-2",
+                "42 U.S.C. § 1320a-7b",
+                "42 U.S.C. § 300gg-91",
+                "12 U.S.C. § 1749bbb-10c",
+                "42 U.S.C. § 1395ww"
             ],
             "jurisdiction": "United States",
             "name": "United States Code; United States Code Annotated; United States Code Service; Gould’s United States Code Unannotated",
