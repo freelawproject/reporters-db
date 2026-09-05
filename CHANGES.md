@@ -12,6 +12,8 @@
 
 ## Upcoming Changes
  - Add a PR template with an AI Disclosure section
+ - Accept U.S. Code letter suffixes in the `law.section` regex (78j, 2000e-2, 1028A, 1395ww,
+   300gg-91, 1749bbb-10c) and add the forms to the U.S.C. and C.F.R. examples (eyecite#146)
 
 
 ## Current Version
