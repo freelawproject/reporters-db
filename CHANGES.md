@@ -12,6 +12,7 @@
 
 ## Upcoming Changes
  - Add a PR template with an AI Disclosure section
+ - GitHub workflows are brought up-to-date with the sibling repositories `courts-db`, `eyecite`, and `juriscraper` .
 
 
 ## Current Version
