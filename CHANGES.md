@@ -13,7 +13,7 @@
 ## Upcoming Changes
  - Add a PR template with an AI Disclosure section
  - GitHub workflows are brought up-to-date with the sibling repositories `courts-db`, `eyecite`, and `juriscraper` .
-
+ - Fix "no changes" label handling for `CHANGES.md`.
 
 ## Current Version
 - 3.2.66 (2026-06-25)
