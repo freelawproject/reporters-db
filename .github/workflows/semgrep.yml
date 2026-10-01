@@ -2,14 +2,14 @@ on:
   pull_request: {}
   push:
     branches:
-    - main
+      - main
 name: Semgrep
 jobs:
   semgrep:
     name: Scan
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - uses: returntocorp/semgrep-action@v1
-      with:
-        publishToken: ${{ secrets.SEMGREP_APP_TOKEN }}
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: returntocorp/semgrep-action@v1
+        with:
+          publishToken: ${{ secrets.SEMGREP_APP_TOKEN }}

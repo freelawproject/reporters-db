@@ -2,6 +2,7 @@ name: Check release notes
 
 on:
   pull_request:
+    types: [opened, synchronize, reopened, labeled, unlabeled]
     branches:
       - 'main'
 
@@ -10,6 +11,6 @@ jobs:
     name: Check Changelog Action
     runs-on: ubuntu-latest
     steps:
-      - uses: tarides/changelog-check-action@v3
+      - uses: tarides/changelog-check-action@8f47e0becbfa549e4c82a3f562aa6f90d2c2ee8c #v4
         with:
           changelog: CHANGES.md
