@@ -12,6 +12,7 @@
 
 ## Upcoming Changes
  - Add a PR template with an AI Disclosure section
+ - Add "N.M.I." and "N. M. I." variations to Northern Mariana Islands Reporter ("N. Mar. I.")
 
 
 ## Current Version
