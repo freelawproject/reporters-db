@@ -17109,7 +17109,7 @@
             "cite_type": "state",
             "editions": {
                 "N. Mar. I.": {
-                    "end": "1995-12-31T00:00:00",
+                    "end": null,
                     "start": "1989-01-01T00:00:00"
                 }
             },
