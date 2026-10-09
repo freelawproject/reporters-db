@@ -17118,7 +17118,10 @@
                 "us:mp;supreme.court"
             ],
             "name": "Northern Mariana Islands Reporter",
-            "variations": {}
+            "variations": {
+                "N. M. I.": "N. Mar. I.",
+                "N.M.I.": "N. Mar. I."
+            }
         }
     ],
     "N. Mar. I. Commw.": [
