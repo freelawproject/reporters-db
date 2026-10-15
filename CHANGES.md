@@ -11,11 +11,19 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
- - Add a PR template with an AI Disclosure section
- - Add "N.M.I." and "N. M. I." variations to Northern Mariana Islands Reporter ("N. Mar. I.")
+ -
 
 
 ## Current Version
+- 3.2.67 (2026-10-09)
+
+Changes:
+
+ - Add a PR template with an AI Disclosure section (#276)
+ - Add "N.M.I." and "N. M. I." variations to Northern Mariana Islands Reporter ("N. Mar. I.") (#283)
+
+## Past Versions
+
 - 3.2.66 (2026-06-25)
 
 Changes:
@@ -24,8 +32,6 @@ Changes:
  - Add no-trailing-period "App. Div. 2d"/"App. Div. 3d" variations to A.D. reporter (#258)
  - Add "Cal.3rd" and "Cal.2nd" variations to California Reports ("Cal. 3d", "Cal. 2d") (#262)
  - Add unspaced "USPQ2d (BNA)" and bracketed "[BNA]" variations to U.S.P.Q. (BNA) reporter (#248)
-
-## Past Versions
 
 - 3.2.65 (2026-05-19)
 
