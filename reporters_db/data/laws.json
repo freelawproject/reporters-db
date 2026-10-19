@@ -1881,16 +1881,26 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Ind. Code § 79.443"
+                "IC 31-15-7-4",
+                "IC 6-1.1-10-29.5",
+                "IC 26-1-2-612",
+                "I.C. 7.1-5-1-3",
+                "I.C. § 35-31.5-2-29",
+                "Ind. Code § 35-42-2-1.3",
+                "Ind. Code §§ 35-45-10-5",
+                "Ind. Code § 9-30-5-2(a)(2)"
             ],
+            "href": "https://iga.in.gov/laws/current/ic/",
             "jurisdiction": "Indiana",
             "name": "Indiana Code",
-            "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter,?\\s+(?:$section_marker\\s*)?(?P<section>\\d+(?:\\.\\d+)?(?:-\\d+(?:\\.\\d+)?){3}(?:\\((?:[a-zA-Z]{1,2}|\\d{1,2})\\))*)"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "IC",
+                "I.C."
+            ]
         }
     ],
     "Ind. Code Ann.": [
@@ -1898,13 +1908,13 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Ind. Code Ann. § 0-922:28"
+                "Ind. Code Ann. § 35-45-10-5",
+                "Ind. Code Ann. § 31-9-2-14"
             ],
             "jurisdiction": "Indiana",
             "name": "West's Annotated Indiana Code; Burns Indiana Statutes Annotated (LexisNexis)",
-            "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter,?\\s+(?:$section_marker\\s*)?(?P<section>\\d+(?:\\.\\d+)?(?:-\\d+(?:\\.\\d+)?){3}(?:\\((?:[a-zA-Z]{1,2}|\\d{1,2})\\))*)"
             ],
             "start": null,
             "variations": []
@@ -2238,16 +2248,30 @@
             "cite_type": "leg_statute",
             "end": null,
             "examples": [
-                "Ky. Rev. Stat. Ann. § 021.48"
+                "KRS 342.121",
+                "KRS 13A.130",
+                "KRS 224.40-100",
+                "KRS 271B.15-020",
+                "KRS 403.800-403.880",
+                "KRS § 189A.010",
+                "KRS §§ 508.130",
+                "KRS 189A.010(1)(a)",
+                "K.R.S. 508.130",
+                "Ky. Rev. Stat. § 508.130",
+                "Ky. Rev. Stat. Ann. § 508.130"
             ],
+            "href": "https://apps.legislature.ky.gov/law/statutes/",
             "jurisdiction": "Kentucky",
             "name": "Baldwin's Kentucky Revised Statutes Annotated (West); Michie's Kentucky Revised Statutes Annotated (LexisNexis)",
-            "notes": "Automatically generated. Remove this message if replacing with real examples.",
             "regexes": [
-                "$reporter § $law_section"
+                "$reporter,?\\s+(?:$section_marker\\s*)?(?P<section>\\d+[A-Z]?\\.\\d+(?:-\\d+(?:\\.\\d+)?)?(?:\\((?:[a-zA-Z]{1,2}|\\d{1,2})\\))*)"
             ],
             "start": null,
-            "variations": []
+            "variations": [
+                "KRS",
+                "K.R.S.",
+                "Ky. Rev. Stat."
+            ]
         }
     ],
     "La. Acts": [
