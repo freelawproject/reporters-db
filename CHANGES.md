@@ -11,7 +11,7 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
- - Fix series boundary dates: "Ohio St. 2d" ends and "Ohio St. 3d" starts in 1982 (not 1991); "F. Supp." ends and "F. Supp. 2d" starts in 1998 (not 1988)
+ - Fix series boundary dates: "Ohio St. 2d" ends and "Ohio St. 3d" starts in 1982 (not 1991); "F. Supp." ends and "F. Supp. 2d" starts in 1998 (not 1988) (#286)
 
 
 ## Current Version
