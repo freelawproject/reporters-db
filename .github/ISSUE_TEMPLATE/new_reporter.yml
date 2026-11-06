@@ -130,6 +130,7 @@ body:
         - label: I linked an authoritative source for the format and the dates
         - label: I linked real examples from CourtListener showing the need for and impact of the addition
         - label: I searched `reporters.json` and described any existing reporter or variation that uses the same abbreviation
+
   - type: textarea
     id: notes
     attributes:
