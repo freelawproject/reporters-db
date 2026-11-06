@@ -11,7 +11,7 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
- -
+ - Drop support for Python 3.9, which is EOL and no longer available on GitHub's ubuntu-latest runners
 
 
 ## Current Version
