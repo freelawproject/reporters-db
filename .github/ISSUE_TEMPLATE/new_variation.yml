@@ -1,0 +1,80 @@
+name: New reporter variation
+description: Request a new variation (alternate spelling or punctuation) for a reporter that already exists
+title: "Add \"<variation>\" variation to <reporter name>"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for requesting a new variation! A variation is an alternate way of writing an **existing** reporter's abbreviation (e.g. `I&N Dec` → `I. & N. Dec.`, `Cal.3rd` → `Cal. 3d`). If the reporter or court is not in reporters-db at all, use the **New reporter** template instead.
+
+        > [!IMPORTANT]
+        > - Please search existing issues to avoid creating duplicates.
+        > - **Do not request whitespace-only variations.** Forms that differ from an existing abbreviation only in spacing (e.g. `N. Y. S. 2d` vs `N.Y.S.2d`) are already handled by eyecite ([eyecite#307](https://github.com/freelawproject/eyecite/pull/307)). Only spelling or punctuation differences need a variation.
+
+  - type: input
+    id: variation
+    attributes:
+      label: Variation
+      description: The variation exactly as it is written in the source text.
+      placeholder: e.g. App. Div. 3d
+    validations:
+      required: true
+
+  - type: input
+    id: canonical
+    attributes:
+      label: Canonical reporter / edition
+      description: The existing reporter key and the edition the variation should map to. Link to the entry in `reporters.json` if possible.
+      placeholder: e.g. A.D. → A.D.3d
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Example citations and their resolutions
+      description: |
+        Paste real citations using the variation, copied verbatim. For each one, give the canonical form and the opinion it should resolve to (a CourtListener opinion URL or the cluster ID from the [citation lookup API](https://www.courtlistener.com/help/api/rest/citation-lookup/)). Show that the canonical form resolves and the variation currently does not.
+      placeholder: |
+        | As printed | Canonical | Resolves to |
+        |---|---|---|
+        | `22 App. Div. 3d 148` | `22 A.D.3d 148` | https://www.courtlistener.com/opinion/5833071/... |
+    validations:
+      required: true
+
+  - type: textarea
+    id: frequency
+    attributes:
+      label: How common is it?
+      description: |
+        Estimate how often the variation shows up, for example with a [CourtListener search](https://www.courtlistener.com/?type=o) for the quoted string (paste the link and the count), the number of scraped opinions affected, or Sentry errors such as `Could not parse citation from court '<court_id>'`.
+      placeholder: e.g. 133 opinions in CourtListener contain "Cal.3rd" (link)
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Checks before submitting
+
+        - **False positives**: a variation that is a plain English word (e.g. `Nebraska`) or a short string that also appears in non-citation text (e.g. `Cal.1st` inside `Ct. App. Cal., 1st App. Dist.`) may produce false matches. Check the CourtListener search results for noise.
+        - **Conflicts**: search `reporters.json` for the variation string. It must not already be a key or a variation of another reporter.
+        - **Right place**: make sure the fix belongs here. If the format only appears in one scraper's output and nowhere in the wild, it may be better to clean it up in [juriscraper](https://github.com/freelawproject/juriscraper) instead.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: The variation differs from the existing abbreviation in spelling or punctuation, not only in spacing
+        - label: I searched `reporters.json` and the variation is not already a key or a variation of another reporter
+        - label: I checked CourtListener search results for false-positive risk
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Related issues (eyecite, juriscraper, CourtListener), Sentry links, other variants seen alongside this one, open questions for maintainers, etc.
+    validations:
+      required: false

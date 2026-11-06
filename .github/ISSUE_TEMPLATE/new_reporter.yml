@@ -1,0 +1,152 @@
+name: New reporter
+description: Request a new reporter, edition, or neutral citation format (e.g. for a court whose citations we can't parse)
+title: "New reporter: <reporter or court name>"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for requesting a new reporter! Use this template for a reporter, a new series of an existing reporter (e.g. `N.W.3d`), or a court's neutral citation format (e.g. `2023 VI Super 70P`). If the reporter already exists and you only need another way of writing its abbreviation, use the **New reporter variation** template instead.
+
+        > [!IMPORTANT]
+        > - Please search existing issues to avoid creating duplicates.
+        > - Statutes and codes go in `laws.json`, and law reviews and journals go in `journals.json`, not here.
+
+  - type: input
+    id: name
+    attributes:
+      label: Reporter name
+      description: The full name of the reporter or neutral citation.
+      placeholder: e.g. Virgin Islands Superior Court Neutral Citation
+    validations:
+      required: true
+
+  - type: input
+    id: abbreviation
+    attributes:
+      label: Canonical abbreviation
+      description: The standard abbreviation, from the Bluebook, the [Indigo Book](https://indigobook.github.io/versions/indigobook-2.0.html), or the court's own rules. This becomes the reporter's key.
+      placeholder: e.g. VI Super
+    validations:
+      required: true
+
+  - type: input
+    id: court
+    attributes:
+      label: Court(s)
+      description: The court(s) whose opinions use this reporter, with their CourtListener / courts-db IDs if known.
+      placeholder: e.g. Superior Court of the Virgin Islands (`visuper`)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: cite-type
+    attributes:
+      label: Citation type
+      description: Neutral citations are year-based, public-domain citations issued by the court (e.g. `2024 N.H. 12`).
+      options:
+        - neutral
+        - state
+        - state_regional
+        - federal
+        - specialty
+        - not sure
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Format and examples"
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Example citations
+      description: |
+        Paste real citations, copied verbatim from opinions, juriscraper example files, or Sentry errors (`Could not parse citation from court '<court_id>'`). Include every form you have seen, such as published and unpublished suffixes (`70P` / `73U`), page letters (`172A`), and punctuation variants (`VI Super` / `V.I. Super.`). Link the source of each one.
+      placeholder: |
+        - `2023 VI Super 70P` (published): https://...
+        - `2023 VI Super 73U` (unpublished): https://...
+    validations:
+      required: true
+
+  - type: textarea
+    id: format
+    attributes:
+      label: Format description
+      description: |
+        Describe the shape of the citation so a regex can be written: what the volume is (a year, a 1–3 digit number), what the page is (digits only, an optional letter suffix, an optional space before it), and anything special.
+      placeholder: "e.g. `<year> VI Super <number><P|U>`, where P = published, U = unpublished"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Authoritative source and dates
+
+        Reviewers will ask where the format and dates come from. Good sources: a court rule or order, the court's own style manual or publications, the Bluebook or Indigo Book, or information from the reporter's publisher (e.g. Thomson Reuters). Inferring dates from the opinions we happen to have is not enough on its own.
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Authoritative source
+      description: Link the rule, order, style manual, or reference that defines the format and abbreviation. Quote or screenshot the relevant part.
+      placeholder: e.g. V.I. Supreme Court Rule 106 (link), "Beginning January 1, 2019..."
+    validations:
+      required: true
+
+  - type: input
+    id: start
+    attributes:
+      label: Start date
+      description: When the reporter or format began, e.g. the effective date of the rule. Write "unknown" if you couldn't find it.
+      placeholder: e.g. 2019-01-01 (Rule 106 effective date)
+    validations:
+      required: true
+
+  - type: input
+    id: end
+    attributes:
+      label: End date
+      description: |
+        Only if there is a source for it. A court changing its *preferred* citation format does not mean the reporter ended. Leave empty if the reporter is ongoing or the end is unknown.
+      placeholder: e.g. empty (ongoing)
+    validations:
+      required: false
+
+  - type: textarea
+    id: dates-check
+    attributes:
+      label: Dates cross-check
+      description: |
+        Compare your dates with what CourtListener already has, using its [citation lookup](https://www.courtlistener.com/c/) (e.g. `https://www.courtlistener.com/c/<reporter>/<volume>/` for the first and last volumes). That data can be wrong; if it contradicts your source, say so here. For a new series (e.g. 2d → 3d), say when the previous series stopped and whether the two overlap.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Checks before submitting
+
+        - **Existing entries**: search `reporters.json` for the abbreviation. If it is already a key or a variation of another reporter (e.g. `Pa. Super.` is both a state reporter and a neutral citation), say so, and describe how the two can be told apart (usually by the volume: a year vs. a 1–3 digit number, or by date range).
+        - **courts-db / CourtListener**: check that the court exists in [courts-db](https://github.com/freelawproject/courts-db) and in the [CourtListener courts API](https://www.courtlistener.com/api/rest/v4/courts/).
+        - **Right place**: if the format only appears in one scraper's output and not in the wild, it may be better to clean it up in [juriscraper](https://github.com/freelawproject/juriscraper) instead.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I linked an authoritative source for the format and the dates
+        - label: I linked real examples from CourtListener showing the need for and impact of the addition
+        - label: I searched `reporters.json` and described any existing reporter or variation that uses the same abbreviation
+        - label: The court exists in courts-db and CourtListener, or I have opened an issue there
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Related issues (juriscraper, courts-db, eyecite, CourtListener), Sentry links, how many opinions are affected, the MLZ jurisdiction (e.g. `us:vi;superior.court`) if you know it, open questions for maintainers, etc.
+    validations:
+      required: false
