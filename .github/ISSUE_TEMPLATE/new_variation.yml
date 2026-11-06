@@ -6,7 +6,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for requesting a new variation! A variation is an alternate way of writing an **existing** reporter's abbreviation (e.g. `I&N Dec` → `I. & N. Dec.`, `Cal.3rd` → `Cal. 3d`). If the reporter or court is not in reporters-db at all, use the **New reporter** template instead.
+        Thanks for requesting a new variation! A variation is an alternate way of writing an **existing** reporter's abbreviation, for example:
+
+        - `I&N Dec` → `I. & N. Dec.`
+        - `Cal.3rd` → `Cal. 3d`
+
+        If the reporter or court is not in reporters-db at all, use the **New reporter** template instead.
 
         > [!IMPORTANT]
         > - Please search existing issues to avoid creating duplicates.
@@ -33,13 +38,12 @@ body:
   - type: textarea
     id: examples
     attributes:
-      label: Example citations and their resolutions
+      label: Example citations
       description: |
-        Paste real citations using the variation, copied verbatim. For each one, give the canonical form and the opinion it should resolve to (a CourtListener opinion URL or the cluster ID from the [citation lookup API](https://www.courtlistener.com/help/api/rest/citation-lookup/)). Show that the canonical form resolves and the variation currently does not.
+        Link a few CourtListener opinions that use the variation, and paste the citation as it appears in each one.
       placeholder: |
-        | As printed | Canonical | Resolves to |
-        |---|---|---|
-        | `22 App. Div. 3d 148` | `22 A.D.3d 148` | https://www.courtlistener.com/opinion/5833071/... |
+        - `22 App. Div. 3d 148` in https://www.courtlistener.com/opinion/.../
+        - `8 App. Div. 3d 39` in https://www.courtlistener.com/opinion/.../
     validations:
       required: true
 
