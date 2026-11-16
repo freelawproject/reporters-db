@@ -12,7 +12,7 @@
 
 ## Upcoming Changes
  - Drop support for Python 3.9 and 3.10, which are EOL (3.9 is no longer available on GitHub's ubuntu-latest runners), and add support for Python 3.14
- - Publish to PyPI with trusted publishing instead of an API token.
+ - Publish to PyPI with trusted publishing instead of an API token. (#291)
 
 
 ## Current Version
