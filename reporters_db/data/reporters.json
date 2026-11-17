@@ -8857,7 +8857,7 @@
             "editions": {
                 "F.L.R.A.": {
                     "end": null,
-                    "start": "1750-01-01T00:00:00"
+                    "start": "1979-01-01T00:00:00"
                 }
             },
             "href": "https://law.resource.org/pub/us/code/blue/IndigoBook.html#T2",
@@ -8865,7 +8865,9 @@
                 "us;federal"
             ],
             "name": "Decisions of the Federal Labor Relations Authority",
-            "variations": {}
+            "variations": {
+                "FLRA": "F.L.R.A."
+            }
         }
     ],
     "F.R.D.": [
