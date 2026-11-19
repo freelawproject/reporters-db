@@ -13,6 +13,7 @@
 ## Upcoming Changes
  - Drop support for Python 3.9 and 3.10, which are EOL (3.9 is no longer available on GitHub's ubuntu-latest runners), and add support for Python 3.14
  - Publish to PyPI with trusted publishing instead of an API token. (#291)
+ - Add the "FLRA" variation of Decisions of the Federal Labor Relations Authority, and start that edition in 1979, the year the Authority began issuing decisions.
 
 
 ## Current Version
