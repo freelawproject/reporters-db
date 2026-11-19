@@ -11,20 +11,26 @@
  - Other features (suggestions welcome)?
 
 ## Upcoming Changes
- - Drop support for Python 3.9 and 3.10, which are EOL (3.9 is no longer available on GitHub's ubuntu-latest runners), and add support for Python 3.14
- - Publish to PyPI with trusted publishing instead of an API token. (#291)
- - Add the "FLRA" variation of Decisions of the Federal Labor Relations Authority, and start that edition in 1979, the year the Authority began issuing decisions.
+ -
 
 
 ## Current Version
+- 3.2.68 (2026-11-18)
+
+Changes:
+
+ - Drop support for Python 3.9 and 3.10, which are EOL (3.9 is no longer available on GitHub's ubuntu-latest runners), and add support for Python 3.14 (#289)
+ - Publish to PyPI with trusted publishing instead of an API token. (#291)
+ - Add the "FLRA" variation of Decisions of the Federal Labor Relations Authority, and start that edition in 1979, the year the Authority began issuing decisions. (#293)
+
+## Past Versions
+
 - 3.2.67 (2026-10-09)
 
 Changes:
 
  - Add a PR template with an AI Disclosure section (#276)
  - Add "N.M.I." and "N. M. I." variations to Northern Mariana Islands Reporter ("N. Mar. I.") (#283)
-
-## Past Versions
 
 - 3.2.66 (2026-06-25)
 
